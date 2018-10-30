@@ -7,7 +7,7 @@ if (defpar ("logver"))
 set	home		= "/home/mmarcano/Documents/GemimiReduceTTU/"
 set	imdir		= "/tmp/mmarcano/"
 set	cache		= "U_CACHEDIR"
-set	uparm		= "home$uparm/"
+set	uparm		= "home$pyraf/uparm/"
 set	userid		= "mmarcano"
 
 # Set the terminal type.  We assume the user has defined this correctly 
@@ -64,6 +64,9 @@ task	$nbugs = ("$(setenv EDITOR 'buglog -e';" //
 task	$cls = "$clear;ls"
 task	$clw = "$clear;w"
 task	$pg = ("$(less -Cqm $*)")
+
+#Add the lacos_spec
+task lacos_spec= "pyraf/lacos_spec.cl"
 
 if (access ("home$loginuser.cl"))
     cl < "home$loginuser.cl"
