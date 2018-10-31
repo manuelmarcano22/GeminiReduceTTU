@@ -1,0 +1,726 @@
+----------------------------------------------------------------------------
+GBIAS -- Wed Oct 31 14:09:21 CDT 2018
+
+Input images:
+  S20181024S0171
+  S20181024S0172
+  S20181024S0173
+  S20181024S0174
+  S20181024S0175
+
+Output bias image: MCbiasFull
+ 
+----------------------------------------------------------------------------
+GIREDUCE -- Wed Oct 31 14:09:22 CDT 2018
+
+----------------------------------------------------------------------------
+GPREPARE -- Wed Oct 31 14:09:22 CDT 2018
+
+Input list    = ../raw/S20181024S0171
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../raw/S20181024S0171.fits   Output  gS20181024S0171.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2018-10-31T19:09:22
+File[extension]:             AMPNAME              GAIN   READNOISE
+gS20181024S0171.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
+gS20181024S0171.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
+gS20181024S0171.fits[SCI,3]: " "BI5-36-4k-2, 2""  1.878  4.24
+gS20181024S0171.fits[SCI,4]: " "BI5-36-4k-2, 1""  1.852  4.21
+gS20181024S0171.fits[SCI,5]: " "BI11-33-4k-1, 4""  1.908  3.90
+gS20181024S0171.fits[SCI,6]: " "BI11-33-4k-1, 3""  1.933  4.24
+gS20181024S0171.fits[SCI,7]: " "BI11-33-4k-1, 2""  1.840  4.07
+gS20181024S0171.fits[SCI,8]: " "BI11-33-4k-1, 1""  1.878  4.29
+gS20181024S0171.fits[SCI,9]: " "BI12-34-4k-1, 4""  1.813  4.15
+gS20181024S0171.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
+gS20181024S0171.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
+gS20181024S0171.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
+
+GGAIN -- Finished: 2018-10-31T19:09:23
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Wed Oct 31 14:09:23 CDT 2018
+
+Input list    = ../raw/S20181024S0172
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../raw/S20181024S0172.fits   Output  gS20181024S0172.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2018-10-31T19:09:24
+File[extension]:             AMPNAME              GAIN   READNOISE
+gS20181024S0172.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
+gS20181024S0172.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
+gS20181024S0172.fits[SCI,3]: " "BI5-36-4k-2, 2""  1.878  4.24
+gS20181024S0172.fits[SCI,4]: " "BI5-36-4k-2, 1""  1.852  4.21
+gS20181024S0172.fits[SCI,5]: " "BI11-33-4k-1, 4""  1.908  3.90
+gS20181024S0172.fits[SCI,6]: " "BI11-33-4k-1, 3""  1.933  4.24
+gS20181024S0172.fits[SCI,7]: " "BI11-33-4k-1, 2""  1.840  4.07
+gS20181024S0172.fits[SCI,8]: " "BI11-33-4k-1, 1""  1.878  4.29
+gS20181024S0172.fits[SCI,9]: " "BI12-34-4k-1, 4""  1.813  4.15
+gS20181024S0172.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
+gS20181024S0172.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
+gS20181024S0172.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
+
+GGAIN -- Finished: 2018-10-31T19:09:24
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Wed Oct 31 14:09:24 CDT 2018
+
+Input list    = ../raw/S20181024S0173
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../raw/S20181024S0173.fits   Output  gS20181024S0173.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2018-10-31T19:09:25
+File[extension]:             AMPNAME              GAIN   READNOISE
+gS20181024S0173.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
+gS20181024S0173.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
+gS20181024S0173.fits[SCI,3]: " "BI5-36-4k-2, 2""  1.878  4.24
+gS20181024S0173.fits[SCI,4]: " "BI5-36-4k-2, 1""  1.852  4.21
+gS20181024S0173.fits[SCI,5]: " "BI11-33-4k-1, 4""  1.908  3.90
+gS20181024S0173.fits[SCI,6]: " "BI11-33-4k-1, 3""  1.933  4.24
+gS20181024S0173.fits[SCI,7]: " "BI11-33-4k-1, 2""  1.840  4.07
+gS20181024S0173.fits[SCI,8]: " "BI11-33-4k-1, 1""  1.878  4.29
+gS20181024S0173.fits[SCI,9]: " "BI12-34-4k-1, 4""  1.813  4.15
+gS20181024S0173.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
+gS20181024S0173.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
+gS20181024S0173.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
+
+GGAIN -- Finished: 2018-10-31T19:09:25
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Wed Oct 31 14:09:26 CDT 2018
+
+Input list    = ../raw/S20181024S0174
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../raw/S20181024S0174.fits   Output  gS20181024S0174.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2018-10-31T19:09:26
+File[extension]:             AMPNAME              GAIN   READNOISE
+gS20181024S0174.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
+gS20181024S0174.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
+gS20181024S0174.fits[SCI,3]: " "BI5-36-4k-2, 2""  1.878  4.24
+gS20181024S0174.fits[SCI,4]: " "BI5-36-4k-2, 1""  1.852  4.21
+gS20181024S0174.fits[SCI,5]: " "BI11-33-4k-1, 4""  1.908  3.90
+gS20181024S0174.fits[SCI,6]: " "BI11-33-4k-1, 3""  1.933  4.24
+gS20181024S0174.fits[SCI,7]: " "BI11-33-4k-1, 2""  1.840  4.07
+gS20181024S0174.fits[SCI,8]: " "BI11-33-4k-1, 1""  1.878  4.29
+gS20181024S0174.fits[SCI,9]: " "BI12-34-4k-1, 4""  1.813  4.15
+gS20181024S0174.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
+gS20181024S0174.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
+gS20181024S0174.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
+
+GGAIN -- Finished: 2018-10-31T19:09:27
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Wed Oct 31 14:09:27 CDT 2018
+
+Input list    = ../raw/S20181024S0175
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../raw/S20181024S0175.fits   Output  gS20181024S0175.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2018-10-31T19:09:28
+File[extension]:             AMPNAME              GAIN   READNOISE
+gS20181024S0175.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
+gS20181024S0175.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
+gS20181024S0175.fits[SCI,3]: " "BI5-36-4k-2, 2""  1.878  4.24
+gS20181024S0175.fits[SCI,4]: " "BI5-36-4k-2, 1""  1.852  4.21
+gS20181024S0175.fits[SCI,5]: " "BI11-33-4k-1, 4""  1.908  3.90
+gS20181024S0175.fits[SCI,6]: " "BI11-33-4k-1, 3""  1.933  4.24
+gS20181024S0175.fits[SCI,7]: " "BI11-33-4k-1, 2""  1.840  4.07
+gS20181024S0175.fits[SCI,8]: " "BI11-33-4k-1, 1""  1.878  4.29
+gS20181024S0175.fits[SCI,9]: " "BI12-34-4k-1, 4""  1.813  4.15
+gS20181024S0175.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
+gS20181024S0175.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
+gS20181024S0175.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
+
+GGAIN -- Finished: 2018-10-31T19:09:28
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+
+Input files:
+gS20181024S0171
+gS20181024S0172
+gS20181024S0173
+gS20181024S0174
+gS20181024S0175
+
+Output files:
+tmpfile22197_466S20181024S0171
+tmpfile22197_466S20181024S0172
+tmpfile22197_466S20181024S0173
+tmpfile22197_466S20181024S0174
+tmpfile22197_466S20181024S0175
+
+GIREDUCE: Image tmpfile22197_466S20181024S0171 overscan subtracted
+GIREDUCE: Image tmpfile22197_466S20181024S0172 overscan subtracted
+GIREDUCE: Image tmpfile22197_466S20181024S0173 overscan subtracted
+GIREDUCE: Image tmpfile22197_466S20181024S0174 overscan subtracted
+GIREDUCE: Image tmpfile22197_466S20181024S0175 overscan subtracted
+GIREDUCE: Image tmpfile22197_466S20181024S0171 trimmed
+GIREDUCE: Image tmpfile22197_466S20181024S0172 trimmed
+GIREDUCE: Image tmpfile22197_466S20181024S0173 trimmed
+GIREDUCE: Image tmpfile22197_466S20181024S0174 trimmed
+GIREDUCE: Image tmpfile22197_466S20181024S0175 trimmed
+
+
+GIREDUCE - Cleaning up -- Wed Oct 31 14:10:43 CDT 2018
+
+GIREDUCE -- Wed Oct 31 14:10:43 CDT 2018
+GIREDUCE exit status:  good.
+----------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+GEMCOMBINE -- Wed Oct 31 14:10:43 CDT 2018
+ 
+GEMCOMBINE: input = @tmpcombin22197_463
+GEMCOMBINE: output = MCbiasFull.fits
+GEMCOMBINE: title = Bias
+GEMCOMBINE: bpmfile = 
+GEMCOMBINE: sci_ext = SCI
+GEMCOMBINE: var_ext = VAR
+GEMCOMBINE: dq_ext = DQ
+ 
+WARNING - GEMCOMBINE: five or less images to combine.
+
+Oct 31 14:10: IMCOMBINE
+  combine = average, scale = none, zero = none, weight = none
+  reject = avsigclip, mclip = yes, nkeep = 1
+  lsigma = 3., hsigma = 3.
+  blank = 0.
+  statsec = Oct 31 14:10
+                Images 
+  tmpfile22197_466S20181024S0171.fits[SCI,1]
+  tmpfile22197_466S20181024S0172.fits[SCI,1]
+  tmpfile22197_466S20181024S0173.fits[SCI,1]
+  tmpfile22197_466S20181024S0174.fits[SCI,1]
+  tmpfile22197_466S20181024S0175.fits[SCI,1]
+
+  Output image = tmpcombout22197_561, ncombine = 5
+  Number rejected mask = tmpcombdq22197_562.pl
+  Sigma image = tmpcombsig22197_563
+WARNING - GEMCOMBINE: five or less images to combine.
+
+Oct 31 14:10: IMCOMBINE
+  combine = average, scale = none, zero = none, weight = none
+  reject = avsigclip, mclip = yes, nkeep = 1
+  lsigma = 3., hsigma = 3.
+  blank = 0.
+  statsec = Oct 31 14:10
+                Images 
+  tmpfile22197_466S20181024S0171.fits[SCI,2]
+  tmpfile22197_466S20181024S0172.fits[SCI,2]
+  tmpfile22197_466S20181024S0173.fits[SCI,2]
+  tmpfile22197_466S20181024S0174.fits[SCI,2]
+  tmpfile22197_466S20181024S0175.fits[SCI,2]
+
+  Output image = tmpcombout22197_568, ncombine = 5
+  Number rejected mask = tmpcombdq22197_569.pl
+  Sigma image = tmpcombsig22197_570
+WARNING - GEMCOMBINE: five or less images to combine.
+
+Oct 31 14:10: IMCOMBINE
+  combine = average, scale = none, zero = none, weight = none
+  reject = avsigclip, mclip = yes, nkeep = 1
+  lsigma = 3., hsigma = 3.
+  blank = 0.
+  statsec = Oct 31 14:10
+                Images 
+  tmpfile22197_466S20181024S0171.fits[SCI,3]
+  tmpfile22197_466S20181024S0172.fits[SCI,3]
+  tmpfile22197_466S20181024S0173.fits[SCI,3]
+  tmpfile22197_466S20181024S0174.fits[SCI,3]
+  tmpfile22197_466S20181024S0175.fits[SCI,3]
+
+  Output image = tmpcombout22197_572, ncombine = 5
+  Number rejected mask = tmpcombdq22197_573.pl
+  Sigma image = tmpcombsig22197_574
+WARNING - GEMCOMBINE: five or less images to combine.
+
+Oct 31 14:10: IMCOMBINE
+  combine = average, scale = none, zero = none, weight = none
+  reject = avsigclip, mclip = yes, nkeep = 1
+  lsigma = 3., hsigma = 3.
+  blank = 0.
+  statsec = Oct 31 14:10
+                Images 
+  tmpfile22197_466S20181024S0171.fits[SCI,4]
+  tmpfile22197_466S20181024S0172.fits[SCI,4]
+  tmpfile22197_466S20181024S0173.fits[SCI,4]
+  tmpfile22197_466S20181024S0174.fits[SCI,4]
+  tmpfile22197_466S20181024S0175.fits[SCI,4]
+
+  Output image = tmpcombout22197_576, ncombine = 5
+  Number rejected mask = tmpcombdq22197_577.pl
+  Sigma image = tmpcombsig22197_578
+WARNING - GEMCOMBINE: five or less images to combine.
+
+Oct 31 14:10: IMCOMBINE
+  combine = average, scale = none, zero = none, weight = none
+  reject = avsigclip, mclip = yes, nkeep = 1
+  lsigma = 3., hsigma = 3.
+  blank = 0.
+  statsec = Oct 31 14:10
+                Images 
+  tmpfile22197_466S20181024S0171.fits[SCI,5]
+  tmpfile22197_466S20181024S0172.fits[SCI,5]
+  tmpfile22197_466S20181024S0173.fits[SCI,5]
+  tmpfile22197_466S20181024S0174.fits[SCI,5]
+  tmpfile22197_466S20181024S0175.fits[SCI,5]
+
+  Output image = tmpcombout22197_580, ncombine = 5
+  Number rejected mask = tmpcombdq22197_581.pl
+  Sigma image = tmpcombsig22197_582
+WARNING - GEMCOMBINE: five or less images to combine.
+
+Oct 31 14:10: IMCOMBINE
+  combine = average, scale = none, zero = none, weight = none
+  reject = avsigclip, mclip = yes, nkeep = 1
+  lsigma = 3., hsigma = 3.
+  blank = 0.
+  statsec = Oct 31 14:10
+                Images 
+  tmpfile22197_466S20181024S0171.fits[SCI,6]
+  tmpfile22197_466S20181024S0172.fits[SCI,6]
+  tmpfile22197_466S20181024S0173.fits[SCI,6]
+  tmpfile22197_466S20181024S0174.fits[SCI,6]
+  tmpfile22197_466S20181024S0175.fits[SCI,6]
+
+  Output image = tmpcombout22197_584, ncombine = 5
+  Number rejected mask = tmpcombdq22197_585.pl
+  Sigma image = tmpcombsig22197_586
+WARNING - GEMCOMBINE: five or less images to combine.
+
+Oct 31 14:10: IMCOMBINE
+  combine = average, scale = none, zero = none, weight = none
+  reject = avsigclip, mclip = yes, nkeep = 1
+  lsigma = 3., hsigma = 3.
+  blank = 0.
+  statsec = Oct 31 14:10
+                Images 
+  tmpfile22197_466S20181024S0171.fits[SCI,7]
+  tmpfile22197_466S20181024S0172.fits[SCI,7]
+  tmpfile22197_466S20181024S0173.fits[SCI,7]
+  tmpfile22197_466S20181024S0174.fits[SCI,7]
+  tmpfile22197_466S20181024S0175.fits[SCI,7]
+
+  Output image = tmpcombout22197_588, ncombine = 5
+  Number rejected mask = tmpcombdq22197_589.pl
+  Sigma image = tmpcombsig22197_590
+WARNING - GEMCOMBINE: five or less images to combine.
+
+Oct 31 14:10: IMCOMBINE
+  combine = average, scale = none, zero = none, weight = none
+  reject = avsigclip, mclip = yes, nkeep = 1
+  lsigma = 3., hsigma = 3.
+  blank = 0.
+  statsec = Oct 31 14:10
+                Images 
+  tmpfile22197_466S20181024S0171.fits[SCI,8]
+  tmpfile22197_466S20181024S0172.fits[SCI,8]
+  tmpfile22197_466S20181024S0173.fits[SCI,8]
+  tmpfile22197_466S20181024S0174.fits[SCI,8]
+  tmpfile22197_466S20181024S0175.fits[SCI,8]
+
+  Output image = tmpcombout22197_592, ncombine = 5
+  Number rejected mask = tmpcombdq22197_593.pl
+  Sigma image = tmpcombsig22197_594
+WARNING - GEMCOMBINE: five or less images to combine.
+
+Oct 31 14:10: IMCOMBINE
+  combine = average, scale = none, zero = none, weight = none
+  reject = avsigclip, mclip = yes, nkeep = 1
+  lsigma = 3., hsigma = 3.
+  blank = 0.
+  statsec = Oct 31 14:10
+                Images 
+  tmpfile22197_466S20181024S0171.fits[SCI,9]
+  tmpfile22197_466S20181024S0172.fits[SCI,9]
+  tmpfile22197_466S20181024S0173.fits[SCI,9]
+  tmpfile22197_466S20181024S0174.fits[SCI,9]
+  tmpfile22197_466S20181024S0175.fits[SCI,9]
+
+  Output image = tmpcombout22197_596, ncombine = 5
+  Number rejected mask = tmpcombdq22197_597.pl
+  Sigma image = tmpcombsig22197_598
+WARNING - GEMCOMBINE: five or less images to combine.
+
+Oct 31 14:10: IMCOMBINE
+  combine = average, scale = none, zero = none, weight = none
+  reject = avsigclip, mclip = yes, nkeep = 1
+  lsigma = 3., hsigma = 3.
+  blank = 0.
+  statsec = Oct 31 14:10
+                Images 
+  tmpfile22197_466S20181024S0171.fits[SCI,10]
+  tmpfile22197_466S20181024S0172.fits[SCI,10]
+  tmpfile22197_466S20181024S0173.fits[SCI,10]
+  tmpfile22197_466S20181024S0174.fits[SCI,10]
+  tmpfile22197_466S20181024S0175.fits[SCI,10]
+
+  Output image = tmpcombout22197_600, ncombine = 5
+  Number rejected mask = tmpcombdq22197_601.pl
+  Sigma image = tmpcombsig22197_602
+WARNING - GEMCOMBINE: five or less images to combine.
+
+Oct 31 14:10: IMCOMBINE
+  combine = average, scale = none, zero = none, weight = none
+  reject = avsigclip, mclip = yes, nkeep = 1
+  lsigma = 3., hsigma = 3.
+  blank = 0.
+  statsec = Oct 31 14:10
+                Images 
+  tmpfile22197_466S20181024S0171.fits[SCI,11]
+  tmpfile22197_466S20181024S0172.fits[SCI,11]
+  tmpfile22197_466S20181024S0173.fits[SCI,11]
+  tmpfile22197_466S20181024S0174.fits[SCI,11]
+  tmpfile22197_466S20181024S0175.fits[SCI,11]
+
+  Output image = tmpcombout22197_604, ncombine = 5
+  Number rejected mask = tmpcombdq22197_605.pl
+  Sigma image = tmpcombsig22197_606
+WARNING - GEMCOMBINE: five or less images to combine.
+
+Oct 31 14:10: IMCOMBINE
+  combine = average, scale = none, zero = none, weight = none
+  reject = avsigclip, mclip = yes, nkeep = 1
+  lsigma = 3., hsigma = 3.
+  blank = 0.
+  statsec = Oct 31 14:10
+                Images 
+  tmpfile22197_466S20181024S0171.fits[SCI,12]
+  tmpfile22197_466S20181024S0172.fits[SCI,12]
+  tmpfile22197_466S20181024S0173.fits[SCI,12]
+  tmpfile22197_466S20181024S0174.fits[SCI,12]
+  tmpfile22197_466S20181024S0175.fits[SCI,12]
+
+  Output image = tmpcombout22197_608, ncombine = 5
+  Number rejected mask = tmpcombdq22197_609.pl
+  Sigma image = tmpcombsig22197_610
+ 
+GEMCOMBINE -- Finished: Wed Oct 31 14:10:51 CDT 2018
+ 
+GEMCOMBINE -- Exit status: GOOD
+--------------------------------------------------------------------------------
+
+GBIAS: Exit status: GOOD.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GBIAS -- Wed Oct 31 17:30:01 CDT 2018
+
+Input images:
+  GS20070622S0146_BIAS
+  GS20070624S0229_BIAS
+  S20070605S0161
+  S20070605S0162
+  S20070605S0163
+  S20070605S0164
+  S20070605S0165
+  S20070608S0090
+  S20070608S0091
+  S20070608S0092
+  S20070608S0093
+  S20070608S0094
+  S20070616S0098
+  S20070616S0099
+  S20070616S0100
+  S20070616S0101
+  S20070616S0102
+  S20070622S0146
+  S20070622S0147
+  S20070622S0148
+  S20070622S0149
+  S20070622S0150
+  S20070624S0229
+  S20070624S0230
+  S20070624S0231
+  S20070624S0232
+  S20070624S0233
+  S20070702S0067
+  S20070702S0068
+  S20070702S0069
+  S20070702S0070
+  S20070702S0071
+  S20070704S0060
+  S20070704S0061
+  S20070704S0062
+  S20070704S0063
+  S20070704S0064
+  S20070707S0056
+  S20070707S0057
+  S20070707S0058
+  S20070707S0059
+  S20070707S0060
+
+Output bias image: MCbiasFull
+ 
+ERROR - GBIAS: Output file MCbiasFull.fits already exists.
+
+GBIAS: Exit status: ERROR.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GBIAS -- Wed Oct 31 17:30:10 CDT 2018
+
+Input images:
+  GS20070622S0146_BIAS
+  GS20070624S0229_BIAS
+  S20070605S0161
+  S20070605S0162
+  S20070605S0163
+  S20070605S0164
+  S20070605S0165
+  S20070608S0090
+  S20070608S0091
+  S20070608S0092
+  S20070608S0093
+  S20070608S0094
+  S20070616S0098
+  S20070616S0099
+  S20070616S0100
+  S20070616S0101
+  S20070616S0102
+  S20070622S0146
+  S20070622S0147
+  S20070622S0148
+  S20070622S0149
+  S20070622S0150
+  S20070624S0229
+  S20070624S0230
+  S20070624S0231
+  S20070624S0232
+  S20070624S0233
+  S20070702S0067
+  S20070702S0068
+  S20070702S0069
+  S20070702S0070
+  S20070702S0071
+  S20070704S0060
+  S20070704S0061
+  S20070704S0062
+  S20070704S0063
+  S20070704S0064
+  S20070707S0056
+  S20070707S0057
+  S20070707S0058
+  S20070707S0059
+  S20070707S0060
+
+Output bias image: MCbiasFull
+ 
+ERROR - GBIAS: Output file MCbiasFull.fits already exists.
+
+GBIAS: Exit status: ERROR.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GBIAS -- Wed Oct 31 17:30:24 CDT 2018
+
+Input images:
+  GS20070622S0146_BIAS
+  GS20070624S0229_BIAS
+  S20070605S0161
+  S20070605S0162
+  S20070605S0163
+  S20070605S0164
+  S20070605S0165
+  S20070608S0090
+  S20070608S0091
+  S20070608S0092
+  S20070608S0093
+  S20070608S0094
+  S20070616S0098
+  S20070616S0099
+  S20070616S0100
+  S20070616S0101
+  S20070616S0102
+  S20070622S0146
+  S20070622S0147
+  S20070622S0148
+  S20070622S0149
+  S20070622S0150
+  S20070624S0229
+  S20070624S0230
+  S20070624S0231
+  S20070624S0232
+  S20070624S0233
+  S20070702S0067
+  S20070702S0068
+  S20070702S0069
+  S20070702S0070
+  S20070702S0071
+  S20070704S0060
+  S20070704S0061
+  S20070704S0062
+  S20070704S0063
+  S20070704S0064
+  S20070707S0056
+  S20070707S0057
+  S20070707S0058
+  S20070707S0059
+  S20070707S0060
+
+Output bias image: MCbiasFull
+ 
+ERROR - GBIAS: Output file MCbiasFull.fits already exists.
+
+GBIAS: Exit status: ERROR.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GBIAS -- Wed Oct 31 17:41:26 CDT 2018
+
+Input images:
+  GS20070622S0146_BIAS
+  GS20070624S0229_BIAS
+  S20070605S0161
+  S20070605S0162
+  S20070605S0163
+  S20070605S0164
+  S20070605S0165
+  S20070608S0090
+  S20070608S0091
+  S20070608S0092
+  S20070608S0093
+  S20070608S0094
+  S20070616S0098
+  S20070616S0099
+  S20070616S0100
+  S20070616S0101
+  S20070616S0102
+  S20070622S0146
+  S20070622S0147
+  S20070622S0148
+  S20070622S0149
+  S20070622S0150
+  S20070624S0229
+  S20070624S0230
+  S20070624S0231
+  S20070624S0232
+  S20070624S0233
+  S20070702S0067
+  S20070702S0068
+  S20070702S0069
+  S20070702S0070
+  S20070702S0071
+  S20070704S0060
+  S20070704S0061
+  S20070704S0062
+  S20070704S0063
+  S20070704S0064
+  S20070707S0056
+  S20070707S0057
+  S20070707S0058
+  S20070707S0059
+  S20070707S0060
+
+Output bias image: MCbiasFull
+ 
+ERROR - GBIAS: Output file MCbiasFull.fits already exists.
+
+GBIAS: Exit status: ERROR.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GBIAS -- Wed Oct 31 17:41:27 CDT 2018
+
+Input images:
+  GS20070622S0151_BIAS
+  S20070605S0166
+  S20070605S0167
+  S20070605S0168
+  S20070605S0169
+  S20070605S0170
+  S20070608S0095
+  S20070608S0096
+  S20070608S0097
+  S20070608S0098
+  S20070608S0099
+  S20070616S0143
+  S20070616S0144
+  S20070616S0145
+  S20070616S0146
+  S20070616S0147
+  S20070622S0151
+  S20070622S0152
+  S20070622S0153
+  S20070622S0154
+  S20070622S0155
+  S20070624S0234
+  S20070624S0235
+  S20070624S0236
+  S20070624S0237
+  S20070624S0238
+  S20070702S0112
+  S20070702S0113
+  S20070702S0114
+  S20070702S0115
+  S20070702S0116
+  S20070704S0105
+  S20070704S0106
+  S20070704S0107
+  S20070704S0108
+  S20070704S0109
+  S20070707S0101
+  S20070707S0102
+  S20070707S0103
+  S20070707S0104
+  S20070707S0105
+
+Output bias image: MCbiasCenSp
+ 
+ERROR - GBIAS: File ../rawExample/GS20070622S0151_BIAS not found.
+
+GBIAS: Exit status: ERROR.
+----------------------------------------------------------------------------
