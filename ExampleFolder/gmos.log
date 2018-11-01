@@ -1,0 +1,33 @@
+----------------------------------------------------------------------------
+GSSKYSUB -- Thu Nov  1 13:29:34 CDT 2018
+
+input        = tLTT9239
+output       = 
+outpref      = s
+fl_vardq     = no
+fl_oversize  = yes
+sci_ext      = SCI
+long_sample  = 20:70,190:230
+mos_sample   = 0.9
+mosobjsize   = 1.0
+naverage     = 1
+function     = chebyshev
+order        = 1
+low_reject   = 2.5
+high_reject  = 2.5
+niterate     = 2
+grow         = 0.0
+fl_inter     = no
+
+ 
+GSSKYSUB: Sky-subtraction started
+ 
+  Input image     = tLTT9239.fits
+  Output image    = stLTT9239.fits
+  Observing mode  = LONGSLIT
+  Number of slits = 1
+  Slit #1 ; background sample = [20:70,190:230]
+
+GSSKYSUB done. Exit status good -- Thu Nov  1 13:29:35 CDT 2018
+-------------------------------------------------------------------------------
+

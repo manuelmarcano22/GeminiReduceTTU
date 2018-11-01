@@ -1,0 +1,321 @@
+--------------------------------------------------------------------------------
+GEMCOMBINE -- Thu Nov  1 11:59:57 CDT 2018
+ 
+GEMCOMBINE: input = gsS20070623S0S20070623S0092,gsS20070623S0S20070623S0097,gsS20070623S0S20070623S0098,gsS20070623S0S20070623S0099
+GEMCOMBINE: output = AM2306c
+GEMCOMBINE: title = 
+GEMCOMBINE: bpmfile = 
+GEMCOMBINE: sci_ext = SCI
+GEMCOMBINE: var_ext = VAR
+GEMCOMBINE: dq_ext = DQ
+ 
+ERROR - GEMCOMBINE: 4 image(s) either do not exist or are not MEF files.
+ 
+GEMCOMBINE -- Finished: Thu Nov  1 11:59:58 CDT 2018
+ 
+GEMCOMBINE -- Exit status: ERROR
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+GEMCOMBINE -- Thu Nov  1 11:59:58 CDT 2018
+ 
+GEMCOMBINE: input = gsS20070623S0S20070623S0082,gsS20070623S0S20070623S0083,gsS20070623S0S20070623S0084,gsS20070623S0S20070623S0085
+GEMCOMBINE: output = AM2306b
+GEMCOMBINE: title = 
+GEMCOMBINE: bpmfile = 
+GEMCOMBINE: sci_ext = SCI
+GEMCOMBINE: var_ext = VAR
+GEMCOMBINE: dq_ext = DQ
+ 
+ERROR - GEMCOMBINE: 4 image(s) either do not exist or are not MEF files.
+ 
+GEMCOMBINE -- Finished: Thu Nov  1 11:59:59 CDT 2018
+ 
+GEMCOMBINE -- Exit status: ERROR
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+GEMCOMBINE -- Thu Nov  1 11:59:59 CDT 2018
+ 
+GEMCOMBINE: input = gsS20070623S0S20070623S0072,gsS20070623S0S20070623S0073,gsS20070623S0S20070623S0074,gsS20070623S0S20070623S0075
+GEMCOMBINE: output = AM2306a
+GEMCOMBINE: title = 
+GEMCOMBINE: bpmfile = 
+GEMCOMBINE: sci_ext = SCI
+GEMCOMBINE: var_ext = VAR
+GEMCOMBINE: dq_ext = DQ
+ 
+ERROR - GEMCOMBINE: 4 image(s) either do not exist or are not MEF files.
+ 
+GEMCOMBINE -- Finished: Thu Nov  1 11:59:59 CDT 2018
+ 
+GEMCOMBINE -- Exit status: ERROR
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+GEMCOMBINE -- Thu Nov  1 12:03:05 CDT 2018
+ 
+GEMCOMBINE: input = gsS20070623S0S20070623S0072,gsS20070623S0S20070623S0073,gsS20070623S0S20070623S0074,gsS20070623S0S20070623S0075
+GEMCOMBINE: output = AM2306a
+GEMCOMBINE: title = 
+GEMCOMBINE: bpmfile = 
+GEMCOMBINE: sci_ext = SCI
+GEMCOMBINE: var_ext = VAR
+GEMCOMBINE: dq_ext = DQ
+ 
+ERROR - GEMCOMBINE: 4 image(s) either do not exist or are not MEF files.
+ 
+GEMCOMBINE -- Finished: Thu Nov  1 12:03:05 CDT 2018
+ 
+GEMCOMBINE -- Exit status: ERROR
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+GEMCOMBINE -- Thu Nov  1 13:06:04 CDT 2018
+ 
+GEMCOMBINE: input = gsS20070623S0S20070623S0092,gsS20070623S0S20070623S0097,gsS20070623S0S20070623S0098,gsS20070623S0S20070623S0099
+GEMCOMBINE: output = AM2306c
+GEMCOMBINE: title = 
+GEMCOMBINE: bpmfile = 
+GEMCOMBINE: sci_ext = SCI
+GEMCOMBINE: var_ext = VAR
+GEMCOMBINE: dq_ext = DQ
+ 
+ERROR - GEMCOMBINE: 4 image(s) either do not exist or are not MEF files.
+ 
+GEMCOMBINE -- Finished: Thu Nov  1 13:06:04 CDT 2018
+ 
+GEMCOMBINE -- Exit status: ERROR
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+GEMCOMBINE -- Thu Nov  1 13:06:04 CDT 2018
+ 
+GEMCOMBINE: input = gsS20070623S0S20070623S0082,gsS20070623S0S20070623S0083,gsS20070623S0S20070623S0084,gsS20070623S0S20070623S0085
+GEMCOMBINE: output = AM2306b
+GEMCOMBINE: title = 
+GEMCOMBINE: bpmfile = 
+GEMCOMBINE: sci_ext = SCI
+GEMCOMBINE: var_ext = VAR
+GEMCOMBINE: dq_ext = DQ
+ 
+ERROR - GEMCOMBINE: 4 image(s) either do not exist or are not MEF files.
+ 
+GEMCOMBINE -- Finished: Thu Nov  1 13:06:04 CDT 2018
+ 
+GEMCOMBINE -- Exit status: ERROR
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+GEMCOMBINE -- Thu Nov  1 13:06:04 CDT 2018
+ 
+GEMCOMBINE: input = gsS20070623S0S20070623S0072,gsS20070623S0S20070623S0073,gsS20070623S0S20070623S0074,gsS20070623S0S20070623S0075
+GEMCOMBINE: output = AM2306a
+GEMCOMBINE: title = 
+GEMCOMBINE: bpmfile = 
+GEMCOMBINE: sci_ext = SCI
+GEMCOMBINE: var_ext = VAR
+GEMCOMBINE: dq_ext = DQ
+ 
+ERROR - GEMCOMBINE: 4 image(s) either do not exist or are not MEF files.
+ 
+GEMCOMBINE -- Finished: Thu Nov  1 13:06:04 CDT 2018
+ 
+GEMCOMBINE -- Exit status: ERROR
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+GEMCOMBINE -- Thu Nov  1 13:06:28 CDT 2018
+ 
+GEMCOMBINE: input = gsS20070623S0S20070623S0092,gsS20070623S0S20070623S0097,gsS20070623S0S20070623S0098,gsS20070623S0S20070623S0099
+GEMCOMBINE: output = AM2306c
+GEMCOMBINE: title = 
+GEMCOMBINE: bpmfile = 
+GEMCOMBINE: sci_ext = SCI
+GEMCOMBINE: var_ext = VAR
+GEMCOMBINE: dq_ext = DQ
+ 
+ERROR - GEMCOMBINE: 4 image(s) either do not exist or are not MEF files.
+ 
+GEMCOMBINE -- Finished: Thu Nov  1 13:06:28 CDT 2018
+ 
+GEMCOMBINE -- Exit status: ERROR
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+GEMCOMBINE -- Thu Nov  1 13:06:29 CDT 2018
+ 
+GEMCOMBINE: input = gsS20070623S0S20070623S0082,gsS20070623S0S20070623S0083,gsS20070623S0S20070623S0084,gsS20070623S0S20070623S0085
+GEMCOMBINE: output = AM2306b
+GEMCOMBINE: title = 
+GEMCOMBINE: bpmfile = 
+GEMCOMBINE: sci_ext = SCI
+GEMCOMBINE: var_ext = VAR
+GEMCOMBINE: dq_ext = DQ
+ 
+ERROR - GEMCOMBINE: 4 image(s) either do not exist or are not MEF files.
+ 
+GEMCOMBINE -- Finished: Thu Nov  1 13:06:29 CDT 2018
+ 
+GEMCOMBINE -- Exit status: ERROR
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+GEMCOMBINE -- Thu Nov  1 13:06:29 CDT 2018
+ 
+GEMCOMBINE: input = gsS20070623S0S20070623S0072,gsS20070623S0S20070623S0073,gsS20070623S0S20070623S0074,gsS20070623S0S20070623S0075
+GEMCOMBINE: output = AM2306a
+GEMCOMBINE: title = 
+GEMCOMBINE: bpmfile = 
+GEMCOMBINE: sci_ext = SCI
+GEMCOMBINE: var_ext = VAR
+GEMCOMBINE: dq_ext = DQ
+ 
+ERROR - GEMCOMBINE: 4 image(s) either do not exist or are not MEF files.
+ 
+GEMCOMBINE -- Finished: Thu Nov  1 13:06:29 CDT 2018
+ 
+GEMCOMBINE -- Exit status: ERROR
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+GEMCOMBINE -- Thu Nov  1 13:07:00 CDT 2018
+ 
+GEMCOMBINE: input = gsS20070623S0S20070623S0072,gsS20070623S0S20070623S0073,gsS20070623S0S20070623S0074,gsS20070623S0S20070623S0075
+GEMCOMBINE: output = AM2306a
+GEMCOMBINE: title = 
+GEMCOMBINE: bpmfile = 
+GEMCOMBINE: sci_ext = SCI
+GEMCOMBINE: var_ext = VAR
+GEMCOMBINE: dq_ext = DQ
+ 
+ERROR - GEMCOMBINE: 4 image(s) either do not exist or are not MEF files.
+ 
+GEMCOMBINE -- Finished: Thu Nov  1 13:07:00 CDT 2018
+ 
+GEMCOMBINE -- Exit status: ERROR
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+GEMCOMBINE -- Thu Nov  1 13:22:12 CDT 2018
+ 
+GEMCOMBINE: input = gsS20070623S0092,gsS20070623S0097,gsS20070623S0098,gsS20070623S0099
+GEMCOMBINE: output = AM2306c
+GEMCOMBINE: title = 
+GEMCOMBINE: bpmfile = 
+GEMCOMBINE: sci_ext = SCI
+GEMCOMBINE: var_ext = VAR
+GEMCOMBINE: dq_ext = DQ
+ 
+WARNING - GEMCOMBINE: five or less images to combine.
+
+Nov  1 13:22: IMCOMBINE
+  combine = average, scale = none, zero = none, weight = none
+  reject = ccdclip, mclip = yes, nkeep = 1
+  rdnoise = 3.85, gain = 1.0, snoise = 0.0, sigma = 3., hsigma = 3.
+  blank = 0.
+  statsec = Nov  1 13:22
+                Images     Exp
+  gsS20070623S0092.fits[SCI,1]  700.5
+  gsS20070623S0097.fits[SCI,1]  700.5
+  gsS20070623S0098.fits[SCI,1]  700.5
+  gsS20070623S0099.fits[SCI,1]  700.5
+
+  Output image = tmpcombout26692_2246, ncombine = 4
+  Number rejected mask = tmpcombdq26692_2247.pl
+  Sigma image = tmpcombsig26692_2248
+ 
+GEMCOMBINE: Propagating DQ values
+ 
+GEMCOMBINE -- Finished: Thu Nov  1 13:22:15 CDT 2018
+ 
+GEMCOMBINE -- Exit status: GOOD
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+GEMCOMBINE -- Thu Nov  1 13:22:22 CDT 2018
+ 
+GEMCOMBINE: input = gsS20070623S0082,gsS20070623S0083,gsS20070623S0084,gsS20070623S0085
+GEMCOMBINE: output = AM2306b
+GEMCOMBINE: title = 
+GEMCOMBINE: bpmfile = 
+GEMCOMBINE: sci_ext = SCI
+GEMCOMBINE: var_ext = VAR
+GEMCOMBINE: dq_ext = DQ
+ 
+WARNING - GEMCOMBINE: five or less images to combine.
+
+Nov  1 13:22: IMCOMBINE
+  combine = average, scale = none, zero = none, weight = none
+  reject = ccdclip, mclip = yes, nkeep = 1
+  rdnoise = 3.85, gain = 1.0, snoise = 0.0, sigma = 3., hsigma = 3.
+  blank = 0.
+  statsec = Nov  1 13:22
+                Images     Exp
+  gsS20070623S0082.fits[SCI,1]  700.5
+  gsS20070623S0083.fits[SCI,1]  700.5
+  gsS20070623S0084.fits[SCI,1]  700.5
+  gsS20070623S0085.fits[SCI,1]  700.5
+
+  Output image = tmpcombout26692_2291, ncombine = 4
+  Number rejected mask = tmpcombdq26692_2292.pl
+  Sigma image = tmpcombsig26692_2293
+ 
+GEMCOMBINE: Propagating DQ values
+ 
+GEMCOMBINE -- Finished: Thu Nov  1 13:22:24 CDT 2018
+ 
+GEMCOMBINE -- Exit status: GOOD
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+GEMCOMBINE -- Thu Nov  1 13:22:32 CDT 2018
+ 
+GEMCOMBINE: input = gsS20070623S0072,gsS20070623S0073,gsS20070623S0074,gsS20070623S0075
+GEMCOMBINE: output = AM2306a
+GEMCOMBINE: title = 
+GEMCOMBINE: bpmfile = 
+GEMCOMBINE: sci_ext = SCI
+GEMCOMBINE: var_ext = VAR
+GEMCOMBINE: dq_ext = DQ
+ 
+WARNING - GEMCOMBINE: five or less images to combine.
+
+Nov  1 13:22: IMCOMBINE
+  combine = average, scale = none, zero = none, weight = none
+  reject = ccdclip, mclip = yes, nkeep = 1
+  rdnoise = 3.85, gain = 1.0, snoise = 0.0, sigma = 3., hsigma = 3.
+  blank = 0.
+  statsec = Nov  1 13:22
+                Images     Exp
+  gsS20070623S0072.fits[SCI,1]  700.5
+  gsS20070623S0073.fits[SCI,1]  700.5
+  gsS20070623S0074.fits[SCI,1]  700.5
+  gsS20070623S0075.fits[SCI,1]  700.5
+
+  Output image = tmpcombout26692_2336, ncombine = 4
+  Number rejected mask = tmpcombdq26692_2337.pl
+  Sigma image = tmpcombsig26692_2338
+ 
+GEMCOMBINE: Propagating DQ values
+ 
+GEMCOMBINE -- Finished: Thu Nov  1 13:22:35 CDT 2018
+ 
+GEMCOMBINE -- Exit status: GOOD
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+GEMCOMBINE -- Thu Nov  1 13:29:33 CDT 2018
+ 
+GEMCOMBINE: input = gsS20070623S0106,gsS20070623S0107
+GEMCOMBINE: output = LTT9239
+GEMCOMBINE: title = 
+GEMCOMBINE: bpmfile = 
+GEMCOMBINE: sci_ext = SCI
+GEMCOMBINE: var_ext = VAR
+GEMCOMBINE: dq_ext = DQ
+ 
+WARNING - GEMCOMBINE: five or less images to combine.
+
+Nov  1 13:29: IMCOMBINE
+  combine = average, scale = none, zero = none, weight = none
+  reject = ccdclip, mclip = yes, nkeep = 1
+  rdnoise = 3.85, gain = 1.0, snoise = 0.0, sigma = 3., hsigma = 3.
+  blank = 0.
+  statsec = Nov  1 13:29
+                Images     Exp
+  gsS20070623S0106.fits[SCI,1]   60.5
+  gsS20070623S0107.fits[SCI,1]   60.5
+
+  Output image = tmpcombout26692_2381, ncombine = 2
+ 
+GEMCOMBINE -- Finished: Thu Nov  1 13:29:34 CDT 2018
+ 
+GEMCOMBINE -- Exit status: GOOD
+--------------------------------------------------------------------------------
