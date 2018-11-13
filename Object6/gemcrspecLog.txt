@@ -1,0 +1,24 @@
+----------------------------------------------------------------------------
+GEMCRSPEC -- Tue Nov  6 11:58:08 CST 2018
+Using the gain value from the header = 2.0
+Using the readout noise value from the header = 5.99626550446
+Extension: 1 ny = 3132 order = 5
+
+GEMCRSPEC exit status: Good
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GEMCRSPEC -- Tue Nov  6 12:09:38 CST 2018
+Using the gain value from the header = 2.0
+Using the readout noise value from the header = 5.99626550446
+Extension: 1 ny = 3132 order = 5
+
+GEMCRSPEC exit status: Good
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GEMCRSPEC -- Tue Nov  6 12:15:39 CST 2018
+Using the gain value from the header = 2.0
+Using the readout noise value from the header = 5.99626550446
+Extension: 1 ny = 3132 order = 5
+
+GEMCRSPEC exit status: Good
+----------------------------------------------------------------------------

@@ -1,6 +1,6 @@
 # Fri 11:31:16 02-Nov-2018
-begin	aperture last 1 1554. 272.1978
-	image	last
+begin	aperture stAM2306b[SCI,1] 1 1554. 272.1978
+	image	stAM2306b[SCI,1]
 	aperture	1
 	beam	1
 	center	1554. 272.1978

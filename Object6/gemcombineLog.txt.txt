@@ -1,0 +1,84 @@
+--------------------------------------------------------------------------------
+GEMCOMBINE -- Mon Nov  5 12:12:36 CST 2018
+ 
+GEMCOMBINE: input = gsS20180925S0071,gsS20180925S0072
+GEMCOMBINE: output = Obj5
+GEMCOMBINE: title = 
+GEMCOMBINE: bpmfile = 
+GEMCOMBINE: sci_ext = SCI
+GEMCOMBINE: var_ext = VAR
+GEMCOMBINE: dq_ext = DQ
+ 
+ERROR - GEMCOMBINE: 2 image(s) either do not exist or are not MEF files.
+ 
+GEMCOMBINE -- Finished: Mon Nov  5 12:12:36 CST 2018
+ 
+GEMCOMBINE -- Exit status: ERROR
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+GEMCOMBINE -- Mon Nov  5 12:53:07 CST 2018
+ 
+GEMCOMBINE: input = gsS20181004S0022,gsS20181004S0023
+GEMCOMBINE: output = Obj6
+GEMCOMBINE: title = 
+GEMCOMBINE: bpmfile = 
+GEMCOMBINE: sci_ext = SCI
+GEMCOMBINE: var_ext = VAR
+GEMCOMBINE: dq_ext = DQ
+ 
+WARNING - GEMCOMBINE: five or less images to combine.
+
+Nov  5 12:53: IMCOMBINE
+  combine = average, scale = none, zero = none, weight = none
+  reject = ccdclip, mclip = yes, nkeep = 1
+  rdnoise = 4.24, gain = 1.0, snoise = 0.0, sigma = 3., hsigma = 3.
+  blank = 0.
+  statsec = Nov  5 12:53
+                Images 
+  gsS20181004S0022.fits[SCI,1]
+  gsS20181004S0023.fits[SCI,1]
+
+  Output image = tmpcombout8816_1861, ncombine = 2
+  Number rejected mask = tmpcombdq8816_1862.pl
+  Sigma image = tmpcombsig8816_1863
+ 
+GEMCOMBINE: Propagating DQ values
+ 
+GEMCOMBINE -- Finished: Mon Nov  5 12:53:09 CST 2018
+ 
+GEMCOMBINE -- Exit status: GOOD
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+GEMCOMBINE -- Tue Nov  6 12:09:38 CST 2018
+ 
+GEMCOMBINE: input = gsS20181004S0022,gsS20181004S0023
+GEMCOMBINE: output = Obj6
+GEMCOMBINE: title = 
+GEMCOMBINE: bpmfile = 
+GEMCOMBINE: sci_ext = SCI
+GEMCOMBINE: var_ext = VAR
+GEMCOMBINE: dq_ext = DQ
+ 
+ERROR - GEMCOMBINE: Output file Obj6 already exists.
+ 
+GEMCOMBINE -- Finished: Tue Nov  6 12:09:38 CST 2018
+ 
+GEMCOMBINE -- Exit status: ERROR
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+GEMCOMBINE -- Tue Nov  6 12:15:39 CST 2018
+ 
+GEMCOMBINE: input = gsS20181004S0022,gsS20181004S0023
+GEMCOMBINE: output = Obj6
+GEMCOMBINE: title = 
+GEMCOMBINE: bpmfile = 
+GEMCOMBINE: sci_ext = SCI
+GEMCOMBINE: var_ext = VAR
+GEMCOMBINE: dq_ext = DQ
+ 
+ERROR - GEMCOMBINE: Output file Obj6 already exists.
+ 
+GEMCOMBINE -- Finished: Tue Nov  6 12:15:39 CST 2018
+ 
+GEMCOMBINE -- Exit status: ERROR
+--------------------------------------------------------------------------------

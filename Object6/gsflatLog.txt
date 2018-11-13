@@ -1,0 +1,4175 @@
+
+--------------------------------------------------------------------------------
+GSFLAT -- Mon Nov  5 12:02:34 CST 2018
+
+Input images or list              = S20180708S0084,S20180709S0144,S20180709S0153,S20180711S0120,S20180711S0197,S20180717S0040,S20180717S0049,S20180912S0035,S20180918S0023,S20180918S0032,S20180918S0041,S20180925S0073,S20180926S0021,S20180926S0030,S20181004S0024
+Output spectral flat              = MCflatFull
+Correct for slit function         = no
+Keep combined flat combflat       = no
+
+Fitting parameters for Spectral Flatfield: 
+  interactive = no
+  function    = spline3
+  order       = 13,11,28
+  low_reject  = 3.0
+  high_reject = 3.0
+  niterate    = 2
+  Fit detectors separately fl_detec = yes
+
+Overscan Subtraction fl_over   = yes
+Trim image           fl_trim   = yes
+Bias Subtraction     fl_bias   = yes
+Dark Subtraction     fl_dark   = no
+QE Correction        fl_qecorr = no
+VAR & DQ planes      fl_vardq  = yes
+Fixpix chip gaps     fl_fixpix = no
+Oversize slit length fl_oversize = no
+Fit detec. by detec. fl_detec  = yes
+Fit rows separately  fl_seprows = yes
+Use gradient method  fl_usegrad= no
+Mask emission lines  fl_emis   = no
+Reference image      refimage  = 
+N&S double flatfield fl_double = no
+
+bias        = MCbiasFull
+dark        = 
+qe_refim    = 
+qe_corrim   = 
+qe_corrpref = qecorr
+sci_ext     = SCI
+var_ext     = VAR
+dq_ext      = DQ
+bpm         = 
+key_mdf     = MASKNAME
+mdffile     = 
+mdfdir      = gmos$data/
+Chip gaps   = gmos$data/chipgaps.dat
+rawpath     = ../raw/
+
+ 
+GSFLAT: Calling GSREDUCE.
+ 
+
+----------------------------------------------------------------------------
+GSREDUCE -- Mon Nov  5 12:02:38 CST 2018
+
+Input image or list  = @tmpfilelist8816_592
+Output image or list = 
+Output prefix        = gs
+
+Overscan subtraction  fl_over      = yes
+Trim image            fl_trim      = yes
+Bias subtraction      fl_bias      = yes
+Cosmic ray cleaning   fl_gscrrej   = no
+New CR cleaning       fl_crspec    = no
+Dark subtraction      fl_dark      = no
+QE Correction         fl_qecorr    = no
+Flat field correction fl_flat      = no
+Mosaic the CCDs       fl_gmosaic   = no
+Fixpix chip gaps      fl_fixpix    = no
+Cut MOS spectra       fl_cut       = no
+Add titles to MOS     fl_title     = no
+Oversize slit length  fl_oversize  = yes
+Run gsappwave         fl_gsappwave = no
+Run gsscatsub         fl_scatsub   = no
+VAR & DQ planes       fl_vardq     = yes
+
+geointer = linear
+gradimage= 
+refimage = 
+bias     = MCbiasFull
+dark     = 
+qe_refim    = 
+qe_corrim   = 
+qe_corrpref = qecorr
+flatim   = 
+sci_ext  = SCI
+var_ext  = VAR
+dq_ext   = DQ
+key_mdf  = MASKNAME
+mdffile  = 
+mdfdir   = gmos$data/
+bpm      = 
+Chip gaps= gmos$data/chipgaps.dat
+
+Input image = S20180708S0084.fits; Output image = gsS20180708S0084.fits
+GSREDUCE: Image S20180708S0084.fits has been QE corrected? no
+GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
+GSREDUCE: Calling GIREDUCE to process image
+----------------------------------------------------------------------------
+GIREDUCE -- Mon Nov  5 12:02:39 CST 2018
+
+----------------------------------------------------------------------------
+GPREPARE -- Mon Nov  5 12:02:39 CST 2018
+
+Input list    = S20180708S0084
+Output list   = 
+Output prefix = g
+Raw path      = ../raw/
+MDF dir       = gmos$data/
+Add MDF       = yes
+Input MDF in case header keyword not found = 
+
+Input  ../raw/S20180708S0084.fits   Output  gS20180708S0084.fits
+GPREPARE: Using MDF defined in the header 0.5arcsec
+GPREPARE: Taking MDF from directory gmos$data/
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2018-11-05T18:02:40
+File[extension]:             AMPNAME              GAIN   READNOISE
+gS20180708S0084.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
+gS20180708S0084.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
+gS20180708S0084.fits[SCI,3]: " "BI5-36-4k-2, 2""  1.878  4.24
+gS20180708S0084.fits[SCI,4]: " "BI5-36-4k-2, 1""  1.852  4.21
+gS20180708S0084.fits[SCI,5]: " "BI11-33-4k-1, 4""  1.908  3.90
+gS20180708S0084.fits[SCI,6]: " "BI11-33-4k-1, 3""  1.933  4.24
+gS20180708S0084.fits[SCI,7]: " "BI11-33-4k-1, 2""  1.840  4.07
+gS20180708S0084.fits[SCI,8]: " "BI11-33-4k-1, 1""  1.878  4.29
+gS20180708S0084.fits[SCI,9]: " "BI12-34-4k-1, 4""  1.813  4.15
+gS20180708S0084.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
+gS20180708S0084.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
+gS20180708S0084.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
+
+GGAIN -- Finished: 2018-11-05T18:02:41
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+
+Input files:
+gS20180708S0084
+
+Output files:
+tmpimage18816_599
+
+WARNING - GIREDUCE: Bad Pixel Mask filename is an empty string
+                    Only saturated pixels will be flagged
+GIREDUCE: Image tmpimage18816_599 overscan subtracted
+GIREDUCE: Image tmpimage18816_599 trimmed
+
+Output image       Bias                 Flat               Dark       Scale 
+tmpimage18816_599  MCbiasFull           INDEF              INDEF       0.00
+GSAT - Started: 2018-11-05T12:02:56
+GSAT: Bias level is 506.7896 Gain level is 1.834
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI5-36-4k-2, 4 1x1 Full Well Depth is: 118871.0
+GSAT: Calculated CCD saturation limit is 259260.632497
+GSAT: Calculated controller saturation limit is 65028.2104
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63727.646192
+GSAT - Finished: 2018-11-05T12:02:56
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:02:57
+GSAT: Bias level is 528.8763 Gain level is 1.874
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI5-36-4k-2, 3 1x1 Full Well Depth is: 121652.0
+GSAT: Calculated CCD saturation limit is 259662.753469
+GSAT: Calculated controller saturation limit is 65006.1237
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63706.001226
+GSAT - Finished: 2018-11-05T12:02:57
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:02:57
+GSAT: Bias level is 535.6931 Gain level is 1.878
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI5-36-4k-2, 2 1x1 Full Well Depth is: 121390.0
+GSAT: Calculated CCD saturation limit is 258551.650692
+GSAT: Calculated controller saturation limit is 64999.3069
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63699.320762
+GSAT - Finished: 2018-11-05T12:02:57
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:02:57
+GSAT: Bias level is 521.6972 Gain level is 1.852
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI5-36-4k-2, 1 1x1 Full Well Depth is: 120435.0
+GSAT: Calculated CCD saturation limit is 260118.790497
+GSAT: Calculated controller saturation limit is 65013.3028
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63713.036744
+GSAT - Finished: 2018-11-05T12:02:57
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:02:58
+GSAT: Bias level is 501.9428 Gain level is 1.908
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI11-33-4k-1, 4 1x1 Full Well Depth is: 123307.0
+GSAT: Calculated CCD saturation limit is 258505.24109
+GSAT: Calculated controller saturation limit is 65033.0572
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63732.396056
+GSAT - Finished: 2018-11-05T12:02:58
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:02:58
+GSAT: Bias level is 510.5712 Gain level is 1.933
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI11-33-4k-1, 3 1x1 Full Well Depth is: 125719.0
+GSAT: Calculated CCD saturation limit is 260153.12985
+GSAT: Calculated controller saturation limit is 65024.4288
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63723.940224
+GSAT - Finished: 2018-11-05T12:02:58
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:02:58
+GSAT: Bias level is 512.5081 Gain level is 1.84
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI11-33-4k-1, 2 1x1 Full Well Depth is: 119157.0
+GSAT: Calculated CCD saturation limit is 259036.956522
+GSAT: Calculated controller saturation limit is 65022.4919
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63722.042062
+GSAT - Finished: 2018-11-05T12:02:58
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:02:59
+GSAT: Bias level is 495.4431 Gain level is 1.878
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI11-33-4k-1, 1 1x1 Full Well Depth is: 121234.0
+GSAT: Calculated CCD saturation limit is 258219.382322
+GSAT: Calculated controller saturation limit is 65039.5569
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63738.765762
+GSAT - Finished: 2018-11-05T12:02:59
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:02:59
+GSAT: Bias level is 505.5339 Gain level is 1.813
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI12-34-4k-1, 4 1x1 Full Well Depth is: 118424.0
+GSAT: Calculated CCD saturation limit is 261277.440706
+GSAT: Calculated controller saturation limit is 65029.4661
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63728.876778
+GSAT - Finished: 2018-11-05T12:02:59
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:02:59
+GSAT: Bias level is 508.6677 Gain level is 1.724
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI12-34-4k-1, 3 1x1 Full Well Depth is: 112054.0
+GSAT: Calculated CCD saturation limit is 259986.078886
+GSAT: Calculated controller saturation limit is 65026.3323
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63725.805654
+GSAT - Finished: 2018-11-05T12:03:00
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:03:00
+GSAT: Bias level is 496.3314 Gain level is 1.761
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI12-34-4k-1, 2 1x1 Full Well Depth is: 114605.0
+GSAT: Calculated CCD saturation limit is 260318.001136
+GSAT: Calculated controller saturation limit is 65038.6686
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63737.895228
+GSAT - Finished: 2018-11-05T12:03:00
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:03:00
+GSAT: Bias level is 509.1232 Gain level is 1.652
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI12-34-4k-1, 1 1x1 Full Well Depth is: 106966.0
+GSAT: Calculated CCD saturation limit is 258997.578692
+GSAT: Calculated controller saturation limit is 65025.8768
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63725.359264
+GSAT - Finished: 2018-11-05T12:03:00
+GSAT - Exit status: GOOD
+GIREDUCE: Subtracted bias MCbiasFull from tmpimage18816_599
+GIREDUCE: multiplying image tmpimage18816_599 by gain
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2018-11-05T18:03:01
+File[extension]:               AMPNAME              GAIN   READNOISE
+tmpimage18816_599.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
+tmpimage18816_599.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
+tmpimage18816_599.fits[SCI,3]: " "BI5-36-4k-2, 2""  1.878  4.24
+tmpimage18816_599.fits[SCI,4]: " "BI5-36-4k-2, 1""  1.852  4.21
+tmpimage18816_599.fits[SCI,5]: " "BI11-33-4k-1, 4""  1.908  3.90
+tmpimage18816_599.fits[SCI,6]: " "BI11-33-4k-1, 3""  1.933  4.24
+tmpimage18816_599.fits[SCI,7]: " "BI11-33-4k-1, 2""  1.840  4.07
+tmpimage18816_599.fits[SCI,8]: " "BI11-33-4k-1, 1""  1.878  4.29
+tmpimage18816_599.fits[SCI,9]: " "BI12-34-4k-1, 4""  1.813  4.15
+tmpimage18816_599.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
+tmpimage18816_599.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
+tmpimage18816_599.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
+
+GGAIN -- Finished: 2018-11-05T18:03:05
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+GIREDUCE: output counts in electrons
+
+GIREDUCE - Cleaning up -- Mon Nov  5 12:03:06 CST 2018
+
+GIREDUCE -- Mon Nov  5 12:03:06 CST 2018
+GIREDUCE exit status:  good.
+----------------------------------------------------------------------------
+GSREDUCE: Updating PHU and cleaning up
+Input image = S20180709S0144.fits; Output image = gsS20180709S0144.fits
+GSREDUCE: Image S20180709S0144.fits has been QE corrected? no
+GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
+GSREDUCE: Calling GIREDUCE to process image
+----------------------------------------------------------------------------
+GIREDUCE -- Mon Nov  5 12:03:06 CST 2018
+
+----------------------------------------------------------------------------
+GPREPARE -- Mon Nov  5 12:03:06 CST 2018
+
+Input list    = S20180709S0144
+Output list   = 
+Output prefix = g
+Raw path      = ../raw/
+MDF dir       = gmos$data/
+Add MDF       = yes
+Input MDF in case header keyword not found = 
+
+Input  ../raw/S20180709S0144.fits   Output  gS20180709S0144.fits
+GPREPARE: Using MDF defined in the header 0.5arcsec
+GPREPARE: Taking MDF from directory gmos$data/
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2018-11-05T18:03:07
+File[extension]:             AMPNAME              GAIN   READNOISE
+gS20180709S0144.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
+gS20180709S0144.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
+gS20180709S0144.fits[SCI,3]: " "BI5-36-4k-2, 2""  1.878  4.24
+gS20180709S0144.fits[SCI,4]: " "BI5-36-4k-2, 1""  1.852  4.21
+gS20180709S0144.fits[SCI,5]: " "BI11-33-4k-1, 4""  1.908  3.90
+gS20180709S0144.fits[SCI,6]: " "BI11-33-4k-1, 3""  1.933  4.24
+gS20180709S0144.fits[SCI,7]: " "BI11-33-4k-1, 2""  1.840  4.07
+gS20180709S0144.fits[SCI,8]: " "BI11-33-4k-1, 1""  1.878  4.29
+gS20180709S0144.fits[SCI,9]: " "BI12-34-4k-1, 4""  1.813  4.15
+gS20180709S0144.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
+gS20180709S0144.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
+gS20180709S0144.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
+
+GGAIN -- Finished: 2018-11-05T18:03:07
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+
+Input files:
+gS20180709S0144
+
+Output files:
+tmpimage18816_648
+
+WARNING - GIREDUCE: Bad Pixel Mask filename is an empty string
+                    Only saturated pixels will be flagged
+GIREDUCE: Image tmpimage18816_648 overscan subtracted
+GIREDUCE: Image tmpimage18816_648 trimmed
+
+Output image       Bias                 Flat               Dark       Scale 
+tmpimage18816_648  MCbiasFull           INDEF              INDEF       0.00
+GSAT - Started: 2018-11-05T12:03:24
+GSAT: Bias level is 506.7074 Gain level is 1.834
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI5-36-4k-2, 4 1x1 Full Well Depth is: 118871.0
+GSAT: Calculated CCD saturation limit is 259260.632497
+GSAT: Calculated controller saturation limit is 65028.2926
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63727.726748
+GSAT - Finished: 2018-11-05T12:03:24
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:03:24
+GSAT: Bias level is 532.1033 Gain level is 1.874
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI5-36-4k-2, 3 1x1 Full Well Depth is: 121652.0
+GSAT: Calculated CCD saturation limit is 259662.753469
+GSAT: Calculated controller saturation limit is 65002.8967
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63702.838766
+GSAT - Finished: 2018-11-05T12:03:24
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:03:24
+GSAT: Bias level is 528.288 Gain level is 1.878
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI5-36-4k-2, 2 1x1 Full Well Depth is: 121390.0
+GSAT: Calculated CCD saturation limit is 258551.650692
+GSAT: Calculated controller saturation limit is 65006.712
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63706.57776
+GSAT - Finished: 2018-11-05T12:03:24
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:03:24
+GSAT: Bias level is 524.2473 Gain level is 1.852
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI5-36-4k-2, 1 1x1 Full Well Depth is: 120435.0
+GSAT: Calculated CCD saturation limit is 260118.790497
+GSAT: Calculated controller saturation limit is 65010.7527
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63710.537646
+GSAT - Finished: 2018-11-05T12:03:25
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:03:25
+GSAT: Bias level is 504.8478 Gain level is 1.908
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI11-33-4k-1, 4 1x1 Full Well Depth is: 123307.0
+GSAT: Calculated CCD saturation limit is 258505.24109
+GSAT: Calculated controller saturation limit is 65030.1522
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63729.549156
+GSAT - Finished: 2018-11-05T12:03:25
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:03:25
+GSAT: Bias level is 515.5037 Gain level is 1.933
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI11-33-4k-1, 3 1x1 Full Well Depth is: 125719.0
+GSAT: Calculated CCD saturation limit is 260153.12985
+GSAT: Calculated controller saturation limit is 65019.4963
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63719.106374
+GSAT - Finished: 2018-11-05T12:03:25
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:03:26
+GSAT: Bias level is 517.6002 Gain level is 1.84
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI11-33-4k-1, 2 1x1 Full Well Depth is: 119157.0
+GSAT: Calculated CCD saturation limit is 259036.956522
+GSAT: Calculated controller saturation limit is 65017.3998
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63717.051804
+GSAT - Finished: 2018-11-05T12:03:26
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:03:26
+GSAT: Bias level is 501.3433 Gain level is 1.878
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI11-33-4k-1, 1 1x1 Full Well Depth is: 121234.0
+GSAT: Calculated CCD saturation limit is 258219.382322
+GSAT: Calculated controller saturation limit is 65033.6567
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63732.983566
+GSAT - Finished: 2018-11-05T12:03:26
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:03:26
+GSAT: Bias level is 505.7341 Gain level is 1.813
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI12-34-4k-1, 4 1x1 Full Well Depth is: 118424.0
+GSAT: Calculated CCD saturation limit is 261277.440706
+GSAT: Calculated controller saturation limit is 65029.2659
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63728.680582
+GSAT - Finished: 2018-11-05T12:03:26
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:03:27
+GSAT: Bias level is 510.2142 Gain level is 1.724
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI12-34-4k-1, 3 1x1 Full Well Depth is: 112054.0
+GSAT: Calculated CCD saturation limit is 259986.078886
+GSAT: Calculated controller saturation limit is 65024.7858
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63724.290084
+GSAT - Finished: 2018-11-05T12:03:27
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:03:27
+GSAT: Bias level is 495.3101 Gain level is 1.761
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI12-34-4k-1, 2 1x1 Full Well Depth is: 114605.0
+GSAT: Calculated CCD saturation limit is 260318.001136
+GSAT: Calculated controller saturation limit is 65039.6899
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63738.896102
+GSAT - Finished: 2018-11-05T12:03:27
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:03:27
+GSAT: Bias level is 508.799 Gain level is 1.652
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI12-34-4k-1, 1 1x1 Full Well Depth is: 106966.0
+GSAT: Calculated CCD saturation limit is 258997.578692
+GSAT: Calculated controller saturation limit is 65026.201
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63725.67698
+GSAT - Finished: 2018-11-05T12:03:27
+GSAT - Exit status: GOOD
+GIREDUCE: Subtracted bias MCbiasFull from tmpimage18816_648
+GIREDUCE: multiplying image tmpimage18816_648 by gain
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2018-11-05T18:03:28
+File[extension]:               AMPNAME              GAIN   READNOISE
+tmpimage18816_648.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
+tmpimage18816_648.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
+tmpimage18816_648.fits[SCI,3]: " "BI5-36-4k-2, 2""  1.878  4.24
+tmpimage18816_648.fits[SCI,4]: " "BI5-36-4k-2, 1""  1.852  4.21
+tmpimage18816_648.fits[SCI,5]: " "BI11-33-4k-1, 4""  1.908  3.90
+tmpimage18816_648.fits[SCI,6]: " "BI11-33-4k-1, 3""  1.933  4.24
+tmpimage18816_648.fits[SCI,7]: " "BI11-33-4k-1, 2""  1.840  4.07
+tmpimage18816_648.fits[SCI,8]: " "BI11-33-4k-1, 1""  1.878  4.29
+tmpimage18816_648.fits[SCI,9]: " "BI12-34-4k-1, 4""  1.813  4.15
+tmpimage18816_648.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
+tmpimage18816_648.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
+tmpimage18816_648.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
+
+GGAIN -- Finished: 2018-11-05T18:03:33
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+GIREDUCE: output counts in electrons
+
+GIREDUCE - Cleaning up -- Mon Nov  5 12:03:33 CST 2018
+
+GIREDUCE -- Mon Nov  5 12:03:33 CST 2018
+GIREDUCE exit status:  good.
+----------------------------------------------------------------------------
+GSREDUCE: Updating PHU and cleaning up
+Input image = S20180709S0153.fits; Output image = gsS20180709S0153.fits
+GSREDUCE: Image S20180709S0153.fits has been QE corrected? no
+GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
+GSREDUCE: Calling GIREDUCE to process image
+----------------------------------------------------------------------------
+GIREDUCE -- Mon Nov  5 12:03:33 CST 2018
+
+----------------------------------------------------------------------------
+GPREPARE -- Mon Nov  5 12:03:33 CST 2018
+
+Input list    = S20180709S0153
+Output list   = 
+Output prefix = g
+Raw path      = ../raw/
+MDF dir       = gmos$data/
+Add MDF       = yes
+Input MDF in case header keyword not found = 
+
+Input  ../raw/S20180709S0153.fits   Output  gS20180709S0153.fits
+GPREPARE: Using MDF defined in the header 0.5arcsec
+GPREPARE: Taking MDF from directory gmos$data/
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2018-11-05T18:03:34
+File[extension]:             AMPNAME              GAIN   READNOISE
+gS20180709S0153.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
+gS20180709S0153.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
+gS20180709S0153.fits[SCI,3]: " "BI5-36-4k-2, 2""  1.878  4.24
+gS20180709S0153.fits[SCI,4]: " "BI5-36-4k-2, 1""  1.852  4.21
+gS20180709S0153.fits[SCI,5]: " "BI11-33-4k-1, 4""  1.908  3.90
+gS20180709S0153.fits[SCI,6]: " "BI11-33-4k-1, 3""  1.933  4.24
+gS20180709S0153.fits[SCI,7]: " "BI11-33-4k-1, 2""  1.840  4.07
+gS20180709S0153.fits[SCI,8]: " "BI11-33-4k-1, 1""  1.878  4.29
+gS20180709S0153.fits[SCI,9]: " "BI12-34-4k-1, 4""  1.813  4.15
+gS20180709S0153.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
+gS20180709S0153.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
+gS20180709S0153.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
+
+GGAIN -- Finished: 2018-11-05T18:03:35
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+
+Input files:
+gS20180709S0153
+
+Output files:
+tmpimage18816_697
+
+WARNING - GIREDUCE: Bad Pixel Mask filename is an empty string
+                    Only saturated pixels will be flagged
+GIREDUCE: Image tmpimage18816_697 overscan subtracted
+GIREDUCE: Image tmpimage18816_697 trimmed
+
+Output image       Bias                 Flat               Dark       Scale 
+tmpimage18816_697  MCbiasFull           INDEF              INDEF       0.00
+GSAT - Started: 2018-11-05T12:03:50
+GSAT: Bias level is 505.9709 Gain level is 1.834
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI5-36-4k-2, 4 1x1 Full Well Depth is: 118871.0
+GSAT: Calculated CCD saturation limit is 259260.632497
+GSAT: Calculated controller saturation limit is 65029.0291
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63728.448518
+GSAT - Finished: 2018-11-05T12:03:50
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:03:51
+GSAT: Bias level is 531.4905 Gain level is 1.874
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI5-36-4k-2, 3 1x1 Full Well Depth is: 121652.0
+GSAT: Calculated CCD saturation limit is 259662.753469
+GSAT: Calculated controller saturation limit is 65003.5095
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63703.43931
+GSAT - Finished: 2018-11-05T12:03:51
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:03:51
+GSAT: Bias level is 527.7813 Gain level is 1.878
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI5-36-4k-2, 2 1x1 Full Well Depth is: 121390.0
+GSAT: Calculated CCD saturation limit is 258551.650692
+GSAT: Calculated controller saturation limit is 65007.2187
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63707.074326
+GSAT - Finished: 2018-11-05T12:03:51
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:03:51
+GSAT: Bias level is 524.3797 Gain level is 1.852
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI5-36-4k-2, 1 1x1 Full Well Depth is: 120435.0
+GSAT: Calculated CCD saturation limit is 260118.790497
+GSAT: Calculated controller saturation limit is 65010.6203
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63710.407894
+GSAT - Finished: 2018-11-05T12:03:51
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:03:52
+GSAT: Bias level is 503.018 Gain level is 1.908
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI11-33-4k-1, 4 1x1 Full Well Depth is: 123307.0
+GSAT: Calculated CCD saturation limit is 258505.24109
+GSAT: Calculated controller saturation limit is 65031.982
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63731.34236
+GSAT - Finished: 2018-11-05T12:03:52
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:03:52
+GSAT: Bias level is 513.313 Gain level is 1.933
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI11-33-4k-1, 3 1x1 Full Well Depth is: 125719.0
+GSAT: Calculated CCD saturation limit is 260153.12985
+GSAT: Calculated controller saturation limit is 65021.687
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63721.25326
+GSAT - Finished: 2018-11-05T12:03:52
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:03:52
+GSAT: Bias level is 515.7476 Gain level is 1.84
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI11-33-4k-1, 2 1x1 Full Well Depth is: 119157.0
+GSAT: Calculated CCD saturation limit is 259036.956522
+GSAT: Calculated controller saturation limit is 65019.2524
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63718.867352
+GSAT - Finished: 2018-11-05T12:03:52
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:03:53
+GSAT: Bias level is 499.8713 Gain level is 1.878
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI11-33-4k-1, 1 1x1 Full Well Depth is: 121234.0
+GSAT: Calculated CCD saturation limit is 258219.382322
+GSAT: Calculated controller saturation limit is 65035.1287
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63734.426126
+GSAT - Finished: 2018-11-05T12:03:53
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:03:53
+GSAT: Bias level is 502.8456 Gain level is 1.813
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI12-34-4k-1, 4 1x1 Full Well Depth is: 118424.0
+GSAT: Calculated CCD saturation limit is 261277.440706
+GSAT: Calculated controller saturation limit is 65032.1544
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63731.511312
+GSAT - Finished: 2018-11-05T12:03:53
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:03:53
+GSAT: Bias level is 506.8062 Gain level is 1.724
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI12-34-4k-1, 3 1x1 Full Well Depth is: 112054.0
+GSAT: Calculated CCD saturation limit is 259986.078886
+GSAT: Calculated controller saturation limit is 65028.1938
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63727.629924
+GSAT - Finished: 2018-11-05T12:03:53
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:03:54
+GSAT: Bias level is 492.2452 Gain level is 1.761
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI12-34-4k-1, 2 1x1 Full Well Depth is: 114605.0
+GSAT: Calculated CCD saturation limit is 260318.001136
+GSAT: Calculated controller saturation limit is 65042.7548
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63741.899704
+GSAT - Finished: 2018-11-05T12:03:54
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:03:54
+GSAT: Bias level is 506.8964 Gain level is 1.652
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI12-34-4k-1, 1 1x1 Full Well Depth is: 106966.0
+GSAT: Calculated CCD saturation limit is 258997.578692
+GSAT: Calculated controller saturation limit is 65028.1036
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63727.541528
+GSAT - Finished: 2018-11-05T12:03:54
+GSAT - Exit status: GOOD
+GIREDUCE: Subtracted bias MCbiasFull from tmpimage18816_697
+GIREDUCE: multiplying image tmpimage18816_697 by gain
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2018-11-05T18:03:54
+File[extension]:               AMPNAME              GAIN   READNOISE
+tmpimage18816_697.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
+tmpimage18816_697.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
+tmpimage18816_697.fits[SCI,3]: " "BI5-36-4k-2, 2""  1.878  4.24
+tmpimage18816_697.fits[SCI,4]: " "BI5-36-4k-2, 1""  1.852  4.21
+tmpimage18816_697.fits[SCI,5]: " "BI11-33-4k-1, 4""  1.908  3.90
+tmpimage18816_697.fits[SCI,6]: " "BI11-33-4k-1, 3""  1.933  4.24
+tmpimage18816_697.fits[SCI,7]: " "BI11-33-4k-1, 2""  1.840  4.07
+tmpimage18816_697.fits[SCI,8]: " "BI11-33-4k-1, 1""  1.878  4.29
+tmpimage18816_697.fits[SCI,9]: " "BI12-34-4k-1, 4""  1.813  4.15
+tmpimage18816_697.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
+tmpimage18816_697.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
+tmpimage18816_697.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
+
+GGAIN -- Finished: 2018-11-05T18:04:00
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+GIREDUCE: output counts in electrons
+
+GIREDUCE - Cleaning up -- Mon Nov  5 12:04:00 CST 2018
+
+GIREDUCE -- Mon Nov  5 12:04:00 CST 2018
+GIREDUCE exit status:  good.
+----------------------------------------------------------------------------
+GSREDUCE: Updating PHU and cleaning up
+Input image = S20180711S0120.fits; Output image = gsS20180711S0120.fits
+GSREDUCE: Image S20180711S0120.fits has been QE corrected? no
+GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
+GSREDUCE: Calling GIREDUCE to process image
+----------------------------------------------------------------------------
+GIREDUCE -- Mon Nov  5 12:04:00 CST 2018
+
+----------------------------------------------------------------------------
+GPREPARE -- Mon Nov  5 12:04:00 CST 2018
+
+Input list    = S20180711S0120
+Output list   = 
+Output prefix = g
+Raw path      = ../raw/
+MDF dir       = gmos$data/
+Add MDF       = yes
+Input MDF in case header keyword not found = 
+
+Input  ../raw/S20180711S0120.fits   Output  gS20180711S0120.fits
+GPREPARE: Using MDF defined in the header 0.5arcsec
+GPREPARE: Taking MDF from directory gmos$data/
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2018-11-05T18:04:01
+File[extension]:             AMPNAME              GAIN   READNOISE
+gS20180711S0120.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
+gS20180711S0120.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
+gS20180711S0120.fits[SCI,3]: " "BI5-36-4k-2, 2""  1.878  4.24
+gS20180711S0120.fits[SCI,4]: " "BI5-36-4k-2, 1""  1.852  4.21
+gS20180711S0120.fits[SCI,5]: " "BI11-33-4k-1, 4""  1.908  3.90
+gS20180711S0120.fits[SCI,6]: " "BI11-33-4k-1, 3""  1.933  4.24
+gS20180711S0120.fits[SCI,7]: " "BI11-33-4k-1, 2""  1.840  4.07
+gS20180711S0120.fits[SCI,8]: " "BI11-33-4k-1, 1""  1.878  4.29
+gS20180711S0120.fits[SCI,9]: " "BI12-34-4k-1, 4""  1.813  4.15
+gS20180711S0120.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
+gS20180711S0120.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
+gS20180711S0120.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
+
+GGAIN -- Finished: 2018-11-05T18:04:02
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+
+Input files:
+gS20180711S0120
+
+Output files:
+tmpimage18816_746
+
+WARNING - GIREDUCE: Bad Pixel Mask filename is an empty string
+                    Only saturated pixels will be flagged
+GIREDUCE: Image tmpimage18816_746 overscan subtracted
+GIREDUCE: Image tmpimage18816_746 trimmed
+
+Output image       Bias                 Flat               Dark       Scale 
+tmpimage18816_746  MCbiasFull           INDEF              INDEF       0.00
+GSAT - Started: 2018-11-05T12:04:17
+GSAT: Bias level is 506.006 Gain level is 1.834
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI5-36-4k-2, 4 1x1 Full Well Depth is: 118871.0
+GSAT: Calculated CCD saturation limit is 259260.632497
+GSAT: Calculated controller saturation limit is 65028.994
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63728.41412
+GSAT - Finished: 2018-11-05T12:04:17
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:04:17
+GSAT: Bias level is 527.3165 Gain level is 1.874
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI5-36-4k-2, 3 1x1 Full Well Depth is: 121652.0
+GSAT: Calculated CCD saturation limit is 259662.753469
+GSAT: Calculated controller saturation limit is 65007.6835
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63707.52983
+GSAT - Finished: 2018-11-05T12:04:17
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:04:18
+GSAT: Bias level is 536.5202 Gain level is 1.878
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI5-36-4k-2, 2 1x1 Full Well Depth is: 121390.0
+GSAT: Calculated CCD saturation limit is 258551.650692
+GSAT: Calculated controller saturation limit is 64998.4798
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63698.510204
+GSAT - Finished: 2018-11-05T12:04:18
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:04:18
+GSAT: Bias level is 523.9822 Gain level is 1.852
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI5-36-4k-2, 1 1x1 Full Well Depth is: 120435.0
+GSAT: Calculated CCD saturation limit is 260118.790497
+GSAT: Calculated controller saturation limit is 65011.0178
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63710.797444
+GSAT - Finished: 2018-11-05T12:04:18
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:04:18
+GSAT: Bias level is 501.9767 Gain level is 1.908
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI11-33-4k-1, 4 1x1 Full Well Depth is: 123307.0
+GSAT: Calculated CCD saturation limit is 258505.24109
+GSAT: Calculated controller saturation limit is 65033.0233
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63732.362834
+GSAT - Finished: 2018-11-05T12:04:18
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:04:19
+GSAT: Bias level is 512.4932 Gain level is 1.933
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI11-33-4k-1, 3 1x1 Full Well Depth is: 125719.0
+GSAT: Calculated CCD saturation limit is 260153.12985
+GSAT: Calculated controller saturation limit is 65022.5068
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63722.056664
+GSAT - Finished: 2018-11-05T12:04:19
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:04:19
+GSAT: Bias level is 514.3245 Gain level is 1.84
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI11-33-4k-1, 2 1x1 Full Well Depth is: 119157.0
+GSAT: Calculated CCD saturation limit is 259036.956522
+GSAT: Calculated controller saturation limit is 65020.6755
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63720.26199
+GSAT - Finished: 2018-11-05T12:04:19
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:04:19
+GSAT: Bias level is 499.5356 Gain level is 1.878
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI11-33-4k-1, 1 1x1 Full Well Depth is: 121234.0
+GSAT: Calculated CCD saturation limit is 258219.382322
+GSAT: Calculated controller saturation limit is 65035.4644
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63734.755112
+GSAT - Finished: 2018-11-05T12:04:19
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:04:20
+GSAT: Bias level is 500.6147 Gain level is 1.813
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI12-34-4k-1, 4 1x1 Full Well Depth is: 118424.0
+GSAT: Calculated CCD saturation limit is 261277.440706
+GSAT: Calculated controller saturation limit is 65034.3853
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63733.697594
+GSAT - Finished: 2018-11-05T12:04:20
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:04:20
+GSAT: Bias level is 504.1746 Gain level is 1.724
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI12-34-4k-1, 3 1x1 Full Well Depth is: 112054.0
+GSAT: Calculated CCD saturation limit is 259986.078886
+GSAT: Calculated controller saturation limit is 65030.8254
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63730.208892
+GSAT - Finished: 2018-11-05T12:04:20
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:04:20
+GSAT: Bias level is 489.4735 Gain level is 1.761
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI12-34-4k-1, 2 1x1 Full Well Depth is: 114605.0
+GSAT: Calculated CCD saturation limit is 260318.001136
+GSAT: Calculated controller saturation limit is 65045.5265
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63744.61597
+GSAT - Finished: 2018-11-05T12:04:20
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:04:21
+GSAT: Bias level is 504.0139 Gain level is 1.652
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI12-34-4k-1, 1 1x1 Full Well Depth is: 106966.0
+GSAT: Calculated CCD saturation limit is 258997.578692
+GSAT: Calculated controller saturation limit is 65030.9861
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63730.366378
+GSAT - Finished: 2018-11-05T12:04:21
+GSAT - Exit status: GOOD
+GIREDUCE: Subtracted bias MCbiasFull from tmpimage18816_746
+GIREDUCE: multiplying image tmpimage18816_746 by gain
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2018-11-05T18:04:21
+File[extension]:               AMPNAME              GAIN   READNOISE
+tmpimage18816_746.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
+tmpimage18816_746.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
+tmpimage18816_746.fits[SCI,3]: " "BI5-36-4k-2, 2""  1.878  4.24
+tmpimage18816_746.fits[SCI,4]: " "BI5-36-4k-2, 1""  1.852  4.21
+tmpimage18816_746.fits[SCI,5]: " "BI11-33-4k-1, 4""  1.908  3.90
+tmpimage18816_746.fits[SCI,6]: " "BI11-33-4k-1, 3""  1.933  4.24
+tmpimage18816_746.fits[SCI,7]: " "BI11-33-4k-1, 2""  1.840  4.07
+tmpimage18816_746.fits[SCI,8]: " "BI11-33-4k-1, 1""  1.878  4.29
+tmpimage18816_746.fits[SCI,9]: " "BI12-34-4k-1, 4""  1.813  4.15
+tmpimage18816_746.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
+tmpimage18816_746.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
+tmpimage18816_746.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
+
+GGAIN -- Finished: 2018-11-05T18:04:26
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+GIREDUCE: output counts in electrons
+
+GIREDUCE - Cleaning up -- Mon Nov  5 12:04:26 CST 2018
+
+GIREDUCE -- Mon Nov  5 12:04:26 CST 2018
+GIREDUCE exit status:  good.
+----------------------------------------------------------------------------
+GSREDUCE: Updating PHU and cleaning up
+Input image = S20180711S0197.fits; Output image = gsS20180711S0197.fits
+GSREDUCE: Image S20180711S0197.fits has been QE corrected? no
+GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
+GSREDUCE: Calling GIREDUCE to process image
+----------------------------------------------------------------------------
+GIREDUCE -- Mon Nov  5 12:04:26 CST 2018
+
+----------------------------------------------------------------------------
+GPREPARE -- Mon Nov  5 12:04:26 CST 2018
+
+Input list    = S20180711S0197
+Output list   = 
+Output prefix = g
+Raw path      = ../raw/
+MDF dir       = gmos$data/
+Add MDF       = yes
+Input MDF in case header keyword not found = 
+
+Input  ../raw/S20180711S0197.fits   Output  gS20180711S0197.fits
+GPREPARE: Using MDF defined in the header 0.5arcsec
+GPREPARE: Taking MDF from directory gmos$data/
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2018-11-05T18:04:27
+File[extension]:             AMPNAME              GAIN   READNOISE
+gS20180711S0197.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
+gS20180711S0197.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
+gS20180711S0197.fits[SCI,3]: " "BI5-36-4k-2, 2""  1.878  4.24
+gS20180711S0197.fits[SCI,4]: " "BI5-36-4k-2, 1""  1.852  4.21
+gS20180711S0197.fits[SCI,5]: " "BI11-33-4k-1, 4""  1.908  3.90
+gS20180711S0197.fits[SCI,6]: " "BI11-33-4k-1, 3""  1.933  4.24
+gS20180711S0197.fits[SCI,7]: " "BI11-33-4k-1, 2""  1.840  4.07
+gS20180711S0197.fits[SCI,8]: " "BI11-33-4k-1, 1""  1.878  4.29
+gS20180711S0197.fits[SCI,9]: " "BI12-34-4k-1, 4""  1.813  4.15
+gS20180711S0197.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
+gS20180711S0197.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
+gS20180711S0197.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
+
+GGAIN -- Finished: 2018-11-05T18:04:28
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+
+Input files:
+gS20180711S0197
+
+Output files:
+tmpimage18816_795
+
+WARNING - GIREDUCE: Bad Pixel Mask filename is an empty string
+                    Only saturated pixels will be flagged
+GIREDUCE: Image tmpimage18816_795 overscan subtracted
+GIREDUCE: Image tmpimage18816_795 trimmed
+
+Output image       Bias                 Flat               Dark       Scale 
+tmpimage18816_795  MCbiasFull           INDEF              INDEF       0.00
+GSAT - Started: 2018-11-05T12:04:43
+GSAT: Bias level is 508.5617 Gain level is 1.834
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI5-36-4k-2, 4 1x1 Full Well Depth is: 118871.0
+GSAT: Calculated CCD saturation limit is 259260.632497
+GSAT: Calculated controller saturation limit is 65026.4383
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63725.909534
+GSAT - Finished: 2018-11-05T12:04:43
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:04:43
+GSAT: Bias level is 533.1653 Gain level is 1.874
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI5-36-4k-2, 3 1x1 Full Well Depth is: 121652.0
+GSAT: Calculated CCD saturation limit is 259662.753469
+GSAT: Calculated controller saturation limit is 65001.8347
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63701.798006
+GSAT - Finished: 2018-11-05T12:04:43
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:04:44
+GSAT: Bias level is 528.9723 Gain level is 1.878
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI5-36-4k-2, 2 1x1 Full Well Depth is: 121390.0
+GSAT: Calculated CCD saturation limit is 258551.650692
+GSAT: Calculated controller saturation limit is 65006.0277
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63705.907146
+GSAT - Finished: 2018-11-05T12:04:44
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:04:44
+GSAT: Bias level is 524.9888 Gain level is 1.852
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI5-36-4k-2, 1 1x1 Full Well Depth is: 120435.0
+GSAT: Calculated CCD saturation limit is 260118.790497
+GSAT: Calculated controller saturation limit is 65010.0112
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63709.810976
+GSAT - Finished: 2018-11-05T12:04:44
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:04:44
+GSAT: Bias level is 507.1571 Gain level is 1.908
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI11-33-4k-1, 4 1x1 Full Well Depth is: 123307.0
+GSAT: Calculated CCD saturation limit is 258505.24109
+GSAT: Calculated controller saturation limit is 65027.8429
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63727.286042
+GSAT - Finished: 2018-11-05T12:04:44
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:04:45
+GSAT: Bias level is 517.4485 Gain level is 1.933
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI11-33-4k-1, 3 1x1 Full Well Depth is: 125719.0
+GSAT: Calculated CCD saturation limit is 260153.12985
+GSAT: Calculated controller saturation limit is 65017.5515
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63717.20047
+GSAT - Finished: 2018-11-05T12:04:45
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:04:45
+GSAT: Bias level is 518.823 Gain level is 1.84
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI11-33-4k-1, 2 1x1 Full Well Depth is: 119157.0
+GSAT: Calculated CCD saturation limit is 259036.956522
+GSAT: Calculated controller saturation limit is 65016.177
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63715.85346
+GSAT - Finished: 2018-11-05T12:04:45
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:04:45
+GSAT: Bias level is 502.855 Gain level is 1.878
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI11-33-4k-1, 1 1x1 Full Well Depth is: 121234.0
+GSAT: Calculated CCD saturation limit is 258219.382322
+GSAT: Calculated controller saturation limit is 65032.145
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63731.5021
+GSAT - Finished: 2018-11-05T12:04:45
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:04:46
+GSAT: Bias level is 510.6564 Gain level is 1.813
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI12-34-4k-1, 4 1x1 Full Well Depth is: 118424.0
+GSAT: Calculated CCD saturation limit is 261277.440706
+GSAT: Calculated controller saturation limit is 65024.3436
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63723.856728
+GSAT - Finished: 2018-11-05T12:04:46
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:04:46
+GSAT: Bias level is 514.1522 Gain level is 1.724
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI12-34-4k-1, 3 1x1 Full Well Depth is: 112054.0
+GSAT: Calculated CCD saturation limit is 259986.078886
+GSAT: Calculated controller saturation limit is 65020.8478
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63720.430844
+GSAT - Finished: 2018-11-05T12:04:46
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:04:46
+GSAT: Bias level is 500.9276 Gain level is 1.761
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI12-34-4k-1, 2 1x1 Full Well Depth is: 114605.0
+GSAT: Calculated CCD saturation limit is 260318.001136
+GSAT: Calculated controller saturation limit is 65034.0724
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63733.390952
+GSAT - Finished: 2018-11-05T12:04:47
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:04:47
+GSAT: Bias level is 513.4278 Gain level is 1.652
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI12-34-4k-1, 1 1x1 Full Well Depth is: 106966.0
+GSAT: Calculated CCD saturation limit is 258997.578692
+GSAT: Calculated controller saturation limit is 65021.5722
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63721.140756
+GSAT - Finished: 2018-11-05T12:04:47
+GSAT - Exit status: GOOD
+GIREDUCE: Subtracted bias MCbiasFull from tmpimage18816_795
+GIREDUCE: multiplying image tmpimage18816_795 by gain
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2018-11-05T18:04:47
+File[extension]:               AMPNAME              GAIN   READNOISE
+tmpimage18816_795.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
+tmpimage18816_795.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
+tmpimage18816_795.fits[SCI,3]: " "BI5-36-4k-2, 2""  1.878  4.24
+tmpimage18816_795.fits[SCI,4]: " "BI5-36-4k-2, 1""  1.852  4.21
+tmpimage18816_795.fits[SCI,5]: " "BI11-33-4k-1, 4""  1.908  3.90
+tmpimage18816_795.fits[SCI,6]: " "BI11-33-4k-1, 3""  1.933  4.24
+tmpimage18816_795.fits[SCI,7]: " "BI11-33-4k-1, 2""  1.840  4.07
+tmpimage18816_795.fits[SCI,8]: " "BI11-33-4k-1, 1""  1.878  4.29
+tmpimage18816_795.fits[SCI,9]: " "BI12-34-4k-1, 4""  1.813  4.15
+tmpimage18816_795.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
+tmpimage18816_795.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
+tmpimage18816_795.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
+
+GGAIN -- Finished: 2018-11-05T18:04:52
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+GIREDUCE: output counts in electrons
+
+GIREDUCE - Cleaning up -- Mon Nov  5 12:04:52 CST 2018
+
+GIREDUCE -- Mon Nov  5 12:04:52 CST 2018
+GIREDUCE exit status:  good.
+----------------------------------------------------------------------------
+GSREDUCE: Updating PHU and cleaning up
+Input image = S20180717S0040.fits; Output image = gsS20180717S0040.fits
+GSREDUCE: Image S20180717S0040.fits has been QE corrected? no
+GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
+GSREDUCE: Calling GIREDUCE to process image
+----------------------------------------------------------------------------
+GIREDUCE -- Mon Nov  5 12:04:53 CST 2018
+
+----------------------------------------------------------------------------
+GPREPARE -- Mon Nov  5 12:04:53 CST 2018
+
+Input list    = S20180717S0040
+Output list   = 
+Output prefix = g
+Raw path      = ../raw/
+MDF dir       = gmos$data/
+Add MDF       = yes
+Input MDF in case header keyword not found = 
+
+Input  ../raw/S20180717S0040.fits   Output  gS20180717S0040.fits
+GPREPARE: Using MDF defined in the header 0.5arcsec
+GPREPARE: Taking MDF from directory gmos$data/
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2018-11-05T18:04:54
+File[extension]:             AMPNAME              GAIN   READNOISE
+gS20180717S0040.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
+gS20180717S0040.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
+gS20180717S0040.fits[SCI,3]: " "BI5-36-4k-2, 2""  1.878  4.24
+gS20180717S0040.fits[SCI,4]: " "BI5-36-4k-2, 1""  1.852  4.21
+gS20180717S0040.fits[SCI,5]: " "BI11-33-4k-1, 4""  1.908  3.90
+gS20180717S0040.fits[SCI,6]: " "BI11-33-4k-1, 3""  1.933  4.24
+gS20180717S0040.fits[SCI,7]: " "BI11-33-4k-1, 2""  1.840  4.07
+gS20180717S0040.fits[SCI,8]: " "BI11-33-4k-1, 1""  1.878  4.29
+gS20180717S0040.fits[SCI,9]: " "BI12-34-4k-1, 4""  1.813  4.15
+gS20180717S0040.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
+gS20180717S0040.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
+gS20180717S0040.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
+
+GGAIN -- Finished: 2018-11-05T18:04:54
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+
+Input files:
+gS20180717S0040
+
+Output files:
+tmpimage18816_844
+
+WARNING - GIREDUCE: Bad Pixel Mask filename is an empty string
+                    Only saturated pixels will be flagged
+GIREDUCE: Image tmpimage18816_844 overscan subtracted
+GIREDUCE: Image tmpimage18816_844 trimmed
+
+Output image       Bias                 Flat               Dark       Scale 
+tmpimage18816_844  MCbiasFull           INDEF              INDEF       0.00
+GSAT - Started: 2018-11-05T12:05:09
+GSAT: Bias level is 514.9963 Gain level is 1.834
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI5-36-4k-2, 4 1x1 Full Well Depth is: 118871.0
+GSAT: Calculated CCD saturation limit is 259260.632497
+GSAT: Calculated controller saturation limit is 65020.0037
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63719.603626
+GSAT - Finished: 2018-11-05T12:05:09
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:05:10
+GSAT: Bias level is 534.2056 Gain level is 1.874
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI5-36-4k-2, 3 1x1 Full Well Depth is: 121652.0
+GSAT: Calculated CCD saturation limit is 259662.753469
+GSAT: Calculated controller saturation limit is 65000.7944
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63700.778512
+GSAT - Finished: 2018-11-05T12:05:10
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:05:10
+GSAT: Bias level is 540.7452 Gain level is 1.878
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI5-36-4k-2, 2 1x1 Full Well Depth is: 121390.0
+GSAT: Calculated CCD saturation limit is 258551.650692
+GSAT: Calculated controller saturation limit is 64994.2548
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63694.369704
+GSAT - Finished: 2018-11-05T12:05:10
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:05:10
+GSAT: Bias level is 526.8162 Gain level is 1.852
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI5-36-4k-2, 1 1x1 Full Well Depth is: 120435.0
+GSAT: Calculated CCD saturation limit is 260118.790497
+GSAT: Calculated controller saturation limit is 65008.1838
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63708.020124
+GSAT - Finished: 2018-11-05T12:05:10
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:05:11
+GSAT: Bias level is 515.5772 Gain level is 1.908
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI11-33-4k-1, 4 1x1 Full Well Depth is: 123307.0
+GSAT: Calculated CCD saturation limit is 258505.24109
+GSAT: Calculated controller saturation limit is 65019.4228
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63719.034344
+GSAT - Finished: 2018-11-05T12:05:11
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:05:11
+GSAT: Bias level is 524.1745 Gain level is 1.933
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI11-33-4k-1, 3 1x1 Full Well Depth is: 125719.0
+GSAT: Calculated CCD saturation limit is 260153.12985
+GSAT: Calculated controller saturation limit is 65010.8255
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63710.60899
+GSAT - Finished: 2018-11-05T12:05:11
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:05:11
+GSAT: Bias level is 524.3864 Gain level is 1.84
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI11-33-4k-1, 2 1x1 Full Well Depth is: 119157.0
+GSAT: Calculated CCD saturation limit is 259036.956522
+GSAT: Calculated controller saturation limit is 65010.6136
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63710.401328
+GSAT - Finished: 2018-11-05T12:05:11
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:05:12
+GSAT: Bias level is 510.1192 Gain level is 1.878
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI11-33-4k-1, 1 1x1 Full Well Depth is: 121234.0
+GSAT: Calculated CCD saturation limit is 258219.382322
+GSAT: Calculated controller saturation limit is 65024.8808
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63724.383184
+GSAT - Finished: 2018-11-05T12:05:12
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:05:12
+GSAT: Bias level is 517.6867 Gain level is 1.813
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI12-34-4k-1, 4 1x1 Full Well Depth is: 118424.0
+GSAT: Calculated CCD saturation limit is 261277.440706
+GSAT: Calculated controller saturation limit is 65017.3133
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63716.967034
+GSAT - Finished: 2018-11-05T12:05:12
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:05:13
+GSAT: Bias level is 519.3939 Gain level is 1.724
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI12-34-4k-1, 3 1x1 Full Well Depth is: 112054.0
+GSAT: Calculated CCD saturation limit is 259986.078886
+GSAT: Calculated controller saturation limit is 65015.6061
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63715.293978
+GSAT - Finished: 2018-11-05T12:05:13
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:05:13
+GSAT: Bias level is 509.7568 Gain level is 1.761
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI12-34-4k-1, 2 1x1 Full Well Depth is: 114605.0
+GSAT: Calculated CCD saturation limit is 260318.001136
+GSAT: Calculated controller saturation limit is 65025.2432
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63724.738336
+GSAT - Finished: 2018-11-05T12:05:13
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:05:13
+GSAT: Bias level is 521.353 Gain level is 1.652
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI12-34-4k-1, 1 1x1 Full Well Depth is: 106966.0
+GSAT: Calculated CCD saturation limit is 258997.578692
+GSAT: Calculated controller saturation limit is 65013.647
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63713.37406
+GSAT - Finished: 2018-11-05T12:05:13
+GSAT - Exit status: GOOD
+GIREDUCE: Subtracted bias MCbiasFull from tmpimage18816_844
+GIREDUCE: multiplying image tmpimage18816_844 by gain
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2018-11-05T18:05:14
+File[extension]:               AMPNAME              GAIN   READNOISE
+tmpimage18816_844.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
+tmpimage18816_844.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
+tmpimage18816_844.fits[SCI,3]: " "BI5-36-4k-2, 2""  1.878  4.24
+tmpimage18816_844.fits[SCI,4]: " "BI5-36-4k-2, 1""  1.852  4.21
+tmpimage18816_844.fits[SCI,5]: " "BI11-33-4k-1, 4""  1.908  3.90
+tmpimage18816_844.fits[SCI,6]: " "BI11-33-4k-1, 3""  1.933  4.24
+tmpimage18816_844.fits[SCI,7]: " "BI11-33-4k-1, 2""  1.840  4.07
+tmpimage18816_844.fits[SCI,8]: " "BI11-33-4k-1, 1""  1.878  4.29
+tmpimage18816_844.fits[SCI,9]: " "BI12-34-4k-1, 4""  1.813  4.15
+tmpimage18816_844.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
+tmpimage18816_844.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
+tmpimage18816_844.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
+
+GGAIN -- Finished: 2018-11-05T18:05:18
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+GIREDUCE: output counts in electrons
+
+GIREDUCE - Cleaning up -- Mon Nov  5 12:05:18 CST 2018
+
+GIREDUCE -- Mon Nov  5 12:05:18 CST 2018
+GIREDUCE exit status:  good.
+----------------------------------------------------------------------------
+GSREDUCE: Updating PHU and cleaning up
+Input image = S20180717S0049.fits; Output image = gsS20180717S0049.fits
+GSREDUCE: Image S20180717S0049.fits has been QE corrected? no
+GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
+GSREDUCE: Calling GIREDUCE to process image
+----------------------------------------------------------------------------
+GIREDUCE -- Mon Nov  5 12:05:19 CST 2018
+
+----------------------------------------------------------------------------
+GPREPARE -- Mon Nov  5 12:05:19 CST 2018
+
+Input list    = S20180717S0049
+Output list   = 
+Output prefix = g
+Raw path      = ../raw/
+MDF dir       = gmos$data/
+Add MDF       = yes
+Input MDF in case header keyword not found = 
+
+Input  ../raw/S20180717S0049.fits   Output  gS20180717S0049.fits
+GPREPARE: Using MDF defined in the header 0.5arcsec
+GPREPARE: Taking MDF from directory gmos$data/
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2018-11-05T18:05:20
+File[extension]:             AMPNAME              GAIN   READNOISE
+gS20180717S0049.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
+gS20180717S0049.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
+gS20180717S0049.fits[SCI,3]: " "BI5-36-4k-2, 2""  1.878  4.24
+gS20180717S0049.fits[SCI,4]: " "BI5-36-4k-2, 1""  1.852  4.21
+gS20180717S0049.fits[SCI,5]: " "BI11-33-4k-1, 4""  1.908  3.90
+gS20180717S0049.fits[SCI,6]: " "BI11-33-4k-1, 3""  1.933  4.24
+gS20180717S0049.fits[SCI,7]: " "BI11-33-4k-1, 2""  1.840  4.07
+gS20180717S0049.fits[SCI,8]: " "BI11-33-4k-1, 1""  1.878  4.29
+gS20180717S0049.fits[SCI,9]: " "BI12-34-4k-1, 4""  1.813  4.15
+gS20180717S0049.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
+gS20180717S0049.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
+gS20180717S0049.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
+
+GGAIN -- Finished: 2018-11-05T18:05:20
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+
+Input files:
+gS20180717S0049
+
+Output files:
+tmpimage18816_893
+
+WARNING - GIREDUCE: Bad Pixel Mask filename is an empty string
+                    Only saturated pixels will be flagged
+GIREDUCE: Image tmpimage18816_893 overscan subtracted
+GIREDUCE: Image tmpimage18816_893 trimmed
+
+Output image       Bias                 Flat               Dark       Scale 
+tmpimage18816_893  MCbiasFull           INDEF              INDEF       0.00
+GSAT - Started: 2018-11-05T12:05:36
+GSAT: Bias level is 515.6425 Gain level is 1.834
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI5-36-4k-2, 4 1x1 Full Well Depth is: 118871.0
+GSAT: Calculated CCD saturation limit is 259260.632497
+GSAT: Calculated controller saturation limit is 65019.3575
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63718.97035
+GSAT - Finished: 2018-11-05T12:05:36
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:05:36
+GSAT: Bias level is 533.8882 Gain level is 1.874
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI5-36-4k-2, 3 1x1 Full Well Depth is: 121652.0
+GSAT: Calculated CCD saturation limit is 259662.753469
+GSAT: Calculated controller saturation limit is 65001.1118
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63701.089564
+GSAT - Finished: 2018-11-05T12:05:36
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:05:36
+GSAT: Bias level is 540.6257 Gain level is 1.878
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI5-36-4k-2, 2 1x1 Full Well Depth is: 121390.0
+GSAT: Calculated CCD saturation limit is 258551.650692
+GSAT: Calculated controller saturation limit is 64994.3743
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63694.486814
+GSAT - Finished: 2018-11-05T12:05:36
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:05:37
+GSAT: Bias level is 526.5626 Gain level is 1.852
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI5-36-4k-2, 1 1x1 Full Well Depth is: 120435.0
+GSAT: Calculated CCD saturation limit is 260118.790497
+GSAT: Calculated controller saturation limit is 65008.4374
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63708.268652
+GSAT - Finished: 2018-11-05T12:05:37
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:05:37
+GSAT: Bias level is 515.3101 Gain level is 1.908
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI11-33-4k-1, 4 1x1 Full Well Depth is: 123307.0
+GSAT: Calculated CCD saturation limit is 258505.24109
+GSAT: Calculated controller saturation limit is 65019.6899
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63719.296102
+GSAT - Finished: 2018-11-05T12:05:37
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:05:37
+GSAT: Bias level is 523.6027 Gain level is 1.933
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI11-33-4k-1, 3 1x1 Full Well Depth is: 125719.0
+GSAT: Calculated CCD saturation limit is 260153.12985
+GSAT: Calculated controller saturation limit is 65011.3973
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63711.169354
+GSAT - Finished: 2018-11-05T12:05:37
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:05:38
+GSAT: Bias level is 524.292 Gain level is 1.84
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI11-33-4k-1, 2 1x1 Full Well Depth is: 119157.0
+GSAT: Calculated CCD saturation limit is 259036.956522
+GSAT: Calculated controller saturation limit is 65010.708
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63710.49384
+GSAT - Finished: 2018-11-05T12:05:38
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:05:38
+GSAT: Bias level is 509.5184 Gain level is 1.878
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI11-33-4k-1, 1 1x1 Full Well Depth is: 121234.0
+GSAT: Calculated CCD saturation limit is 258219.382322
+GSAT: Calculated controller saturation limit is 65025.4816
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63724.971968
+GSAT - Finished: 2018-11-05T12:05:38
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:05:38
+GSAT: Bias level is 518.9713 Gain level is 1.813
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI12-34-4k-1, 4 1x1 Full Well Depth is: 118424.0
+GSAT: Calculated CCD saturation limit is 261277.440706
+GSAT: Calculated controller saturation limit is 65016.0287
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63715.708126
+GSAT - Finished: 2018-11-05T12:05:38
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:05:39
+GSAT: Bias level is 520.5417 Gain level is 1.724
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI12-34-4k-1, 3 1x1 Full Well Depth is: 112054.0
+GSAT: Calculated CCD saturation limit is 259986.078886
+GSAT: Calculated controller saturation limit is 65014.4583
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63714.169134
+GSAT - Finished: 2018-11-05T12:05:39
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:05:39
+GSAT: Bias level is 510.4906 Gain level is 1.761
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI12-34-4k-1, 2 1x1 Full Well Depth is: 114605.0
+GSAT: Calculated CCD saturation limit is 260318.001136
+GSAT: Calculated controller saturation limit is 65024.5094
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63724.019212
+GSAT - Finished: 2018-11-05T12:05:39
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:05:40
+GSAT: Bias level is 522.3176 Gain level is 1.652
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI12-34-4k-1, 1 1x1 Full Well Depth is: 106966.0
+GSAT: Calculated CCD saturation limit is 258997.578692
+GSAT: Calculated controller saturation limit is 65012.6824
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63712.428752
+GSAT - Finished: 2018-11-05T12:05:40
+GSAT - Exit status: GOOD
+GIREDUCE: Subtracted bias MCbiasFull from tmpimage18816_893
+GIREDUCE: multiplying image tmpimage18816_893 by gain
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2018-11-05T18:05:40
+File[extension]:               AMPNAME              GAIN   READNOISE
+tmpimage18816_893.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
+tmpimage18816_893.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
+tmpimage18816_893.fits[SCI,3]: " "BI5-36-4k-2, 2""  1.878  4.24
+tmpimage18816_893.fits[SCI,4]: " "BI5-36-4k-2, 1""  1.852  4.21
+tmpimage18816_893.fits[SCI,5]: " "BI11-33-4k-1, 4""  1.908  3.90
+tmpimage18816_893.fits[SCI,6]: " "BI11-33-4k-1, 3""  1.933  4.24
+tmpimage18816_893.fits[SCI,7]: " "BI11-33-4k-1, 2""  1.840  4.07
+tmpimage18816_893.fits[SCI,8]: " "BI11-33-4k-1, 1""  1.878  4.29
+tmpimage18816_893.fits[SCI,9]: " "BI12-34-4k-1, 4""  1.813  4.15
+tmpimage18816_893.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
+tmpimage18816_893.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
+tmpimage18816_893.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
+
+GGAIN -- Finished: 2018-11-05T18:05:45
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+GIREDUCE: output counts in electrons
+
+GIREDUCE - Cleaning up -- Mon Nov  5 12:05:45 CST 2018
+
+GIREDUCE -- Mon Nov  5 12:05:45 CST 2018
+GIREDUCE exit status:  good.
+----------------------------------------------------------------------------
+GSREDUCE: Updating PHU and cleaning up
+Input image = S20180912S0035.fits; Output image = gsS20180912S0035.fits
+GSREDUCE: Image S20180912S0035.fits has been QE corrected? no
+GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
+GSREDUCE: Calling GIREDUCE to process image
+----------------------------------------------------------------------------
+GIREDUCE -- Mon Nov  5 12:05:45 CST 2018
+
+----------------------------------------------------------------------------
+GPREPARE -- Mon Nov  5 12:05:45 CST 2018
+
+Input list    = S20180912S0035
+Output list   = 
+Output prefix = g
+Raw path      = ../raw/
+MDF dir       = gmos$data/
+Add MDF       = yes
+Input MDF in case header keyword not found = 
+
+Input  ../raw/S20180912S0035.fits   Output  gS20180912S0035.fits
+GPREPARE: Using MDF defined in the header 0.5arcsec
+GPREPARE: Taking MDF from directory gmos$data/
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2018-11-05T18:05:46
+File[extension]:             AMPNAME              GAIN   READNOISE
+gS20180912S0035.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
+gS20180912S0035.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
+gS20180912S0035.fits[SCI,3]: " "BI5-36-4k-2, 2""  1.878  4.24
+gS20180912S0035.fits[SCI,4]: " "BI5-36-4k-2, 1""  1.852  4.21
+gS20180912S0035.fits[SCI,5]: " "BI11-33-4k-1, 4""  1.908  3.90
+gS20180912S0035.fits[SCI,6]: " "BI11-33-4k-1, 3""  1.933  4.24
+gS20180912S0035.fits[SCI,7]: " "BI11-33-4k-1, 2""  1.840  4.07
+gS20180912S0035.fits[SCI,8]: " "BI11-33-4k-1, 1""  1.878  4.29
+gS20180912S0035.fits[SCI,9]: " "BI12-34-4k-1, 4""  1.813  4.15
+gS20180912S0035.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
+gS20180912S0035.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
+gS20180912S0035.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
+
+GGAIN -- Finished: 2018-11-05T18:05:46
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+
+Input files:
+gS20180912S0035
+
+Output files:
+tmpimage18816_942
+
+WARNING - GIREDUCE: Bad Pixel Mask filename is an empty string
+                    Only saturated pixels will be flagged
+GIREDUCE: Image tmpimage18816_942 overscan subtracted
+GIREDUCE: Image tmpimage18816_942 trimmed
+
+Output image       Bias                 Flat               Dark       Scale 
+tmpimage18816_942  MCbiasFull           INDEF              INDEF       0.00
+GSAT - Started: 2018-11-05T12:06:02
+GSAT: Bias level is 492.5074 Gain level is 1.834
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI5-36-4k-2, 4 1x1 Full Well Depth is: 118871.0
+GSAT: Calculated CCD saturation limit is 259260.632497
+GSAT: Calculated controller saturation limit is 65042.4926
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63741.642748
+GSAT - Finished: 2018-11-05T12:06:02
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:06:02
+GSAT: Bias level is 497.3794 Gain level is 1.874
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI5-36-4k-2, 3 1x1 Full Well Depth is: 121652.0
+GSAT: Calculated CCD saturation limit is 259662.753469
+GSAT: Calculated controller saturation limit is 65037.6206
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63736.868188
+GSAT - Finished: 2018-11-05T12:06:02
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:06:02
+GSAT: Bias level is 516.0995 Gain level is 1.878
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI5-36-4k-2, 2 1x1 Full Well Depth is: 121390.0
+GSAT: Calculated CCD saturation limit is 258551.650692
+GSAT: Calculated controller saturation limit is 65018.9005
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63718.52249
+GSAT - Finished: 2018-11-05T12:06:02
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:06:03
+GSAT: Bias level is 494.6483 Gain level is 1.852
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI5-36-4k-2, 1 1x1 Full Well Depth is: 120435.0
+GSAT: Calculated CCD saturation limit is 260118.790497
+GSAT: Calculated controller saturation limit is 65040.3517
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63739.544666
+GSAT - Finished: 2018-11-05T12:06:03
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:06:03
+GSAT: Bias level is 422.6191 Gain level is 1.908
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI11-33-4k-1, 4 1x1 Full Well Depth is: 123307.0
+GSAT: Calculated CCD saturation limit is 258505.24109
+GSAT: Calculated controller saturation limit is 65112.3809
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63810.133282
+GSAT - Finished: 2018-11-05T12:06:03
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:06:03
+GSAT: Bias level is 426.0348 Gain level is 1.933
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI11-33-4k-1, 3 1x1 Full Well Depth is: 125719.0
+GSAT: Calculated CCD saturation limit is 260153.12985
+GSAT: Calculated controller saturation limit is 65108.9652
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63806.785896
+GSAT - Finished: 2018-11-05T12:06:03
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:06:04
+GSAT: Bias level is 454.9074 Gain level is 1.84
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI11-33-4k-1, 2 1x1 Full Well Depth is: 119157.0
+GSAT: Calculated CCD saturation limit is 259036.956522
+GSAT: Calculated controller saturation limit is 65080.0926
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63778.490748
+GSAT - Finished: 2018-11-05T12:06:04
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:06:04
+GSAT: Bias level is 457.4446 Gain level is 1.878
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI11-33-4k-1, 1 1x1 Full Well Depth is: 121234.0
+GSAT: Calculated CCD saturation limit is 258219.382322
+GSAT: Calculated controller saturation limit is 65077.5554
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63776.004292
+GSAT - Finished: 2018-11-05T12:06:04
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:06:04
+GSAT: Bias level is 496.4002 Gain level is 1.813
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI12-34-4k-1, 4 1x1 Full Well Depth is: 118424.0
+GSAT: Calculated CCD saturation limit is 261277.440706
+GSAT: Calculated controller saturation limit is 65038.5998
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63737.827804
+GSAT - Finished: 2018-11-05T12:06:04
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:06:05
+GSAT: Bias level is 499.341 Gain level is 1.724
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI12-34-4k-1, 3 1x1 Full Well Depth is: 112054.0
+GSAT: Calculated CCD saturation limit is 259986.078886
+GSAT: Calculated controller saturation limit is 65035.659
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63734.94582
+GSAT - Finished: 2018-11-05T12:06:05
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:06:05
+GSAT: Bias level is 493.6983 Gain level is 1.761
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI12-34-4k-1, 2 1x1 Full Well Depth is: 114605.0
+GSAT: Calculated CCD saturation limit is 260318.001136
+GSAT: Calculated controller saturation limit is 65041.3017
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63740.475666
+GSAT - Finished: 2018-11-05T12:06:05
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:06:05
+GSAT: Bias level is 500.0087 Gain level is 1.652
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI12-34-4k-1, 1 1x1 Full Well Depth is: 106966.0
+GSAT: Calculated CCD saturation limit is 258997.578692
+GSAT: Calculated controller saturation limit is 65034.9913
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63734.291474
+GSAT - Finished: 2018-11-05T12:06:06
+GSAT - Exit status: GOOD
+GIREDUCE: Subtracted bias MCbiasFull from tmpimage18816_942
+GIREDUCE: multiplying image tmpimage18816_942 by gain
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2018-11-05T18:06:06
+File[extension]:               AMPNAME              GAIN   READNOISE
+tmpimage18816_942.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
+tmpimage18816_942.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
+tmpimage18816_942.fits[SCI,3]: " "BI5-36-4k-2, 2""  1.878  4.24
+tmpimage18816_942.fits[SCI,4]: " "BI5-36-4k-2, 1""  1.852  4.21
+tmpimage18816_942.fits[SCI,5]: " "BI11-33-4k-1, 4""  1.908  3.90
+tmpimage18816_942.fits[SCI,6]: " "BI11-33-4k-1, 3""  1.933  4.24
+tmpimage18816_942.fits[SCI,7]: " "BI11-33-4k-1, 2""  1.840  4.07
+tmpimage18816_942.fits[SCI,8]: " "BI11-33-4k-1, 1""  1.878  4.29
+tmpimage18816_942.fits[SCI,9]: " "BI12-34-4k-1, 4""  1.813  4.15
+tmpimage18816_942.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
+tmpimage18816_942.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
+tmpimage18816_942.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
+
+GGAIN -- Finished: 2018-11-05T18:06:11
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+GIREDUCE: output counts in electrons
+
+GIREDUCE - Cleaning up -- Mon Nov  5 12:06:11 CST 2018
+
+GIREDUCE -- Mon Nov  5 12:06:11 CST 2018
+GIREDUCE exit status:  good.
+----------------------------------------------------------------------------
+GSREDUCE: Updating PHU and cleaning up
+Input image = S20180918S0023.fits; Output image = gsS20180918S0023.fits
+GSREDUCE: Image S20180918S0023.fits has been QE corrected? no
+GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
+GSREDUCE: Calling GIREDUCE to process image
+----------------------------------------------------------------------------
+GIREDUCE -- Mon Nov  5 12:06:11 CST 2018
+
+----------------------------------------------------------------------------
+GPREPARE -- Mon Nov  5 12:06:11 CST 2018
+
+Input list    = S20180918S0023
+Output list   = 
+Output prefix = g
+Raw path      = ../raw/
+MDF dir       = gmos$data/
+Add MDF       = yes
+Input MDF in case header keyword not found = 
+
+Input  ../raw/S20180918S0023.fits   Output  gS20180918S0023.fits
+GPREPARE: Using MDF defined in the header 0.5arcsec
+GPREPARE: Taking MDF from directory gmos$data/
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2018-11-05T18:06:12
+File[extension]:             AMPNAME              GAIN   READNOISE
+gS20180918S0023.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
+gS20180918S0023.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
+gS20180918S0023.fits[SCI,3]: " "BI5-36-4k-2, 2""  1.878  4.24
+gS20180918S0023.fits[SCI,4]: " "BI5-36-4k-2, 1""  1.852  4.21
+gS20180918S0023.fits[SCI,5]: " "BI11-33-4k-1, 4""  1.908  3.90
+gS20180918S0023.fits[SCI,6]: " "BI11-33-4k-1, 3""  1.933  4.24
+gS20180918S0023.fits[SCI,7]: " "BI11-33-4k-1, 2""  1.840  4.07
+gS20180918S0023.fits[SCI,8]: " "BI11-33-4k-1, 1""  1.878  4.29
+gS20180918S0023.fits[SCI,9]: " "BI12-34-4k-1, 4""  1.813  4.15
+gS20180918S0023.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
+gS20180918S0023.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
+gS20180918S0023.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
+
+GGAIN -- Finished: 2018-11-05T18:06:12
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+
+Input files:
+gS20180918S0023
+
+Output files:
+tmpimage18816_991
+
+WARNING - GIREDUCE: Bad Pixel Mask filename is an empty string
+                    Only saturated pixels will be flagged
+GIREDUCE: Image tmpimage18816_991 overscan subtracted
+GIREDUCE: Image tmpimage18816_991 trimmed
+
+Output image       Bias                 Flat               Dark       Scale 
+tmpimage18816_991  MCbiasFull           INDEF              INDEF       0.00
+GSAT - Started: 2018-11-05T12:06:28
+GSAT: Bias level is 495.1467 Gain level is 1.834
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI5-36-4k-2, 4 1x1 Full Well Depth is: 118871.0
+GSAT: Calculated CCD saturation limit is 259260.632497
+GSAT: Calculated controller saturation limit is 65039.8533
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63739.056234
+GSAT - Finished: 2018-11-05T12:06:28
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:06:28
+GSAT: Bias level is 495.3163 Gain level is 1.874
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI5-36-4k-2, 3 1x1 Full Well Depth is: 121652.0
+GSAT: Calculated CCD saturation limit is 259662.753469
+GSAT: Calculated controller saturation limit is 65039.6837
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63738.890026
+GSAT - Finished: 2018-11-05T12:06:28
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:06:28
+GSAT: Bias level is 522.8068 Gain level is 1.878
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI5-36-4k-2, 2 1x1 Full Well Depth is: 121390.0
+GSAT: Calculated CCD saturation limit is 258551.650692
+GSAT: Calculated controller saturation limit is 65012.1932
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63711.949336
+GSAT - Finished: 2018-11-05T12:06:28
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:06:29
+GSAT: Bias level is 493.8025 Gain level is 1.852
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI5-36-4k-2, 1 1x1 Full Well Depth is: 120435.0
+GSAT: Calculated CCD saturation limit is 260118.790497
+GSAT: Calculated controller saturation limit is 65041.1975
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63740.37355
+GSAT - Finished: 2018-11-05T12:06:29
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:06:29
+GSAT: Bias level is 423.8531 Gain level is 1.908
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI11-33-4k-1, 4 1x1 Full Well Depth is: 123307.0
+GSAT: Calculated CCD saturation limit is 258505.24109
+GSAT: Calculated controller saturation limit is 65111.1469
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63808.923962
+GSAT - Finished: 2018-11-05T12:06:29
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:06:29
+GSAT: Bias level is 429.7945 Gain level is 1.933
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI11-33-4k-1, 3 1x1 Full Well Depth is: 125719.0
+GSAT: Calculated CCD saturation limit is 260153.12985
+GSAT: Calculated controller saturation limit is 65105.2055
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63803.10139
+GSAT - Finished: 2018-11-05T12:06:29
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:06:30
+GSAT: Bias level is 456.8383 Gain level is 1.84
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI11-33-4k-1, 2 1x1 Full Well Depth is: 119157.0
+GSAT: Calculated CCD saturation limit is 259036.956522
+GSAT: Calculated controller saturation limit is 65078.1617
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63776.598466
+GSAT - Finished: 2018-11-05T12:06:30
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:06:30
+GSAT: Bias level is 459.085 Gain level is 1.878
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI11-33-4k-1, 1 1x1 Full Well Depth is: 121234.0
+GSAT: Calculated CCD saturation limit is 258219.382322
+GSAT: Calculated controller saturation limit is 65075.915
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63774.3967
+GSAT - Finished: 2018-11-05T12:06:30
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:06:30
+GSAT: Bias level is 504.552 Gain level is 1.813
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI12-34-4k-1, 4 1x1 Full Well Depth is: 118424.0
+GSAT: Calculated CCD saturation limit is 261277.440706
+GSAT: Calculated controller saturation limit is 65030.448
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63729.83904
+GSAT - Finished: 2018-11-05T12:06:30
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:06:31
+GSAT: Bias level is 517.9811 Gain level is 1.724
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI12-34-4k-1, 3 1x1 Full Well Depth is: 112054.0
+GSAT: Calculated CCD saturation limit is 259986.078886
+GSAT: Calculated controller saturation limit is 65017.0189
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63716.678522
+GSAT - Finished: 2018-11-05T12:06:31
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:06:31
+GSAT: Bias level is 502.0217 Gain level is 1.761
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI12-34-4k-1, 2 1x1 Full Well Depth is: 114605.0
+GSAT: Calculated CCD saturation limit is 260318.001136
+GSAT: Calculated controller saturation limit is 65032.9783
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63732.318734
+GSAT - Finished: 2018-11-05T12:06:31
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:06:32
+GSAT: Bias level is 507.1389 Gain level is 1.652
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI12-34-4k-1, 1 1x1 Full Well Depth is: 106966.0
+GSAT: Calculated CCD saturation limit is 258997.578692
+GSAT: Calculated controller saturation limit is 65027.8611
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63727.303878
+GSAT - Finished: 2018-11-05T12:06:32
+GSAT - Exit status: GOOD
+GIREDUCE: Subtracted bias MCbiasFull from tmpimage18816_991
+GIREDUCE: multiplying image tmpimage18816_991 by gain
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2018-11-05T18:06:32
+File[extension]:               AMPNAME              GAIN   READNOISE
+tmpimage18816_991.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
+tmpimage18816_991.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
+tmpimage18816_991.fits[SCI,3]: " "BI5-36-4k-2, 2""  1.878  4.24
+tmpimage18816_991.fits[SCI,4]: " "BI5-36-4k-2, 1""  1.852  4.21
+tmpimage18816_991.fits[SCI,5]: " "BI11-33-4k-1, 4""  1.908  3.90
+tmpimage18816_991.fits[SCI,6]: " "BI11-33-4k-1, 3""  1.933  4.24
+tmpimage18816_991.fits[SCI,7]: " "BI11-33-4k-1, 2""  1.840  4.07
+tmpimage18816_991.fits[SCI,8]: " "BI11-33-4k-1, 1""  1.878  4.29
+tmpimage18816_991.fits[SCI,9]: " "BI12-34-4k-1, 4""  1.813  4.15
+tmpimage18816_991.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
+tmpimage18816_991.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
+tmpimage18816_991.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
+
+GGAIN -- Finished: 2018-11-05T18:06:37
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+GIREDUCE: output counts in electrons
+
+GIREDUCE - Cleaning up -- Mon Nov  5 12:06:37 CST 2018
+
+GIREDUCE -- Mon Nov  5 12:06:37 CST 2018
+GIREDUCE exit status:  good.
+----------------------------------------------------------------------------
+GSREDUCE: Updating PHU and cleaning up
+Input image = S20180918S0032.fits; Output image = gsS20180918S0032.fits
+GSREDUCE: Image S20180918S0032.fits has been QE corrected? no
+GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
+GSREDUCE: Calling GIREDUCE to process image
+----------------------------------------------------------------------------
+GIREDUCE -- Mon Nov  5 12:06:37 CST 2018
+
+----------------------------------------------------------------------------
+GPREPARE -- Mon Nov  5 12:06:37 CST 2018
+
+Input list    = S20180918S0032
+Output list   = 
+Output prefix = g
+Raw path      = ../raw/
+MDF dir       = gmos$data/
+Add MDF       = yes
+Input MDF in case header keyword not found = 
+
+Input  ../raw/S20180918S0032.fits   Output  gS20180918S0032.fits
+GPREPARE: Using MDF defined in the header 0.5arcsec
+GPREPARE: Taking MDF from directory gmos$data/
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2018-11-05T18:06:38
+File[extension]:             AMPNAME              GAIN   READNOISE
+gS20180918S0032.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
+gS20180918S0032.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
+gS20180918S0032.fits[SCI,3]: " "BI5-36-4k-2, 2""  1.878  4.24
+gS20180918S0032.fits[SCI,4]: " "BI5-36-4k-2, 1""  1.852  4.21
+gS20180918S0032.fits[SCI,5]: " "BI11-33-4k-1, 4""  1.908  3.90
+gS20180918S0032.fits[SCI,6]: " "BI11-33-4k-1, 3""  1.933  4.24
+gS20180918S0032.fits[SCI,7]: " "BI11-33-4k-1, 2""  1.840  4.07
+gS20180918S0032.fits[SCI,8]: " "BI11-33-4k-1, 1""  1.878  4.29
+gS20180918S0032.fits[SCI,9]: " "BI12-34-4k-1, 4""  1.813  4.15
+gS20180918S0032.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
+gS20180918S0032.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
+gS20180918S0032.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
+
+GGAIN -- Finished: 2018-11-05T18:06:39
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+
+Input files:
+gS20180918S0032
+
+Output files:
+tmpimage18816_1040
+
+WARNING - GIREDUCE: Bad Pixel Mask filename is an empty string
+                    Only saturated pixels will be flagged
+GIREDUCE: Image tmpimage18816_1040 overscan subtracted
+GIREDUCE: Image tmpimage18816_1040 trimmed
+
+Output image       Bias                 Flat               Dark       Scale 
+tmpimage18816_1040 MCbiasFull           INDEF              INDEF       0.00
+GSAT - Started: 2018-11-05T12:06:54
+GSAT: Bias level is 495.3237 Gain level is 1.834
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI5-36-4k-2, 4 1x1 Full Well Depth is: 118871.0
+GSAT: Calculated CCD saturation limit is 259260.632497
+GSAT: Calculated controller saturation limit is 65039.6763
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63738.882774
+GSAT - Finished: 2018-11-05T12:06:54
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:06:54
+GSAT: Bias level is 494.7223 Gain level is 1.874
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI5-36-4k-2, 3 1x1 Full Well Depth is: 121652.0
+GSAT: Calculated CCD saturation limit is 259662.753469
+GSAT: Calculated controller saturation limit is 65040.2777
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63739.472146
+GSAT - Finished: 2018-11-05T12:06:54
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:06:55
+GSAT: Bias level is 522.5043 Gain level is 1.878
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI5-36-4k-2, 2 1x1 Full Well Depth is: 121390.0
+GSAT: Calculated CCD saturation limit is 258551.650692
+GSAT: Calculated controller saturation limit is 65012.4957
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63712.245786
+GSAT - Finished: 2018-11-05T12:06:55
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:06:55
+GSAT: Bias level is 493.5642 Gain level is 1.852
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI5-36-4k-2, 1 1x1 Full Well Depth is: 120435.0
+GSAT: Calculated CCD saturation limit is 260118.790497
+GSAT: Calculated controller saturation limit is 65041.4358
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63740.607084
+GSAT - Finished: 2018-11-05T12:06:55
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:06:55
+GSAT: Bias level is 426.086 Gain level is 1.908
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI11-33-4k-1, 4 1x1 Full Well Depth is: 123307.0
+GSAT: Calculated CCD saturation limit is 258505.24109
+GSAT: Calculated controller saturation limit is 65108.914
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63806.73572
+GSAT - Finished: 2018-11-05T12:06:55
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:06:56
+GSAT: Bias level is 430.2674 Gain level is 1.933
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI11-33-4k-1, 3 1x1 Full Well Depth is: 125719.0
+GSAT: Calculated CCD saturation limit is 260153.12985
+GSAT: Calculated controller saturation limit is 65104.7326
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63802.637948
+GSAT - Finished: 2018-11-05T12:06:56
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:06:56
+GSAT: Bias level is 456.9527 Gain level is 1.84
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI11-33-4k-1, 2 1x1 Full Well Depth is: 119157.0
+GSAT: Calculated CCD saturation limit is 259036.956522
+GSAT: Calculated controller saturation limit is 65078.0473
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63776.486354
+GSAT - Finished: 2018-11-05T12:06:56
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:06:56
+GSAT: Bias level is 458.9433 Gain level is 1.878
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI11-33-4k-1, 1 1x1 Full Well Depth is: 121234.0
+GSAT: Calculated CCD saturation limit is 258219.382322
+GSAT: Calculated controller saturation limit is 65076.0567
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63774.535566
+GSAT - Finished: 2018-11-05T12:06:56
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:06:57
+GSAT: Bias level is 506.2798 Gain level is 1.813
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI12-34-4k-1, 4 1x1 Full Well Depth is: 118424.0
+GSAT: Calculated CCD saturation limit is 261277.440706
+GSAT: Calculated controller saturation limit is 65028.7202
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63728.145796
+GSAT - Finished: 2018-11-05T12:06:57
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:06:57
+GSAT: Bias level is 518.7576 Gain level is 1.724
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI12-34-4k-1, 3 1x1 Full Well Depth is: 112054.0
+GSAT: Calculated CCD saturation limit is 259986.078886
+GSAT: Calculated controller saturation limit is 65016.2424
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63715.917552
+GSAT - Finished: 2018-11-05T12:06:57
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:06:57
+GSAT: Bias level is 502.8807 Gain level is 1.761
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI12-34-4k-1, 2 1x1 Full Well Depth is: 114605.0
+GSAT: Calculated CCD saturation limit is 260318.001136
+GSAT: Calculated controller saturation limit is 65032.1193
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63731.476914
+GSAT - Finished: 2018-11-05T12:06:57
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:06:58
+GSAT: Bias level is 508.2117 Gain level is 1.652
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI12-34-4k-1, 1 1x1 Full Well Depth is: 106966.0
+GSAT: Calculated CCD saturation limit is 258997.578692
+GSAT: Calculated controller saturation limit is 65026.7883
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63726.252534
+GSAT - Finished: 2018-11-05T12:06:58
+GSAT - Exit status: GOOD
+GIREDUCE: Subtracted bias MCbiasFull from tmpimage18816_1040
+GIREDUCE: multiplying image tmpimage18816_1040 by gain
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2018-11-05T18:06:58
+File[extension]:                AMPNAME              GAIN   READNOISE
+tmpimage18816_1040.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
+tmpimage18816_1040.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
+tmpimage18816_1040.fits[SCI,3]: " "BI5-36-4k-2, 2""  1.878  4.24
+tmpimage18816_1040.fits[SCI,4]: " "BI5-36-4k-2, 1""  1.852  4.21
+tmpimage18816_1040.fits[SCI,5]: " "BI11-33-4k-1, 4""  1.908  3.90
+tmpimage18816_1040.fits[SCI,6]: " "BI11-33-4k-1, 3""  1.933  4.24
+tmpimage18816_1040.fits[SCI,7]: " "BI11-33-4k-1, 2""  1.840  4.07
+tmpimage18816_1040.fits[SCI,8]: " "BI11-33-4k-1, 1""  1.878  4.29
+tmpimage18816_1040.fits[SCI,9]: " "BI12-34-4k-1, 4""  1.813  4.15
+tmpimage18816_1040.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
+tmpimage18816_1040.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
+tmpimage18816_1040.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
+
+GGAIN -- Finished: 2018-11-05T18:07:03
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+GIREDUCE: output counts in electrons
+
+GIREDUCE - Cleaning up -- Mon Nov  5 12:07:03 CST 2018
+
+GIREDUCE -- Mon Nov  5 12:07:03 CST 2018
+GIREDUCE exit status:  good.
+----------------------------------------------------------------------------
+GSREDUCE: Updating PHU and cleaning up
+Input image = S20180918S0041.fits; Output image = gsS20180918S0041.fits
+GSREDUCE: Image S20180918S0041.fits has been QE corrected? no
+GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
+GSREDUCE: Calling GIREDUCE to process image
+----------------------------------------------------------------------------
+GIREDUCE -- Mon Nov  5 12:07:03 CST 2018
+
+----------------------------------------------------------------------------
+GPREPARE -- Mon Nov  5 12:07:03 CST 2018
+
+Input list    = S20180918S0041
+Output list   = 
+Output prefix = g
+Raw path      = ../raw/
+MDF dir       = gmos$data/
+Add MDF       = yes
+Input MDF in case header keyword not found = 
+
+Input  ../raw/S20180918S0041.fits   Output  gS20180918S0041.fits
+GPREPARE: Using MDF defined in the header 0.5arcsec
+GPREPARE: Taking MDF from directory gmos$data/
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2018-11-05T18:07:04
+File[extension]:             AMPNAME              GAIN   READNOISE
+gS20180918S0041.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
+gS20180918S0041.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
+gS20180918S0041.fits[SCI,3]: " "BI5-36-4k-2, 2""  1.878  4.24
+gS20180918S0041.fits[SCI,4]: " "BI5-36-4k-2, 1""  1.852  4.21
+gS20180918S0041.fits[SCI,5]: " "BI11-33-4k-1, 4""  1.908  3.90
+gS20180918S0041.fits[SCI,6]: " "BI11-33-4k-1, 3""  1.933  4.24
+gS20180918S0041.fits[SCI,7]: " "BI11-33-4k-1, 2""  1.840  4.07
+gS20180918S0041.fits[SCI,8]: " "BI11-33-4k-1, 1""  1.878  4.29
+gS20180918S0041.fits[SCI,9]: " "BI12-34-4k-1, 4""  1.813  4.15
+gS20180918S0041.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
+gS20180918S0041.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
+gS20180918S0041.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
+
+GGAIN -- Finished: 2018-11-05T18:07:05
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+
+Input files:
+gS20180918S0041
+
+Output files:
+tmpimage18816_1089
+
+WARNING - GIREDUCE: Bad Pixel Mask filename is an empty string
+                    Only saturated pixels will be flagged
+GIREDUCE: Image tmpimage18816_1089 overscan subtracted
+GIREDUCE: Image tmpimage18816_1089 trimmed
+
+Output image       Bias                 Flat               Dark       Scale 
+tmpimage18816_1089 MCbiasFull           INDEF              INDEF       0.00
+GSAT - Started: 2018-11-05T12:07:20
+GSAT: Bias level is 494.6718 Gain level is 1.834
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI5-36-4k-2, 4 1x1 Full Well Depth is: 118871.0
+GSAT: Calculated CCD saturation limit is 259260.632497
+GSAT: Calculated controller saturation limit is 65040.3282
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63739.521636
+GSAT - Finished: 2018-11-05T12:07:20
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:07:20
+GSAT: Bias level is 493.4923 Gain level is 1.874
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI5-36-4k-2, 3 1x1 Full Well Depth is: 121652.0
+GSAT: Calculated CCD saturation limit is 259662.753469
+GSAT: Calculated controller saturation limit is 65041.5077
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63740.677546
+GSAT - Finished: 2018-11-05T12:07:20
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:07:21
+GSAT: Bias level is 520.9262 Gain level is 1.878
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI5-36-4k-2, 2 1x1 Full Well Depth is: 121390.0
+GSAT: Calculated CCD saturation limit is 258551.650692
+GSAT: Calculated controller saturation limit is 65014.0738
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63713.792324
+GSAT - Finished: 2018-11-05T12:07:21
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:07:21
+GSAT: Bias level is 491.9942 Gain level is 1.852
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI5-36-4k-2, 1 1x1 Full Well Depth is: 120435.0
+GSAT: Calculated CCD saturation limit is 260118.790497
+GSAT: Calculated controller saturation limit is 65043.0058
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63742.145684
+GSAT - Finished: 2018-11-05T12:07:21
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:07:21
+GSAT: Bias level is 426.5067 Gain level is 1.908
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI11-33-4k-1, 4 1x1 Full Well Depth is: 123307.0
+GSAT: Calculated CCD saturation limit is 258505.24109
+GSAT: Calculated controller saturation limit is 65108.4933
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63806.323434
+GSAT - Finished: 2018-11-05T12:07:21
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:07:22
+GSAT: Bias level is 429.5342 Gain level is 1.933
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI11-33-4k-1, 3 1x1 Full Well Depth is: 125719.0
+GSAT: Calculated CCD saturation limit is 260153.12985
+GSAT: Calculated controller saturation limit is 65105.4658
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63803.356484
+GSAT - Finished: 2018-11-05T12:07:22
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:07:22
+GSAT: Bias level is 456.117 Gain level is 1.84
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI11-33-4k-1, 2 1x1 Full Well Depth is: 119157.0
+GSAT: Calculated CCD saturation limit is 259036.956522
+GSAT: Calculated controller saturation limit is 65078.883
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63777.30534
+GSAT - Finished: 2018-11-05T12:07:22
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:07:22
+GSAT: Bias level is 457.7051 Gain level is 1.878
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI11-33-4k-1, 1 1x1 Full Well Depth is: 121234.0
+GSAT: Calculated CCD saturation limit is 258219.382322
+GSAT: Calculated controller saturation limit is 65077.2949
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63775.749002
+GSAT - Finished: 2018-11-05T12:07:22
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:07:23
+GSAT: Bias level is 507.8818 Gain level is 1.813
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI12-34-4k-1, 4 1x1 Full Well Depth is: 118424.0
+GSAT: Calculated CCD saturation limit is 261277.440706
+GSAT: Calculated controller saturation limit is 65027.1182
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63726.575836
+GSAT - Finished: 2018-11-05T12:07:23
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:07:23
+GSAT: Bias level is 521.8613 Gain level is 1.724
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI12-34-4k-1, 3 1x1 Full Well Depth is: 112054.0
+GSAT: Calculated CCD saturation limit is 259986.078886
+GSAT: Calculated controller saturation limit is 65013.1387
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63712.875926
+GSAT - Finished: 2018-11-05T12:07:23
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:07:23
+GSAT: Bias level is 504.9327 Gain level is 1.761
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI12-34-4k-1, 2 1x1 Full Well Depth is: 114605.0
+GSAT: Calculated CCD saturation limit is 260318.001136
+GSAT: Calculated controller saturation limit is 65030.0673
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63729.465954
+GSAT - Finished: 2018-11-05T12:07:24
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:07:24
+GSAT: Bias level is 509.2086 Gain level is 1.652
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI12-34-4k-1, 1 1x1 Full Well Depth is: 106966.0
+GSAT: Calculated CCD saturation limit is 258997.578692
+GSAT: Calculated controller saturation limit is 65025.7914
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63725.275572
+GSAT - Finished: 2018-11-05T12:07:24
+GSAT - Exit status: GOOD
+GIREDUCE: Subtracted bias MCbiasFull from tmpimage18816_1089
+GIREDUCE: multiplying image tmpimage18816_1089 by gain
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2018-11-05T18:07:24
+File[extension]:                AMPNAME              GAIN   READNOISE
+tmpimage18816_1089.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
+tmpimage18816_1089.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
+tmpimage18816_1089.fits[SCI,3]: " "BI5-36-4k-2, 2""  1.878  4.24
+tmpimage18816_1089.fits[SCI,4]: " "BI5-36-4k-2, 1""  1.852  4.21
+tmpimage18816_1089.fits[SCI,5]: " "BI11-33-4k-1, 4""  1.908  3.90
+tmpimage18816_1089.fits[SCI,6]: " "BI11-33-4k-1, 3""  1.933  4.24
+tmpimage18816_1089.fits[SCI,7]: " "BI11-33-4k-1, 2""  1.840  4.07
+tmpimage18816_1089.fits[SCI,8]: " "BI11-33-4k-1, 1""  1.878  4.29
+tmpimage18816_1089.fits[SCI,9]: " "BI12-34-4k-1, 4""  1.813  4.15
+tmpimage18816_1089.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
+tmpimage18816_1089.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
+tmpimage18816_1089.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
+
+GGAIN -- Finished: 2018-11-05T18:07:29
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+GIREDUCE: output counts in electrons
+
+GIREDUCE - Cleaning up -- Mon Nov  5 12:07:29 CST 2018
+
+GIREDUCE -- Mon Nov  5 12:07:29 CST 2018
+GIREDUCE exit status:  good.
+----------------------------------------------------------------------------
+GSREDUCE: Updating PHU and cleaning up
+Input image = S20180925S0073.fits; Output image = gsS20180925S0073.fits
+GSREDUCE: Image S20180925S0073.fits has been QE corrected? no
+GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
+GSREDUCE: Calling GIREDUCE to process image
+----------------------------------------------------------------------------
+GIREDUCE -- Mon Nov  5 12:07:29 CST 2018
+
+----------------------------------------------------------------------------
+GPREPARE -- Mon Nov  5 12:07:29 CST 2018
+
+Input list    = S20180925S0073
+Output list   = 
+Output prefix = g
+Raw path      = ../raw/
+MDF dir       = gmos$data/
+Add MDF       = yes
+Input MDF in case header keyword not found = 
+
+Input  ../raw/S20180925S0073.fits   Output  gS20180925S0073.fits
+GPREPARE: Using MDF defined in the header 0.5arcsec
+GPREPARE: Taking MDF from directory gmos$data/
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2018-11-05T18:07:31
+File[extension]:             AMPNAME              GAIN   READNOISE
+gS20180925S0073.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
+gS20180925S0073.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
+gS20180925S0073.fits[SCI,3]: " "BI5-36-4k-2, 2""  1.878  4.24
+gS20180925S0073.fits[SCI,4]: " "BI5-36-4k-2, 1""  1.852  4.21
+gS20180925S0073.fits[SCI,5]: " "BI11-33-4k-1, 4""  1.908  3.90
+gS20180925S0073.fits[SCI,6]: " "BI11-33-4k-1, 3""  1.933  4.24
+gS20180925S0073.fits[SCI,7]: " "BI11-33-4k-1, 2""  1.840  4.07
+gS20180925S0073.fits[SCI,8]: " "BI11-33-4k-1, 1""  1.878  4.29
+gS20180925S0073.fits[SCI,9]: " "BI12-34-4k-1, 4""  1.813  4.15
+gS20180925S0073.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
+gS20180925S0073.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
+gS20180925S0073.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
+
+GGAIN -- Finished: 2018-11-05T18:07:31
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+
+Input files:
+gS20180925S0073
+
+Output files:
+tmpimage18816_1138
+
+WARNING - GIREDUCE: Bad Pixel Mask filename is an empty string
+                    Only saturated pixels will be flagged
+GIREDUCE: Image tmpimage18816_1138 overscan subtracted
+GIREDUCE: Image tmpimage18816_1138 trimmed
+
+Output image       Bias                 Flat               Dark       Scale 
+tmpimage18816_1138 MCbiasFull           INDEF              INDEF       0.00
+GSAT - Started: 2018-11-05T12:07:46
+GSAT: Bias level is 494.7407 Gain level is 1.834
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI5-36-4k-2, 4 1x1 Full Well Depth is: 118871.0
+GSAT: Calculated CCD saturation limit is 259260.632497
+GSAT: Calculated controller saturation limit is 65040.2593
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63739.454114
+GSAT - Finished: 2018-11-05T12:07:46
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:07:47
+GSAT: Bias level is 499.0896 Gain level is 1.874
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI5-36-4k-2, 3 1x1 Full Well Depth is: 121652.0
+GSAT: Calculated CCD saturation limit is 259662.753469
+GSAT: Calculated controller saturation limit is 65035.9104
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63735.192192
+GSAT - Finished: 2018-11-05T12:07:47
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:07:47
+GSAT: Bias level is 524.6575 Gain level is 1.878
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI5-36-4k-2, 2 1x1 Full Well Depth is: 121390.0
+GSAT: Calculated CCD saturation limit is 258551.650692
+GSAT: Calculated controller saturation limit is 65010.3425
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63710.13565
+GSAT - Finished: 2018-11-05T12:07:47
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:07:47
+GSAT: Bias level is 495.6685 Gain level is 1.852
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI5-36-4k-2, 1 1x1 Full Well Depth is: 120435.0
+GSAT: Calculated CCD saturation limit is 260118.790497
+GSAT: Calculated controller saturation limit is 65039.3315
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63738.54487
+GSAT - Finished: 2018-11-05T12:07:47
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:07:48
+GSAT: Bias level is 426.1843 Gain level is 1.908
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI11-33-4k-1, 4 1x1 Full Well Depth is: 123307.0
+GSAT: Calculated CCD saturation limit is 258505.24109
+GSAT: Calculated controller saturation limit is 65108.8157
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63806.639386
+GSAT - Finished: 2018-11-05T12:07:48
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:07:48
+GSAT: Bias level is 434.2738 Gain level is 1.933
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI11-33-4k-1, 3 1x1 Full Well Depth is: 125719.0
+GSAT: Calculated CCD saturation limit is 260153.12985
+GSAT: Calculated controller saturation limit is 65100.7262
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63798.711676
+GSAT - Finished: 2018-11-05T12:07:48
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:07:48
+GSAT: Bias level is 458.3316 Gain level is 1.84
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI11-33-4k-1, 2 1x1 Full Well Depth is: 119157.0
+GSAT: Calculated CCD saturation limit is 259036.956522
+GSAT: Calculated controller saturation limit is 65076.6684
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63775.135032
+GSAT - Finished: 2018-11-05T12:07:48
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:07:49
+GSAT: Bias level is 463.0799 Gain level is 1.878
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI11-33-4k-1, 1 1x1 Full Well Depth is: 121234.0
+GSAT: Calculated CCD saturation limit is 258219.382322
+GSAT: Calculated controller saturation limit is 65071.9201
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63770.481698
+GSAT - Finished: 2018-11-05T12:07:49
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:07:49
+GSAT: Bias level is 499.319 Gain level is 1.813
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI12-34-4k-1, 4 1x1 Full Well Depth is: 118424.0
+GSAT: Calculated CCD saturation limit is 261277.440706
+GSAT: Calculated controller saturation limit is 65035.681
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63734.96738
+GSAT - Finished: 2018-11-05T12:07:49
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:07:49
+GSAT: Bias level is 502.6596 Gain level is 1.724
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI12-34-4k-1, 3 1x1 Full Well Depth is: 112054.0
+GSAT: Calculated CCD saturation limit is 259986.078886
+GSAT: Calculated controller saturation limit is 65032.3404
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63731.693592
+GSAT - Finished: 2018-11-05T12:07:49
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:07:50
+GSAT: Bias level is 486.2386 Gain level is 1.761
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI12-34-4k-1, 2 1x1 Full Well Depth is: 114605.0
+GSAT: Calculated CCD saturation limit is 260318.001136
+GSAT: Calculated controller saturation limit is 65048.7614
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63747.786172
+GSAT - Finished: 2018-11-05T12:07:50
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:07:50
+GSAT: Bias level is 502.0691 Gain level is 1.652
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI12-34-4k-1, 1 1x1 Full Well Depth is: 106966.0
+GSAT: Calculated CCD saturation limit is 258997.578692
+GSAT: Calculated controller saturation limit is 65032.9309
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63732.272282
+GSAT - Finished: 2018-11-05T12:07:50
+GSAT - Exit status: GOOD
+GIREDUCE: Subtracted bias MCbiasFull from tmpimage18816_1138
+GIREDUCE: multiplying image tmpimage18816_1138 by gain
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2018-11-05T18:07:50
+File[extension]:                AMPNAME              GAIN   READNOISE
+tmpimage18816_1138.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
+tmpimage18816_1138.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
+tmpimage18816_1138.fits[SCI,3]: " "BI5-36-4k-2, 2""  1.878  4.24
+tmpimage18816_1138.fits[SCI,4]: " "BI5-36-4k-2, 1""  1.852  4.21
+tmpimage18816_1138.fits[SCI,5]: " "BI11-33-4k-1, 4""  1.908  3.90
+tmpimage18816_1138.fits[SCI,6]: " "BI11-33-4k-1, 3""  1.933  4.24
+tmpimage18816_1138.fits[SCI,7]: " "BI11-33-4k-1, 2""  1.840  4.07
+tmpimage18816_1138.fits[SCI,8]: " "BI11-33-4k-1, 1""  1.878  4.29
+tmpimage18816_1138.fits[SCI,9]: " "BI12-34-4k-1, 4""  1.813  4.15
+tmpimage18816_1138.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
+tmpimage18816_1138.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
+tmpimage18816_1138.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
+
+GGAIN -- Finished: 2018-11-05T18:07:56
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+GIREDUCE: output counts in electrons
+
+GIREDUCE - Cleaning up -- Mon Nov  5 12:07:56 CST 2018
+
+GIREDUCE -- Mon Nov  5 12:07:56 CST 2018
+GIREDUCE exit status:  good.
+----------------------------------------------------------------------------
+GSREDUCE: Updating PHU and cleaning up
+Input image = S20180926S0021.fits; Output image = gsS20180926S0021.fits
+GSREDUCE: Image S20180926S0021.fits has been QE corrected? no
+GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
+GSREDUCE: Calling GIREDUCE to process image
+----------------------------------------------------------------------------
+GIREDUCE -- Mon Nov  5 12:07:56 CST 2018
+
+----------------------------------------------------------------------------
+GPREPARE -- Mon Nov  5 12:07:56 CST 2018
+
+Input list    = S20180926S0021
+Output list   = 
+Output prefix = g
+Raw path      = ../raw/
+MDF dir       = gmos$data/
+Add MDF       = yes
+Input MDF in case header keyword not found = 
+
+Input  ../raw/S20180926S0021.fits   Output  gS20180926S0021.fits
+GPREPARE: Using MDF defined in the header 0.5arcsec
+GPREPARE: Taking MDF from directory gmos$data/
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2018-11-05T18:07:57
+File[extension]:             AMPNAME              GAIN   READNOISE
+gS20180926S0021.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
+gS20180926S0021.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
+gS20180926S0021.fits[SCI,3]: " "BI5-36-4k-2, 2""  1.878  4.24
+gS20180926S0021.fits[SCI,4]: " "BI5-36-4k-2, 1""  1.852  4.21
+gS20180926S0021.fits[SCI,5]: " "BI11-33-4k-1, 4""  1.908  3.90
+gS20180926S0021.fits[SCI,6]: " "BI11-33-4k-1, 3""  1.933  4.24
+gS20180926S0021.fits[SCI,7]: " "BI11-33-4k-1, 2""  1.840  4.07
+gS20180926S0021.fits[SCI,8]: " "BI11-33-4k-1, 1""  1.878  4.29
+gS20180926S0021.fits[SCI,9]: " "BI12-34-4k-1, 4""  1.813  4.15
+gS20180926S0021.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
+gS20180926S0021.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
+gS20180926S0021.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
+
+GGAIN -- Finished: 2018-11-05T18:07:58
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+
+Input files:
+gS20180926S0021
+
+Output files:
+tmpimage18816_1187
+
+WARNING - GIREDUCE: Bad Pixel Mask filename is an empty string
+                    Only saturated pixels will be flagged
+GIREDUCE: Image tmpimage18816_1187 overscan subtracted
+GIREDUCE: Image tmpimage18816_1187 trimmed
+
+Output image       Bias                 Flat               Dark       Scale 
+tmpimage18816_1187 MCbiasFull           INDEF              INDEF       0.00
+GSAT - Started: 2018-11-05T12:08:13
+GSAT: Bias level is 493.4055 Gain level is 1.834
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI5-36-4k-2, 4 1x1 Full Well Depth is: 118871.0
+GSAT: Calculated CCD saturation limit is 259260.632497
+GSAT: Calculated controller saturation limit is 65041.5945
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63740.76261
+GSAT - Finished: 2018-11-05T12:08:13
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:08:13
+GSAT: Bias level is 499.218 Gain level is 1.874
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI5-36-4k-2, 3 1x1 Full Well Depth is: 121652.0
+GSAT: Calculated CCD saturation limit is 259662.753469
+GSAT: Calculated controller saturation limit is 65035.782
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63735.06636
+GSAT - Finished: 2018-11-05T12:08:14
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:08:14
+GSAT: Bias level is 524.4677 Gain level is 1.878
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI5-36-4k-2, 2 1x1 Full Well Depth is: 121390.0
+GSAT: Calculated CCD saturation limit is 258551.650692
+GSAT: Calculated controller saturation limit is 65010.5323
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63710.321654
+GSAT - Finished: 2018-11-05T12:08:14
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:08:14
+GSAT: Bias level is 495.7363 Gain level is 1.852
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI5-36-4k-2, 1 1x1 Full Well Depth is: 120435.0
+GSAT: Calculated CCD saturation limit is 260118.790497
+GSAT: Calculated controller saturation limit is 65039.2637
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63738.478426
+GSAT - Finished: 2018-11-05T12:08:14
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:08:14
+GSAT: Bias level is 422.6748 Gain level is 1.908
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI11-33-4k-1, 4 1x1 Full Well Depth is: 123307.0
+GSAT: Calculated CCD saturation limit is 258505.24109
+GSAT: Calculated controller saturation limit is 65112.3252
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63810.078696
+GSAT - Finished: 2018-11-05T12:08:15
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:08:15
+GSAT: Bias level is 431.4615 Gain level is 1.933
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI11-33-4k-1, 3 1x1 Full Well Depth is: 125719.0
+GSAT: Calculated CCD saturation limit is 260153.12985
+GSAT: Calculated controller saturation limit is 65103.5385
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63801.46773
+GSAT - Finished: 2018-11-05T12:08:15
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:08:15
+GSAT: Bias level is 457.3323 Gain level is 1.84
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI11-33-4k-1, 2 1x1 Full Well Depth is: 119157.0
+GSAT: Calculated CCD saturation limit is 259036.956522
+GSAT: Calculated controller saturation limit is 65077.6677
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63776.114346
+GSAT - Finished: 2018-11-05T12:08:15
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:08:16
+GSAT: Bias level is 462.2354 Gain level is 1.878
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI11-33-4k-1, 1 1x1 Full Well Depth is: 121234.0
+GSAT: Calculated CCD saturation limit is 258219.382322
+GSAT: Calculated controller saturation limit is 65072.7646
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63771.309308
+GSAT - Finished: 2018-11-05T12:08:16
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:08:16
+GSAT: Bias level is 496.5002 Gain level is 1.813
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI12-34-4k-1, 4 1x1 Full Well Depth is: 118424.0
+GSAT: Calculated CCD saturation limit is 261277.440706
+GSAT: Calculated controller saturation limit is 65038.4998
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63737.729804
+GSAT - Finished: 2018-11-05T12:08:16
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:08:16
+GSAT: Bias level is 501.0113 Gain level is 1.724
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI12-34-4k-1, 3 1x1 Full Well Depth is: 112054.0
+GSAT: Calculated CCD saturation limit is 259986.078886
+GSAT: Calculated controller saturation limit is 65033.9887
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63733.308926
+GSAT - Finished: 2018-11-05T12:08:16
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:08:17
+GSAT: Bias level is 483.9733 Gain level is 1.761
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI12-34-4k-1, 2 1x1 Full Well Depth is: 114605.0
+GSAT: Calculated CCD saturation limit is 260318.001136
+GSAT: Calculated controller saturation limit is 65051.0267
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63750.006166
+GSAT - Finished: 2018-11-05T12:08:17
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:08:17
+GSAT: Bias level is 500.6008 Gain level is 1.652
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI12-34-4k-1, 1 1x1 Full Well Depth is: 106966.0
+GSAT: Calculated CCD saturation limit is 258997.578692
+GSAT: Calculated controller saturation limit is 65034.3992
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63733.711216
+GSAT - Finished: 2018-11-05T12:08:17
+GSAT - Exit status: GOOD
+GIREDUCE: Subtracted bias MCbiasFull from tmpimage18816_1187
+GIREDUCE: multiplying image tmpimage18816_1187 by gain
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2018-11-05T18:08:17
+File[extension]:                AMPNAME              GAIN   READNOISE
+tmpimage18816_1187.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
+tmpimage18816_1187.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
+tmpimage18816_1187.fits[SCI,3]: " "BI5-36-4k-2, 2""  1.878  4.24
+tmpimage18816_1187.fits[SCI,4]: " "BI5-36-4k-2, 1""  1.852  4.21
+tmpimage18816_1187.fits[SCI,5]: " "BI11-33-4k-1, 4""  1.908  3.90
+tmpimage18816_1187.fits[SCI,6]: " "BI11-33-4k-1, 3""  1.933  4.24
+tmpimage18816_1187.fits[SCI,7]: " "BI11-33-4k-1, 2""  1.840  4.07
+tmpimage18816_1187.fits[SCI,8]: " "BI11-33-4k-1, 1""  1.878  4.29
+tmpimage18816_1187.fits[SCI,9]: " "BI12-34-4k-1, 4""  1.813  4.15
+tmpimage18816_1187.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
+tmpimage18816_1187.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
+tmpimage18816_1187.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
+
+GGAIN -- Finished: 2018-11-05T18:08:22
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+GIREDUCE: output counts in electrons
+
+GIREDUCE - Cleaning up -- Mon Nov  5 12:08:23 CST 2018
+
+GIREDUCE -- Mon Nov  5 12:08:23 CST 2018
+GIREDUCE exit status:  good.
+----------------------------------------------------------------------------
+GSREDUCE: Updating PHU and cleaning up
+Input image = S20180926S0030.fits; Output image = gsS20180926S0030.fits
+GSREDUCE: Image S20180926S0030.fits has been QE corrected? no
+GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
+GSREDUCE: Calling GIREDUCE to process image
+----------------------------------------------------------------------------
+GIREDUCE -- Mon Nov  5 12:08:23 CST 2018
+
+----------------------------------------------------------------------------
+GPREPARE -- Mon Nov  5 12:08:23 CST 2018
+
+Input list    = S20180926S0030
+Output list   = 
+Output prefix = g
+Raw path      = ../raw/
+MDF dir       = gmos$data/
+Add MDF       = yes
+Input MDF in case header keyword not found = 
+
+Input  ../raw/S20180926S0030.fits   Output  gS20180926S0030.fits
+GPREPARE: Using MDF defined in the header 0.5arcsec
+GPREPARE: Taking MDF from directory gmos$data/
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2018-11-05T18:08:24
+File[extension]:             AMPNAME              GAIN   READNOISE
+gS20180926S0030.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
+gS20180926S0030.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
+gS20180926S0030.fits[SCI,3]: " "BI5-36-4k-2, 2""  1.878  4.24
+gS20180926S0030.fits[SCI,4]: " "BI5-36-4k-2, 1""  1.852  4.21
+gS20180926S0030.fits[SCI,5]: " "BI11-33-4k-1, 4""  1.908  3.90
+gS20180926S0030.fits[SCI,6]: " "BI11-33-4k-1, 3""  1.933  4.24
+gS20180926S0030.fits[SCI,7]: " "BI11-33-4k-1, 2""  1.840  4.07
+gS20180926S0030.fits[SCI,8]: " "BI11-33-4k-1, 1""  1.878  4.29
+gS20180926S0030.fits[SCI,9]: " "BI12-34-4k-1, 4""  1.813  4.15
+gS20180926S0030.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
+gS20180926S0030.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
+gS20180926S0030.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
+
+GGAIN -- Finished: 2018-11-05T18:08:24
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+
+Input files:
+gS20180926S0030
+
+Output files:
+tmpimage18816_1236
+
+WARNING - GIREDUCE: Bad Pixel Mask filename is an empty string
+                    Only saturated pixels will be flagged
+GIREDUCE: Image tmpimage18816_1236 overscan subtracted
+GIREDUCE: Image tmpimage18816_1236 trimmed
+
+Output image       Bias                 Flat               Dark       Scale 
+tmpimage18816_1236 MCbiasFull           INDEF              INDEF       0.00
+GSAT - Started: 2018-11-05T12:08:40
+GSAT: Bias level is 495.8112 Gain level is 1.834
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI5-36-4k-2, 4 1x1 Full Well Depth is: 118871.0
+GSAT: Calculated CCD saturation limit is 259260.632497
+GSAT: Calculated controller saturation limit is 65039.1888
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63738.405024
+GSAT - Finished: 2018-11-05T12:08:40
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:08:40
+GSAT: Bias level is 499.4134 Gain level is 1.874
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI5-36-4k-2, 3 1x1 Full Well Depth is: 121652.0
+GSAT: Calculated CCD saturation limit is 259662.753469
+GSAT: Calculated controller saturation limit is 65035.5866
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63734.874868
+GSAT - Finished: 2018-11-05T12:08:40
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:08:41
+GSAT: Bias level is 525.5563 Gain level is 1.878
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI5-36-4k-2, 2 1x1 Full Well Depth is: 121390.0
+GSAT: Calculated CCD saturation limit is 258551.650692
+GSAT: Calculated controller saturation limit is 65009.4437
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63709.254826
+GSAT - Finished: 2018-11-05T12:08:41
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:08:41
+GSAT: Bias level is 496.7188 Gain level is 1.852
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI5-36-4k-2, 1 1x1 Full Well Depth is: 120435.0
+GSAT: Calculated CCD saturation limit is 260118.790497
+GSAT: Calculated controller saturation limit is 65038.2812
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63737.515576
+GSAT - Finished: 2018-11-05T12:08:41
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:08:41
+GSAT: Bias level is 428.3734 Gain level is 1.908
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI11-33-4k-1, 4 1x1 Full Well Depth is: 123307.0
+GSAT: Calculated CCD saturation limit is 258505.24109
+GSAT: Calculated controller saturation limit is 65106.6266
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63804.494068
+GSAT - Finished: 2018-11-05T12:08:41
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:08:42
+GSAT: Bias level is 435.4606 Gain level is 1.933
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI11-33-4k-1, 3 1x1 Full Well Depth is: 125719.0
+GSAT: Calculated CCD saturation limit is 260153.12985
+GSAT: Calculated controller saturation limit is 65099.5394
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63797.548612
+GSAT - Finished: 2018-11-05T12:08:42
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:08:42
+GSAT: Bias level is 460.2349 Gain level is 1.84
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI11-33-4k-1, 2 1x1 Full Well Depth is: 119157.0
+GSAT: Calculated CCD saturation limit is 259036.956522
+GSAT: Calculated controller saturation limit is 65074.7651
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63773.269798
+GSAT - Finished: 2018-11-05T12:08:42
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:08:42
+GSAT: Bias level is 464.029 Gain level is 1.878
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI11-33-4k-1, 1 1x1 Full Well Depth is: 121234.0
+GSAT: Calculated CCD saturation limit is 258219.382322
+GSAT: Calculated controller saturation limit is 65070.971
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63769.55158
+GSAT - Finished: 2018-11-05T12:08:43
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:08:43
+GSAT: Bias level is 501.9728 Gain level is 1.813
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI12-34-4k-1, 4 1x1 Full Well Depth is: 118424.0
+GSAT: Calculated CCD saturation limit is 261277.440706
+GSAT: Calculated controller saturation limit is 65033.0272
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63732.366656
+GSAT - Finished: 2018-11-05T12:08:43
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:08:43
+GSAT: Bias level is 505.8739 Gain level is 1.724
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI12-34-4k-1, 3 1x1 Full Well Depth is: 112054.0
+GSAT: Calculated CCD saturation limit is 259986.078886
+GSAT: Calculated controller saturation limit is 65029.1261
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63728.543578
+GSAT - Finished: 2018-11-05T12:08:43
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:08:44
+GSAT: Bias level is 489.9139 Gain level is 1.761
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI12-34-4k-1, 2 1x1 Full Well Depth is: 114605.0
+GSAT: Calculated CCD saturation limit is 260318.001136
+GSAT: Calculated controller saturation limit is 65045.0861
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63744.184378
+GSAT - Finished: 2018-11-05T12:08:44
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:08:44
+GSAT: Bias level is 505.6849 Gain level is 1.652
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI12-34-4k-1, 1 1x1 Full Well Depth is: 106966.0
+GSAT: Calculated CCD saturation limit is 258997.578692
+GSAT: Calculated controller saturation limit is 65029.3151
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63728.728798
+GSAT - Finished: 2018-11-05T12:08:44
+GSAT - Exit status: GOOD
+GIREDUCE: Subtracted bias MCbiasFull from tmpimage18816_1236
+GIREDUCE: multiplying image tmpimage18816_1236 by gain
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2018-11-05T18:08:44
+File[extension]:                AMPNAME              GAIN   READNOISE
+tmpimage18816_1236.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
+tmpimage18816_1236.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
+tmpimage18816_1236.fits[SCI,3]: " "BI5-36-4k-2, 2""  1.878  4.24
+tmpimage18816_1236.fits[SCI,4]: " "BI5-36-4k-2, 1""  1.852  4.21
+tmpimage18816_1236.fits[SCI,5]: " "BI11-33-4k-1, 4""  1.908  3.90
+tmpimage18816_1236.fits[SCI,6]: " "BI11-33-4k-1, 3""  1.933  4.24
+tmpimage18816_1236.fits[SCI,7]: " "BI11-33-4k-1, 2""  1.840  4.07
+tmpimage18816_1236.fits[SCI,8]: " "BI11-33-4k-1, 1""  1.878  4.29
+tmpimage18816_1236.fits[SCI,9]: " "BI12-34-4k-1, 4""  1.813  4.15
+tmpimage18816_1236.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
+tmpimage18816_1236.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
+tmpimage18816_1236.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
+
+GGAIN -- Finished: 2018-11-05T18:08:49
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+GIREDUCE: output counts in electrons
+
+GIREDUCE - Cleaning up -- Mon Nov  5 12:08:49 CST 2018
+
+GIREDUCE -- Mon Nov  5 12:08:49 CST 2018
+GIREDUCE exit status:  good.
+----------------------------------------------------------------------------
+GSREDUCE: Updating PHU and cleaning up
+Input image = S20181004S0024.fits; Output image = gsS20181004S0024.fits
+GSREDUCE: Image S20181004S0024.fits has been QE corrected? no
+GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
+GSREDUCE: Calling GIREDUCE to process image
+----------------------------------------------------------------------------
+GIREDUCE -- Mon Nov  5 12:08:50 CST 2018
+
+----------------------------------------------------------------------------
+GPREPARE -- Mon Nov  5 12:08:50 CST 2018
+
+Input list    = S20181004S0024
+Output list   = 
+Output prefix = g
+Raw path      = ../raw/
+MDF dir       = gmos$data/
+Add MDF       = yes
+Input MDF in case header keyword not found = 
+
+Input  ../raw/S20181004S0024.fits   Output  gS20181004S0024.fits
+GPREPARE: Using MDF defined in the header 0.5arcsec
+GPREPARE: Taking MDF from directory gmos$data/
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2018-11-05T18:08:51
+File[extension]:             AMPNAME              GAIN   READNOISE
+gS20181004S0024.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
+gS20181004S0024.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
+gS20181004S0024.fits[SCI,3]: " "BI5-36-4k-2, 2""  1.878  4.24
+gS20181004S0024.fits[SCI,4]: " "BI5-36-4k-2, 1""  1.852  4.21
+gS20181004S0024.fits[SCI,5]: " "BI11-33-4k-1, 4""  1.908  3.90
+gS20181004S0024.fits[SCI,6]: " "BI11-33-4k-1, 3""  1.933  4.24
+gS20181004S0024.fits[SCI,7]: " "BI11-33-4k-1, 2""  1.840  4.07
+gS20181004S0024.fits[SCI,8]: " "BI11-33-4k-1, 1""  1.878  4.29
+gS20181004S0024.fits[SCI,9]: " "BI12-34-4k-1, 4""  1.813  4.15
+gS20181004S0024.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
+gS20181004S0024.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
+gS20181004S0024.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
+
+GGAIN -- Finished: 2018-11-05T18:08:51
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+
+Input files:
+gS20181004S0024
+
+Output files:
+tmpimage18816_1285
+
+WARNING - GIREDUCE: Bad Pixel Mask filename is an empty string
+                    Only saturated pixels will be flagged
+GIREDUCE: Image tmpimage18816_1285 overscan subtracted
+GIREDUCE: Image tmpimage18816_1285 trimmed
+
+Output image       Bias                 Flat               Dark       Scale 
+tmpimage18816_1285 MCbiasFull           INDEF              INDEF       0.00
+GSAT - Started: 2018-11-05T12:09:06
+GSAT: Bias level is 492.4745 Gain level is 1.834
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI5-36-4k-2, 4 1x1 Full Well Depth is: 118871.0
+GSAT: Calculated CCD saturation limit is 259260.632497
+GSAT: Calculated controller saturation limit is 65042.5255
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63741.67499
+GSAT - Finished: 2018-11-05T12:09:06
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:09:07
+GSAT: Bias level is 498.9597 Gain level is 1.874
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI5-36-4k-2, 3 1x1 Full Well Depth is: 121652.0
+GSAT: Calculated CCD saturation limit is 259662.753469
+GSAT: Calculated controller saturation limit is 65036.0403
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63735.319494
+GSAT - Finished: 2018-11-05T12:09:07
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:09:07
+GSAT: Bias level is 522.6986 Gain level is 1.878
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI5-36-4k-2, 2 1x1 Full Well Depth is: 121390.0
+GSAT: Calculated CCD saturation limit is 258551.650692
+GSAT: Calculated controller saturation limit is 65012.3014
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63712.055372
+GSAT - Finished: 2018-11-05T12:09:07
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:09:07
+GSAT: Bias level is 495.1436 Gain level is 1.852
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI5-36-4k-2, 1 1x1 Full Well Depth is: 120435.0
+GSAT: Calculated CCD saturation limit is 260118.790497
+GSAT: Calculated controller saturation limit is 65039.8564
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63739.059272
+GSAT - Finished: 2018-11-05T12:09:07
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:09:08
+GSAT: Bias level is 420.6736 Gain level is 1.908
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI11-33-4k-1, 4 1x1 Full Well Depth is: 123307.0
+GSAT: Calculated CCD saturation limit is 258505.24109
+GSAT: Calculated controller saturation limit is 65114.3264
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63812.039872
+GSAT - Finished: 2018-11-05T12:09:08
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:09:08
+GSAT: Bias level is 432.3303 Gain level is 1.933
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI11-33-4k-1, 3 1x1 Full Well Depth is: 125719.0
+GSAT: Calculated CCD saturation limit is 260153.12985
+GSAT: Calculated controller saturation limit is 65102.6697
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63800.616306
+GSAT - Finished: 2018-11-05T12:09:08
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:09:08
+GSAT: Bias level is 456.4572 Gain level is 1.84
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI11-33-4k-1, 2 1x1 Full Well Depth is: 119157.0
+GSAT: Calculated CCD saturation limit is 259036.956522
+GSAT: Calculated controller saturation limit is 65078.5428
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63776.971944
+GSAT - Finished: 2018-11-05T12:09:09
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:09:09
+GSAT: Bias level is 461.2943 Gain level is 1.878
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI11-33-4k-1, 1 1x1 Full Well Depth is: 121234.0
+GSAT: Calculated CCD saturation limit is 258219.382322
+GSAT: Calculated controller saturation limit is 65073.7057
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63772.231586
+GSAT - Finished: 2018-11-05T12:09:09
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:09:09
+GSAT: Bias level is 496.0448 Gain level is 1.813
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI12-34-4k-1, 4 1x1 Full Well Depth is: 118424.0
+GSAT: Calculated CCD saturation limit is 261277.440706
+GSAT: Calculated controller saturation limit is 65038.9552
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63738.176096
+GSAT - Finished: 2018-11-05T12:09:09
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:09:10
+GSAT: Bias level is 499.5388 Gain level is 1.724
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI12-34-4k-1, 3 1x1 Full Well Depth is: 112054.0
+GSAT: Calculated CCD saturation limit is 259986.078886
+GSAT: Calculated controller saturation limit is 65035.4612
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63734.751976
+GSAT - Finished: 2018-11-05T12:09:10
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:09:10
+GSAT: Bias level is 482.6076 Gain level is 1.761
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI12-34-4k-1, 2 1x1 Full Well Depth is: 114605.0
+GSAT: Calculated CCD saturation limit is 260318.001136
+GSAT: Calculated controller saturation limit is 65052.3924
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63751.344552
+GSAT - Finished: 2018-11-05T12:09:10
+GSAT - Exit status: GOOD
+GSAT - Started: 2018-11-05T12:09:10
+GSAT: Bias level is 498.8011 Gain level is 1.652
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI12-34-4k-1, 1 1x1 Full Well Depth is: 106966.0
+GSAT: Calculated CCD saturation limit is 258997.578692
+GSAT: Calculated controller saturation limit is 65036.1989
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63735.474922
+GSAT - Finished: 2018-11-05T12:09:10
+GSAT - Exit status: GOOD
+GIREDUCE: Subtracted bias MCbiasFull from tmpimage18816_1285
+GIREDUCE: multiplying image tmpimage18816_1285 by gain
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2018-11-05T18:09:11
+File[extension]:                AMPNAME              GAIN   READNOISE
+tmpimage18816_1285.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
+tmpimage18816_1285.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
+tmpimage18816_1285.fits[SCI,3]: " "BI5-36-4k-2, 2""  1.878  4.24
+tmpimage18816_1285.fits[SCI,4]: " "BI5-36-4k-2, 1""  1.852  4.21
+tmpimage18816_1285.fits[SCI,5]: " "BI11-33-4k-1, 4""  1.908  3.90
+tmpimage18816_1285.fits[SCI,6]: " "BI11-33-4k-1, 3""  1.933  4.24
+tmpimage18816_1285.fits[SCI,7]: " "BI11-33-4k-1, 2""  1.840  4.07
+tmpimage18816_1285.fits[SCI,8]: " "BI11-33-4k-1, 1""  1.878  4.29
+tmpimage18816_1285.fits[SCI,9]: " "BI12-34-4k-1, 4""  1.813  4.15
+tmpimage18816_1285.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
+tmpimage18816_1285.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
+tmpimage18816_1285.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
+
+GGAIN -- Finished: 2018-11-05T18:09:16
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+GIREDUCE: output counts in electrons
+
+GIREDUCE - Cleaning up -- Mon Nov  5 12:09:16 CST 2018
+
+GIREDUCE -- Mon Nov  5 12:09:16 CST 2018
+GIREDUCE exit status:  good.
+----------------------------------------------------------------------------
+GSREDUCE: Updating PHU and cleaning up
+ 
+GSREDUCE done
+----------------------------------------------------------------------------
+GSFLAT: Returned from GSREDUCE.
+GSFLAT: Image #1 - Working on : gsS20180708S0084.fits
+GSFLAT: Image #2 - Working on : gsS20180709S0144.fits
+GSFLAT: Image #3 - Working on : gsS20180709S0153.fits
+GSFLAT: Image #4 - Working on : gsS20180711S0120.fits
+GSFLAT: Image #5 - Working on : gsS20180711S0197.fits
+GSFLAT: Image #6 - Working on : gsS20180717S0040.fits
+GSFLAT: Image #7 - Working on : gsS20180717S0049.fits
+GSFLAT: Image #8 - Working on : gsS20180912S0035.fits
+GSFLAT: Image #9 - Working on : gsS20180918S0023.fits
+GSFLAT: Image #10 - Working on : gsS20180918S0032.fits
+GSFLAT: Image #11 - Working on : gsS20180918S0041.fits
+GSFLAT: Image #12 - Working on : gsS20180925S0073.fits
+GSFLAT: Image #13 - Working on : gsS20180926S0021.fits
+GSFLAT: Image #14 - Working on : gsS20180926S0030.fits
+GSFLAT: Image #15 - Working on : gsS20181004S0024.fits
+ 
+--------------------------------------------------------------------------------
+GEMCOMBINE -- Mon Nov  5 12:09:16 CST 2018
+ 
+GEMCOMBINE: input = @tmpscilist8816_586
+GEMCOMBINE: output = tmpcombflat8816_589
+GEMCOMBINE: title = 
+GEMCOMBINE: bpmfile = 
+GEMCOMBINE: sci_ext = SCI
+GEMCOMBINE: var_ext = VAR
+GEMCOMBINE: dq_ext = DQ
+ 
+
+------------------------------------------------------------
+GEMSECCHK -- Started: 2018-11-05T12:09:17
+
+GEMSECCHK: Input parameters...
+    inimage     = gsS20180708S0084.fits[SCI,1]
+    section     = 
+
+GEMSECCHK: Output image section -- [*,*]
+
+GEMSECCHK -- Finished: 2018-11-05T12:09:17
+
+GEMSECCHK -- Exit status: GOOD
+------------------------------------------------------------
+
+Nov  5 12:09: IMCOMBINE
+  combine = average, scale = mean, zero = none, weight = none
+  reject = avsigclip, mclip = yes, nkeep = 0
+  lsigma = 3., hsigma = 3.
+  blank = 0.
+  statsec = Nov  5 12:09
+  masktype = goodval, maskval = 0
+                Images     Mean  Scale Maskfile
+  gsS20180708S0084.fits[SCI,1]  36452.  1.000 tmpdq8816_1338_1.pl
+  gsS20180709S0144.fits[SCI,1]  36611.  0.996 tmpdq8816_1338_2.pl
+  gsS20180709S0153.fits[SCI,1]  35709.  1.021 tmpdq8816_1338_3.pl
+  gsS20180711S0120.fits[SCI,1]  36127.  1.009 tmpdq8816_1338_4.pl
+  gsS20180711S0197.fits[SCI,1]  36876.  0.988 tmpdq8816_1338_5.pl
+  gsS20180717S0040.fits[SCI,1]  35741.  1.020 tmpdq8816_1338_6.pl
+  gsS20180717S0049.fits[SCI,1]  36581.  0.996 tmpdq8816_1338_7.pl
+  gsS20180912S0035.fits[SCI,1]  38290.  0.952 tmpdq8816_1338_8.pl
+  gsS20180918S0023.fits[SCI,1]  38670.  0.943 tmpdq8816_1338_9.pl
+  gsS20180918S0032.fits[SCI,1]  38089.  0.957 tmpdq8816_1338_10.pl
+  gsS20180918S0041.fits[SCI,1]  39284.  0.928 tmpdq8816_1338_11.pl
+  gsS20180925S0073.fits[SCI,1]  37597.  0.970 tmpdq8816_1338_12.pl
+  gsS20180926S0021.fits[SCI,1]  38121.  0.956 tmpdq8816_1338_13.pl
+  gsS20180926S0030.fits[SCI,1]  37773.  0.965 tmpdq8816_1338_14.pl
+  gsS20181004S0024.fits[SCI,1]  38107.  0.957 tmpdq8816_1338_15.pl
+
+  Output image = tmpcombout8816_1347, ncombine = 15
+  Number rejected mask = tmpcombdq8816_1348.pl
+  Sigma image = tmpcombsig8816_1349
+
+------------------------------------------------------------
+GEMSECCHK -- Started: 2018-11-05T12:09:18
+
+GEMSECCHK: Input parameters...
+    inimage     = gsS20180708S0084.fits[SCI,2]
+    section     = 
+
+GEMSECCHK: Output image section -- [*,*]
+
+GEMSECCHK -- Finished: 2018-11-05T12:09:18
+
+GEMSECCHK -- Exit status: GOOD
+------------------------------------------------------------
+
+Nov  5 12:09: IMCOMBINE
+  combine = average, scale = mean, zero = none, weight = none
+  reject = avsigclip, mclip = yes, nkeep = 0
+  lsigma = 3., hsigma = 3.
+  blank = 0.
+  statsec = Nov  5 12:09
+  masktype = goodval, maskval = 0
+                Images     Mean  Scale Maskfile
+  gsS20180708S0084.fits[SCI,2]  24613.  1.000 tmpdq8816_1338_1.pl
+  gsS20180709S0144.fits[SCI,2]  24640.  0.999 tmpdq8816_1338_2.pl
+  gsS20180709S0153.fits[SCI,2]  24378.  1.010 tmpdq8816_1338_3.pl
+  gsS20180711S0120.fits[SCI,2]  24442.  1.007 tmpdq8816_1338_4.pl
+  gsS20180711S0197.fits[SCI,2]  24787.  0.993 tmpdq8816_1338_5.pl
+  gsS20180717S0040.fits[SCI,2]  24083.  1.022 tmpdq8816_1338_6.pl
+  gsS20180717S0049.fits[SCI,2]  24555.  1.002 tmpdq8816_1338_7.pl
+  gsS20180912S0035.fits[SCI,2]  25804.  0.954 tmpdq8816_1338_8.pl
+  gsS20180918S0023.fits[SCI,2]  25944.  0.949 tmpdq8816_1338_9.pl
+  gsS20180918S0032.fits[SCI,2]  25543.  0.964 tmpdq8816_1338_10.pl
+  gsS20180918S0041.fits[SCI,2]  26345.  0.934 tmpdq8816_1338_11.pl
+  gsS20180925S0073.fits[SCI,2]  25389.  0.969 tmpdq8816_1338_12.pl
+  gsS20180926S0021.fits[SCI,2]  25706.  0.958 tmpdq8816_1338_13.pl
+  gsS20180926S0030.fits[SCI,2]  25461.  0.967 tmpdq8816_1338_14.pl
+  gsS20181004S0024.fits[SCI,2]  25671.  0.959 tmpdq8816_1338_15.pl
+
+  Output image = tmpcombout8816_1354, ncombine = 15
+  Number rejected mask = tmpcombdq8816_1355.pl
+  Sigma image = tmpcombsig8816_1356
+
+------------------------------------------------------------
+GEMSECCHK -- Started: 2018-11-05T12:09:20
+
+GEMSECCHK: Input parameters...
+    inimage     = gsS20180708S0084.fits[SCI,3]
+    section     = 
+
+GEMSECCHK: Output image section -- [*,*]
+
+GEMSECCHK -- Finished: 2018-11-05T12:09:20
+
+GEMSECCHK -- Exit status: GOOD
+------------------------------------------------------------
+
+Nov  5 12:09: IMCOMBINE
+  combine = average, scale = mean, zero = none, weight = none
+  reject = avsigclip, mclip = yes, nkeep = 0
+  lsigma = 3., hsigma = 3.
+  blank = 0.
+  statsec = Nov  5 12:09
+  masktype = goodval, maskval = 0
+                Images     Mean  Scale Maskfile
+  gsS20180708S0084.fits[SCI,3]  20392.  1.000 tmpdq8816_1338_1.pl
+  gsS20180709S0144.fits[SCI,3]  20395.  1.000 tmpdq8816_1338_2.pl
+  gsS20180709S0153.fits[SCI,3]  20287.  1.005 tmpdq8816_1338_3.pl
+  gsS20180711S0120.fits[SCI,3]  20268.  1.006 tmpdq8816_1338_4.pl
+  gsS20180711S0197.fits[SCI,3]  20494.  0.995 tmpdq8816_1338_5.pl
+  gsS20180717S0040.fits[SCI,3]  19931.  1.023 tmpdq8816_1338_6.pl
+  gsS20180717S0049.fits[SCI,3]  20283.  1.005 tmpdq8816_1338_7.pl
+  gsS20180912S0035.fits[SCI,3]  21324.  0.956 tmpdq8816_1338_8.pl
+  gsS20180918S0023.fits[SCI,3]  21392.  0.953 tmpdq8816_1338_9.pl
+  gsS20180918S0032.fits[SCI,3]  21058.  0.968 tmpdq8816_1338_10.pl
+  gsS20180918S0041.fits[SCI,3]  21722.  0.939 tmpdq8816_1338_11.pl
+  gsS20180925S0073.fits[SCI,3]  20981.  0.972 tmpdq8816_1338_12.pl
+  gsS20180926S0021.fits[SCI,3]  21235.  0.960 tmpdq8816_1338_13.pl
+  gsS20180926S0030.fits[SCI,3]  21032.  0.970 tmpdq8816_1338_14.pl
+  gsS20181004S0024.fits[SCI,3]  21192.  0.962 tmpdq8816_1338_15.pl
+
+  Output image = tmpcombout8816_1358, ncombine = 15
+  Number rejected mask = tmpcombdq8816_1359.pl
+  Sigma image = tmpcombsig8816_1360
+
+------------------------------------------------------------
+GEMSECCHK -- Started: 2018-11-05T12:09:21
+
+GEMSECCHK: Input parameters...
+    inimage     = gsS20180708S0084.fits[SCI,4]
+    section     = 
+
+GEMSECCHK: Output image section -- [*,*]
+
+GEMSECCHK -- Finished: 2018-11-05T12:09:21
+
+GEMSECCHK -- Exit status: GOOD
+------------------------------------------------------------
+
+Nov  5 12:09: IMCOMBINE
+  combine = average, scale = mean, zero = none, weight = none
+  reject = avsigclip, mclip = yes, nkeep = 0
+  lsigma = 3., hsigma = 3.
+  blank = 0.
+  statsec = Nov  5 12:09
+  masktype = goodval, maskval = 0
+                Images     Mean  Scale Maskfile
+  gsS20180708S0084.fits[SCI,4]  19556.  1.000 tmpdq8816_1338_1.pl
+  gsS20180709S0144.fits[SCI,4]  19540.  1.001 tmpdq8816_1338_2.pl
+  gsS20180709S0153.fits[SCI,4]  19464.  1.005 tmpdq8816_1338_3.pl
+  gsS20180711S0120.fits[SCI,4]  19443.  1.006 tmpdq8816_1338_4.pl
+  gsS20180711S0197.fits[SCI,4]  19636.  0.996 tmpdq8816_1338_5.pl
+  gsS20180717S0040.fits[SCI,4]  19129.  1.022 tmpdq8816_1338_6.pl
+  gsS20180717S0049.fits[SCI,4]  19461.  1.005 tmpdq8816_1338_7.pl
+  gsS20180912S0035.fits[SCI,4]  20453.  0.956 tmpdq8816_1338_8.pl
+  gsS20180918S0023.fits[SCI,4]  20522.  0.953 tmpdq8816_1338_9.pl
+  gsS20180918S0032.fits[SCI,4]  20203.  0.968 tmpdq8816_1338_10.pl
+  gsS20180918S0041.fits[SCI,4]  20849.  0.938 tmpdq8816_1338_11.pl
+  gsS20180925S0073.fits[SCI,4]  20111.  0.972 tmpdq8816_1338_12.pl
+  gsS20180926S0021.fits[SCI,4]  20359.  0.961 tmpdq8816_1338_13.pl
+  gsS20180926S0030.fits[SCI,4]  20174.  0.969 tmpdq8816_1338_14.pl
+  gsS20181004S0024.fits[SCI,4]  20324.  0.962 tmpdq8816_1338_15.pl
+
+  Output image = tmpcombout8816_1362, ncombine = 15
+  Number rejected mask = tmpcombdq8816_1363.pl
+  Sigma image = tmpcombsig8816_1364
+
+------------------------------------------------------------
+GEMSECCHK -- Started: 2018-11-05T12:09:22
+
+GEMSECCHK: Input parameters...
+    inimage     = gsS20180708S0084.fits[SCI,5]
+    section     = 
+
+GEMSECCHK: Output image section -- [*,*]
+
+GEMSECCHK -- Finished: 2018-11-05T12:09:23
+
+GEMSECCHK -- Exit status: GOOD
+------------------------------------------------------------
+
+Nov  5 12:09: IMCOMBINE
+  combine = average, scale = mean, zero = none, weight = none
+  reject = avsigclip, mclip = yes, nkeep = 0
+  lsigma = 3., hsigma = 3.
+  blank = 0.
+  statsec = Nov  5 12:09
+  masktype = goodval, maskval = 0
+                Images     Mean  Scale Maskfile
+  gsS20180708S0084.fits[SCI,5]  17770.  1.000 tmpdq8816_1338_1.pl
+  gsS20180709S0144.fits[SCI,5]  17746.  1.001 tmpdq8816_1338_2.pl
+  gsS20180709S0153.fits[SCI,5]  17654.  1.007 tmpdq8816_1338_3.pl
+  gsS20180711S0120.fits[SCI,5]  17665.  1.006 tmpdq8816_1338_4.pl
+  gsS20180711S0197.fits[SCI,5]  17850.  0.995 tmpdq8816_1338_5.pl
+  gsS20180717S0040.fits[SCI,5]  17352.  1.024 tmpdq8816_1338_6.pl
+  gsS20180717S0049.fits[SCI,5]  17696.  1.004 tmpdq8816_1338_7.pl
+  gsS20180912S0035.fits[SCI,5]  20250.  0.878 tmpdq8816_1338_8.pl
+  gsS20180918S0023.fits[SCI,5]  20402.  0.871 tmpdq8816_1338_9.pl
+  gsS20180918S0032.fits[SCI,5]  20087.  0.885 tmpdq8816_1338_10.pl
+  gsS20180918S0041.fits[SCI,5]  20729.  0.857 tmpdq8816_1338_11.pl
+  gsS20180925S0073.fits[SCI,5]  19957.  0.890 tmpdq8816_1338_12.pl
+  gsS20180926S0021.fits[SCI,5]  20234.  0.878 tmpdq8816_1338_13.pl
+  gsS20180926S0030.fits[SCI,5]  20035.  0.887 tmpdq8816_1338_14.pl
+  gsS20181004S0024.fits[SCI,5]  20215.  0.879 tmpdq8816_1338_15.pl
+
+  Output image = tmpcombout8816_1366, ncombine = 15
+  Number rejected mask = tmpcombdq8816_1367.pl
+  Sigma image = tmpcombsig8816_1368
+
+------------------------------------------------------------
+GEMSECCHK -- Started: 2018-11-05T12:09:24
+
+GEMSECCHK: Input parameters...
+    inimage     = gsS20180708S0084.fits[SCI,6]
+    section     = 
+
+GEMSECCHK: Output image section -- [*,*]
+
+GEMSECCHK -- Finished: 2018-11-05T12:09:24
+
+GEMSECCHK -- Exit status: GOOD
+------------------------------------------------------------
+
+Nov  5 12:09: IMCOMBINE
+  combine = average, scale = mean, zero = none, weight = none
+  reject = avsigclip, mclip = yes, nkeep = 0
+  lsigma = 3., hsigma = 3.
+  blank = 0.
+  statsec = Nov  5 12:09
+                Images     Mean  Scale
+  gsS20180708S0084.fits[SCI,6]  14357.  1.000
+  gsS20180709S0144.fits[SCI,6]  14322.  1.002
+  gsS20180709S0153.fits[SCI,6]  14253.  1.007
+  gsS20180711S0120.fits[SCI,6]  14277.  1.006
+  gsS20180711S0197.fits[SCI,6]  14417.  0.996
+  gsS20180717S0040.fits[SCI,6]  14074.  1.020
+  gsS20180717S0049.fits[SCI,6]  14346.  1.001
+  gsS20180912S0035.fits[SCI,6]  14975.  0.959
+  gsS20180918S0023.fits[SCI,6]  15058.  0.953
+  gsS20180918S0032.fits[SCI,6]  14846.  0.967
+  gsS20180918S0041.fits[SCI,6]  15326.  0.937
+  gsS20180925S0073.fits[SCI,6]  14699.  0.977
+  gsS20180926S0021.fits[SCI,6]  14917.  0.962
+  gsS20180926S0030.fits[SCI,6]  14780.  0.971
+  gsS20181004S0024.fits[SCI,6]  14895.  0.964
+
+  Output image = tmpcombout8816_1370, ncombine = 15
+  Number rejected mask = tmpcombdq8816_1371.pl
+  Sigma image = tmpcombsig8816_1372
+
+------------------------------------------------------------
+GEMSECCHK -- Started: 2018-11-05T12:09:25
+
+GEMSECCHK: Input parameters...
+    inimage     = gsS20180708S0084.fits[SCI,7]
+    section     = 
+
+GEMSECCHK: Output image section -- [*,*]
+
+GEMSECCHK -- Finished: 2018-11-05T12:09:25
+
+GEMSECCHK -- Exit status: GOOD
+------------------------------------------------------------
+
+Nov  5 12:09: IMCOMBINE
+  combine = average, scale = mean, zero = none, weight = none
+  reject = avsigclip, mclip = yes, nkeep = 0
+  lsigma = 3., hsigma = 3.
+  blank = 0.
+  statsec = Nov  5 12:09
+                Images     Mean  Scale
+  gsS20180708S0084.fits[SCI,7]  10660.  1.000
+  gsS20180709S0144.fits[SCI,7]  10638.  1.002
+  gsS20180709S0153.fits[SCI,7]  10609.  1.005
+  gsS20180711S0120.fits[SCI,7]  10598.  1.006
+  gsS20180711S0197.fits[SCI,7]  10690.  0.997
+  gsS20180717S0040.fits[SCI,7]  10432.  1.022
+  gsS20180717S0049.fits[SCI,7]  10619.  1.004
+  gsS20180912S0035.fits[SCI,7]  11123.  0.958
+  gsS20180918S0023.fits[SCI,7]  11145.  0.956
+  gsS20180918S0032.fits[SCI,7]  10976.  0.971
+  gsS20180918S0041.fits[SCI,7]  11342.  0.940
+  gsS20180925S0073.fits[SCI,7]  10918.  0.976
+  gsS20180926S0021.fits[SCI,7]  11070.  0.963
+  gsS20180926S0030.fits[SCI,7]  10975.  0.971
+  gsS20181004S0024.fits[SCI,7]  11051.  0.965
+
+  Output image = tmpcombout8816_1374, ncombine = 15
+  Number rejected mask = tmpcombdq8816_1375.pl
+  Sigma image = tmpcombsig8816_1376
+
+------------------------------------------------------------
+GEMSECCHK -- Started: 2018-11-05T12:09:27
+
+GEMSECCHK: Input parameters...
+    inimage     = gsS20180708S0084.fits[SCI,8]
+    section     = 
+
+GEMSECCHK: Output image section -- [*,*]
+
+GEMSECCHK -- Finished: 2018-11-05T12:09:27
+
+GEMSECCHK -- Exit status: GOOD
+------------------------------------------------------------
+
+Nov  5 12:09: IMCOMBINE
+  combine = average, scale = mean, zero = none, weight = none
+  reject = avsigclip, mclip = yes, nkeep = 0
+  lsigma = 3., hsigma = 3.
+  blank = 0.
+  statsec = Nov  5 12:09
+  masktype = goodval, maskval = 0
+                Images     Mean  Scale Maskfile
+  gsS20180708S0084.fits[SCI,8]  12224.  1.000 tmpdq8816_1338_1.pl
+  gsS20180709S0144.fits[SCI,8]  12188.  1.003 tmpdq8816_1338_2.pl
+  gsS20180709S0153.fits[SCI,8]  12124.  1.008 tmpdq8816_1338_3.pl
+  gsS20180711S0120.fits[SCI,8]  12153.  1.006 tmpdq8816_1338_4.pl
+  gsS20180711S0197.fits[SCI,8]  12251.  0.998 tmpdq8816_1338_5.pl
+  gsS20180717S0040.fits[SCI,8]  11964.  1.022 tmpdq8816_1338_6.pl
+  gsS20180717S0049.fits[SCI,8]  12184.  1.003 tmpdq8816_1338_7.pl
+  gsS20180912S0035.fits[SCI,8]  12759.  0.958 tmpdq8816_1338_8.pl
+  gsS20180918S0023.fits[SCI,8]  12785.  0.956 tmpdq8816_1338_9.pl
+  gsS20180918S0032.fits[SCI,8]  12596.  0.971 tmpdq8816_1338_10.pl
+  gsS20180918S0041.fits[SCI,8]  13017.  0.939 tmpdq8816_1338_11.pl
+  gsS20180925S0073.fits[SCI,8]  12476.  0.980 tmpdq8816_1338_12.pl
+  gsS20180926S0021.fits[SCI,8]  12660.  0.966 tmpdq8816_1338_13.pl
+  gsS20180926S0030.fits[SCI,8]  12551.  0.974 tmpdq8816_1338_14.pl
+  gsS20181004S0024.fits[SCI,8]  12632.  0.968 tmpdq8816_1338_15.pl
+
+  Output image = tmpcombout8816_1378, ncombine = 15
+  Number rejected mask = tmpcombdq8816_1379.pl
+  Sigma image = tmpcombsig8816_1380
+
+------------------------------------------------------------
+GEMSECCHK -- Started: 2018-11-05T12:09:28
+
+GEMSECCHK: Input parameters...
+    inimage     = gsS20180708S0084.fits[SCI,9]
+    section     = 
+
+GEMSECCHK: Output image section -- [*,*]
+
+GEMSECCHK -- Finished: 2018-11-05T12:09:28
+
+GEMSECCHK -- Exit status: GOOD
+------------------------------------------------------------
+
+Nov  5 12:09: IMCOMBINE
+  combine = average, scale = mean, zero = none, weight = none
+  reject = avsigclip, mclip = yes, nkeep = 0
+  lsigma = 3., hsigma = 3.
+  blank = 0.
+  statsec = Nov  5 12:09
+  masktype = goodval, maskval = 0
+                Images     Mean  Scale Maskfile
+  gsS20180708S0084.fits[SCI,9]  11083.  1.000
+  gsS20180709S0144.fits[SCI,9]  11044.  1.004
+  gsS20180709S0153.fits[SCI,9]  10969.  1.010
+  gsS20180711S0120.fits[SCI,9]  11036.  1.004
+  gsS20180711S0197.fits[SCI,9]  11105.  0.998
+  gsS20180717S0040.fits[SCI,9]  10852.  1.021
+  gsS20180717S0049.fits[SCI,9]  11057.  1.002
+  gsS20180912S0035.fits[SCI,9]  11647.  0.952 tmpdq8816_1338_8.pl
+  gsS20180918S0023.fits[SCI,9]  11663.  0.950 tmpdq8816_1338_9.pl
+  gsS20180918S0032.fits[SCI,9]  11500.  0.964 tmpdq8816_1338_10.pl
+  gsS20180918S0041.fits[SCI,9]  11879.  0.933 tmpdq8816_1338_11.pl
+  gsS20180925S0073.fits[SCI,9]  11340.  0.977 tmpdq8816_1338_12.pl
+  gsS20180926S0021.fits[SCI,9]  11522.  0.962 tmpdq8816_1338_13.pl
+  gsS20180926S0030.fits[SCI,9]  11415.  0.971 tmpdq8816_1338_14.pl
+  gsS20181004S0024.fits[SCI,9]  11482.  0.965 tmpdq8816_1338_15.pl
+
+  Output image = tmpcombout8816_1382, ncombine = 15
+  Number rejected mask = tmpcombdq8816_1383.pl
+  Sigma image = tmpcombsig8816_1384
+
+------------------------------------------------------------
+GEMSECCHK -- Started: 2018-11-05T12:09:30
+
+GEMSECCHK: Input parameters...
+    inimage     = gsS20180708S0084.fits[SCI,10]
+    section     = 
+
+GEMSECCHK: Output image section -- [*,*]
+
+GEMSECCHK -- Finished: 2018-11-05T12:09:30
+
+GEMSECCHK -- Exit status: GOOD
+------------------------------------------------------------
+
+Nov  5 12:09: IMCOMBINE
+  combine = average, scale = mean, zero = none, weight = none
+  reject = avsigclip, mclip = yes, nkeep = 0
+  lsigma = 3., hsigma = 3.
+  blank = 0.
+  statsec = Nov  5 12:09
+                Images     Mean  Scale
+  gsS20180708S0084.fits[SCI,10]  7629.6  1.000
+  gsS20180709S0144.fits[SCI,10]   7595.  1.005
+  gsS20180709S0153.fits[SCI,10]  7544.3  1.011
+  gsS20180711S0120.fits[SCI,10]  7598.9  1.004
+  gsS20180711S0197.fits[SCI,10]  7636.9  0.999
+  gsS20180717S0040.fits[SCI,10]  7478.3  1.020
+  gsS20180717S0049.fits[SCI,10]  7620.1  1.001
+  gsS20180912S0035.fits[SCI,10]   8023.  0.951
+  gsS20180918S0023.fits[SCI,10]  8029.7  0.950
+  gsS20180918S0032.fits[SCI,10]  7917.9  0.964
+  gsS20180918S0041.fits[SCI,10]  8179.6  0.933
+  gsS20180925S0073.fits[SCI,10]  7806.7  0.977
+  gsS20180926S0021.fits[SCI,10]  7933.8  0.962
+  gsS20180926S0030.fits[SCI,10]  7861.6  0.970
+  gsS20181004S0024.fits[SCI,10]  7907.8  0.965
+
+  Output image = tmpcombout8816_1386, ncombine = 15
+  Number rejected mask = tmpcombdq8816_1387.pl
+  Sigma image = tmpcombsig8816_1388
+
+------------------------------------------------------------
+GEMSECCHK -- Started: 2018-11-05T12:09:32
+
+GEMSECCHK: Input parameters...
+    inimage     = gsS20180708S0084.fits[SCI,11]
+    section     = 
+
+GEMSECCHK: Output image section -- [*,*]
+
+GEMSECCHK -- Finished: 2018-11-05T12:09:32
+
+GEMSECCHK -- Exit status: GOOD
+------------------------------------------------------------
+
+Nov  5 12:09: IMCOMBINE
+  combine = average, scale = mean, zero = none, weight = none
+  reject = avsigclip, mclip = yes, nkeep = 0
+  lsigma = 3., hsigma = 3.
+  blank = 0.
+  statsec = Nov  5 12:09
+  masktype = goodval, maskval = 0
+                Images     Mean  Scale Maskfile
+  gsS20180708S0084.fits[SCI,11]  4297.9  1.000 tmpdq8816_1338_1.pl
+  gsS20180709S0144.fits[SCI,11]  4275.7  1.005 tmpdq8816_1338_2.pl
+  gsS20180709S0153.fits[SCI,11]  4244.4  1.013 tmpdq8816_1338_3.pl
+  gsS20180711S0120.fits[SCI,11]  4276.5  1.005 tmpdq8816_1338_4.pl
+  gsS20180711S0197.fits[SCI,11]  4305.8  0.998 tmpdq8816_1338_5.pl
+  gsS20180717S0040.fits[SCI,11]  4212.2  1.020 tmpdq8816_1338_6.pl
+  gsS20180717S0049.fits[SCI,11]  4297.7  1.000 tmpdq8816_1338_7.pl
+  gsS20180912S0035.fits[SCI,11]  4518.1  0.951 tmpdq8816_1338_8.pl
+  gsS20180918S0023.fits[SCI,11]  4528.2  0.949 tmpdq8816_1338_9.pl
+  gsS20180918S0032.fits[SCI,11]   4470.  0.961 tmpdq8816_1338_10.pl
+  gsS20180918S0041.fits[SCI,11]  4615.9  0.931 tmpdq8816_1338_11.pl
+  gsS20180925S0073.fits[SCI,11]  4389.3  0.979 tmpdq8816_1338_12.pl
+  gsS20180926S0021.fits[SCI,11]  4478.5  0.960 tmpdq8816_1338_13.pl
+  gsS20180926S0030.fits[SCI,11]  4433.6  0.969 tmpdq8816_1338_14.pl
+  gsS20181004S0024.fits[SCI,11]  4463.9  0.963 tmpdq8816_1338_15.pl
+
+  Output image = tmpcombout8816_1390, ncombine = 15
+  Number rejected mask = tmpcombdq8816_1391.pl
+  Sigma image = tmpcombsig8816_1392
+
+------------------------------------------------------------
+GEMSECCHK -- Started: 2018-11-05T12:09:33
+
+GEMSECCHK: Input parameters...
+    inimage     = gsS20180708S0084.fits[SCI,12]
+    section     = 
+
+GEMSECCHK: Output image section -- [*,*]
+
+GEMSECCHK -- Finished: 2018-11-05T12:09:33
+
+GEMSECCHK -- Exit status: GOOD
+------------------------------------------------------------
+
+Nov  5 12:09: IMCOMBINE
+  combine = average, scale = mean, zero = none, weight = none
+  reject = avsigclip, mclip = yes, nkeep = 0
+  lsigma = 3., hsigma = 3.
+  blank = 0.
+  statsec = Nov  5 12:09
+                Images     Mean  Scale
+  gsS20180708S0084.fits[SCI,12]  1197.7  1.000
+  gsS20180709S0144.fits[SCI,12]  1185.4  1.010
+  gsS20180709S0153.fits[SCI,12]  1197.8  1.000
+  gsS20180711S0120.fits[SCI,12]  1186.1  1.010
+  gsS20180711S0197.fits[SCI,12]  1197.6  1.000
+  gsS20180717S0040.fits[SCI,12]  1180.2  1.015
+  gsS20180717S0049.fits[SCI,12]  1201.7  0.997
+  gsS20180912S0035.fits[SCI,12]  1237.6  0.968
+  gsS20180918S0023.fits[SCI,12]  1248.8  0.959
+  gsS20180918S0032.fits[SCI,12]   1231.  0.973
+  gsS20180918S0041.fits[SCI,12]  1270.6  0.943
+  gsS20180925S0073.fits[SCI,12]  1217.5  0.984
+  gsS20180926S0021.fits[SCI,12]  1241.2  0.965
+  gsS20180926S0030.fits[SCI,12]  1228.7  0.975
+  gsS20181004S0024.fits[SCI,12]  1237.9  0.968
+
+  Output image = tmpcombout8816_1394, ncombine = 15
+  Number rejected mask = tmpcombdq8816_1395.pl
+  Sigma image = tmpcombsig8816_1396
+GEMCOMBINE: Attaching the MDF
+ 
+GEMCOMBINE -- Finished: Mon Nov  5 12:09:35 CST 2018
+ 
+GEMCOMBINE -- Exit status: GOOD
+--------------------------------------------------------------------------------
+GSFLAT: GEMCOMBINE complete.  Output in file : tmpcombflat8816_589
+ 
+ 
+GSFLAT: Begin fitting response functions for detectors
+ 
+WARNING- GSFLAT: order of fitting function must be greater than zero
+WARNING- GSFLAT: setting order of fitting function to 13 for all amps.
+GSFLAT: fitting response functions for CCD1
+        sample in fitting 12:256
+GSFLAT: fitting response functions for CCD2
+        sample in fitting 1:256
+GSFLAT: fitting response functions for CCD3
+        sample in fitting 1:256
+GSFLAT: fitting response functions for CCD4
+        sample in fitting 1:244
+GSFLAT: fitting response functions for CCD5
+        sample in fitting 12:256
+GSFLAT: fitting response functions for CCD6
+        sample in fitting 1:256
+GSFLAT: fitting response functions for CCD7
+        sample in fitting 1:256
+GSFLAT: fitting response functions for CCD8
+        sample in fitting 1:248
+GSFLAT: fitting response functions for CCD9
+        sample in fitting 13:256
+GSFLAT: fitting response functions for CCD10
+        sample in fitting 1:256
+GSFLAT: fitting response functions for CCD11
+        sample in fitting 1:256
+GSFLAT: fitting response functions for CCD12
+        sample in fitting 1:246
+ 
+GSFLAT done Mon Nov  5 12:09:41 CST 2018
+--------------------------------------------------------------------------------
