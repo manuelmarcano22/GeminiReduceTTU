@@ -61,3 +61,12 @@ NOAO/IRAF V2.16 mmarcano@tux Tue 13:31:22 06-Nov-2018
 GSTRANSFORM exit status: good
 -------------------------------------------------------------------------------
 
+-------------------------------------------------------------------------------
+GSTRANSFORM -- Mon Nov 19 14:11:24 CST 2018
+ 
+ERROR - GSTRANSFORM: Output image tObj5 exists
+ERROR - GSTRANSFORM: 1 errors found with input parameters. Exiting.
+
+GSTRANSFORM exit status: error
+-------------------------------------------------------------------------------
+

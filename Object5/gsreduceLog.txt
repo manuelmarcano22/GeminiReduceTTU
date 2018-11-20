@@ -1696,3 +1696,109 @@ ERROR - GSREDUCE: Program execution failed with 2 errors
  
 GSREDUCE done
 ----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+GSREDUCE -- Mon Nov 19 14:11:09 CST 2018
+
+Input image or list  = S20180710S0019,S20180717S0062,S20180922S0022,S20180928S0014,S20181004S0209
+Output image or list = 
+Output prefix        = gs
+
+Overscan subtraction  fl_over      = yes
+Trim image            fl_trim      = yes
+Bias subtraction      fl_bias      = yes
+Cosmic ray cleaning   fl_gscrrej   = no
+New CR cleaning       fl_crspec    = no
+Dark subtraction      fl_dark      = no
+QE Correction         fl_qecorr    = no
+Flat field correction fl_flat      = no
+Mosaic the CCDs       fl_gmosaic   = yes
+Fixpix chip gaps      fl_fixpix    = no
+Cut MOS spectra       fl_cut       = yes
+Add titles to MOS     fl_title     = yes
+Oversize slit length  fl_oversize  = no
+Run gsappwave         fl_gsappwave = yes
+Run gsscatsub         fl_scatsub   = no
+VAR & DQ planes       fl_vardq     = no
+
+geointer = linear
+gradimage= 
+refimage = 
+bias     = MCbiasFull
+dark     = 
+qe_refim    = 
+qe_corrim   = 
+qe_corrpref = qecorr
+flatim   = 
+sci_ext  = SCI
+var_ext  = VAR
+dq_ext   = DQ
+key_mdf  = MASKNAME
+mdffile  = 
+mdfdir   = gmos$data/
+bpm      = 
+Chip gaps= gmos$data/chipgaps.dat
+
+ERROR - GSREDUCE: Output image gsS20180710S0019 exists
+ERROR - GSREDUCE: Output image gsS20180717S0062 exists
+ERROR - GSREDUCE: Output image gsS20180922S0022 exists
+ERROR - GSREDUCE: Output image gsS20180928S0014 exists
+ERROR - GSREDUCE: Output image gsS20181004S0209 exists
+ERROR - GSREDUCE: Program execution failed with 5 errors
+ 
+GSREDUCE done
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+GSREDUCE -- Mon Nov 19 14:11:10 CST 2018
+
+Input image or list  = S20180925S0071,S20180925S0072
+Output image or list = 
+Output prefix        = gs
+
+Overscan subtraction  fl_over      = yes
+Trim image            fl_trim      = yes
+Bias subtraction      fl_bias      = yes
+Cosmic ray cleaning   fl_gscrrej   = no
+New CR cleaning       fl_crspec    = no
+Dark subtraction      fl_dark      = no
+QE Correction         fl_qecorr    = no
+Flat field correction fl_flat      = yes
+Mosaic the CCDs       fl_gmosaic   = yes
+Fixpix chip gaps      fl_fixpix    = no
+Cut MOS spectra       fl_cut       = yes
+Add titles to MOS     fl_title     = yes
+Oversize slit length  fl_oversize  = no
+Run gsappwave         fl_gsappwave = yes
+Run gsscatsub         fl_scatsub   = no
+VAR & DQ planes       fl_vardq     = yes
+
+geointer = linear
+gradimage= 
+refimage = 
+bias     = MCbiasFull
+dark     = 
+qe_refim    = 
+qe_corrim   = 
+qe_corrpref = qecorr
+flatim   = MCflatFull
+sci_ext  = SCI
+var_ext  = VAR
+dq_ext   = DQ
+key_mdf  = MASKNAME
+mdffile  = 
+mdfdir   = gmos$data/
+bpm      = 
+Chip gaps= gmos$data/chipgaps.dat
+
+ERROR - GSREDUCE: Output image gsS20180925S0071 exists
+ERROR - GSREDUCE: Output image gsS20180925S0072 exists
+ 
+Filter(s)/Grating ID for flatfield: 
+     MCflatFull.fits = GG455_G0329 + open2-8 / R400+_G5325
+GSREDUCE: Flat image MCflatFull.fits has been QE corrected? no
+ 
+ERROR - GSREDUCE: Program execution failed with 2 errors
+ 
+GSREDUCE done
+----------------------------------------------------------------------------
