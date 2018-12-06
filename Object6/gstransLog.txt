@@ -1,22 +1,13 @@
 -------------------------------------------------------------------------------
-GSTRANSFORM -- Mon Nov  5 12:12:36 CST 2018
- 
-ERROR - GSTRANSFORM: Input image Obj5 does not exist or is not MEF
-ERROR - GSTRANSFORM: 1 errors found with input parameters. Exiting.
-
-GSTRANSFORM exit status: error
--------------------------------------------------------------------------------
-
--------------------------------------------------------------------------------
-GSTRANSFORM -- Mon Nov  5 12:53:09 CST 2018
+GSTRANSFORM -- Tue Nov 27 18:43:41 CST 2018
  
 
-inimages   = Obj6
+inimages   = eObj6.fits
 outimages  = 
 outprefix  = t
 fl_stran   = no
 fl_wavtran = yes
-wavtraname = gsS20180928S0014
+wavtraname = gsS20181004S0209
 database   = database
 fl_vardq   = yes
 interptype = linear
@@ -35,56 +26,362 @@ sci_ext    = SCI
 var_ext = VAR
 dq_ext  = DQ
 
-Transforming Obj6.fits[SCI,1]
+ERROR - GSTRANFORM: Wavelength or S-distortion calibration file not found
+ERROR - GSTRANFORM: for image eObj6.fits[SCI,1]
+ERROR - GSTRANFORM: output image teObj6.fits will be incomplete
+Continuing with remaining extensions and images
+
+GSTRANSFORM exit status: error
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+GSTRANSFORM -- Tue Nov 27 18:45:20 CST 2018
+ 
+ERROR - GSTRANSFORM: Output image teObj6.fits exists
+ERROR - GSTRANSFORM: 1 errors found with input parameters. Exiting.
+
+GSTRANSFORM exit status: error
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+GSTRANSFORM -- Tue Nov 27 18:45:37 CST 2018
+ 
+ERROR - GSTRANSFORM: Output image teObj6.fits exists
+ERROR - GSTRANSFORM: 1 errors found with input parameters. Exiting.
+
+GSTRANSFORM exit status: error
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+GSTRANSFORM -- Tue Nov 27 18:46:37 CST 2018
+ 
+
+inimages   = eObj6.fits
+outimages  = 
+outprefix  = t
+fl_stran   = no
+fl_wavtran = yes
+wavtraname = gsS20181004S0209
+database   = database
+fl_vardq   = yes
+interptype = linear
+lambda1    = INDEF
+lambda2    = INDEF
+dx         = INDEF
+nx         = INDEF
+lambdalog  = no
+ylog       = no
+fl_flux    = yes
+gratingdb  = gmos$data/GMOSgratings.dat
+filterdb   = gmos$data/GMOSfilters.dat
+key_dispaxis = DISPAXIS
+dispaxis   = 1
+sci_ext    = SCI
+var_ext = VAR
+dq_ext  = DQ
+
+ERROR - GSTRANFORM: Wavelength or S-distortion calibration file not found
+ERROR - GSTRANFORM: for image eObj6.fits[SCI,1]
+ERROR - GSTRANFORM: output image teObj6.fits will be incomplete
+Continuing with remaining extensions and images
+
+GSTRANSFORM exit status: error
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+GSTRANSFORM -- Tue Nov 27 18:47:25 CST 2018
+ 
+ERROR - GSTRANSFORM: Output image teObj6.fits exists
+ERROR - GSTRANSFORM: 1 errors found with input parameters. Exiting.
+
+GSTRANSFORM exit status: error
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+GSTRANSFORM -- Tue Nov 27 18:48:15 CST 2018
+ 
+ERROR - GSTRANSFORM: Output image teObj6.fits exists
+ERROR - GSTRANSFORM: 1 errors found with input parameters. Exiting.
+
+GSTRANSFORM exit status: error
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+GSTRANSFORM -- Tue Nov 27 18:48:47 CST 2018
+ 
+
+inimages   = eObj6.fits
+outimages  = 
+outprefix  = t
+fl_stran   = no
+fl_wavtran = yes
+wavtraname = gsS20181004S0209
+database   = database
+fl_vardq   = yes
+interptype = linear
+lambda1    = INDEF
+lambda2    = INDEF
+dx         = INDEF
+nx         = INDEF
+lambdalog  = no
+ylog       = no
+fl_flux    = yes
+gratingdb  = gmos$data/GMOSgratings.dat
+filterdb   = gmos$data/GMOSfilters.dat
+key_dispaxis = DISPAXIS
+dispaxis   = 1
+sci_ext    = SCI
+var_ext = VAR
+dq_ext  = DQ
+
+ERROR - GSTRANFORM: Wavelength or S-distortion calibration file not found
+ERROR - GSTRANFORM: for image eObj6.fits[SCI,1]
+ERROR - GSTRANFORM: output image teObj6.fits will be incomplete
+Continuing with remaining extensions and images
+
+GSTRANSFORM exit status: error
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+GSTRANSFORM -- Tue Nov 27 18:49:14 CST 2018
+ 
+ERROR - GSTRANSFORM: Output image teObj6.fits exists
+ERROR - GSTRANSFORM: 1 errors found with input parameters. Exiting.
+
+GSTRANSFORM exit status: error
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+GSTRANSFORM -- Tue Nov 27 18:49:52 CST 2018
+ 
+ERROR - GSTRANSFORM: Output image teObj6.fits exists
+ERROR - GSTRANSFORM: 1 errors found with input parameters. Exiting.
+
+GSTRANSFORM exit status: error
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+GSTRANSFORM -- Tue Nov 27 18:50:50 CST 2018
+ 
+ERROR - GSTRANSFORM: Output image teObj6.fits exists
+ERROR - GSTRANSFORM: 1 errors found with input parameters. Exiting.
+
+GSTRANSFORM exit status: error
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+GSTRANSFORM -- Tue Nov 27 18:51:15 CST 2018
+ 
+
+inimages   = eObj6.fits
+outimages  = 
+outprefix  = t
+fl_stran   = no
+fl_wavtran = yes
+wavtraname = gsS20181004S0209
+database   = database
+fl_vardq   = yes
+interptype = linear
+lambda1    = INDEF
+lambda2    = INDEF
+dx         = INDEF
+nx         = INDEF
+lambdalog  = no
+ylog       = no
+fl_flux    = yes
+gratingdb  = gmos$data/GMOSgratings.dat
+filterdb   = gmos$data/GMOSfilters.dat
+key_dispaxis = DISPAXIS
+dispaxis   = 1
+sci_ext    = SCI
+var_ext = VAR
+dq_ext  = DQ
+
+ERROR - GSTRANFORM: Wavelength or S-distortion calibration file not found
+ERROR - GSTRANFORM: for image eObj6.fits[SCI,1]
+ERROR - GSTRANFORM: output image teObj6.fits will be incomplete
+Continuing with remaining extensions and images
+
+GSTRANSFORM exit status: error
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+GSTRANSFORM -- Tue Nov 27 18:51:42 CST 2018
+ 
+ERROR - GSTRANSFORM: Output image teObj6.fits exists
+ERROR - GSTRANSFORM: 1 errors found with input parameters. Exiting.
+
+GSTRANSFORM exit status: error
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+GSTRANSFORM -- Tue Nov 27 18:53:13 CST 2018
+ 
+ERROR - GSTRANSFORM: Output image teObj6.fits exists
+ERROR - GSTRANSFORM: 1 errors found with input parameters. Exiting.
+
+GSTRANSFORM exit status: error
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+GSTRANSFORM -- Tue Nov 27 18:56:21 CST 2018
+ 
+ERROR - GSTRANSFORM: Output image teObj6.fits exists
+ERROR - GSTRANSFORM: 1 errors found with input parameters. Exiting.
+
+GSTRANSFORM exit status: error
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+GSTRANSFORM -- Tue Nov 27 18:56:36 CST 2018
+ 
+ERROR - GSTRANSFORM: Output image teObj6.fits exists
+ERROR - GSTRANSFORM: 1 errors found with input parameters. Exiting.
+
+GSTRANSFORM exit status: error
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+GSTRANSFORM -- Tue Nov 27 18:57:19 CST 2018
+ 
+ERROR - GSTRANSFORM: Output image teObj6.fits exists
+ERROR - GSTRANSFORM: 1 errors found with input parameters. Exiting.
+
+GSTRANSFORM exit status: error
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+GSTRANSFORM -- Tue Nov 27 18:59:13 CST 2018
+ 
+ERROR - GSTRANSFORM: Output image teObj6.fits exists
+ERROR - GSTRANSFORM: 1 errors found with input parameters. Exiting.
+
+GSTRANSFORM exit status: error
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+GSTRANSFORM -- Tue Nov 27 18:59:21 CST 2018
+ 
+
+inimages   = eObj6.fits
+outimages  = 
+outprefix  = t
+fl_stran   = no
+fl_wavtran = yes
+wavtraname = gsS20181004S0210
+database   = database
+fl_vardq   = yes
+interptype = linear
+lambda1    = INDEF
+lambda2    = INDEF
+dx         = INDEF
+nx         = INDEF
+lambdalog  = no
+ylog       = no
+fl_flux    = yes
+gratingdb  = gmos$data/GMOSgratings.dat
+filterdb   = gmos$data/GMOSfilters.dat
+key_dispaxis = DISPAXIS
+dispaxis   = 1
+sci_ext    = SCI
+var_ext = VAR
+dq_ext  = DQ
+
+Transforming eObj6.fits[SCI,1]
 MDF row: 1
 
-NOAO/IRAF V2.16 mmarcano@tux Mon 12:53:10 05-Nov-2018
-  Transform Obj6.fits[SCI,1] to tmpsci8816_1878.
+NOAO/IRAF V2.16 mmarcano@tux Tue 18:59:22 27-Nov-2018
+  Transform eObj6.fits[SCI,1] to tmpsci13870_2590.
   Conserve flux per pixel.
   User coordinate transformations:
   Interpolation is linear.
   Using edge extension for out of bounds pixel values.
   Output coordinate parameters are:
-    x1 =      4253., x2 =      8930., dx =      1.494, nx = 3132, xlog = no
+    x1 =      4149., x2 =      8821., dx =      1.492, nx = 3132, xlog = no
     y1 =         1., y2 =      2088., dy =         1., ny = 2088, ylog = no
 
-NOAO/IRAF V2.16 mmarcano@tux Mon 12:53:11 05-Nov-2018
-  Transform Obj6.fits[VAR,1] to tmpvar8816_1879.
+NOAO/IRAF V2.16 mmarcano@tux Tue 18:59:23 27-Nov-2018
+  Transform eObj6.fits[VAR,1] to tmpvar13870_2591.
   Conserve flux per pixel.
   User coordinate transformations:
   Interpolation is linear.
   Using edge extension for out of bounds pixel values.
   Output coordinate parameters are:
-    x1 =      4253., x2 =      8930., dx =      1.494, nx = 3132, xlog = no
+    x1 =      4149., x2 =      8821., dx =      1.492, nx = 3132, xlog = no
     y1 =         1., y2 =      2088., dy =         1., ny = 2088, ylog = no
 
-NOAO/IRAF V2.16 mmarcano@tux Mon 12:53:12 05-Nov-2018
-  Transform Obj6.fits[DQ,1] to tmpdq8816_1880.
+NOAO/IRAF V2.16 mmarcano@tux Tue 18:59:24 27-Nov-2018
+  Transform eObj6.fits[DQ,1] to tmpdq13870_2592.
   User coordinate transformations:
   Interpolation is linear.
   Using edge extension for out of bounds pixel values.
   Output coordinate parameters are:
-    x1 =      4253., x2 =      8930., dx =      1.494, nx = 3132, xlog = no
+    x1 =      4149., x2 =      8821., dx =      1.492, nx = 3132, xlog = no
     y1 =         1., y2 =      2088., dy =         1., ny = 2088, ylog = no
 
 GSTRANSFORM exit status: good
 -------------------------------------------------------------------------------
 
 -------------------------------------------------------------------------------
-GSTRANSFORM -- Tue Nov  6 12:09:38 CST 2018
+GSTRANSFORM -- Tue Nov 27 20:04:58 CST 2018
  
-ERROR - GSTRANSFORM: Output image tObj6 exists
-ERROR - GSTRANSFORM: 1 errors found with input parameters. Exiting.
 
-GSTRANSFORM exit status: error
--------------------------------------------------------------------------------
+inimages   = eObj6.fits
+outimages  = 
+outprefix  = t
+fl_stran   = no
+fl_wavtran = yes
+wavtraname = gsS20181004S0210
+database   = database
+fl_vardq   = yes
+interptype = linear
+lambda1    = INDEF
+lambda2    = INDEF
+dx         = INDEF
+nx         = INDEF
+lambdalog  = no
+ylog       = no
+fl_flux    = yes
+gratingdb  = gmos$data/GMOSgratings.dat
+filterdb   = gmos$data/GMOSfilters.dat
+key_dispaxis = DISPAXIS
+dispaxis   = 1
+sci_ext    = SCI
+var_ext = VAR
+dq_ext  = DQ
 
--------------------------------------------------------------------------------
-GSTRANSFORM -- Tue Nov  6 12:15:39 CST 2018
- 
-ERROR - GSTRANSFORM: Output image tObj6 exists
-ERROR - GSTRANSFORM: 1 errors found with input parameters. Exiting.
+Transforming eObj6.fits[SCI,1]
+MDF row: 1
 
-GSTRANSFORM exit status: error
+NOAO/IRAF V2.16 mmarcano@tux Tue 20:04:59 27-Nov-2018
+  Transform eObj6.fits[SCI,1] to tmpsci13870_2659.
+  Conserve flux per pixel.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4149., x2 =      8821., dx =      1.492, nx = 3132, xlog = no
+    y1 =         1., y2 =      2088., dy =         1., ny = 2088, ylog = no
+
+NOAO/IRAF V2.16 mmarcano@tux Tue 20:05:00 27-Nov-2018
+  Transform eObj6.fits[VAR,1] to tmpvar13870_2660.
+  Conserve flux per pixel.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4149., x2 =      8821., dx =      1.492, nx = 3132, xlog = no
+    y1 =         1., y2 =      2088., dy =         1., ny = 2088, ylog = no
+
+NOAO/IRAF V2.16 mmarcano@tux Tue 20:05:01 27-Nov-2018
+  Transform eObj6.fits[DQ,1] to tmpdq13870_2661.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4149., x2 =      8821., dx =      1.492, nx = 3132, xlog = no
+    y1 =         1., y2 =      2088., dy =         1., ny = 2088, ylog = no
+
+GSTRANSFORM exit status: good
 -------------------------------------------------------------------------------
 

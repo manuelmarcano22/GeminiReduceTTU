@@ -1,7 +1,27 @@
 ----------------------------------------------------------------------------
-GBIAS -- Mon Nov  5 11:51:51 CST 2018
+GBIAS -- Tue Nov 27 18:16:55 CST 2018
 
 Input images:
+  S20180915S0243
+  S20180915S0244
+  S20180915S0245
+  S20180915S0246
+  S20180915S0247
+  S20180917S0019
+  S20180917S0020
+  S20180917S0021
+  S20180917S0022
+  S20180917S0023
+  S20180918S0144
+  S20180918S0145
+  S20180918S0146
+  S20180918S0147
+  S20180918S0148
+  S20180919S0404
+  S20180919S0405
+  S20180919S0406
+  S20180919S0407
+  S20180919S0408
   S20180920S0197
   S20180920S0198
   S20180920S0199
@@ -41,10 +61,730 @@ Input images:
 Output bias image: MCbiasFull
  
 ----------------------------------------------------------------------------
-GIREDUCE -- Mon Nov  5 11:51:53 CST 2018
+GIREDUCE -- Tue Nov 27 18:16:59 CST 2018
 
 ----------------------------------------------------------------------------
-GPREPARE -- Mon Nov  5 11:51:54 CST 2018
+GPREPARE -- Tue Nov 27 18:16:59 CST 2018
+
+Input list    = ../raw/S20180915S0243
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../raw/S20180915S0243.fits   Output  gS20180915S0243.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2018-11-28T00:17:00
+File[extension]:             AMPNAME              GAIN   READNOISE
+gS20180915S0243.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
+gS20180915S0243.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
+gS20180915S0243.fits[SCI,3]: " "BI5-36-4k-2, 2""  1.878  4.24
+gS20180915S0243.fits[SCI,4]: " "BI5-36-4k-2, 1""  1.852  4.21
+gS20180915S0243.fits[SCI,5]: " "BI11-33-4k-1, 4""  1.908  3.90
+gS20180915S0243.fits[SCI,6]: " "BI11-33-4k-1, 3""  1.933  4.24
+gS20180915S0243.fits[SCI,7]: " "BI11-33-4k-1, 2""  1.840  4.07
+gS20180915S0243.fits[SCI,8]: " "BI11-33-4k-1, 1""  1.878  4.29
+gS20180915S0243.fits[SCI,9]: " "BI12-34-4k-1, 4""  1.813  4.15
+gS20180915S0243.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
+gS20180915S0243.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
+gS20180915S0243.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
+
+GGAIN -- Finished: 2018-11-28T00:17:00
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Tue Nov 27 18:17:00 CST 2018
+
+Input list    = ../raw/S20180915S0244
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../raw/S20180915S0244.fits   Output  gS20180915S0244.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2018-11-28T00:17:02
+File[extension]:             AMPNAME              GAIN   READNOISE
+gS20180915S0244.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
+gS20180915S0244.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
+gS20180915S0244.fits[SCI,3]: " "BI5-36-4k-2, 2""  1.878  4.24
+gS20180915S0244.fits[SCI,4]: " "BI5-36-4k-2, 1""  1.852  4.21
+gS20180915S0244.fits[SCI,5]: " "BI11-33-4k-1, 4""  1.908  3.90
+gS20180915S0244.fits[SCI,6]: " "BI11-33-4k-1, 3""  1.933  4.24
+gS20180915S0244.fits[SCI,7]: " "BI11-33-4k-1, 2""  1.840  4.07
+gS20180915S0244.fits[SCI,8]: " "BI11-33-4k-1, 1""  1.878  4.29
+gS20180915S0244.fits[SCI,9]: " "BI12-34-4k-1, 4""  1.813  4.15
+gS20180915S0244.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
+gS20180915S0244.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
+gS20180915S0244.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
+
+GGAIN -- Finished: 2018-11-28T00:17:02
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Tue Nov 27 18:17:02 CST 2018
+
+Input list    = ../raw/S20180915S0245
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../raw/S20180915S0245.fits   Output  gS20180915S0245.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2018-11-28T00:17:03
+File[extension]:             AMPNAME              GAIN   READNOISE
+gS20180915S0245.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
+gS20180915S0245.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
+gS20180915S0245.fits[SCI,3]: " "BI5-36-4k-2, 2""  1.878  4.24
+gS20180915S0245.fits[SCI,4]: " "BI5-36-4k-2, 1""  1.852  4.21
+gS20180915S0245.fits[SCI,5]: " "BI11-33-4k-1, 4""  1.908  3.90
+gS20180915S0245.fits[SCI,6]: " "BI11-33-4k-1, 3""  1.933  4.24
+gS20180915S0245.fits[SCI,7]: " "BI11-33-4k-1, 2""  1.840  4.07
+gS20180915S0245.fits[SCI,8]: " "BI11-33-4k-1, 1""  1.878  4.29
+gS20180915S0245.fits[SCI,9]: " "BI12-34-4k-1, 4""  1.813  4.15
+gS20180915S0245.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
+gS20180915S0245.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
+gS20180915S0245.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
+
+GGAIN -- Finished: 2018-11-28T00:17:04
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Tue Nov 27 18:17:04 CST 2018
+
+Input list    = ../raw/S20180915S0246
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../raw/S20180915S0246.fits   Output  gS20180915S0246.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2018-11-28T00:17:05
+File[extension]:             AMPNAME              GAIN   READNOISE
+gS20180915S0246.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
+gS20180915S0246.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
+gS20180915S0246.fits[SCI,3]: " "BI5-36-4k-2, 2""  1.878  4.24
+gS20180915S0246.fits[SCI,4]: " "BI5-36-4k-2, 1""  1.852  4.21
+gS20180915S0246.fits[SCI,5]: " "BI11-33-4k-1, 4""  1.908  3.90
+gS20180915S0246.fits[SCI,6]: " "BI11-33-4k-1, 3""  1.933  4.24
+gS20180915S0246.fits[SCI,7]: " "BI11-33-4k-1, 2""  1.840  4.07
+gS20180915S0246.fits[SCI,8]: " "BI11-33-4k-1, 1""  1.878  4.29
+gS20180915S0246.fits[SCI,9]: " "BI12-34-4k-1, 4""  1.813  4.15
+gS20180915S0246.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
+gS20180915S0246.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
+gS20180915S0246.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
+
+GGAIN -- Finished: 2018-11-28T00:17:06
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Tue Nov 27 18:17:06 CST 2018
+
+Input list    = ../raw/S20180915S0247
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../raw/S20180915S0247.fits   Output  gS20180915S0247.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2018-11-28T00:17:07
+File[extension]:             AMPNAME              GAIN   READNOISE
+gS20180915S0247.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
+gS20180915S0247.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
+gS20180915S0247.fits[SCI,3]: " "BI5-36-4k-2, 2""  1.878  4.24
+gS20180915S0247.fits[SCI,4]: " "BI5-36-4k-2, 1""  1.852  4.21
+gS20180915S0247.fits[SCI,5]: " "BI11-33-4k-1, 4""  1.908  3.90
+gS20180915S0247.fits[SCI,6]: " "BI11-33-4k-1, 3""  1.933  4.24
+gS20180915S0247.fits[SCI,7]: " "BI11-33-4k-1, 2""  1.840  4.07
+gS20180915S0247.fits[SCI,8]: " "BI11-33-4k-1, 1""  1.878  4.29
+gS20180915S0247.fits[SCI,9]: " "BI12-34-4k-1, 4""  1.813  4.15
+gS20180915S0247.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
+gS20180915S0247.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
+gS20180915S0247.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
+
+GGAIN -- Finished: 2018-11-28T00:17:07
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Tue Nov 27 18:17:07 CST 2018
+
+Input list    = ../raw/S20180917S0019
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../raw/S20180917S0019.fits   Output  gS20180917S0019.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2018-11-28T00:17:08
+File[extension]:             AMPNAME              GAIN   READNOISE
+gS20180917S0019.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
+gS20180917S0019.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
+gS20180917S0019.fits[SCI,3]: " "BI5-36-4k-2, 2""  1.878  4.24
+gS20180917S0019.fits[SCI,4]: " "BI5-36-4k-2, 1""  1.852  4.21
+gS20180917S0019.fits[SCI,5]: " "BI11-33-4k-1, 4""  1.908  3.90
+gS20180917S0019.fits[SCI,6]: " "BI11-33-4k-1, 3""  1.933  4.24
+gS20180917S0019.fits[SCI,7]: " "BI11-33-4k-1, 2""  1.840  4.07
+gS20180917S0019.fits[SCI,8]: " "BI11-33-4k-1, 1""  1.878  4.29
+gS20180917S0019.fits[SCI,9]: " "BI12-34-4k-1, 4""  1.813  4.15
+gS20180917S0019.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
+gS20180917S0019.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
+gS20180917S0019.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
+
+GGAIN -- Finished: 2018-11-28T00:17:09
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Tue Nov 27 18:17:09 CST 2018
+
+Input list    = ../raw/S20180917S0020
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../raw/S20180917S0020.fits   Output  gS20180917S0020.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2018-11-28T00:17:10
+File[extension]:             AMPNAME              GAIN   READNOISE
+gS20180917S0020.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
+gS20180917S0020.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
+gS20180917S0020.fits[SCI,3]: " "BI5-36-4k-2, 2""  1.878  4.24
+gS20180917S0020.fits[SCI,4]: " "BI5-36-4k-2, 1""  1.852  4.21
+gS20180917S0020.fits[SCI,5]: " "BI11-33-4k-1, 4""  1.908  3.90
+gS20180917S0020.fits[SCI,6]: " "BI11-33-4k-1, 3""  1.933  4.24
+gS20180917S0020.fits[SCI,7]: " "BI11-33-4k-1, 2""  1.840  4.07
+gS20180917S0020.fits[SCI,8]: " "BI11-33-4k-1, 1""  1.878  4.29
+gS20180917S0020.fits[SCI,9]: " "BI12-34-4k-1, 4""  1.813  4.15
+gS20180917S0020.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
+gS20180917S0020.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
+gS20180917S0020.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
+
+GGAIN -- Finished: 2018-11-28T00:17:10
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Tue Nov 27 18:17:10 CST 2018
+
+Input list    = ../raw/S20180917S0021
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../raw/S20180917S0021.fits   Output  gS20180917S0021.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2018-11-28T00:17:11
+File[extension]:             AMPNAME              GAIN   READNOISE
+gS20180917S0021.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
+gS20180917S0021.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
+gS20180917S0021.fits[SCI,3]: " "BI5-36-4k-2, 2""  1.878  4.24
+gS20180917S0021.fits[SCI,4]: " "BI5-36-4k-2, 1""  1.852  4.21
+gS20180917S0021.fits[SCI,5]: " "BI11-33-4k-1, 4""  1.908  3.90
+gS20180917S0021.fits[SCI,6]: " "BI11-33-4k-1, 3""  1.933  4.24
+gS20180917S0021.fits[SCI,7]: " "BI11-33-4k-1, 2""  1.840  4.07
+gS20180917S0021.fits[SCI,8]: " "BI11-33-4k-1, 1""  1.878  4.29
+gS20180917S0021.fits[SCI,9]: " "BI12-34-4k-1, 4""  1.813  4.15
+gS20180917S0021.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
+gS20180917S0021.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
+gS20180917S0021.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
+
+GGAIN -- Finished: 2018-11-28T00:17:12
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Tue Nov 27 18:17:12 CST 2018
+
+Input list    = ../raw/S20180917S0022
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../raw/S20180917S0022.fits   Output  gS20180917S0022.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2018-11-28T00:17:13
+File[extension]:             AMPNAME              GAIN   READNOISE
+gS20180917S0022.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
+gS20180917S0022.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
+gS20180917S0022.fits[SCI,3]: " "BI5-36-4k-2, 2""  1.878  4.24
+gS20180917S0022.fits[SCI,4]: " "BI5-36-4k-2, 1""  1.852  4.21
+gS20180917S0022.fits[SCI,5]: " "BI11-33-4k-1, 4""  1.908  3.90
+gS20180917S0022.fits[SCI,6]: " "BI11-33-4k-1, 3""  1.933  4.24
+gS20180917S0022.fits[SCI,7]: " "BI11-33-4k-1, 2""  1.840  4.07
+gS20180917S0022.fits[SCI,8]: " "BI11-33-4k-1, 1""  1.878  4.29
+gS20180917S0022.fits[SCI,9]: " "BI12-34-4k-1, 4""  1.813  4.15
+gS20180917S0022.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
+gS20180917S0022.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
+gS20180917S0022.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
+
+GGAIN -- Finished: 2018-11-28T00:17:14
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Tue Nov 27 18:17:14 CST 2018
+
+Input list    = ../raw/S20180917S0023
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../raw/S20180917S0023.fits   Output  gS20180917S0023.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2018-11-28T00:17:15
+File[extension]:             AMPNAME              GAIN   READNOISE
+gS20180917S0023.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
+gS20180917S0023.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
+gS20180917S0023.fits[SCI,3]: " "BI5-36-4k-2, 2""  1.878  4.24
+gS20180917S0023.fits[SCI,4]: " "BI5-36-4k-2, 1""  1.852  4.21
+gS20180917S0023.fits[SCI,5]: " "BI11-33-4k-1, 4""  1.908  3.90
+gS20180917S0023.fits[SCI,6]: " "BI11-33-4k-1, 3""  1.933  4.24
+gS20180917S0023.fits[SCI,7]: " "BI11-33-4k-1, 2""  1.840  4.07
+gS20180917S0023.fits[SCI,8]: " "BI11-33-4k-1, 1""  1.878  4.29
+gS20180917S0023.fits[SCI,9]: " "BI12-34-4k-1, 4""  1.813  4.15
+gS20180917S0023.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
+gS20180917S0023.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
+gS20180917S0023.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
+
+GGAIN -- Finished: 2018-11-28T00:17:15
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Tue Nov 27 18:17:15 CST 2018
+
+Input list    = ../raw/S20180918S0144
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../raw/S20180918S0144.fits   Output  gS20180918S0144.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2018-11-28T00:17:16
+File[extension]:             AMPNAME              GAIN   READNOISE
+gS20180918S0144.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
+gS20180918S0144.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
+gS20180918S0144.fits[SCI,3]: " "BI5-36-4k-2, 2""  1.878  4.24
+gS20180918S0144.fits[SCI,4]: " "BI5-36-4k-2, 1""  1.852  4.21
+gS20180918S0144.fits[SCI,5]: " "BI11-33-4k-1, 4""  1.908  3.90
+gS20180918S0144.fits[SCI,6]: " "BI11-33-4k-1, 3""  1.933  4.24
+gS20180918S0144.fits[SCI,7]: " "BI11-33-4k-1, 2""  1.840  4.07
+gS20180918S0144.fits[SCI,8]: " "BI11-33-4k-1, 1""  1.878  4.29
+gS20180918S0144.fits[SCI,9]: " "BI12-34-4k-1, 4""  1.813  4.15
+gS20180918S0144.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
+gS20180918S0144.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
+gS20180918S0144.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
+
+GGAIN -- Finished: 2018-11-28T00:17:17
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Tue Nov 27 18:17:17 CST 2018
+
+Input list    = ../raw/S20180918S0145
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../raw/S20180918S0145.fits   Output  gS20180918S0145.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2018-11-28T00:17:18
+File[extension]:             AMPNAME              GAIN   READNOISE
+gS20180918S0145.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
+gS20180918S0145.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
+gS20180918S0145.fits[SCI,3]: " "BI5-36-4k-2, 2""  1.878  4.24
+gS20180918S0145.fits[SCI,4]: " "BI5-36-4k-2, 1""  1.852  4.21
+gS20180918S0145.fits[SCI,5]: " "BI11-33-4k-1, 4""  1.908  3.90
+gS20180918S0145.fits[SCI,6]: " "BI11-33-4k-1, 3""  1.933  4.24
+gS20180918S0145.fits[SCI,7]: " "BI11-33-4k-1, 2""  1.840  4.07
+gS20180918S0145.fits[SCI,8]: " "BI11-33-4k-1, 1""  1.878  4.29
+gS20180918S0145.fits[SCI,9]: " "BI12-34-4k-1, 4""  1.813  4.15
+gS20180918S0145.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
+gS20180918S0145.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
+gS20180918S0145.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
+
+GGAIN -- Finished: 2018-11-28T00:17:18
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Tue Nov 27 18:17:18 CST 2018
+
+Input list    = ../raw/S20180918S0146
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../raw/S20180918S0146.fits   Output  gS20180918S0146.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2018-11-28T00:17:19
+File[extension]:             AMPNAME              GAIN   READNOISE
+gS20180918S0146.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
+gS20180918S0146.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
+gS20180918S0146.fits[SCI,3]: " "BI5-36-4k-2, 2""  1.878  4.24
+gS20180918S0146.fits[SCI,4]: " "BI5-36-4k-2, 1""  1.852  4.21
+gS20180918S0146.fits[SCI,5]: " "BI11-33-4k-1, 4""  1.908  3.90
+gS20180918S0146.fits[SCI,6]: " "BI11-33-4k-1, 3""  1.933  4.24
+gS20180918S0146.fits[SCI,7]: " "BI11-33-4k-1, 2""  1.840  4.07
+gS20180918S0146.fits[SCI,8]: " "BI11-33-4k-1, 1""  1.878  4.29
+gS20180918S0146.fits[SCI,9]: " "BI12-34-4k-1, 4""  1.813  4.15
+gS20180918S0146.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
+gS20180918S0146.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
+gS20180918S0146.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
+
+GGAIN -- Finished: 2018-11-28T00:17:20
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Tue Nov 27 18:17:20 CST 2018
+
+Input list    = ../raw/S20180918S0147
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../raw/S20180918S0147.fits   Output  gS20180918S0147.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2018-11-28T00:17:21
+File[extension]:             AMPNAME              GAIN   READNOISE
+gS20180918S0147.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
+gS20180918S0147.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
+gS20180918S0147.fits[SCI,3]: " "BI5-36-4k-2, 2""  1.878  4.24
+gS20180918S0147.fits[SCI,4]: " "BI5-36-4k-2, 1""  1.852  4.21
+gS20180918S0147.fits[SCI,5]: " "BI11-33-4k-1, 4""  1.908  3.90
+gS20180918S0147.fits[SCI,6]: " "BI11-33-4k-1, 3""  1.933  4.24
+gS20180918S0147.fits[SCI,7]: " "BI11-33-4k-1, 2""  1.840  4.07
+gS20180918S0147.fits[SCI,8]: " "BI11-33-4k-1, 1""  1.878  4.29
+gS20180918S0147.fits[SCI,9]: " "BI12-34-4k-1, 4""  1.813  4.15
+gS20180918S0147.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
+gS20180918S0147.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
+gS20180918S0147.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
+
+GGAIN -- Finished: 2018-11-28T00:17:22
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Tue Nov 27 18:17:22 CST 2018
+
+Input list    = ../raw/S20180918S0148
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../raw/S20180918S0148.fits   Output  gS20180918S0148.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2018-11-28T00:17:23
+File[extension]:             AMPNAME              GAIN   READNOISE
+gS20180918S0148.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
+gS20180918S0148.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
+gS20180918S0148.fits[SCI,3]: " "BI5-36-4k-2, 2""  1.878  4.24
+gS20180918S0148.fits[SCI,4]: " "BI5-36-4k-2, 1""  1.852  4.21
+gS20180918S0148.fits[SCI,5]: " "BI11-33-4k-1, 4""  1.908  3.90
+gS20180918S0148.fits[SCI,6]: " "BI11-33-4k-1, 3""  1.933  4.24
+gS20180918S0148.fits[SCI,7]: " "BI11-33-4k-1, 2""  1.840  4.07
+gS20180918S0148.fits[SCI,8]: " "BI11-33-4k-1, 1""  1.878  4.29
+gS20180918S0148.fits[SCI,9]: " "BI12-34-4k-1, 4""  1.813  4.15
+gS20180918S0148.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
+gS20180918S0148.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
+gS20180918S0148.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
+
+GGAIN -- Finished: 2018-11-28T00:17:23
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Tue Nov 27 18:17:23 CST 2018
+
+Input list    = ../raw/S20180919S0404
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../raw/S20180919S0404.fits   Output  gS20180919S0404.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2018-11-28T00:17:24
+File[extension]:             AMPNAME              GAIN   READNOISE
+gS20180919S0404.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
+gS20180919S0404.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
+gS20180919S0404.fits[SCI,3]: " "BI5-36-4k-2, 2""  1.878  4.24
+gS20180919S0404.fits[SCI,4]: " "BI5-36-4k-2, 1""  1.852  4.21
+gS20180919S0404.fits[SCI,5]: " "BI11-33-4k-1, 4""  1.908  3.90
+gS20180919S0404.fits[SCI,6]: " "BI11-33-4k-1, 3""  1.933  4.24
+gS20180919S0404.fits[SCI,7]: " "BI11-33-4k-1, 2""  1.840  4.07
+gS20180919S0404.fits[SCI,8]: " "BI11-33-4k-1, 1""  1.878  4.29
+gS20180919S0404.fits[SCI,9]: " "BI12-34-4k-1, 4""  1.813  4.15
+gS20180919S0404.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
+gS20180919S0404.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
+gS20180919S0404.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
+
+GGAIN -- Finished: 2018-11-28T00:17:25
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Tue Nov 27 18:17:25 CST 2018
+
+Input list    = ../raw/S20180919S0405
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../raw/S20180919S0405.fits   Output  gS20180919S0405.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2018-11-28T00:17:26
+File[extension]:             AMPNAME              GAIN   READNOISE
+gS20180919S0405.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
+gS20180919S0405.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
+gS20180919S0405.fits[SCI,3]: " "BI5-36-4k-2, 2""  1.878  4.24
+gS20180919S0405.fits[SCI,4]: " "BI5-36-4k-2, 1""  1.852  4.21
+gS20180919S0405.fits[SCI,5]: " "BI11-33-4k-1, 4""  1.908  3.90
+gS20180919S0405.fits[SCI,6]: " "BI11-33-4k-1, 3""  1.933  4.24
+gS20180919S0405.fits[SCI,7]: " "BI11-33-4k-1, 2""  1.840  4.07
+gS20180919S0405.fits[SCI,8]: " "BI11-33-4k-1, 1""  1.878  4.29
+gS20180919S0405.fits[SCI,9]: " "BI12-34-4k-1, 4""  1.813  4.15
+gS20180919S0405.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
+gS20180919S0405.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
+gS20180919S0405.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
+
+GGAIN -- Finished: 2018-11-28T00:17:26
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Tue Nov 27 18:17:27 CST 2018
+
+Input list    = ../raw/S20180919S0406
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../raw/S20180919S0406.fits   Output  gS20180919S0406.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2018-11-28T00:17:27
+File[extension]:             AMPNAME              GAIN   READNOISE
+gS20180919S0406.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
+gS20180919S0406.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
+gS20180919S0406.fits[SCI,3]: " "BI5-36-4k-2, 2""  1.878  4.24
+gS20180919S0406.fits[SCI,4]: " "BI5-36-4k-2, 1""  1.852  4.21
+gS20180919S0406.fits[SCI,5]: " "BI11-33-4k-1, 4""  1.908  3.90
+gS20180919S0406.fits[SCI,6]: " "BI11-33-4k-1, 3""  1.933  4.24
+gS20180919S0406.fits[SCI,7]: " "BI11-33-4k-1, 2""  1.840  4.07
+gS20180919S0406.fits[SCI,8]: " "BI11-33-4k-1, 1""  1.878  4.29
+gS20180919S0406.fits[SCI,9]: " "BI12-34-4k-1, 4""  1.813  4.15
+gS20180919S0406.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
+gS20180919S0406.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
+gS20180919S0406.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
+
+GGAIN -- Finished: 2018-11-28T00:17:28
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Tue Nov 27 18:17:28 CST 2018
+
+Input list    = ../raw/S20180919S0407
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../raw/S20180919S0407.fits   Output  gS20180919S0407.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2018-11-28T00:17:29
+File[extension]:             AMPNAME              GAIN   READNOISE
+gS20180919S0407.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
+gS20180919S0407.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
+gS20180919S0407.fits[SCI,3]: " "BI5-36-4k-2, 2""  1.878  4.24
+gS20180919S0407.fits[SCI,4]: " "BI5-36-4k-2, 1""  1.852  4.21
+gS20180919S0407.fits[SCI,5]: " "BI11-33-4k-1, 4""  1.908  3.90
+gS20180919S0407.fits[SCI,6]: " "BI11-33-4k-1, 3""  1.933  4.24
+gS20180919S0407.fits[SCI,7]: " "BI11-33-4k-1, 2""  1.840  4.07
+gS20180919S0407.fits[SCI,8]: " "BI11-33-4k-1, 1""  1.878  4.29
+gS20180919S0407.fits[SCI,9]: " "BI12-34-4k-1, 4""  1.813  4.15
+gS20180919S0407.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
+gS20180919S0407.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
+gS20180919S0407.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
+
+GGAIN -- Finished: 2018-11-28T00:17:30
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Tue Nov 27 18:17:30 CST 2018
+
+Input list    = ../raw/S20180919S0408
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../raw/S20180919S0408.fits   Output  gS20180919S0408.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2018-11-28T00:17:31
+File[extension]:             AMPNAME              GAIN   READNOISE
+gS20180919S0408.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
+gS20180919S0408.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
+gS20180919S0408.fits[SCI,3]: " "BI5-36-4k-2, 2""  1.878  4.24
+gS20180919S0408.fits[SCI,4]: " "BI5-36-4k-2, 1""  1.852  4.21
+gS20180919S0408.fits[SCI,5]: " "BI11-33-4k-1, 4""  1.908  3.90
+gS20180919S0408.fits[SCI,6]: " "BI11-33-4k-1, 3""  1.933  4.24
+gS20180919S0408.fits[SCI,7]: " "BI11-33-4k-1, 2""  1.840  4.07
+gS20180919S0408.fits[SCI,8]: " "BI11-33-4k-1, 1""  1.878  4.29
+gS20180919S0408.fits[SCI,9]: " "BI12-34-4k-1, 4""  1.813  4.15
+gS20180919S0408.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
+gS20180919S0408.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
+gS20180919S0408.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
+
+GGAIN -- Finished: 2018-11-28T00:17:31
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Tue Nov 27 18:17:31 CST 2018
 
 Input list    = ../raw/S20180920S0197
 Output list   = 
@@ -56,7 +796,7 @@ Add MDF       = no
 Input  ../raw/S20180920S0197.fits   Output  gS20180920S0197.fits
 GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
 --------------------------------------------------------------------------------
-GGAIN -- Started: 2018-11-05T17:51:55
+GGAIN -- Started: 2018-11-28T00:17:32
 File[extension]:             AMPNAME              GAIN   READNOISE
 gS20180920S0197.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
 gS20180920S0197.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
@@ -71,7 +811,7 @@ gS20180920S0197.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
 gS20180920S0197.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
 gS20180920S0197.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
 
-GGAIN -- Finished: 2018-11-05T17:51:56
+GGAIN -- Finished: 2018-11-28T00:17:33
 
 GGAIN -- Exit staus: GOOD
 
@@ -80,7 +820,7 @@ GGAIN -- Exit staus: GOOD
 GPREPARE exit status: good.
 ----------------------------------------------------------------------------
 ----------------------------------------------------------------------------
-GPREPARE -- Mon Nov  5 11:51:56 CST 2018
+GPREPARE -- Tue Nov 27 18:17:33 CST 2018
 
 Input list    = ../raw/S20180920S0198
 Output list   = 
@@ -92,7 +832,7 @@ Add MDF       = no
 Input  ../raw/S20180920S0198.fits   Output  gS20180920S0198.fits
 GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
 --------------------------------------------------------------------------------
-GGAIN -- Started: 2018-11-05T17:51:57
+GGAIN -- Started: 2018-11-28T00:17:34
 File[extension]:             AMPNAME              GAIN   READNOISE
 gS20180920S0198.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
 gS20180920S0198.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
@@ -107,7 +847,7 @@ gS20180920S0198.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
 gS20180920S0198.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
 gS20180920S0198.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
 
-GGAIN -- Finished: 2018-11-05T17:51:57
+GGAIN -- Finished: 2018-11-28T00:17:35
 
 GGAIN -- Exit staus: GOOD
 
@@ -116,7 +856,7 @@ GGAIN -- Exit staus: GOOD
 GPREPARE exit status: good.
 ----------------------------------------------------------------------------
 ----------------------------------------------------------------------------
-GPREPARE -- Mon Nov  5 11:51:57 CST 2018
+GPREPARE -- Tue Nov 27 18:17:35 CST 2018
 
 Input list    = ../raw/S20180920S0199
 Output list   = 
@@ -128,7 +868,7 @@ Add MDF       = no
 Input  ../raw/S20180920S0199.fits   Output  gS20180920S0199.fits
 GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
 --------------------------------------------------------------------------------
-GGAIN -- Started: 2018-11-05T17:51:58
+GGAIN -- Started: 2018-11-28T00:17:36
 File[extension]:             AMPNAME              GAIN   READNOISE
 gS20180920S0199.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
 gS20180920S0199.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
@@ -143,7 +883,7 @@ gS20180920S0199.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
 gS20180920S0199.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
 gS20180920S0199.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
 
-GGAIN -- Finished: 2018-11-05T17:51:59
+GGAIN -- Finished: 2018-11-28T00:17:37
 
 GGAIN -- Exit staus: GOOD
 
@@ -152,7 +892,7 @@ GGAIN -- Exit staus: GOOD
 GPREPARE exit status: good.
 ----------------------------------------------------------------------------
 ----------------------------------------------------------------------------
-GPREPARE -- Mon Nov  5 11:51:59 CST 2018
+GPREPARE -- Tue Nov 27 18:17:37 CST 2018
 
 Input list    = ../raw/S20180920S0200
 Output list   = 
@@ -164,7 +904,7 @@ Add MDF       = no
 Input  ../raw/S20180920S0200.fits   Output  gS20180920S0200.fits
 GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
 --------------------------------------------------------------------------------
-GGAIN -- Started: 2018-11-05T17:52:00
+GGAIN -- Started: 2018-11-28T00:17:38
 File[extension]:             AMPNAME              GAIN   READNOISE
 gS20180920S0200.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
 gS20180920S0200.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
@@ -179,7 +919,7 @@ gS20180920S0200.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
 gS20180920S0200.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
 gS20180920S0200.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
 
-GGAIN -- Finished: 2018-11-05T17:52:01
+GGAIN -- Finished: 2018-11-28T00:17:38
 
 GGAIN -- Exit staus: GOOD
 
@@ -188,7 +928,7 @@ GGAIN -- Exit staus: GOOD
 GPREPARE exit status: good.
 ----------------------------------------------------------------------------
 ----------------------------------------------------------------------------
-GPREPARE -- Mon Nov  5 11:52:01 CST 2018
+GPREPARE -- Tue Nov 27 18:17:38 CST 2018
 
 Input list    = ../raw/S20180920S0201
 Output list   = 
@@ -200,7 +940,7 @@ Add MDF       = no
 Input  ../raw/S20180920S0201.fits   Output  gS20180920S0201.fits
 GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
 --------------------------------------------------------------------------------
-GGAIN -- Started: 2018-11-05T17:52:02
+GGAIN -- Started: 2018-11-28T00:17:39
 File[extension]:             AMPNAME              GAIN   READNOISE
 gS20180920S0201.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
 gS20180920S0201.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
@@ -215,7 +955,7 @@ gS20180920S0201.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
 gS20180920S0201.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
 gS20180920S0201.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
 
-GGAIN -- Finished: 2018-11-05T17:52:02
+GGAIN -- Finished: 2018-11-28T00:17:40
 
 GGAIN -- Exit staus: GOOD
 
@@ -224,7 +964,7 @@ GGAIN -- Exit staus: GOOD
 GPREPARE exit status: good.
 ----------------------------------------------------------------------------
 ----------------------------------------------------------------------------
-GPREPARE -- Mon Nov  5 11:52:02 CST 2018
+GPREPARE -- Tue Nov 27 18:17:40 CST 2018
 
 Input list    = ../raw/S20180922S0499
 Output list   = 
@@ -236,7 +976,7 @@ Add MDF       = no
 Input  ../raw/S20180922S0499.fits   Output  gS20180922S0499.fits
 GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
 --------------------------------------------------------------------------------
-GGAIN -- Started: 2018-11-05T17:52:03
+GGAIN -- Started: 2018-11-28T00:17:41
 File[extension]:             AMPNAME              GAIN   READNOISE
 gS20180922S0499.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
 gS20180922S0499.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
@@ -251,7 +991,7 @@ gS20180922S0499.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
 gS20180922S0499.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
 gS20180922S0499.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
 
-GGAIN -- Finished: 2018-11-05T17:52:04
+GGAIN -- Finished: 2018-11-28T00:17:42
 
 GGAIN -- Exit staus: GOOD
 
@@ -260,7 +1000,7 @@ GGAIN -- Exit staus: GOOD
 GPREPARE exit status: good.
 ----------------------------------------------------------------------------
 ----------------------------------------------------------------------------
-GPREPARE -- Mon Nov  5 11:52:04 CST 2018
+GPREPARE -- Tue Nov 27 18:17:42 CST 2018
 
 Input list    = ../raw/S20180922S0500
 Output list   = 
@@ -272,7 +1012,7 @@ Add MDF       = no
 Input  ../raw/S20180922S0500.fits   Output  gS20180922S0500.fits
 GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
 --------------------------------------------------------------------------------
-GGAIN -- Started: 2018-11-05T17:52:05
+GGAIN -- Started: 2018-11-28T00:17:43
 File[extension]:             AMPNAME              GAIN   READNOISE
 gS20180922S0500.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
 gS20180922S0500.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
@@ -287,7 +1027,7 @@ gS20180922S0500.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
 gS20180922S0500.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
 gS20180922S0500.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
 
-GGAIN -- Finished: 2018-11-05T17:52:06
+GGAIN -- Finished: 2018-11-28T00:17:43
 
 GGAIN -- Exit staus: GOOD
 
@@ -296,7 +1036,7 @@ GGAIN -- Exit staus: GOOD
 GPREPARE exit status: good.
 ----------------------------------------------------------------------------
 ----------------------------------------------------------------------------
-GPREPARE -- Mon Nov  5 11:52:06 CST 2018
+GPREPARE -- Tue Nov 27 18:17:44 CST 2018
 
 Input list    = ../raw/S20180922S0501
 Output list   = 
@@ -308,7 +1048,7 @@ Add MDF       = no
 Input  ../raw/S20180922S0501.fits   Output  gS20180922S0501.fits
 GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
 --------------------------------------------------------------------------------
-GGAIN -- Started: 2018-11-05T17:52:07
+GGAIN -- Started: 2018-11-28T00:17:45
 File[extension]:             AMPNAME              GAIN   READNOISE
 gS20180922S0501.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
 gS20180922S0501.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
@@ -323,7 +1063,7 @@ gS20180922S0501.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
 gS20180922S0501.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
 gS20180922S0501.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
 
-GGAIN -- Finished: 2018-11-05T17:52:08
+GGAIN -- Finished: 2018-11-28T00:17:46
 
 GGAIN -- Exit staus: GOOD
 
@@ -332,7 +1072,7 @@ GGAIN -- Exit staus: GOOD
 GPREPARE exit status: good.
 ----------------------------------------------------------------------------
 ----------------------------------------------------------------------------
-GPREPARE -- Mon Nov  5 11:52:08 CST 2018
+GPREPARE -- Tue Nov 27 18:17:46 CST 2018
 
 Input list    = ../raw/S20180922S0502
 Output list   = 
@@ -344,7 +1084,7 @@ Add MDF       = no
 Input  ../raw/S20180922S0502.fits   Output  gS20180922S0502.fits
 GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
 --------------------------------------------------------------------------------
-GGAIN -- Started: 2018-11-05T17:52:09
+GGAIN -- Started: 2018-11-28T00:17:47
 File[extension]:             AMPNAME              GAIN   READNOISE
 gS20180922S0502.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
 gS20180922S0502.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
@@ -359,7 +1099,7 @@ gS20180922S0502.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
 gS20180922S0502.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
 gS20180922S0502.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
 
-GGAIN -- Finished: 2018-11-05T17:52:09
+GGAIN -- Finished: 2018-11-28T00:17:47
 
 GGAIN -- Exit staus: GOOD
 
@@ -368,7 +1108,7 @@ GGAIN -- Exit staus: GOOD
 GPREPARE exit status: good.
 ----------------------------------------------------------------------------
 ----------------------------------------------------------------------------
-GPREPARE -- Mon Nov  5 11:52:09 CST 2018
+GPREPARE -- Tue Nov 27 18:17:47 CST 2018
 
 Input list    = ../raw/S20180922S0503
 Output list   = 
@@ -380,7 +1120,7 @@ Add MDF       = no
 Input  ../raw/S20180922S0503.fits   Output  gS20180922S0503.fits
 GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
 --------------------------------------------------------------------------------
-GGAIN -- Started: 2018-11-05T17:52:10
+GGAIN -- Started: 2018-11-28T00:17:48
 File[extension]:             AMPNAME              GAIN   READNOISE
 gS20180922S0503.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
 gS20180922S0503.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
@@ -395,7 +1135,7 @@ gS20180922S0503.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
 gS20180922S0503.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
 gS20180922S0503.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
 
-GGAIN -- Finished: 2018-11-05T17:52:11
+GGAIN -- Finished: 2018-11-28T00:17:49
 
 GGAIN -- Exit staus: GOOD
 
@@ -404,7 +1144,7 @@ GGAIN -- Exit staus: GOOD
 GPREPARE exit status: good.
 ----------------------------------------------------------------------------
 ----------------------------------------------------------------------------
-GPREPARE -- Mon Nov  5 11:52:11 CST 2018
+GPREPARE -- Tue Nov 27 18:17:49 CST 2018
 
 Input list    = ../raw/S20180923S0375
 Output list   = 
@@ -416,7 +1156,7 @@ Add MDF       = no
 Input  ../raw/S20180923S0375.fits   Output  gS20180923S0375.fits
 GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
 --------------------------------------------------------------------------------
-GGAIN -- Started: 2018-11-05T17:52:12
+GGAIN -- Started: 2018-11-28T00:17:50
 File[extension]:             AMPNAME              GAIN   READNOISE
 gS20180923S0375.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
 gS20180923S0375.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
@@ -431,7 +1171,7 @@ gS20180923S0375.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
 gS20180923S0375.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
 gS20180923S0375.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
 
-GGAIN -- Finished: 2018-11-05T17:52:12
+GGAIN -- Finished: 2018-11-28T00:17:50
 
 GGAIN -- Exit staus: GOOD
 
@@ -440,7 +1180,7 @@ GGAIN -- Exit staus: GOOD
 GPREPARE exit status: good.
 ----------------------------------------------------------------------------
 ----------------------------------------------------------------------------
-GPREPARE -- Mon Nov  5 11:52:12 CST 2018
+GPREPARE -- Tue Nov 27 18:17:50 CST 2018
 
 Input list    = ../raw/S20180923S0376
 Output list   = 
@@ -452,7 +1192,7 @@ Add MDF       = no
 Input  ../raw/S20180923S0376.fits   Output  gS20180923S0376.fits
 GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
 --------------------------------------------------------------------------------
-GGAIN -- Started: 2018-11-05T17:52:13
+GGAIN -- Started: 2018-11-28T00:17:52
 File[extension]:             AMPNAME              GAIN   READNOISE
 gS20180923S0376.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
 gS20180923S0376.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
@@ -467,7 +1207,7 @@ gS20180923S0376.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
 gS20180923S0376.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
 gS20180923S0376.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
 
-GGAIN -- Finished: 2018-11-05T17:52:14
+GGAIN -- Finished: 2018-11-28T00:17:52
 
 GGAIN -- Exit staus: GOOD
 
@@ -476,7 +1216,7 @@ GGAIN -- Exit staus: GOOD
 GPREPARE exit status: good.
 ----------------------------------------------------------------------------
 ----------------------------------------------------------------------------
-GPREPARE -- Mon Nov  5 11:52:14 CST 2018
+GPREPARE -- Tue Nov 27 18:17:52 CST 2018
 
 Input list    = ../raw/S20180923S0377
 Output list   = 
@@ -488,7 +1228,7 @@ Add MDF       = no
 Input  ../raw/S20180923S0377.fits   Output  gS20180923S0377.fits
 GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
 --------------------------------------------------------------------------------
-GGAIN -- Started: 2018-11-05T17:52:15
+GGAIN -- Started: 2018-11-28T00:17:53
 File[extension]:             AMPNAME              GAIN   READNOISE
 gS20180923S0377.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
 gS20180923S0377.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
@@ -503,7 +1243,7 @@ gS20180923S0377.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
 gS20180923S0377.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
 gS20180923S0377.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
 
-GGAIN -- Finished: 2018-11-05T17:52:16
+GGAIN -- Finished: 2018-11-28T00:17:54
 
 GGAIN -- Exit staus: GOOD
 
@@ -512,7 +1252,7 @@ GGAIN -- Exit staus: GOOD
 GPREPARE exit status: good.
 ----------------------------------------------------------------------------
 ----------------------------------------------------------------------------
-GPREPARE -- Mon Nov  5 11:52:16 CST 2018
+GPREPARE -- Tue Nov 27 18:17:54 CST 2018
 
 Input list    = ../raw/S20180923S0378
 Output list   = 
@@ -524,7 +1264,7 @@ Add MDF       = no
 Input  ../raw/S20180923S0378.fits   Output  gS20180923S0378.fits
 GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
 --------------------------------------------------------------------------------
-GGAIN -- Started: 2018-11-05T17:52:17
+GGAIN -- Started: 2018-11-28T00:17:55
 File[extension]:             AMPNAME              GAIN   READNOISE
 gS20180923S0378.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
 gS20180923S0378.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
@@ -539,7 +1279,7 @@ gS20180923S0378.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
 gS20180923S0378.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
 gS20180923S0378.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
 
-GGAIN -- Finished: 2018-11-05T17:52:17
+GGAIN -- Finished: 2018-11-28T00:17:55
 
 GGAIN -- Exit staus: GOOD
 
@@ -548,7 +1288,7 @@ GGAIN -- Exit staus: GOOD
 GPREPARE exit status: good.
 ----------------------------------------------------------------------------
 ----------------------------------------------------------------------------
-GPREPARE -- Mon Nov  5 11:52:17 CST 2018
+GPREPARE -- Tue Nov 27 18:17:55 CST 2018
 
 Input list    = ../raw/S20180923S0379
 Output list   = 
@@ -560,7 +1300,7 @@ Add MDF       = no
 Input  ../raw/S20180923S0379.fits   Output  gS20180923S0379.fits
 GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
 --------------------------------------------------------------------------------
-GGAIN -- Started: 2018-11-05T17:52:18
+GGAIN -- Started: 2018-11-28T00:17:57
 File[extension]:             AMPNAME              GAIN   READNOISE
 gS20180923S0379.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
 gS20180923S0379.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
@@ -575,7 +1315,7 @@ gS20180923S0379.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
 gS20180923S0379.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
 gS20180923S0379.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
 
-GGAIN -- Finished: 2018-11-05T17:52:19
+GGAIN -- Finished: 2018-11-28T00:17:57
 
 GGAIN -- Exit staus: GOOD
 
@@ -584,7 +1324,7 @@ GGAIN -- Exit staus: GOOD
 GPREPARE exit status: good.
 ----------------------------------------------------------------------------
 ----------------------------------------------------------------------------
-GPREPARE -- Mon Nov  5 11:52:19 CST 2018
+GPREPARE -- Tue Nov 27 18:17:57 CST 2018
 
 Input list    = ../raw/S20180925S0226
 Output list   = 
@@ -596,7 +1336,7 @@ Add MDF       = no
 Input  ../raw/S20180925S0226.fits   Output  gS20180925S0226.fits
 GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
 --------------------------------------------------------------------------------
-GGAIN -- Started: 2018-11-05T17:52:20
+GGAIN -- Started: 2018-11-28T00:17:58
 File[extension]:             AMPNAME              GAIN   READNOISE
 gS20180925S0226.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
 gS20180925S0226.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
@@ -611,7 +1351,7 @@ gS20180925S0226.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
 gS20180925S0226.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
 gS20180925S0226.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
 
-GGAIN -- Finished: 2018-11-05T17:52:20
+GGAIN -- Finished: 2018-11-28T00:17:59
 
 GGAIN -- Exit staus: GOOD
 
@@ -620,7 +1360,7 @@ GGAIN -- Exit staus: GOOD
 GPREPARE exit status: good.
 ----------------------------------------------------------------------------
 ----------------------------------------------------------------------------
-GPREPARE -- Mon Nov  5 11:52:20 CST 2018
+GPREPARE -- Tue Nov 27 18:17:59 CST 2018
 
 Input list    = ../raw/S20180925S0227
 Output list   = 
@@ -632,7 +1372,7 @@ Add MDF       = no
 Input  ../raw/S20180925S0227.fits   Output  gS20180925S0227.fits
 GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
 --------------------------------------------------------------------------------
-GGAIN -- Started: 2018-11-05T17:52:21
+GGAIN -- Started: 2018-11-28T00:18:00
 File[extension]:             AMPNAME              GAIN   READNOISE
 gS20180925S0227.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
 gS20180925S0227.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
@@ -647,7 +1387,7 @@ gS20180925S0227.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
 gS20180925S0227.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
 gS20180925S0227.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
 
-GGAIN -- Finished: 2018-11-05T17:52:22
+GGAIN -- Finished: 2018-11-28T00:18:01
 
 GGAIN -- Exit staus: GOOD
 
@@ -656,7 +1396,7 @@ GGAIN -- Exit staus: GOOD
 GPREPARE exit status: good.
 ----------------------------------------------------------------------------
 ----------------------------------------------------------------------------
-GPREPARE -- Mon Nov  5 11:52:22 CST 2018
+GPREPARE -- Tue Nov 27 18:18:01 CST 2018
 
 Input list    = ../raw/S20180925S0228
 Output list   = 
@@ -668,7 +1408,7 @@ Add MDF       = no
 Input  ../raw/S20180925S0228.fits   Output  gS20180925S0228.fits
 GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
 --------------------------------------------------------------------------------
-GGAIN -- Started: 2018-11-05T17:52:23
+GGAIN -- Started: 2018-11-28T00:18:02
 File[extension]:             AMPNAME              GAIN   READNOISE
 gS20180925S0228.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
 gS20180925S0228.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
@@ -683,7 +1423,7 @@ gS20180925S0228.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
 gS20180925S0228.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
 gS20180925S0228.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
 
-GGAIN -- Finished: 2018-11-05T17:52:24
+GGAIN -- Finished: 2018-11-28T00:18:03
 
 GGAIN -- Exit staus: GOOD
 
@@ -692,7 +1432,7 @@ GGAIN -- Exit staus: GOOD
 GPREPARE exit status: good.
 ----------------------------------------------------------------------------
 ----------------------------------------------------------------------------
-GPREPARE -- Mon Nov  5 11:52:24 CST 2018
+GPREPARE -- Tue Nov 27 18:18:03 CST 2018
 
 Input list    = ../raw/S20180925S0229
 Output list   = 
@@ -704,7 +1444,7 @@ Add MDF       = no
 Input  ../raw/S20180925S0229.fits   Output  gS20180925S0229.fits
 GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
 --------------------------------------------------------------------------------
-GGAIN -- Started: 2018-11-05T17:52:26
+GGAIN -- Started: 2018-11-28T00:18:04
 File[extension]:             AMPNAME              GAIN   READNOISE
 gS20180925S0229.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
 gS20180925S0229.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
@@ -719,7 +1459,7 @@ gS20180925S0229.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
 gS20180925S0229.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
 gS20180925S0229.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
 
-GGAIN -- Finished: 2018-11-05T17:52:26
+GGAIN -- Finished: 2018-11-28T00:18:04
 
 GGAIN -- Exit staus: GOOD
 
@@ -728,7 +1468,7 @@ GGAIN -- Exit staus: GOOD
 GPREPARE exit status: good.
 ----------------------------------------------------------------------------
 ----------------------------------------------------------------------------
-GPREPARE -- Mon Nov  5 11:52:26 CST 2018
+GPREPARE -- Tue Nov 27 18:18:04 CST 2018
 
 Input list    = ../raw/S20180925S0230
 Output list   = 
@@ -740,7 +1480,7 @@ Add MDF       = no
 Input  ../raw/S20180925S0230.fits   Output  gS20180925S0230.fits
 GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
 --------------------------------------------------------------------------------
-GGAIN -- Started: 2018-11-05T17:52:27
+GGAIN -- Started: 2018-11-28T00:18:05
 File[extension]:             AMPNAME              GAIN   READNOISE
 gS20180925S0230.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
 gS20180925S0230.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
@@ -755,7 +1495,7 @@ gS20180925S0230.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
 gS20180925S0230.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
 gS20180925S0230.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
 
-GGAIN -- Finished: 2018-11-05T17:52:28
+GGAIN -- Finished: 2018-11-28T00:18:06
 
 GGAIN -- Exit staus: GOOD
 
@@ -764,7 +1504,7 @@ GGAIN -- Exit staus: GOOD
 GPREPARE exit status: good.
 ----------------------------------------------------------------------------
 ----------------------------------------------------------------------------
-GPREPARE -- Mon Nov  5 11:52:28 CST 2018
+GPREPARE -- Tue Nov 27 18:18:06 CST 2018
 
 Input list    = ../raw/S20180926S0083
 Output list   = 
@@ -776,7 +1516,7 @@ Add MDF       = no
 Input  ../raw/S20180926S0083.fits   Output  gS20180926S0083.fits
 GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
 --------------------------------------------------------------------------------
-GGAIN -- Started: 2018-11-05T17:52:29
+GGAIN -- Started: 2018-11-28T00:18:07
 File[extension]:             AMPNAME              GAIN   READNOISE
 gS20180926S0083.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
 gS20180926S0083.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
@@ -791,7 +1531,7 @@ gS20180926S0083.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
 gS20180926S0083.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
 gS20180926S0083.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
 
-GGAIN -- Finished: 2018-11-05T17:52:32
+GGAIN -- Finished: 2018-11-28T00:18:08
 
 GGAIN -- Exit staus: GOOD
 
@@ -800,7 +1540,7 @@ GGAIN -- Exit staus: GOOD
 GPREPARE exit status: good.
 ----------------------------------------------------------------------------
 ----------------------------------------------------------------------------
-GPREPARE -- Mon Nov  5 11:52:32 CST 2018
+GPREPARE -- Tue Nov 27 18:18:08 CST 2018
 
 Input list    = ../raw/S20180926S0084
 Output list   = 
@@ -812,7 +1552,7 @@ Add MDF       = no
 Input  ../raw/S20180926S0084.fits   Output  gS20180926S0084.fits
 GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
 --------------------------------------------------------------------------------
-GGAIN -- Started: 2018-11-05T17:52:33
+GGAIN -- Started: 2018-11-28T00:18:09
 File[extension]:             AMPNAME              GAIN   READNOISE
 gS20180926S0084.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
 gS20180926S0084.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
@@ -827,7 +1567,7 @@ gS20180926S0084.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
 gS20180926S0084.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
 gS20180926S0084.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
 
-GGAIN -- Finished: 2018-11-05T17:52:33
+GGAIN -- Finished: 2018-11-28T00:18:10
 
 GGAIN -- Exit staus: GOOD
 
@@ -836,7 +1576,7 @@ GGAIN -- Exit staus: GOOD
 GPREPARE exit status: good.
 ----------------------------------------------------------------------------
 ----------------------------------------------------------------------------
-GPREPARE -- Mon Nov  5 11:52:33 CST 2018
+GPREPARE -- Tue Nov 27 18:18:10 CST 2018
 
 Input list    = ../raw/S20180926S0085
 Output list   = 
@@ -848,7 +1588,7 @@ Add MDF       = no
 Input  ../raw/S20180926S0085.fits   Output  gS20180926S0085.fits
 GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
 --------------------------------------------------------------------------------
-GGAIN -- Started: 2018-11-05T17:52:34
+GGAIN -- Started: 2018-11-28T00:18:11
 File[extension]:             AMPNAME              GAIN   READNOISE
 gS20180926S0085.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
 gS20180926S0085.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
@@ -863,7 +1603,7 @@ gS20180926S0085.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
 gS20180926S0085.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
 gS20180926S0085.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
 
-GGAIN -- Finished: 2018-11-05T17:52:35
+GGAIN -- Finished: 2018-11-28T00:18:11
 
 GGAIN -- Exit staus: GOOD
 
@@ -872,7 +1612,7 @@ GGAIN -- Exit staus: GOOD
 GPREPARE exit status: good.
 ----------------------------------------------------------------------------
 ----------------------------------------------------------------------------
-GPREPARE -- Mon Nov  5 11:52:35 CST 2018
+GPREPARE -- Tue Nov 27 18:18:12 CST 2018
 
 Input list    = ../raw/S20180926S0086
 Output list   = 
@@ -884,7 +1624,7 @@ Add MDF       = no
 Input  ../raw/S20180926S0086.fits   Output  gS20180926S0086.fits
 GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
 --------------------------------------------------------------------------------
-GGAIN -- Started: 2018-11-05T17:52:36
+GGAIN -- Started: 2018-11-28T00:18:13
 File[extension]:             AMPNAME              GAIN   READNOISE
 gS20180926S0086.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
 gS20180926S0086.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
@@ -899,7 +1639,7 @@ gS20180926S0086.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
 gS20180926S0086.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
 gS20180926S0086.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
 
-GGAIN -- Finished: 2018-11-05T17:52:37
+GGAIN -- Finished: 2018-11-28T00:18:13
 
 GGAIN -- Exit staus: GOOD
 
@@ -908,7 +1648,7 @@ GGAIN -- Exit staus: GOOD
 GPREPARE exit status: good.
 ----------------------------------------------------------------------------
 ----------------------------------------------------------------------------
-GPREPARE -- Mon Nov  5 11:52:37 CST 2018
+GPREPARE -- Tue Nov 27 18:18:13 CST 2018
 
 Input list    = ../raw/S20180926S0087
 Output list   = 
@@ -920,7 +1660,7 @@ Add MDF       = no
 Input  ../raw/S20180926S0087.fits   Output  gS20180926S0087.fits
 GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
 --------------------------------------------------------------------------------
-GGAIN -- Started: 2018-11-05T17:52:38
+GGAIN -- Started: 2018-11-28T00:18:14
 File[extension]:             AMPNAME              GAIN   READNOISE
 gS20180926S0087.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
 gS20180926S0087.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
@@ -935,7 +1675,7 @@ gS20180926S0087.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
 gS20180926S0087.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
 gS20180926S0087.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
 
-GGAIN -- Finished: 2018-11-05T17:52:38
+GGAIN -- Finished: 2018-11-28T00:18:15
 
 GGAIN -- Exit staus: GOOD
 
@@ -944,7 +1684,7 @@ GGAIN -- Exit staus: GOOD
 GPREPARE exit status: good.
 ----------------------------------------------------------------------------
 ----------------------------------------------------------------------------
-GPREPARE -- Mon Nov  5 11:52:38 CST 2018
+GPREPARE -- Tue Nov 27 18:18:15 CST 2018
 
 Input list    = ../raw/S20180927S0046
 Output list   = 
@@ -956,7 +1696,7 @@ Add MDF       = no
 Input  ../raw/S20180927S0046.fits   Output  gS20180927S0046.fits
 GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
 --------------------------------------------------------------------------------
-GGAIN -- Started: 2018-11-05T17:52:39
+GGAIN -- Started: 2018-11-28T00:18:16
 File[extension]:             AMPNAME              GAIN   READNOISE
 gS20180927S0046.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
 gS20180927S0046.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
@@ -971,7 +1711,7 @@ gS20180927S0046.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
 gS20180927S0046.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
 gS20180927S0046.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
 
-GGAIN -- Finished: 2018-11-05T17:52:40
+GGAIN -- Finished: 2018-11-28T00:18:17
 
 GGAIN -- Exit staus: GOOD
 
@@ -980,7 +1720,7 @@ GGAIN -- Exit staus: GOOD
 GPREPARE exit status: good.
 ----------------------------------------------------------------------------
 ----------------------------------------------------------------------------
-GPREPARE -- Mon Nov  5 11:52:40 CST 2018
+GPREPARE -- Tue Nov 27 18:18:17 CST 2018
 
 Input list    = ../raw/S20180927S0047
 Output list   = 
@@ -992,7 +1732,7 @@ Add MDF       = no
 Input  ../raw/S20180927S0047.fits   Output  gS20180927S0047.fits
 GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
 --------------------------------------------------------------------------------
-GGAIN -- Started: 2018-11-05T17:52:41
+GGAIN -- Started: 2018-11-28T00:18:18
 File[extension]:             AMPNAME              GAIN   READNOISE
 gS20180927S0047.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
 gS20180927S0047.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
@@ -1007,7 +1747,7 @@ gS20180927S0047.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
 gS20180927S0047.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
 gS20180927S0047.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
 
-GGAIN -- Finished: 2018-11-05T17:52:41
+GGAIN -- Finished: 2018-11-28T00:18:18
 
 GGAIN -- Exit staus: GOOD
 
@@ -1016,7 +1756,7 @@ GGAIN -- Exit staus: GOOD
 GPREPARE exit status: good.
 ----------------------------------------------------------------------------
 ----------------------------------------------------------------------------
-GPREPARE -- Mon Nov  5 11:52:42 CST 2018
+GPREPARE -- Tue Nov 27 18:18:19 CST 2018
 
 Input list    = ../raw/S20180927S0048
 Output list   = 
@@ -1028,7 +1768,7 @@ Add MDF       = no
 Input  ../raw/S20180927S0048.fits   Output  gS20180927S0048.fits
 GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
 --------------------------------------------------------------------------------
-GGAIN -- Started: 2018-11-05T17:52:42
+GGAIN -- Started: 2018-11-28T00:18:19
 File[extension]:             AMPNAME              GAIN   READNOISE
 gS20180927S0048.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
 gS20180927S0048.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
@@ -1043,7 +1783,7 @@ gS20180927S0048.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
 gS20180927S0048.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
 gS20180927S0048.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
 
-GGAIN -- Finished: 2018-11-05T17:52:43
+GGAIN -- Finished: 2018-11-28T00:18:20
 
 GGAIN -- Exit staus: GOOD
 
@@ -1052,7 +1792,7 @@ GGAIN -- Exit staus: GOOD
 GPREPARE exit status: good.
 ----------------------------------------------------------------------------
 ----------------------------------------------------------------------------
-GPREPARE -- Mon Nov  5 11:52:43 CST 2018
+GPREPARE -- Tue Nov 27 18:18:20 CST 2018
 
 Input list    = ../raw/S20180927S0049
 Output list   = 
@@ -1064,7 +1804,7 @@ Add MDF       = no
 Input  ../raw/S20180927S0049.fits   Output  gS20180927S0049.fits
 GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
 --------------------------------------------------------------------------------
-GGAIN -- Started: 2018-11-05T17:52:44
+GGAIN -- Started: 2018-11-28T00:18:21
 File[extension]:             AMPNAME              GAIN   READNOISE
 gS20180927S0049.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
 gS20180927S0049.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
@@ -1079,7 +1819,7 @@ gS20180927S0049.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
 gS20180927S0049.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
 gS20180927S0049.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
 
-GGAIN -- Finished: 2018-11-05T17:52:45
+GGAIN -- Finished: 2018-11-28T00:18:22
 
 GGAIN -- Exit staus: GOOD
 
@@ -1088,7 +1828,7 @@ GGAIN -- Exit staus: GOOD
 GPREPARE exit status: good.
 ----------------------------------------------------------------------------
 ----------------------------------------------------------------------------
-GPREPARE -- Mon Nov  5 11:52:45 CST 2018
+GPREPARE -- Tue Nov 27 18:18:22 CST 2018
 
 Input list    = ../raw/S20180927S0050
 Output list   = 
@@ -1100,7 +1840,7 @@ Add MDF       = no
 Input  ../raw/S20180927S0050.fits   Output  gS20180927S0050.fits
 GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
 --------------------------------------------------------------------------------
-GGAIN -- Started: 2018-11-05T17:52:46
+GGAIN -- Started: 2018-11-28T00:18:23
 File[extension]:             AMPNAME              GAIN   READNOISE
 gS20180927S0050.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
 gS20180927S0050.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
@@ -1115,7 +1855,7 @@ gS20180927S0050.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
 gS20180927S0050.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
 gS20180927S0050.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
 
-GGAIN -- Finished: 2018-11-05T17:52:46
+GGAIN -- Finished: 2018-11-28T00:18:24
 
 GGAIN -- Exit staus: GOOD
 
@@ -1124,7 +1864,7 @@ GGAIN -- Exit staus: GOOD
 GPREPARE exit status: good.
 ----------------------------------------------------------------------------
 ----------------------------------------------------------------------------
-GPREPARE -- Mon Nov  5 11:52:46 CST 2018
+GPREPARE -- Tue Nov 27 18:18:24 CST 2018
 
 Input list    = ../raw/S20180929S0314
 Output list   = 
@@ -1136,7 +1876,7 @@ Add MDF       = no
 Input  ../raw/S20180929S0314.fits   Output  gS20180929S0314.fits
 GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
 --------------------------------------------------------------------------------
-GGAIN -- Started: 2018-11-05T17:52:47
+GGAIN -- Started: 2018-11-28T00:18:25
 File[extension]:             AMPNAME              GAIN   READNOISE
 gS20180929S0314.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
 gS20180929S0314.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
@@ -1151,7 +1891,7 @@ gS20180929S0314.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
 gS20180929S0314.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
 gS20180929S0314.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
 
-GGAIN -- Finished: 2018-11-05T17:52:48
+GGAIN -- Finished: 2018-11-28T00:18:25
 
 GGAIN -- Exit staus: GOOD
 
@@ -1160,7 +1900,7 @@ GGAIN -- Exit staus: GOOD
 GPREPARE exit status: good.
 ----------------------------------------------------------------------------
 ----------------------------------------------------------------------------
-GPREPARE -- Mon Nov  5 11:52:48 CST 2018
+GPREPARE -- Tue Nov 27 18:18:25 CST 2018
 
 Input list    = ../raw/S20180929S0315
 Output list   = 
@@ -1172,7 +1912,7 @@ Add MDF       = no
 Input  ../raw/S20180929S0315.fits   Output  gS20180929S0315.fits
 GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
 --------------------------------------------------------------------------------
-GGAIN -- Started: 2018-11-05T17:52:49
+GGAIN -- Started: 2018-11-28T00:18:26
 File[extension]:             AMPNAME              GAIN   READNOISE
 gS20180929S0315.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
 gS20180929S0315.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
@@ -1187,7 +1927,7 @@ gS20180929S0315.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
 gS20180929S0315.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
 gS20180929S0315.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
 
-GGAIN -- Finished: 2018-11-05T17:52:50
+GGAIN -- Finished: 2018-11-28T00:18:27
 
 GGAIN -- Exit staus: GOOD
 
@@ -1196,7 +1936,7 @@ GGAIN -- Exit staus: GOOD
 GPREPARE exit status: good.
 ----------------------------------------------------------------------------
 ----------------------------------------------------------------------------
-GPREPARE -- Mon Nov  5 11:52:50 CST 2018
+GPREPARE -- Tue Nov 27 18:18:27 CST 2018
 
 Input list    = ../raw/S20180929S0316
 Output list   = 
@@ -1208,7 +1948,7 @@ Add MDF       = no
 Input  ../raw/S20180929S0316.fits   Output  gS20180929S0316.fits
 GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
 --------------------------------------------------------------------------------
-GGAIN -- Started: 2018-11-05T17:52:51
+GGAIN -- Started: 2018-11-28T00:18:28
 File[extension]:             AMPNAME              GAIN   READNOISE
 gS20180929S0316.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
 gS20180929S0316.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
@@ -1223,7 +1963,7 @@ gS20180929S0316.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
 gS20180929S0316.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
 gS20180929S0316.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
 
-GGAIN -- Finished: 2018-11-05T17:52:51
+GGAIN -- Finished: 2018-11-28T00:18:29
 
 GGAIN -- Exit staus: GOOD
 
@@ -1232,7 +1972,7 @@ GGAIN -- Exit staus: GOOD
 GPREPARE exit status: good.
 ----------------------------------------------------------------------------
 ----------------------------------------------------------------------------
-GPREPARE -- Mon Nov  5 11:52:51 CST 2018
+GPREPARE -- Tue Nov 27 18:18:29 CST 2018
 
 Input list    = ../raw/S20180929S0317
 Output list   = 
@@ -1244,7 +1984,7 @@ Add MDF       = no
 Input  ../raw/S20180929S0317.fits   Output  gS20180929S0317.fits
 GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
 --------------------------------------------------------------------------------
-GGAIN -- Started: 2018-11-05T17:52:52
+GGAIN -- Started: 2018-11-28T00:18:30
 File[extension]:             AMPNAME              GAIN   READNOISE
 gS20180929S0317.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
 gS20180929S0317.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
@@ -1259,7 +1999,7 @@ gS20180929S0317.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
 gS20180929S0317.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
 gS20180929S0317.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
 
-GGAIN -- Finished: 2018-11-05T17:52:53
+GGAIN -- Finished: 2018-11-28T00:18:30
 
 GGAIN -- Exit staus: GOOD
 
@@ -1268,7 +2008,7 @@ GGAIN -- Exit staus: GOOD
 GPREPARE exit status: good.
 ----------------------------------------------------------------------------
 ----------------------------------------------------------------------------
-GPREPARE -- Mon Nov  5 11:52:53 CST 2018
+GPREPARE -- Tue Nov 27 18:18:31 CST 2018
 
 Input list    = ../raw/S20180929S0318
 Output list   = 
@@ -1280,7 +2020,7 @@ Add MDF       = no
 Input  ../raw/S20180929S0318.fits   Output  gS20180929S0318.fits
 GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
 --------------------------------------------------------------------------------
-GGAIN -- Started: 2018-11-05T17:52:54
+GGAIN -- Started: 2018-11-28T00:18:31
 File[extension]:             AMPNAME              GAIN   READNOISE
 gS20180929S0318.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
 gS20180929S0318.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
@@ -1295,7 +2035,7 @@ gS20180929S0318.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
 gS20180929S0318.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
 gS20180929S0318.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
 
-GGAIN -- Finished: 2018-11-05T17:52:55
+GGAIN -- Finished: 2018-11-28T00:18:32
 
 GGAIN -- Exit staus: GOOD
 
@@ -1305,6 +2045,26 @@ GPREPARE exit status: good.
 ----------------------------------------------------------------------------
 
 Input files:
+gS20180915S0243
+gS20180915S0244
+gS20180915S0245
+gS20180915S0246
+gS20180915S0247
+gS20180917S0019
+gS20180917S0020
+gS20180917S0021
+gS20180917S0022
+gS20180917S0023
+gS20180918S0144
+gS20180918S0145
+gS20180918S0146
+gS20180918S0147
+gS20180918S0148
+gS20180919S0404
+gS20180919S0405
+gS20180919S0406
+gS20180919S0407
+gS20180919S0408
 gS20180920S0197
 gS20180920S0198
 gS20180920S0199
@@ -1342,123 +2102,183 @@ gS20180929S0317
 gS20180929S0318
 
 Output files:
-tmpfile8816hS20180920S0197
-tmpfile8816hS20180920S0198
-tmpfile8816hS20180920S0199
-tmpfile8816hS20180920S0200
-tmpfile8816hS20180920S0201
-tmpfile8816hS20180922S0499
-tmpfile8816hS20180922S0500
-tmpfile8816hS20180922S0501
-tmpfile8816hS20180922S0502
-tmpfile8816hS20180922S0503
-tmpfile8816hS20180923S0375
-tmpfile8816hS20180923S0376
-tmpfile8816hS20180923S0377
-tmpfile8816hS20180923S0378
-tmpfile8816hS20180923S0379
-tmpfile8816hS20180925S0226
-tmpfile8816hS20180925S0227
-tmpfile8816hS20180925S0228
-tmpfile8816hS20180925S0229
-tmpfile8816hS20180925S0230
-tmpfile8816hS20180926S0083
-tmpfile8816hS20180926S0084
-tmpfile8816hS20180926S0085
-tmpfile8816hS20180926S0086
-tmpfile8816hS20180926S0087
-tmpfile8816hS20180927S0046
-tmpfile8816hS20180927S0047
-tmpfile8816hS20180927S0048
-tmpfile8816hS20180927S0049
-tmpfile8816hS20180927S0050
-tmpfile8816hS20180929S0314
-tmpfile8816hS20180929S0315
-tmpfile8816hS20180929S0316
-tmpfile8816hS20180929S0317
-tmpfile8816hS20180929S0318
+tmpfile13870hS20180915S0243
+tmpfile13870hS20180915S0244
+tmpfile13870hS20180915S0245
+tmpfile13870hS20180915S0246
+tmpfile13870hS20180915S0247
+tmpfile13870hS20180917S0019
+tmpfile13870hS20180917S0020
+tmpfile13870hS20180917S0021
+tmpfile13870hS20180917S0022
+tmpfile13870hS20180917S0023
+tmpfile13870hS20180918S0144
+tmpfile13870hS20180918S0145
+tmpfile13870hS20180918S0146
+tmpfile13870hS20180918S0147
+tmpfile13870hS20180918S0148
+tmpfile13870hS20180919S0404
+tmpfile13870hS20180919S0405
+tmpfile13870hS20180919S0406
+tmpfile13870hS20180919S0407
+tmpfile13870hS20180919S0408
+tmpfile13870hS20180920S0197
+tmpfile13870hS20180920S0198
+tmpfile13870hS20180920S0199
+tmpfile13870hS20180920S0200
+tmpfile13870hS20180920S0201
+tmpfile13870hS20180922S0499
+tmpfile13870hS20180922S0500
+tmpfile13870hS20180922S0501
+tmpfile13870hS20180922S0502
+tmpfile13870hS20180922S0503
+tmpfile13870hS20180923S0375
+tmpfile13870hS20180923S0376
+tmpfile13870hS20180923S0377
+tmpfile13870hS20180923S0378
+tmpfile13870hS20180923S0379
+tmpfile13870hS20180925S0226
+tmpfile13870hS20180925S0227
+tmpfile13870hS20180925S0228
+tmpfile13870hS20180925S0229
+tmpfile13870hS20180925S0230
+tmpfile13870hS20180926S0083
+tmpfile13870hS20180926S0084
+tmpfile13870hS20180926S0085
+tmpfile13870hS20180926S0086
+tmpfile13870hS20180926S0087
+tmpfile13870hS20180927S0046
+tmpfile13870hS20180927S0047
+tmpfile13870hS20180927S0048
+tmpfile13870hS20180927S0049
+tmpfile13870hS20180927S0050
+tmpfile13870hS20180929S0314
+tmpfile13870hS20180929S0315
+tmpfile13870hS20180929S0316
+tmpfile13870hS20180929S0317
+tmpfile13870hS20180929S0318
 
-GIREDUCE: Image tmpfile8816hS20180920S0197 overscan subtracted
-GIREDUCE: Image tmpfile8816hS20180920S0198 overscan subtracted
-GIREDUCE: Image tmpfile8816hS20180920S0199 overscan subtracted
-GIREDUCE: Image tmpfile8816hS20180920S0200 overscan subtracted
-GIREDUCE: Image tmpfile8816hS20180920S0201 overscan subtracted
-GIREDUCE: Image tmpfile8816hS20180922S0499 overscan subtracted
-GIREDUCE: Image tmpfile8816hS20180922S0500 overscan subtracted
-GIREDUCE: Image tmpfile8816hS20180922S0501 overscan subtracted
-GIREDUCE: Image tmpfile8816hS20180922S0502 overscan subtracted
-GIREDUCE: Image tmpfile8816hS20180922S0503 overscan subtracted
-GIREDUCE: Image tmpfile8816hS20180923S0375 overscan subtracted
-GIREDUCE: Image tmpfile8816hS20180923S0376 overscan subtracted
-GIREDUCE: Image tmpfile8816hS20180923S0377 overscan subtracted
-GIREDUCE: Image tmpfile8816hS20180923S0378 overscan subtracted
-GIREDUCE: Image tmpfile8816hS20180923S0379 overscan subtracted
-GIREDUCE: Image tmpfile8816hS20180925S0226 overscan subtracted
-GIREDUCE: Image tmpfile8816hS20180925S0227 overscan subtracted
-GIREDUCE: Image tmpfile8816hS20180925S0228 overscan subtracted
-GIREDUCE: Image tmpfile8816hS20180925S0229 overscan subtracted
-GIREDUCE: Image tmpfile8816hS20180925S0230 overscan subtracted
-GIREDUCE: Image tmpfile8816hS20180926S0083 overscan subtracted
-GIREDUCE: Image tmpfile8816hS20180926S0084 overscan subtracted
-GIREDUCE: Image tmpfile8816hS20180926S0085 overscan subtracted
-GIREDUCE: Image tmpfile8816hS20180926S0086 overscan subtracted
-GIREDUCE: Image tmpfile8816hS20180926S0087 overscan subtracted
-GIREDUCE: Image tmpfile8816hS20180927S0046 overscan subtracted
-GIREDUCE: Image tmpfile8816hS20180927S0047 overscan subtracted
-GIREDUCE: Image tmpfile8816hS20180927S0048 overscan subtracted
-GIREDUCE: Image tmpfile8816hS20180927S0049 overscan subtracted
-GIREDUCE: Image tmpfile8816hS20180927S0050 overscan subtracted
-GIREDUCE: Image tmpfile8816hS20180929S0314 overscan subtracted
-GIREDUCE: Image tmpfile8816hS20180929S0315 overscan subtracted
-GIREDUCE: Image tmpfile8816hS20180929S0316 overscan subtracted
-GIREDUCE: Image tmpfile8816hS20180929S0317 overscan subtracted
-GIREDUCE: Image tmpfile8816hS20180929S0318 overscan subtracted
-GIREDUCE: Image tmpfile8816hS20180920S0197 trimmed
-GIREDUCE: Image tmpfile8816hS20180920S0198 trimmed
-GIREDUCE: Image tmpfile8816hS20180920S0199 trimmed
-GIREDUCE: Image tmpfile8816hS20180920S0200 trimmed
-GIREDUCE: Image tmpfile8816hS20180920S0201 trimmed
-GIREDUCE: Image tmpfile8816hS20180922S0499 trimmed
-GIREDUCE: Image tmpfile8816hS20180922S0500 trimmed
-GIREDUCE: Image tmpfile8816hS20180922S0501 trimmed
-GIREDUCE: Image tmpfile8816hS20180922S0502 trimmed
-GIREDUCE: Image tmpfile8816hS20180922S0503 trimmed
-GIREDUCE: Image tmpfile8816hS20180923S0375 trimmed
-GIREDUCE: Image tmpfile8816hS20180923S0376 trimmed
-GIREDUCE: Image tmpfile8816hS20180923S0377 trimmed
-GIREDUCE: Image tmpfile8816hS20180923S0378 trimmed
-GIREDUCE: Image tmpfile8816hS20180923S0379 trimmed
-GIREDUCE: Image tmpfile8816hS20180925S0226 trimmed
-GIREDUCE: Image tmpfile8816hS20180925S0227 trimmed
-GIREDUCE: Image tmpfile8816hS20180925S0228 trimmed
-GIREDUCE: Image tmpfile8816hS20180925S0229 trimmed
-GIREDUCE: Image tmpfile8816hS20180925S0230 trimmed
-GIREDUCE: Image tmpfile8816hS20180926S0083 trimmed
-GIREDUCE: Image tmpfile8816hS20180926S0084 trimmed
-GIREDUCE: Image tmpfile8816hS20180926S0085 trimmed
-GIREDUCE: Image tmpfile8816hS20180926S0086 trimmed
-GIREDUCE: Image tmpfile8816hS20180926S0087 trimmed
-GIREDUCE: Image tmpfile8816hS20180927S0046 trimmed
-GIREDUCE: Image tmpfile8816hS20180927S0047 trimmed
-GIREDUCE: Image tmpfile8816hS20180927S0048 trimmed
-GIREDUCE: Image tmpfile8816hS20180927S0049 trimmed
-GIREDUCE: Image tmpfile8816hS20180927S0050 trimmed
-GIREDUCE: Image tmpfile8816hS20180929S0314 trimmed
-GIREDUCE: Image tmpfile8816hS20180929S0315 trimmed
-GIREDUCE: Image tmpfile8816hS20180929S0316 trimmed
-GIREDUCE: Image tmpfile8816hS20180929S0317 trimmed
-GIREDUCE: Image tmpfile8816hS20180929S0318 trimmed
+GIREDUCE: Image tmpfile13870hS20180915S0243 overscan subtracted
+GIREDUCE: Image tmpfile13870hS20180915S0244 overscan subtracted
+GIREDUCE: Image tmpfile13870hS20180915S0245 overscan subtracted
+GIREDUCE: Image tmpfile13870hS20180915S0246 overscan subtracted
+GIREDUCE: Image tmpfile13870hS20180915S0247 overscan subtracted
+GIREDUCE: Image tmpfile13870hS20180917S0019 overscan subtracted
+GIREDUCE: Image tmpfile13870hS20180917S0020 overscan subtracted
+GIREDUCE: Image tmpfile13870hS20180917S0021 overscan subtracted
+GIREDUCE: Image tmpfile13870hS20180917S0022 overscan subtracted
+GIREDUCE: Image tmpfile13870hS20180917S0023 overscan subtracted
+GIREDUCE: Image tmpfile13870hS20180918S0144 overscan subtracted
+GIREDUCE: Image tmpfile13870hS20180918S0145 overscan subtracted
+GIREDUCE: Image tmpfile13870hS20180918S0146 overscan subtracted
+GIREDUCE: Image tmpfile13870hS20180918S0147 overscan subtracted
+GIREDUCE: Image tmpfile13870hS20180918S0148 overscan subtracted
+GIREDUCE: Image tmpfile13870hS20180919S0404 overscan subtracted
+GIREDUCE: Image tmpfile13870hS20180919S0405 overscan subtracted
+GIREDUCE: Image tmpfile13870hS20180919S0406 overscan subtracted
+GIREDUCE: Image tmpfile13870hS20180919S0407 overscan subtracted
+GIREDUCE: Image tmpfile13870hS20180919S0408 overscan subtracted
+GIREDUCE: Image tmpfile13870hS20180920S0197 overscan subtracted
+GIREDUCE: Image tmpfile13870hS20180920S0198 overscan subtracted
+GIREDUCE: Image tmpfile13870hS20180920S0199 overscan subtracted
+GIREDUCE: Image tmpfile13870hS20180920S0200 overscan subtracted
+GIREDUCE: Image tmpfile13870hS20180920S0201 overscan subtracted
+GIREDUCE: Image tmpfile13870hS20180922S0499 overscan subtracted
+GIREDUCE: Image tmpfile13870hS20180922S0500 overscan subtracted
+GIREDUCE: Image tmpfile13870hS20180922S0501 overscan subtracted
+GIREDUCE: Image tmpfile13870hS20180922S0502 overscan subtracted
+GIREDUCE: Image tmpfile13870hS20180922S0503 overscan subtracted
+GIREDUCE: Image tmpfile13870hS20180923S0375 overscan subtracted
+GIREDUCE: Image tmpfile13870hS20180923S0376 overscan subtracted
+GIREDUCE: Image tmpfile13870hS20180923S0377 overscan subtracted
+GIREDUCE: Image tmpfile13870hS20180923S0378 overscan subtracted
+GIREDUCE: Image tmpfile13870hS20180923S0379 overscan subtracted
+GIREDUCE: Image tmpfile13870hS20180925S0226 overscan subtracted
+GIREDUCE: Image tmpfile13870hS20180925S0227 overscan subtracted
+GIREDUCE: Image tmpfile13870hS20180925S0228 overscan subtracted
+GIREDUCE: Image tmpfile13870hS20180925S0229 overscan subtracted
+GIREDUCE: Image tmpfile13870hS20180925S0230 overscan subtracted
+GIREDUCE: Image tmpfile13870hS20180926S0083 overscan subtracted
+GIREDUCE: Image tmpfile13870hS20180926S0084 overscan subtracted
+GIREDUCE: Image tmpfile13870hS20180926S0085 overscan subtracted
+GIREDUCE: Image tmpfile13870hS20180926S0086 overscan subtracted
+GIREDUCE: Image tmpfile13870hS20180926S0087 overscan subtracted
+GIREDUCE: Image tmpfile13870hS20180927S0046 overscan subtracted
+GIREDUCE: Image tmpfile13870hS20180927S0047 overscan subtracted
+GIREDUCE: Image tmpfile13870hS20180927S0048 overscan subtracted
+GIREDUCE: Image tmpfile13870hS20180927S0049 overscan subtracted
+GIREDUCE: Image tmpfile13870hS20180927S0050 overscan subtracted
+GIREDUCE: Image tmpfile13870hS20180929S0314 overscan subtracted
+GIREDUCE: Image tmpfile13870hS20180929S0315 overscan subtracted
+GIREDUCE: Image tmpfile13870hS20180929S0316 overscan subtracted
+GIREDUCE: Image tmpfile13870hS20180929S0317 overscan subtracted
+GIREDUCE: Image tmpfile13870hS20180929S0318 overscan subtracted
+GIREDUCE: Image tmpfile13870hS20180915S0243 trimmed
+GIREDUCE: Image tmpfile13870hS20180915S0244 trimmed
+GIREDUCE: Image tmpfile13870hS20180915S0245 trimmed
+GIREDUCE: Image tmpfile13870hS20180915S0246 trimmed
+GIREDUCE: Image tmpfile13870hS20180915S0247 trimmed
+GIREDUCE: Image tmpfile13870hS20180917S0019 trimmed
+GIREDUCE: Image tmpfile13870hS20180917S0020 trimmed
+GIREDUCE: Image tmpfile13870hS20180917S0021 trimmed
+GIREDUCE: Image tmpfile13870hS20180917S0022 trimmed
+GIREDUCE: Image tmpfile13870hS20180917S0023 trimmed
+GIREDUCE: Image tmpfile13870hS20180918S0144 trimmed
+GIREDUCE: Image tmpfile13870hS20180918S0145 trimmed
+GIREDUCE: Image tmpfile13870hS20180918S0146 trimmed
+GIREDUCE: Image tmpfile13870hS20180918S0147 trimmed
+GIREDUCE: Image tmpfile13870hS20180918S0148 trimmed
+GIREDUCE: Image tmpfile13870hS20180919S0404 trimmed
+GIREDUCE: Image tmpfile13870hS20180919S0405 trimmed
+GIREDUCE: Image tmpfile13870hS20180919S0406 trimmed
+GIREDUCE: Image tmpfile13870hS20180919S0407 trimmed
+GIREDUCE: Image tmpfile13870hS20180919S0408 trimmed
+GIREDUCE: Image tmpfile13870hS20180920S0197 trimmed
+GIREDUCE: Image tmpfile13870hS20180920S0198 trimmed
+GIREDUCE: Image tmpfile13870hS20180920S0199 trimmed
+GIREDUCE: Image tmpfile13870hS20180920S0200 trimmed
+GIREDUCE: Image tmpfile13870hS20180920S0201 trimmed
+GIREDUCE: Image tmpfile13870hS20180922S0499 trimmed
+GIREDUCE: Image tmpfile13870hS20180922S0500 trimmed
+GIREDUCE: Image tmpfile13870hS20180922S0501 trimmed
+GIREDUCE: Image tmpfile13870hS20180922S0502 trimmed
+GIREDUCE: Image tmpfile13870hS20180922S0503 trimmed
+GIREDUCE: Image tmpfile13870hS20180923S0375 trimmed
+GIREDUCE: Image tmpfile13870hS20180923S0376 trimmed
+GIREDUCE: Image tmpfile13870hS20180923S0377 trimmed
+GIREDUCE: Image tmpfile13870hS20180923S0378 trimmed
+GIREDUCE: Image tmpfile13870hS20180923S0379 trimmed
+GIREDUCE: Image tmpfile13870hS20180925S0226 trimmed
+GIREDUCE: Image tmpfile13870hS20180925S0227 trimmed
+GIREDUCE: Image tmpfile13870hS20180925S0228 trimmed
+GIREDUCE: Image tmpfile13870hS20180925S0229 trimmed
+GIREDUCE: Image tmpfile13870hS20180925S0230 trimmed
+GIREDUCE: Image tmpfile13870hS20180926S0083 trimmed
+GIREDUCE: Image tmpfile13870hS20180926S0084 trimmed
+GIREDUCE: Image tmpfile13870hS20180926S0085 trimmed
+GIREDUCE: Image tmpfile13870hS20180926S0086 trimmed
+GIREDUCE: Image tmpfile13870hS20180926S0087 trimmed
+GIREDUCE: Image tmpfile13870hS20180927S0046 trimmed
+GIREDUCE: Image tmpfile13870hS20180927S0047 trimmed
+GIREDUCE: Image tmpfile13870hS20180927S0048 trimmed
+GIREDUCE: Image tmpfile13870hS20180927S0049 trimmed
+GIREDUCE: Image tmpfile13870hS20180927S0050 trimmed
+GIREDUCE: Image tmpfile13870hS20180929S0314 trimmed
+GIREDUCE: Image tmpfile13870hS20180929S0315 trimmed
+GIREDUCE: Image tmpfile13870hS20180929S0316 trimmed
+GIREDUCE: Image tmpfile13870hS20180929S0317 trimmed
+GIREDUCE: Image tmpfile13870hS20180929S0318 trimmed
 
 
-GIREDUCE - Cleaning up -- Mon Nov  5 12:02:01 CST 2018
+GIREDUCE - Cleaning up -- Tue Nov 27 18:32:31 CST 2018
 
-GIREDUCE -- Mon Nov  5 12:02:01 CST 2018
+GIREDUCE -- Tue Nov 27 18:32:31 CST 2018
 GIREDUCE exit status:  good.
 ----------------------------------------------------------------------------
 --------------------------------------------------------------------------------
-GEMCOMBINE -- Mon Nov  5 12:02:02 CST 2018
+GEMCOMBINE -- Tue Nov 27 18:32:31 CST 2018
  
-GEMCOMBINE: input = @tmpcombin8816e
+GEMCOMBINE: input = @tmpcombin13870e
 GEMCOMBINE: output = MCbiasFull.fits
 GEMCOMBINE: title = Bias
 GEMCOMBINE: bpmfile = 
@@ -1467,571 +2287,811 @@ GEMCOMBINE: var_ext = VAR
 GEMCOMBINE: dq_ext = DQ
  
 
-Nov  5 12:02: IMCOMBINE
+Nov 27 18:32: IMCOMBINE
   combine = average, scale = none, zero = none, weight = none
   reject = avsigclip, mclip = yes, nkeep = 1
   lsigma = 3., hsigma = 3.
   blank = 0.
-  statsec = Nov  5 12:02
+  statsec = Nov 27 18:32
                 Images 
-  tmpfile8816hS20180920S0197.fits[SCI,1]
-  tmpfile8816hS20180920S0198.fits[SCI,1]
-  tmpfile8816hS20180920S0199.fits[SCI,1]
-  tmpfile8816hS20180920S0200.fits[SCI,1]
-  tmpfile8816hS20180920S0201.fits[SCI,1]
-  tmpfile8816hS20180922S0499.fits[SCI,1]
-  tmpfile8816hS20180922S0500.fits[SCI,1]
-  tmpfile8816hS20180922S0501.fits[SCI,1]
-  tmpfile8816hS20180922S0502.fits[SCI,1]
-  tmpfile8816hS20180922S0503.fits[SCI,1]
-  tmpfile8816hS20180923S0375.fits[SCI,1]
-  tmpfile8816hS20180923S0376.fits[SCI,1]
-  tmpfile8816hS20180923S0377.fits[SCI,1]
-  tmpfile8816hS20180923S0378.fits[SCI,1]
-  tmpfile8816hS20180923S0379.fits[SCI,1]
-  tmpfile8816hS20180925S0226.fits[SCI,1]
-  tmpfile8816hS20180925S0227.fits[SCI,1]
-  tmpfile8816hS20180925S0228.fits[SCI,1]
-  tmpfile8816hS20180925S0229.fits[SCI,1]
-  tmpfile8816hS20180925S0230.fits[SCI,1]
-  tmpfile8816hS20180926S0083.fits[SCI,1]
-  tmpfile8816hS20180926S0084.fits[SCI,1]
-  tmpfile8816hS20180926S0085.fits[SCI,1]
-  tmpfile8816hS20180926S0086.fits[SCI,1]
-  tmpfile8816hS20180926S0087.fits[SCI,1]
-  tmpfile8816hS20180927S0046.fits[SCI,1]
-  tmpfile8816hS20180927S0047.fits[SCI,1]
-  tmpfile8816hS20180927S0048.fits[SCI,1]
-  tmpfile8816hS20180927S0049.fits[SCI,1]
-  tmpfile8816hS20180927S0050.fits[SCI,1]
-  tmpfile8816hS20180929S0314.fits[SCI,1]
-  tmpfile8816hS20180929S0315.fits[SCI,1]
-  tmpfile8816hS20180929S0316.fits[SCI,1]
-  tmpfile8816hS20180929S0317.fits[SCI,1]
-  tmpfile8816hS20180929S0318.fits[SCI,1]
+  tmpfile13870hS20180915S0243.fits[SCI,1]
+  tmpfile13870hS20180915S0244.fits[SCI,1]
+  tmpfile13870hS20180915S0245.fits[SCI,1]
+  tmpfile13870hS20180915S0246.fits[SCI,1]
+  tmpfile13870hS20180915S0247.fits[SCI,1]
+  tmpfile13870hS20180917S0019.fits[SCI,1]
+  tmpfile13870hS20180917S0020.fits[SCI,1]
+  tmpfile13870hS20180917S0021.fits[SCI,1]
+  tmpfile13870hS20180917S0022.fits[SCI,1]
+  tmpfile13870hS20180917S0023.fits[SCI,1]
+  tmpfile13870hS20180918S0144.fits[SCI,1]
+  tmpfile13870hS20180918S0145.fits[SCI,1]
+  tmpfile13870hS20180918S0146.fits[SCI,1]
+  tmpfile13870hS20180918S0147.fits[SCI,1]
+  tmpfile13870hS20180918S0148.fits[SCI,1]
+  tmpfile13870hS20180919S0404.fits[SCI,1]
+  tmpfile13870hS20180919S0405.fits[SCI,1]
+  tmpfile13870hS20180919S0406.fits[SCI,1]
+  tmpfile13870hS20180919S0407.fits[SCI,1]
+  tmpfile13870hS20180919S0408.fits[SCI,1]
+  tmpfile13870hS20180920S0197.fits[SCI,1]
+  tmpfile13870hS20180920S0198.fits[SCI,1]
+  tmpfile13870hS20180920S0199.fits[SCI,1]
+  tmpfile13870hS20180920S0200.fits[SCI,1]
+  tmpfile13870hS20180920S0201.fits[SCI,1]
+  tmpfile13870hS20180922S0499.fits[SCI,1]
+  tmpfile13870hS20180922S0500.fits[SCI,1]
+  tmpfile13870hS20180922S0501.fits[SCI,1]
+  tmpfile13870hS20180922S0502.fits[SCI,1]
+  tmpfile13870hS20180922S0503.fits[SCI,1]
+  tmpfile13870hS20180923S0375.fits[SCI,1]
+  tmpfile13870hS20180923S0376.fits[SCI,1]
+  tmpfile13870hS20180923S0377.fits[SCI,1]
+  tmpfile13870hS20180923S0378.fits[SCI,1]
+  tmpfile13870hS20180923S0379.fits[SCI,1]
+  tmpfile13870hS20180925S0226.fits[SCI,1]
+  tmpfile13870hS20180925S0227.fits[SCI,1]
+  tmpfile13870hS20180925S0228.fits[SCI,1]
+  tmpfile13870hS20180925S0229.fits[SCI,1]
+  tmpfile13870hS20180925S0230.fits[SCI,1]
+  tmpfile13870hS20180926S0083.fits[SCI,1]
+  tmpfile13870hS20180926S0084.fits[SCI,1]
+  tmpfile13870hS20180926S0085.fits[SCI,1]
+  tmpfile13870hS20180926S0086.fits[SCI,1]
+  tmpfile13870hS20180926S0087.fits[SCI,1]
+  tmpfile13870hS20180927S0046.fits[SCI,1]
+  tmpfile13870hS20180927S0047.fits[SCI,1]
+  tmpfile13870hS20180927S0048.fits[SCI,1]
+  tmpfile13870hS20180927S0049.fits[SCI,1]
+  tmpfile13870hS20180927S0050.fits[SCI,1]
+  tmpfile13870hS20180929S0314.fits[SCI,1]
+  tmpfile13870hS20180929S0315.fits[SCI,1]
+  tmpfile13870hS20180929S0316.fits[SCI,1]
+  tmpfile13870hS20180929S0317.fits[SCI,1]
+  tmpfile13870hS20180929S0318.fits[SCI,1]
 
-  Output image = tmpcombout8816_527, ncombine = 35
-  Number rejected mask = tmpcombdq8816_528.pl
-  Sigma image = tmpcombsig8816_529
+  Output image = tmpcombout13870_827, ncombine = 55
+  Number rejected mask = tmpcombdq13870_828.pl
+  Sigma image = tmpcombsig13870_829
 
-Nov  5 12:02: IMCOMBINE
+Nov 27 18:32: IMCOMBINE
   combine = average, scale = none, zero = none, weight = none
   reject = avsigclip, mclip = yes, nkeep = 1
   lsigma = 3., hsigma = 3.
   blank = 0.
-  statsec = Nov  5 12:02
+  statsec = Nov 27 18:32
                 Images 
-  tmpfile8816hS20180920S0197.fits[SCI,2]
-  tmpfile8816hS20180920S0198.fits[SCI,2]
-  tmpfile8816hS20180920S0199.fits[SCI,2]
-  tmpfile8816hS20180920S0200.fits[SCI,2]
-  tmpfile8816hS20180920S0201.fits[SCI,2]
-  tmpfile8816hS20180922S0499.fits[SCI,2]
-  tmpfile8816hS20180922S0500.fits[SCI,2]
-  tmpfile8816hS20180922S0501.fits[SCI,2]
-  tmpfile8816hS20180922S0502.fits[SCI,2]
-  tmpfile8816hS20180922S0503.fits[SCI,2]
-  tmpfile8816hS20180923S0375.fits[SCI,2]
-  tmpfile8816hS20180923S0376.fits[SCI,2]
-  tmpfile8816hS20180923S0377.fits[SCI,2]
-  tmpfile8816hS20180923S0378.fits[SCI,2]
-  tmpfile8816hS20180923S0379.fits[SCI,2]
-  tmpfile8816hS20180925S0226.fits[SCI,2]
-  tmpfile8816hS20180925S0227.fits[SCI,2]
-  tmpfile8816hS20180925S0228.fits[SCI,2]
-  tmpfile8816hS20180925S0229.fits[SCI,2]
-  tmpfile8816hS20180925S0230.fits[SCI,2]
-  tmpfile8816hS20180926S0083.fits[SCI,2]
-  tmpfile8816hS20180926S0084.fits[SCI,2]
-  tmpfile8816hS20180926S0085.fits[SCI,2]
-  tmpfile8816hS20180926S0086.fits[SCI,2]
-  tmpfile8816hS20180926S0087.fits[SCI,2]
-  tmpfile8816hS20180927S0046.fits[SCI,2]
-  tmpfile8816hS20180927S0047.fits[SCI,2]
-  tmpfile8816hS20180927S0048.fits[SCI,2]
-  tmpfile8816hS20180927S0049.fits[SCI,2]
-  tmpfile8816hS20180927S0050.fits[SCI,2]
-  tmpfile8816hS20180929S0314.fits[SCI,2]
-  tmpfile8816hS20180929S0315.fits[SCI,2]
-  tmpfile8816hS20180929S0316.fits[SCI,2]
-  tmpfile8816hS20180929S0317.fits[SCI,2]
-  tmpfile8816hS20180929S0318.fits[SCI,2]
+  tmpfile13870hS20180915S0243.fits[SCI,2]
+  tmpfile13870hS20180915S0244.fits[SCI,2]
+  tmpfile13870hS20180915S0245.fits[SCI,2]
+  tmpfile13870hS20180915S0246.fits[SCI,2]
+  tmpfile13870hS20180915S0247.fits[SCI,2]
+  tmpfile13870hS20180917S0019.fits[SCI,2]
+  tmpfile13870hS20180917S0020.fits[SCI,2]
+  tmpfile13870hS20180917S0021.fits[SCI,2]
+  tmpfile13870hS20180917S0022.fits[SCI,2]
+  tmpfile13870hS20180917S0023.fits[SCI,2]
+  tmpfile13870hS20180918S0144.fits[SCI,2]
+  tmpfile13870hS20180918S0145.fits[SCI,2]
+  tmpfile13870hS20180918S0146.fits[SCI,2]
+  tmpfile13870hS20180918S0147.fits[SCI,2]
+  tmpfile13870hS20180918S0148.fits[SCI,2]
+  tmpfile13870hS20180919S0404.fits[SCI,2]
+  tmpfile13870hS20180919S0405.fits[SCI,2]
+  tmpfile13870hS20180919S0406.fits[SCI,2]
+  tmpfile13870hS20180919S0407.fits[SCI,2]
+  tmpfile13870hS20180919S0408.fits[SCI,2]
+  tmpfile13870hS20180920S0197.fits[SCI,2]
+  tmpfile13870hS20180920S0198.fits[SCI,2]
+  tmpfile13870hS20180920S0199.fits[SCI,2]
+  tmpfile13870hS20180920S0200.fits[SCI,2]
+  tmpfile13870hS20180920S0201.fits[SCI,2]
+  tmpfile13870hS20180922S0499.fits[SCI,2]
+  tmpfile13870hS20180922S0500.fits[SCI,2]
+  tmpfile13870hS20180922S0501.fits[SCI,2]
+  tmpfile13870hS20180922S0502.fits[SCI,2]
+  tmpfile13870hS20180922S0503.fits[SCI,2]
+  tmpfile13870hS20180923S0375.fits[SCI,2]
+  tmpfile13870hS20180923S0376.fits[SCI,2]
+  tmpfile13870hS20180923S0377.fits[SCI,2]
+  tmpfile13870hS20180923S0378.fits[SCI,2]
+  tmpfile13870hS20180923S0379.fits[SCI,2]
+  tmpfile13870hS20180925S0226.fits[SCI,2]
+  tmpfile13870hS20180925S0227.fits[SCI,2]
+  tmpfile13870hS20180925S0228.fits[SCI,2]
+  tmpfile13870hS20180925S0229.fits[SCI,2]
+  tmpfile13870hS20180925S0230.fits[SCI,2]
+  tmpfile13870hS20180926S0083.fits[SCI,2]
+  tmpfile13870hS20180926S0084.fits[SCI,2]
+  tmpfile13870hS20180926S0085.fits[SCI,2]
+  tmpfile13870hS20180926S0086.fits[SCI,2]
+  tmpfile13870hS20180926S0087.fits[SCI,2]
+  tmpfile13870hS20180927S0046.fits[SCI,2]
+  tmpfile13870hS20180927S0047.fits[SCI,2]
+  tmpfile13870hS20180927S0048.fits[SCI,2]
+  tmpfile13870hS20180927S0049.fits[SCI,2]
+  tmpfile13870hS20180927S0050.fits[SCI,2]
+  tmpfile13870hS20180929S0314.fits[SCI,2]
+  tmpfile13870hS20180929S0315.fits[SCI,2]
+  tmpfile13870hS20180929S0316.fits[SCI,2]
+  tmpfile13870hS20180929S0317.fits[SCI,2]
+  tmpfile13870hS20180929S0318.fits[SCI,2]
 
-  Output image = tmpcombout8816_534, ncombine = 35
-  Number rejected mask = tmpcombdq8816_535.pl
-  Sigma image = tmpcombsig8816_536
+  Output image = tmpcombout13870_834, ncombine = 55
+  Number rejected mask = tmpcombdq13870_835.pl
+  Sigma image = tmpcombsig13870_836
 
-Nov  5 12:02: IMCOMBINE
+Nov 27 18:32: IMCOMBINE
   combine = average, scale = none, zero = none, weight = none
   reject = avsigclip, mclip = yes, nkeep = 1
   lsigma = 3., hsigma = 3.
   blank = 0.
-  statsec = Nov  5 12:02
+  statsec = Nov 27 18:32
                 Images 
-  tmpfile8816hS20180920S0197.fits[SCI,3]
-  tmpfile8816hS20180920S0198.fits[SCI,3]
-  tmpfile8816hS20180920S0199.fits[SCI,3]
-  tmpfile8816hS20180920S0200.fits[SCI,3]
-  tmpfile8816hS20180920S0201.fits[SCI,3]
-  tmpfile8816hS20180922S0499.fits[SCI,3]
-  tmpfile8816hS20180922S0500.fits[SCI,3]
-  tmpfile8816hS20180922S0501.fits[SCI,3]
-  tmpfile8816hS20180922S0502.fits[SCI,3]
-  tmpfile8816hS20180922S0503.fits[SCI,3]
-  tmpfile8816hS20180923S0375.fits[SCI,3]
-  tmpfile8816hS20180923S0376.fits[SCI,3]
-  tmpfile8816hS20180923S0377.fits[SCI,3]
-  tmpfile8816hS20180923S0378.fits[SCI,3]
-  tmpfile8816hS20180923S0379.fits[SCI,3]
-  tmpfile8816hS20180925S0226.fits[SCI,3]
-  tmpfile8816hS20180925S0227.fits[SCI,3]
-  tmpfile8816hS20180925S0228.fits[SCI,3]
-  tmpfile8816hS20180925S0229.fits[SCI,3]
-  tmpfile8816hS20180925S0230.fits[SCI,3]
-  tmpfile8816hS20180926S0083.fits[SCI,3]
-  tmpfile8816hS20180926S0084.fits[SCI,3]
-  tmpfile8816hS20180926S0085.fits[SCI,3]
-  tmpfile8816hS20180926S0086.fits[SCI,3]
-  tmpfile8816hS20180926S0087.fits[SCI,3]
-  tmpfile8816hS20180927S0046.fits[SCI,3]
-  tmpfile8816hS20180927S0047.fits[SCI,3]
-  tmpfile8816hS20180927S0048.fits[SCI,3]
-  tmpfile8816hS20180927S0049.fits[SCI,3]
-  tmpfile8816hS20180927S0050.fits[SCI,3]
-  tmpfile8816hS20180929S0314.fits[SCI,3]
-  tmpfile8816hS20180929S0315.fits[SCI,3]
-  tmpfile8816hS20180929S0316.fits[SCI,3]
-  tmpfile8816hS20180929S0317.fits[SCI,3]
-  tmpfile8816hS20180929S0318.fits[SCI,3]
+  tmpfile13870hS20180915S0243.fits[SCI,3]
+  tmpfile13870hS20180915S0244.fits[SCI,3]
+  tmpfile13870hS20180915S0245.fits[SCI,3]
+  tmpfile13870hS20180915S0246.fits[SCI,3]
+  tmpfile13870hS20180915S0247.fits[SCI,3]
+  tmpfile13870hS20180917S0019.fits[SCI,3]
+  tmpfile13870hS20180917S0020.fits[SCI,3]
+  tmpfile13870hS20180917S0021.fits[SCI,3]
+  tmpfile13870hS20180917S0022.fits[SCI,3]
+  tmpfile13870hS20180917S0023.fits[SCI,3]
+  tmpfile13870hS20180918S0144.fits[SCI,3]
+  tmpfile13870hS20180918S0145.fits[SCI,3]
+  tmpfile13870hS20180918S0146.fits[SCI,3]
+  tmpfile13870hS20180918S0147.fits[SCI,3]
+  tmpfile13870hS20180918S0148.fits[SCI,3]
+  tmpfile13870hS20180919S0404.fits[SCI,3]
+  tmpfile13870hS20180919S0405.fits[SCI,3]
+  tmpfile13870hS20180919S0406.fits[SCI,3]
+  tmpfile13870hS20180919S0407.fits[SCI,3]
+  tmpfile13870hS20180919S0408.fits[SCI,3]
+  tmpfile13870hS20180920S0197.fits[SCI,3]
+  tmpfile13870hS20180920S0198.fits[SCI,3]
+  tmpfile13870hS20180920S0199.fits[SCI,3]
+  tmpfile13870hS20180920S0200.fits[SCI,3]
+  tmpfile13870hS20180920S0201.fits[SCI,3]
+  tmpfile13870hS20180922S0499.fits[SCI,3]
+  tmpfile13870hS20180922S0500.fits[SCI,3]
+  tmpfile13870hS20180922S0501.fits[SCI,3]
+  tmpfile13870hS20180922S0502.fits[SCI,3]
+  tmpfile13870hS20180922S0503.fits[SCI,3]
+  tmpfile13870hS20180923S0375.fits[SCI,3]
+  tmpfile13870hS20180923S0376.fits[SCI,3]
+  tmpfile13870hS20180923S0377.fits[SCI,3]
+  tmpfile13870hS20180923S0378.fits[SCI,3]
+  tmpfile13870hS20180923S0379.fits[SCI,3]
+  tmpfile13870hS20180925S0226.fits[SCI,3]
+  tmpfile13870hS20180925S0227.fits[SCI,3]
+  tmpfile13870hS20180925S0228.fits[SCI,3]
+  tmpfile13870hS20180925S0229.fits[SCI,3]
+  tmpfile13870hS20180925S0230.fits[SCI,3]
+  tmpfile13870hS20180926S0083.fits[SCI,3]
+  tmpfile13870hS20180926S0084.fits[SCI,3]
+  tmpfile13870hS20180926S0085.fits[SCI,3]
+  tmpfile13870hS20180926S0086.fits[SCI,3]
+  tmpfile13870hS20180926S0087.fits[SCI,3]
+  tmpfile13870hS20180927S0046.fits[SCI,3]
+  tmpfile13870hS20180927S0047.fits[SCI,3]
+  tmpfile13870hS20180927S0048.fits[SCI,3]
+  tmpfile13870hS20180927S0049.fits[SCI,3]
+  tmpfile13870hS20180927S0050.fits[SCI,3]
+  tmpfile13870hS20180929S0314.fits[SCI,3]
+  tmpfile13870hS20180929S0315.fits[SCI,3]
+  tmpfile13870hS20180929S0316.fits[SCI,3]
+  tmpfile13870hS20180929S0317.fits[SCI,3]
+  tmpfile13870hS20180929S0318.fits[SCI,3]
 
-  Output image = tmpcombout8816_538, ncombine = 35
-  Number rejected mask = tmpcombdq8816_539.pl
-  Sigma image = tmpcombsig8816_540
+  Output image = tmpcombout13870_838, ncombine = 55
+  Number rejected mask = tmpcombdq13870_839.pl
+  Sigma image = tmpcombsig13870_840
 
-Nov  5 12:02: IMCOMBINE
+Nov 27 18:32: IMCOMBINE
   combine = average, scale = none, zero = none, weight = none
   reject = avsigclip, mclip = yes, nkeep = 1
   lsigma = 3., hsigma = 3.
   blank = 0.
-  statsec = Nov  5 12:02
+  statsec = Nov 27 18:32
                 Images 
-  tmpfile8816hS20180920S0197.fits[SCI,4]
-  tmpfile8816hS20180920S0198.fits[SCI,4]
-  tmpfile8816hS20180920S0199.fits[SCI,4]
-  tmpfile8816hS20180920S0200.fits[SCI,4]
-  tmpfile8816hS20180920S0201.fits[SCI,4]
-  tmpfile8816hS20180922S0499.fits[SCI,4]
-  tmpfile8816hS20180922S0500.fits[SCI,4]
-  tmpfile8816hS20180922S0501.fits[SCI,4]
-  tmpfile8816hS20180922S0502.fits[SCI,4]
-  tmpfile8816hS20180922S0503.fits[SCI,4]
-  tmpfile8816hS20180923S0375.fits[SCI,4]
-  tmpfile8816hS20180923S0376.fits[SCI,4]
-  tmpfile8816hS20180923S0377.fits[SCI,4]
-  tmpfile8816hS20180923S0378.fits[SCI,4]
-  tmpfile8816hS20180923S0379.fits[SCI,4]
-  tmpfile8816hS20180925S0226.fits[SCI,4]
-  tmpfile8816hS20180925S0227.fits[SCI,4]
-  tmpfile8816hS20180925S0228.fits[SCI,4]
-  tmpfile8816hS20180925S0229.fits[SCI,4]
-  tmpfile8816hS20180925S0230.fits[SCI,4]
-  tmpfile8816hS20180926S0083.fits[SCI,4]
-  tmpfile8816hS20180926S0084.fits[SCI,4]
-  tmpfile8816hS20180926S0085.fits[SCI,4]
-  tmpfile8816hS20180926S0086.fits[SCI,4]
-  tmpfile8816hS20180926S0087.fits[SCI,4]
-  tmpfile8816hS20180927S0046.fits[SCI,4]
-  tmpfile8816hS20180927S0047.fits[SCI,4]
-  tmpfile8816hS20180927S0048.fits[SCI,4]
-  tmpfile8816hS20180927S0049.fits[SCI,4]
-  tmpfile8816hS20180927S0050.fits[SCI,4]
-  tmpfile8816hS20180929S0314.fits[SCI,4]
-  tmpfile8816hS20180929S0315.fits[SCI,4]
-  tmpfile8816hS20180929S0316.fits[SCI,4]
-  tmpfile8816hS20180929S0317.fits[SCI,4]
-  tmpfile8816hS20180929S0318.fits[SCI,4]
+  tmpfile13870hS20180915S0243.fits[SCI,4]
+  tmpfile13870hS20180915S0244.fits[SCI,4]
+  tmpfile13870hS20180915S0245.fits[SCI,4]
+  tmpfile13870hS20180915S0246.fits[SCI,4]
+  tmpfile13870hS20180915S0247.fits[SCI,4]
+  tmpfile13870hS20180917S0019.fits[SCI,4]
+  tmpfile13870hS20180917S0020.fits[SCI,4]
+  tmpfile13870hS20180917S0021.fits[SCI,4]
+  tmpfile13870hS20180917S0022.fits[SCI,4]
+  tmpfile13870hS20180917S0023.fits[SCI,4]
+  tmpfile13870hS20180918S0144.fits[SCI,4]
+  tmpfile13870hS20180918S0145.fits[SCI,4]
+  tmpfile13870hS20180918S0146.fits[SCI,4]
+  tmpfile13870hS20180918S0147.fits[SCI,4]
+  tmpfile13870hS20180918S0148.fits[SCI,4]
+  tmpfile13870hS20180919S0404.fits[SCI,4]
+  tmpfile13870hS20180919S0405.fits[SCI,4]
+  tmpfile13870hS20180919S0406.fits[SCI,4]
+  tmpfile13870hS20180919S0407.fits[SCI,4]
+  tmpfile13870hS20180919S0408.fits[SCI,4]
+  tmpfile13870hS20180920S0197.fits[SCI,4]
+  tmpfile13870hS20180920S0198.fits[SCI,4]
+  tmpfile13870hS20180920S0199.fits[SCI,4]
+  tmpfile13870hS20180920S0200.fits[SCI,4]
+  tmpfile13870hS20180920S0201.fits[SCI,4]
+  tmpfile13870hS20180922S0499.fits[SCI,4]
+  tmpfile13870hS20180922S0500.fits[SCI,4]
+  tmpfile13870hS20180922S0501.fits[SCI,4]
+  tmpfile13870hS20180922S0502.fits[SCI,4]
+  tmpfile13870hS20180922S0503.fits[SCI,4]
+  tmpfile13870hS20180923S0375.fits[SCI,4]
+  tmpfile13870hS20180923S0376.fits[SCI,4]
+  tmpfile13870hS20180923S0377.fits[SCI,4]
+  tmpfile13870hS20180923S0378.fits[SCI,4]
+  tmpfile13870hS20180923S0379.fits[SCI,4]
+  tmpfile13870hS20180925S0226.fits[SCI,4]
+  tmpfile13870hS20180925S0227.fits[SCI,4]
+  tmpfile13870hS20180925S0228.fits[SCI,4]
+  tmpfile13870hS20180925S0229.fits[SCI,4]
+  tmpfile13870hS20180925S0230.fits[SCI,4]
+  tmpfile13870hS20180926S0083.fits[SCI,4]
+  tmpfile13870hS20180926S0084.fits[SCI,4]
+  tmpfile13870hS20180926S0085.fits[SCI,4]
+  tmpfile13870hS20180926S0086.fits[SCI,4]
+  tmpfile13870hS20180926S0087.fits[SCI,4]
+  tmpfile13870hS20180927S0046.fits[SCI,4]
+  tmpfile13870hS20180927S0047.fits[SCI,4]
+  tmpfile13870hS20180927S0048.fits[SCI,4]
+  tmpfile13870hS20180927S0049.fits[SCI,4]
+  tmpfile13870hS20180927S0050.fits[SCI,4]
+  tmpfile13870hS20180929S0314.fits[SCI,4]
+  tmpfile13870hS20180929S0315.fits[SCI,4]
+  tmpfile13870hS20180929S0316.fits[SCI,4]
+  tmpfile13870hS20180929S0317.fits[SCI,4]
+  tmpfile13870hS20180929S0318.fits[SCI,4]
 
-  Output image = tmpcombout8816_542, ncombine = 35
-  Number rejected mask = tmpcombdq8816_543.pl
-  Sigma image = tmpcombsig8816_544
+  Output image = tmpcombout13870_842, ncombine = 55
+  Number rejected mask = tmpcombdq13870_843.pl
+  Sigma image = tmpcombsig13870_844
 
-Nov  5 12:02: IMCOMBINE
+Nov 27 18:32: IMCOMBINE
   combine = average, scale = none, zero = none, weight = none
   reject = avsigclip, mclip = yes, nkeep = 1
   lsigma = 3., hsigma = 3.
   blank = 0.
-  statsec = Nov  5 12:02
+  statsec = Nov 27 18:32
                 Images 
-  tmpfile8816hS20180920S0197.fits[SCI,5]
-  tmpfile8816hS20180920S0198.fits[SCI,5]
-  tmpfile8816hS20180920S0199.fits[SCI,5]
-  tmpfile8816hS20180920S0200.fits[SCI,5]
-  tmpfile8816hS20180920S0201.fits[SCI,5]
-  tmpfile8816hS20180922S0499.fits[SCI,5]
-  tmpfile8816hS20180922S0500.fits[SCI,5]
-  tmpfile8816hS20180922S0501.fits[SCI,5]
-  tmpfile8816hS20180922S0502.fits[SCI,5]
-  tmpfile8816hS20180922S0503.fits[SCI,5]
-  tmpfile8816hS20180923S0375.fits[SCI,5]
-  tmpfile8816hS20180923S0376.fits[SCI,5]
-  tmpfile8816hS20180923S0377.fits[SCI,5]
-  tmpfile8816hS20180923S0378.fits[SCI,5]
-  tmpfile8816hS20180923S0379.fits[SCI,5]
-  tmpfile8816hS20180925S0226.fits[SCI,5]
-  tmpfile8816hS20180925S0227.fits[SCI,5]
-  tmpfile8816hS20180925S0228.fits[SCI,5]
-  tmpfile8816hS20180925S0229.fits[SCI,5]
-  tmpfile8816hS20180925S0230.fits[SCI,5]
-  tmpfile8816hS20180926S0083.fits[SCI,5]
-  tmpfile8816hS20180926S0084.fits[SCI,5]
-  tmpfile8816hS20180926S0085.fits[SCI,5]
-  tmpfile8816hS20180926S0086.fits[SCI,5]
-  tmpfile8816hS20180926S0087.fits[SCI,5]
-  tmpfile8816hS20180927S0046.fits[SCI,5]
-  tmpfile8816hS20180927S0047.fits[SCI,5]
-  tmpfile8816hS20180927S0048.fits[SCI,5]
-  tmpfile8816hS20180927S0049.fits[SCI,5]
-  tmpfile8816hS20180927S0050.fits[SCI,5]
-  tmpfile8816hS20180929S0314.fits[SCI,5]
-  tmpfile8816hS20180929S0315.fits[SCI,5]
-  tmpfile8816hS20180929S0316.fits[SCI,5]
-  tmpfile8816hS20180929S0317.fits[SCI,5]
-  tmpfile8816hS20180929S0318.fits[SCI,5]
+  tmpfile13870hS20180915S0243.fits[SCI,5]
+  tmpfile13870hS20180915S0244.fits[SCI,5]
+  tmpfile13870hS20180915S0245.fits[SCI,5]
+  tmpfile13870hS20180915S0246.fits[SCI,5]
+  tmpfile13870hS20180915S0247.fits[SCI,5]
+  tmpfile13870hS20180917S0019.fits[SCI,5]
+  tmpfile13870hS20180917S0020.fits[SCI,5]
+  tmpfile13870hS20180917S0021.fits[SCI,5]
+  tmpfile13870hS20180917S0022.fits[SCI,5]
+  tmpfile13870hS20180917S0023.fits[SCI,5]
+  tmpfile13870hS20180918S0144.fits[SCI,5]
+  tmpfile13870hS20180918S0145.fits[SCI,5]
+  tmpfile13870hS20180918S0146.fits[SCI,5]
+  tmpfile13870hS20180918S0147.fits[SCI,5]
+  tmpfile13870hS20180918S0148.fits[SCI,5]
+  tmpfile13870hS20180919S0404.fits[SCI,5]
+  tmpfile13870hS20180919S0405.fits[SCI,5]
+  tmpfile13870hS20180919S0406.fits[SCI,5]
+  tmpfile13870hS20180919S0407.fits[SCI,5]
+  tmpfile13870hS20180919S0408.fits[SCI,5]
+  tmpfile13870hS20180920S0197.fits[SCI,5]
+  tmpfile13870hS20180920S0198.fits[SCI,5]
+  tmpfile13870hS20180920S0199.fits[SCI,5]
+  tmpfile13870hS20180920S0200.fits[SCI,5]
+  tmpfile13870hS20180920S0201.fits[SCI,5]
+  tmpfile13870hS20180922S0499.fits[SCI,5]
+  tmpfile13870hS20180922S0500.fits[SCI,5]
+  tmpfile13870hS20180922S0501.fits[SCI,5]
+  tmpfile13870hS20180922S0502.fits[SCI,5]
+  tmpfile13870hS20180922S0503.fits[SCI,5]
+  tmpfile13870hS20180923S0375.fits[SCI,5]
+  tmpfile13870hS20180923S0376.fits[SCI,5]
+  tmpfile13870hS20180923S0377.fits[SCI,5]
+  tmpfile13870hS20180923S0378.fits[SCI,5]
+  tmpfile13870hS20180923S0379.fits[SCI,5]
+  tmpfile13870hS20180925S0226.fits[SCI,5]
+  tmpfile13870hS20180925S0227.fits[SCI,5]
+  tmpfile13870hS20180925S0228.fits[SCI,5]
+  tmpfile13870hS20180925S0229.fits[SCI,5]
+  tmpfile13870hS20180925S0230.fits[SCI,5]
+  tmpfile13870hS20180926S0083.fits[SCI,5]
+  tmpfile13870hS20180926S0084.fits[SCI,5]
+  tmpfile13870hS20180926S0085.fits[SCI,5]
+  tmpfile13870hS20180926S0086.fits[SCI,5]
+  tmpfile13870hS20180926S0087.fits[SCI,5]
+  tmpfile13870hS20180927S0046.fits[SCI,5]
+  tmpfile13870hS20180927S0047.fits[SCI,5]
+  tmpfile13870hS20180927S0048.fits[SCI,5]
+  tmpfile13870hS20180927S0049.fits[SCI,5]
+  tmpfile13870hS20180927S0050.fits[SCI,5]
+  tmpfile13870hS20180929S0314.fits[SCI,5]
+  tmpfile13870hS20180929S0315.fits[SCI,5]
+  tmpfile13870hS20180929S0316.fits[SCI,5]
+  tmpfile13870hS20180929S0317.fits[SCI,5]
+  tmpfile13870hS20180929S0318.fits[SCI,5]
 
-  Output image = tmpcombout8816_546, ncombine = 35
-  Number rejected mask = tmpcombdq8816_547.pl
-  Sigma image = tmpcombsig8816_548
+  Output image = tmpcombout13870_846, ncombine = 55
+  Number rejected mask = tmpcombdq13870_847.pl
+  Sigma image = tmpcombsig13870_848
 
-Nov  5 12:02: IMCOMBINE
+Nov 27 18:32: IMCOMBINE
   combine = average, scale = none, zero = none, weight = none
   reject = avsigclip, mclip = yes, nkeep = 1
   lsigma = 3., hsigma = 3.
   blank = 0.
-  statsec = Nov  5 12:02
+  statsec = Nov 27 18:32
                 Images 
-  tmpfile8816hS20180920S0197.fits[SCI,6]
-  tmpfile8816hS20180920S0198.fits[SCI,6]
-  tmpfile8816hS20180920S0199.fits[SCI,6]
-  tmpfile8816hS20180920S0200.fits[SCI,6]
-  tmpfile8816hS20180920S0201.fits[SCI,6]
-  tmpfile8816hS20180922S0499.fits[SCI,6]
-  tmpfile8816hS20180922S0500.fits[SCI,6]
-  tmpfile8816hS20180922S0501.fits[SCI,6]
-  tmpfile8816hS20180922S0502.fits[SCI,6]
-  tmpfile8816hS20180922S0503.fits[SCI,6]
-  tmpfile8816hS20180923S0375.fits[SCI,6]
-  tmpfile8816hS20180923S0376.fits[SCI,6]
-  tmpfile8816hS20180923S0377.fits[SCI,6]
-  tmpfile8816hS20180923S0378.fits[SCI,6]
-  tmpfile8816hS20180923S0379.fits[SCI,6]
-  tmpfile8816hS20180925S0226.fits[SCI,6]
-  tmpfile8816hS20180925S0227.fits[SCI,6]
-  tmpfile8816hS20180925S0228.fits[SCI,6]
-  tmpfile8816hS20180925S0229.fits[SCI,6]
-  tmpfile8816hS20180925S0230.fits[SCI,6]
-  tmpfile8816hS20180926S0083.fits[SCI,6]
-  tmpfile8816hS20180926S0084.fits[SCI,6]
-  tmpfile8816hS20180926S0085.fits[SCI,6]
-  tmpfile8816hS20180926S0086.fits[SCI,6]
-  tmpfile8816hS20180926S0087.fits[SCI,6]
-  tmpfile8816hS20180927S0046.fits[SCI,6]
-  tmpfile8816hS20180927S0047.fits[SCI,6]
-  tmpfile8816hS20180927S0048.fits[SCI,6]
-  tmpfile8816hS20180927S0049.fits[SCI,6]
-  tmpfile8816hS20180927S0050.fits[SCI,6]
-  tmpfile8816hS20180929S0314.fits[SCI,6]
-  tmpfile8816hS20180929S0315.fits[SCI,6]
-  tmpfile8816hS20180929S0316.fits[SCI,6]
-  tmpfile8816hS20180929S0317.fits[SCI,6]
-  tmpfile8816hS20180929S0318.fits[SCI,6]
+  tmpfile13870hS20180915S0243.fits[SCI,6]
+  tmpfile13870hS20180915S0244.fits[SCI,6]
+  tmpfile13870hS20180915S0245.fits[SCI,6]
+  tmpfile13870hS20180915S0246.fits[SCI,6]
+  tmpfile13870hS20180915S0247.fits[SCI,6]
+  tmpfile13870hS20180917S0019.fits[SCI,6]
+  tmpfile13870hS20180917S0020.fits[SCI,6]
+  tmpfile13870hS20180917S0021.fits[SCI,6]
+  tmpfile13870hS20180917S0022.fits[SCI,6]
+  tmpfile13870hS20180917S0023.fits[SCI,6]
+  tmpfile13870hS20180918S0144.fits[SCI,6]
+  tmpfile13870hS20180918S0145.fits[SCI,6]
+  tmpfile13870hS20180918S0146.fits[SCI,6]
+  tmpfile13870hS20180918S0147.fits[SCI,6]
+  tmpfile13870hS20180918S0148.fits[SCI,6]
+  tmpfile13870hS20180919S0404.fits[SCI,6]
+  tmpfile13870hS20180919S0405.fits[SCI,6]
+  tmpfile13870hS20180919S0406.fits[SCI,6]
+  tmpfile13870hS20180919S0407.fits[SCI,6]
+  tmpfile13870hS20180919S0408.fits[SCI,6]
+  tmpfile13870hS20180920S0197.fits[SCI,6]
+  tmpfile13870hS20180920S0198.fits[SCI,6]
+  tmpfile13870hS20180920S0199.fits[SCI,6]
+  tmpfile13870hS20180920S0200.fits[SCI,6]
+  tmpfile13870hS20180920S0201.fits[SCI,6]
+  tmpfile13870hS20180922S0499.fits[SCI,6]
+  tmpfile13870hS20180922S0500.fits[SCI,6]
+  tmpfile13870hS20180922S0501.fits[SCI,6]
+  tmpfile13870hS20180922S0502.fits[SCI,6]
+  tmpfile13870hS20180922S0503.fits[SCI,6]
+  tmpfile13870hS20180923S0375.fits[SCI,6]
+  tmpfile13870hS20180923S0376.fits[SCI,6]
+  tmpfile13870hS20180923S0377.fits[SCI,6]
+  tmpfile13870hS20180923S0378.fits[SCI,6]
+  tmpfile13870hS20180923S0379.fits[SCI,6]
+  tmpfile13870hS20180925S0226.fits[SCI,6]
+  tmpfile13870hS20180925S0227.fits[SCI,6]
+  tmpfile13870hS20180925S0228.fits[SCI,6]
+  tmpfile13870hS20180925S0229.fits[SCI,6]
+  tmpfile13870hS20180925S0230.fits[SCI,6]
+  tmpfile13870hS20180926S0083.fits[SCI,6]
+  tmpfile13870hS20180926S0084.fits[SCI,6]
+  tmpfile13870hS20180926S0085.fits[SCI,6]
+  tmpfile13870hS20180926S0086.fits[SCI,6]
+  tmpfile13870hS20180926S0087.fits[SCI,6]
+  tmpfile13870hS20180927S0046.fits[SCI,6]
+  tmpfile13870hS20180927S0047.fits[SCI,6]
+  tmpfile13870hS20180927S0048.fits[SCI,6]
+  tmpfile13870hS20180927S0049.fits[SCI,6]
+  tmpfile13870hS20180927S0050.fits[SCI,6]
+  tmpfile13870hS20180929S0314.fits[SCI,6]
+  tmpfile13870hS20180929S0315.fits[SCI,6]
+  tmpfile13870hS20180929S0316.fits[SCI,6]
+  tmpfile13870hS20180929S0317.fits[SCI,6]
+  tmpfile13870hS20180929S0318.fits[SCI,6]
 
-  Output image = tmpcombout8816_550, ncombine = 35
-  Number rejected mask = tmpcombdq8816_551.pl
-  Sigma image = tmpcombsig8816_552
+  Output image = tmpcombout13870_850, ncombine = 55
+  Number rejected mask = tmpcombdq13870_851.pl
+  Sigma image = tmpcombsig13870_852
 
-Nov  5 12:02: IMCOMBINE
+Nov 27 18:32: IMCOMBINE
   combine = average, scale = none, zero = none, weight = none
   reject = avsigclip, mclip = yes, nkeep = 1
   lsigma = 3., hsigma = 3.
   blank = 0.
-  statsec = Nov  5 12:02
+  statsec = Nov 27 18:32
                 Images 
-  tmpfile8816hS20180920S0197.fits[SCI,7]
-  tmpfile8816hS20180920S0198.fits[SCI,7]
-  tmpfile8816hS20180920S0199.fits[SCI,7]
-  tmpfile8816hS20180920S0200.fits[SCI,7]
-  tmpfile8816hS20180920S0201.fits[SCI,7]
-  tmpfile8816hS20180922S0499.fits[SCI,7]
-  tmpfile8816hS20180922S0500.fits[SCI,7]
-  tmpfile8816hS20180922S0501.fits[SCI,7]
-  tmpfile8816hS20180922S0502.fits[SCI,7]
-  tmpfile8816hS20180922S0503.fits[SCI,7]
-  tmpfile8816hS20180923S0375.fits[SCI,7]
-  tmpfile8816hS20180923S0376.fits[SCI,7]
-  tmpfile8816hS20180923S0377.fits[SCI,7]
-  tmpfile8816hS20180923S0378.fits[SCI,7]
-  tmpfile8816hS20180923S0379.fits[SCI,7]
-  tmpfile8816hS20180925S0226.fits[SCI,7]
-  tmpfile8816hS20180925S0227.fits[SCI,7]
-  tmpfile8816hS20180925S0228.fits[SCI,7]
-  tmpfile8816hS20180925S0229.fits[SCI,7]
-  tmpfile8816hS20180925S0230.fits[SCI,7]
-  tmpfile8816hS20180926S0083.fits[SCI,7]
-  tmpfile8816hS20180926S0084.fits[SCI,7]
-  tmpfile8816hS20180926S0085.fits[SCI,7]
-  tmpfile8816hS20180926S0086.fits[SCI,7]
-  tmpfile8816hS20180926S0087.fits[SCI,7]
-  tmpfile8816hS20180927S0046.fits[SCI,7]
-  tmpfile8816hS20180927S0047.fits[SCI,7]
-  tmpfile8816hS20180927S0048.fits[SCI,7]
-  tmpfile8816hS20180927S0049.fits[SCI,7]
-  tmpfile8816hS20180927S0050.fits[SCI,7]
-  tmpfile8816hS20180929S0314.fits[SCI,7]
-  tmpfile8816hS20180929S0315.fits[SCI,7]
-  tmpfile8816hS20180929S0316.fits[SCI,7]
-  tmpfile8816hS20180929S0317.fits[SCI,7]
-  tmpfile8816hS20180929S0318.fits[SCI,7]
+  tmpfile13870hS20180915S0243.fits[SCI,7]
+  tmpfile13870hS20180915S0244.fits[SCI,7]
+  tmpfile13870hS20180915S0245.fits[SCI,7]
+  tmpfile13870hS20180915S0246.fits[SCI,7]
+  tmpfile13870hS20180915S0247.fits[SCI,7]
+  tmpfile13870hS20180917S0019.fits[SCI,7]
+  tmpfile13870hS20180917S0020.fits[SCI,7]
+  tmpfile13870hS20180917S0021.fits[SCI,7]
+  tmpfile13870hS20180917S0022.fits[SCI,7]
+  tmpfile13870hS20180917S0023.fits[SCI,7]
+  tmpfile13870hS20180918S0144.fits[SCI,7]
+  tmpfile13870hS20180918S0145.fits[SCI,7]
+  tmpfile13870hS20180918S0146.fits[SCI,7]
+  tmpfile13870hS20180918S0147.fits[SCI,7]
+  tmpfile13870hS20180918S0148.fits[SCI,7]
+  tmpfile13870hS20180919S0404.fits[SCI,7]
+  tmpfile13870hS20180919S0405.fits[SCI,7]
+  tmpfile13870hS20180919S0406.fits[SCI,7]
+  tmpfile13870hS20180919S0407.fits[SCI,7]
+  tmpfile13870hS20180919S0408.fits[SCI,7]
+  tmpfile13870hS20180920S0197.fits[SCI,7]
+  tmpfile13870hS20180920S0198.fits[SCI,7]
+  tmpfile13870hS20180920S0199.fits[SCI,7]
+  tmpfile13870hS20180920S0200.fits[SCI,7]
+  tmpfile13870hS20180920S0201.fits[SCI,7]
+  tmpfile13870hS20180922S0499.fits[SCI,7]
+  tmpfile13870hS20180922S0500.fits[SCI,7]
+  tmpfile13870hS20180922S0501.fits[SCI,7]
+  tmpfile13870hS20180922S0502.fits[SCI,7]
+  tmpfile13870hS20180922S0503.fits[SCI,7]
+  tmpfile13870hS20180923S0375.fits[SCI,7]
+  tmpfile13870hS20180923S0376.fits[SCI,7]
+  tmpfile13870hS20180923S0377.fits[SCI,7]
+  tmpfile13870hS20180923S0378.fits[SCI,7]
+  tmpfile13870hS20180923S0379.fits[SCI,7]
+  tmpfile13870hS20180925S0226.fits[SCI,7]
+  tmpfile13870hS20180925S0227.fits[SCI,7]
+  tmpfile13870hS20180925S0228.fits[SCI,7]
+  tmpfile13870hS20180925S0229.fits[SCI,7]
+  tmpfile13870hS20180925S0230.fits[SCI,7]
+  tmpfile13870hS20180926S0083.fits[SCI,7]
+  tmpfile13870hS20180926S0084.fits[SCI,7]
+  tmpfile13870hS20180926S0085.fits[SCI,7]
+  tmpfile13870hS20180926S0086.fits[SCI,7]
+  tmpfile13870hS20180926S0087.fits[SCI,7]
+  tmpfile13870hS20180927S0046.fits[SCI,7]
+  tmpfile13870hS20180927S0047.fits[SCI,7]
+  tmpfile13870hS20180927S0048.fits[SCI,7]
+  tmpfile13870hS20180927S0049.fits[SCI,7]
+  tmpfile13870hS20180927S0050.fits[SCI,7]
+  tmpfile13870hS20180929S0314.fits[SCI,7]
+  tmpfile13870hS20180929S0315.fits[SCI,7]
+  tmpfile13870hS20180929S0316.fits[SCI,7]
+  tmpfile13870hS20180929S0317.fits[SCI,7]
+  tmpfile13870hS20180929S0318.fits[SCI,7]
 
-  Output image = tmpcombout8816_554, ncombine = 35
-  Number rejected mask = tmpcombdq8816_555.pl
-  Sigma image = tmpcombsig8816_556
+  Output image = tmpcombout13870_854, ncombine = 55
+  Number rejected mask = tmpcombdq13870_855.pl
+  Sigma image = tmpcombsig13870_856
 
-Nov  5 12:02: IMCOMBINE
+Nov 27 18:33: IMCOMBINE
   combine = average, scale = none, zero = none, weight = none
   reject = avsigclip, mclip = yes, nkeep = 1
   lsigma = 3., hsigma = 3.
   blank = 0.
-  statsec = Nov  5 12:02
+  statsec = Nov 27 18:33
                 Images 
-  tmpfile8816hS20180920S0197.fits[SCI,8]
-  tmpfile8816hS20180920S0198.fits[SCI,8]
-  tmpfile8816hS20180920S0199.fits[SCI,8]
-  tmpfile8816hS20180920S0200.fits[SCI,8]
-  tmpfile8816hS20180920S0201.fits[SCI,8]
-  tmpfile8816hS20180922S0499.fits[SCI,8]
-  tmpfile8816hS20180922S0500.fits[SCI,8]
-  tmpfile8816hS20180922S0501.fits[SCI,8]
-  tmpfile8816hS20180922S0502.fits[SCI,8]
-  tmpfile8816hS20180922S0503.fits[SCI,8]
-  tmpfile8816hS20180923S0375.fits[SCI,8]
-  tmpfile8816hS20180923S0376.fits[SCI,8]
-  tmpfile8816hS20180923S0377.fits[SCI,8]
-  tmpfile8816hS20180923S0378.fits[SCI,8]
-  tmpfile8816hS20180923S0379.fits[SCI,8]
-  tmpfile8816hS20180925S0226.fits[SCI,8]
-  tmpfile8816hS20180925S0227.fits[SCI,8]
-  tmpfile8816hS20180925S0228.fits[SCI,8]
-  tmpfile8816hS20180925S0229.fits[SCI,8]
-  tmpfile8816hS20180925S0230.fits[SCI,8]
-  tmpfile8816hS20180926S0083.fits[SCI,8]
-  tmpfile8816hS20180926S0084.fits[SCI,8]
-  tmpfile8816hS20180926S0085.fits[SCI,8]
-  tmpfile8816hS20180926S0086.fits[SCI,8]
-  tmpfile8816hS20180926S0087.fits[SCI,8]
-  tmpfile8816hS20180927S0046.fits[SCI,8]
-  tmpfile8816hS20180927S0047.fits[SCI,8]
-  tmpfile8816hS20180927S0048.fits[SCI,8]
-  tmpfile8816hS20180927S0049.fits[SCI,8]
-  tmpfile8816hS20180927S0050.fits[SCI,8]
-  tmpfile8816hS20180929S0314.fits[SCI,8]
-  tmpfile8816hS20180929S0315.fits[SCI,8]
-  tmpfile8816hS20180929S0316.fits[SCI,8]
-  tmpfile8816hS20180929S0317.fits[SCI,8]
-  tmpfile8816hS20180929S0318.fits[SCI,8]
+  tmpfile13870hS20180915S0243.fits[SCI,8]
+  tmpfile13870hS20180915S0244.fits[SCI,8]
+  tmpfile13870hS20180915S0245.fits[SCI,8]
+  tmpfile13870hS20180915S0246.fits[SCI,8]
+  tmpfile13870hS20180915S0247.fits[SCI,8]
+  tmpfile13870hS20180917S0019.fits[SCI,8]
+  tmpfile13870hS20180917S0020.fits[SCI,8]
+  tmpfile13870hS20180917S0021.fits[SCI,8]
+  tmpfile13870hS20180917S0022.fits[SCI,8]
+  tmpfile13870hS20180917S0023.fits[SCI,8]
+  tmpfile13870hS20180918S0144.fits[SCI,8]
+  tmpfile13870hS20180918S0145.fits[SCI,8]
+  tmpfile13870hS20180918S0146.fits[SCI,8]
+  tmpfile13870hS20180918S0147.fits[SCI,8]
+  tmpfile13870hS20180918S0148.fits[SCI,8]
+  tmpfile13870hS20180919S0404.fits[SCI,8]
+  tmpfile13870hS20180919S0405.fits[SCI,8]
+  tmpfile13870hS20180919S0406.fits[SCI,8]
+  tmpfile13870hS20180919S0407.fits[SCI,8]
+  tmpfile13870hS20180919S0408.fits[SCI,8]
+  tmpfile13870hS20180920S0197.fits[SCI,8]
+  tmpfile13870hS20180920S0198.fits[SCI,8]
+  tmpfile13870hS20180920S0199.fits[SCI,8]
+  tmpfile13870hS20180920S0200.fits[SCI,8]
+  tmpfile13870hS20180920S0201.fits[SCI,8]
+  tmpfile13870hS20180922S0499.fits[SCI,8]
+  tmpfile13870hS20180922S0500.fits[SCI,8]
+  tmpfile13870hS20180922S0501.fits[SCI,8]
+  tmpfile13870hS20180922S0502.fits[SCI,8]
+  tmpfile13870hS20180922S0503.fits[SCI,8]
+  tmpfile13870hS20180923S0375.fits[SCI,8]
+  tmpfile13870hS20180923S0376.fits[SCI,8]
+  tmpfile13870hS20180923S0377.fits[SCI,8]
+  tmpfile13870hS20180923S0378.fits[SCI,8]
+  tmpfile13870hS20180923S0379.fits[SCI,8]
+  tmpfile13870hS20180925S0226.fits[SCI,8]
+  tmpfile13870hS20180925S0227.fits[SCI,8]
+  tmpfile13870hS20180925S0228.fits[SCI,8]
+  tmpfile13870hS20180925S0229.fits[SCI,8]
+  tmpfile13870hS20180925S0230.fits[SCI,8]
+  tmpfile13870hS20180926S0083.fits[SCI,8]
+  tmpfile13870hS20180926S0084.fits[SCI,8]
+  tmpfile13870hS20180926S0085.fits[SCI,8]
+  tmpfile13870hS20180926S0086.fits[SCI,8]
+  tmpfile13870hS20180926S0087.fits[SCI,8]
+  tmpfile13870hS20180927S0046.fits[SCI,8]
+  tmpfile13870hS20180927S0047.fits[SCI,8]
+  tmpfile13870hS20180927S0048.fits[SCI,8]
+  tmpfile13870hS20180927S0049.fits[SCI,8]
+  tmpfile13870hS20180927S0050.fits[SCI,8]
+  tmpfile13870hS20180929S0314.fits[SCI,8]
+  tmpfile13870hS20180929S0315.fits[SCI,8]
+  tmpfile13870hS20180929S0316.fits[SCI,8]
+  tmpfile13870hS20180929S0317.fits[SCI,8]
+  tmpfile13870hS20180929S0318.fits[SCI,8]
 
-  Output image = tmpcombout8816_558, ncombine = 35
-  Number rejected mask = tmpcombdq8816_559.pl
-  Sigma image = tmpcombsig8816_560
+  Output image = tmpcombout13870_858, ncombine = 55
+  Number rejected mask = tmpcombdq13870_859.pl
+  Sigma image = tmpcombsig13870_860
 
-Nov  5 12:02: IMCOMBINE
+Nov 27 18:33: IMCOMBINE
   combine = average, scale = none, zero = none, weight = none
   reject = avsigclip, mclip = yes, nkeep = 1
   lsigma = 3., hsigma = 3.
   blank = 0.
-  statsec = Nov  5 12:02
+  statsec = Nov 27 18:33
                 Images 
-  tmpfile8816hS20180920S0197.fits[SCI,9]
-  tmpfile8816hS20180920S0198.fits[SCI,9]
-  tmpfile8816hS20180920S0199.fits[SCI,9]
-  tmpfile8816hS20180920S0200.fits[SCI,9]
-  tmpfile8816hS20180920S0201.fits[SCI,9]
-  tmpfile8816hS20180922S0499.fits[SCI,9]
-  tmpfile8816hS20180922S0500.fits[SCI,9]
-  tmpfile8816hS20180922S0501.fits[SCI,9]
-  tmpfile8816hS20180922S0502.fits[SCI,9]
-  tmpfile8816hS20180922S0503.fits[SCI,9]
-  tmpfile8816hS20180923S0375.fits[SCI,9]
-  tmpfile8816hS20180923S0376.fits[SCI,9]
-  tmpfile8816hS20180923S0377.fits[SCI,9]
-  tmpfile8816hS20180923S0378.fits[SCI,9]
-  tmpfile8816hS20180923S0379.fits[SCI,9]
-  tmpfile8816hS20180925S0226.fits[SCI,9]
-  tmpfile8816hS20180925S0227.fits[SCI,9]
-  tmpfile8816hS20180925S0228.fits[SCI,9]
-  tmpfile8816hS20180925S0229.fits[SCI,9]
-  tmpfile8816hS20180925S0230.fits[SCI,9]
-  tmpfile8816hS20180926S0083.fits[SCI,9]
-  tmpfile8816hS20180926S0084.fits[SCI,9]
-  tmpfile8816hS20180926S0085.fits[SCI,9]
-  tmpfile8816hS20180926S0086.fits[SCI,9]
-  tmpfile8816hS20180926S0087.fits[SCI,9]
-  tmpfile8816hS20180927S0046.fits[SCI,9]
-  tmpfile8816hS20180927S0047.fits[SCI,9]
-  tmpfile8816hS20180927S0048.fits[SCI,9]
-  tmpfile8816hS20180927S0049.fits[SCI,9]
-  tmpfile8816hS20180927S0050.fits[SCI,9]
-  tmpfile8816hS20180929S0314.fits[SCI,9]
-  tmpfile8816hS20180929S0315.fits[SCI,9]
-  tmpfile8816hS20180929S0316.fits[SCI,9]
-  tmpfile8816hS20180929S0317.fits[SCI,9]
-  tmpfile8816hS20180929S0318.fits[SCI,9]
+  tmpfile13870hS20180915S0243.fits[SCI,9]
+  tmpfile13870hS20180915S0244.fits[SCI,9]
+  tmpfile13870hS20180915S0245.fits[SCI,9]
+  tmpfile13870hS20180915S0246.fits[SCI,9]
+  tmpfile13870hS20180915S0247.fits[SCI,9]
+  tmpfile13870hS20180917S0019.fits[SCI,9]
+  tmpfile13870hS20180917S0020.fits[SCI,9]
+  tmpfile13870hS20180917S0021.fits[SCI,9]
+  tmpfile13870hS20180917S0022.fits[SCI,9]
+  tmpfile13870hS20180917S0023.fits[SCI,9]
+  tmpfile13870hS20180918S0144.fits[SCI,9]
+  tmpfile13870hS20180918S0145.fits[SCI,9]
+  tmpfile13870hS20180918S0146.fits[SCI,9]
+  tmpfile13870hS20180918S0147.fits[SCI,9]
+  tmpfile13870hS20180918S0148.fits[SCI,9]
+  tmpfile13870hS20180919S0404.fits[SCI,9]
+  tmpfile13870hS20180919S0405.fits[SCI,9]
+  tmpfile13870hS20180919S0406.fits[SCI,9]
+  tmpfile13870hS20180919S0407.fits[SCI,9]
+  tmpfile13870hS20180919S0408.fits[SCI,9]
+  tmpfile13870hS20180920S0197.fits[SCI,9]
+  tmpfile13870hS20180920S0198.fits[SCI,9]
+  tmpfile13870hS20180920S0199.fits[SCI,9]
+  tmpfile13870hS20180920S0200.fits[SCI,9]
+  tmpfile13870hS20180920S0201.fits[SCI,9]
+  tmpfile13870hS20180922S0499.fits[SCI,9]
+  tmpfile13870hS20180922S0500.fits[SCI,9]
+  tmpfile13870hS20180922S0501.fits[SCI,9]
+  tmpfile13870hS20180922S0502.fits[SCI,9]
+  tmpfile13870hS20180922S0503.fits[SCI,9]
+  tmpfile13870hS20180923S0375.fits[SCI,9]
+  tmpfile13870hS20180923S0376.fits[SCI,9]
+  tmpfile13870hS20180923S0377.fits[SCI,9]
+  tmpfile13870hS20180923S0378.fits[SCI,9]
+  tmpfile13870hS20180923S0379.fits[SCI,9]
+  tmpfile13870hS20180925S0226.fits[SCI,9]
+  tmpfile13870hS20180925S0227.fits[SCI,9]
+  tmpfile13870hS20180925S0228.fits[SCI,9]
+  tmpfile13870hS20180925S0229.fits[SCI,9]
+  tmpfile13870hS20180925S0230.fits[SCI,9]
+  tmpfile13870hS20180926S0083.fits[SCI,9]
+  tmpfile13870hS20180926S0084.fits[SCI,9]
+  tmpfile13870hS20180926S0085.fits[SCI,9]
+  tmpfile13870hS20180926S0086.fits[SCI,9]
+  tmpfile13870hS20180926S0087.fits[SCI,9]
+  tmpfile13870hS20180927S0046.fits[SCI,9]
+  tmpfile13870hS20180927S0047.fits[SCI,9]
+  tmpfile13870hS20180927S0048.fits[SCI,9]
+  tmpfile13870hS20180927S0049.fits[SCI,9]
+  tmpfile13870hS20180927S0050.fits[SCI,9]
+  tmpfile13870hS20180929S0314.fits[SCI,9]
+  tmpfile13870hS20180929S0315.fits[SCI,9]
+  tmpfile13870hS20180929S0316.fits[SCI,9]
+  tmpfile13870hS20180929S0317.fits[SCI,9]
+  tmpfile13870hS20180929S0318.fits[SCI,9]
 
-  Output image = tmpcombout8816_562, ncombine = 35
-  Number rejected mask = tmpcombdq8816_563.pl
-  Sigma image = tmpcombsig8816_564
+  Output image = tmpcombout13870_862, ncombine = 55
+  Number rejected mask = tmpcombdq13870_863.pl
+  Sigma image = tmpcombsig13870_864
 
-Nov  5 12:02: IMCOMBINE
+Nov 27 18:33: IMCOMBINE
   combine = average, scale = none, zero = none, weight = none
   reject = avsigclip, mclip = yes, nkeep = 1
   lsigma = 3., hsigma = 3.
   blank = 0.
-  statsec = Nov  5 12:02
+  statsec = Nov 27 18:33
                 Images 
-  tmpfile8816hS20180920S0197.fits[SCI,10]
-  tmpfile8816hS20180920S0198.fits[SCI,10]
-  tmpfile8816hS20180920S0199.fits[SCI,10]
-  tmpfile8816hS20180920S0200.fits[SCI,10]
-  tmpfile8816hS20180920S0201.fits[SCI,10]
-  tmpfile8816hS20180922S0499.fits[SCI,10]
-  tmpfile8816hS20180922S0500.fits[SCI,10]
-  tmpfile8816hS20180922S0501.fits[SCI,10]
-  tmpfile8816hS20180922S0502.fits[SCI,10]
-  tmpfile8816hS20180922S0503.fits[SCI,10]
-  tmpfile8816hS20180923S0375.fits[SCI,10]
-  tmpfile8816hS20180923S0376.fits[SCI,10]
-  tmpfile8816hS20180923S0377.fits[SCI,10]
-  tmpfile8816hS20180923S0378.fits[SCI,10]
-  tmpfile8816hS20180923S0379.fits[SCI,10]
-  tmpfile8816hS20180925S0226.fits[SCI,10]
-  tmpfile8816hS20180925S0227.fits[SCI,10]
-  tmpfile8816hS20180925S0228.fits[SCI,10]
-  tmpfile8816hS20180925S0229.fits[SCI,10]
-  tmpfile8816hS20180925S0230.fits[SCI,10]
-  tmpfile8816hS20180926S0083.fits[SCI,10]
-  tmpfile8816hS20180926S0084.fits[SCI,10]
-  tmpfile8816hS20180926S0085.fits[SCI,10]
-  tmpfile8816hS20180926S0086.fits[SCI,10]
-  tmpfile8816hS20180926S0087.fits[SCI,10]
-  tmpfile8816hS20180927S0046.fits[SCI,10]
-  tmpfile8816hS20180927S0047.fits[SCI,10]
-  tmpfile8816hS20180927S0048.fits[SCI,10]
-  tmpfile8816hS20180927S0049.fits[SCI,10]
-  tmpfile8816hS20180927S0050.fits[SCI,10]
-  tmpfile8816hS20180929S0314.fits[SCI,10]
-  tmpfile8816hS20180929S0315.fits[SCI,10]
-  tmpfile8816hS20180929S0316.fits[SCI,10]
-  tmpfile8816hS20180929S0317.fits[SCI,10]
-  tmpfile8816hS20180929S0318.fits[SCI,10]
+  tmpfile13870hS20180915S0243.fits[SCI,10]
+  tmpfile13870hS20180915S0244.fits[SCI,10]
+  tmpfile13870hS20180915S0245.fits[SCI,10]
+  tmpfile13870hS20180915S0246.fits[SCI,10]
+  tmpfile13870hS20180915S0247.fits[SCI,10]
+  tmpfile13870hS20180917S0019.fits[SCI,10]
+  tmpfile13870hS20180917S0020.fits[SCI,10]
+  tmpfile13870hS20180917S0021.fits[SCI,10]
+  tmpfile13870hS20180917S0022.fits[SCI,10]
+  tmpfile13870hS20180917S0023.fits[SCI,10]
+  tmpfile13870hS20180918S0144.fits[SCI,10]
+  tmpfile13870hS20180918S0145.fits[SCI,10]
+  tmpfile13870hS20180918S0146.fits[SCI,10]
+  tmpfile13870hS20180918S0147.fits[SCI,10]
+  tmpfile13870hS20180918S0148.fits[SCI,10]
+  tmpfile13870hS20180919S0404.fits[SCI,10]
+  tmpfile13870hS20180919S0405.fits[SCI,10]
+  tmpfile13870hS20180919S0406.fits[SCI,10]
+  tmpfile13870hS20180919S0407.fits[SCI,10]
+  tmpfile13870hS20180919S0408.fits[SCI,10]
+  tmpfile13870hS20180920S0197.fits[SCI,10]
+  tmpfile13870hS20180920S0198.fits[SCI,10]
+  tmpfile13870hS20180920S0199.fits[SCI,10]
+  tmpfile13870hS20180920S0200.fits[SCI,10]
+  tmpfile13870hS20180920S0201.fits[SCI,10]
+  tmpfile13870hS20180922S0499.fits[SCI,10]
+  tmpfile13870hS20180922S0500.fits[SCI,10]
+  tmpfile13870hS20180922S0501.fits[SCI,10]
+  tmpfile13870hS20180922S0502.fits[SCI,10]
+  tmpfile13870hS20180922S0503.fits[SCI,10]
+  tmpfile13870hS20180923S0375.fits[SCI,10]
+  tmpfile13870hS20180923S0376.fits[SCI,10]
+  tmpfile13870hS20180923S0377.fits[SCI,10]
+  tmpfile13870hS20180923S0378.fits[SCI,10]
+  tmpfile13870hS20180923S0379.fits[SCI,10]
+  tmpfile13870hS20180925S0226.fits[SCI,10]
+  tmpfile13870hS20180925S0227.fits[SCI,10]
+  tmpfile13870hS20180925S0228.fits[SCI,10]
+  tmpfile13870hS20180925S0229.fits[SCI,10]
+  tmpfile13870hS20180925S0230.fits[SCI,10]
+  tmpfile13870hS20180926S0083.fits[SCI,10]
+  tmpfile13870hS20180926S0084.fits[SCI,10]
+  tmpfile13870hS20180926S0085.fits[SCI,10]
+  tmpfile13870hS20180926S0086.fits[SCI,10]
+  tmpfile13870hS20180926S0087.fits[SCI,10]
+  tmpfile13870hS20180927S0046.fits[SCI,10]
+  tmpfile13870hS20180927S0047.fits[SCI,10]
+  tmpfile13870hS20180927S0048.fits[SCI,10]
+  tmpfile13870hS20180927S0049.fits[SCI,10]
+  tmpfile13870hS20180927S0050.fits[SCI,10]
+  tmpfile13870hS20180929S0314.fits[SCI,10]
+  tmpfile13870hS20180929S0315.fits[SCI,10]
+  tmpfile13870hS20180929S0316.fits[SCI,10]
+  tmpfile13870hS20180929S0317.fits[SCI,10]
+  tmpfile13870hS20180929S0318.fits[SCI,10]
 
-  Output image = tmpcombout8816_566, ncombine = 35
-  Number rejected mask = tmpcombdq8816_567.pl
-  Sigma image = tmpcombsig8816_568
+  Output image = tmpcombout13870_866, ncombine = 55
+  Number rejected mask = tmpcombdq13870_867.pl
+  Sigma image = tmpcombsig13870_868
 
-Nov  5 12:02: IMCOMBINE
+Nov 27 18:33: IMCOMBINE
   combine = average, scale = none, zero = none, weight = none
   reject = avsigclip, mclip = yes, nkeep = 1
   lsigma = 3., hsigma = 3.
   blank = 0.
-  statsec = Nov  5 12:02
+  statsec = Nov 27 18:33
                 Images 
-  tmpfile8816hS20180920S0197.fits[SCI,11]
-  tmpfile8816hS20180920S0198.fits[SCI,11]
-  tmpfile8816hS20180920S0199.fits[SCI,11]
-  tmpfile8816hS20180920S0200.fits[SCI,11]
-  tmpfile8816hS20180920S0201.fits[SCI,11]
-  tmpfile8816hS20180922S0499.fits[SCI,11]
-  tmpfile8816hS20180922S0500.fits[SCI,11]
-  tmpfile8816hS20180922S0501.fits[SCI,11]
-  tmpfile8816hS20180922S0502.fits[SCI,11]
-  tmpfile8816hS20180922S0503.fits[SCI,11]
-  tmpfile8816hS20180923S0375.fits[SCI,11]
-  tmpfile8816hS20180923S0376.fits[SCI,11]
-  tmpfile8816hS20180923S0377.fits[SCI,11]
-  tmpfile8816hS20180923S0378.fits[SCI,11]
-  tmpfile8816hS20180923S0379.fits[SCI,11]
-  tmpfile8816hS20180925S0226.fits[SCI,11]
-  tmpfile8816hS20180925S0227.fits[SCI,11]
-  tmpfile8816hS20180925S0228.fits[SCI,11]
-  tmpfile8816hS20180925S0229.fits[SCI,11]
-  tmpfile8816hS20180925S0230.fits[SCI,11]
-  tmpfile8816hS20180926S0083.fits[SCI,11]
-  tmpfile8816hS20180926S0084.fits[SCI,11]
-  tmpfile8816hS20180926S0085.fits[SCI,11]
-  tmpfile8816hS20180926S0086.fits[SCI,11]
-  tmpfile8816hS20180926S0087.fits[SCI,11]
-  tmpfile8816hS20180927S0046.fits[SCI,11]
-  tmpfile8816hS20180927S0047.fits[SCI,11]
-  tmpfile8816hS20180927S0048.fits[SCI,11]
-  tmpfile8816hS20180927S0049.fits[SCI,11]
-  tmpfile8816hS20180927S0050.fits[SCI,11]
-  tmpfile8816hS20180929S0314.fits[SCI,11]
-  tmpfile8816hS20180929S0315.fits[SCI,11]
-  tmpfile8816hS20180929S0316.fits[SCI,11]
-  tmpfile8816hS20180929S0317.fits[SCI,11]
-  tmpfile8816hS20180929S0318.fits[SCI,11]
+  tmpfile13870hS20180915S0243.fits[SCI,11]
+  tmpfile13870hS20180915S0244.fits[SCI,11]
+  tmpfile13870hS20180915S0245.fits[SCI,11]
+  tmpfile13870hS20180915S0246.fits[SCI,11]
+  tmpfile13870hS20180915S0247.fits[SCI,11]
+  tmpfile13870hS20180917S0019.fits[SCI,11]
+  tmpfile13870hS20180917S0020.fits[SCI,11]
+  tmpfile13870hS20180917S0021.fits[SCI,11]
+  tmpfile13870hS20180917S0022.fits[SCI,11]
+  tmpfile13870hS20180917S0023.fits[SCI,11]
+  tmpfile13870hS20180918S0144.fits[SCI,11]
+  tmpfile13870hS20180918S0145.fits[SCI,11]
+  tmpfile13870hS20180918S0146.fits[SCI,11]
+  tmpfile13870hS20180918S0147.fits[SCI,11]
+  tmpfile13870hS20180918S0148.fits[SCI,11]
+  tmpfile13870hS20180919S0404.fits[SCI,11]
+  tmpfile13870hS20180919S0405.fits[SCI,11]
+  tmpfile13870hS20180919S0406.fits[SCI,11]
+  tmpfile13870hS20180919S0407.fits[SCI,11]
+  tmpfile13870hS20180919S0408.fits[SCI,11]
+  tmpfile13870hS20180920S0197.fits[SCI,11]
+  tmpfile13870hS20180920S0198.fits[SCI,11]
+  tmpfile13870hS20180920S0199.fits[SCI,11]
+  tmpfile13870hS20180920S0200.fits[SCI,11]
+  tmpfile13870hS20180920S0201.fits[SCI,11]
+  tmpfile13870hS20180922S0499.fits[SCI,11]
+  tmpfile13870hS20180922S0500.fits[SCI,11]
+  tmpfile13870hS20180922S0501.fits[SCI,11]
+  tmpfile13870hS20180922S0502.fits[SCI,11]
+  tmpfile13870hS20180922S0503.fits[SCI,11]
+  tmpfile13870hS20180923S0375.fits[SCI,11]
+  tmpfile13870hS20180923S0376.fits[SCI,11]
+  tmpfile13870hS20180923S0377.fits[SCI,11]
+  tmpfile13870hS20180923S0378.fits[SCI,11]
+  tmpfile13870hS20180923S0379.fits[SCI,11]
+  tmpfile13870hS20180925S0226.fits[SCI,11]
+  tmpfile13870hS20180925S0227.fits[SCI,11]
+  tmpfile13870hS20180925S0228.fits[SCI,11]
+  tmpfile13870hS20180925S0229.fits[SCI,11]
+  tmpfile13870hS20180925S0230.fits[SCI,11]
+  tmpfile13870hS20180926S0083.fits[SCI,11]
+  tmpfile13870hS20180926S0084.fits[SCI,11]
+  tmpfile13870hS20180926S0085.fits[SCI,11]
+  tmpfile13870hS20180926S0086.fits[SCI,11]
+  tmpfile13870hS20180926S0087.fits[SCI,11]
+  tmpfile13870hS20180927S0046.fits[SCI,11]
+  tmpfile13870hS20180927S0047.fits[SCI,11]
+  tmpfile13870hS20180927S0048.fits[SCI,11]
+  tmpfile13870hS20180927S0049.fits[SCI,11]
+  tmpfile13870hS20180927S0050.fits[SCI,11]
+  tmpfile13870hS20180929S0314.fits[SCI,11]
+  tmpfile13870hS20180929S0315.fits[SCI,11]
+  tmpfile13870hS20180929S0316.fits[SCI,11]
+  tmpfile13870hS20180929S0317.fits[SCI,11]
+  tmpfile13870hS20180929S0318.fits[SCI,11]
 
-  Output image = tmpcombout8816_570, ncombine = 35
-  Number rejected mask = tmpcombdq8816_571.pl
-  Sigma image = tmpcombsig8816_572
+  Output image = tmpcombout13870_870, ncombine = 55
+  Number rejected mask = tmpcombdq13870_871.pl
+  Sigma image = tmpcombsig13870_872
 
-Nov  5 12:02: IMCOMBINE
+Nov 27 18:33: IMCOMBINE
   combine = average, scale = none, zero = none, weight = none
   reject = avsigclip, mclip = yes, nkeep = 1
   lsigma = 3., hsigma = 3.
   blank = 0.
-  statsec = Nov  5 12:02
+  statsec = Nov 27 18:33
                 Images 
-  tmpfile8816hS20180920S0197.fits[SCI,12]
-  tmpfile8816hS20180920S0198.fits[SCI,12]
-  tmpfile8816hS20180920S0199.fits[SCI,12]
-  tmpfile8816hS20180920S0200.fits[SCI,12]
-  tmpfile8816hS20180920S0201.fits[SCI,12]
-  tmpfile8816hS20180922S0499.fits[SCI,12]
-  tmpfile8816hS20180922S0500.fits[SCI,12]
-  tmpfile8816hS20180922S0501.fits[SCI,12]
-  tmpfile8816hS20180922S0502.fits[SCI,12]
-  tmpfile8816hS20180922S0503.fits[SCI,12]
-  tmpfile8816hS20180923S0375.fits[SCI,12]
-  tmpfile8816hS20180923S0376.fits[SCI,12]
-  tmpfile8816hS20180923S0377.fits[SCI,12]
-  tmpfile8816hS20180923S0378.fits[SCI,12]
-  tmpfile8816hS20180923S0379.fits[SCI,12]
-  tmpfile8816hS20180925S0226.fits[SCI,12]
-  tmpfile8816hS20180925S0227.fits[SCI,12]
-  tmpfile8816hS20180925S0228.fits[SCI,12]
-  tmpfile8816hS20180925S0229.fits[SCI,12]
-  tmpfile8816hS20180925S0230.fits[SCI,12]
-  tmpfile8816hS20180926S0083.fits[SCI,12]
-  tmpfile8816hS20180926S0084.fits[SCI,12]
-  tmpfile8816hS20180926S0085.fits[SCI,12]
-  tmpfile8816hS20180926S0086.fits[SCI,12]
-  tmpfile8816hS20180926S0087.fits[SCI,12]
-  tmpfile8816hS20180927S0046.fits[SCI,12]
-  tmpfile8816hS20180927S0047.fits[SCI,12]
-  tmpfile8816hS20180927S0048.fits[SCI,12]
-  tmpfile8816hS20180927S0049.fits[SCI,12]
-  tmpfile8816hS20180927S0050.fits[SCI,12]
-  tmpfile8816hS20180929S0314.fits[SCI,12]
-  tmpfile8816hS20180929S0315.fits[SCI,12]
-  tmpfile8816hS20180929S0316.fits[SCI,12]
-  tmpfile8816hS20180929S0317.fits[SCI,12]
-  tmpfile8816hS20180929S0318.fits[SCI,12]
+  tmpfile13870hS20180915S0243.fits[SCI,12]
+  tmpfile13870hS20180915S0244.fits[SCI,12]
+  tmpfile13870hS20180915S0245.fits[SCI,12]
+  tmpfile13870hS20180915S0246.fits[SCI,12]
+  tmpfile13870hS20180915S0247.fits[SCI,12]
+  tmpfile13870hS20180917S0019.fits[SCI,12]
+  tmpfile13870hS20180917S0020.fits[SCI,12]
+  tmpfile13870hS20180917S0021.fits[SCI,12]
+  tmpfile13870hS20180917S0022.fits[SCI,12]
+  tmpfile13870hS20180917S0023.fits[SCI,12]
+  tmpfile13870hS20180918S0144.fits[SCI,12]
+  tmpfile13870hS20180918S0145.fits[SCI,12]
+  tmpfile13870hS20180918S0146.fits[SCI,12]
+  tmpfile13870hS20180918S0147.fits[SCI,12]
+  tmpfile13870hS20180918S0148.fits[SCI,12]
+  tmpfile13870hS20180919S0404.fits[SCI,12]
+  tmpfile13870hS20180919S0405.fits[SCI,12]
+  tmpfile13870hS20180919S0406.fits[SCI,12]
+  tmpfile13870hS20180919S0407.fits[SCI,12]
+  tmpfile13870hS20180919S0408.fits[SCI,12]
+  tmpfile13870hS20180920S0197.fits[SCI,12]
+  tmpfile13870hS20180920S0198.fits[SCI,12]
+  tmpfile13870hS20180920S0199.fits[SCI,12]
+  tmpfile13870hS20180920S0200.fits[SCI,12]
+  tmpfile13870hS20180920S0201.fits[SCI,12]
+  tmpfile13870hS20180922S0499.fits[SCI,12]
+  tmpfile13870hS20180922S0500.fits[SCI,12]
+  tmpfile13870hS20180922S0501.fits[SCI,12]
+  tmpfile13870hS20180922S0502.fits[SCI,12]
+  tmpfile13870hS20180922S0503.fits[SCI,12]
+  tmpfile13870hS20180923S0375.fits[SCI,12]
+  tmpfile13870hS20180923S0376.fits[SCI,12]
+  tmpfile13870hS20180923S0377.fits[SCI,12]
+  tmpfile13870hS20180923S0378.fits[SCI,12]
+  tmpfile13870hS20180923S0379.fits[SCI,12]
+  tmpfile13870hS20180925S0226.fits[SCI,12]
+  tmpfile13870hS20180925S0227.fits[SCI,12]
+  tmpfile13870hS20180925S0228.fits[SCI,12]
+  tmpfile13870hS20180925S0229.fits[SCI,12]
+  tmpfile13870hS20180925S0230.fits[SCI,12]
+  tmpfile13870hS20180926S0083.fits[SCI,12]
+  tmpfile13870hS20180926S0084.fits[SCI,12]
+  tmpfile13870hS20180926S0085.fits[SCI,12]
+  tmpfile13870hS20180926S0086.fits[SCI,12]
+  tmpfile13870hS20180926S0087.fits[SCI,12]
+  tmpfile13870hS20180927S0046.fits[SCI,12]
+  tmpfile13870hS20180927S0047.fits[SCI,12]
+  tmpfile13870hS20180927S0048.fits[SCI,12]
+  tmpfile13870hS20180927S0049.fits[SCI,12]
+  tmpfile13870hS20180927S0050.fits[SCI,12]
+  tmpfile13870hS20180929S0314.fits[SCI,12]
+  tmpfile13870hS20180929S0315.fits[SCI,12]
+  tmpfile13870hS20180929S0316.fits[SCI,12]
+  tmpfile13870hS20180929S0317.fits[SCI,12]
+  tmpfile13870hS20180929S0318.fits[SCI,12]
 
-  Output image = tmpcombout8816_574, ncombine = 35
-  Number rejected mask = tmpcombdq8816_575.pl
-  Sigma image = tmpcombsig8816_576
+  Output image = tmpcombout13870_874, ncombine = 55
+  Number rejected mask = tmpcombdq13870_875.pl
+  Sigma image = tmpcombsig13870_876
  
-GEMCOMBINE -- Finished: Mon Nov  5 12:02:32 CST 2018
+GEMCOMBINE -- Finished: Tue Nov 27 18:33:18 CST 2018
  
 GEMCOMBINE -- Exit status: GOOD
 --------------------------------------------------------------------------------
@@ -2039,9 +3099,29 @@ GEMCOMBINE -- Exit status: GOOD
 GBIAS: Exit status: GOOD.
 ----------------------------------------------------------------------------
 ----------------------------------------------------------------------------
-GBIAS -- Mon Nov  5 12:02:33 CST 2018
+GBIAS -- Tue Nov 27 20:04:13 CST 2018
 
 Input images:
+  S20180915S0243
+  S20180915S0244
+  S20180915S0245
+  S20180915S0246
+  S20180915S0247
+  S20180917S0019
+  S20180917S0020
+  S20180917S0021
+  S20180917S0022
+  S20180917S0023
+  S20180918S0144
+  S20180918S0145
+  S20180918S0146
+  S20180918S0147
+  S20180918S0148
+  S20180919S0404
+  S20180919S0405
+  S20180919S0406
+  S20180919S0407
+  S20180919S0408
   S20180920S0197
   S20180920S0198
   S20180920S0199

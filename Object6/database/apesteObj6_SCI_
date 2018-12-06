@@ -1,0 +1,83 @@
+# Tue 20:08:59 27-Nov-2018
+begin	aperture esteObj6[SCI] 2 1566. 1152.158
+	image	esteObj6[SCI]
+	aperture	2
+	beam	2
+	center	1566. 1152.158
+	low	-1565. -3.790464
+	high	1566. 3.991253
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	6
+		2.
+		2.
+		6.
+		2066.
+		-9.207563
+		1.750313
+
+# Tue 20:08:59 27-Nov-2018
+begin	aperture esteObj6[SCI] 1 1566. 1155.32
+	image	esteObj6[SCI]
+	aperture	1
+	beam	1
+	center	1566. 1155.32
+	low	-1565. -21.24644
+	high	1566. 1.537596
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	5
+		2.
+		1.
+		1.
+		3132.
+		0.
+
+# Tue 20:08:59 27-Nov-2018
+begin	aperture esteObj6[SCI] 3 1566. 1325.483
+	image	esteObj6[SCI]
+	aperture	3
+	beam	3
+	center	1566. 1325.483
+	low	-1565. -3.790464
+	high	1566. 3.991253
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	6
+		2.
+		2.
+		6.
+		3126.
+		-2.966298
+		-0.6082608
+

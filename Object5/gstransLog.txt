@@ -70,3 +70,480 @@ ERROR - GSTRANSFORM: 1 errors found with input parameters. Exiting.
 GSTRANSFORM exit status: error
 -------------------------------------------------------------------------------
 
+-------------------------------------------------------------------------------
+GSTRANSFORM -- Tue Nov 20 12:17:51 CST 2018
+ 
+ERROR - GSTRANSFORM: Output image tObj5 exists
+ERROR - GSTRANSFORM: 1 errors found with input parameters. Exiting.
+
+GSTRANSFORM exit status: error
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+GSTRANSFORM -- Tue Nov 20 12:18:11 CST 2018
+ 
+
+inimages   = Obj5
+outimages  = 
+outprefix  = t
+fl_stran   = no
+fl_wavtran = yes
+wavtraname = gsS20180928S0014
+database   = database
+fl_vardq   = yes
+interptype = linear
+lambda1    = INDEF
+lambda2    = INDEF
+dx         = INDEF
+nx         = INDEF
+lambdalog  = no
+ylog       = no
+fl_flux    = yes
+gratingdb  = gmos$data/GMOSgratings.dat
+filterdb   = gmos$data/GMOSfilters.dat
+key_dispaxis = DISPAXIS
+dispaxis   = 1
+sci_ext    = SCI
+var_ext = VAR
+dq_ext  = DQ
+
+Transforming Obj5.fits[SCI,1]
+MDF row: 1
+
+NOAO/IRAF V2.16 mmarcano@tux Tue 12:18:12 20-Nov-2018
+  Transform Obj5.fits[SCI,1] to tmpsci3373_52.
+  Conserve flux per pixel.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4256., x2 =      8930., dx =      1.493, nx = 3132, xlog = no
+    y1 =         1., y2 =      2088., dy =         1., ny = 2088, ylog = no
+
+NOAO/IRAF V2.16 mmarcano@tux Tue 12:18:13 20-Nov-2018
+  Transform Obj5.fits[VAR,1] to tmpvar3373_53.
+  Conserve flux per pixel.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4256., x2 =      8930., dx =      1.493, nx = 3132, xlog = no
+    y1 =         1., y2 =      2088., dy =         1., ny = 2088, ylog = no
+
+NOAO/IRAF V2.16 mmarcano@tux Tue 12:18:14 20-Nov-2018
+  Transform Obj5.fits[DQ,1] to tmpdq3373_54.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4256., x2 =      8930., dx =      1.493, nx = 3132, xlog = no
+    y1 =         1., y2 =      2088., dy =         1., ny = 2088, ylog = no
+
+GSTRANSFORM exit status: good
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+GSTRANSFORM -- Tue Nov 20 13:42:57 CST 2018
+ 
+
+inimages   = eObj5.fits
+outimages  = 
+outprefix  = t
+fl_stran   = no
+fl_wavtran = yes
+wavtraname = gsS20180928S0014
+database   = database
+fl_vardq   = yes
+interptype = linear
+lambda1    = INDEF
+lambda2    = INDEF
+dx         = INDEF
+nx         = INDEF
+lambdalog  = no
+ylog       = no
+fl_flux    = yes
+gratingdb  = gmos$data/GMOSgratings.dat
+filterdb   = gmos$data/GMOSfilters.dat
+key_dispaxis = DISPAXIS
+dispaxis   = 1
+sci_ext    = SCI
+var_ext = VAR
+dq_ext  = DQ
+
+Transforming eObj5.fits[SCI,1]
+MDF row: 1
+
+NOAO/IRAF V2.16 mmarcano@tux Tue 13:42:57 20-Nov-2018
+  Transform eObj5.fits[SCI,1] to tmpsci3373_89.
+  Conserve flux per pixel.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4256., x2 =      8930., dx =      1.493, nx = 3132, xlog = no
+    y1 =         1., y2 =      2088., dy =         1., ny = 2088, ylog = no
+
+NOAO/IRAF V2.16 mmarcano@tux Tue 13:42:59 20-Nov-2018
+  Transform eObj5.fits[VAR,1] to tmpvar3373_90.
+  Conserve flux per pixel.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4256., x2 =      8930., dx =      1.493, nx = 3132, xlog = no
+    y1 =         1., y2 =      2088., dy =         1., ny = 2088, ylog = no
+
+NOAO/IRAF V2.16 mmarcano@tux Tue 13:43:00 20-Nov-2018
+  Transform eObj5.fits[DQ,1] to tmpdq3373_91.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4256., x2 =      8930., dx =      1.493, nx = 3132, xlog = no
+    y1 =         1., y2 =      2088., dy =         1., ny = 2088, ylog = no
+
+GSTRANSFORM exit status: good
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+GSTRANSFORM -- Tue Nov 20 13:55:09 CST 2018
+ 
+
+inimages   = eObj5.fits
+outimages  = 
+outprefix  = t
+fl_stran   = no
+fl_wavtran = yes
+wavtraname = gsS20180928S0014
+database   = database
+fl_vardq   = yes
+interptype = linear
+lambda1    = INDEF
+lambda2    = INDEF
+dx         = INDEF
+nx         = INDEF
+lambdalog  = no
+ylog       = no
+fl_flux    = yes
+gratingdb  = gmos$data/GMOSgratings.dat
+filterdb   = gmos$data/GMOSfilters.dat
+key_dispaxis = DISPAXIS
+dispaxis   = 1
+sci_ext    = SCI
+var_ext = VAR
+dq_ext  = DQ
+
+Transforming eObj5.fits[SCI,1]
+MDF row: 1
+
+NOAO/IRAF V2.16 mmarcano@tux Tue 13:55:09 20-Nov-2018
+  Transform eObj5.fits[SCI,1] to tmpsci3373_147.
+  Conserve flux per pixel.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4256., x2 =      8930., dx =      1.493, nx = 3132, xlog = no
+    y1 =         1., y2 =      2088., dy =         1., ny = 2088, ylog = no
+
+NOAO/IRAF V2.16 mmarcano@tux Tue 13:55:10 20-Nov-2018
+  Transform eObj5.fits[VAR,1] to tmpvar3373_148.
+  Conserve flux per pixel.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4256., x2 =      8930., dx =      1.493, nx = 3132, xlog = no
+    y1 =         1., y2 =      2088., dy =         1., ny = 2088, ylog = no
+
+NOAO/IRAF V2.16 mmarcano@tux Tue 13:55:11 20-Nov-2018
+  Transform eObj5.fits[DQ,1] to tmpdq3373_149.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4256., x2 =      8930., dx =      1.493, nx = 3132, xlog = no
+    y1 =         1., y2 =      2088., dy =         1., ny = 2088, ylog = no
+
+GSTRANSFORM exit status: good
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+GSTRANSFORM -- Tue Nov 20 13:59:30 CST 2018
+ 
+
+inimages   = Obj5
+outimages  = 
+outprefix  = t
+fl_stran   = no
+fl_wavtran = yes
+wavtraname = gsS20180928S0014
+database   = database
+fl_vardq   = yes
+interptype = linear
+lambda1    = INDEF
+lambda2    = INDEF
+dx         = INDEF
+nx         = INDEF
+lambdalog  = no
+ylog       = no
+fl_flux    = yes
+gratingdb  = gmos$data/GMOSgratings.dat
+filterdb   = gmos$data/GMOSfilters.dat
+key_dispaxis = DISPAXIS
+dispaxis   = 1
+sci_ext    = SCI
+var_ext = VAR
+dq_ext  = DQ
+
+Transforming Obj5.fits[SCI,1]
+MDF row: 1
+
+NOAO/IRAF V2.16 mmarcano@tux Tue 13:59:31 20-Nov-2018
+  Transform Obj5.fits[SCI,1] to tmpsci3373_184.
+  Conserve flux per pixel.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4256., x2 =      8930., dx =      1.493, nx = 3132, xlog = no
+    y1 =         1., y2 =      2088., dy =         1., ny = 2088, ylog = no
+
+NOAO/IRAF V2.16 mmarcano@tux Tue 13:59:32 20-Nov-2018
+  Transform Obj5.fits[VAR,1] to tmpvar3373_185.
+  Conserve flux per pixel.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4256., x2 =      8930., dx =      1.493, nx = 3132, xlog = no
+    y1 =         1., y2 =      2088., dy =         1., ny = 2088, ylog = no
+
+NOAO/IRAF V2.16 mmarcano@tux Tue 13:59:33 20-Nov-2018
+  Transform Obj5.fits[DQ,1] to tmpdq3373_186.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4256., x2 =      8930., dx =      1.493, nx = 3132, xlog = no
+    y1 =         1., y2 =      2088., dy =         1., ny = 2088, ylog = no
+
+GSTRANSFORM exit status: good
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+GSTRANSFORM -- Tue Nov 20 14:09:38 CST 2018
+ 
+ERROR - GSTRANSFORM: Output image teObj5.fits exists
+ERROR - GSTRANSFORM: 1 errors found with input parameters. Exiting.
+
+GSTRANSFORM exit status: error
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+GSTRANSFORM -- Tue Nov 20 14:10:13 CST 2018
+ 
+ERROR - GSTRANSFORM: Output image teObj5.fits exists
+ERROR - GSTRANSFORM: 1 errors found with input parameters. Exiting.
+
+GSTRANSFORM exit status: error
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+GSTRANSFORM -- Tue Nov 20 14:11:25 CST 2018
+ 
+
+inimages   = eObj5.fits
+outimages  = 
+outprefix  = t
+fl_stran   = no
+fl_wavtran = yes
+wavtraname = gsS20180928S0014
+database   = database
+fl_vardq   = yes
+interptype = linear
+lambda1    = INDEF
+lambda2    = INDEF
+dx         = INDEF
+nx         = INDEF
+lambdalog  = no
+ylog       = no
+fl_flux    = yes
+gratingdb  = gmos$data/GMOSgratings.dat
+filterdb   = gmos$data/GMOSfilters.dat
+key_dispaxis = DISPAXIS
+dispaxis   = 1
+sci_ext    = SCI
+var_ext = VAR
+dq_ext  = DQ
+
+Transforming eObj5.fits[SCI,1]
+MDF row: 1
+
+NOAO/IRAF V2.16 mmarcano@tux Tue 14:11:26 20-Nov-2018
+  Transform eObj5.fits[SCI,1] to tmpsci3373_281.
+  Conserve flux per pixel.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4256., x2 =      8930., dx =      1.493, nx = 3132, xlog = no
+    y1 =         1., y2 =      2088., dy =         1., ny = 2088, ylog = no
+
+NOAO/IRAF V2.16 mmarcano@tux Tue 14:11:27 20-Nov-2018
+  Transform eObj5.fits[VAR,1] to tmpvar3373_282.
+  Conserve flux per pixel.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4256., x2 =      8930., dx =      1.493, nx = 3132, xlog = no
+    y1 =         1., y2 =      2088., dy =         1., ny = 2088, ylog = no
+
+NOAO/IRAF V2.16 mmarcano@tux Tue 14:11:28 20-Nov-2018
+  Transform eObj5.fits[DQ,1] to tmpdq3373_283.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4256., x2 =      8930., dx =      1.493, nx = 3132, xlog = no
+    y1 =         1., y2 =      2088., dy =         1., ny = 2088, ylog = no
+
+GSTRANSFORM exit status: good
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+GSTRANSFORM -- Tue Nov 20 14:17:09 CST 2018
+ 
+ERROR - GSTRANSFORM: Output image teObj5.fits exists
+ERROR - GSTRANSFORM: 1 errors found with input parameters. Exiting.
+
+GSTRANSFORM exit status: error
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+GSTRANSFORM -- Tue Nov 20 14:17:37 CST 2018
+ 
+
+inimages   = eObj5.fits
+outimages  = 
+outprefix  = t
+fl_stran   = no
+fl_wavtran = yes
+wavtraname = gsS20180928S0014
+database   = database
+fl_vardq   = yes
+interptype = linear
+lambda1    = INDEF
+lambda2    = INDEF
+dx         = INDEF
+nx         = INDEF
+lambdalog  = no
+ylog       = no
+fl_flux    = yes
+gratingdb  = gmos$data/GMOSgratings.dat
+filterdb   = gmos$data/GMOSfilters.dat
+key_dispaxis = DISPAXIS
+dispaxis   = 1
+sci_ext    = SCI
+var_ext = VAR
+dq_ext  = DQ
+
+Transforming eObj5.fits[SCI,1]
+MDF row: 1
+
+NOAO/IRAF V2.16 mmarcano@tux Tue 14:17:38 20-Nov-2018
+  Transform eObj5.fits[SCI,1] to tmpsci3373_348.
+  Conserve flux per pixel.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4256., x2 =      8930., dx =      1.493, nx = 3132, xlog = no
+    y1 =         1., y2 =      2088., dy =         1., ny = 2088, ylog = no
+
+NOAO/IRAF V2.16 mmarcano@tux Tue 14:17:39 20-Nov-2018
+  Transform eObj5.fits[VAR,1] to tmpvar3373_349.
+  Conserve flux per pixel.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4256., x2 =      8930., dx =      1.493, nx = 3132, xlog = no
+    y1 =         1., y2 =      2088., dy =         1., ny = 2088, ylog = no
+
+NOAO/IRAF V2.16 mmarcano@tux Tue 14:17:40 20-Nov-2018
+  Transform eObj5.fits[DQ,1] to tmpdq3373_350.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4256., x2 =      8930., dx =      1.493, nx = 3132, xlog = no
+    y1 =         1., y2 =      2088., dy =         1., ny = 2088, ylog = no
+
+GSTRANSFORM exit status: good
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+GSTRANSFORM -- Tue Nov 20 14:23:33 CST 2018
+ 
+
+inimages   = eObj5.fits
+outimages  = 
+outprefix  = t
+fl_stran   = no
+fl_wavtran = yes
+wavtraname = gsS20180928S0014
+database   = database
+fl_vardq   = yes
+interptype = linear
+lambda1    = INDEF
+lambda2    = INDEF
+dx         = INDEF
+nx         = INDEF
+lambdalog  = no
+ylog       = no
+fl_flux    = yes
+gratingdb  = gmos$data/GMOSgratings.dat
+filterdb   = gmos$data/GMOSfilters.dat
+key_dispaxis = DISPAXIS
+dispaxis   = 1
+sci_ext    = SCI
+var_ext = VAR
+dq_ext  = DQ
+
+Transforming eObj5.fits[SCI,1]
+MDF row: 1
+
+NOAO/IRAF V2.16 mmarcano@tux Tue 14:23:33 20-Nov-2018
+  Transform eObj5.fits[SCI,1] to tmpsci3373_393.
+  Conserve flux per pixel.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4256., x2 =      8930., dx =      1.493, nx = 3132, xlog = no
+    y1 =         1., y2 =      2088., dy =         1., ny = 2088, ylog = no
+
+NOAO/IRAF V2.16 mmarcano@tux Tue 14:23:34 20-Nov-2018
+  Transform eObj5.fits[VAR,1] to tmpvar3373_394.
+  Conserve flux per pixel.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4256., x2 =      8930., dx =      1.493, nx = 3132, xlog = no
+    y1 =         1., y2 =      2088., dy =         1., ny = 2088, ylog = no
+
+NOAO/IRAF V2.16 mmarcano@tux Tue 14:23:35 20-Nov-2018
+  Transform eObj5.fits[DQ,1] to tmpdq3373_395.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4256., x2 =      8930., dx =      1.493, nx = 3132, xlog = no
+    y1 =         1., y2 =      2088., dy =         1., ny = 2088, ylog = no
+
+GSTRANSFORM exit status: good
+-------------------------------------------------------------------------------
+

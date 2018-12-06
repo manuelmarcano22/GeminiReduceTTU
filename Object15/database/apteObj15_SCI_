@@ -1,0 +1,56 @@
+# Fri 16:08:56 30-Nov-2018
+begin	aperture teObj15[SCI] 1 1566. 729.9625
+	image	teObj15[SCI]
+	aperture	1
+	beam	1
+	center	1566. 729.9625
+	low	-1565. -1.763283
+	high	1566. 1.796296
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	6
+		2.
+		2.
+		1046.
+		3126.
+		4.612309
+		0.008481699
+
+# Fri 16:08:56 30-Nov-2018
+begin	aperture teObj15[SCI] 2 1566. 1214.576
+	image	teObj15[SCI]
+	aperture	2
+	beam	2
+	center	1566. 1214.576
+	low	-1565. -1.551558
+	high	1566. 2.938213
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	6
+		2.
+		2.
+		1276.
+		3126.
+		6.082943
+		1.07784
+

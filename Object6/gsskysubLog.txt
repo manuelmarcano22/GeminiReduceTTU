@@ -1,7 +1,7 @@
 ----------------------------------------------------------------------------
-GSSKYSUB -- Mon Nov  5 12:12:36 CST 2018
+GSSKYSUB -- Tue Nov 27 18:43:42 CST 2018
 
-input        = tObj5
+input        = teObj6.fits
 output       = 
 outpref      = s
 fl_vardq     = yes
@@ -21,16 +21,451 @@ niterate     = 2
 grow         = 0.0
 fl_inter     = no
 
-ERROR - GSSKYSUB: Input image tObj5 does not exist
+ERROR - GSSKYSUB: Input image teObj6.fits does not exist
 ERROR - GSSKYSUB: 1 error(s) found. Exiting.
 
-GSSKYSUB done. Exit status bad. -- Mon Nov  5 12:12:36 CST 2018
+GSSKYSUB done. Exit status bad. -- Tue Nov 27 18:43:42 CST 2018
 -------------------------------------------------------------------------------
 
 ----------------------------------------------------------------------------
-GSSKYSUB -- Mon Nov  5 12:53:14 CST 2018
+GSSKYSUB -- Tue Nov 27 18:45:20 CST 2018
 
-input        = tObj6
+input        = teObj6.fits
+output       = 
+outpref      = s
+fl_vardq     = yes
+fl_oversize  = no
+sci_ext      = SCI
+var_ext      = VAR
+dq_ext       = DQ
+long_sample  = 100:700
+mos_sample   = 0.9
+mosobjsize   = 1.0
+naverage     = 1
+function     = chebyshev
+order        = 1
+low_reject   = 2.5
+high_reject  = 2.5
+niterate     = 2
+grow         = 0.0
+fl_inter     = no
+
+ERROR - GSSKYSUB: Input image teObj6.fits does not exist
+ERROR - GSSKYSUB: 1 error(s) found. Exiting.
+
+GSSKYSUB done. Exit status bad. -- Tue Nov 27 18:45:20 CST 2018
+-------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+GSSKYSUB -- Tue Nov 27 18:45:37 CST 2018
+
+input        = teObj6.fits
+output       = 
+outpref      = s
+fl_vardq     = yes
+fl_oversize  = no
+sci_ext      = SCI
+var_ext      = VAR
+dq_ext       = DQ
+long_sample  = 100:700
+mos_sample   = 0.9
+mosobjsize   = 1.0
+naverage     = 1
+function     = chebyshev
+order        = 1
+low_reject   = 2.5
+high_reject  = 2.5
+niterate     = 2
+grow         = 0.0
+fl_inter     = no
+
+ERROR - GSSKYSUB: Input image teObj6.fits does not exist
+ERROR - GSSKYSUB: 1 error(s) found. Exiting.
+
+GSSKYSUB done. Exit status bad. -- Tue Nov 27 18:45:37 CST 2018
+-------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+GSSKYSUB -- Tue Nov 27 18:46:37 CST 2018
+
+input        = teObj6.fits
+output       = 
+outpref      = s
+fl_vardq     = yes
+fl_oversize  = no
+sci_ext      = SCI
+var_ext      = VAR
+dq_ext       = DQ
+long_sample  = 100:700
+mos_sample   = 0.9
+mosobjsize   = 1.0
+naverage     = 1
+function     = chebyshev
+order        = 1
+low_reject   = 2.5
+high_reject  = 2.5
+niterate     = 2
+grow         = 0.0
+fl_inter     = no
+
+ERROR - GSSKYSUB: Input image teObj6.fits does not exist
+ERROR - GSSKYSUB: 1 error(s) found. Exiting.
+
+GSSKYSUB done. Exit status bad. -- Tue Nov 27 18:46:37 CST 2018
+-------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+GSSKYSUB -- Tue Nov 27 18:47:25 CST 2018
+
+input        = teObj6.fits
+output       = 
+outpref      = s
+fl_vardq     = yes
+fl_oversize  = no
+sci_ext      = SCI
+var_ext      = VAR
+dq_ext       = DQ
+long_sample  = 100:700
+mos_sample   = 0.9
+mosobjsize   = 1.0
+naverage     = 1
+function     = chebyshev
+order        = 1
+low_reject   = 2.5
+high_reject  = 2.5
+niterate     = 2
+grow         = 0.0
+fl_inter     = no
+
+ERROR - GSSKYSUB: Input image teObj6.fits does not exist
+ERROR - GSSKYSUB: 1 error(s) found. Exiting.
+
+GSSKYSUB done. Exit status bad. -- Tue Nov 27 18:47:25 CST 2018
+-------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+GSSKYSUB -- Tue Nov 27 18:48:16 CST 2018
+
+input        = teObj6.fits
+output       = 
+outpref      = s
+fl_vardq     = yes
+fl_oversize  = no
+sci_ext      = SCI
+var_ext      = VAR
+dq_ext       = DQ
+long_sample  = 100:700
+mos_sample   = 0.9
+mosobjsize   = 1.0
+naverage     = 1
+function     = chebyshev
+order        = 1
+low_reject   = 2.5
+high_reject  = 2.5
+niterate     = 2
+grow         = 0.0
+fl_inter     = no
+
+ERROR - GSSKYSUB: Input image teObj6.fits does not exist
+ERROR - GSSKYSUB: 1 error(s) found. Exiting.
+
+GSSKYSUB done. Exit status bad. -- Tue Nov 27 18:48:16 CST 2018
+-------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+GSSKYSUB -- Tue Nov 27 18:48:47 CST 2018
+
+input        = teObj6.fits
+output       = 
+outpref      = s
+fl_vardq     = yes
+fl_oversize  = no
+sci_ext      = SCI
+var_ext      = VAR
+dq_ext       = DQ
+long_sample  = 100:700
+mos_sample   = 0.9
+mosobjsize   = 1.0
+naverage     = 1
+function     = chebyshev
+order        = 1
+low_reject   = 2.5
+high_reject  = 2.5
+niterate     = 2
+grow         = 0.0
+fl_inter     = no
+
+ERROR - GSSKYSUB: Input image teObj6.fits does not exist
+ERROR - GSSKYSUB: 1 error(s) found. Exiting.
+
+GSSKYSUB done. Exit status bad. -- Tue Nov 27 18:48:47 CST 2018
+-------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+GSSKYSUB -- Tue Nov 27 18:49:15 CST 2018
+
+input        = teObj6.fits
+output       = 
+outpref      = s
+fl_vardq     = yes
+fl_oversize  = no
+sci_ext      = SCI
+var_ext      = VAR
+dq_ext       = DQ
+long_sample  = 100:700
+mos_sample   = 0.9
+mosobjsize   = 1.0
+naverage     = 1
+function     = chebyshev
+order        = 1
+low_reject   = 2.5
+high_reject  = 2.5
+niterate     = 2
+grow         = 0.0
+fl_inter     = no
+
+ERROR - GSSKYSUB: Input image teObj6.fits does not exist
+ERROR - GSSKYSUB: 1 error(s) found. Exiting.
+
+GSSKYSUB done. Exit status bad. -- Tue Nov 27 18:49:15 CST 2018
+-------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+GSSKYSUB -- Tue Nov 27 18:49:52 CST 2018
+
+input        = teObj6.fits
+output       = 
+outpref      = s
+fl_vardq     = yes
+fl_oversize  = no
+sci_ext      = SCI
+var_ext      = VAR
+dq_ext       = DQ
+long_sample  = 100:700
+mos_sample   = 0.9
+mosobjsize   = 1.0
+naverage     = 1
+function     = chebyshev
+order        = 1
+low_reject   = 2.5
+high_reject  = 2.5
+niterate     = 2
+grow         = 0.0
+fl_inter     = no
+
+ERROR - GSSKYSUB: Input image teObj6.fits does not exist
+ERROR - GSSKYSUB: 1 error(s) found. Exiting.
+
+GSSKYSUB done. Exit status bad. -- Tue Nov 27 18:49:52 CST 2018
+-------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+GSSKYSUB -- Tue Nov 27 18:50:50 CST 2018
+
+input        = teObj6.fits
+output       = 
+outpref      = s
+fl_vardq     = yes
+fl_oversize  = no
+sci_ext      = SCI
+var_ext      = VAR
+dq_ext       = DQ
+long_sample  = 100:700
+mos_sample   = 0.9
+mosobjsize   = 1.0
+naverage     = 1
+function     = chebyshev
+order        = 1
+low_reject   = 2.5
+high_reject  = 2.5
+niterate     = 2
+grow         = 0.0
+fl_inter     = no
+
+ERROR - GSSKYSUB: Input image teObj6.fits does not exist
+ERROR - GSSKYSUB: 1 error(s) found. Exiting.
+
+GSSKYSUB done. Exit status bad. -- Tue Nov 27 18:50:50 CST 2018
+-------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+GSSKYSUB -- Tue Nov 27 18:51:15 CST 2018
+
+input        = teObj6.fits
+output       = 
+outpref      = s
+fl_vardq     = yes
+fl_oversize  = no
+sci_ext      = SCI
+var_ext      = VAR
+dq_ext       = DQ
+long_sample  = 100:700
+mos_sample   = 0.9
+mosobjsize   = 1.0
+naverage     = 1
+function     = chebyshev
+order        = 1
+low_reject   = 2.5
+high_reject  = 2.5
+niterate     = 2
+grow         = 0.0
+fl_inter     = no
+
+ERROR - GSSKYSUB: Input image teObj6.fits does not exist
+ERROR - GSSKYSUB: 1 error(s) found. Exiting.
+
+GSSKYSUB done. Exit status bad. -- Tue Nov 27 18:51:15 CST 2018
+-------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+GSSKYSUB -- Tue Nov 27 18:51:42 CST 2018
+
+input        = teObj6.fits
+output       = 
+outpref      = s
+fl_vardq     = yes
+fl_oversize  = no
+sci_ext      = SCI
+var_ext      = VAR
+dq_ext       = DQ
+long_sample  = 100:700
+mos_sample   = 0.9
+mosobjsize   = 1.0
+naverage     = 1
+function     = chebyshev
+order        = 1
+low_reject   = 2.5
+high_reject  = 2.5
+niterate     = 2
+grow         = 0.0
+fl_inter     = no
+
+ERROR - GSSKYSUB: Input image teObj6.fits does not exist
+ERROR - GSSKYSUB: 1 error(s) found. Exiting.
+
+GSSKYSUB done. Exit status bad. -- Tue Nov 27 18:51:43 CST 2018
+-------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+GSSKYSUB -- Tue Nov 27 18:53:13 CST 2018
+
+input        = teObj6.fits
+output       = 
+outpref      = s
+fl_vardq     = yes
+fl_oversize  = no
+sci_ext      = SCI
+var_ext      = VAR
+dq_ext       = DQ
+long_sample  = 100:700
+mos_sample   = 0.9
+mosobjsize   = 1.0
+naverage     = 1
+function     = chebyshev
+order        = 1
+low_reject   = 2.5
+high_reject  = 2.5
+niterate     = 2
+grow         = 0.0
+fl_inter     = no
+
+ERROR - GSSKYSUB: Input image teObj6.fits does not exist
+ERROR - GSSKYSUB: 1 error(s) found. Exiting.
+
+GSSKYSUB done. Exit status bad. -- Tue Nov 27 18:53:13 CST 2018
+-------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+GSSKYSUB -- Tue Nov 27 18:56:21 CST 2018
+
+input        = teObj6.fits
+output       = 
+outpref      = s
+fl_vardq     = yes
+fl_oversize  = no
+sci_ext      = SCI
+var_ext      = VAR
+dq_ext       = DQ
+long_sample  = 100:700
+mos_sample   = 0.9
+mosobjsize   = 1.0
+naverage     = 1
+function     = chebyshev
+order        = 1
+low_reject   = 2.5
+high_reject  = 2.5
+niterate     = 2
+grow         = 0.0
+fl_inter     = no
+
+ERROR - GSSKYSUB: Input image teObj6.fits does not exist
+ERROR - GSSKYSUB: 1 error(s) found. Exiting.
+
+GSSKYSUB done. Exit status bad. -- Tue Nov 27 18:56:21 CST 2018
+-------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+GSSKYSUB -- Tue Nov 27 18:57:19 CST 2018
+
+input        = teObj6.fits
+output       = 
+outpref      = s
+fl_vardq     = yes
+fl_oversize  = no
+sci_ext      = SCI
+var_ext      = VAR
+dq_ext       = DQ
+long_sample  = 100:700
+mos_sample   = 0.9
+mosobjsize   = 1.0
+naverage     = 1
+function     = chebyshev
+order        = 1
+low_reject   = 2.5
+high_reject  = 2.5
+niterate     = 2
+grow         = 0.0
+fl_inter     = no
+
+ERROR - GSSKYSUB: Input image teObj6.fits does not exist
+ERROR - GSSKYSUB: 1 error(s) found. Exiting.
+
+GSSKYSUB done. Exit status bad. -- Tue Nov 27 18:57:19 CST 2018
+-------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+GSSKYSUB -- Tue Nov 27 18:59:13 CST 2018
+
+input        = teObj6.fits
+output       = 
+outpref      = s
+fl_vardq     = yes
+fl_oversize  = no
+sci_ext      = SCI
+var_ext      = VAR
+dq_ext       = DQ
+long_sample  = 100:700
+mos_sample   = 0.9
+mosobjsize   = 1.0
+naverage     = 1
+function     = chebyshev
+order        = 1
+low_reject   = 2.5
+high_reject  = 2.5
+niterate     = 2
+grow         = 0.0
+fl_inter     = no
+
+ERROR - GSSKYSUB: Input image teObj6.fits does not exist
+ERROR - GSSKYSUB: 1 error(s) found. Exiting.
+
+GSSKYSUB done. Exit status bad. -- Tue Nov 27 18:59:13 CST 2018
+-------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+GSSKYSUB -- Tue Nov 27 18:59:25 CST 2018
+
+input        = teObj6.fits
 output       = 
 outpref      = s
 fl_vardq     = yes
@@ -53,20 +488,20 @@ fl_inter     = no
  
 GSSKYSUB: Sky-subtraction started
  
-  Input image     = tObj6.fits
-  Output image    = stObj6.fits
+  Input image     = teObj6.fits
+  Output image    = steObj6.fits
   Observing mode  = LONGSLIT
   Number of slits = 1
   Slit #1 ; background sample = [100:700]
-         RMS of the fit (for VAR plane propagation) = 2918.588
+         RMS of the fit (for VAR plane propagation) = 646.6844
 
-GSSKYSUB done. Exit status good -- Mon Nov  5 12:53:25 CST 2018
+GSSKYSUB done. Exit status good -- Tue Nov 27 18:59:36 CST 2018
 -------------------------------------------------------------------------------
 
 ----------------------------------------------------------------------------
-GSSKYSUB -- Tue Nov  6 12:09:38 CST 2018
+GSSKYSUB -- Tue Nov 27 20:05:01 CST 2018
 
-input        = tObj6
+input        = teObj6.fits
 output       = 
 outpref      = s
 fl_vardq     = yes
@@ -86,38 +521,16 @@ niterate     = 2
 grow         = 0.0
 fl_inter     = no
 
-ERROR - GSSKYSUB: Output image stObj6 exist
-ERROR - GSSKYSUB: 1 error(s) found. Exiting.
+ 
+GSSKYSUB: Sky-subtraction started
+ 
+  Input image     = teObj6.fits
+  Output image    = steObj6.fits
+  Observing mode  = LONGSLIT
+  Number of slits = 1
+  Slit #1 ; background sample = [100:700]
+         RMS of the fit (for VAR plane propagation) = 646.6844
 
-GSSKYSUB done. Exit status bad. -- Tue Nov  6 12:09:38 CST 2018
--------------------------------------------------------------------------------
-
-----------------------------------------------------------------------------
-GSSKYSUB -- Tue Nov  6 12:15:39 CST 2018
-
-input        = tObj6
-output       = 
-outpref      = s
-fl_vardq     = yes
-fl_oversize  = no
-sci_ext      = SCI
-var_ext      = VAR
-dq_ext       = DQ
-long_sample  = 100:700
-mos_sample   = 0.9
-mosobjsize   = 1.0
-naverage     = 1
-function     = chebyshev
-order        = 1
-low_reject   = 2.5
-high_reject  = 2.5
-niterate     = 2
-grow         = 0.0
-fl_inter     = no
-
-ERROR - GSSKYSUB: Output image stObj6 exist
-ERROR - GSSKYSUB: 1 error(s) found. Exiting.
-
-GSSKYSUB done. Exit status bad. -- Tue Nov  6 12:15:39 CST 2018
+GSSKYSUB done. Exit status good -- Tue Nov 27 20:05:12 CST 2018
 -------------------------------------------------------------------------------
 
