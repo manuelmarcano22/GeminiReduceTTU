@@ -1,0 +1,72 @@
+-------------------------------------------------------------------------------
+GSTRANSFORM -- Fri Jan 18 19:04:01 CST 2019
+ 
+ERROR - GSTRANSFORM: Input image eObj7.fits does not exist or is not MEF
+ERROR - GSTRANSFORM: 1 errors found with input parameters. Exiting.
+
+GSTRANSFORM exit status: error
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+GSTRANSFORM -- Fri Jan 18 19:05:40 CST 2019
+ 
+
+inimages   = Obj7
+outimages  = 
+outprefix  = t
+fl_stran   = no
+fl_wavtran = yes
+wavtraname = gsS20180710S0020
+database   = database
+fl_vardq   = yes
+interptype = linear
+lambda1    = INDEF
+lambda2    = INDEF
+dx         = INDEF
+nx         = INDEF
+lambdalog  = no
+ylog       = no
+fl_flux    = yes
+gratingdb  = gmos$data/GMOSgratings.dat
+filterdb   = gmos$data/GMOSfilters.dat
+key_dispaxis = DISPAXIS
+dispaxis   = 1
+sci_ext    = SCI
+var_ext = VAR
+dq_ext  = DQ
+
+Transforming Obj7.fits[SCI,1]
+MDF row: 1
+
+NOAO/IRAF V2.16 mmarcano@tux Fri 19:05:41 18-Jan-2019
+  Transform Obj7.fits[SCI,1] to tmpsci22806_2675.
+  Conserve flux per pixel.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4151., x2 =      8820., dx =      1.491, nx = 3132, xlog = no
+    y1 =         1., y2 =      2088., dy =         1., ny = 2088, ylog = no
+
+NOAO/IRAF V2.16 mmarcano@tux Fri 19:05:42 18-Jan-2019
+  Transform Obj7.fits[VAR,1] to tmpvar22806_2676.
+  Conserve flux per pixel.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4151., x2 =      8820., dx =      1.491, nx = 3132, xlog = no
+    y1 =         1., y2 =      2088., dy =         1., ny = 2088, ylog = no
+
+NOAO/IRAF V2.16 mmarcano@tux Fri 19:05:43 18-Jan-2019
+  Transform Obj7.fits[DQ,1] to tmpdq22806_2677.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4151., x2 =      8820., dx =      1.491, nx = 3132, xlog = no
+    y1 =         1., y2 =      2088., dy =         1., ny = 2088, ylog = no
+
+GSTRANSFORM exit status: good
+-------------------------------------------------------------------------------
+

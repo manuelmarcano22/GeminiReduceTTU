@@ -1,0 +1,72 @@
+--------------------------------------------------------------------------------
+GSEXTRACT -- 2019-01-22T23:12:33
+ 
+inimages     = stObj5.fits
+outimages    = 
+outprefix    = e
+refimages    = 
+apwidth      = 1.0
+fl_inter     = no
+find         = yes
+recenter     = yes
+trace        = yes
+coloffset    = 0
+tfunction    = chebyshev
+torder       = 5
+tnsum        = 20
+tstep        = 50
+weights      = none
+clean        = no
+background   = none
+fl_vardq     = no
+sci_ext      = SCI
+key_ron      = RDNOISE
+key_gain     = GAIN
+ron          = 3.5
+gain         = 2.2
+ 
+ERROR - GSEXTRACT: Input image stObj5.fits does not exist or not MEF.
+ERROR - 1 fatal error(s) found.
+ 
+GSEXTRACT: Done -- 2019-01-22T23:12:34
+GSEXTRACT: Exit status ERROR
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+GSEXTRACT -- 2019-01-22T23:24:22
+ 
+inimages     = tObj7.fits
+outimages    = tObj7.ms.fits
+outprefix    = e
+refimages    = 
+apwidth      = 1.0
+fl_inter     = no
+find         = no
+recenter     = no
+trace        = no
+coloffset    = 0
+tfunction    = chebyshev
+torder       = 5
+tnsum        = 20
+tstep        = 50
+weights      = none
+clean        = yes
+lsigma       = 3.0
+usigma       = 3.0
+background   = none
+fl_vardq     = no
+sci_ext      = SCI
+key_ron      = RDNOISE
+key_gain     = GAIN
+ron          = 3.5
+gain         = 2.2
+ 
+WARNING - GSEXTRACT: Spectra tObj7.fits have not been previously sky subtracted.
+WARNING - GSEXTRACT: Spectra tObj7.fits will not be sky subtracted.
+
+Extracting spectrum tObj7.fits[SCI,1]
+Jan 22 17:24: EXTRACT - No apertures defined for tObj7[SCI,1]
+WARNING - GSEXTRACT: apall failed for tObj7.fits[SCI,1]
+ 
+GSEXTRACT: Done -- 2019-01-22T23:24:23
+GSEXTRACT: Exit status GOOD
+--------------------------------------------------------------------------------
