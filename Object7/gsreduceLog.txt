@@ -1,6 +1,6 @@
 
 ----------------------------------------------------------------------------
-GSREDUCE -- Thu Jan 17 16:50:20 CST 2019
+GSREDUCE -- Wed Jan 23 15:12:48 CST 2019
 
 Input image or list  = S20180710S0020,S20180717S0063,S20180922S0023,S20180928S0015,S20181004S0210
 Output image or list = 
@@ -46,10 +46,10 @@ GSREDUCE: Image S20180710S0020.fits has been QE corrected? no
 GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
 GSREDUCE: Calling GIREDUCE to process image
 ----------------------------------------------------------------------------
-GIREDUCE -- Thu Jan 17 16:50:21 CST 2019
+GIREDUCE -- Wed Jan 23 15:12:48 CST 2019
 
 ----------------------------------------------------------------------------
-GPREPARE -- Thu Jan 17 16:50:21 CST 2019
+GPREPARE -- Wed Jan 23 15:12:48 CST 2019
 
 Input list    = S20180710S0020
 Output list   = 
@@ -63,7 +63,7 @@ Input  ../raw/S20180710S0020.fits   Output  gS20180710S0020.fits
 GPREPARE: Using MDF defined in the header 0.5arcsec
 GPREPARE: Taking MDF from directory gmos$data/
 --------------------------------------------------------------------------------
-GGAIN -- Started: 2019-01-17T22:50:22
+GGAIN -- Started: 2019-01-23T21:12:49
 File[extension]:             AMPNAME              GAIN   READNOISE
 gS20180710S0020.fits[SCI,1]: " "BI5-36-4k-2, 4""  5.183  8.07
 gS20180710S0020.fits[SCI,2]: " "BI5-36-4k-2, 3""  5.300  8.85
@@ -78,7 +78,7 @@ gS20180710S0020.fits[SCI,10]: " "BI12-34-4k-1, 3""  4.894  7.99
 gS20180710S0020.fits[SCI,11]: " "BI12-34-4k-1, 2""  5.129  8.30
 gS20180710S0020.fits[SCI,12]: " "BI12-34-4k-1, 1""  4.828  7.94
 
-GGAIN -- Finished: 2019-01-17T22:50:22
+GGAIN -- Finished: 2019-01-23T21:12:50
 
 GGAIN -- Exit staus: GOOD
 
@@ -91,53 +91,53 @@ Input files:
 gS20180710S0020
 
 Output files:
-tmpimage122806_1695
+tmpimage112461_1695
 
-GIREDUCE: Image tmpimage122806_1695 overscan subtracted
-GIREDUCE: Image tmpimage122806_1695 trimmed
+GIREDUCE: Image tmpimage112461_1695 overscan subtracted
+GIREDUCE: Image tmpimage112461_1695 trimmed
 
 Output image       Bias                 Flat               Dark       Scale 
-tmpimage122806_1695 MCbiasFull           INDEF              INDEF       0.00
-GIREDUCE: Subtracted bias MCbiasFull from tmpimage122806_1695
-GIREDUCE: multiplying image tmpimage122806_1695 by gain
+tmpimage112461_1695 MCbiasFull           INDEF              INDEF       0.00
+GIREDUCE: Subtracted bias MCbiasFull from tmpimage112461_1695
+GIREDUCE: multiplying image tmpimage112461_1695 by gain
 --------------------------------------------------------------------------------
-GGAIN -- Started: 2019-01-17T22:50:38
+GGAIN -- Started: 2019-01-23T21:13:06
 File[extension]:                 AMPNAME              GAIN   READNOISE
-tmpimage122806_1695.fits[SCI,1]: " "BI5-36-4k-2, 4""  5.183  8.07
-tmpimage122806_1695.fits[SCI,2]: " "BI5-36-4k-2, 3""  5.300  8.85
-tmpimage122806_1695.fits[SCI,3]: " "BI5-36-4k-2, 2""  5.330  9.13
-tmpimage122806_1695.fits[SCI,4]: " "BI5-36-4k-2, 1""  5.240  8.93
-tmpimage122806_1695.fits[SCI,5]: " "BI11-33-4k-1, 4""  5.407  8.02
-tmpimage122806_1695.fits[SCI,6]: " "BI11-33-4k-1, 3""  5.459  8.62
-tmpimage122806_1695.fits[SCI,7]: " "BI11-33-4k-1, 2""  5.225  8.59
-tmpimage122806_1695.fits[SCI,8]: " "BI11-33-4k-1, 1""  5.334  8.35
-tmpimage122806_1695.fits[SCI,9]: " "BI12-34-4k-1, 4""  5.120  9.34
-tmpimage122806_1695.fits[SCI,10]: " "BI12-34-4k-1, 3""  4.894  7.99
-tmpimage122806_1695.fits[SCI,11]: " "BI12-34-4k-1, 2""  5.129  8.30
-tmpimage122806_1695.fits[SCI,12]: " "BI12-34-4k-1, 1""  4.828  7.94
+tmpimage112461_1695.fits[SCI,1]: " "BI5-36-4k-2, 4""  5.183  8.07
+tmpimage112461_1695.fits[SCI,2]: " "BI5-36-4k-2, 3""  5.300  8.85
+tmpimage112461_1695.fits[SCI,3]: " "BI5-36-4k-2, 2""  5.330  9.13
+tmpimage112461_1695.fits[SCI,4]: " "BI5-36-4k-2, 1""  5.240  8.93
+tmpimage112461_1695.fits[SCI,5]: " "BI11-33-4k-1, 4""  5.407  8.02
+tmpimage112461_1695.fits[SCI,6]: " "BI11-33-4k-1, 3""  5.459  8.62
+tmpimage112461_1695.fits[SCI,7]: " "BI11-33-4k-1, 2""  5.225  8.59
+tmpimage112461_1695.fits[SCI,8]: " "BI11-33-4k-1, 1""  5.334  8.35
+tmpimage112461_1695.fits[SCI,9]: " "BI12-34-4k-1, 4""  5.120  9.34
+tmpimage112461_1695.fits[SCI,10]: " "BI12-34-4k-1, 3""  4.894  7.99
+tmpimage112461_1695.fits[SCI,11]: " "BI12-34-4k-1, 2""  5.129  8.30
+tmpimage112461_1695.fits[SCI,12]: " "BI12-34-4k-1, 1""  4.828  7.94
 
-GGAIN -- Finished: 2019-01-17T22:50:40
+GGAIN -- Finished: 2019-01-23T21:13:07
 
 GGAIN -- Exit staus: GOOD
 
 --------------------------------------------------------------------------------
 GIREDUCE: output counts in electrons
 
-GIREDUCE - Cleaning up -- Thu Jan 17 16:50:40 CST 2019
+GIREDUCE - Cleaning up -- Wed Jan 23 15:13:08 CST 2019
 
-GIREDUCE -- Thu Jan 17 16:50:40 CST 2019
+GIREDUCE -- Wed Jan 23 15:13:08 CST 2019
 GIREDUCE exit status:  good.
 ----------------------------------------------------------------------------
 GSREDUCE: Calling GMOSAIC
-BOE  GMOSAIC 2019-01-17T16:50:40
+BOE  GMOSAIC 2019-01-23T15:13:08
 VIS  GMOSAIC 
 VIS  GMOSAIC -------------------------------------------------------------------
-STAT GMOSAIC Log opened at [Thu 16:50:40 17-Jan-2019]
+STAT GMOSAIC Log opened at [Wed 15:13:08 23-Jan-2019]
 VIS  GMOSAIC 
 VIS  GMOSAIC --------------------
 TSK  GMOSAIC Input Parameters:
-TSK  GMOSAIC      inimages       = tmpimage122806_1695.fits
-TSK  GMOSAIC      outimages      = tmpimage222806_1696.fits
+TSK  GMOSAIC      inimages       = tmpimage112461_1695.fits
+TSK  GMOSAIC      outimages      = tmpimage212461_1696.fits
 TSK  GMOSAIC      outpref        = 
 TSK  GMOSAIC      fl_paste       = no
 TSK  GMOSAIC      fl_vardq       = no
@@ -163,7 +163,7 @@ TSK  GMOSAIC      logfile        = gsreduceLog.txt
 TSK  GMOSAIC      verbose        = no
 TSK  GMOSAIC      fl_real        = no
 VIS  GMOSAIC --------------------
-TSK  GMOSAIC Input: tmpimage122806_1695  Output: tmpimage222806_1696.fits
+TSK  GMOSAIC Input: tmpimage112461_1695  Output: tmpimage212461_1696.fits
 TSK  GMOSAIC Found a MDF, copying for later use.
 ENG  GMOSAIC Setting rotation Xrot[1]= 0.000000, Yrot[1]= 0.000000
 ENG  GMOSAIC Setting rotation Xrot[2]= 0.000000, Yrot[2]= 0.000000
@@ -171,15 +171,15 @@ ENG  GMOSAIC Setting rotation Xrot[3]= 0.000000, Yrot[3]= 0.000000
 STAT GMOSAIC All 1 images successfully mosaiced.
 VIS  GMOSAIC --------------------
 STAT GMOSAIC Exit status: SUCCESS
-STAT GMOSAIC Log closed at [Thu 16:50:41 17-Jan-2019]
+STAT GMOSAIC Log closed at [Wed 15:13:09 23-Jan-2019]
 VIS  GMOSAIC -------------------------------------------------------------------
 VIS  GMOSAIC 
-EOE  GMOSAIC 2019-01-17T16:50:41
+EOE  GMOSAIC 2019-01-23T15:13:09
 GSREDUCE: returned from GMOSAIC.
 GSREDUCE: Image S20180710S0020.fits is LONGSLIT. Will not cut spectra into separate science extensions
 GSREDUCE: Calling GSAPPWAVE
 --------------------------------------------------------------------------------
-GSAPPWAVE -- Thu Jan 17 16:50:42 CST 2019
+GSAPPWAVE -- Wed Jan 23 15:13:09 CST 2019
  
 inimages = gsS20180710S0020.fits
 Grating: R400+_G5325
@@ -209,10 +209,10 @@ GSREDUCE: Image S20180717S0063.fits has been QE corrected? no
 GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
 GSREDUCE: Calling GIREDUCE to process image
 ----------------------------------------------------------------------------
-GIREDUCE -- Thu Jan 17 16:50:42 CST 2019
+GIREDUCE -- Wed Jan 23 15:13:09 CST 2019
 
 ----------------------------------------------------------------------------
-GPREPARE -- Thu Jan 17 16:50:42 CST 2019
+GPREPARE -- Wed Jan 23 15:13:09 CST 2019
 
 Input list    = S20180717S0063
 Output list   = 
@@ -226,7 +226,7 @@ Input  ../raw/S20180717S0063.fits   Output  gS20180717S0063.fits
 GPREPARE: Using MDF defined in the header 0.5arcsec
 GPREPARE: Taking MDF from directory gmos$data/
 --------------------------------------------------------------------------------
-GGAIN -- Started: 2019-01-17T22:50:43
+GGAIN -- Started: 2019-01-23T21:13:10
 File[extension]:             AMPNAME              GAIN   READNOISE
 gS20180717S0063.fits[SCI,1]: " "BI5-36-4k-2, 4""  5.183  8.07
 gS20180717S0063.fits[SCI,2]: " "BI5-36-4k-2, 3""  5.300  8.85
@@ -241,7 +241,7 @@ gS20180717S0063.fits[SCI,10]: " "BI12-34-4k-1, 3""  4.894  7.99
 gS20180717S0063.fits[SCI,11]: " "BI12-34-4k-1, 2""  5.129  8.30
 gS20180717S0063.fits[SCI,12]: " "BI12-34-4k-1, 1""  4.828  7.94
 
-GGAIN -- Finished: 2019-01-17T22:50:44
+GGAIN -- Finished: 2019-01-23T21:13:11
 
 GGAIN -- Exit staus: GOOD
 
@@ -254,53 +254,53 @@ Input files:
 gS20180717S0063
 
 Output files:
-tmpimage122806_1744
+tmpimage112461_1744
 
-GIREDUCE: Image tmpimage122806_1744 overscan subtracted
-GIREDUCE: Image tmpimage122806_1744 trimmed
+GIREDUCE: Image tmpimage112461_1744 overscan subtracted
+GIREDUCE: Image tmpimage112461_1744 trimmed
 
 Output image       Bias                 Flat               Dark       Scale 
-tmpimage122806_1744 MCbiasFull           INDEF              INDEF       0.00
-GIREDUCE: Subtracted bias MCbiasFull from tmpimage122806_1744
-GIREDUCE: multiplying image tmpimage122806_1744 by gain
+tmpimage112461_1744 MCbiasFull           INDEF              INDEF       0.00
+GIREDUCE: Subtracted bias MCbiasFull from tmpimage112461_1744
+GIREDUCE: multiplying image tmpimage112461_1744 by gain
 --------------------------------------------------------------------------------
-GGAIN -- Started: 2019-01-17T22:51:00
+GGAIN -- Started: 2019-01-23T21:13:27
 File[extension]:                 AMPNAME              GAIN   READNOISE
-tmpimage122806_1744.fits[SCI,1]: " "BI5-36-4k-2, 4""  5.183  8.07
-tmpimage122806_1744.fits[SCI,2]: " "BI5-36-4k-2, 3""  5.300  8.85
-tmpimage122806_1744.fits[SCI,3]: " "BI5-36-4k-2, 2""  5.330  9.13
-tmpimage122806_1744.fits[SCI,4]: " "BI5-36-4k-2, 1""  5.240  8.93
-tmpimage122806_1744.fits[SCI,5]: " "BI11-33-4k-1, 4""  5.407  8.02
-tmpimage122806_1744.fits[SCI,6]: " "BI11-33-4k-1, 3""  5.459  8.62
-tmpimage122806_1744.fits[SCI,7]: " "BI11-33-4k-1, 2""  5.225  8.59
-tmpimage122806_1744.fits[SCI,8]: " "BI11-33-4k-1, 1""  5.334  8.35
-tmpimage122806_1744.fits[SCI,9]: " "BI12-34-4k-1, 4""  5.120  9.34
-tmpimage122806_1744.fits[SCI,10]: " "BI12-34-4k-1, 3""  4.894  7.99
-tmpimage122806_1744.fits[SCI,11]: " "BI12-34-4k-1, 2""  5.129  8.30
-tmpimage122806_1744.fits[SCI,12]: " "BI12-34-4k-1, 1""  4.828  7.94
+tmpimage112461_1744.fits[SCI,1]: " "BI5-36-4k-2, 4""  5.183  8.07
+tmpimage112461_1744.fits[SCI,2]: " "BI5-36-4k-2, 3""  5.300  8.85
+tmpimage112461_1744.fits[SCI,3]: " "BI5-36-4k-2, 2""  5.330  9.13
+tmpimage112461_1744.fits[SCI,4]: " "BI5-36-4k-2, 1""  5.240  8.93
+tmpimage112461_1744.fits[SCI,5]: " "BI11-33-4k-1, 4""  5.407  8.02
+tmpimage112461_1744.fits[SCI,6]: " "BI11-33-4k-1, 3""  5.459  8.62
+tmpimage112461_1744.fits[SCI,7]: " "BI11-33-4k-1, 2""  5.225  8.59
+tmpimage112461_1744.fits[SCI,8]: " "BI11-33-4k-1, 1""  5.334  8.35
+tmpimage112461_1744.fits[SCI,9]: " "BI12-34-4k-1, 4""  5.120  9.34
+tmpimage112461_1744.fits[SCI,10]: " "BI12-34-4k-1, 3""  4.894  7.99
+tmpimage112461_1744.fits[SCI,11]: " "BI12-34-4k-1, 2""  5.129  8.30
+tmpimage112461_1744.fits[SCI,12]: " "BI12-34-4k-1, 1""  4.828  7.94
 
-GGAIN -- Finished: 2019-01-17T22:51:02
+GGAIN -- Finished: 2019-01-23T21:13:29
 
 GGAIN -- Exit staus: GOOD
 
 --------------------------------------------------------------------------------
 GIREDUCE: output counts in electrons
 
-GIREDUCE - Cleaning up -- Thu Jan 17 16:51:02 CST 2019
+GIREDUCE - Cleaning up -- Wed Jan 23 15:13:29 CST 2019
 
-GIREDUCE -- Thu Jan 17 16:51:02 CST 2019
+GIREDUCE -- Wed Jan 23 15:13:29 CST 2019
 GIREDUCE exit status:  good.
 ----------------------------------------------------------------------------
 GSREDUCE: Calling GMOSAIC
-BOE  GMOSAIC 2019-01-17T16:51:02
+BOE  GMOSAIC 2019-01-23T15:13:29
 VIS  GMOSAIC 
 VIS  GMOSAIC -------------------------------------------------------------------
-STAT GMOSAIC Log opened at [Thu 16:51:02 17-Jan-2019]
+STAT GMOSAIC Log opened at [Wed 15:13:29 23-Jan-2019]
 VIS  GMOSAIC 
 VIS  GMOSAIC --------------------
 TSK  GMOSAIC Input Parameters:
-TSK  GMOSAIC      inimages       = tmpimage122806_1744.fits
-TSK  GMOSAIC      outimages      = tmpimage222806_1745.fits
+TSK  GMOSAIC      inimages       = tmpimage112461_1744.fits
+TSK  GMOSAIC      outimages      = tmpimage212461_1745.fits
 TSK  GMOSAIC      outpref        = 
 TSK  GMOSAIC      fl_paste       = no
 TSK  GMOSAIC      fl_vardq       = no
@@ -326,7 +326,7 @@ TSK  GMOSAIC      logfile        = gsreduceLog.txt
 TSK  GMOSAIC      verbose        = no
 TSK  GMOSAIC      fl_real        = no
 VIS  GMOSAIC --------------------
-TSK  GMOSAIC Input: tmpimage122806_1744  Output: tmpimage222806_1745.fits
+TSK  GMOSAIC Input: tmpimage112461_1744  Output: tmpimage212461_1745.fits
 TSK  GMOSAIC Found a MDF, copying for later use.
 ENG  GMOSAIC Setting rotation Xrot[1]= 0.000000, Yrot[1]= 0.000000
 ENG  GMOSAIC Setting rotation Xrot[2]= 0.000000, Yrot[2]= 0.000000
@@ -334,15 +334,15 @@ ENG  GMOSAIC Setting rotation Xrot[3]= 0.000000, Yrot[3]= 0.000000
 STAT GMOSAIC All 1 images successfully mosaiced.
 VIS  GMOSAIC --------------------
 STAT GMOSAIC Exit status: SUCCESS
-STAT GMOSAIC Log closed at [Thu 16:51:03 17-Jan-2019]
+STAT GMOSAIC Log closed at [Wed 15:13:30 23-Jan-2019]
 VIS  GMOSAIC -------------------------------------------------------------------
 VIS  GMOSAIC 
-EOE  GMOSAIC 2019-01-17T16:51:03
+EOE  GMOSAIC 2019-01-23T15:13:30
 GSREDUCE: returned from GMOSAIC.
 GSREDUCE: Image S20180717S0063.fits is LONGSLIT. Will not cut spectra into separate science extensions
 GSREDUCE: Calling GSAPPWAVE
 --------------------------------------------------------------------------------
-GSAPPWAVE -- Thu Jan 17 16:51:03 CST 2019
+GSAPPWAVE -- Wed Jan 23 15:13:30 CST 2019
  
 inimages = gsS20180717S0063.fits
 Grating: R400+_G5325
@@ -372,10 +372,10 @@ GSREDUCE: Image S20180922S0023.fits has been QE corrected? no
 GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
 GSREDUCE: Calling GIREDUCE to process image
 ----------------------------------------------------------------------------
-GIREDUCE -- Thu Jan 17 16:51:03 CST 2019
+GIREDUCE -- Wed Jan 23 15:13:31 CST 2019
 
 ----------------------------------------------------------------------------
-GPREPARE -- Thu Jan 17 16:51:03 CST 2019
+GPREPARE -- Wed Jan 23 15:13:31 CST 2019
 
 Input list    = S20180922S0023
 Output list   = 
@@ -389,7 +389,7 @@ Input  ../raw/S20180922S0023.fits   Output  gS20180922S0023.fits
 GPREPARE: Using MDF defined in the header 0.5arcsec
 GPREPARE: Taking MDF from directory gmos$data/
 --------------------------------------------------------------------------------
-GGAIN -- Started: 2019-01-17T22:51:04
+GGAIN -- Started: 2019-01-23T21:13:32
 File[extension]:             AMPNAME              GAIN   READNOISE
 gS20180922S0023.fits[SCI,1]: " "BI5-36-4k-2, 4""  5.183  8.07
 gS20180922S0023.fits[SCI,2]: " "BI5-36-4k-2, 3""  5.300  8.85
@@ -404,7 +404,7 @@ gS20180922S0023.fits[SCI,10]: " "BI12-34-4k-1, 3""  4.894  7.99
 gS20180922S0023.fits[SCI,11]: " "BI12-34-4k-1, 2""  5.129  8.30
 gS20180922S0023.fits[SCI,12]: " "BI12-34-4k-1, 1""  4.828  7.94
 
-GGAIN -- Finished: 2019-01-17T22:51:05
+GGAIN -- Finished: 2019-01-23T21:13:32
 
 GGAIN -- Exit staus: GOOD
 
@@ -417,53 +417,53 @@ Input files:
 gS20180922S0023
 
 Output files:
-tmpimage122806_1793
+tmpimage112461_1793
 
-GIREDUCE: Image tmpimage122806_1793 overscan subtracted
-GIREDUCE: Image tmpimage122806_1793 trimmed
+GIREDUCE: Image tmpimage112461_1793 overscan subtracted
+GIREDUCE: Image tmpimage112461_1793 trimmed
 
 Output image       Bias                 Flat               Dark       Scale 
-tmpimage122806_1793 MCbiasFull           INDEF              INDEF       0.00
-GIREDUCE: Subtracted bias MCbiasFull from tmpimage122806_1793
-GIREDUCE: multiplying image tmpimage122806_1793 by gain
+tmpimage112461_1793 MCbiasFull           INDEF              INDEF       0.00
+GIREDUCE: Subtracted bias MCbiasFull from tmpimage112461_1793
+GIREDUCE: multiplying image tmpimage112461_1793 by gain
 --------------------------------------------------------------------------------
-GGAIN -- Started: 2019-01-17T22:51:21
+GGAIN -- Started: 2019-01-23T21:13:48
 File[extension]:                 AMPNAME              GAIN   READNOISE
-tmpimage122806_1793.fits[SCI,1]: " "BI5-36-4k-2, 4""  5.183  8.07
-tmpimage122806_1793.fits[SCI,2]: " "BI5-36-4k-2, 3""  5.300  8.85
-tmpimage122806_1793.fits[SCI,3]: " "BI5-36-4k-2, 2""  5.330  9.13
-tmpimage122806_1793.fits[SCI,4]: " "BI5-36-4k-2, 1""  5.240  8.93
-tmpimage122806_1793.fits[SCI,5]: " "BI11-33-4k-1, 4""  5.407  8.02
-tmpimage122806_1793.fits[SCI,6]: " "BI11-33-4k-1, 3""  5.459  8.62
-tmpimage122806_1793.fits[SCI,7]: " "BI11-33-4k-1, 2""  5.225  8.59
-tmpimage122806_1793.fits[SCI,8]: " "BI11-33-4k-1, 1""  5.334  8.35
-tmpimage122806_1793.fits[SCI,9]: " "BI12-34-4k-1, 4""  5.120  9.34
-tmpimage122806_1793.fits[SCI,10]: " "BI12-34-4k-1, 3""  4.894  7.99
-tmpimage122806_1793.fits[SCI,11]: " "BI12-34-4k-1, 2""  5.129  8.30
-tmpimage122806_1793.fits[SCI,12]: " "BI12-34-4k-1, 1""  4.828  7.94
+tmpimage112461_1793.fits[SCI,1]: " "BI5-36-4k-2, 4""  5.183  8.07
+tmpimage112461_1793.fits[SCI,2]: " "BI5-36-4k-2, 3""  5.300  8.85
+tmpimage112461_1793.fits[SCI,3]: " "BI5-36-4k-2, 2""  5.330  9.13
+tmpimage112461_1793.fits[SCI,4]: " "BI5-36-4k-2, 1""  5.240  8.93
+tmpimage112461_1793.fits[SCI,5]: " "BI11-33-4k-1, 4""  5.407  8.02
+tmpimage112461_1793.fits[SCI,6]: " "BI11-33-4k-1, 3""  5.459  8.62
+tmpimage112461_1793.fits[SCI,7]: " "BI11-33-4k-1, 2""  5.225  8.59
+tmpimage112461_1793.fits[SCI,8]: " "BI11-33-4k-1, 1""  5.334  8.35
+tmpimage112461_1793.fits[SCI,9]: " "BI12-34-4k-1, 4""  5.120  9.34
+tmpimage112461_1793.fits[SCI,10]: " "BI12-34-4k-1, 3""  4.894  7.99
+tmpimage112461_1793.fits[SCI,11]: " "BI12-34-4k-1, 2""  5.129  8.30
+tmpimage112461_1793.fits[SCI,12]: " "BI12-34-4k-1, 1""  4.828  7.94
 
-GGAIN -- Finished: 2019-01-17T22:51:23
+GGAIN -- Finished: 2019-01-23T21:13:50
 
 GGAIN -- Exit staus: GOOD
 
 --------------------------------------------------------------------------------
 GIREDUCE: output counts in electrons
 
-GIREDUCE - Cleaning up -- Thu Jan 17 16:51:23 CST 2019
+GIREDUCE - Cleaning up -- Wed Jan 23 15:13:50 CST 2019
 
-GIREDUCE -- Thu Jan 17 16:51:23 CST 2019
+GIREDUCE -- Wed Jan 23 15:13:50 CST 2019
 GIREDUCE exit status:  good.
 ----------------------------------------------------------------------------
 GSREDUCE: Calling GMOSAIC
-BOE  GMOSAIC 2019-01-17T16:51:23
+BOE  GMOSAIC 2019-01-23T15:13:50
 VIS  GMOSAIC 
 VIS  GMOSAIC -------------------------------------------------------------------
-STAT GMOSAIC Log opened at [Thu 16:51:23 17-Jan-2019]
+STAT GMOSAIC Log opened at [Wed 15:13:50 23-Jan-2019]
 VIS  GMOSAIC 
 VIS  GMOSAIC --------------------
 TSK  GMOSAIC Input Parameters:
-TSK  GMOSAIC      inimages       = tmpimage122806_1793.fits
-TSK  GMOSAIC      outimages      = tmpimage222806_1794.fits
+TSK  GMOSAIC      inimages       = tmpimage112461_1793.fits
+TSK  GMOSAIC      outimages      = tmpimage212461_1794.fits
 TSK  GMOSAIC      outpref        = 
 TSK  GMOSAIC      fl_paste       = no
 TSK  GMOSAIC      fl_vardq       = no
@@ -489,7 +489,7 @@ TSK  GMOSAIC      logfile        = gsreduceLog.txt
 TSK  GMOSAIC      verbose        = no
 TSK  GMOSAIC      fl_real        = no
 VIS  GMOSAIC --------------------
-TSK  GMOSAIC Input: tmpimage122806_1793  Output: tmpimage222806_1794.fits
+TSK  GMOSAIC Input: tmpimage112461_1793  Output: tmpimage212461_1794.fits
 TSK  GMOSAIC Found a MDF, copying for later use.
 ENG  GMOSAIC Setting rotation Xrot[1]= 0.000000, Yrot[1]= 0.000000
 ENG  GMOSAIC Setting rotation Xrot[2]= 0.000000, Yrot[2]= 0.000000
@@ -497,15 +497,15 @@ ENG  GMOSAIC Setting rotation Xrot[3]= 0.000000, Yrot[3]= 0.000000
 STAT GMOSAIC All 1 images successfully mosaiced.
 VIS  GMOSAIC --------------------
 STAT GMOSAIC Exit status: SUCCESS
-STAT GMOSAIC Log closed at [Thu 16:51:24 17-Jan-2019]
+STAT GMOSAIC Log closed at [Wed 15:13:51 23-Jan-2019]
 VIS  GMOSAIC -------------------------------------------------------------------
 VIS  GMOSAIC 
-EOE  GMOSAIC 2019-01-17T16:51:24
+EOE  GMOSAIC 2019-01-23T15:13:51
 GSREDUCE: returned from GMOSAIC.
 GSREDUCE: Image S20180922S0023.fits is LONGSLIT. Will not cut spectra into separate science extensions
 GSREDUCE: Calling GSAPPWAVE
 --------------------------------------------------------------------------------
-GSAPPWAVE -- Thu Jan 17 16:51:24 CST 2019
+GSAPPWAVE -- Wed Jan 23 15:13:51 CST 2019
  
 inimages = gsS20180922S0023.fits
 Grating: R400+_G5325
@@ -535,10 +535,10 @@ GSREDUCE: Image S20180928S0015.fits has been QE corrected? no
 GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
 GSREDUCE: Calling GIREDUCE to process image
 ----------------------------------------------------------------------------
-GIREDUCE -- Thu Jan 17 16:51:24 CST 2019
+GIREDUCE -- Wed Jan 23 15:13:52 CST 2019
 
 ----------------------------------------------------------------------------
-GPREPARE -- Thu Jan 17 16:51:24 CST 2019
+GPREPARE -- Wed Jan 23 15:13:52 CST 2019
 
 Input list    = S20180928S0015
 Output list   = 
@@ -552,7 +552,7 @@ Input  ../raw/S20180928S0015.fits   Output  gS20180928S0015.fits
 GPREPARE: Using MDF defined in the header 0.5arcsec
 GPREPARE: Taking MDF from directory gmos$data/
 --------------------------------------------------------------------------------
-GGAIN -- Started: 2019-01-17T22:51:25
+GGAIN -- Started: 2019-01-23T21:13:52
 File[extension]:             AMPNAME              GAIN   READNOISE
 gS20180928S0015.fits[SCI,1]: " "BI5-36-4k-2, 4""  5.183  8.07
 gS20180928S0015.fits[SCI,2]: " "BI5-36-4k-2, 3""  5.300  8.85
@@ -567,7 +567,7 @@ gS20180928S0015.fits[SCI,10]: " "BI12-34-4k-1, 3""  4.894  7.99
 gS20180928S0015.fits[SCI,11]: " "BI12-34-4k-1, 2""  5.129  8.30
 gS20180928S0015.fits[SCI,12]: " "BI12-34-4k-1, 1""  4.828  7.94
 
-GGAIN -- Finished: 2019-01-17T22:51:26
+GGAIN -- Finished: 2019-01-23T21:13:53
 
 GGAIN -- Exit staus: GOOD
 
@@ -580,53 +580,53 @@ Input files:
 gS20180928S0015
 
 Output files:
-tmpimage122806_1842
+tmpimage112461_1842
 
-GIREDUCE: Image tmpimage122806_1842 overscan subtracted
-GIREDUCE: Image tmpimage122806_1842 trimmed
+GIREDUCE: Image tmpimage112461_1842 overscan subtracted
+GIREDUCE: Image tmpimage112461_1842 trimmed
 
 Output image       Bias                 Flat               Dark       Scale 
-tmpimage122806_1842 MCbiasFull           INDEF              INDEF       0.00
-GIREDUCE: Subtracted bias MCbiasFull from tmpimage122806_1842
-GIREDUCE: multiplying image tmpimage122806_1842 by gain
+tmpimage112461_1842 MCbiasFull           INDEF              INDEF       0.00
+GIREDUCE: Subtracted bias MCbiasFull from tmpimage112461_1842
+GIREDUCE: multiplying image tmpimage112461_1842 by gain
 --------------------------------------------------------------------------------
-GGAIN -- Started: 2019-01-17T22:51:42
+GGAIN -- Started: 2019-01-23T21:14:09
 File[extension]:                 AMPNAME              GAIN   READNOISE
-tmpimage122806_1842.fits[SCI,1]: " "BI5-36-4k-2, 4""  5.183  8.07
-tmpimage122806_1842.fits[SCI,2]: " "BI5-36-4k-2, 3""  5.300  8.85
-tmpimage122806_1842.fits[SCI,3]: " "BI5-36-4k-2, 2""  5.330  9.13
-tmpimage122806_1842.fits[SCI,4]: " "BI5-36-4k-2, 1""  5.240  8.93
-tmpimage122806_1842.fits[SCI,5]: " "BI11-33-4k-1, 4""  5.407  8.02
-tmpimage122806_1842.fits[SCI,6]: " "BI11-33-4k-1, 3""  5.459  8.62
-tmpimage122806_1842.fits[SCI,7]: " "BI11-33-4k-1, 2""  5.225  8.59
-tmpimage122806_1842.fits[SCI,8]: " "BI11-33-4k-1, 1""  5.334  8.35
-tmpimage122806_1842.fits[SCI,9]: " "BI12-34-4k-1, 4""  5.120  9.34
-tmpimage122806_1842.fits[SCI,10]: " "BI12-34-4k-1, 3""  4.894  7.99
-tmpimage122806_1842.fits[SCI,11]: " "BI12-34-4k-1, 2""  5.129  8.30
-tmpimage122806_1842.fits[SCI,12]: " "BI12-34-4k-1, 1""  4.828  7.94
+tmpimage112461_1842.fits[SCI,1]: " "BI5-36-4k-2, 4""  5.183  8.07
+tmpimage112461_1842.fits[SCI,2]: " "BI5-36-4k-2, 3""  5.300  8.85
+tmpimage112461_1842.fits[SCI,3]: " "BI5-36-4k-2, 2""  5.330  9.13
+tmpimage112461_1842.fits[SCI,4]: " "BI5-36-4k-2, 1""  5.240  8.93
+tmpimage112461_1842.fits[SCI,5]: " "BI11-33-4k-1, 4""  5.407  8.02
+tmpimage112461_1842.fits[SCI,6]: " "BI11-33-4k-1, 3""  5.459  8.62
+tmpimage112461_1842.fits[SCI,7]: " "BI11-33-4k-1, 2""  5.225  8.59
+tmpimage112461_1842.fits[SCI,8]: " "BI11-33-4k-1, 1""  5.334  8.35
+tmpimage112461_1842.fits[SCI,9]: " "BI12-34-4k-1, 4""  5.120  9.34
+tmpimage112461_1842.fits[SCI,10]: " "BI12-34-4k-1, 3""  4.894  7.99
+tmpimage112461_1842.fits[SCI,11]: " "BI12-34-4k-1, 2""  5.129  8.30
+tmpimage112461_1842.fits[SCI,12]: " "BI12-34-4k-1, 1""  4.828  7.94
 
-GGAIN -- Finished: 2019-01-17T22:51:44
+GGAIN -- Finished: 2019-01-23T21:14:11
 
 GGAIN -- Exit staus: GOOD
 
 --------------------------------------------------------------------------------
 GIREDUCE: output counts in electrons
 
-GIREDUCE - Cleaning up -- Thu Jan 17 16:51:44 CST 2019
+GIREDUCE - Cleaning up -- Wed Jan 23 15:14:11 CST 2019
 
-GIREDUCE -- Thu Jan 17 16:51:44 CST 2019
+GIREDUCE -- Wed Jan 23 15:14:11 CST 2019
 GIREDUCE exit status:  good.
 ----------------------------------------------------------------------------
 GSREDUCE: Calling GMOSAIC
-BOE  GMOSAIC 2019-01-17T16:51:44
+BOE  GMOSAIC 2019-01-23T15:14:11
 VIS  GMOSAIC 
 VIS  GMOSAIC -------------------------------------------------------------------
-STAT GMOSAIC Log opened at [Thu 16:51:44 17-Jan-2019]
+STAT GMOSAIC Log opened at [Wed 15:14:11 23-Jan-2019]
 VIS  GMOSAIC 
 VIS  GMOSAIC --------------------
 TSK  GMOSAIC Input Parameters:
-TSK  GMOSAIC      inimages       = tmpimage122806_1842.fits
-TSK  GMOSAIC      outimages      = tmpimage222806_1843.fits
+TSK  GMOSAIC      inimages       = tmpimage112461_1842.fits
+TSK  GMOSAIC      outimages      = tmpimage212461_1843.fits
 TSK  GMOSAIC      outpref        = 
 TSK  GMOSAIC      fl_paste       = no
 TSK  GMOSAIC      fl_vardq       = no
@@ -652,7 +652,7 @@ TSK  GMOSAIC      logfile        = gsreduceLog.txt
 TSK  GMOSAIC      verbose        = no
 TSK  GMOSAIC      fl_real        = no
 VIS  GMOSAIC --------------------
-TSK  GMOSAIC Input: tmpimage122806_1842  Output: tmpimage222806_1843.fits
+TSK  GMOSAIC Input: tmpimage112461_1842  Output: tmpimage212461_1843.fits
 TSK  GMOSAIC Found a MDF, copying for later use.
 ENG  GMOSAIC Setting rotation Xrot[1]= 0.000000, Yrot[1]= 0.000000
 ENG  GMOSAIC Setting rotation Xrot[2]= 0.000000, Yrot[2]= 0.000000
@@ -660,15 +660,15 @@ ENG  GMOSAIC Setting rotation Xrot[3]= 0.000000, Yrot[3]= 0.000000
 STAT GMOSAIC All 1 images successfully mosaiced.
 VIS  GMOSAIC --------------------
 STAT GMOSAIC Exit status: SUCCESS
-STAT GMOSAIC Log closed at [Thu 16:51:45 17-Jan-2019]
+STAT GMOSAIC Log closed at [Wed 15:14:12 23-Jan-2019]
 VIS  GMOSAIC -------------------------------------------------------------------
 VIS  GMOSAIC 
-EOE  GMOSAIC 2019-01-17T16:51:45
+EOE  GMOSAIC 2019-01-23T15:14:12
 GSREDUCE: returned from GMOSAIC.
 GSREDUCE: Image S20180928S0015.fits is LONGSLIT. Will not cut spectra into separate science extensions
 GSREDUCE: Calling GSAPPWAVE
 --------------------------------------------------------------------------------
-GSAPPWAVE -- Thu Jan 17 16:51:46 CST 2019
+GSAPPWAVE -- Wed Jan 23 15:14:12 CST 2019
  
 inimages = gsS20180928S0015.fits
 Grating: R400+_G5325
@@ -698,10 +698,10 @@ GSREDUCE: Image S20181004S0210.fits has been QE corrected? no
 GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
 GSREDUCE: Calling GIREDUCE to process image
 ----------------------------------------------------------------------------
-GIREDUCE -- Thu Jan 17 16:51:46 CST 2019
+GIREDUCE -- Wed Jan 23 15:14:12 CST 2019
 
 ----------------------------------------------------------------------------
-GPREPARE -- Thu Jan 17 16:51:46 CST 2019
+GPREPARE -- Wed Jan 23 15:14:12 CST 2019
 
 Input list    = S20181004S0210
 Output list   = 
@@ -715,7 +715,7 @@ Input  ../raw/S20181004S0210.fits   Output  gS20181004S0210.fits
 GPREPARE: Using MDF defined in the header 0.5arcsec
 GPREPARE: Taking MDF from directory gmos$data/
 --------------------------------------------------------------------------------
-GGAIN -- Started: 2019-01-17T22:51:47
+GGAIN -- Started: 2019-01-23T21:14:13
 File[extension]:             AMPNAME              GAIN   READNOISE
 gS20181004S0210.fits[SCI,1]: " "BI5-36-4k-2, 4""  5.183  8.07
 gS20181004S0210.fits[SCI,2]: " "BI5-36-4k-2, 3""  5.300  8.85
@@ -730,7 +730,7 @@ gS20181004S0210.fits[SCI,10]: " "BI12-34-4k-1, 3""  4.894  7.99
 gS20181004S0210.fits[SCI,11]: " "BI12-34-4k-1, 2""  5.129  8.30
 gS20181004S0210.fits[SCI,12]: " "BI12-34-4k-1, 1""  4.828  7.94
 
-GGAIN -- Finished: 2019-01-17T22:51:48
+GGAIN -- Finished: 2019-01-23T21:14:14
 
 GGAIN -- Exit staus: GOOD
 
@@ -743,53 +743,53 @@ Input files:
 gS20181004S0210
 
 Output files:
-tmpimage122806_1891
+tmpimage112461_1891
 
-GIREDUCE: Image tmpimage122806_1891 overscan subtracted
-GIREDUCE: Image tmpimage122806_1891 trimmed
+GIREDUCE: Image tmpimage112461_1891 overscan subtracted
+GIREDUCE: Image tmpimage112461_1891 trimmed
 
 Output image       Bias                 Flat               Dark       Scale 
-tmpimage122806_1891 MCbiasFull           INDEF              INDEF       0.00
-GIREDUCE: Subtracted bias MCbiasFull from tmpimage122806_1891
-GIREDUCE: multiplying image tmpimage122806_1891 by gain
+tmpimage112461_1891 MCbiasFull           INDEF              INDEF       0.00
+GIREDUCE: Subtracted bias MCbiasFull from tmpimage112461_1891
+GIREDUCE: multiplying image tmpimage112461_1891 by gain
 --------------------------------------------------------------------------------
-GGAIN -- Started: 2019-01-17T22:52:04
+GGAIN -- Started: 2019-01-23T21:14:30
 File[extension]:                 AMPNAME              GAIN   READNOISE
-tmpimage122806_1891.fits[SCI,1]: " "BI5-36-4k-2, 4""  5.183  8.07
-tmpimage122806_1891.fits[SCI,2]: " "BI5-36-4k-2, 3""  5.300  8.85
-tmpimage122806_1891.fits[SCI,3]: " "BI5-36-4k-2, 2""  5.330  9.13
-tmpimage122806_1891.fits[SCI,4]: " "BI5-36-4k-2, 1""  5.240  8.93
-tmpimage122806_1891.fits[SCI,5]: " "BI11-33-4k-1, 4""  5.407  8.02
-tmpimage122806_1891.fits[SCI,6]: " "BI11-33-4k-1, 3""  5.459  8.62
-tmpimage122806_1891.fits[SCI,7]: " "BI11-33-4k-1, 2""  5.225  8.59
-tmpimage122806_1891.fits[SCI,8]: " "BI11-33-4k-1, 1""  5.334  8.35
-tmpimage122806_1891.fits[SCI,9]: " "BI12-34-4k-1, 4""  5.120  9.34
-tmpimage122806_1891.fits[SCI,10]: " "BI12-34-4k-1, 3""  4.894  7.99
-tmpimage122806_1891.fits[SCI,11]: " "BI12-34-4k-1, 2""  5.129  8.30
-tmpimage122806_1891.fits[SCI,12]: " "BI12-34-4k-1, 1""  4.828  7.94
+tmpimage112461_1891.fits[SCI,1]: " "BI5-36-4k-2, 4""  5.183  8.07
+tmpimage112461_1891.fits[SCI,2]: " "BI5-36-4k-2, 3""  5.300  8.85
+tmpimage112461_1891.fits[SCI,3]: " "BI5-36-4k-2, 2""  5.330  9.13
+tmpimage112461_1891.fits[SCI,4]: " "BI5-36-4k-2, 1""  5.240  8.93
+tmpimage112461_1891.fits[SCI,5]: " "BI11-33-4k-1, 4""  5.407  8.02
+tmpimage112461_1891.fits[SCI,6]: " "BI11-33-4k-1, 3""  5.459  8.62
+tmpimage112461_1891.fits[SCI,7]: " "BI11-33-4k-1, 2""  5.225  8.59
+tmpimage112461_1891.fits[SCI,8]: " "BI11-33-4k-1, 1""  5.334  8.35
+tmpimage112461_1891.fits[SCI,9]: " "BI12-34-4k-1, 4""  5.120  9.34
+tmpimage112461_1891.fits[SCI,10]: " "BI12-34-4k-1, 3""  4.894  7.99
+tmpimage112461_1891.fits[SCI,11]: " "BI12-34-4k-1, 2""  5.129  8.30
+tmpimage112461_1891.fits[SCI,12]: " "BI12-34-4k-1, 1""  4.828  7.94
 
-GGAIN -- Finished: 2019-01-17T22:52:06
+GGAIN -- Finished: 2019-01-23T21:14:32
 
 GGAIN -- Exit staus: GOOD
 
 --------------------------------------------------------------------------------
 GIREDUCE: output counts in electrons
 
-GIREDUCE - Cleaning up -- Thu Jan 17 16:52:06 CST 2019
+GIREDUCE - Cleaning up -- Wed Jan 23 15:14:32 CST 2019
 
-GIREDUCE -- Thu Jan 17 16:52:06 CST 2019
+GIREDUCE -- Wed Jan 23 15:14:32 CST 2019
 GIREDUCE exit status:  good.
 ----------------------------------------------------------------------------
 GSREDUCE: Calling GMOSAIC
-BOE  GMOSAIC 2019-01-17T16:52:06
+BOE  GMOSAIC 2019-01-23T15:14:32
 VIS  GMOSAIC 
 VIS  GMOSAIC -------------------------------------------------------------------
-STAT GMOSAIC Log opened at [Thu 16:52:06 17-Jan-2019]
+STAT GMOSAIC Log opened at [Wed 15:14:32 23-Jan-2019]
 VIS  GMOSAIC 
 VIS  GMOSAIC --------------------
 TSK  GMOSAIC Input Parameters:
-TSK  GMOSAIC      inimages       = tmpimage122806_1891.fits
-TSK  GMOSAIC      outimages      = tmpimage222806_1892.fits
+TSK  GMOSAIC      inimages       = tmpimage112461_1891.fits
+TSK  GMOSAIC      outimages      = tmpimage212461_1892.fits
 TSK  GMOSAIC      outpref        = 
 TSK  GMOSAIC      fl_paste       = no
 TSK  GMOSAIC      fl_vardq       = no
@@ -815,7 +815,7 @@ TSK  GMOSAIC      logfile        = gsreduceLog.txt
 TSK  GMOSAIC      verbose        = no
 TSK  GMOSAIC      fl_real        = no
 VIS  GMOSAIC --------------------
-TSK  GMOSAIC Input: tmpimage122806_1891  Output: tmpimage222806_1892.fits
+TSK  GMOSAIC Input: tmpimage112461_1891  Output: tmpimage212461_1892.fits
 TSK  GMOSAIC Found a MDF, copying for later use.
 ENG  GMOSAIC Setting rotation Xrot[1]= 0.000000, Yrot[1]= 0.000000
 ENG  GMOSAIC Setting rotation Xrot[2]= 0.000000, Yrot[2]= 0.000000
@@ -823,15 +823,15 @@ ENG  GMOSAIC Setting rotation Xrot[3]= 0.000000, Yrot[3]= 0.000000
 STAT GMOSAIC All 1 images successfully mosaiced.
 VIS  GMOSAIC --------------------
 STAT GMOSAIC Exit status: SUCCESS
-STAT GMOSAIC Log closed at [Thu 16:52:07 17-Jan-2019]
+STAT GMOSAIC Log closed at [Wed 15:14:33 23-Jan-2019]
 VIS  GMOSAIC -------------------------------------------------------------------
 VIS  GMOSAIC 
-EOE  GMOSAIC 2019-01-17T16:52:07
+EOE  GMOSAIC 2019-01-23T15:14:33
 GSREDUCE: returned from GMOSAIC.
 GSREDUCE: Image S20181004S0210.fits is LONGSLIT. Will not cut spectra into separate science extensions
 GSREDUCE: Calling GSAPPWAVE
 --------------------------------------------------------------------------------
-GSAPPWAVE -- Thu Jan 17 16:52:07 CST 2019
+GSAPPWAVE -- Wed Jan 23 15:14:33 CST 2019
  
 inimages = gsS20181004S0210.fits
 Grating: R400+_G5325
@@ -861,7 +861,7 @@ GSREDUCE done
 ----------------------------------------------------------------------------
 
 ----------------------------------------------------------------------------
-GSREDUCE -- Thu Jan 17 16:52:07 CST 2019
+GSREDUCE -- Wed Jan 23 15:14:33 CST 2019
 
 Input image or list  = S20180708S0086,S20180708S0087
 Output image or list = 
@@ -912,10 +912,10 @@ GSREDUCE: Image S20180708S0086.fits has been QE corrected? no
 GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
 GSREDUCE: Calling GIREDUCE to process image
 ----------------------------------------------------------------------------
-GIREDUCE -- Thu Jan 17 16:52:08 CST 2019
+GIREDUCE -- Wed Jan 23 15:14:34 CST 2019
 
 ----------------------------------------------------------------------------
-GPREPARE -- Thu Jan 17 16:52:08 CST 2019
+GPREPARE -- Wed Jan 23 15:14:34 CST 2019
 
 Input list    = S20180708S0086
 Output list   = 
@@ -929,7 +929,7 @@ Input  ../raw/S20180708S0086.fits   Output  gS20180708S0086.fits
 GPREPARE: Using MDF defined in the header 0.5arcsec
 GPREPARE: Taking MDF from directory gmos$data/
 --------------------------------------------------------------------------------
-GGAIN -- Started: 2019-01-17T22:52:09
+GGAIN -- Started: 2019-01-23T21:14:35
 File[extension]:             AMPNAME              GAIN   READNOISE
 gS20180708S0086.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
 gS20180708S0086.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
@@ -944,7 +944,7 @@ gS20180708S0086.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
 gS20180708S0086.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
 gS20180708S0086.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
 
-GGAIN -- Finished: 2019-01-17T22:52:10
+GGAIN -- Finished: 2019-01-23T21:14:35
 
 GGAIN -- Exit staus: GOOD
 
@@ -957,16 +957,16 @@ Input files:
 gS20180708S0086
 
 Output files:
-tmpimage122806_1944
+tmpimage112461_1944
 
 WARNING - GIREDUCE: Bad Pixel Mask filename is an empty string
                     Only saturated pixels will be flagged
-GIREDUCE: Image tmpimage122806_1944 overscan subtracted
-GIREDUCE: Image tmpimage122806_1944 trimmed
+GIREDUCE: Image tmpimage112461_1944 overscan subtracted
+GIREDUCE: Image tmpimage112461_1944 trimmed
 
 Output image       Bias                 Flat               Dark       Scale 
-tmpimage122806_1944 MCbiasFull           MCflatFull         INDEF       0.00
-GSAT - Started: 2019-01-17T16:52:26
+tmpimage112461_1944 MCbiasFull           MCflatFull         INDEF       0.00
+GSAT - Started: 2019-01-23T15:14:51
 GSAT: Bias level is 510.6539 Gain level is 1.834
 GSAT: Bias corrected - yes
 GSAT: Input in electrons - no
@@ -976,9 +976,9 @@ GSAT: Calculated CCD saturation limit is 259260.632497
 GSAT: Calculated controller saturation limit is 65024.3461
 GSAT: Scaling saturation value by 0.98
 GSAT: Output saturation is 63723.859178
-GSAT - Finished: 2019-01-17T16:52:26
+GSAT - Finished: 2019-01-23T15:14:51
 GSAT - Exit status: GOOD
-GSAT - Started: 2019-01-17T16:52:26
+GSAT - Started: 2019-01-23T15:14:51
 GSAT: Bias level is 531.7936 Gain level is 1.874
 GSAT: Bias corrected - yes
 GSAT: Input in electrons - no
@@ -988,9 +988,9 @@ GSAT: Calculated CCD saturation limit is 259662.753469
 GSAT: Calculated controller saturation limit is 65003.2064
 GSAT: Scaling saturation value by 0.98
 GSAT: Output saturation is 63703.142272
-GSAT - Finished: 2019-01-17T16:52:26
+GSAT - Finished: 2019-01-23T15:14:51
 GSAT - Exit status: GOOD
-GSAT - Started: 2019-01-17T16:52:27
+GSAT - Started: 2019-01-23T15:14:52
 GSAT: Bias level is 523.0814 Gain level is 1.878
 GSAT: Bias corrected - yes
 GSAT: Input in electrons - no
@@ -1000,9 +1000,9 @@ GSAT: Calculated CCD saturation limit is 258551.650692
 GSAT: Calculated controller saturation limit is 65011.9186
 GSAT: Scaling saturation value by 0.98
 GSAT: Output saturation is 63711.680228
-GSAT - Finished: 2019-01-17T16:52:27
+GSAT - Finished: 2019-01-23T15:14:52
 GSAT - Exit status: GOOD
-GSAT - Started: 2019-01-17T16:52:27
+GSAT - Started: 2019-01-23T15:14:52
 GSAT: Bias level is 523.4825 Gain level is 1.852
 GSAT: Bias corrected - yes
 GSAT: Input in electrons - no
@@ -1012,9 +1012,9 @@ GSAT: Calculated CCD saturation limit is 260118.790497
 GSAT: Calculated controller saturation limit is 65011.5175
 GSAT: Scaling saturation value by 0.98
 GSAT: Output saturation is 63711.28715
-GSAT - Finished: 2019-01-17T16:52:27
+GSAT - Finished: 2019-01-23T15:14:52
 GSAT - Exit status: GOOD
-GSAT - Started: 2019-01-17T16:52:28
+GSAT - Started: 2019-01-23T15:14:53
 GSAT: Bias level is 497.5781 Gain level is 1.908
 GSAT: Bias corrected - yes
 GSAT: Input in electrons - no
@@ -1024,9 +1024,9 @@ GSAT: Calculated CCD saturation limit is 258505.24109
 GSAT: Calculated controller saturation limit is 65037.4219
 GSAT: Scaling saturation value by 0.98
 GSAT: Output saturation is 63736.673462
-GSAT - Finished: 2019-01-17T16:52:28
+GSAT - Finished: 2019-01-23T15:14:53
 GSAT - Exit status: GOOD
-GSAT - Started: 2019-01-17T16:52:28
+GSAT - Started: 2019-01-23T15:14:53
 GSAT: Bias level is 509.7705 Gain level is 1.933
 GSAT: Bias corrected - yes
 GSAT: Input in electrons - no
@@ -1036,9 +1036,9 @@ GSAT: Calculated CCD saturation limit is 260153.12985
 GSAT: Calculated controller saturation limit is 65025.2295
 GSAT: Scaling saturation value by 0.98
 GSAT: Output saturation is 63724.72491
-GSAT - Finished: 2019-01-17T16:52:28
+GSAT - Finished: 2019-01-23T15:14:53
 GSAT - Exit status: GOOD
-GSAT - Started: 2019-01-17T16:52:29
+GSAT - Started: 2019-01-23T15:14:53
 GSAT: Bias level is 512.5316 Gain level is 1.84
 GSAT: Bias corrected - yes
 GSAT: Input in electrons - no
@@ -1048,9 +1048,9 @@ GSAT: Calculated CCD saturation limit is 259036.956522
 GSAT: Calculated controller saturation limit is 65022.4684
 GSAT: Scaling saturation value by 0.98
 GSAT: Output saturation is 63722.019032
-GSAT - Finished: 2019-01-17T16:52:29
+GSAT - Finished: 2019-01-23T15:14:53
 GSAT - Exit status: GOOD
-GSAT - Started: 2019-01-17T16:52:29
+GSAT - Started: 2019-01-23T15:14:54
 GSAT: Bias level is 492.3802 Gain level is 1.878
 GSAT: Bias corrected - yes
 GSAT: Input in electrons - no
@@ -1060,9 +1060,9 @@ GSAT: Calculated CCD saturation limit is 258219.382322
 GSAT: Calculated controller saturation limit is 65042.6198
 GSAT: Scaling saturation value by 0.98
 GSAT: Output saturation is 63741.767404
-GSAT - Finished: 2019-01-17T16:52:29
+GSAT - Finished: 2019-01-23T15:14:54
 GSAT - Exit status: GOOD
-GSAT - Started: 2019-01-17T16:52:30
+GSAT - Started: 2019-01-23T15:14:54
 GSAT: Bias level is 505.9391 Gain level is 1.813
 GSAT: Bias corrected - yes
 GSAT: Input in electrons - no
@@ -1072,9 +1072,9 @@ GSAT: Calculated CCD saturation limit is 261277.440706
 GSAT: Calculated controller saturation limit is 65029.0609
 GSAT: Scaling saturation value by 0.98
 GSAT: Output saturation is 63728.479682
-GSAT - Finished: 2019-01-17T16:52:30
+GSAT - Finished: 2019-01-23T15:14:54
 GSAT - Exit status: GOOD
-GSAT - Started: 2019-01-17T16:52:30
+GSAT - Started: 2019-01-23T15:14:55
 GSAT: Bias level is 509.0769 Gain level is 1.724
 GSAT: Bias corrected - yes
 GSAT: Input in electrons - no
@@ -1084,9 +1084,9 @@ GSAT: Calculated CCD saturation limit is 259986.078886
 GSAT: Calculated controller saturation limit is 65025.9231
 GSAT: Scaling saturation value by 0.98
 GSAT: Output saturation is 63725.404638
-GSAT - Finished: 2019-01-17T16:52:30
+GSAT - Finished: 2019-01-23T15:14:55
 GSAT - Exit status: GOOD
-GSAT - Started: 2019-01-17T16:52:30
+GSAT - Started: 2019-01-23T15:14:55
 GSAT: Bias level is 494.9489 Gain level is 1.761
 GSAT: Bias corrected - yes
 GSAT: Input in electrons - no
@@ -1096,9 +1096,9 @@ GSAT: Calculated CCD saturation limit is 260318.001136
 GSAT: Calculated controller saturation limit is 65040.0511
 GSAT: Scaling saturation value by 0.98
 GSAT: Output saturation is 63739.250078
-GSAT - Finished: 2019-01-17T16:52:31
+GSAT - Finished: 2019-01-23T15:14:55
 GSAT - Exit status: GOOD
-GSAT - Started: 2019-01-17T16:52:31
+GSAT - Started: 2019-01-23T15:14:56
 GSAT: Bias level is 509.0157 Gain level is 1.652
 GSAT: Bias corrected - yes
 GSAT: Input in electrons - no
@@ -1108,49 +1108,49 @@ GSAT: Calculated CCD saturation limit is 258997.578692
 GSAT: Calculated controller saturation limit is 65025.9843
 GSAT: Scaling saturation value by 0.98
 GSAT: Output saturation is 63725.464614
-GSAT - Finished: 2019-01-17T16:52:31
+GSAT - Finished: 2019-01-23T15:14:56
 GSAT - Exit status: GOOD
-GIREDUCE: Subtracted bias MCbiasFull from tmpimage122806_1944
-GIREDUCE: Divided image tmpimage122806_1944 by flatfield MCflatFull
-GIREDUCE: multiplying image tmpimage122806_1944 by gain
+GIREDUCE: Subtracted bias MCbiasFull from tmpimage112461_1944
+GIREDUCE: Divided image tmpimage112461_1944 by flatfield MCflatFull
+GIREDUCE: multiplying image tmpimage112461_1944 by gain
 --------------------------------------------------------------------------------
-GGAIN -- Started: 2019-01-17T22:52:31
+GGAIN -- Started: 2019-01-23T21:14:56
 File[extension]:                 AMPNAME              GAIN   READNOISE
-tmpimage122806_1944.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
-tmpimage122806_1944.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
-tmpimage122806_1944.fits[SCI,3]: " "BI5-36-4k-2, 2""  1.878  4.24
-tmpimage122806_1944.fits[SCI,4]: " "BI5-36-4k-2, 1""  1.852  4.21
-tmpimage122806_1944.fits[SCI,5]: " "BI11-33-4k-1, 4""  1.908  3.90
-tmpimage122806_1944.fits[SCI,6]: " "BI11-33-4k-1, 3""  1.933  4.24
-tmpimage122806_1944.fits[SCI,7]: " "BI11-33-4k-1, 2""  1.840  4.07
-tmpimage122806_1944.fits[SCI,8]: " "BI11-33-4k-1, 1""  1.878  4.29
-tmpimage122806_1944.fits[SCI,9]: " "BI12-34-4k-1, 4""  1.813  4.15
-tmpimage122806_1944.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
-tmpimage122806_1944.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
-tmpimage122806_1944.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
+tmpimage112461_1944.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
+tmpimage112461_1944.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
+tmpimage112461_1944.fits[SCI,3]: " "BI5-36-4k-2, 2""  1.878  4.24
+tmpimage112461_1944.fits[SCI,4]: " "BI5-36-4k-2, 1""  1.852  4.21
+tmpimage112461_1944.fits[SCI,5]: " "BI11-33-4k-1, 4""  1.908  3.90
+tmpimage112461_1944.fits[SCI,6]: " "BI11-33-4k-1, 3""  1.933  4.24
+tmpimage112461_1944.fits[SCI,7]: " "BI11-33-4k-1, 2""  1.840  4.07
+tmpimage112461_1944.fits[SCI,8]: " "BI11-33-4k-1, 1""  1.878  4.29
+tmpimage112461_1944.fits[SCI,9]: " "BI12-34-4k-1, 4""  1.813  4.15
+tmpimage112461_1944.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
+tmpimage112461_1944.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
+tmpimage112461_1944.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
 
-GGAIN -- Finished: 2019-01-17T22:52:36
+GGAIN -- Finished: 2019-01-23T21:15:00
 
 GGAIN -- Exit staus: GOOD
 
 --------------------------------------------------------------------------------
 GIREDUCE: output counts in electrons
 
-GIREDUCE - Cleaning up -- Thu Jan 17 16:52:36 CST 2019
+GIREDUCE - Cleaning up -- Wed Jan 23 15:15:01 CST 2019
 
-GIREDUCE -- Thu Jan 17 16:52:36 CST 2019
+GIREDUCE -- Wed Jan 23 15:15:01 CST 2019
 GIREDUCE exit status:  good.
 ----------------------------------------------------------------------------
 GSREDUCE: Calling GMOSAIC
-BOE  GMOSAIC 2019-01-17T16:52:36
+BOE  GMOSAIC 2019-01-23T15:15:01
 VIS  GMOSAIC 
 VIS  GMOSAIC -------------------------------------------------------------------
-STAT GMOSAIC Log opened at [Thu 16:52:36 17-Jan-2019]
+STAT GMOSAIC Log opened at [Wed 15:15:01 23-Jan-2019]
 VIS  GMOSAIC 
 VIS  GMOSAIC --------------------
 TSK  GMOSAIC Input Parameters:
-TSK  GMOSAIC      inimages       = tmpimage122806_1944.fits
-TSK  GMOSAIC      outimages      = tmpimage222806_1945.fits
+TSK  GMOSAIC      inimages       = tmpimage112461_1944.fits
+TSK  GMOSAIC      outimages      = tmpimage212461_1945.fits
 TSK  GMOSAIC      outpref        = 
 TSK  GMOSAIC      fl_paste       = no
 TSK  GMOSAIC      fl_vardq       = yes
@@ -1176,37 +1176,37 @@ TSK  GMOSAIC      logfile        = gsreduceLog.txt
 TSK  GMOSAIC      verbose        = no
 TSK  GMOSAIC      fl_real        = no
 VIS  GMOSAIC --------------------
-TSK  GMOSAIC Input: tmpimage122806_1944  Output: tmpimage222806_1945.fits
+TSK  GMOSAIC Input: tmpimage112461_1944  Output: tmpimage212461_1945.fits
 TSK  GMOSAIC Found a MDF, copying for later use.
 ENG  GMOSAIC Setting rotation Xrot[1]= 0.000000, Yrot[1]= 0.000000
 ENG  GMOSAIC Setting rotation Xrot[2]= 0.000000, Yrot[2]= 0.000000
 ENG  GMOSAIC Setting rotation Xrot[3]= 0.000000, Yrot[3]= 0.000000
 
 ------------------------------------------------------------
-GEMDQEXPAND Started -- Thu Jan 17 16:52:37 CST 2019
+GEMDQEXPAND Started -- Wed Jan 23 15:15:02 CST 2019
 
 GEMDQEXPAND: Input parameters...
 
-    inimage    = tmpimg22806_2005[DQ,1][1:1024,1:2088]
-    outimage   = tmpdq_imexpand22806_1998.fits
+    inimage    = tmpimg12461_2005[DQ,1][1:1024,1:2088]
+    outimage   = tmpdq_imexpand12461_1998.fits
 
 
-GEMDQEXPAND Finished -- Thu Jan 17 16:52:38 CST 2019
+GEMDQEXPAND Finished -- Wed Jan 23 15:15:02 CST 2019
 
 GEMDQEXPAND exit status:  GOOD.
 ------------------------------------------------------------
 
 
 ------------------------------------------------------------
-GEMDQEXPAND Started -- Thu Jan 17 16:52:38 CST 2019
+GEMDQEXPAND Started -- Wed Jan 23 15:15:03 CST 2019
 
 GEMDQEXPAND: Input parameters...
 
-    inimage    = tmpimg22806_2005[DQ,3][1:1024,1:2088]
-    outimage   = tmpdq_imexpand22806_1998.fits
+    inimage    = tmpimg12461_2005[DQ,3][1:1024,1:2088]
+    outimage   = tmpdq_imexpand12461_1998.fits
 
 
-GEMDQEXPAND Finished -- Thu Jan 17 16:52:39 CST 2019
+GEMDQEXPAND Finished -- Wed Jan 23 15:15:03 CST 2019
 
 GEMDQEXPAND exit status:  GOOD.
 ------------------------------------------------------------
@@ -1214,15 +1214,15 @@ GEMDQEXPAND exit status:  GOOD.
 STAT GMOSAIC All 1 images successfully mosaiced.
 VIS  GMOSAIC --------------------
 STAT GMOSAIC Exit status: SUCCESS
-STAT GMOSAIC Log closed at [Thu 16:52:40 17-Jan-2019]
+STAT GMOSAIC Log closed at [Wed 15:15:05 23-Jan-2019]
 VIS  GMOSAIC -------------------------------------------------------------------
 VIS  GMOSAIC 
-EOE  GMOSAIC 2019-01-17T16:52:40
+EOE  GMOSAIC 2019-01-23T15:15:05
 GSREDUCE: returned from GMOSAIC.
 GSREDUCE: Image S20180708S0086.fits is LONGSLIT. Will not cut spectra into separate science extensions
 GSREDUCE: Calling GSAPPWAVE
 --------------------------------------------------------------------------------
-GSAPPWAVE -- Thu Jan 17 16:52:40 CST 2019
+GSAPPWAVE -- Wed Jan 23 15:15:05 CST 2019
  
 inimages = gsS20180708S0086.fits
 Grating: R400+_G5325
@@ -1252,10 +1252,10 @@ GSREDUCE: Image S20180708S0087.fits has been QE corrected? no
 GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
 GSREDUCE: Calling GIREDUCE to process image
 ----------------------------------------------------------------------------
-GIREDUCE -- Thu Jan 17 16:52:41 CST 2019
+GIREDUCE -- Wed Jan 23 15:15:06 CST 2019
 
 ----------------------------------------------------------------------------
-GPREPARE -- Thu Jan 17 16:52:41 CST 2019
+GPREPARE -- Wed Jan 23 15:15:06 CST 2019
 
 Input list    = S20180708S0087
 Output list   = 
@@ -1269,7 +1269,7 @@ Input  ../raw/S20180708S0087.fits   Output  gS20180708S0087.fits
 GPREPARE: Using MDF defined in the header 0.5arcsec
 GPREPARE: Taking MDF from directory gmos$data/
 --------------------------------------------------------------------------------
-GGAIN -- Started: 2019-01-17T22:52:42
+GGAIN -- Started: 2019-01-23T21:15:07
 File[extension]:             AMPNAME              GAIN   READNOISE
 gS20180708S0087.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
 gS20180708S0087.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
@@ -1284,7 +1284,7 @@ gS20180708S0087.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
 gS20180708S0087.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
 gS20180708S0087.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
 
-GGAIN -- Finished: 2019-01-17T22:52:42
+GGAIN -- Finished: 2019-01-23T21:15:08
 
 GGAIN -- Exit staus: GOOD
 
@@ -1297,16 +1297,16 @@ Input files:
 gS20180708S0087
 
 Output files:
-tmpimage122806_2031
+tmpimage112461_2031
 
 WARNING - GIREDUCE: Bad Pixel Mask filename is an empty string
                     Only saturated pixels will be flagged
-GIREDUCE: Image tmpimage122806_2031 overscan subtracted
-GIREDUCE: Image tmpimage122806_2031 trimmed
+GIREDUCE: Image tmpimage112461_2031 overscan subtracted
+GIREDUCE: Image tmpimage112461_2031 trimmed
 
 Output image       Bias                 Flat               Dark       Scale 
-tmpimage122806_2031 MCbiasFull           MCflatFull         INDEF       0.00
-GSAT - Started: 2019-01-17T16:52:58
+tmpimage112461_2031 MCbiasFull           MCflatFull         INDEF       0.00
+GSAT - Started: 2019-01-23T15:15:23
 GSAT: Bias level is 510.234 Gain level is 1.834
 GSAT: Bias corrected - yes
 GSAT: Input in electrons - no
@@ -1316,9 +1316,9 @@ GSAT: Calculated CCD saturation limit is 259260.632497
 GSAT: Calculated controller saturation limit is 65024.766
 GSAT: Scaling saturation value by 0.98
 GSAT: Output saturation is 63724.27068
-GSAT - Finished: 2019-01-17T16:52:58
+GSAT - Finished: 2019-01-23T15:15:23
 GSAT - Exit status: GOOD
-GSAT - Started: 2019-01-17T16:53:00
+GSAT - Started: 2019-01-23T15:15:24
 GSAT: Bias level is 531.1671 Gain level is 1.874
 GSAT: Bias corrected - yes
 GSAT: Input in electrons - no
@@ -1328,9 +1328,9 @@ GSAT: Calculated CCD saturation limit is 259662.753469
 GSAT: Calculated controller saturation limit is 65003.8329
 GSAT: Scaling saturation value by 0.98
 GSAT: Output saturation is 63703.756242
-GSAT - Finished: 2019-01-17T16:53:00
+GSAT - Finished: 2019-01-23T15:15:24
 GSAT - Exit status: GOOD
-GSAT - Started: 2019-01-17T16:53:01
+GSAT - Started: 2019-01-23T15:15:24
 GSAT: Bias level is 522.8393 Gain level is 1.878
 GSAT: Bias corrected - yes
 GSAT: Input in electrons - no
@@ -1340,9 +1340,9 @@ GSAT: Calculated CCD saturation limit is 258551.650692
 GSAT: Calculated controller saturation limit is 65012.1607
 GSAT: Scaling saturation value by 0.98
 GSAT: Output saturation is 63711.917486
-GSAT - Finished: 2019-01-17T16:53:02
+GSAT - Finished: 2019-01-23T15:15:24
 GSAT - Exit status: GOOD
-GSAT - Started: 2019-01-17T16:53:03
+GSAT - Started: 2019-01-23T15:15:24
 GSAT: Bias level is 523.2807 Gain level is 1.852
 GSAT: Bias corrected - yes
 GSAT: Input in electrons - no
@@ -1352,9 +1352,9 @@ GSAT: Calculated CCD saturation limit is 260118.790497
 GSAT: Calculated controller saturation limit is 65011.7193
 GSAT: Scaling saturation value by 0.98
 GSAT: Output saturation is 63711.484914
-GSAT - Finished: 2019-01-17T16:53:03
+GSAT - Finished: 2019-01-23T15:15:24
 GSAT - Exit status: GOOD
-GSAT - Started: 2019-01-17T16:53:03
+GSAT - Started: 2019-01-23T15:15:25
 GSAT: Bias level is 496.7019 Gain level is 1.908
 GSAT: Bias corrected - yes
 GSAT: Input in electrons - no
@@ -1364,9 +1364,9 @@ GSAT: Calculated CCD saturation limit is 258505.24109
 GSAT: Calculated controller saturation limit is 65038.2981
 GSAT: Scaling saturation value by 0.98
 GSAT: Output saturation is 63737.532138
-GSAT - Finished: 2019-01-17T16:53:03
+GSAT - Finished: 2019-01-23T15:15:25
 GSAT - Exit status: GOOD
-GSAT - Started: 2019-01-17T16:53:04
+GSAT - Started: 2019-01-23T15:15:25
 GSAT: Bias level is 509.0367 Gain level is 1.933
 GSAT: Bias corrected - yes
 GSAT: Input in electrons - no
@@ -1376,9 +1376,9 @@ GSAT: Calculated CCD saturation limit is 260153.12985
 GSAT: Calculated controller saturation limit is 65025.9633
 GSAT: Scaling saturation value by 0.98
 GSAT: Output saturation is 63725.444034
-GSAT - Finished: 2019-01-17T16:53:04
+GSAT - Finished: 2019-01-23T15:15:25
 GSAT - Exit status: GOOD
-GSAT - Started: 2019-01-17T16:53:04
+GSAT - Started: 2019-01-23T15:15:26
 GSAT: Bias level is 510.8753 Gain level is 1.84
 GSAT: Bias corrected - yes
 GSAT: Input in electrons - no
@@ -1388,9 +1388,9 @@ GSAT: Calculated CCD saturation limit is 259036.956522
 GSAT: Calculated controller saturation limit is 65024.1247
 GSAT: Scaling saturation value by 0.98
 GSAT: Output saturation is 63723.642206
-GSAT - Finished: 2019-01-17T16:53:04
+GSAT - Finished: 2019-01-23T15:15:26
 GSAT - Exit status: GOOD
-GSAT - Started: 2019-01-17T16:53:05
+GSAT - Started: 2019-01-23T15:15:26
 GSAT: Bias level is 491.4616 Gain level is 1.878
 GSAT: Bias corrected - yes
 GSAT: Input in electrons - no
@@ -1400,9 +1400,9 @@ GSAT: Calculated CCD saturation limit is 258219.382322
 GSAT: Calculated controller saturation limit is 65043.5384
 GSAT: Scaling saturation value by 0.98
 GSAT: Output saturation is 63742.667632
-GSAT - Finished: 2019-01-17T16:53:05
+GSAT - Finished: 2019-01-23T15:15:26
 GSAT - Exit status: GOOD
-GSAT - Started: 2019-01-17T16:53:05
+GSAT - Started: 2019-01-23T15:15:27
 GSAT: Bias level is 505.2987 Gain level is 1.813
 GSAT: Bias corrected - yes
 GSAT: Input in electrons - no
@@ -1412,9 +1412,9 @@ GSAT: Calculated CCD saturation limit is 261277.440706
 GSAT: Calculated controller saturation limit is 65029.7013
 GSAT: Scaling saturation value by 0.98
 GSAT: Output saturation is 63729.107274
-GSAT - Finished: 2019-01-17T16:53:05
+GSAT - Finished: 2019-01-23T15:15:27
 GSAT - Exit status: GOOD
-GSAT - Started: 2019-01-17T16:53:06
+GSAT - Started: 2019-01-23T15:15:27
 GSAT: Bias level is 508.3594 Gain level is 1.724
 GSAT: Bias corrected - yes
 GSAT: Input in electrons - no
@@ -1424,9 +1424,9 @@ GSAT: Calculated CCD saturation limit is 259986.078886
 GSAT: Calculated controller saturation limit is 65026.6406
 GSAT: Scaling saturation value by 0.98
 GSAT: Output saturation is 63726.107788
-GSAT - Finished: 2019-01-17T16:53:06
+GSAT - Finished: 2019-01-23T15:15:27
 GSAT - Exit status: GOOD
-GSAT - Started: 2019-01-17T16:53:06
+GSAT - Started: 2019-01-23T15:15:27
 GSAT: Bias level is 493.8385 Gain level is 1.761
 GSAT: Bias corrected - yes
 GSAT: Input in electrons - no
@@ -1436,9 +1436,9 @@ GSAT: Calculated CCD saturation limit is 260318.001136
 GSAT: Calculated controller saturation limit is 65041.1615
 GSAT: Scaling saturation value by 0.98
 GSAT: Output saturation is 63740.33827
-GSAT - Finished: 2019-01-17T16:53:06
+GSAT - Finished: 2019-01-23T15:15:27
 GSAT - Exit status: GOOD
-GSAT - Started: 2019-01-17T16:53:07
+GSAT - Started: 2019-01-23T15:15:28
 GSAT: Bias level is 508.3616 Gain level is 1.652
 GSAT: Bias corrected - yes
 GSAT: Input in electrons - no
@@ -1448,49 +1448,49 @@ GSAT: Calculated CCD saturation limit is 258997.578692
 GSAT: Calculated controller saturation limit is 65026.6384
 GSAT: Scaling saturation value by 0.98
 GSAT: Output saturation is 63726.105632
-GSAT - Finished: 2019-01-17T16:53:07
+GSAT - Finished: 2019-01-23T15:15:28
 GSAT - Exit status: GOOD
-GIREDUCE: Subtracted bias MCbiasFull from tmpimage122806_2031
-GIREDUCE: Divided image tmpimage122806_2031 by flatfield MCflatFull
-GIREDUCE: multiplying image tmpimage122806_2031 by gain
+GIREDUCE: Subtracted bias MCbiasFull from tmpimage112461_2031
+GIREDUCE: Divided image tmpimage112461_2031 by flatfield MCflatFull
+GIREDUCE: multiplying image tmpimage112461_2031 by gain
 --------------------------------------------------------------------------------
-GGAIN -- Started: 2019-01-17T22:53:07
+GGAIN -- Started: 2019-01-23T21:15:28
 File[extension]:                 AMPNAME              GAIN   READNOISE
-tmpimage122806_2031.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
-tmpimage122806_2031.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
-tmpimage122806_2031.fits[SCI,3]: " "BI5-36-4k-2, 2""  1.878  4.24
-tmpimage122806_2031.fits[SCI,4]: " "BI5-36-4k-2, 1""  1.852  4.21
-tmpimage122806_2031.fits[SCI,5]: " "BI11-33-4k-1, 4""  1.908  3.90
-tmpimage122806_2031.fits[SCI,6]: " "BI11-33-4k-1, 3""  1.933  4.24
-tmpimage122806_2031.fits[SCI,7]: " "BI11-33-4k-1, 2""  1.840  4.07
-tmpimage122806_2031.fits[SCI,8]: " "BI11-33-4k-1, 1""  1.878  4.29
-tmpimage122806_2031.fits[SCI,9]: " "BI12-34-4k-1, 4""  1.813  4.15
-tmpimage122806_2031.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
-tmpimage122806_2031.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
-tmpimage122806_2031.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
+tmpimage112461_2031.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
+tmpimage112461_2031.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
+tmpimage112461_2031.fits[SCI,3]: " "BI5-36-4k-2, 2""  1.878  4.24
+tmpimage112461_2031.fits[SCI,4]: " "BI5-36-4k-2, 1""  1.852  4.21
+tmpimage112461_2031.fits[SCI,5]: " "BI11-33-4k-1, 4""  1.908  3.90
+tmpimage112461_2031.fits[SCI,6]: " "BI11-33-4k-1, 3""  1.933  4.24
+tmpimage112461_2031.fits[SCI,7]: " "BI11-33-4k-1, 2""  1.840  4.07
+tmpimage112461_2031.fits[SCI,8]: " "BI11-33-4k-1, 1""  1.878  4.29
+tmpimage112461_2031.fits[SCI,9]: " "BI12-34-4k-1, 4""  1.813  4.15
+tmpimage112461_2031.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
+tmpimage112461_2031.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
+tmpimage112461_2031.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
 
-GGAIN -- Finished: 2019-01-17T22:53:12
+GGAIN -- Finished: 2019-01-23T21:15:33
 
 GGAIN -- Exit staus: GOOD
 
 --------------------------------------------------------------------------------
 GIREDUCE: output counts in electrons
 
-GIREDUCE - Cleaning up -- Thu Jan 17 16:53:12 CST 2019
+GIREDUCE - Cleaning up -- Wed Jan 23 15:15:33 CST 2019
 
-GIREDUCE -- Thu Jan 17 16:53:12 CST 2019
+GIREDUCE -- Wed Jan 23 15:15:33 CST 2019
 GIREDUCE exit status:  good.
 ----------------------------------------------------------------------------
 GSREDUCE: Calling GMOSAIC
-BOE  GMOSAIC 2019-01-17T16:53:12
+BOE  GMOSAIC 2019-01-23T15:15:33
 VIS  GMOSAIC 
 VIS  GMOSAIC -------------------------------------------------------------------
-STAT GMOSAIC Log opened at [Thu 16:53:12 17-Jan-2019]
+STAT GMOSAIC Log opened at [Wed 15:15:33 23-Jan-2019]
 VIS  GMOSAIC 
 VIS  GMOSAIC --------------------
 TSK  GMOSAIC Input Parameters:
-TSK  GMOSAIC      inimages       = tmpimage122806_2031.fits
-TSK  GMOSAIC      outimages      = tmpimage222806_2032.fits
+TSK  GMOSAIC      inimages       = tmpimage112461_2031.fits
+TSK  GMOSAIC      outimages      = tmpimage212461_2032.fits
 TSK  GMOSAIC      outpref        = 
 TSK  GMOSAIC      fl_paste       = no
 TSK  GMOSAIC      fl_vardq       = yes
@@ -1516,37 +1516,37 @@ TSK  GMOSAIC      logfile        = gsreduceLog.txt
 TSK  GMOSAIC      verbose        = no
 TSK  GMOSAIC      fl_real        = no
 VIS  GMOSAIC --------------------
-TSK  GMOSAIC Input: tmpimage122806_2031  Output: tmpimage222806_2032.fits
+TSK  GMOSAIC Input: tmpimage112461_2031  Output: tmpimage212461_2032.fits
 TSK  GMOSAIC Found a MDF, copying for later use.
 ENG  GMOSAIC Setting rotation Xrot[1]= 0.000000, Yrot[1]= 0.000000
 ENG  GMOSAIC Setting rotation Xrot[2]= 0.000000, Yrot[2]= 0.000000
 ENG  GMOSAIC Setting rotation Xrot[3]= 0.000000, Yrot[3]= 0.000000
 
 ------------------------------------------------------------
-GEMDQEXPAND Started -- Thu Jan 17 16:53:13 CST 2019
+GEMDQEXPAND Started -- Wed Jan 23 15:15:34 CST 2019
 
 GEMDQEXPAND: Input parameters...
 
-    inimage    = tmpimg22806_2092[DQ,1][1:1024,1:2088]
-    outimage   = tmpdq_imexpand22806_2085.fits
+    inimage    = tmpimg12461_2092[DQ,1][1:1024,1:2088]
+    outimage   = tmpdq_imexpand12461_2085.fits
 
 
-GEMDQEXPAND Finished -- Thu Jan 17 16:53:14 CST 2019
+GEMDQEXPAND Finished -- Wed Jan 23 15:15:34 CST 2019
 
 GEMDQEXPAND exit status:  GOOD.
 ------------------------------------------------------------
 
 
 ------------------------------------------------------------
-GEMDQEXPAND Started -- Thu Jan 17 16:53:15 CST 2019
+GEMDQEXPAND Started -- Wed Jan 23 15:15:35 CST 2019
 
 GEMDQEXPAND: Input parameters...
 
-    inimage    = tmpimg22806_2092[DQ,3][1:1024,1:2088]
-    outimage   = tmpdq_imexpand22806_2085.fits
+    inimage    = tmpimg12461_2092[DQ,3][1:1024,1:2088]
+    outimage   = tmpdq_imexpand12461_2085.fits
 
 
-GEMDQEXPAND Finished -- Thu Jan 17 16:53:15 CST 2019
+GEMDQEXPAND Finished -- Wed Jan 23 15:15:36 CST 2019
 
 GEMDQEXPAND exit status:  GOOD.
 ------------------------------------------------------------
@@ -1554,15 +1554,15 @@ GEMDQEXPAND exit status:  GOOD.
 STAT GMOSAIC All 1 images successfully mosaiced.
 VIS  GMOSAIC --------------------
 STAT GMOSAIC Exit status: SUCCESS
-STAT GMOSAIC Log closed at [Thu 16:53:16 17-Jan-2019]
+STAT GMOSAIC Log closed at [Wed 15:15:38 23-Jan-2019]
 VIS  GMOSAIC -------------------------------------------------------------------
 VIS  GMOSAIC 
-EOE  GMOSAIC 2019-01-17T16:53:16
+EOE  GMOSAIC 2019-01-23T15:15:38
 GSREDUCE: returned from GMOSAIC.
 GSREDUCE: Image S20180708S0087.fits is LONGSLIT. Will not cut spectra into separate science extensions
 GSREDUCE: Calling GSAPPWAVE
 --------------------------------------------------------------------------------
-GSAPPWAVE -- Thu Jan 17 16:53:16 CST 2019
+GSAPPWAVE -- Wed Jan 23 15:15:38 CST 2019
  
 inimages = gsS20180708S0087.fits
 Grating: R400+_G5325
@@ -1592,113 +1592,7 @@ GSREDUCE done
 ----------------------------------------------------------------------------
 
 ----------------------------------------------------------------------------
-GSREDUCE -- Thu Jan 17 17:12:36 CST 2019
-
-Input image or list  = S20180710S0020,S20180717S0063,S20180922S0023,S20180928S0015,S20181004S0210
-Output image or list = 
-Output prefix        = gs
-
-Overscan subtraction  fl_over      = yes
-Trim image            fl_trim      = yes
-Bias subtraction      fl_bias      = yes
-Cosmic ray cleaning   fl_gscrrej   = no
-New CR cleaning       fl_crspec    = no
-Dark subtraction      fl_dark      = no
-QE Correction         fl_qecorr    = no
-Flat field correction fl_flat      = no
-Mosaic the CCDs       fl_gmosaic   = yes
-Fixpix chip gaps      fl_fixpix    = no
-Cut MOS spectra       fl_cut       = yes
-Add titles to MOS     fl_title     = yes
-Oversize slit length  fl_oversize  = no
-Run gsappwave         fl_gsappwave = yes
-Run gsscatsub         fl_scatsub   = no
-VAR & DQ planes       fl_vardq     = no
-
-geointer = linear
-gradimage= 
-refimage = 
-bias     = MCbiasFull
-dark     = 
-qe_refim    = 
-qe_corrim   = 
-qe_corrpref = qecorr
-flatim   = 
-sci_ext  = SCI
-var_ext  = VAR
-dq_ext   = DQ
-key_mdf  = MASKNAME
-mdffile  = 
-mdfdir   = gmos$data/
-bpm      = 
-Chip gaps= gmos$data/chipgaps.dat
-
-ERROR - GSREDUCE: Output image gsS20180710S0020 exists
-ERROR - GSREDUCE: Output image gsS20180717S0063 exists
-ERROR - GSREDUCE: Output image gsS20180922S0023 exists
-ERROR - GSREDUCE: Output image gsS20180928S0015 exists
-ERROR - GSREDUCE: Output image gsS20181004S0210 exists
-ERROR - GSREDUCE: Program execution failed with 5 errors
- 
-GSREDUCE done
-----------------------------------------------------------------------------
-
-----------------------------------------------------------------------------
-GSREDUCE -- Thu Jan 17 17:12:36 CST 2019
-
-Input image or list  = S20180708S0086,S20180708S0087
-Output image or list = 
-Output prefix        = gs
-
-Overscan subtraction  fl_over      = yes
-Trim image            fl_trim      = yes
-Bias subtraction      fl_bias      = yes
-Cosmic ray cleaning   fl_gscrrej   = no
-New CR cleaning       fl_crspec    = no
-Dark subtraction      fl_dark      = no
-QE Correction         fl_qecorr    = no
-Flat field correction fl_flat      = yes
-Mosaic the CCDs       fl_gmosaic   = yes
-Fixpix chip gaps      fl_fixpix    = no
-Cut MOS spectra       fl_cut       = yes
-Add titles to MOS     fl_title     = yes
-Oversize slit length  fl_oversize  = no
-Run gsappwave         fl_gsappwave = yes
-Run gsscatsub         fl_scatsub   = no
-VAR & DQ planes       fl_vardq     = yes
-
-geointer = linear
-gradimage= 
-refimage = 
-bias     = MCbiasFull
-dark     = 
-qe_refim    = 
-qe_corrim   = 
-qe_corrpref = qecorr
-flatim   = MCflatFull
-sci_ext  = SCI
-var_ext  = VAR
-dq_ext   = DQ
-key_mdf  = MASKNAME
-mdffile  = 
-mdfdir   = gmos$data/
-bpm      = 
-Chip gaps= gmos$data/chipgaps.dat
-
-ERROR - GSREDUCE: Output image gsS20180708S0086 exists
-ERROR - GSREDUCE: Output image gsS20180708S0087 exists
- 
-Filter(s)/Grating ID for flatfield: 
-     MCflatFull.fits = GG455_G0329 + open2-8 / R400+_G5325
-GSREDUCE: Flat image MCflatFull.fits has been QE corrected? no
- 
-ERROR - GSREDUCE: Program execution failed with 2 errors
- 
-GSREDUCE done
-----------------------------------------------------------------------------
-
-----------------------------------------------------------------------------
-GSREDUCE -- Fri Jan 18 11:18:45 CST 2019
+GSREDUCE -- Wed Jan 23 15:28:50 CST 2019
 
 Input image or list  = S20180710S0020,S20180717S0063,S20180922S0023,S20180928S0015,S20181004S0210
 Output image or list = 
@@ -1744,10 +1638,10 @@ GSREDUCE: Image S20180710S0020.fits has been QE corrected? no
 GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
 GSREDUCE: Calling GIREDUCE to process image
 ----------------------------------------------------------------------------
-GIREDUCE -- Fri Jan 18 11:18:46 CST 2019
+GIREDUCE -- Wed Jan 23 15:28:51 CST 2019
 
 ----------------------------------------------------------------------------
-GPREPARE -- Fri Jan 18 11:18:46 CST 2019
+GPREPARE -- Wed Jan 23 15:28:51 CST 2019
 
 Input list    = S20180710S0020
 Output list   = 
@@ -1761,7 +1655,7 @@ Input  ../raw/S20180710S0020.fits   Output  gS20180710S0020.fits
 GPREPARE: Using MDF defined in the header 0.5arcsec
 GPREPARE: Taking MDF from directory gmos$data/
 --------------------------------------------------------------------------------
-GGAIN -- Started: 2019-01-18T17:18:47
+GGAIN -- Started: 2019-01-23T21:28:52
 File[extension]:             AMPNAME              GAIN   READNOISE
 gS20180710S0020.fits[SCI,1]: " "BI5-36-4k-2, 4""  5.183  8.07
 gS20180710S0020.fits[SCI,2]: " "BI5-36-4k-2, 3""  5.300  8.85
@@ -1776,7 +1670,7 @@ gS20180710S0020.fits[SCI,10]: " "BI12-34-4k-1, 3""  4.894  7.99
 gS20180710S0020.fits[SCI,11]: " "BI12-34-4k-1, 2""  5.129  8.30
 gS20180710S0020.fits[SCI,12]: " "BI12-34-4k-1, 1""  4.828  7.94
 
-GGAIN -- Finished: 2019-01-18T17:18:47
+GGAIN -- Finished: 2019-01-23T21:28:52
 
 GGAIN -- Exit staus: GOOD
 
@@ -1789,53 +1683,53 @@ Input files:
 gS20180710S0020
 
 Output files:
-tmpimage122806_2173
+tmpimage112461_2185
 
-GIREDUCE: Image tmpimage122806_2173 overscan subtracted
-GIREDUCE: Image tmpimage122806_2173 trimmed
+GIREDUCE: Image tmpimage112461_2185 overscan subtracted
+GIREDUCE: Image tmpimage112461_2185 trimmed
 
 Output image       Bias                 Flat               Dark       Scale 
-tmpimage122806_2173 MCbiasFull           INDEF              INDEF       0.00
-GIREDUCE: Subtracted bias MCbiasFull from tmpimage122806_2173
-GIREDUCE: multiplying image tmpimage122806_2173 by gain
+tmpimage112461_2185 MCbiasFull           INDEF              INDEF       0.00
+GIREDUCE: Subtracted bias MCbiasFull from tmpimage112461_2185
+GIREDUCE: multiplying image tmpimage112461_2185 by gain
 --------------------------------------------------------------------------------
-GGAIN -- Started: 2019-01-18T17:19:05
+GGAIN -- Started: 2019-01-23T21:29:08
 File[extension]:                 AMPNAME              GAIN   READNOISE
-tmpimage122806_2173.fits[SCI,1]: " "BI5-36-4k-2, 4""  5.183  8.07
-tmpimage122806_2173.fits[SCI,2]: " "BI5-36-4k-2, 3""  5.300  8.85
-tmpimage122806_2173.fits[SCI,3]: " "BI5-36-4k-2, 2""  5.330  9.13
-tmpimage122806_2173.fits[SCI,4]: " "BI5-36-4k-2, 1""  5.240  8.93
-tmpimage122806_2173.fits[SCI,5]: " "BI11-33-4k-1, 4""  5.407  8.02
-tmpimage122806_2173.fits[SCI,6]: " "BI11-33-4k-1, 3""  5.459  8.62
-tmpimage122806_2173.fits[SCI,7]: " "BI11-33-4k-1, 2""  5.225  8.59
-tmpimage122806_2173.fits[SCI,8]: " "BI11-33-4k-1, 1""  5.334  8.35
-tmpimage122806_2173.fits[SCI,9]: " "BI12-34-4k-1, 4""  5.120  9.34
-tmpimage122806_2173.fits[SCI,10]: " "BI12-34-4k-1, 3""  4.894  7.99
-tmpimage122806_2173.fits[SCI,11]: " "BI12-34-4k-1, 2""  5.129  8.30
-tmpimage122806_2173.fits[SCI,12]: " "BI12-34-4k-1, 1""  4.828  7.94
+tmpimage112461_2185.fits[SCI,1]: " "BI5-36-4k-2, 4""  5.183  8.07
+tmpimage112461_2185.fits[SCI,2]: " "BI5-36-4k-2, 3""  5.300  8.85
+tmpimage112461_2185.fits[SCI,3]: " "BI5-36-4k-2, 2""  5.330  9.13
+tmpimage112461_2185.fits[SCI,4]: " "BI5-36-4k-2, 1""  5.240  8.93
+tmpimage112461_2185.fits[SCI,5]: " "BI11-33-4k-1, 4""  5.407  8.02
+tmpimage112461_2185.fits[SCI,6]: " "BI11-33-4k-1, 3""  5.459  8.62
+tmpimage112461_2185.fits[SCI,7]: " "BI11-33-4k-1, 2""  5.225  8.59
+tmpimage112461_2185.fits[SCI,8]: " "BI11-33-4k-1, 1""  5.334  8.35
+tmpimage112461_2185.fits[SCI,9]: " "BI12-34-4k-1, 4""  5.120  9.34
+tmpimage112461_2185.fits[SCI,10]: " "BI12-34-4k-1, 3""  4.894  7.99
+tmpimage112461_2185.fits[SCI,11]: " "BI12-34-4k-1, 2""  5.129  8.30
+tmpimage112461_2185.fits[SCI,12]: " "BI12-34-4k-1, 1""  4.828  7.94
 
-GGAIN -- Finished: 2019-01-18T17:19:06
+GGAIN -- Finished: 2019-01-23T21:29:10
 
 GGAIN -- Exit staus: GOOD
 
 --------------------------------------------------------------------------------
 GIREDUCE: output counts in electrons
 
-GIREDUCE - Cleaning up -- Fri Jan 18 11:19:07 CST 2019
+GIREDUCE - Cleaning up -- Wed Jan 23 15:29:10 CST 2019
 
-GIREDUCE -- Fri Jan 18 11:19:07 CST 2019
+GIREDUCE -- Wed Jan 23 15:29:10 CST 2019
 GIREDUCE exit status:  good.
 ----------------------------------------------------------------------------
 GSREDUCE: Calling GMOSAIC
-BOE  GMOSAIC 2019-01-18T11:19:07
+BOE  GMOSAIC 2019-01-23T15:29:10
 VIS  GMOSAIC 
 VIS  GMOSAIC -------------------------------------------------------------------
-STAT GMOSAIC Log opened at [Fri 11:19:07 18-Jan-2019]
+STAT GMOSAIC Log opened at [Wed 15:29:10 23-Jan-2019]
 VIS  GMOSAIC 
 VIS  GMOSAIC --------------------
 TSK  GMOSAIC Input Parameters:
-TSK  GMOSAIC      inimages       = tmpimage122806_2173.fits
-TSK  GMOSAIC      outimages      = tmpimage222806_2174.fits
+TSK  GMOSAIC      inimages       = tmpimage112461_2185.fits
+TSK  GMOSAIC      outimages      = tmpimage212461_2186.fits
 TSK  GMOSAIC      outpref        = 
 TSK  GMOSAIC      fl_paste       = no
 TSK  GMOSAIC      fl_vardq       = no
@@ -1861,7 +1755,7 @@ TSK  GMOSAIC      logfile        = gsreduceLog.txt
 TSK  GMOSAIC      verbose        = no
 TSK  GMOSAIC      fl_real        = no
 VIS  GMOSAIC --------------------
-TSK  GMOSAIC Input: tmpimage122806_2173  Output: tmpimage222806_2174.fits
+TSK  GMOSAIC Input: tmpimage112461_2185  Output: tmpimage212461_2186.fits
 TSK  GMOSAIC Found a MDF, copying for later use.
 ENG  GMOSAIC Setting rotation Xrot[1]= 0.000000, Yrot[1]= 0.000000
 ENG  GMOSAIC Setting rotation Xrot[2]= 0.000000, Yrot[2]= 0.000000
@@ -1869,15 +1763,15 @@ ENG  GMOSAIC Setting rotation Xrot[3]= 0.000000, Yrot[3]= 0.000000
 STAT GMOSAIC All 1 images successfully mosaiced.
 VIS  GMOSAIC --------------------
 STAT GMOSAIC Exit status: SUCCESS
-STAT GMOSAIC Log closed at [Fri 11:19:08 18-Jan-2019]
+STAT GMOSAIC Log closed at [Wed 15:29:11 23-Jan-2019]
 VIS  GMOSAIC -------------------------------------------------------------------
 VIS  GMOSAIC 
-EOE  GMOSAIC 2019-01-18T11:19:08
+EOE  GMOSAIC 2019-01-23T15:29:11
 GSREDUCE: returned from GMOSAIC.
 GSREDUCE: Image S20180710S0020.fits is LONGSLIT. Will not cut spectra into separate science extensions
 GSREDUCE: Calling GSAPPWAVE
 --------------------------------------------------------------------------------
-GSAPPWAVE -- Fri Jan 18 11:19:08 CST 2019
+GSAPPWAVE -- Wed Jan 23 15:29:11 CST 2019
  
 inimages = gsS20180710S0020.fits
 Grating: R400+_G5325
@@ -1907,10 +1801,10 @@ GSREDUCE: Image S20180717S0063.fits has been QE corrected? no
 GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
 GSREDUCE: Calling GIREDUCE to process image
 ----------------------------------------------------------------------------
-GIREDUCE -- Fri Jan 18 11:19:08 CST 2019
+GIREDUCE -- Wed Jan 23 15:29:12 CST 2019
 
 ----------------------------------------------------------------------------
-GPREPARE -- Fri Jan 18 11:19:08 CST 2019
+GPREPARE -- Wed Jan 23 15:29:12 CST 2019
 
 Input list    = S20180717S0063
 Output list   = 
@@ -1924,7 +1818,7 @@ Input  ../raw/S20180717S0063.fits   Output  gS20180717S0063.fits
 GPREPARE: Using MDF defined in the header 0.5arcsec
 GPREPARE: Taking MDF from directory gmos$data/
 --------------------------------------------------------------------------------
-GGAIN -- Started: 2019-01-18T17:19:09
+GGAIN -- Started: 2019-01-23T21:29:12
 File[extension]:             AMPNAME              GAIN   READNOISE
 gS20180717S0063.fits[SCI,1]: " "BI5-36-4k-2, 4""  5.183  8.07
 gS20180717S0063.fits[SCI,2]: " "BI5-36-4k-2, 3""  5.300  8.85
@@ -1939,7 +1833,7 @@ gS20180717S0063.fits[SCI,10]: " "BI12-34-4k-1, 3""  4.894  7.99
 gS20180717S0063.fits[SCI,11]: " "BI12-34-4k-1, 2""  5.129  8.30
 gS20180717S0063.fits[SCI,12]: " "BI12-34-4k-1, 1""  4.828  7.94
 
-GGAIN -- Finished: 2019-01-18T17:19:10
+GGAIN -- Finished: 2019-01-23T21:29:13
 
 GGAIN -- Exit staus: GOOD
 
@@ -1952,53 +1846,53 @@ Input files:
 gS20180717S0063
 
 Output files:
-tmpimage122806_2222
+tmpimage112461_2234
 
-GIREDUCE: Image tmpimage122806_2222 overscan subtracted
-GIREDUCE: Image tmpimage122806_2222 trimmed
+GIREDUCE: Image tmpimage112461_2234 overscan subtracted
+GIREDUCE: Image tmpimage112461_2234 trimmed
 
 Output image       Bias                 Flat               Dark       Scale 
-tmpimage122806_2222 MCbiasFull           INDEF              INDEF       0.00
-GIREDUCE: Subtracted bias MCbiasFull from tmpimage122806_2222
-GIREDUCE: multiplying image tmpimage122806_2222 by gain
+tmpimage112461_2234 MCbiasFull           INDEF              INDEF       0.00
+GIREDUCE: Subtracted bias MCbiasFull from tmpimage112461_2234
+GIREDUCE: multiplying image tmpimage112461_2234 by gain
 --------------------------------------------------------------------------------
-GGAIN -- Started: 2019-01-18T17:19:26
+GGAIN -- Started: 2019-01-23T21:29:29
 File[extension]:                 AMPNAME              GAIN   READNOISE
-tmpimage122806_2222.fits[SCI,1]: " "BI5-36-4k-2, 4""  5.183  8.07
-tmpimage122806_2222.fits[SCI,2]: " "BI5-36-4k-2, 3""  5.300  8.85
-tmpimage122806_2222.fits[SCI,3]: " "BI5-36-4k-2, 2""  5.330  9.13
-tmpimage122806_2222.fits[SCI,4]: " "BI5-36-4k-2, 1""  5.240  8.93
-tmpimage122806_2222.fits[SCI,5]: " "BI11-33-4k-1, 4""  5.407  8.02
-tmpimage122806_2222.fits[SCI,6]: " "BI11-33-4k-1, 3""  5.459  8.62
-tmpimage122806_2222.fits[SCI,7]: " "BI11-33-4k-1, 2""  5.225  8.59
-tmpimage122806_2222.fits[SCI,8]: " "BI11-33-4k-1, 1""  5.334  8.35
-tmpimage122806_2222.fits[SCI,9]: " "BI12-34-4k-1, 4""  5.120  9.34
-tmpimage122806_2222.fits[SCI,10]: " "BI12-34-4k-1, 3""  4.894  7.99
-tmpimage122806_2222.fits[SCI,11]: " "BI12-34-4k-1, 2""  5.129  8.30
-tmpimage122806_2222.fits[SCI,12]: " "BI12-34-4k-1, 1""  4.828  7.94
+tmpimage112461_2234.fits[SCI,1]: " "BI5-36-4k-2, 4""  5.183  8.07
+tmpimage112461_2234.fits[SCI,2]: " "BI5-36-4k-2, 3""  5.300  8.85
+tmpimage112461_2234.fits[SCI,3]: " "BI5-36-4k-2, 2""  5.330  9.13
+tmpimage112461_2234.fits[SCI,4]: " "BI5-36-4k-2, 1""  5.240  8.93
+tmpimage112461_2234.fits[SCI,5]: " "BI11-33-4k-1, 4""  5.407  8.02
+tmpimage112461_2234.fits[SCI,6]: " "BI11-33-4k-1, 3""  5.459  8.62
+tmpimage112461_2234.fits[SCI,7]: " "BI11-33-4k-1, 2""  5.225  8.59
+tmpimage112461_2234.fits[SCI,8]: " "BI11-33-4k-1, 1""  5.334  8.35
+tmpimage112461_2234.fits[SCI,9]: " "BI12-34-4k-1, 4""  5.120  9.34
+tmpimage112461_2234.fits[SCI,10]: " "BI12-34-4k-1, 3""  4.894  7.99
+tmpimage112461_2234.fits[SCI,11]: " "BI12-34-4k-1, 2""  5.129  8.30
+tmpimage112461_2234.fits[SCI,12]: " "BI12-34-4k-1, 1""  4.828  7.94
 
-GGAIN -- Finished: 2019-01-18T17:19:28
+GGAIN -- Finished: 2019-01-23T21:29:31
 
 GGAIN -- Exit staus: GOOD
 
 --------------------------------------------------------------------------------
 GIREDUCE: output counts in electrons
 
-GIREDUCE - Cleaning up -- Fri Jan 18 11:19:28 CST 2019
+GIREDUCE - Cleaning up -- Wed Jan 23 15:29:31 CST 2019
 
-GIREDUCE -- Fri Jan 18 11:19:28 CST 2019
+GIREDUCE -- Wed Jan 23 15:29:31 CST 2019
 GIREDUCE exit status:  good.
 ----------------------------------------------------------------------------
 GSREDUCE: Calling GMOSAIC
-BOE  GMOSAIC 2019-01-18T11:19:28
+BOE  GMOSAIC 2019-01-23T15:29:31
 VIS  GMOSAIC 
 VIS  GMOSAIC -------------------------------------------------------------------
-STAT GMOSAIC Log opened at [Fri 11:19:28 18-Jan-2019]
+STAT GMOSAIC Log opened at [Wed 15:29:31 23-Jan-2019]
 VIS  GMOSAIC 
 VIS  GMOSAIC --------------------
 TSK  GMOSAIC Input Parameters:
-TSK  GMOSAIC      inimages       = tmpimage122806_2222.fits
-TSK  GMOSAIC      outimages      = tmpimage222806_2223.fits
+TSK  GMOSAIC      inimages       = tmpimage112461_2234.fits
+TSK  GMOSAIC      outimages      = tmpimage212461_2235.fits
 TSK  GMOSAIC      outpref        = 
 TSK  GMOSAIC      fl_paste       = no
 TSK  GMOSAIC      fl_vardq       = no
@@ -2024,7 +1918,7 @@ TSK  GMOSAIC      logfile        = gsreduceLog.txt
 TSK  GMOSAIC      verbose        = no
 TSK  GMOSAIC      fl_real        = no
 VIS  GMOSAIC --------------------
-TSK  GMOSAIC Input: tmpimage122806_2222  Output: tmpimage222806_2223.fits
+TSK  GMOSAIC Input: tmpimage112461_2234  Output: tmpimage212461_2235.fits
 TSK  GMOSAIC Found a MDF, copying for later use.
 ENG  GMOSAIC Setting rotation Xrot[1]= 0.000000, Yrot[1]= 0.000000
 ENG  GMOSAIC Setting rotation Xrot[2]= 0.000000, Yrot[2]= 0.000000
@@ -2032,15 +1926,15 @@ ENG  GMOSAIC Setting rotation Xrot[3]= 0.000000, Yrot[3]= 0.000000
 STAT GMOSAIC All 1 images successfully mosaiced.
 VIS  GMOSAIC --------------------
 STAT GMOSAIC Exit status: SUCCESS
-STAT GMOSAIC Log closed at [Fri 11:19:29 18-Jan-2019]
+STAT GMOSAIC Log closed at [Wed 15:29:32 23-Jan-2019]
 VIS  GMOSAIC -------------------------------------------------------------------
 VIS  GMOSAIC 
-EOE  GMOSAIC 2019-01-18T11:19:29
+EOE  GMOSAIC 2019-01-23T15:29:32
 GSREDUCE: returned from GMOSAIC.
 GSREDUCE: Image S20180717S0063.fits is LONGSLIT. Will not cut spectra into separate science extensions
 GSREDUCE: Calling GSAPPWAVE
 --------------------------------------------------------------------------------
-GSAPPWAVE -- Fri Jan 18 11:19:29 CST 2019
+GSAPPWAVE -- Wed Jan 23 15:29:32 CST 2019
  
 inimages = gsS20180717S0063.fits
 Grating: R400+_G5325
@@ -2070,10 +1964,10 @@ GSREDUCE: Image S20180922S0023.fits has been QE corrected? no
 GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
 GSREDUCE: Calling GIREDUCE to process image
 ----------------------------------------------------------------------------
-GIREDUCE -- Fri Jan 18 11:19:30 CST 2019
+GIREDUCE -- Wed Jan 23 15:29:32 CST 2019
 
 ----------------------------------------------------------------------------
-GPREPARE -- Fri Jan 18 11:19:30 CST 2019
+GPREPARE -- Wed Jan 23 15:29:32 CST 2019
 
 Input list    = S20180922S0023
 Output list   = 
@@ -2087,7 +1981,7 @@ Input  ../raw/S20180922S0023.fits   Output  gS20180922S0023.fits
 GPREPARE: Using MDF defined in the header 0.5arcsec
 GPREPARE: Taking MDF from directory gmos$data/
 --------------------------------------------------------------------------------
-GGAIN -- Started: 2019-01-18T17:19:31
+GGAIN -- Started: 2019-01-23T21:29:33
 File[extension]:             AMPNAME              GAIN   READNOISE
 gS20180922S0023.fits[SCI,1]: " "BI5-36-4k-2, 4""  5.183  8.07
 gS20180922S0023.fits[SCI,2]: " "BI5-36-4k-2, 3""  5.300  8.85
@@ -2102,7 +1996,7 @@ gS20180922S0023.fits[SCI,10]: " "BI12-34-4k-1, 3""  4.894  7.99
 gS20180922S0023.fits[SCI,11]: " "BI12-34-4k-1, 2""  5.129  8.30
 gS20180922S0023.fits[SCI,12]: " "BI12-34-4k-1, 1""  4.828  7.94
 
-GGAIN -- Finished: 2019-01-18T17:19:31
+GGAIN -- Finished: 2019-01-23T21:29:34
 
 GGAIN -- Exit staus: GOOD
 
@@ -2115,53 +2009,53 @@ Input files:
 gS20180922S0023
 
 Output files:
-tmpimage122806_2271
+tmpimage112461_2283
 
-GIREDUCE: Image tmpimage122806_2271 overscan subtracted
-GIREDUCE: Image tmpimage122806_2271 trimmed
+GIREDUCE: Image tmpimage112461_2283 overscan subtracted
+GIREDUCE: Image tmpimage112461_2283 trimmed
 
 Output image       Bias                 Flat               Dark       Scale 
-tmpimage122806_2271 MCbiasFull           INDEF              INDEF       0.00
-GIREDUCE: Subtracted bias MCbiasFull from tmpimage122806_2271
-GIREDUCE: multiplying image tmpimage122806_2271 by gain
+tmpimage112461_2283 MCbiasFull           INDEF              INDEF       0.00
+GIREDUCE: Subtracted bias MCbiasFull from tmpimage112461_2283
+GIREDUCE: multiplying image tmpimage112461_2283 by gain
 --------------------------------------------------------------------------------
-GGAIN -- Started: 2019-01-18T17:19:47
+GGAIN -- Started: 2019-01-23T21:29:50
 File[extension]:                 AMPNAME              GAIN   READNOISE
-tmpimage122806_2271.fits[SCI,1]: " "BI5-36-4k-2, 4""  5.183  8.07
-tmpimage122806_2271.fits[SCI,2]: " "BI5-36-4k-2, 3""  5.300  8.85
-tmpimage122806_2271.fits[SCI,3]: " "BI5-36-4k-2, 2""  5.330  9.13
-tmpimage122806_2271.fits[SCI,4]: " "BI5-36-4k-2, 1""  5.240  8.93
-tmpimage122806_2271.fits[SCI,5]: " "BI11-33-4k-1, 4""  5.407  8.02
-tmpimage122806_2271.fits[SCI,6]: " "BI11-33-4k-1, 3""  5.459  8.62
-tmpimage122806_2271.fits[SCI,7]: " "BI11-33-4k-1, 2""  5.225  8.59
-tmpimage122806_2271.fits[SCI,8]: " "BI11-33-4k-1, 1""  5.334  8.35
-tmpimage122806_2271.fits[SCI,9]: " "BI12-34-4k-1, 4""  5.120  9.34
-tmpimage122806_2271.fits[SCI,10]: " "BI12-34-4k-1, 3""  4.894  7.99
-tmpimage122806_2271.fits[SCI,11]: " "BI12-34-4k-1, 2""  5.129  8.30
-tmpimage122806_2271.fits[SCI,12]: " "BI12-34-4k-1, 1""  4.828  7.94
+tmpimage112461_2283.fits[SCI,1]: " "BI5-36-4k-2, 4""  5.183  8.07
+tmpimage112461_2283.fits[SCI,2]: " "BI5-36-4k-2, 3""  5.300  8.85
+tmpimage112461_2283.fits[SCI,3]: " "BI5-36-4k-2, 2""  5.330  9.13
+tmpimage112461_2283.fits[SCI,4]: " "BI5-36-4k-2, 1""  5.240  8.93
+tmpimage112461_2283.fits[SCI,5]: " "BI11-33-4k-1, 4""  5.407  8.02
+tmpimage112461_2283.fits[SCI,6]: " "BI11-33-4k-1, 3""  5.459  8.62
+tmpimage112461_2283.fits[SCI,7]: " "BI11-33-4k-1, 2""  5.225  8.59
+tmpimage112461_2283.fits[SCI,8]: " "BI11-33-4k-1, 1""  5.334  8.35
+tmpimage112461_2283.fits[SCI,9]: " "BI12-34-4k-1, 4""  5.120  9.34
+tmpimage112461_2283.fits[SCI,10]: " "BI12-34-4k-1, 3""  4.894  7.99
+tmpimage112461_2283.fits[SCI,11]: " "BI12-34-4k-1, 2""  5.129  8.30
+tmpimage112461_2283.fits[SCI,12]: " "BI12-34-4k-1, 1""  4.828  7.94
 
-GGAIN -- Finished: 2019-01-18T17:19:49
+GGAIN -- Finished: 2019-01-23T21:29:52
 
 GGAIN -- Exit staus: GOOD
 
 --------------------------------------------------------------------------------
 GIREDUCE: output counts in electrons
 
-GIREDUCE - Cleaning up -- Fri Jan 18 11:19:49 CST 2019
+GIREDUCE - Cleaning up -- Wed Jan 23 15:29:52 CST 2019
 
-GIREDUCE -- Fri Jan 18 11:19:49 CST 2019
+GIREDUCE -- Wed Jan 23 15:29:52 CST 2019
 GIREDUCE exit status:  good.
 ----------------------------------------------------------------------------
 GSREDUCE: Calling GMOSAIC
-BOE  GMOSAIC 2019-01-18T11:19:49
+BOE  GMOSAIC 2019-01-23T15:29:52
 VIS  GMOSAIC 
 VIS  GMOSAIC -------------------------------------------------------------------
-STAT GMOSAIC Log opened at [Fri 11:19:49 18-Jan-2019]
+STAT GMOSAIC Log opened at [Wed 15:29:52 23-Jan-2019]
 VIS  GMOSAIC 
 VIS  GMOSAIC --------------------
 TSK  GMOSAIC Input Parameters:
-TSK  GMOSAIC      inimages       = tmpimage122806_2271.fits
-TSK  GMOSAIC      outimages      = tmpimage222806_2272.fits
+TSK  GMOSAIC      inimages       = tmpimage112461_2283.fits
+TSK  GMOSAIC      outimages      = tmpimage212461_2284.fits
 TSK  GMOSAIC      outpref        = 
 TSK  GMOSAIC      fl_paste       = no
 TSK  GMOSAIC      fl_vardq       = no
@@ -2187,7 +2081,7 @@ TSK  GMOSAIC      logfile        = gsreduceLog.txt
 TSK  GMOSAIC      verbose        = no
 TSK  GMOSAIC      fl_real        = no
 VIS  GMOSAIC --------------------
-TSK  GMOSAIC Input: tmpimage122806_2271  Output: tmpimage222806_2272.fits
+TSK  GMOSAIC Input: tmpimage112461_2283  Output: tmpimage212461_2284.fits
 TSK  GMOSAIC Found a MDF, copying for later use.
 ENG  GMOSAIC Setting rotation Xrot[1]= 0.000000, Yrot[1]= 0.000000
 ENG  GMOSAIC Setting rotation Xrot[2]= 0.000000, Yrot[2]= 0.000000
@@ -2195,15 +2089,15 @@ ENG  GMOSAIC Setting rotation Xrot[3]= 0.000000, Yrot[3]= 0.000000
 STAT GMOSAIC All 1 images successfully mosaiced.
 VIS  GMOSAIC --------------------
 STAT GMOSAIC Exit status: SUCCESS
-STAT GMOSAIC Log closed at [Fri 11:19:50 18-Jan-2019]
+STAT GMOSAIC Log closed at [Wed 15:29:53 23-Jan-2019]
 VIS  GMOSAIC -------------------------------------------------------------------
 VIS  GMOSAIC 
-EOE  GMOSAIC 2019-01-18T11:19:50
+EOE  GMOSAIC 2019-01-23T15:29:53
 GSREDUCE: returned from GMOSAIC.
 GSREDUCE: Image S20180922S0023.fits is LONGSLIT. Will not cut spectra into separate science extensions
 GSREDUCE: Calling GSAPPWAVE
 --------------------------------------------------------------------------------
-GSAPPWAVE -- Fri Jan 18 11:19:50 CST 2019
+GSAPPWAVE -- Wed Jan 23 15:29:53 CST 2019
  
 inimages = gsS20180922S0023.fits
 Grating: R400+_G5325
@@ -2233,10 +2127,10 @@ GSREDUCE: Image S20180928S0015.fits has been QE corrected? no
 GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
 GSREDUCE: Calling GIREDUCE to process image
 ----------------------------------------------------------------------------
-GIREDUCE -- Fri Jan 18 11:19:51 CST 2019
+GIREDUCE -- Wed Jan 23 15:29:53 CST 2019
 
 ----------------------------------------------------------------------------
-GPREPARE -- Fri Jan 18 11:19:51 CST 2019
+GPREPARE -- Wed Jan 23 15:29:53 CST 2019
 
 Input list    = S20180928S0015
 Output list   = 
@@ -2250,7 +2144,7 @@ Input  ../raw/S20180928S0015.fits   Output  gS20180928S0015.fits
 GPREPARE: Using MDF defined in the header 0.5arcsec
 GPREPARE: Taking MDF from directory gmos$data/
 --------------------------------------------------------------------------------
-GGAIN -- Started: 2019-01-18T17:19:52
+GGAIN -- Started: 2019-01-23T21:29:54
 File[extension]:             AMPNAME              GAIN   READNOISE
 gS20180928S0015.fits[SCI,1]: " "BI5-36-4k-2, 4""  5.183  8.07
 gS20180928S0015.fits[SCI,2]: " "BI5-36-4k-2, 3""  5.300  8.85
@@ -2265,7 +2159,7 @@ gS20180928S0015.fits[SCI,10]: " "BI12-34-4k-1, 3""  4.894  7.99
 gS20180928S0015.fits[SCI,11]: " "BI12-34-4k-1, 2""  5.129  8.30
 gS20180928S0015.fits[SCI,12]: " "BI12-34-4k-1, 1""  4.828  7.94
 
-GGAIN -- Finished: 2019-01-18T17:19:52
+GGAIN -- Finished: 2019-01-23T21:29:55
 
 GGAIN -- Exit staus: GOOD
 
@@ -2278,53 +2172,53 @@ Input files:
 gS20180928S0015
 
 Output files:
-tmpimage122806_2320
+tmpimage112461_2332
 
-GIREDUCE: Image tmpimage122806_2320 overscan subtracted
-GIREDUCE: Image tmpimage122806_2320 trimmed
+GIREDUCE: Image tmpimage112461_2332 overscan subtracted
+GIREDUCE: Image tmpimage112461_2332 trimmed
 
 Output image       Bias                 Flat               Dark       Scale 
-tmpimage122806_2320 MCbiasFull           INDEF              INDEF       0.00
-GIREDUCE: Subtracted bias MCbiasFull from tmpimage122806_2320
-GIREDUCE: multiplying image tmpimage122806_2320 by gain
+tmpimage112461_2332 MCbiasFull           INDEF              INDEF       0.00
+GIREDUCE: Subtracted bias MCbiasFull from tmpimage112461_2332
+GIREDUCE: multiplying image tmpimage112461_2332 by gain
 --------------------------------------------------------------------------------
-GGAIN -- Started: 2019-01-18T17:20:09
+GGAIN -- Started: 2019-01-23T21:30:11
 File[extension]:                 AMPNAME              GAIN   READNOISE
-tmpimage122806_2320.fits[SCI,1]: " "BI5-36-4k-2, 4""  5.183  8.07
-tmpimage122806_2320.fits[SCI,2]: " "BI5-36-4k-2, 3""  5.300  8.85
-tmpimage122806_2320.fits[SCI,3]: " "BI5-36-4k-2, 2""  5.330  9.13
-tmpimage122806_2320.fits[SCI,4]: " "BI5-36-4k-2, 1""  5.240  8.93
-tmpimage122806_2320.fits[SCI,5]: " "BI11-33-4k-1, 4""  5.407  8.02
-tmpimage122806_2320.fits[SCI,6]: " "BI11-33-4k-1, 3""  5.459  8.62
-tmpimage122806_2320.fits[SCI,7]: " "BI11-33-4k-1, 2""  5.225  8.59
-tmpimage122806_2320.fits[SCI,8]: " "BI11-33-4k-1, 1""  5.334  8.35
-tmpimage122806_2320.fits[SCI,9]: " "BI12-34-4k-1, 4""  5.120  9.34
-tmpimage122806_2320.fits[SCI,10]: " "BI12-34-4k-1, 3""  4.894  7.99
-tmpimage122806_2320.fits[SCI,11]: " "BI12-34-4k-1, 2""  5.129  8.30
-tmpimage122806_2320.fits[SCI,12]: " "BI12-34-4k-1, 1""  4.828  7.94
+tmpimage112461_2332.fits[SCI,1]: " "BI5-36-4k-2, 4""  5.183  8.07
+tmpimage112461_2332.fits[SCI,2]: " "BI5-36-4k-2, 3""  5.300  8.85
+tmpimage112461_2332.fits[SCI,3]: " "BI5-36-4k-2, 2""  5.330  9.13
+tmpimage112461_2332.fits[SCI,4]: " "BI5-36-4k-2, 1""  5.240  8.93
+tmpimage112461_2332.fits[SCI,5]: " "BI11-33-4k-1, 4""  5.407  8.02
+tmpimage112461_2332.fits[SCI,6]: " "BI11-33-4k-1, 3""  5.459  8.62
+tmpimage112461_2332.fits[SCI,7]: " "BI11-33-4k-1, 2""  5.225  8.59
+tmpimage112461_2332.fits[SCI,8]: " "BI11-33-4k-1, 1""  5.334  8.35
+tmpimage112461_2332.fits[SCI,9]: " "BI12-34-4k-1, 4""  5.120  9.34
+tmpimage112461_2332.fits[SCI,10]: " "BI12-34-4k-1, 3""  4.894  7.99
+tmpimage112461_2332.fits[SCI,11]: " "BI12-34-4k-1, 2""  5.129  8.30
+tmpimage112461_2332.fits[SCI,12]: " "BI12-34-4k-1, 1""  4.828  7.94
 
-GGAIN -- Finished: 2019-01-18T17:20:10
+GGAIN -- Finished: 2019-01-23T21:30:13
 
 GGAIN -- Exit staus: GOOD
 
 --------------------------------------------------------------------------------
 GIREDUCE: output counts in electrons
 
-GIREDUCE - Cleaning up -- Fri Jan 18 11:20:11 CST 2019
+GIREDUCE - Cleaning up -- Wed Jan 23 15:30:13 CST 2019
 
-GIREDUCE -- Fri Jan 18 11:20:11 CST 2019
+GIREDUCE -- Wed Jan 23 15:30:13 CST 2019
 GIREDUCE exit status:  good.
 ----------------------------------------------------------------------------
 GSREDUCE: Calling GMOSAIC
-BOE  GMOSAIC 2019-01-18T11:20:11
+BOE  GMOSAIC 2019-01-23T15:30:13
 VIS  GMOSAIC 
 VIS  GMOSAIC -------------------------------------------------------------------
-STAT GMOSAIC Log opened at [Fri 11:20:11 18-Jan-2019]
+STAT GMOSAIC Log opened at [Wed 15:30:13 23-Jan-2019]
 VIS  GMOSAIC 
 VIS  GMOSAIC --------------------
 TSK  GMOSAIC Input Parameters:
-TSK  GMOSAIC      inimages       = tmpimage122806_2320.fits
-TSK  GMOSAIC      outimages      = tmpimage222806_2321.fits
+TSK  GMOSAIC      inimages       = tmpimage112461_2332.fits
+TSK  GMOSAIC      outimages      = tmpimage212461_2333.fits
 TSK  GMOSAIC      outpref        = 
 TSK  GMOSAIC      fl_paste       = no
 TSK  GMOSAIC      fl_vardq       = no
@@ -2350,7 +2244,7 @@ TSK  GMOSAIC      logfile        = gsreduceLog.txt
 TSK  GMOSAIC      verbose        = no
 TSK  GMOSAIC      fl_real        = no
 VIS  GMOSAIC --------------------
-TSK  GMOSAIC Input: tmpimage122806_2320  Output: tmpimage222806_2321.fits
+TSK  GMOSAIC Input: tmpimage112461_2332  Output: tmpimage212461_2333.fits
 TSK  GMOSAIC Found a MDF, copying for later use.
 ENG  GMOSAIC Setting rotation Xrot[1]= 0.000000, Yrot[1]= 0.000000
 ENG  GMOSAIC Setting rotation Xrot[2]= 0.000000, Yrot[2]= 0.000000
@@ -2358,15 +2252,15 @@ ENG  GMOSAIC Setting rotation Xrot[3]= 0.000000, Yrot[3]= 0.000000
 STAT GMOSAIC All 1 images successfully mosaiced.
 VIS  GMOSAIC --------------------
 STAT GMOSAIC Exit status: SUCCESS
-STAT GMOSAIC Log closed at [Fri 11:20:11 18-Jan-2019]
+STAT GMOSAIC Log closed at [Wed 15:30:14 23-Jan-2019]
 VIS  GMOSAIC -------------------------------------------------------------------
 VIS  GMOSAIC 
-EOE  GMOSAIC 2019-01-18T11:20:11
+EOE  GMOSAIC 2019-01-23T15:30:14
 GSREDUCE: returned from GMOSAIC.
 GSREDUCE: Image S20180928S0015.fits is LONGSLIT. Will not cut spectra into separate science extensions
 GSREDUCE: Calling GSAPPWAVE
 --------------------------------------------------------------------------------
-GSAPPWAVE -- Fri Jan 18 11:20:12 CST 2019
+GSAPPWAVE -- Wed Jan 23 15:30:14 CST 2019
  
 inimages = gsS20180928S0015.fits
 Grating: R400+_G5325
@@ -2396,10 +2290,10 @@ GSREDUCE: Image S20181004S0210.fits has been QE corrected? no
 GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
 GSREDUCE: Calling GIREDUCE to process image
 ----------------------------------------------------------------------------
-GIREDUCE -- Fri Jan 18 11:20:12 CST 2019
+GIREDUCE -- Wed Jan 23 15:30:14 CST 2019
 
 ----------------------------------------------------------------------------
-GPREPARE -- Fri Jan 18 11:20:12 CST 2019
+GPREPARE -- Wed Jan 23 15:30:14 CST 2019
 
 Input list    = S20181004S0210
 Output list   = 
@@ -2413,7 +2307,7 @@ Input  ../raw/S20181004S0210.fits   Output  gS20181004S0210.fits
 GPREPARE: Using MDF defined in the header 0.5arcsec
 GPREPARE: Taking MDF from directory gmos$data/
 --------------------------------------------------------------------------------
-GGAIN -- Started: 2019-01-18T17:20:13
+GGAIN -- Started: 2019-01-23T21:30:15
 File[extension]:             AMPNAME              GAIN   READNOISE
 gS20181004S0210.fits[SCI,1]: " "BI5-36-4k-2, 4""  5.183  8.07
 gS20181004S0210.fits[SCI,2]: " "BI5-36-4k-2, 3""  5.300  8.85
@@ -2428,7 +2322,7 @@ gS20181004S0210.fits[SCI,10]: " "BI12-34-4k-1, 3""  4.894  7.99
 gS20181004S0210.fits[SCI,11]: " "BI12-34-4k-1, 2""  5.129  8.30
 gS20181004S0210.fits[SCI,12]: " "BI12-34-4k-1, 1""  4.828  7.94
 
-GGAIN -- Finished: 2019-01-18T17:20:14
+GGAIN -- Finished: 2019-01-23T21:30:16
 
 GGAIN -- Exit staus: GOOD
 
@@ -2441,53 +2335,53 @@ Input files:
 gS20181004S0210
 
 Output files:
-tmpimage122806_2369
+tmpimage112461_2381
 
-GIREDUCE: Image tmpimage122806_2369 overscan subtracted
-GIREDUCE: Image tmpimage122806_2369 trimmed
+GIREDUCE: Image tmpimage112461_2381 overscan subtracted
+GIREDUCE: Image tmpimage112461_2381 trimmed
 
 Output image       Bias                 Flat               Dark       Scale 
-tmpimage122806_2369 MCbiasFull           INDEF              INDEF       0.00
-GIREDUCE: Subtracted bias MCbiasFull from tmpimage122806_2369
-GIREDUCE: multiplying image tmpimage122806_2369 by gain
+tmpimage112461_2381 MCbiasFull           INDEF              INDEF       0.00
+GIREDUCE: Subtracted bias MCbiasFull from tmpimage112461_2381
+GIREDUCE: multiplying image tmpimage112461_2381 by gain
 --------------------------------------------------------------------------------
-GGAIN -- Started: 2019-01-18T17:20:30
+GGAIN -- Started: 2019-01-23T21:30:31
 File[extension]:                 AMPNAME              GAIN   READNOISE
-tmpimage122806_2369.fits[SCI,1]: " "BI5-36-4k-2, 4""  5.183  8.07
-tmpimage122806_2369.fits[SCI,2]: " "BI5-36-4k-2, 3""  5.300  8.85
-tmpimage122806_2369.fits[SCI,3]: " "BI5-36-4k-2, 2""  5.330  9.13
-tmpimage122806_2369.fits[SCI,4]: " "BI5-36-4k-2, 1""  5.240  8.93
-tmpimage122806_2369.fits[SCI,5]: " "BI11-33-4k-1, 4""  5.407  8.02
-tmpimage122806_2369.fits[SCI,6]: " "BI11-33-4k-1, 3""  5.459  8.62
-tmpimage122806_2369.fits[SCI,7]: " "BI11-33-4k-1, 2""  5.225  8.59
-tmpimage122806_2369.fits[SCI,8]: " "BI11-33-4k-1, 1""  5.334  8.35
-tmpimage122806_2369.fits[SCI,9]: " "BI12-34-4k-1, 4""  5.120  9.34
-tmpimage122806_2369.fits[SCI,10]: " "BI12-34-4k-1, 3""  4.894  7.99
-tmpimage122806_2369.fits[SCI,11]: " "BI12-34-4k-1, 2""  5.129  8.30
-tmpimage122806_2369.fits[SCI,12]: " "BI12-34-4k-1, 1""  4.828  7.94
+tmpimage112461_2381.fits[SCI,1]: " "BI5-36-4k-2, 4""  5.183  8.07
+tmpimage112461_2381.fits[SCI,2]: " "BI5-36-4k-2, 3""  5.300  8.85
+tmpimage112461_2381.fits[SCI,3]: " "BI5-36-4k-2, 2""  5.330  9.13
+tmpimage112461_2381.fits[SCI,4]: " "BI5-36-4k-2, 1""  5.240  8.93
+tmpimage112461_2381.fits[SCI,5]: " "BI11-33-4k-1, 4""  5.407  8.02
+tmpimage112461_2381.fits[SCI,6]: " "BI11-33-4k-1, 3""  5.459  8.62
+tmpimage112461_2381.fits[SCI,7]: " "BI11-33-4k-1, 2""  5.225  8.59
+tmpimage112461_2381.fits[SCI,8]: " "BI11-33-4k-1, 1""  5.334  8.35
+tmpimage112461_2381.fits[SCI,9]: " "BI12-34-4k-1, 4""  5.120  9.34
+tmpimage112461_2381.fits[SCI,10]: " "BI12-34-4k-1, 3""  4.894  7.99
+tmpimage112461_2381.fits[SCI,11]: " "BI12-34-4k-1, 2""  5.129  8.30
+tmpimage112461_2381.fits[SCI,12]: " "BI12-34-4k-1, 1""  4.828  7.94
 
-GGAIN -- Finished: 2019-01-18T17:20:31
+GGAIN -- Finished: 2019-01-23T21:30:33
 
 GGAIN -- Exit staus: GOOD
 
 --------------------------------------------------------------------------------
 GIREDUCE: output counts in electrons
 
-GIREDUCE - Cleaning up -- Fri Jan 18 11:20:31 CST 2019
+GIREDUCE - Cleaning up -- Wed Jan 23 15:30:33 CST 2019
 
-GIREDUCE -- Fri Jan 18 11:20:31 CST 2019
+GIREDUCE -- Wed Jan 23 15:30:33 CST 2019
 GIREDUCE exit status:  good.
 ----------------------------------------------------------------------------
 GSREDUCE: Calling GMOSAIC
-BOE  GMOSAIC 2019-01-18T11:20:31
+BOE  GMOSAIC 2019-01-23T15:30:33
 VIS  GMOSAIC 
 VIS  GMOSAIC -------------------------------------------------------------------
-STAT GMOSAIC Log opened at [Fri 11:20:31 18-Jan-2019]
+STAT GMOSAIC Log opened at [Wed 15:30:33 23-Jan-2019]
 VIS  GMOSAIC 
 VIS  GMOSAIC --------------------
 TSK  GMOSAIC Input Parameters:
-TSK  GMOSAIC      inimages       = tmpimage122806_2369.fits
-TSK  GMOSAIC      outimages      = tmpimage222806_2370.fits
+TSK  GMOSAIC      inimages       = tmpimage112461_2381.fits
+TSK  GMOSAIC      outimages      = tmpimage212461_2382.fits
 TSK  GMOSAIC      outpref        = 
 TSK  GMOSAIC      fl_paste       = no
 TSK  GMOSAIC      fl_vardq       = no
@@ -2513,7 +2407,7 @@ TSK  GMOSAIC      logfile        = gsreduceLog.txt
 TSK  GMOSAIC      verbose        = no
 TSK  GMOSAIC      fl_real        = no
 VIS  GMOSAIC --------------------
-TSK  GMOSAIC Input: tmpimage122806_2369  Output: tmpimage222806_2370.fits
+TSK  GMOSAIC Input: tmpimage112461_2381  Output: tmpimage212461_2382.fits
 TSK  GMOSAIC Found a MDF, copying for later use.
 ENG  GMOSAIC Setting rotation Xrot[1]= 0.000000, Yrot[1]= 0.000000
 ENG  GMOSAIC Setting rotation Xrot[2]= 0.000000, Yrot[2]= 0.000000
@@ -2521,15 +2415,15 @@ ENG  GMOSAIC Setting rotation Xrot[3]= 0.000000, Yrot[3]= 0.000000
 STAT GMOSAIC All 1 images successfully mosaiced.
 VIS  GMOSAIC --------------------
 STAT GMOSAIC Exit status: SUCCESS
-STAT GMOSAIC Log closed at [Fri 11:20:32 18-Jan-2019]
+STAT GMOSAIC Log closed at [Wed 15:30:34 23-Jan-2019]
 VIS  GMOSAIC -------------------------------------------------------------------
 VIS  GMOSAIC 
-EOE  GMOSAIC 2019-01-18T11:20:32
+EOE  GMOSAIC 2019-01-23T15:30:34
 GSREDUCE: returned from GMOSAIC.
 GSREDUCE: Image S20181004S0210.fits is LONGSLIT. Will not cut spectra into separate science extensions
 GSREDUCE: Calling GSAPPWAVE
 --------------------------------------------------------------------------------
-GSAPPWAVE -- Fri Jan 18 11:20:33 CST 2019
+GSAPPWAVE -- Wed Jan 23 15:30:34 CST 2019
  
 inimages = gsS20181004S0210.fits
 Grating: R400+_G5325
@@ -2559,7 +2453,7 @@ GSREDUCE done
 ----------------------------------------------------------------------------
 
 ----------------------------------------------------------------------------
-GSREDUCE -- Fri Jan 18 11:20:33 CST 2019
+GSREDUCE -- Wed Jan 23 15:30:35 CST 2019
 
 Input image or list  = S20180708S0086,S20180708S0087
 Output image or list = 
@@ -2610,10 +2504,10 @@ GSREDUCE: Image S20180708S0086.fits has been QE corrected? no
 GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
 GSREDUCE: Calling GIREDUCE to process image
 ----------------------------------------------------------------------------
-GIREDUCE -- Fri Jan 18 11:20:33 CST 2019
+GIREDUCE -- Wed Jan 23 15:30:35 CST 2019
 
 ----------------------------------------------------------------------------
-GPREPARE -- Fri Jan 18 11:20:33 CST 2019
+GPREPARE -- Wed Jan 23 15:30:35 CST 2019
 
 Input list    = S20180708S0086
 Output list   = 
@@ -2627,7 +2521,7 @@ Input  ../raw/S20180708S0086.fits   Output  gS20180708S0086.fits
 GPREPARE: Using MDF defined in the header 0.5arcsec
 GPREPARE: Taking MDF from directory gmos$data/
 --------------------------------------------------------------------------------
-GGAIN -- Started: 2019-01-18T17:20:34
+GGAIN -- Started: 2019-01-23T21:30:36
 File[extension]:             AMPNAME              GAIN   READNOISE
 gS20180708S0086.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
 gS20180708S0086.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
@@ -2642,7 +2536,7 @@ gS20180708S0086.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
 gS20180708S0086.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
 gS20180708S0086.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
 
-GGAIN -- Finished: 2019-01-18T17:20:35
+GGAIN -- Finished: 2019-01-23T21:30:37
 
 GGAIN -- Exit staus: GOOD
 
@@ -2655,16 +2549,16 @@ Input files:
 gS20180708S0086
 
 Output files:
-tmpimage122806_2422
+tmpimage112461_2434
 
 WARNING - GIREDUCE: Bad Pixel Mask filename is an empty string
                     Only saturated pixels will be flagged
-GIREDUCE: Image tmpimage122806_2422 overscan subtracted
-GIREDUCE: Image tmpimage122806_2422 trimmed
+GIREDUCE: Image tmpimage112461_2434 overscan subtracted
+GIREDUCE: Image tmpimage112461_2434 trimmed
 
 Output image       Bias                 Flat               Dark       Scale 
-tmpimage122806_2422 MCbiasFull           MCflatFull         INDEF       0.00
-GSAT - Started: 2019-01-18T11:20:50
+tmpimage112461_2434 MCbiasFull           MCflatFull         INDEF       0.00
+GSAT - Started: 2019-01-23T15:30:52
 GSAT: Bias level is 510.6539 Gain level is 1.834
 GSAT: Bias corrected - yes
 GSAT: Input in electrons - no
@@ -2674,9 +2568,9 @@ GSAT: Calculated CCD saturation limit is 259260.632497
 GSAT: Calculated controller saturation limit is 65024.3461
 GSAT: Scaling saturation value by 0.98
 GSAT: Output saturation is 63723.859178
-GSAT - Finished: 2019-01-18T11:20:50
+GSAT - Finished: 2019-01-23T15:30:52
 GSAT - Exit status: GOOD
-GSAT - Started: 2019-01-18T11:20:51
+GSAT - Started: 2019-01-23T15:30:53
 GSAT: Bias level is 531.7936 Gain level is 1.874
 GSAT: Bias corrected - yes
 GSAT: Input in electrons - no
@@ -2686,9 +2580,9 @@ GSAT: Calculated CCD saturation limit is 259662.753469
 GSAT: Calculated controller saturation limit is 65003.2064
 GSAT: Scaling saturation value by 0.98
 GSAT: Output saturation is 63703.142272
-GSAT - Finished: 2019-01-18T11:20:51
+GSAT - Finished: 2019-01-23T15:30:53
 GSAT - Exit status: GOOD
-GSAT - Started: 2019-01-18T11:20:51
+GSAT - Started: 2019-01-23T15:30:53
 GSAT: Bias level is 523.0814 Gain level is 1.878
 GSAT: Bias corrected - yes
 GSAT: Input in electrons - no
@@ -2698,9 +2592,9 @@ GSAT: Calculated CCD saturation limit is 258551.650692
 GSAT: Calculated controller saturation limit is 65011.9186
 GSAT: Scaling saturation value by 0.98
 GSAT: Output saturation is 63711.680228
-GSAT - Finished: 2019-01-18T11:20:51
+GSAT - Finished: 2019-01-23T15:30:53
 GSAT - Exit status: GOOD
-GSAT - Started: 2019-01-18T11:20:51
+GSAT - Started: 2019-01-23T15:30:54
 GSAT: Bias level is 523.4825 Gain level is 1.852
 GSAT: Bias corrected - yes
 GSAT: Input in electrons - no
@@ -2710,9 +2604,9 @@ GSAT: Calculated CCD saturation limit is 260118.790497
 GSAT: Calculated controller saturation limit is 65011.5175
 GSAT: Scaling saturation value by 0.98
 GSAT: Output saturation is 63711.28715
-GSAT - Finished: 2019-01-18T11:20:51
+GSAT - Finished: 2019-01-23T15:30:54
 GSAT - Exit status: GOOD
-GSAT - Started: 2019-01-18T11:20:52
+GSAT - Started: 2019-01-23T15:30:54
 GSAT: Bias level is 497.5781 Gain level is 1.908
 GSAT: Bias corrected - yes
 GSAT: Input in electrons - no
@@ -2722,9 +2616,9 @@ GSAT: Calculated CCD saturation limit is 258505.24109
 GSAT: Calculated controller saturation limit is 65037.4219
 GSAT: Scaling saturation value by 0.98
 GSAT: Output saturation is 63736.673462
-GSAT - Finished: 2019-01-18T11:20:52
+GSAT - Finished: 2019-01-23T15:30:54
 GSAT - Exit status: GOOD
-GSAT - Started: 2019-01-18T11:20:52
+GSAT - Started: 2019-01-23T15:30:54
 GSAT: Bias level is 509.7705 Gain level is 1.933
 GSAT: Bias corrected - yes
 GSAT: Input in electrons - no
@@ -2734,9 +2628,9 @@ GSAT: Calculated CCD saturation limit is 260153.12985
 GSAT: Calculated controller saturation limit is 65025.2295
 GSAT: Scaling saturation value by 0.98
 GSAT: Output saturation is 63724.72491
-GSAT - Finished: 2019-01-18T11:20:52
+GSAT - Finished: 2019-01-23T15:30:54
 GSAT - Exit status: GOOD
-GSAT - Started: 2019-01-18T11:20:53
+GSAT - Started: 2019-01-23T15:30:55
 GSAT: Bias level is 512.5316 Gain level is 1.84
 GSAT: Bias corrected - yes
 GSAT: Input in electrons - no
@@ -2746,9 +2640,9 @@ GSAT: Calculated CCD saturation limit is 259036.956522
 GSAT: Calculated controller saturation limit is 65022.4684
 GSAT: Scaling saturation value by 0.98
 GSAT: Output saturation is 63722.019032
-GSAT - Finished: 2019-01-18T11:20:53
+GSAT - Finished: 2019-01-23T15:30:55
 GSAT - Exit status: GOOD
-GSAT - Started: 2019-01-18T11:20:53
+GSAT - Started: 2019-01-23T15:30:55
 GSAT: Bias level is 492.3802 Gain level is 1.878
 GSAT: Bias corrected - yes
 GSAT: Input in electrons - no
@@ -2758,9 +2652,9 @@ GSAT: Calculated CCD saturation limit is 258219.382322
 GSAT: Calculated controller saturation limit is 65042.6198
 GSAT: Scaling saturation value by 0.98
 GSAT: Output saturation is 63741.767404
-GSAT - Finished: 2019-01-18T11:20:53
+GSAT - Finished: 2019-01-23T15:30:55
 GSAT - Exit status: GOOD
-GSAT - Started: 2019-01-18T11:20:53
+GSAT - Started: 2019-01-23T15:30:56
 GSAT: Bias level is 505.9391 Gain level is 1.813
 GSAT: Bias corrected - yes
 GSAT: Input in electrons - no
@@ -2770,9 +2664,9 @@ GSAT: Calculated CCD saturation limit is 261277.440706
 GSAT: Calculated controller saturation limit is 65029.0609
 GSAT: Scaling saturation value by 0.98
 GSAT: Output saturation is 63728.479682
-GSAT - Finished: 2019-01-18T11:20:54
+GSAT - Finished: 2019-01-23T15:30:56
 GSAT - Exit status: GOOD
-GSAT - Started: 2019-01-18T11:20:54
+GSAT - Started: 2019-01-23T15:30:56
 GSAT: Bias level is 509.0769 Gain level is 1.724
 GSAT: Bias corrected - yes
 GSAT: Input in electrons - no
@@ -2782,9 +2676,9 @@ GSAT: Calculated CCD saturation limit is 259986.078886
 GSAT: Calculated controller saturation limit is 65025.9231
 GSAT: Scaling saturation value by 0.98
 GSAT: Output saturation is 63725.404638
-GSAT - Finished: 2019-01-18T11:20:54
+GSAT - Finished: 2019-01-23T15:30:56
 GSAT - Exit status: GOOD
-GSAT - Started: 2019-01-18T11:20:54
+GSAT - Started: 2019-01-23T15:30:57
 GSAT: Bias level is 494.9489 Gain level is 1.761
 GSAT: Bias corrected - yes
 GSAT: Input in electrons - no
@@ -2794,9 +2688,9 @@ GSAT: Calculated CCD saturation limit is 260318.001136
 GSAT: Calculated controller saturation limit is 65040.0511
 GSAT: Scaling saturation value by 0.98
 GSAT: Output saturation is 63739.250078
-GSAT - Finished: 2019-01-18T11:20:54
+GSAT - Finished: 2019-01-23T15:30:57
 GSAT - Exit status: GOOD
-GSAT - Started: 2019-01-18T11:20:55
+GSAT - Started: 2019-01-23T15:30:57
 GSAT: Bias level is 509.0157 Gain level is 1.652
 GSAT: Bias corrected - yes
 GSAT: Input in electrons - no
@@ -2806,49 +2700,49 @@ GSAT: Calculated CCD saturation limit is 258997.578692
 GSAT: Calculated controller saturation limit is 65025.9843
 GSAT: Scaling saturation value by 0.98
 GSAT: Output saturation is 63725.464614
-GSAT - Finished: 2019-01-18T11:20:55
+GSAT - Finished: 2019-01-23T15:30:57
 GSAT - Exit status: GOOD
-GIREDUCE: Subtracted bias MCbiasFull from tmpimage122806_2422
-GIREDUCE: Divided image tmpimage122806_2422 by flatfield MCflatFull
-GIREDUCE: multiplying image tmpimage122806_2422 by gain
+GIREDUCE: Subtracted bias MCbiasFull from tmpimage112461_2434
+GIREDUCE: Divided image tmpimage112461_2434 by flatfield MCflatFull
+GIREDUCE: multiplying image tmpimage112461_2434 by gain
 --------------------------------------------------------------------------------
-GGAIN -- Started: 2019-01-18T17:20:55
+GGAIN -- Started: 2019-01-23T21:30:58
 File[extension]:                 AMPNAME              GAIN   READNOISE
-tmpimage122806_2422.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
-tmpimage122806_2422.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
-tmpimage122806_2422.fits[SCI,3]: " "BI5-36-4k-2, 2""  1.878  4.24
-tmpimage122806_2422.fits[SCI,4]: " "BI5-36-4k-2, 1""  1.852  4.21
-tmpimage122806_2422.fits[SCI,5]: " "BI11-33-4k-1, 4""  1.908  3.90
-tmpimage122806_2422.fits[SCI,6]: " "BI11-33-4k-1, 3""  1.933  4.24
-tmpimage122806_2422.fits[SCI,7]: " "BI11-33-4k-1, 2""  1.840  4.07
-tmpimage122806_2422.fits[SCI,8]: " "BI11-33-4k-1, 1""  1.878  4.29
-tmpimage122806_2422.fits[SCI,9]: " "BI12-34-4k-1, 4""  1.813  4.15
-tmpimage122806_2422.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
-tmpimage122806_2422.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
-tmpimage122806_2422.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
+tmpimage112461_2434.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
+tmpimage112461_2434.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
+tmpimage112461_2434.fits[SCI,3]: " "BI5-36-4k-2, 2""  1.878  4.24
+tmpimage112461_2434.fits[SCI,4]: " "BI5-36-4k-2, 1""  1.852  4.21
+tmpimage112461_2434.fits[SCI,5]: " "BI11-33-4k-1, 4""  1.908  3.90
+tmpimage112461_2434.fits[SCI,6]: " "BI11-33-4k-1, 3""  1.933  4.24
+tmpimage112461_2434.fits[SCI,7]: " "BI11-33-4k-1, 2""  1.840  4.07
+tmpimage112461_2434.fits[SCI,8]: " "BI11-33-4k-1, 1""  1.878  4.29
+tmpimage112461_2434.fits[SCI,9]: " "BI12-34-4k-1, 4""  1.813  4.15
+tmpimage112461_2434.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
+tmpimage112461_2434.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
+tmpimage112461_2434.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
 
-GGAIN -- Finished: 2019-01-18T17:21:00
+GGAIN -- Finished: 2019-01-23T21:31:02
 
 GGAIN -- Exit staus: GOOD
 
 --------------------------------------------------------------------------------
 GIREDUCE: output counts in electrons
 
-GIREDUCE - Cleaning up -- Fri Jan 18 11:21:00 CST 2019
+GIREDUCE - Cleaning up -- Wed Jan 23 15:31:02 CST 2019
 
-GIREDUCE -- Fri Jan 18 11:21:00 CST 2019
+GIREDUCE -- Wed Jan 23 15:31:02 CST 2019
 GIREDUCE exit status:  good.
 ----------------------------------------------------------------------------
 GSREDUCE: Calling GMOSAIC
-BOE  GMOSAIC 2019-01-18T11:21:00
+BOE  GMOSAIC 2019-01-23T15:31:02
 VIS  GMOSAIC 
 VIS  GMOSAIC -------------------------------------------------------------------
-STAT GMOSAIC Log opened at [Fri 11:21:00 18-Jan-2019]
+STAT GMOSAIC Log opened at [Wed 15:31:02 23-Jan-2019]
 VIS  GMOSAIC 
 VIS  GMOSAIC --------------------
 TSK  GMOSAIC Input Parameters:
-TSK  GMOSAIC      inimages       = tmpimage122806_2422.fits
-TSK  GMOSAIC      outimages      = tmpimage222806_2423.fits
+TSK  GMOSAIC      inimages       = tmpimage112461_2434.fits
+TSK  GMOSAIC      outimages      = tmpimage212461_2435.fits
 TSK  GMOSAIC      outpref        = 
 TSK  GMOSAIC      fl_paste       = no
 TSK  GMOSAIC      fl_vardq       = yes
@@ -2874,37 +2768,37 @@ TSK  GMOSAIC      logfile        = gsreduceLog.txt
 TSK  GMOSAIC      verbose        = no
 TSK  GMOSAIC      fl_real        = no
 VIS  GMOSAIC --------------------
-TSK  GMOSAIC Input: tmpimage122806_2422  Output: tmpimage222806_2423.fits
+TSK  GMOSAIC Input: tmpimage112461_2434  Output: tmpimage212461_2435.fits
 TSK  GMOSAIC Found a MDF, copying for later use.
 ENG  GMOSAIC Setting rotation Xrot[1]= 0.000000, Yrot[1]= 0.000000
 ENG  GMOSAIC Setting rotation Xrot[2]= 0.000000, Yrot[2]= 0.000000
 ENG  GMOSAIC Setting rotation Xrot[3]= 0.000000, Yrot[3]= 0.000000
 
 ------------------------------------------------------------
-GEMDQEXPAND Started -- Fri Jan 18 11:21:01 CST 2019
+GEMDQEXPAND Started -- Wed Jan 23 15:31:04 CST 2019
 
 GEMDQEXPAND: Input parameters...
 
-    inimage    = tmpimg22806_2483[DQ,1][1:1024,1:2088]
-    outimage   = tmpdq_imexpand22806_2476.fits
+    inimage    = tmpimg12461_2495[DQ,1][1:1024,1:2088]
+    outimage   = tmpdq_imexpand12461_2488.fits
 
 
-GEMDQEXPAND Finished -- Fri Jan 18 11:21:01 CST 2019
+GEMDQEXPAND Finished -- Wed Jan 23 15:31:04 CST 2019
 
 GEMDQEXPAND exit status:  GOOD.
 ------------------------------------------------------------
 
 
 ------------------------------------------------------------
-GEMDQEXPAND Started -- Fri Jan 18 11:21:02 CST 2019
+GEMDQEXPAND Started -- Wed Jan 23 15:31:05 CST 2019
 
 GEMDQEXPAND: Input parameters...
 
-    inimage    = tmpimg22806_2483[DQ,3][1:1024,1:2088]
-    outimage   = tmpdq_imexpand22806_2476.fits
+    inimage    = tmpimg12461_2495[DQ,3][1:1024,1:2088]
+    outimage   = tmpdq_imexpand12461_2488.fits
 
 
-GEMDQEXPAND Finished -- Fri Jan 18 11:21:02 CST 2019
+GEMDQEXPAND Finished -- Wed Jan 23 15:31:05 CST 2019
 
 GEMDQEXPAND exit status:  GOOD.
 ------------------------------------------------------------
@@ -2912,15 +2806,15 @@ GEMDQEXPAND exit status:  GOOD.
 STAT GMOSAIC All 1 images successfully mosaiced.
 VIS  GMOSAIC --------------------
 STAT GMOSAIC Exit status: SUCCESS
-STAT GMOSAIC Log closed at [Fri 11:21:03 18-Jan-2019]
+STAT GMOSAIC Log closed at [Wed 15:31:07 23-Jan-2019]
 VIS  GMOSAIC -------------------------------------------------------------------
 VIS  GMOSAIC 
-EOE  GMOSAIC 2019-01-18T11:21:03
+EOE  GMOSAIC 2019-01-23T15:31:07
 GSREDUCE: returned from GMOSAIC.
 GSREDUCE: Image S20180708S0086.fits is LONGSLIT. Will not cut spectra into separate science extensions
 GSREDUCE: Calling GSAPPWAVE
 --------------------------------------------------------------------------------
-GSAPPWAVE -- Fri Jan 18 11:21:03 CST 2019
+GSAPPWAVE -- Wed Jan 23 15:31:07 CST 2019
  
 inimages = gsS20180708S0086.fits
 Grating: R400+_G5325
@@ -2950,10 +2844,10 @@ GSREDUCE: Image S20180708S0087.fits has been QE corrected? no
 GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
 GSREDUCE: Calling GIREDUCE to process image
 ----------------------------------------------------------------------------
-GIREDUCE -- Fri Jan 18 11:21:04 CST 2019
+GIREDUCE -- Wed Jan 23 15:31:08 CST 2019
 
 ----------------------------------------------------------------------------
-GPREPARE -- Fri Jan 18 11:21:04 CST 2019
+GPREPARE -- Wed Jan 23 15:31:08 CST 2019
 
 Input list    = S20180708S0087
 Output list   = 
@@ -2967,7 +2861,7 @@ Input  ../raw/S20180708S0087.fits   Output  gS20180708S0087.fits
 GPREPARE: Using MDF defined in the header 0.5arcsec
 GPREPARE: Taking MDF from directory gmos$data/
 --------------------------------------------------------------------------------
-GGAIN -- Started: 2019-01-18T17:21:05
+GGAIN -- Started: 2019-01-23T21:31:09
 File[extension]:             AMPNAME              GAIN   READNOISE
 gS20180708S0087.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
 gS20180708S0087.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
@@ -2982,7 +2876,7 @@ gS20180708S0087.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
 gS20180708S0087.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
 gS20180708S0087.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
 
-GGAIN -- Finished: 2019-01-18T17:21:06
+GGAIN -- Finished: 2019-01-23T21:31:10
 
 GGAIN -- Exit staus: GOOD
 
@@ -2995,16 +2889,16 @@ Input files:
 gS20180708S0087
 
 Output files:
-tmpimage122806_2509
+tmpimage112461_2521
 
 WARNING - GIREDUCE: Bad Pixel Mask filename is an empty string
                     Only saturated pixels will be flagged
-GIREDUCE: Image tmpimage122806_2509 overscan subtracted
-GIREDUCE: Image tmpimage122806_2509 trimmed
+GIREDUCE: Image tmpimage112461_2521 overscan subtracted
+GIREDUCE: Image tmpimage112461_2521 trimmed
 
 Output image       Bias                 Flat               Dark       Scale 
-tmpimage122806_2509 MCbiasFull           MCflatFull         INDEF       0.00
-GSAT - Started: 2019-01-18T11:21:21
+tmpimage112461_2521 MCbiasFull           MCflatFull         INDEF       0.00
+GSAT - Started: 2019-01-23T15:31:25
 GSAT: Bias level is 510.234 Gain level is 1.834
 GSAT: Bias corrected - yes
 GSAT: Input in electrons - no
@@ -3014,9 +2908,9 @@ GSAT: Calculated CCD saturation limit is 259260.632497
 GSAT: Calculated controller saturation limit is 65024.766
 GSAT: Scaling saturation value by 0.98
 GSAT: Output saturation is 63724.27068
-GSAT - Finished: 2019-01-18T11:21:21
+GSAT - Finished: 2019-01-23T15:31:25
 GSAT - Exit status: GOOD
-GSAT - Started: 2019-01-18T11:21:22
+GSAT - Started: 2019-01-23T15:31:26
 GSAT: Bias level is 531.1671 Gain level is 1.874
 GSAT: Bias corrected - yes
 GSAT: Input in electrons - no
@@ -3026,9 +2920,9 @@ GSAT: Calculated CCD saturation limit is 259662.753469
 GSAT: Calculated controller saturation limit is 65003.8329
 GSAT: Scaling saturation value by 0.98
 GSAT: Output saturation is 63703.756242
-GSAT - Finished: 2019-01-18T11:21:22
+GSAT - Finished: 2019-01-23T15:31:26
 GSAT - Exit status: GOOD
-GSAT - Started: 2019-01-18T11:21:22
+GSAT - Started: 2019-01-23T15:31:26
 GSAT: Bias level is 522.8393 Gain level is 1.878
 GSAT: Bias corrected - yes
 GSAT: Input in electrons - no
@@ -3038,9 +2932,9 @@ GSAT: Calculated CCD saturation limit is 258551.650692
 GSAT: Calculated controller saturation limit is 65012.1607
 GSAT: Scaling saturation value by 0.98
 GSAT: Output saturation is 63711.917486
-GSAT - Finished: 2019-01-18T11:21:22
+GSAT - Finished: 2019-01-23T15:31:26
 GSAT - Exit status: GOOD
-GSAT - Started: 2019-01-18T11:21:22
+GSAT - Started: 2019-01-23T15:31:26
 GSAT: Bias level is 523.2807 Gain level is 1.852
 GSAT: Bias corrected - yes
 GSAT: Input in electrons - no
@@ -3050,9 +2944,9 @@ GSAT: Calculated CCD saturation limit is 260118.790497
 GSAT: Calculated controller saturation limit is 65011.7193
 GSAT: Scaling saturation value by 0.98
 GSAT: Output saturation is 63711.484914
-GSAT - Finished: 2019-01-18T11:21:23
+GSAT - Finished: 2019-01-23T15:31:26
 GSAT - Exit status: GOOD
-GSAT - Started: 2019-01-18T11:21:23
+GSAT - Started: 2019-01-23T15:31:27
 GSAT: Bias level is 496.7019 Gain level is 1.908
 GSAT: Bias corrected - yes
 GSAT: Input in electrons - no
@@ -3062,9 +2956,9 @@ GSAT: Calculated CCD saturation limit is 258505.24109
 GSAT: Calculated controller saturation limit is 65038.2981
 GSAT: Scaling saturation value by 0.98
 GSAT: Output saturation is 63737.532138
-GSAT - Finished: 2019-01-18T11:21:23
+GSAT - Finished: 2019-01-23T15:31:27
 GSAT - Exit status: GOOD
-GSAT - Started: 2019-01-18T11:21:23
+GSAT - Started: 2019-01-23T15:31:27
 GSAT: Bias level is 509.0367 Gain level is 1.933
 GSAT: Bias corrected - yes
 GSAT: Input in electrons - no
@@ -3074,9 +2968,9 @@ GSAT: Calculated CCD saturation limit is 260153.12985
 GSAT: Calculated controller saturation limit is 65025.9633
 GSAT: Scaling saturation value by 0.98
 GSAT: Output saturation is 63725.444034
-GSAT - Finished: 2019-01-18T11:21:23
+GSAT - Finished: 2019-01-23T15:31:27
 GSAT - Exit status: GOOD
-GSAT - Started: 2019-01-18T11:21:24
+GSAT - Started: 2019-01-23T15:31:28
 GSAT: Bias level is 510.8753 Gain level is 1.84
 GSAT: Bias corrected - yes
 GSAT: Input in electrons - no
@@ -3086,9 +2980,9 @@ GSAT: Calculated CCD saturation limit is 259036.956522
 GSAT: Calculated controller saturation limit is 65024.1247
 GSAT: Scaling saturation value by 0.98
 GSAT: Output saturation is 63723.642206
-GSAT - Finished: 2019-01-18T11:21:24
+GSAT - Finished: 2019-01-23T15:31:28
 GSAT - Exit status: GOOD
-GSAT - Started: 2019-01-18T11:21:24
+GSAT - Started: 2019-01-23T15:31:28
 GSAT: Bias level is 491.4616 Gain level is 1.878
 GSAT: Bias corrected - yes
 GSAT: Input in electrons - no
@@ -3098,9 +2992,9 @@ GSAT: Calculated CCD saturation limit is 258219.382322
 GSAT: Calculated controller saturation limit is 65043.5384
 GSAT: Scaling saturation value by 0.98
 GSAT: Output saturation is 63742.667632
-GSAT - Finished: 2019-01-18T11:21:24
+GSAT - Finished: 2019-01-23T15:31:28
 GSAT - Exit status: GOOD
-GSAT - Started: 2019-01-18T11:21:25
+GSAT - Started: 2019-01-23T15:31:28
 GSAT: Bias level is 505.2987 Gain level is 1.813
 GSAT: Bias corrected - yes
 GSAT: Input in electrons - no
@@ -3110,9 +3004,9 @@ GSAT: Calculated CCD saturation limit is 261277.440706
 GSAT: Calculated controller saturation limit is 65029.7013
 GSAT: Scaling saturation value by 0.98
 GSAT: Output saturation is 63729.107274
-GSAT - Finished: 2019-01-18T11:21:25
+GSAT - Finished: 2019-01-23T15:31:28
 GSAT - Exit status: GOOD
-GSAT - Started: 2019-01-18T11:21:25
+GSAT - Started: 2019-01-23T15:31:29
 GSAT: Bias level is 508.3594 Gain level is 1.724
 GSAT: Bias corrected - yes
 GSAT: Input in electrons - no
@@ -3122,9 +3016,9 @@ GSAT: Calculated CCD saturation limit is 259986.078886
 GSAT: Calculated controller saturation limit is 65026.6406
 GSAT: Scaling saturation value by 0.98
 GSAT: Output saturation is 63726.107788
-GSAT - Finished: 2019-01-18T11:21:25
+GSAT - Finished: 2019-01-23T15:31:29
 GSAT - Exit status: GOOD
-GSAT - Started: 2019-01-18T11:21:26
+GSAT - Started: 2019-01-23T15:31:29
 GSAT: Bias level is 493.8385 Gain level is 1.761
 GSAT: Bias corrected - yes
 GSAT: Input in electrons - no
@@ -3134,9 +3028,9 @@ GSAT: Calculated CCD saturation limit is 260318.001136
 GSAT: Calculated controller saturation limit is 65041.1615
 GSAT: Scaling saturation value by 0.98
 GSAT: Output saturation is 63740.33827
-GSAT - Finished: 2019-01-18T11:21:26
+GSAT - Finished: 2019-01-23T15:31:29
 GSAT - Exit status: GOOD
-GSAT - Started: 2019-01-18T11:21:26
+GSAT - Started: 2019-01-23T15:31:30
 GSAT: Bias level is 508.3616 Gain level is 1.652
 GSAT: Bias corrected - yes
 GSAT: Input in electrons - no
@@ -3146,49 +3040,49 @@ GSAT: Calculated CCD saturation limit is 258997.578692
 GSAT: Calculated controller saturation limit is 65026.6384
 GSAT: Scaling saturation value by 0.98
 GSAT: Output saturation is 63726.105632
-GSAT - Finished: 2019-01-18T11:21:26
+GSAT - Finished: 2019-01-23T15:31:30
 GSAT - Exit status: GOOD
-GIREDUCE: Subtracted bias MCbiasFull from tmpimage122806_2509
-GIREDUCE: Divided image tmpimage122806_2509 by flatfield MCflatFull
-GIREDUCE: multiplying image tmpimage122806_2509 by gain
+GIREDUCE: Subtracted bias MCbiasFull from tmpimage112461_2521
+GIREDUCE: Divided image tmpimage112461_2521 by flatfield MCflatFull
+GIREDUCE: multiplying image tmpimage112461_2521 by gain
 --------------------------------------------------------------------------------
-GGAIN -- Started: 2019-01-18T17:21:26
+GGAIN -- Started: 2019-01-23T21:31:30
 File[extension]:                 AMPNAME              GAIN   READNOISE
-tmpimage122806_2509.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
-tmpimage122806_2509.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
-tmpimage122806_2509.fits[SCI,3]: " "BI5-36-4k-2, 2""  1.878  4.24
-tmpimage122806_2509.fits[SCI,4]: " "BI5-36-4k-2, 1""  1.852  4.21
-tmpimage122806_2509.fits[SCI,5]: " "BI11-33-4k-1, 4""  1.908  3.90
-tmpimage122806_2509.fits[SCI,6]: " "BI11-33-4k-1, 3""  1.933  4.24
-tmpimage122806_2509.fits[SCI,7]: " "BI11-33-4k-1, 2""  1.840  4.07
-tmpimage122806_2509.fits[SCI,8]: " "BI11-33-4k-1, 1""  1.878  4.29
-tmpimage122806_2509.fits[SCI,9]: " "BI12-34-4k-1, 4""  1.813  4.15
-tmpimage122806_2509.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
-tmpimage122806_2509.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
-tmpimage122806_2509.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
+tmpimage112461_2521.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
+tmpimage112461_2521.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
+tmpimage112461_2521.fits[SCI,3]: " "BI5-36-4k-2, 2""  1.878  4.24
+tmpimage112461_2521.fits[SCI,4]: " "BI5-36-4k-2, 1""  1.852  4.21
+tmpimage112461_2521.fits[SCI,5]: " "BI11-33-4k-1, 4""  1.908  3.90
+tmpimage112461_2521.fits[SCI,6]: " "BI11-33-4k-1, 3""  1.933  4.24
+tmpimage112461_2521.fits[SCI,7]: " "BI11-33-4k-1, 2""  1.840  4.07
+tmpimage112461_2521.fits[SCI,8]: " "BI11-33-4k-1, 1""  1.878  4.29
+tmpimage112461_2521.fits[SCI,9]: " "BI12-34-4k-1, 4""  1.813  4.15
+tmpimage112461_2521.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
+tmpimage112461_2521.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
+tmpimage112461_2521.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
 
-GGAIN -- Finished: 2019-01-18T17:21:31
+GGAIN -- Finished: 2019-01-23T21:31:35
 
 GGAIN -- Exit staus: GOOD
 
 --------------------------------------------------------------------------------
 GIREDUCE: output counts in electrons
 
-GIREDUCE - Cleaning up -- Fri Jan 18 11:21:31 CST 2019
+GIREDUCE - Cleaning up -- Wed Jan 23 15:31:35 CST 2019
 
-GIREDUCE -- Fri Jan 18 11:21:31 CST 2019
+GIREDUCE -- Wed Jan 23 15:31:35 CST 2019
 GIREDUCE exit status:  good.
 ----------------------------------------------------------------------------
 GSREDUCE: Calling GMOSAIC
-BOE  GMOSAIC 2019-01-18T11:21:31
+BOE  GMOSAIC 2019-01-23T15:31:35
 VIS  GMOSAIC 
 VIS  GMOSAIC -------------------------------------------------------------------
-STAT GMOSAIC Log opened at [Fri 11:21:31 18-Jan-2019]
+STAT GMOSAIC Log opened at [Wed 15:31:35 23-Jan-2019]
 VIS  GMOSAIC 
 VIS  GMOSAIC --------------------
 TSK  GMOSAIC Input Parameters:
-TSK  GMOSAIC      inimages       = tmpimage122806_2509.fits
-TSK  GMOSAIC      outimages      = tmpimage222806_2510.fits
+TSK  GMOSAIC      inimages       = tmpimage112461_2521.fits
+TSK  GMOSAIC      outimages      = tmpimage212461_2522.fits
 TSK  GMOSAIC      outpref        = 
 TSK  GMOSAIC      fl_paste       = no
 TSK  GMOSAIC      fl_vardq       = yes
@@ -3214,37 +3108,37 @@ TSK  GMOSAIC      logfile        = gsreduceLog.txt
 TSK  GMOSAIC      verbose        = no
 TSK  GMOSAIC      fl_real        = no
 VIS  GMOSAIC --------------------
-TSK  GMOSAIC Input: tmpimage122806_2509  Output: tmpimage222806_2510.fits
+TSK  GMOSAIC Input: tmpimage112461_2521  Output: tmpimage212461_2522.fits
 TSK  GMOSAIC Found a MDF, copying for later use.
 ENG  GMOSAIC Setting rotation Xrot[1]= 0.000000, Yrot[1]= 0.000000
 ENG  GMOSAIC Setting rotation Xrot[2]= 0.000000, Yrot[2]= 0.000000
 ENG  GMOSAIC Setting rotation Xrot[3]= 0.000000, Yrot[3]= 0.000000
 
 ------------------------------------------------------------
-GEMDQEXPAND Started -- Fri Jan 18 11:21:32 CST 2019
+GEMDQEXPAND Started -- Wed Jan 23 15:31:36 CST 2019
 
 GEMDQEXPAND: Input parameters...
 
-    inimage    = tmpimg22806_2570[DQ,1][1:1024,1:2088]
-    outimage   = tmpdq_imexpand22806_2563.fits
+    inimage    = tmpimg12461_2582[DQ,1][1:1024,1:2088]
+    outimage   = tmpdq_imexpand12461_2575.fits
 
 
-GEMDQEXPAND Finished -- Fri Jan 18 11:21:32 CST 2019
+GEMDQEXPAND Finished -- Wed Jan 23 15:31:36 CST 2019
 
 GEMDQEXPAND exit status:  GOOD.
 ------------------------------------------------------------
 
 
 ------------------------------------------------------------
-GEMDQEXPAND Started -- Fri Jan 18 11:21:33 CST 2019
+GEMDQEXPAND Started -- Wed Jan 23 15:31:37 CST 2019
 
 GEMDQEXPAND: Input parameters...
 
-    inimage    = tmpimg22806_2570[DQ,3][1:1024,1:2088]
-    outimage   = tmpdq_imexpand22806_2563.fits
+    inimage    = tmpimg12461_2582[DQ,3][1:1024,1:2088]
+    outimage   = tmpdq_imexpand12461_2575.fits
 
 
-GEMDQEXPAND Finished -- Fri Jan 18 11:21:33 CST 2019
+GEMDQEXPAND Finished -- Wed Jan 23 15:31:38 CST 2019
 
 GEMDQEXPAND exit status:  GOOD.
 ------------------------------------------------------------
@@ -3252,15 +3146,1607 @@ GEMDQEXPAND exit status:  GOOD.
 STAT GMOSAIC All 1 images successfully mosaiced.
 VIS  GMOSAIC --------------------
 STAT GMOSAIC Exit status: SUCCESS
-STAT GMOSAIC Log closed at [Fri 11:21:35 18-Jan-2019]
+STAT GMOSAIC Log closed at [Wed 15:31:41 23-Jan-2019]
 VIS  GMOSAIC -------------------------------------------------------------------
 VIS  GMOSAIC 
-EOE  GMOSAIC 2019-01-18T11:21:35
+EOE  GMOSAIC 2019-01-23T15:31:41
 GSREDUCE: returned from GMOSAIC.
 GSREDUCE: Image S20180708S0087.fits is LONGSLIT. Will not cut spectra into separate science extensions
 GSREDUCE: Calling GSAPPWAVE
 --------------------------------------------------------------------------------
-GSAPPWAVE -- Fri Jan 18 11:21:36 CST 2019
+GSAPPWAVE -- Wed Jan 23 15:31:41 CST 2019
+ 
+inimages = gsS20180708S0087.fits
+Grating: R400+_G5325
+Grating central wavelength: 646.0 [nm]
+Resolution (0.5'' slit): 1572.67882205
+Anamorphic factor: 1.14399654135
+Grating tilt (header): 56.8042
+Calculated tilt: 56.804
+nm/pix = 0.150372066891
+Filter1: GG455_G0329
+Filter2: open2-8
+Approximate available wavelength coverage based on grating,
+    filters and detector type is: 440.0 - 1080.0 [nm]
+
+Calibrating: [SCI,1]
+    Spectrum length in pixels: 3132
+    Approximate location of grating central 
+        wavelength in pixels: 1566.0
+    Approximate wavelength coverage based on
+        spectrum length and calculated dispersion is:  440 - 1080 [nm]
+ 
+GSAPPWAVE done
+--------------------------------------------------------------------------------
+GSREDUCE: Updating PHU and cleaning up
+ 
+GSREDUCE done
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+GSREDUCE -- Wed Jan 23 17:01:55 CST 2019
+
+Input image or list  = S20180710S0020,S20180717S0063,S20180922S0023,S20180928S0015,S20181004S0210
+Output image or list = 
+Output prefix        = gs
+
+Overscan subtraction  fl_over      = yes
+Trim image            fl_trim      = yes
+Bias subtraction      fl_bias      = yes
+Cosmic ray cleaning   fl_gscrrej   = no
+New CR cleaning       fl_crspec    = no
+Dark subtraction      fl_dark      = no
+QE Correction         fl_qecorr    = no
+Flat field correction fl_flat      = no
+Mosaic the CCDs       fl_gmosaic   = yes
+Fixpix chip gaps      fl_fixpix    = no
+Cut MOS spectra       fl_cut       = yes
+Add titles to MOS     fl_title     = yes
+Oversize slit length  fl_oversize  = no
+Run gsappwave         fl_gsappwave = yes
+Run gsscatsub         fl_scatsub   = no
+VAR & DQ planes       fl_vardq     = no
+
+geointer = linear
+gradimage= 
+refimage = 
+bias     = MCbiasFull
+dark     = 
+qe_refim    = 
+qe_corrim   = 
+qe_corrpref = qecorr
+flatim   = 
+sci_ext  = SCI
+var_ext  = VAR
+dq_ext   = DQ
+key_mdf  = MASKNAME
+mdffile  = 
+mdfdir   = gmos$data/
+bpm      = 
+Chip gaps= gmos$data/chipgaps.dat
+
+Input image = S20180710S0020.fits; Output image = gsS20180710S0020.fits
+GSREDUCE: Image S20180710S0020.fits has been QE corrected? no
+GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
+GSREDUCE: Calling GIREDUCE to process image
+----------------------------------------------------------------------------
+GIREDUCE -- Wed Jan 23 17:01:55 CST 2019
+
+----------------------------------------------------------------------------
+GPREPARE -- Wed Jan 23 17:01:56 CST 2019
+
+Input list    = S20180710S0020
+Output list   = 
+Output prefix = g
+Raw path      = ../raw/
+MDF dir       = gmos$data/
+Add MDF       = yes
+Input MDF in case header keyword not found = 
+
+Input  ../raw/S20180710S0020.fits   Output  gS20180710S0020.fits
+GPREPARE: Using MDF defined in the header 0.5arcsec
+GPREPARE: Taking MDF from directory gmos$data/
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2019-01-23T23:01:56
+File[extension]:             AMPNAME              GAIN   READNOISE
+gS20180710S0020.fits[SCI,1]: " "BI5-36-4k-2, 4""  5.183  8.07
+gS20180710S0020.fits[SCI,2]: " "BI5-36-4k-2, 3""  5.300  8.85
+gS20180710S0020.fits[SCI,3]: " "BI5-36-4k-2, 2""  5.330  9.13
+gS20180710S0020.fits[SCI,4]: " "BI5-36-4k-2, 1""  5.240  8.93
+gS20180710S0020.fits[SCI,5]: " "BI11-33-4k-1, 4""  5.407  8.02
+gS20180710S0020.fits[SCI,6]: " "BI11-33-4k-1, 3""  5.459  8.62
+gS20180710S0020.fits[SCI,7]: " "BI11-33-4k-1, 2""  5.225  8.59
+gS20180710S0020.fits[SCI,8]: " "BI11-33-4k-1, 1""  5.334  8.35
+gS20180710S0020.fits[SCI,9]: " "BI12-34-4k-1, 4""  5.120  9.34
+gS20180710S0020.fits[SCI,10]: " "BI12-34-4k-1, 3""  4.894  7.99
+gS20180710S0020.fits[SCI,11]: " "BI12-34-4k-1, 2""  5.129  8.30
+gS20180710S0020.fits[SCI,12]: " "BI12-34-4k-1, 1""  4.828  7.94
+
+GGAIN -- Finished: 2019-01-23T23:01:57
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+
+Input files:
+gS20180710S0020
+
+Output files:
+tmpimage118326w
+
+GIREDUCE: Image tmpimage118326w overscan subtracted
+GIREDUCE: Image tmpimage118326w trimmed
+
+Output image       Bias                 Flat               Dark       Scale 
+tmpimage118326w    MCbiasFull           INDEF              INDEF       0.00
+GIREDUCE: Subtracted bias MCbiasFull from tmpimage118326w
+GIREDUCE: multiplying image tmpimage118326w by gain
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2019-01-23T23:02:13
+File[extension]:             AMPNAME              GAIN   READNOISE
+tmpimage118326w.fits[SCI,1]: " "BI5-36-4k-2, 4""  5.183  8.07
+tmpimage118326w.fits[SCI,2]: " "BI5-36-4k-2, 3""  5.300  8.85
+tmpimage118326w.fits[SCI,3]: " "BI5-36-4k-2, 2""  5.330  9.13
+tmpimage118326w.fits[SCI,4]: " "BI5-36-4k-2, 1""  5.240  8.93
+tmpimage118326w.fits[SCI,5]: " "BI11-33-4k-1, 4""  5.407  8.02
+tmpimage118326w.fits[SCI,6]: " "BI11-33-4k-1, 3""  5.459  8.62
+tmpimage118326w.fits[SCI,7]: " "BI11-33-4k-1, 2""  5.225  8.59
+tmpimage118326w.fits[SCI,8]: " "BI11-33-4k-1, 1""  5.334  8.35
+tmpimage118326w.fits[SCI,9]: " "BI12-34-4k-1, 4""  5.120  9.34
+tmpimage118326w.fits[SCI,10]: " "BI12-34-4k-1, 3""  4.894  7.99
+tmpimage118326w.fits[SCI,11]: " "BI12-34-4k-1, 2""  5.129  8.30
+tmpimage118326w.fits[SCI,12]: " "BI12-34-4k-1, 1""  4.828  7.94
+
+GGAIN -- Finished: 2019-01-23T23:02:15
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+GIREDUCE: output counts in electrons
+
+GIREDUCE - Cleaning up -- Wed Jan 23 17:02:15 CST 2019
+
+GIREDUCE -- Wed Jan 23 17:02:15 CST 2019
+GIREDUCE exit status:  good.
+----------------------------------------------------------------------------
+GSREDUCE: Calling GMOSAIC
+BOE  GMOSAIC 2019-01-23T17:02:16
+VIS  GMOSAIC 
+VIS  GMOSAIC -------------------------------------------------------------------
+STAT GMOSAIC Log opened at [Wed 17:02:16 23-Jan-2019]
+VIS  GMOSAIC 
+VIS  GMOSAIC --------------------
+TSK  GMOSAIC Input Parameters:
+TSK  GMOSAIC      inimages       = tmpimage118326w.fits
+TSK  GMOSAIC      outimages      = tmpimage218326x.fits
+TSK  GMOSAIC      outpref        = 
+TSK  GMOSAIC      fl_paste       = no
+TSK  GMOSAIC      fl_vardq       = no
+TSK  GMOSAIC      fl_fixpix      = no
+TSK  GMOSAIC      fl_clean       = no
+TSK  GMOSAIC      fl_fulldq      = no
+TSK  GMOSAIC      bitflags       = all
+TSK  GMOSAIC      dqthresh       = 0.1
+TSK  GMOSAIC      geointer       = linear
+TSK  GMOSAIC      gap            = default
+TSK  GMOSAIC      bpmfile        = gmos$data/chipgaps.dat
+TSK  GMOSAIC      statsec        = default
+TSK  GMOSAIC      obsmode        = IMAGE
+TSK  GMOSAIC      sci_ext        = SCI
+TSK  GMOSAIC      var_ext        = VAR
+TSK  GMOSAIC      dq_ext         = DQ
+TSK  GMOSAIC      key_detsec     = DETSEC
+TSK  GMOSAIC      key_ccdsec     = CCDSEC
+TSK  GMOSAIC      key_datsec     = DATASEC
+TSK  GMOSAIC      key_ccdsum     = CCDSUM
+TSK  GMOSAIC      key_obsmode    = OBSMODE
+TSK  GMOSAIC      logfile        = gsreduceLog.txt
+TSK  GMOSAIC      verbose        = no
+TSK  GMOSAIC      fl_real        = no
+VIS  GMOSAIC --------------------
+TSK  GMOSAIC Input: tmpimage118326w  Output: tmpimage218326x.fits
+TSK  GMOSAIC Found a MDF, copying for later use.
+ENG  GMOSAIC Setting rotation Xrot[1]= 0.000000, Yrot[1]= 0.000000
+ENG  GMOSAIC Setting rotation Xrot[2]= 0.000000, Yrot[2]= 0.000000
+ENG  GMOSAIC Setting rotation Xrot[3]= 0.000000, Yrot[3]= 0.000000
+STAT GMOSAIC All 1 images successfully mosaiced.
+VIS  GMOSAIC --------------------
+STAT GMOSAIC Exit status: SUCCESS
+STAT GMOSAIC Log closed at [Wed 17:02:16 23-Jan-2019]
+VIS  GMOSAIC -------------------------------------------------------------------
+VIS  GMOSAIC 
+EOE  GMOSAIC 2019-01-23T17:02:16
+GSREDUCE: returned from GMOSAIC.
+GSREDUCE: Image S20180710S0020.fits is LONGSLIT. Will not cut spectra into separate science extensions
+GSREDUCE: Calling GSAPPWAVE
+--------------------------------------------------------------------------------
+GSAPPWAVE -- Wed Jan 23 17:02:17 CST 2019
+ 
+inimages = gsS20180710S0020.fits
+Grating: R400+_G5325
+Grating central wavelength: 646.0 [nm]
+Resolution (0.5'' slit): 1572.67882205
+Anamorphic factor: 1.14399654135
+Grating tilt (header): 56.8042
+Calculated tilt: 56.804
+nm/pix = 0.150372066891
+Filter1: GG455_G0329
+Filter2: open2-8
+Approximate available wavelength coverage based on grating,
+    filters and detector type is: 440.0 - 1080.0 [nm]
+
+Calibrating: [SCI,1]
+    Spectrum length in pixels: 3132
+    Approximate location of grating central 
+        wavelength in pixels: 1566.0
+    Approximate wavelength coverage based on
+        spectrum length and calculated dispersion is:  440 - 1080 [nm]
+ 
+GSAPPWAVE done
+--------------------------------------------------------------------------------
+GSREDUCE: Updating PHU and cleaning up
+Input image = S20180717S0063.fits; Output image = gsS20180717S0063.fits
+GSREDUCE: Image S20180717S0063.fits has been QE corrected? no
+GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
+GSREDUCE: Calling GIREDUCE to process image
+----------------------------------------------------------------------------
+GIREDUCE -- Wed Jan 23 17:02:17 CST 2019
+
+----------------------------------------------------------------------------
+GPREPARE -- Wed Jan 23 17:02:17 CST 2019
+
+Input list    = S20180717S0063
+Output list   = 
+Output prefix = g
+Raw path      = ../raw/
+MDF dir       = gmos$data/
+Add MDF       = yes
+Input MDF in case header keyword not found = 
+
+Input  ../raw/S20180717S0063.fits   Output  gS20180717S0063.fits
+GPREPARE: Using MDF defined in the header 0.5arcsec
+GPREPARE: Taking MDF from directory gmos$data/
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2019-01-23T23:02:18
+File[extension]:             AMPNAME              GAIN   READNOISE
+gS20180717S0063.fits[SCI,1]: " "BI5-36-4k-2, 4""  5.183  8.07
+gS20180717S0063.fits[SCI,2]: " "BI5-36-4k-2, 3""  5.300  8.85
+gS20180717S0063.fits[SCI,3]: " "BI5-36-4k-2, 2""  5.330  9.13
+gS20180717S0063.fits[SCI,4]: " "BI5-36-4k-2, 1""  5.240  8.93
+gS20180717S0063.fits[SCI,5]: " "BI11-33-4k-1, 4""  5.407  8.02
+gS20180717S0063.fits[SCI,6]: " "BI11-33-4k-1, 3""  5.459  8.62
+gS20180717S0063.fits[SCI,7]: " "BI11-33-4k-1, 2""  5.225  8.59
+gS20180717S0063.fits[SCI,8]: " "BI11-33-4k-1, 1""  5.334  8.35
+gS20180717S0063.fits[SCI,9]: " "BI12-34-4k-1, 4""  5.120  9.34
+gS20180717S0063.fits[SCI,10]: " "BI12-34-4k-1, 3""  4.894  7.99
+gS20180717S0063.fits[SCI,11]: " "BI12-34-4k-1, 2""  5.129  8.30
+gS20180717S0063.fits[SCI,12]: " "BI12-34-4k-1, 1""  4.828  7.94
+
+GGAIN -- Finished: 2019-01-23T23:02:19
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+
+Input files:
+gS20180717S0063
+
+Output files:
+tmpimage118326_46
+
+GIREDUCE: Image tmpimage118326_46 overscan subtracted
+GIREDUCE: Image tmpimage118326_46 trimmed
+
+Output image       Bias                 Flat               Dark       Scale 
+tmpimage118326_46  MCbiasFull           INDEF              INDEF       0.00
+GIREDUCE: Subtracted bias MCbiasFull from tmpimage118326_46
+GIREDUCE: multiplying image tmpimage118326_46 by gain
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2019-01-23T23:02:35
+File[extension]:               AMPNAME              GAIN   READNOISE
+tmpimage118326_46.fits[SCI,1]: " "BI5-36-4k-2, 4""  5.183  8.07
+tmpimage118326_46.fits[SCI,2]: " "BI5-36-4k-2, 3""  5.300  8.85
+tmpimage118326_46.fits[SCI,3]: " "BI5-36-4k-2, 2""  5.330  9.13
+tmpimage118326_46.fits[SCI,4]: " "BI5-36-4k-2, 1""  5.240  8.93
+tmpimage118326_46.fits[SCI,5]: " "BI11-33-4k-1, 4""  5.407  8.02
+tmpimage118326_46.fits[SCI,6]: " "BI11-33-4k-1, 3""  5.459  8.62
+tmpimage118326_46.fits[SCI,7]: " "BI11-33-4k-1, 2""  5.225  8.59
+tmpimage118326_46.fits[SCI,8]: " "BI11-33-4k-1, 1""  5.334  8.35
+tmpimage118326_46.fits[SCI,9]: " "BI12-34-4k-1, 4""  5.120  9.34
+tmpimage118326_46.fits[SCI,10]: " "BI12-34-4k-1, 3""  4.894  7.99
+tmpimage118326_46.fits[SCI,11]: " "BI12-34-4k-1, 2""  5.129  8.30
+tmpimage118326_46.fits[SCI,12]: " "BI12-34-4k-1, 1""  4.828  7.94
+
+GGAIN -- Finished: 2019-01-23T23:02:37
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+GIREDUCE: output counts in electrons
+
+GIREDUCE - Cleaning up -- Wed Jan 23 17:02:37 CST 2019
+
+GIREDUCE -- Wed Jan 23 17:02:37 CST 2019
+GIREDUCE exit status:  good.
+----------------------------------------------------------------------------
+GSREDUCE: Calling GMOSAIC
+BOE  GMOSAIC 2019-01-23T17:02:37
+VIS  GMOSAIC 
+VIS  GMOSAIC -------------------------------------------------------------------
+STAT GMOSAIC Log opened at [Wed 17:02:37 23-Jan-2019]
+VIS  GMOSAIC 
+VIS  GMOSAIC --------------------
+TSK  GMOSAIC Input Parameters:
+TSK  GMOSAIC      inimages       = tmpimage118326_46.fits
+TSK  GMOSAIC      outimages      = tmpimage218326_47.fits
+TSK  GMOSAIC      outpref        = 
+TSK  GMOSAIC      fl_paste       = no
+TSK  GMOSAIC      fl_vardq       = no
+TSK  GMOSAIC      fl_fixpix      = no
+TSK  GMOSAIC      fl_clean       = no
+TSK  GMOSAIC      fl_fulldq      = no
+TSK  GMOSAIC      bitflags       = all
+TSK  GMOSAIC      dqthresh       = 0.1
+TSK  GMOSAIC      geointer       = linear
+TSK  GMOSAIC      gap            = default
+TSK  GMOSAIC      bpmfile        = gmos$data/chipgaps.dat
+TSK  GMOSAIC      statsec        = default
+TSK  GMOSAIC      obsmode        = IMAGE
+TSK  GMOSAIC      sci_ext        = SCI
+TSK  GMOSAIC      var_ext        = VAR
+TSK  GMOSAIC      dq_ext         = DQ
+TSK  GMOSAIC      key_detsec     = DETSEC
+TSK  GMOSAIC      key_ccdsec     = CCDSEC
+TSK  GMOSAIC      key_datsec     = DATASEC
+TSK  GMOSAIC      key_ccdsum     = CCDSUM
+TSK  GMOSAIC      key_obsmode    = OBSMODE
+TSK  GMOSAIC      logfile        = gsreduceLog.txt
+TSK  GMOSAIC      verbose        = no
+TSK  GMOSAIC      fl_real        = no
+VIS  GMOSAIC --------------------
+TSK  GMOSAIC Input: tmpimage118326_46  Output: tmpimage218326_47.fits
+TSK  GMOSAIC Found a MDF, copying for later use.
+ENG  GMOSAIC Setting rotation Xrot[1]= 0.000000, Yrot[1]= 0.000000
+ENG  GMOSAIC Setting rotation Xrot[2]= 0.000000, Yrot[2]= 0.000000
+ENG  GMOSAIC Setting rotation Xrot[3]= 0.000000, Yrot[3]= 0.000000
+STAT GMOSAIC All 1 images successfully mosaiced.
+VIS  GMOSAIC --------------------
+STAT GMOSAIC Exit status: SUCCESS
+STAT GMOSAIC Log closed at [Wed 17:02:38 23-Jan-2019]
+VIS  GMOSAIC -------------------------------------------------------------------
+VIS  GMOSAIC 
+EOE  GMOSAIC 2019-01-23T17:02:38
+GSREDUCE: returned from GMOSAIC.
+GSREDUCE: Image S20180717S0063.fits is LONGSLIT. Will not cut spectra into separate science extensions
+GSREDUCE: Calling GSAPPWAVE
+--------------------------------------------------------------------------------
+GSAPPWAVE -- Wed Jan 23 17:02:38 CST 2019
+ 
+inimages = gsS20180717S0063.fits
+Grating: R400+_G5325
+Grating central wavelength: 646.0 [nm]
+Resolution (0.5'' slit): 1572.67882205
+Anamorphic factor: 1.14399654135
+Grating tilt (header): 56.8042
+Calculated tilt: 56.804
+nm/pix = 0.150372066891
+Filter1: GG455_G0329
+Filter2: open2-8
+Approximate available wavelength coverage based on grating,
+    filters and detector type is: 440.0 - 1080.0 [nm]
+
+Calibrating: [SCI,1]
+    Spectrum length in pixels: 3132
+    Approximate location of grating central 
+        wavelength in pixels: 1566.0
+    Approximate wavelength coverage based on
+        spectrum length and calculated dispersion is:  440 - 1080 [nm]
+ 
+GSAPPWAVE done
+--------------------------------------------------------------------------------
+GSREDUCE: Updating PHU and cleaning up
+Input image = S20180922S0023.fits; Output image = gsS20180922S0023.fits
+GSREDUCE: Image S20180922S0023.fits has been QE corrected? no
+GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
+GSREDUCE: Calling GIREDUCE to process image
+----------------------------------------------------------------------------
+GIREDUCE -- Wed Jan 23 17:02:39 CST 2019
+
+----------------------------------------------------------------------------
+GPREPARE -- Wed Jan 23 17:02:39 CST 2019
+
+Input list    = S20180922S0023
+Output list   = 
+Output prefix = g
+Raw path      = ../raw/
+MDF dir       = gmos$data/
+Add MDF       = yes
+Input MDF in case header keyword not found = 
+
+Input  ../raw/S20180922S0023.fits   Output  gS20180922S0023.fits
+GPREPARE: Using MDF defined in the header 0.5arcsec
+GPREPARE: Taking MDF from directory gmos$data/
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2019-01-23T23:02:41
+File[extension]:             AMPNAME              GAIN   READNOISE
+gS20180922S0023.fits[SCI,1]: " "BI5-36-4k-2, 4""  5.183  8.07
+gS20180922S0023.fits[SCI,2]: " "BI5-36-4k-2, 3""  5.300  8.85
+gS20180922S0023.fits[SCI,3]: " "BI5-36-4k-2, 2""  5.330  9.13
+gS20180922S0023.fits[SCI,4]: " "BI5-36-4k-2, 1""  5.240  8.93
+gS20180922S0023.fits[SCI,5]: " "BI11-33-4k-1, 4""  5.407  8.02
+gS20180922S0023.fits[SCI,6]: " "BI11-33-4k-1, 3""  5.459  8.62
+gS20180922S0023.fits[SCI,7]: " "BI11-33-4k-1, 2""  5.225  8.59
+gS20180922S0023.fits[SCI,8]: " "BI11-33-4k-1, 1""  5.334  8.35
+gS20180922S0023.fits[SCI,9]: " "BI12-34-4k-1, 4""  5.120  9.34
+gS20180922S0023.fits[SCI,10]: " "BI12-34-4k-1, 3""  4.894  7.99
+gS20180922S0023.fits[SCI,11]: " "BI12-34-4k-1, 2""  5.129  8.30
+gS20180922S0023.fits[SCI,12]: " "BI12-34-4k-1, 1""  4.828  7.94
+
+GGAIN -- Finished: 2019-01-23T23:02:41
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+
+Input files:
+gS20180922S0023
+
+Output files:
+tmpimage118326_95
+
+GIREDUCE: Image tmpimage118326_95 overscan subtracted
+GIREDUCE: Image tmpimage118326_95 trimmed
+
+Output image       Bias                 Flat               Dark       Scale 
+tmpimage118326_95  MCbiasFull           INDEF              INDEF       0.00
+GIREDUCE: Subtracted bias MCbiasFull from tmpimage118326_95
+GIREDUCE: multiplying image tmpimage118326_95 by gain
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2019-01-23T23:02:57
+File[extension]:               AMPNAME              GAIN   READNOISE
+tmpimage118326_95.fits[SCI,1]: " "BI5-36-4k-2, 4""  5.183  8.07
+tmpimage118326_95.fits[SCI,2]: " "BI5-36-4k-2, 3""  5.300  8.85
+tmpimage118326_95.fits[SCI,3]: " "BI5-36-4k-2, 2""  5.330  9.13
+tmpimage118326_95.fits[SCI,4]: " "BI5-36-4k-2, 1""  5.240  8.93
+tmpimage118326_95.fits[SCI,5]: " "BI11-33-4k-1, 4""  5.407  8.02
+tmpimage118326_95.fits[SCI,6]: " "BI11-33-4k-1, 3""  5.459  8.62
+tmpimage118326_95.fits[SCI,7]: " "BI11-33-4k-1, 2""  5.225  8.59
+tmpimage118326_95.fits[SCI,8]: " "BI11-33-4k-1, 1""  5.334  8.35
+tmpimage118326_95.fits[SCI,9]: " "BI12-34-4k-1, 4""  5.120  9.34
+tmpimage118326_95.fits[SCI,10]: " "BI12-34-4k-1, 3""  4.894  7.99
+tmpimage118326_95.fits[SCI,11]: " "BI12-34-4k-1, 2""  5.129  8.30
+tmpimage118326_95.fits[SCI,12]: " "BI12-34-4k-1, 1""  4.828  7.94
+
+GGAIN -- Finished: 2019-01-23T23:02:59
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+GIREDUCE: output counts in electrons
+
+GIREDUCE - Cleaning up -- Wed Jan 23 17:03:00 CST 2019
+
+GIREDUCE -- Wed Jan 23 17:03:00 CST 2019
+GIREDUCE exit status:  good.
+----------------------------------------------------------------------------
+GSREDUCE: Calling GMOSAIC
+BOE  GMOSAIC 2019-01-23T17:03:00
+VIS  GMOSAIC 
+VIS  GMOSAIC -------------------------------------------------------------------
+STAT GMOSAIC Log opened at [Wed 17:03:00 23-Jan-2019]
+VIS  GMOSAIC 
+VIS  GMOSAIC --------------------
+TSK  GMOSAIC Input Parameters:
+TSK  GMOSAIC      inimages       = tmpimage118326_95.fits
+TSK  GMOSAIC      outimages      = tmpimage218326_96.fits
+TSK  GMOSAIC      outpref        = 
+TSK  GMOSAIC      fl_paste       = no
+TSK  GMOSAIC      fl_vardq       = no
+TSK  GMOSAIC      fl_fixpix      = no
+TSK  GMOSAIC      fl_clean       = no
+TSK  GMOSAIC      fl_fulldq      = no
+TSK  GMOSAIC      bitflags       = all
+TSK  GMOSAIC      dqthresh       = 0.1
+TSK  GMOSAIC      geointer       = linear
+TSK  GMOSAIC      gap            = default
+TSK  GMOSAIC      bpmfile        = gmos$data/chipgaps.dat
+TSK  GMOSAIC      statsec        = default
+TSK  GMOSAIC      obsmode        = IMAGE
+TSK  GMOSAIC      sci_ext        = SCI
+TSK  GMOSAIC      var_ext        = VAR
+TSK  GMOSAIC      dq_ext         = DQ
+TSK  GMOSAIC      key_detsec     = DETSEC
+TSK  GMOSAIC      key_ccdsec     = CCDSEC
+TSK  GMOSAIC      key_datsec     = DATASEC
+TSK  GMOSAIC      key_ccdsum     = CCDSUM
+TSK  GMOSAIC      key_obsmode    = OBSMODE
+TSK  GMOSAIC      logfile        = gsreduceLog.txt
+TSK  GMOSAIC      verbose        = no
+TSK  GMOSAIC      fl_real        = no
+VIS  GMOSAIC --------------------
+TSK  GMOSAIC Input: tmpimage118326_95  Output: tmpimage218326_96.fits
+TSK  GMOSAIC Found a MDF, copying for later use.
+ENG  GMOSAIC Setting rotation Xrot[1]= 0.000000, Yrot[1]= 0.000000
+ENG  GMOSAIC Setting rotation Xrot[2]= 0.000000, Yrot[2]= 0.000000
+ENG  GMOSAIC Setting rotation Xrot[3]= 0.000000, Yrot[3]= 0.000000
+STAT GMOSAIC All 1 images successfully mosaiced.
+VIS  GMOSAIC --------------------
+STAT GMOSAIC Exit status: SUCCESS
+STAT GMOSAIC Log closed at [Wed 17:03:01 23-Jan-2019]
+VIS  GMOSAIC -------------------------------------------------------------------
+VIS  GMOSAIC 
+EOE  GMOSAIC 2019-01-23T17:03:01
+GSREDUCE: returned from GMOSAIC.
+GSREDUCE: Image S20180922S0023.fits is LONGSLIT. Will not cut spectra into separate science extensions
+GSREDUCE: Calling GSAPPWAVE
+--------------------------------------------------------------------------------
+GSAPPWAVE -- Wed Jan 23 17:03:01 CST 2019
+ 
+inimages = gsS20180922S0023.fits
+Grating: R400+_G5325
+Grating central wavelength: 646.0 [nm]
+Resolution (0.5'' slit): 1572.67882205
+Anamorphic factor: 1.14399654135
+Grating tilt (header): 56.8042
+Calculated tilt: 56.804
+nm/pix = 0.150372066891
+Filter1: GG455_G0329
+Filter2: open2-8
+Approximate available wavelength coverage based on grating,
+    filters and detector type is: 440.0 - 1080.0 [nm]
+
+Calibrating: [SCI,1]
+    Spectrum length in pixels: 3132
+    Approximate location of grating central 
+        wavelength in pixels: 1566.0
+    Approximate wavelength coverage based on
+        spectrum length and calculated dispersion is:  440 - 1080 [nm]
+ 
+GSAPPWAVE done
+--------------------------------------------------------------------------------
+GSREDUCE: Updating PHU and cleaning up
+Input image = S20180928S0015.fits; Output image = gsS20180928S0015.fits
+GSREDUCE: Image S20180928S0015.fits has been QE corrected? no
+GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
+GSREDUCE: Calling GIREDUCE to process image
+----------------------------------------------------------------------------
+GIREDUCE -- Wed Jan 23 17:03:01 CST 2019
+
+----------------------------------------------------------------------------
+GPREPARE -- Wed Jan 23 17:03:01 CST 2019
+
+Input list    = S20180928S0015
+Output list   = 
+Output prefix = g
+Raw path      = ../raw/
+MDF dir       = gmos$data/
+Add MDF       = yes
+Input MDF in case header keyword not found = 
+
+Input  ../raw/S20180928S0015.fits   Output  gS20180928S0015.fits
+GPREPARE: Using MDF defined in the header 0.5arcsec
+GPREPARE: Taking MDF from directory gmos$data/
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2019-01-23T23:03:02
+File[extension]:             AMPNAME              GAIN   READNOISE
+gS20180928S0015.fits[SCI,1]: " "BI5-36-4k-2, 4""  5.183  8.07
+gS20180928S0015.fits[SCI,2]: " "BI5-36-4k-2, 3""  5.300  8.85
+gS20180928S0015.fits[SCI,3]: " "BI5-36-4k-2, 2""  5.330  9.13
+gS20180928S0015.fits[SCI,4]: " "BI5-36-4k-2, 1""  5.240  8.93
+gS20180928S0015.fits[SCI,5]: " "BI11-33-4k-1, 4""  5.407  8.02
+gS20180928S0015.fits[SCI,6]: " "BI11-33-4k-1, 3""  5.459  8.62
+gS20180928S0015.fits[SCI,7]: " "BI11-33-4k-1, 2""  5.225  8.59
+gS20180928S0015.fits[SCI,8]: " "BI11-33-4k-1, 1""  5.334  8.35
+gS20180928S0015.fits[SCI,9]: " "BI12-34-4k-1, 4""  5.120  9.34
+gS20180928S0015.fits[SCI,10]: " "BI12-34-4k-1, 3""  4.894  7.99
+gS20180928S0015.fits[SCI,11]: " "BI12-34-4k-1, 2""  5.129  8.30
+gS20180928S0015.fits[SCI,12]: " "BI12-34-4k-1, 1""  4.828  7.94
+
+GGAIN -- Finished: 2019-01-23T23:03:03
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+
+Input files:
+gS20180928S0015
+
+Output files:
+tmpimage118326_144
+
+GIREDUCE: Image tmpimage118326_144 overscan subtracted
+GIREDUCE: Image tmpimage118326_144 trimmed
+
+Output image       Bias                 Flat               Dark       Scale 
+tmpimage118326_144 MCbiasFull           INDEF              INDEF       0.00
+GIREDUCE: Subtracted bias MCbiasFull from tmpimage118326_144
+GIREDUCE: multiplying image tmpimage118326_144 by gain
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2019-01-23T23:03:19
+File[extension]:                AMPNAME              GAIN   READNOISE
+tmpimage118326_144.fits[SCI,1]: " "BI5-36-4k-2, 4""  5.183  8.07
+tmpimage118326_144.fits[SCI,2]: " "BI5-36-4k-2, 3""  5.300  8.85
+tmpimage118326_144.fits[SCI,3]: " "BI5-36-4k-2, 2""  5.330  9.13
+tmpimage118326_144.fits[SCI,4]: " "BI5-36-4k-2, 1""  5.240  8.93
+tmpimage118326_144.fits[SCI,5]: " "BI11-33-4k-1, 4""  5.407  8.02
+tmpimage118326_144.fits[SCI,6]: " "BI11-33-4k-1, 3""  5.459  8.62
+tmpimage118326_144.fits[SCI,7]: " "BI11-33-4k-1, 2""  5.225  8.59
+tmpimage118326_144.fits[SCI,8]: " "BI11-33-4k-1, 1""  5.334  8.35
+tmpimage118326_144.fits[SCI,9]: " "BI12-34-4k-1, 4""  5.120  9.34
+tmpimage118326_144.fits[SCI,10]: " "BI12-34-4k-1, 3""  4.894  7.99
+tmpimage118326_144.fits[SCI,11]: " "BI12-34-4k-1, 2""  5.129  8.30
+tmpimage118326_144.fits[SCI,12]: " "BI12-34-4k-1, 1""  4.828  7.94
+
+GGAIN -- Finished: 2019-01-23T23:03:21
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+GIREDUCE: output counts in electrons
+
+GIREDUCE - Cleaning up -- Wed Jan 23 17:03:21 CST 2019
+
+GIREDUCE -- Wed Jan 23 17:03:21 CST 2019
+GIREDUCE exit status:  good.
+----------------------------------------------------------------------------
+GSREDUCE: Calling GMOSAIC
+BOE  GMOSAIC 2019-01-23T17:03:21
+VIS  GMOSAIC 
+VIS  GMOSAIC -------------------------------------------------------------------
+STAT GMOSAIC Log opened at [Wed 17:03:21 23-Jan-2019]
+VIS  GMOSAIC 
+VIS  GMOSAIC --------------------
+TSK  GMOSAIC Input Parameters:
+TSK  GMOSAIC      inimages       = tmpimage118326_144.fits
+TSK  GMOSAIC      outimages      = tmpimage218326_145.fits
+TSK  GMOSAIC      outpref        = 
+TSK  GMOSAIC      fl_paste       = no
+TSK  GMOSAIC      fl_vardq       = no
+TSK  GMOSAIC      fl_fixpix      = no
+TSK  GMOSAIC      fl_clean       = no
+TSK  GMOSAIC      fl_fulldq      = no
+TSK  GMOSAIC      bitflags       = all
+TSK  GMOSAIC      dqthresh       = 0.1
+TSK  GMOSAIC      geointer       = linear
+TSK  GMOSAIC      gap            = default
+TSK  GMOSAIC      bpmfile        = gmos$data/chipgaps.dat
+TSK  GMOSAIC      statsec        = default
+TSK  GMOSAIC      obsmode        = IMAGE
+TSK  GMOSAIC      sci_ext        = SCI
+TSK  GMOSAIC      var_ext        = VAR
+TSK  GMOSAIC      dq_ext         = DQ
+TSK  GMOSAIC      key_detsec     = DETSEC
+TSK  GMOSAIC      key_ccdsec     = CCDSEC
+TSK  GMOSAIC      key_datsec     = DATASEC
+TSK  GMOSAIC      key_ccdsum     = CCDSUM
+TSK  GMOSAIC      key_obsmode    = OBSMODE
+TSK  GMOSAIC      logfile        = gsreduceLog.txt
+TSK  GMOSAIC      verbose        = no
+TSK  GMOSAIC      fl_real        = no
+VIS  GMOSAIC --------------------
+TSK  GMOSAIC Input: tmpimage118326_144  Output: tmpimage218326_145.fits
+TSK  GMOSAIC Found a MDF, copying for later use.
+ENG  GMOSAIC Setting rotation Xrot[1]= 0.000000, Yrot[1]= 0.000000
+ENG  GMOSAIC Setting rotation Xrot[2]= 0.000000, Yrot[2]= 0.000000
+ENG  GMOSAIC Setting rotation Xrot[3]= 0.000000, Yrot[3]= 0.000000
+STAT GMOSAIC All 1 images successfully mosaiced.
+VIS  GMOSAIC --------------------
+STAT GMOSAIC Exit status: SUCCESS
+STAT GMOSAIC Log closed at [Wed 17:03:22 23-Jan-2019]
+VIS  GMOSAIC -------------------------------------------------------------------
+VIS  GMOSAIC 
+EOE  GMOSAIC 2019-01-23T17:03:22
+GSREDUCE: returned from GMOSAIC.
+GSREDUCE: Image S20180928S0015.fits is LONGSLIT. Will not cut spectra into separate science extensions
+GSREDUCE: Calling GSAPPWAVE
+--------------------------------------------------------------------------------
+GSAPPWAVE -- Wed Jan 23 17:03:22 CST 2019
+ 
+inimages = gsS20180928S0015.fits
+Grating: R400+_G5325
+Grating central wavelength: 646.0 [nm]
+Resolution (0.5'' slit): 1572.67882205
+Anamorphic factor: 1.14399654135
+Grating tilt (header): 56.8042
+Calculated tilt: 56.804
+nm/pix = 0.150372066891
+Filter1: GG455_G0329
+Filter2: open2-8
+Approximate available wavelength coverage based on grating,
+    filters and detector type is: 440.0 - 1080.0 [nm]
+
+Calibrating: [SCI,1]
+    Spectrum length in pixels: 3132
+    Approximate location of grating central 
+        wavelength in pixels: 1566.0
+    Approximate wavelength coverage based on
+        spectrum length and calculated dispersion is:  440 - 1080 [nm]
+ 
+GSAPPWAVE done
+--------------------------------------------------------------------------------
+GSREDUCE: Updating PHU and cleaning up
+Input image = S20181004S0210.fits; Output image = gsS20181004S0210.fits
+GSREDUCE: Image S20181004S0210.fits has been QE corrected? no
+GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
+GSREDUCE: Calling GIREDUCE to process image
+----------------------------------------------------------------------------
+GIREDUCE -- Wed Jan 23 17:03:23 CST 2019
+
+----------------------------------------------------------------------------
+GPREPARE -- Wed Jan 23 17:03:23 CST 2019
+
+Input list    = S20181004S0210
+Output list   = 
+Output prefix = g
+Raw path      = ../raw/
+MDF dir       = gmos$data/
+Add MDF       = yes
+Input MDF in case header keyword not found = 
+
+Input  ../raw/S20181004S0210.fits   Output  gS20181004S0210.fits
+GPREPARE: Using MDF defined in the header 0.5arcsec
+GPREPARE: Taking MDF from directory gmos$data/
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2019-01-23T23:03:23
+File[extension]:             AMPNAME              GAIN   READNOISE
+gS20181004S0210.fits[SCI,1]: " "BI5-36-4k-2, 4""  5.183  8.07
+gS20181004S0210.fits[SCI,2]: " "BI5-36-4k-2, 3""  5.300  8.85
+gS20181004S0210.fits[SCI,3]: " "BI5-36-4k-2, 2""  5.330  9.13
+gS20181004S0210.fits[SCI,4]: " "BI5-36-4k-2, 1""  5.240  8.93
+gS20181004S0210.fits[SCI,5]: " "BI11-33-4k-1, 4""  5.407  8.02
+gS20181004S0210.fits[SCI,6]: " "BI11-33-4k-1, 3""  5.459  8.62
+gS20181004S0210.fits[SCI,7]: " "BI11-33-4k-1, 2""  5.225  8.59
+gS20181004S0210.fits[SCI,8]: " "BI11-33-4k-1, 1""  5.334  8.35
+gS20181004S0210.fits[SCI,9]: " "BI12-34-4k-1, 4""  5.120  9.34
+gS20181004S0210.fits[SCI,10]: " "BI12-34-4k-1, 3""  4.894  7.99
+gS20181004S0210.fits[SCI,11]: " "BI12-34-4k-1, 2""  5.129  8.30
+gS20181004S0210.fits[SCI,12]: " "BI12-34-4k-1, 1""  4.828  7.94
+
+GGAIN -- Finished: 2019-01-23T23:03:24
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+
+Input files:
+gS20181004S0210
+
+Output files:
+tmpimage118326_193
+
+GIREDUCE: Image tmpimage118326_193 overscan subtracted
+GIREDUCE: Image tmpimage118326_193 trimmed
+
+Output image       Bias                 Flat               Dark       Scale 
+tmpimage118326_193 MCbiasFull           INDEF              INDEF       0.00
+GIREDUCE: Subtracted bias MCbiasFull from tmpimage118326_193
+GIREDUCE: multiplying image tmpimage118326_193 by gain
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2019-01-23T23:03:40
+File[extension]:                AMPNAME              GAIN   READNOISE
+tmpimage118326_193.fits[SCI,1]: " "BI5-36-4k-2, 4""  5.183  8.07
+tmpimage118326_193.fits[SCI,2]: " "BI5-36-4k-2, 3""  5.300  8.85
+tmpimage118326_193.fits[SCI,3]: " "BI5-36-4k-2, 2""  5.330  9.13
+tmpimage118326_193.fits[SCI,4]: " "BI5-36-4k-2, 1""  5.240  8.93
+tmpimage118326_193.fits[SCI,5]: " "BI11-33-4k-1, 4""  5.407  8.02
+tmpimage118326_193.fits[SCI,6]: " "BI11-33-4k-1, 3""  5.459  8.62
+tmpimage118326_193.fits[SCI,7]: " "BI11-33-4k-1, 2""  5.225  8.59
+tmpimage118326_193.fits[SCI,8]: " "BI11-33-4k-1, 1""  5.334  8.35
+tmpimage118326_193.fits[SCI,9]: " "BI12-34-4k-1, 4""  5.120  9.34
+tmpimage118326_193.fits[SCI,10]: " "BI12-34-4k-1, 3""  4.894  7.99
+tmpimage118326_193.fits[SCI,11]: " "BI12-34-4k-1, 2""  5.129  8.30
+tmpimage118326_193.fits[SCI,12]: " "BI12-34-4k-1, 1""  4.828  7.94
+
+GGAIN -- Finished: 2019-01-23T23:03:42
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+GIREDUCE: output counts in electrons
+
+GIREDUCE - Cleaning up -- Wed Jan 23 17:03:42 CST 2019
+
+GIREDUCE -- Wed Jan 23 17:03:42 CST 2019
+GIREDUCE exit status:  good.
+----------------------------------------------------------------------------
+GSREDUCE: Calling GMOSAIC
+BOE  GMOSAIC 2019-01-23T17:03:42
+VIS  GMOSAIC 
+VIS  GMOSAIC -------------------------------------------------------------------
+STAT GMOSAIC Log opened at [Wed 17:03:42 23-Jan-2019]
+VIS  GMOSAIC 
+VIS  GMOSAIC --------------------
+TSK  GMOSAIC Input Parameters:
+TSK  GMOSAIC      inimages       = tmpimage118326_193.fits
+TSK  GMOSAIC      outimages      = tmpimage218326_194.fits
+TSK  GMOSAIC      outpref        = 
+TSK  GMOSAIC      fl_paste       = no
+TSK  GMOSAIC      fl_vardq       = no
+TSK  GMOSAIC      fl_fixpix      = no
+TSK  GMOSAIC      fl_clean       = no
+TSK  GMOSAIC      fl_fulldq      = no
+TSK  GMOSAIC      bitflags       = all
+TSK  GMOSAIC      dqthresh       = 0.1
+TSK  GMOSAIC      geointer       = linear
+TSK  GMOSAIC      gap            = default
+TSK  GMOSAIC      bpmfile        = gmos$data/chipgaps.dat
+TSK  GMOSAIC      statsec        = default
+TSK  GMOSAIC      obsmode        = IMAGE
+TSK  GMOSAIC      sci_ext        = SCI
+TSK  GMOSAIC      var_ext        = VAR
+TSK  GMOSAIC      dq_ext         = DQ
+TSK  GMOSAIC      key_detsec     = DETSEC
+TSK  GMOSAIC      key_ccdsec     = CCDSEC
+TSK  GMOSAIC      key_datsec     = DATASEC
+TSK  GMOSAIC      key_ccdsum     = CCDSUM
+TSK  GMOSAIC      key_obsmode    = OBSMODE
+TSK  GMOSAIC      logfile        = gsreduceLog.txt
+TSK  GMOSAIC      verbose        = no
+TSK  GMOSAIC      fl_real        = no
+VIS  GMOSAIC --------------------
+TSK  GMOSAIC Input: tmpimage118326_193  Output: tmpimage218326_194.fits
+TSK  GMOSAIC Found a MDF, copying for later use.
+ENG  GMOSAIC Setting rotation Xrot[1]= 0.000000, Yrot[1]= 0.000000
+ENG  GMOSAIC Setting rotation Xrot[2]= 0.000000, Yrot[2]= 0.000000
+ENG  GMOSAIC Setting rotation Xrot[3]= 0.000000, Yrot[3]= 0.000000
+STAT GMOSAIC All 1 images successfully mosaiced.
+VIS  GMOSAIC --------------------
+STAT GMOSAIC Exit status: SUCCESS
+STAT GMOSAIC Log closed at [Wed 17:03:43 23-Jan-2019]
+VIS  GMOSAIC -------------------------------------------------------------------
+VIS  GMOSAIC 
+EOE  GMOSAIC 2019-01-23T17:03:43
+GSREDUCE: returned from GMOSAIC.
+GSREDUCE: Image S20181004S0210.fits is LONGSLIT. Will not cut spectra into separate science extensions
+GSREDUCE: Calling GSAPPWAVE
+--------------------------------------------------------------------------------
+GSAPPWAVE -- Wed Jan 23 17:03:43 CST 2019
+ 
+inimages = gsS20181004S0210.fits
+Grating: R400+_G5325
+Grating central wavelength: 646.0 [nm]
+Resolution (0.5'' slit): 1572.67882205
+Anamorphic factor: 1.14399654135
+Grating tilt (header): 56.8042
+Calculated tilt: 56.804
+nm/pix = 0.150372066891
+Filter1: GG455_G0329
+Filter2: open2-8
+Approximate available wavelength coverage based on grating,
+    filters and detector type is: 440.0 - 1080.0 [nm]
+
+Calibrating: [SCI,1]
+    Spectrum length in pixels: 3132
+    Approximate location of grating central 
+        wavelength in pixels: 1566.0
+    Approximate wavelength coverage based on
+        spectrum length and calculated dispersion is:  440 - 1080 [nm]
+ 
+GSAPPWAVE done
+--------------------------------------------------------------------------------
+GSREDUCE: Updating PHU and cleaning up
+ 
+GSREDUCE done
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+GSREDUCE -- Wed Jan 23 17:03:43 CST 2019
+
+Input image or list  = S20180708S0086,S20180708S0087
+Output image or list = 
+Output prefix        = gs
+
+Overscan subtraction  fl_over      = yes
+Trim image            fl_trim      = yes
+Bias subtraction      fl_bias      = yes
+Cosmic ray cleaning   fl_gscrrej   = no
+New CR cleaning       fl_crspec    = no
+Dark subtraction      fl_dark      = no
+QE Correction         fl_qecorr    = no
+Flat field correction fl_flat      = yes
+Mosaic the CCDs       fl_gmosaic   = yes
+Fixpix chip gaps      fl_fixpix    = no
+Cut MOS spectra       fl_cut       = yes
+Add titles to MOS     fl_title     = yes
+Oversize slit length  fl_oversize  = no
+Run gsappwave         fl_gsappwave = yes
+Run gsscatsub         fl_scatsub   = no
+VAR & DQ planes       fl_vardq     = yes
+
+geointer = linear
+gradimage= 
+refimage = 
+bias     = MCbiasFull
+dark     = 
+qe_refim    = 
+qe_corrim   = 
+qe_corrpref = qecorr
+flatim   = MCflatFull
+sci_ext  = SCI
+var_ext  = VAR
+dq_ext   = DQ
+key_mdf  = MASKNAME
+mdffile  = 
+mdfdir   = gmos$data/
+bpm      = 
+Chip gaps= gmos$data/chipgaps.dat
+
+ 
+Filter(s)/Grating ID for flatfield: 
+     MCflatFull.fits = GG455_G0329 + open2-8 / R400+_G5325
+GSREDUCE: Flat image MCflatFull.fits has been QE corrected? no
+ 
+Input image = S20180708S0086.fits; Output image = gsS20180708S0086.fits
+GSREDUCE: Image S20180708S0086.fits has been QE corrected? no
+GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
+GSREDUCE: Calling GIREDUCE to process image
+----------------------------------------------------------------------------
+GIREDUCE -- Wed Jan 23 17:03:44 CST 2019
+
+----------------------------------------------------------------------------
+GPREPARE -- Wed Jan 23 17:03:44 CST 2019
+
+Input list    = S20180708S0086
+Output list   = 
+Output prefix = g
+Raw path      = ../raw/
+MDF dir       = gmos$data/
+Add MDF       = yes
+Input MDF in case header keyword not found = 
+
+Input  ../raw/S20180708S0086.fits   Output  gS20180708S0086.fits
+GPREPARE: Using MDF defined in the header 0.5arcsec
+GPREPARE: Taking MDF from directory gmos$data/
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2019-01-23T23:03:45
+File[extension]:             AMPNAME              GAIN   READNOISE
+gS20180708S0086.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
+gS20180708S0086.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
+gS20180708S0086.fits[SCI,3]: " "BI5-36-4k-2, 2""  1.878  4.24
+gS20180708S0086.fits[SCI,4]: " "BI5-36-4k-2, 1""  1.852  4.21
+gS20180708S0086.fits[SCI,5]: " "BI11-33-4k-1, 4""  1.908  3.90
+gS20180708S0086.fits[SCI,6]: " "BI11-33-4k-1, 3""  1.933  4.24
+gS20180708S0086.fits[SCI,7]: " "BI11-33-4k-1, 2""  1.840  4.07
+gS20180708S0086.fits[SCI,8]: " "BI11-33-4k-1, 1""  1.878  4.29
+gS20180708S0086.fits[SCI,9]: " "BI12-34-4k-1, 4""  1.813  4.15
+gS20180708S0086.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
+gS20180708S0086.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
+gS20180708S0086.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
+
+GGAIN -- Finished: 2019-01-23T23:03:45
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+
+Input files:
+gS20180708S0086
+
+Output files:
+tmpimage118326_246
+
+WARNING - GIREDUCE: Bad Pixel Mask filename is an empty string
+                    Only saturated pixels will be flagged
+GIREDUCE: Image tmpimage118326_246 overscan subtracted
+GIREDUCE: Image tmpimage118326_246 trimmed
+
+Output image       Bias                 Flat               Dark       Scale 
+tmpimage118326_246 MCbiasFull           MCflatFull         INDEF       0.00
+GSAT - Started: 2019-01-23T17:04:01
+GSAT: Bias level is 510.6539 Gain level is 1.834
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI5-36-4k-2, 4 1x1 Full Well Depth is: 118871.0
+GSAT: Calculated CCD saturation limit is 259260.632497
+GSAT: Calculated controller saturation limit is 65024.3461
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63723.859178
+GSAT - Finished: 2019-01-23T17:04:01
+GSAT - Exit status: GOOD
+GSAT - Started: 2019-01-23T17:04:01
+GSAT: Bias level is 531.7936 Gain level is 1.874
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI5-36-4k-2, 3 1x1 Full Well Depth is: 121652.0
+GSAT: Calculated CCD saturation limit is 259662.753469
+GSAT: Calculated controller saturation limit is 65003.2064
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63703.142272
+GSAT - Finished: 2019-01-23T17:04:01
+GSAT - Exit status: GOOD
+GSAT - Started: 2019-01-23T17:04:02
+GSAT: Bias level is 523.0814 Gain level is 1.878
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI5-36-4k-2, 2 1x1 Full Well Depth is: 121390.0
+GSAT: Calculated CCD saturation limit is 258551.650692
+GSAT: Calculated controller saturation limit is 65011.9186
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63711.680228
+GSAT - Finished: 2019-01-23T17:04:02
+GSAT - Exit status: GOOD
+GSAT - Started: 2019-01-23T17:04:02
+GSAT: Bias level is 523.4825 Gain level is 1.852
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI5-36-4k-2, 1 1x1 Full Well Depth is: 120435.0
+GSAT: Calculated CCD saturation limit is 260118.790497
+GSAT: Calculated controller saturation limit is 65011.5175
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63711.28715
+GSAT - Finished: 2019-01-23T17:04:02
+GSAT - Exit status: GOOD
+GSAT - Started: 2019-01-23T17:04:03
+GSAT: Bias level is 497.5781 Gain level is 1.908
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI11-33-4k-1, 4 1x1 Full Well Depth is: 123307.0
+GSAT: Calculated CCD saturation limit is 258505.24109
+GSAT: Calculated controller saturation limit is 65037.4219
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63736.673462
+GSAT - Finished: 2019-01-23T17:04:03
+GSAT - Exit status: GOOD
+GSAT - Started: 2019-01-23T17:04:03
+GSAT: Bias level is 509.7705 Gain level is 1.933
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI11-33-4k-1, 3 1x1 Full Well Depth is: 125719.0
+GSAT: Calculated CCD saturation limit is 260153.12985
+GSAT: Calculated controller saturation limit is 65025.2295
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63724.72491
+GSAT - Finished: 2019-01-23T17:04:03
+GSAT - Exit status: GOOD
+GSAT - Started: 2019-01-23T17:04:03
+GSAT: Bias level is 512.5316 Gain level is 1.84
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI11-33-4k-1, 2 1x1 Full Well Depth is: 119157.0
+GSAT: Calculated CCD saturation limit is 259036.956522
+GSAT: Calculated controller saturation limit is 65022.4684
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63722.019032
+GSAT - Finished: 2019-01-23T17:04:03
+GSAT - Exit status: GOOD
+GSAT - Started: 2019-01-23T17:04:04
+GSAT: Bias level is 492.3802 Gain level is 1.878
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI11-33-4k-1, 1 1x1 Full Well Depth is: 121234.0
+GSAT: Calculated CCD saturation limit is 258219.382322
+GSAT: Calculated controller saturation limit is 65042.6198
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63741.767404
+GSAT - Finished: 2019-01-23T17:04:04
+GSAT - Exit status: GOOD
+GSAT - Started: 2019-01-23T17:04:04
+GSAT: Bias level is 505.9391 Gain level is 1.813
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI12-34-4k-1, 4 1x1 Full Well Depth is: 118424.0
+GSAT: Calculated CCD saturation limit is 261277.440706
+GSAT: Calculated controller saturation limit is 65029.0609
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63728.479682
+GSAT - Finished: 2019-01-23T17:04:04
+GSAT - Exit status: GOOD
+GSAT - Started: 2019-01-23T17:04:05
+GSAT: Bias level is 509.0769 Gain level is 1.724
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI12-34-4k-1, 3 1x1 Full Well Depth is: 112054.0
+GSAT: Calculated CCD saturation limit is 259986.078886
+GSAT: Calculated controller saturation limit is 65025.9231
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63725.404638
+GSAT - Finished: 2019-01-23T17:04:05
+GSAT - Exit status: GOOD
+GSAT - Started: 2019-01-23T17:04:05
+GSAT: Bias level is 494.9489 Gain level is 1.761
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI12-34-4k-1, 2 1x1 Full Well Depth is: 114605.0
+GSAT: Calculated CCD saturation limit is 260318.001136
+GSAT: Calculated controller saturation limit is 65040.0511
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63739.250078
+GSAT - Finished: 2019-01-23T17:04:05
+GSAT - Exit status: GOOD
+GSAT - Started: 2019-01-23T17:04:06
+GSAT: Bias level is 509.0157 Gain level is 1.652
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI12-34-4k-1, 1 1x1 Full Well Depth is: 106966.0
+GSAT: Calculated CCD saturation limit is 258997.578692
+GSAT: Calculated controller saturation limit is 65025.9843
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63725.464614
+GSAT - Finished: 2019-01-23T17:04:06
+GSAT - Exit status: GOOD
+GIREDUCE: Subtracted bias MCbiasFull from tmpimage118326_246
+GIREDUCE: Divided image tmpimage118326_246 by flatfield MCflatFull
+GIREDUCE: multiplying image tmpimage118326_246 by gain
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2019-01-23T23:04:06
+File[extension]:                AMPNAME              GAIN   READNOISE
+tmpimage118326_246.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
+tmpimage118326_246.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
+tmpimage118326_246.fits[SCI,3]: " "BI5-36-4k-2, 2""  1.878  4.24
+tmpimage118326_246.fits[SCI,4]: " "BI5-36-4k-2, 1""  1.852  4.21
+tmpimage118326_246.fits[SCI,5]: " "BI11-33-4k-1, 4""  1.908  3.90
+tmpimage118326_246.fits[SCI,6]: " "BI11-33-4k-1, 3""  1.933  4.24
+tmpimage118326_246.fits[SCI,7]: " "BI11-33-4k-1, 2""  1.840  4.07
+tmpimage118326_246.fits[SCI,8]: " "BI11-33-4k-1, 1""  1.878  4.29
+tmpimage118326_246.fits[SCI,9]: " "BI12-34-4k-1, 4""  1.813  4.15
+tmpimage118326_246.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
+tmpimage118326_246.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
+tmpimage118326_246.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
+
+GGAIN -- Finished: 2019-01-23T23:04:11
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+GIREDUCE: output counts in electrons
+
+GIREDUCE - Cleaning up -- Wed Jan 23 17:04:11 CST 2019
+
+GIREDUCE -- Wed Jan 23 17:04:11 CST 2019
+GIREDUCE exit status:  good.
+----------------------------------------------------------------------------
+GSREDUCE: Calling GMOSAIC
+BOE  GMOSAIC 2019-01-23T17:04:11
+VIS  GMOSAIC 
+VIS  GMOSAIC -------------------------------------------------------------------
+STAT GMOSAIC Log opened at [Wed 17:04:11 23-Jan-2019]
+VIS  GMOSAIC 
+VIS  GMOSAIC --------------------
+TSK  GMOSAIC Input Parameters:
+TSK  GMOSAIC      inimages       = tmpimage118326_246.fits
+TSK  GMOSAIC      outimages      = tmpimage218326_247.fits
+TSK  GMOSAIC      outpref        = 
+TSK  GMOSAIC      fl_paste       = no
+TSK  GMOSAIC      fl_vardq       = yes
+TSK  GMOSAIC      fl_fixpix      = no
+TSK  GMOSAIC      fl_clean       = no
+TSK  GMOSAIC      fl_fulldq      = yes
+TSK  GMOSAIC      bitflags       = all
+TSK  GMOSAIC      dqthresh       = 0.1
+TSK  GMOSAIC      geointer       = linear
+TSK  GMOSAIC      gap            = default
+TSK  GMOSAIC      bpmfile        = gmos$data/chipgaps.dat
+TSK  GMOSAIC      statsec        = default
+TSK  GMOSAIC      obsmode        = IMAGE
+TSK  GMOSAIC      sci_ext        = SCI
+TSK  GMOSAIC      var_ext        = VAR
+TSK  GMOSAIC      dq_ext         = DQ
+TSK  GMOSAIC      key_detsec     = DETSEC
+TSK  GMOSAIC      key_ccdsec     = CCDSEC
+TSK  GMOSAIC      key_datsec     = DATASEC
+TSK  GMOSAIC      key_ccdsum     = CCDSUM
+TSK  GMOSAIC      key_obsmode    = OBSMODE
+TSK  GMOSAIC      logfile        = gsreduceLog.txt
+TSK  GMOSAIC      verbose        = no
+TSK  GMOSAIC      fl_real        = no
+VIS  GMOSAIC --------------------
+TSK  GMOSAIC Input: tmpimage118326_246  Output: tmpimage218326_247.fits
+TSK  GMOSAIC Found a MDF, copying for later use.
+ENG  GMOSAIC Setting rotation Xrot[1]= 0.000000, Yrot[1]= 0.000000
+ENG  GMOSAIC Setting rotation Xrot[2]= 0.000000, Yrot[2]= 0.000000
+ENG  GMOSAIC Setting rotation Xrot[3]= 0.000000, Yrot[3]= 0.000000
+
+------------------------------------------------------------
+GEMDQEXPAND Started -- Wed Jan 23 17:04:12 CST 2019
+
+GEMDQEXPAND: Input parameters...
+
+    inimage    = tmpimg18326_307[DQ,1][1:1024,1:2088]
+    outimage   = tmpdq_imexpand18326_300.fits
+
+
+GEMDQEXPAND Finished -- Wed Jan 23 17:04:12 CST 2019
+
+GEMDQEXPAND exit status:  GOOD.
+------------------------------------------------------------
+
+
+------------------------------------------------------------
+GEMDQEXPAND Started -- Wed Jan 23 17:04:13 CST 2019
+
+GEMDQEXPAND: Input parameters...
+
+    inimage    = tmpimg18326_307[DQ,3][1:1024,1:2088]
+    outimage   = tmpdq_imexpand18326_300.fits
+
+
+GEMDQEXPAND Finished -- Wed Jan 23 17:04:13 CST 2019
+
+GEMDQEXPAND exit status:  GOOD.
+------------------------------------------------------------
+
+STAT GMOSAIC All 1 images successfully mosaiced.
+VIS  GMOSAIC --------------------
+STAT GMOSAIC Exit status: SUCCESS
+STAT GMOSAIC Log closed at [Wed 17:04:15 23-Jan-2019]
+VIS  GMOSAIC -------------------------------------------------------------------
+VIS  GMOSAIC 
+EOE  GMOSAIC 2019-01-23T17:04:15
+GSREDUCE: returned from GMOSAIC.
+GSREDUCE: Image S20180708S0086.fits is LONGSLIT. Will not cut spectra into separate science extensions
+GSREDUCE: Calling GSAPPWAVE
+--------------------------------------------------------------------------------
+GSAPPWAVE -- Wed Jan 23 17:04:15 CST 2019
+ 
+inimages = gsS20180708S0086.fits
+Grating: R400+_G5325
+Grating central wavelength: 646.0 [nm]
+Resolution (0.5'' slit): 1572.67882205
+Anamorphic factor: 1.14399654135
+Grating tilt (header): 56.8042
+Calculated tilt: 56.804
+nm/pix = 0.150372066891
+Filter1: GG455_G0329
+Filter2: open2-8
+Approximate available wavelength coverage based on grating,
+    filters and detector type is: 440.0 - 1080.0 [nm]
+
+Calibrating: [SCI,1]
+    Spectrum length in pixels: 3132
+    Approximate location of grating central 
+        wavelength in pixels: 1566.0
+    Approximate wavelength coverage based on
+        spectrum length and calculated dispersion is:  440 - 1080 [nm]
+ 
+GSAPPWAVE done
+--------------------------------------------------------------------------------
+GSREDUCE: Updating PHU and cleaning up
+Input image = S20180708S0087.fits; Output image = gsS20180708S0087.fits
+GSREDUCE: Image S20180708S0087.fits has been QE corrected? no
+GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
+GSREDUCE: Calling GIREDUCE to process image
+----------------------------------------------------------------------------
+GIREDUCE -- Wed Jan 23 17:04:16 CST 2019
+
+----------------------------------------------------------------------------
+GPREPARE -- Wed Jan 23 17:04:16 CST 2019
+
+Input list    = S20180708S0087
+Output list   = 
+Output prefix = g
+Raw path      = ../raw/
+MDF dir       = gmos$data/
+Add MDF       = yes
+Input MDF in case header keyword not found = 
+
+Input  ../raw/S20180708S0087.fits   Output  gS20180708S0087.fits
+GPREPARE: Using MDF defined in the header 0.5arcsec
+GPREPARE: Taking MDF from directory gmos$data/
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2019-01-23T23:04:17
+File[extension]:             AMPNAME              GAIN   READNOISE
+gS20180708S0087.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
+gS20180708S0087.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
+gS20180708S0087.fits[SCI,3]: " "BI5-36-4k-2, 2""  1.878  4.24
+gS20180708S0087.fits[SCI,4]: " "BI5-36-4k-2, 1""  1.852  4.21
+gS20180708S0087.fits[SCI,5]: " "BI11-33-4k-1, 4""  1.908  3.90
+gS20180708S0087.fits[SCI,6]: " "BI11-33-4k-1, 3""  1.933  4.24
+gS20180708S0087.fits[SCI,7]: " "BI11-33-4k-1, 2""  1.840  4.07
+gS20180708S0087.fits[SCI,8]: " "BI11-33-4k-1, 1""  1.878  4.29
+gS20180708S0087.fits[SCI,9]: " "BI12-34-4k-1, 4""  1.813  4.15
+gS20180708S0087.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
+gS20180708S0087.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
+gS20180708S0087.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
+
+GGAIN -- Finished: 2019-01-23T23:04:17
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+
+Input files:
+gS20180708S0087
+
+Output files:
+tmpimage118326_333
+
+WARNING - GIREDUCE: Bad Pixel Mask filename is an empty string
+                    Only saturated pixels will be flagged
+GIREDUCE: Image tmpimage118326_333 overscan subtracted
+GIREDUCE: Image tmpimage118326_333 trimmed
+
+Output image       Bias                 Flat               Dark       Scale 
+tmpimage118326_333 MCbiasFull           MCflatFull         INDEF       0.00
+GSAT - Started: 2019-01-23T17:04:33
+GSAT: Bias level is 510.234 Gain level is 1.834
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI5-36-4k-2, 4 1x1 Full Well Depth is: 118871.0
+GSAT: Calculated CCD saturation limit is 259260.632497
+GSAT: Calculated controller saturation limit is 65024.766
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63724.27068
+GSAT - Finished: 2019-01-23T17:04:33
+GSAT - Exit status: GOOD
+GSAT - Started: 2019-01-23T17:04:33
+GSAT: Bias level is 531.1671 Gain level is 1.874
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI5-36-4k-2, 3 1x1 Full Well Depth is: 121652.0
+GSAT: Calculated CCD saturation limit is 259662.753469
+GSAT: Calculated controller saturation limit is 65003.8329
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63703.756242
+GSAT - Finished: 2019-01-23T17:04:33
+GSAT - Exit status: GOOD
+GSAT - Started: 2019-01-23T17:04:34
+GSAT: Bias level is 522.8393 Gain level is 1.878
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI5-36-4k-2, 2 1x1 Full Well Depth is: 121390.0
+GSAT: Calculated CCD saturation limit is 258551.650692
+GSAT: Calculated controller saturation limit is 65012.1607
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63711.917486
+GSAT - Finished: 2019-01-23T17:04:34
+GSAT - Exit status: GOOD
+GSAT - Started: 2019-01-23T17:04:34
+GSAT: Bias level is 523.2807 Gain level is 1.852
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI5-36-4k-2, 1 1x1 Full Well Depth is: 120435.0
+GSAT: Calculated CCD saturation limit is 260118.790497
+GSAT: Calculated controller saturation limit is 65011.7193
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63711.484914
+GSAT - Finished: 2019-01-23T17:04:34
+GSAT - Exit status: GOOD
+GSAT - Started: 2019-01-23T17:04:35
+GSAT: Bias level is 496.7019 Gain level is 1.908
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI11-33-4k-1, 4 1x1 Full Well Depth is: 123307.0
+GSAT: Calculated CCD saturation limit is 258505.24109
+GSAT: Calculated controller saturation limit is 65038.2981
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63737.532138
+GSAT - Finished: 2019-01-23T17:04:35
+GSAT - Exit status: GOOD
+GSAT - Started: 2019-01-23T17:04:35
+GSAT: Bias level is 509.0367 Gain level is 1.933
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI11-33-4k-1, 3 1x1 Full Well Depth is: 125719.0
+GSAT: Calculated CCD saturation limit is 260153.12985
+GSAT: Calculated controller saturation limit is 65025.9633
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63725.444034
+GSAT - Finished: 2019-01-23T17:04:35
+GSAT - Exit status: GOOD
+GSAT - Started: 2019-01-23T17:04:36
+GSAT: Bias level is 510.8753 Gain level is 1.84
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI11-33-4k-1, 2 1x1 Full Well Depth is: 119157.0
+GSAT: Calculated CCD saturation limit is 259036.956522
+GSAT: Calculated controller saturation limit is 65024.1247
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63723.642206
+GSAT - Finished: 2019-01-23T17:04:36
+GSAT - Exit status: GOOD
+GSAT - Started: 2019-01-23T17:04:36
+GSAT: Bias level is 491.4616 Gain level is 1.878
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI11-33-4k-1, 1 1x1 Full Well Depth is: 121234.0
+GSAT: Calculated CCD saturation limit is 258219.382322
+GSAT: Calculated controller saturation limit is 65043.5384
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63742.667632
+GSAT - Finished: 2019-01-23T17:04:36
+GSAT - Exit status: GOOD
+GSAT - Started: 2019-01-23T17:04:37
+GSAT: Bias level is 505.2987 Gain level is 1.813
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI12-34-4k-1, 4 1x1 Full Well Depth is: 118424.0
+GSAT: Calculated CCD saturation limit is 261277.440706
+GSAT: Calculated controller saturation limit is 65029.7013
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63729.107274
+GSAT - Finished: 2019-01-23T17:04:37
+GSAT - Exit status: GOOD
+GSAT - Started: 2019-01-23T17:04:37
+GSAT: Bias level is 508.3594 Gain level is 1.724
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI12-34-4k-1, 3 1x1 Full Well Depth is: 112054.0
+GSAT: Calculated CCD saturation limit is 259986.078886
+GSAT: Calculated controller saturation limit is 65026.6406
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63726.107788
+GSAT - Finished: 2019-01-23T17:04:37
+GSAT - Exit status: GOOD
+GSAT - Started: 2019-01-23T17:04:38
+GSAT: Bias level is 493.8385 Gain level is 1.761
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI12-34-4k-1, 2 1x1 Full Well Depth is: 114605.0
+GSAT: Calculated CCD saturation limit is 260318.001136
+GSAT: Calculated controller saturation limit is 65041.1615
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63740.33827
+GSAT - Finished: 2019-01-23T17:04:38
+GSAT - Exit status: GOOD
+GSAT - Started: 2019-01-23T17:04:38
+GSAT: Bias level is 508.3616 Gain level is 1.652
+GSAT: Bias corrected - yes
+GSAT: Input in electrons - no
+GSAT: Xbin is 2 Ybin is 2
+GSAT: Amplifier is BI12-34-4k-1, 1 1x1 Full Well Depth is: 106966.0
+GSAT: Calculated CCD saturation limit is 258997.578692
+GSAT: Calculated controller saturation limit is 65026.6384
+GSAT: Scaling saturation value by 0.98
+GSAT: Output saturation is 63726.105632
+GSAT - Finished: 2019-01-23T17:04:38
+GSAT - Exit status: GOOD
+GIREDUCE: Subtracted bias MCbiasFull from tmpimage118326_333
+GIREDUCE: Divided image tmpimage118326_333 by flatfield MCflatFull
+GIREDUCE: multiplying image tmpimage118326_333 by gain
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2019-01-23T23:04:38
+File[extension]:                AMPNAME              GAIN   READNOISE
+tmpimage118326_333.fits[SCI,1]: " "BI5-36-4k-2, 4""  1.834  4.04
+tmpimage118326_333.fits[SCI,2]: " "BI5-36-4k-2, 3""  1.874  4.28
+tmpimage118326_333.fits[SCI,3]: " "BI5-36-4k-2, 2""  1.878  4.24
+tmpimage118326_333.fits[SCI,4]: " "BI5-36-4k-2, 1""  1.852  4.21
+tmpimage118326_333.fits[SCI,5]: " "BI11-33-4k-1, 4""  1.908  3.90
+tmpimage118326_333.fits[SCI,6]: " "BI11-33-4k-1, 3""  1.933  4.24
+tmpimage118326_333.fits[SCI,7]: " "BI11-33-4k-1, 2""  1.840  4.07
+tmpimage118326_333.fits[SCI,8]: " "BI11-33-4k-1, 1""  1.878  4.29
+tmpimage118326_333.fits[SCI,9]: " "BI12-34-4k-1, 4""  1.813  4.15
+tmpimage118326_333.fits[SCI,10]: " "BI12-34-4k-1, 3""  1.724  3.61
+tmpimage118326_333.fits[SCI,11]: " "BI12-34-4k-1, 2""  1.761  3.72
+tmpimage118326_333.fits[SCI,12]: " "BI12-34-4k-1, 1""  1.652  3.53
+
+GGAIN -- Finished: 2019-01-23T23:04:43
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+GIREDUCE: output counts in electrons
+
+GIREDUCE - Cleaning up -- Wed Jan 23 17:04:43 CST 2019
+
+GIREDUCE -- Wed Jan 23 17:04:43 CST 2019
+GIREDUCE exit status:  good.
+----------------------------------------------------------------------------
+GSREDUCE: Calling GMOSAIC
+BOE  GMOSAIC 2019-01-23T17:04:43
+VIS  GMOSAIC 
+VIS  GMOSAIC -------------------------------------------------------------------
+STAT GMOSAIC Log opened at [Wed 17:04:43 23-Jan-2019]
+VIS  GMOSAIC 
+VIS  GMOSAIC --------------------
+TSK  GMOSAIC Input Parameters:
+TSK  GMOSAIC      inimages       = tmpimage118326_333.fits
+TSK  GMOSAIC      outimages      = tmpimage218326_334.fits
+TSK  GMOSAIC      outpref        = 
+TSK  GMOSAIC      fl_paste       = no
+TSK  GMOSAIC      fl_vardq       = yes
+TSK  GMOSAIC      fl_fixpix      = no
+TSK  GMOSAIC      fl_clean       = no
+TSK  GMOSAIC      fl_fulldq      = yes
+TSK  GMOSAIC      bitflags       = all
+TSK  GMOSAIC      dqthresh       = 0.1
+TSK  GMOSAIC      geointer       = linear
+TSK  GMOSAIC      gap            = default
+TSK  GMOSAIC      bpmfile        = gmos$data/chipgaps.dat
+TSK  GMOSAIC      statsec        = default
+TSK  GMOSAIC      obsmode        = IMAGE
+TSK  GMOSAIC      sci_ext        = SCI
+TSK  GMOSAIC      var_ext        = VAR
+TSK  GMOSAIC      dq_ext         = DQ
+TSK  GMOSAIC      key_detsec     = DETSEC
+TSK  GMOSAIC      key_ccdsec     = CCDSEC
+TSK  GMOSAIC      key_datsec     = DATASEC
+TSK  GMOSAIC      key_ccdsum     = CCDSUM
+TSK  GMOSAIC      key_obsmode    = OBSMODE
+TSK  GMOSAIC      logfile        = gsreduceLog.txt
+TSK  GMOSAIC      verbose        = no
+TSK  GMOSAIC      fl_real        = no
+VIS  GMOSAIC --------------------
+TSK  GMOSAIC Input: tmpimage118326_333  Output: tmpimage218326_334.fits
+TSK  GMOSAIC Found a MDF, copying for later use.
+ENG  GMOSAIC Setting rotation Xrot[1]= 0.000000, Yrot[1]= 0.000000
+ENG  GMOSAIC Setting rotation Xrot[2]= 0.000000, Yrot[2]= 0.000000
+ENG  GMOSAIC Setting rotation Xrot[3]= 0.000000, Yrot[3]= 0.000000
+
+------------------------------------------------------------
+GEMDQEXPAND Started -- Wed Jan 23 17:04:44 CST 2019
+
+GEMDQEXPAND: Input parameters...
+
+    inimage    = tmpimg18326_394[DQ,1][1:1024,1:2088]
+    outimage   = tmpdq_imexpand18326_387.fits
+
+
+GEMDQEXPAND Finished -- Wed Jan 23 17:04:45 CST 2019
+
+GEMDQEXPAND exit status:  GOOD.
+------------------------------------------------------------
+
+
+------------------------------------------------------------
+GEMDQEXPAND Started -- Wed Jan 23 17:04:46 CST 2019
+
+GEMDQEXPAND: Input parameters...
+
+    inimage    = tmpimg18326_394[DQ,3][1:1024,1:2088]
+    outimage   = tmpdq_imexpand18326_387.fits
+
+
+GEMDQEXPAND Finished -- Wed Jan 23 17:04:46 CST 2019
+
+GEMDQEXPAND exit status:  GOOD.
+------------------------------------------------------------
+
+STAT GMOSAIC All 1 images successfully mosaiced.
+VIS  GMOSAIC --------------------
+STAT GMOSAIC Exit status: SUCCESS
+STAT GMOSAIC Log closed at [Wed 17:04:48 23-Jan-2019]
+VIS  GMOSAIC -------------------------------------------------------------------
+VIS  GMOSAIC 
+EOE  GMOSAIC 2019-01-23T17:04:48
+GSREDUCE: returned from GMOSAIC.
+GSREDUCE: Image S20180708S0087.fits is LONGSLIT. Will not cut spectra into separate science extensions
+GSREDUCE: Calling GSAPPWAVE
+--------------------------------------------------------------------------------
+GSAPPWAVE -- Wed Jan 23 17:04:48 CST 2019
  
 inimages = gsS20180708S0087.fits
 Grating: R400+_G5325

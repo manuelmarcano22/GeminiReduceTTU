@@ -1,14 +1,5 @@
 -------------------------------------------------------------------------------
-GSTRANSFORM -- Fri Jan 18 19:04:01 CST 2019
- 
-ERROR - GSTRANSFORM: Input image eObj7.fits does not exist or is not MEF
-ERROR - GSTRANSFORM: 1 errors found with input parameters. Exiting.
-
-GSTRANSFORM exit status: error
--------------------------------------------------------------------------------
-
--------------------------------------------------------------------------------
-GSTRANSFORM -- Fri Jan 18 19:05:40 CST 2019
+GSTRANSFORM -- Wed Jan 23 15:15:42 CST 2019
  
 
 inimages   = Obj7
@@ -38,8 +29,8 @@ dq_ext  = DQ
 Transforming Obj7.fits[SCI,1]
 MDF row: 1
 
-NOAO/IRAF V2.16 mmarcano@tux Fri 19:05:41 18-Jan-2019
-  Transform Obj7.fits[SCI,1] to tmpsci22806_2675.
+NOAO/IRAF V2.16 mmarcano@tux Wed 15:15:44 23-Jan-2019
+  Transform Obj7.fits[SCI,1] to tmpsci12461_2149.
   Conserve flux per pixel.
   User coordinate transformations:
   Interpolation is linear.
@@ -48,8 +39,8 @@ NOAO/IRAF V2.16 mmarcano@tux Fri 19:05:41 18-Jan-2019
     x1 =      4151., x2 =      8820., dx =      1.491, nx = 3132, xlog = no
     y1 =         1., y2 =      2088., dy =         1., ny = 2088, ylog = no
 
-NOAO/IRAF V2.16 mmarcano@tux Fri 19:05:42 18-Jan-2019
-  Transform Obj7.fits[VAR,1] to tmpvar22806_2676.
+NOAO/IRAF V2.16 mmarcano@tux Wed 15:15:45 23-Jan-2019
+  Transform Obj7.fits[VAR,1] to tmpvar12461_2150.
   Conserve flux per pixel.
   User coordinate transformations:
   Interpolation is linear.
@@ -58,8 +49,8 @@ NOAO/IRAF V2.16 mmarcano@tux Fri 19:05:42 18-Jan-2019
     x1 =      4151., x2 =      8820., dx =      1.491, nx = 3132, xlog = no
     y1 =         1., y2 =      2088., dy =         1., ny = 2088, ylog = no
 
-NOAO/IRAF V2.16 mmarcano@tux Fri 19:05:43 18-Jan-2019
-  Transform Obj7.fits[DQ,1] to tmpdq22806_2677.
+NOAO/IRAF V2.16 mmarcano@tux Wed 15:15:46 23-Jan-2019
+  Transform Obj7.fits[DQ,1] to tmpdq12461_2151.
   User coordinate transformations:
   Interpolation is linear.
   Using edge extension for out of bounds pixel values.
@@ -68,5 +59,23 @@ NOAO/IRAF V2.16 mmarcano@tux Fri 19:05:43 18-Jan-2019
     y1 =         1., y2 =      2088., dy =         1., ny = 2088, ylog = no
 
 GSTRANSFORM exit status: good
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+GSTRANSFORM -- Wed Jan 23 15:31:43 CST 2019
+ 
+ERROR - GSTRANSFORM: Output image tObj7 exists
+ERROR - GSTRANSFORM: 1 errors found with input parameters. Exiting.
+
+GSTRANSFORM exit status: error
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+GSTRANSFORM -- Wed Jan 23 17:04:51 CST 2019
+ 
+ERROR - GSTRANSFORM: Output image tObj7 exists
+ERROR - GSTRANSFORM: 1 errors found with input parameters. Exiting.
+
+GSTRANSFORM exit status: error
 -------------------------------------------------------------------------------
 

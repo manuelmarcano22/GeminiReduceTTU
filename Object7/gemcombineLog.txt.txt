@@ -1,39 +1,5 @@
 --------------------------------------------------------------------------------
-GEMCOMBINE -- Fri Jan 18 18:57:08 CST 2019
- 
-GEMCOMBINE: input = gsS20180710S0020S20180708S0086,gsS20180710S0020S20180708S0087
-GEMCOMBINE: output = Obj7
-GEMCOMBINE: title = 
-GEMCOMBINE: bpmfile = 
-GEMCOMBINE: sci_ext = SCI
-GEMCOMBINE: var_ext = VAR
-GEMCOMBINE: dq_ext = DQ
- 
-ERROR - GEMCOMBINE: 2 image(s) either do not exist or are not MEF files.
- 
-GEMCOMBINE -- Finished: Fri Jan 18 18:57:08 CST 2019
- 
-GEMCOMBINE -- Exit status: ERROR
---------------------------------------------------------------------------------
---------------------------------------------------------------------------------
-GEMCOMBINE -- Fri Jan 18 18:57:48 CST 2019
- 
-GEMCOMBINE: input = gsS20180710S0020S20180708S0086,gsS20180710S0020S20180708S0087
-GEMCOMBINE: output = Obj7
-GEMCOMBINE: title = 
-GEMCOMBINE: bpmfile = 
-GEMCOMBINE: sci_ext = SCI
-GEMCOMBINE: var_ext = VAR
-GEMCOMBINE: dq_ext = DQ
- 
-ERROR - GEMCOMBINE: 2 image(s) either do not exist or are not MEF files.
- 
-GEMCOMBINE -- Finished: Fri Jan 18 18:57:48 CST 2019
- 
-GEMCOMBINE -- Exit status: ERROR
---------------------------------------------------------------------------------
---------------------------------------------------------------------------------
-GEMCOMBINE -- Fri Jan 18 18:59:44 CST 2019
+GEMCOMBINE -- Wed Jan 23 15:15:40 CST 2019
  
 GEMCOMBINE: input = gsS20180708S0086,gsS20180708S0087
 GEMCOMBINE: output = Obj7
@@ -45,28 +11,28 @@ GEMCOMBINE: dq_ext = DQ
  
 WARNING - GEMCOMBINE: five or less images to combine.
 
-Jan 18 18:59: IMCOMBINE
+Jan 23 15:15: IMCOMBINE
   combine = average, scale = none, zero = none, weight = none
   reject = ccdclip, mclip = yes, nkeep = 1
   rdnoise = 4.24, gain = 1.0, snoise = 0.0, sigma = 3., hsigma = 3.
   blank = 0.
-  statsec = Jan 18 18:59
+  statsec = Jan 23 15:15
                 Images 
   gsS20180708S0086.fits[SCI,1]
   gsS20180708S0087.fits[SCI,1]
 
-  Output image = tmpcombout22806_2636, ncombine = 2
-  Number rejected mask = tmpcombdq22806_2637.pl
-  Sigma image = tmpcombsig22806_2638
+  Output image = tmpcombout12461_2132, ncombine = 2
+  Number rejected mask = tmpcombdq12461_2133.pl
+  Sigma image = tmpcombsig12461_2134
  
 GEMCOMBINE: Propagating DQ values
  
-GEMCOMBINE -- Finished: Fri Jan 18 18:59:46 CST 2019
+GEMCOMBINE -- Finished: Wed Jan 23 15:15:42 CST 2019
  
 GEMCOMBINE -- Exit status: GOOD
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
-GEMCOMBINE -- Fri Jan 18 19:05:40 CST 2019
+GEMCOMBINE -- Wed Jan 23 15:31:43 CST 2019
  
 GEMCOMBINE: input = gsS20180708S0086,gsS20180708S0087
 GEMCOMBINE: output = Obj7
@@ -78,7 +44,24 @@ GEMCOMBINE: dq_ext = DQ
  
 ERROR - GEMCOMBINE: Output file Obj7 already exists.
  
-GEMCOMBINE -- Finished: Fri Jan 18 19:05:40 CST 2019
+GEMCOMBINE -- Finished: Wed Jan 23 15:31:43 CST 2019
+ 
+GEMCOMBINE -- Exit status: ERROR
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+GEMCOMBINE -- Wed Jan 23 17:04:50 CST 2019
+ 
+GEMCOMBINE: input = gsS20180708S0086,gsS20180708S0087
+GEMCOMBINE: output = Obj7
+GEMCOMBINE: title = 
+GEMCOMBINE: bpmfile = 
+GEMCOMBINE: sci_ext = SCI
+GEMCOMBINE: var_ext = VAR
+GEMCOMBINE: dq_ext = DQ
+ 
+ERROR - GEMCOMBINE: Output file Obj7 already exists.
+ 
+GEMCOMBINE -- Finished: Wed Jan 23 17:04:50 CST 2019
  
 GEMCOMBINE -- Exit status: ERROR
 --------------------------------------------------------------------------------
