@@ -1,6 +1,6 @@
 
 --------------------------------------------------------------------------------
-GSFLAT -- Thu Jan 17 17:53:07 CST 2019
+GSFLAT -- Fri Jan 25 13:07:55 CST 2019
 
 Input images or list              = S20070623S0061,S20070623S0070,S20070623S0080,S20070623S0090,S20070624S0066,S20070624S0075,S20070724S0042
 Output spectral flat              = MCflatFull
@@ -51,9 +51,9 @@ GSFLAT: Calling GSREDUCE.
  
 
 ----------------------------------------------------------------------------
-GSREDUCE -- Thu Jan 17 17:53:08 CST 2019
+GSREDUCE -- Fri Jan 25 13:07:56 CST 2019
 
-Input image or list  = @tmpfilelist32404_545
+Input image or list  = @tmpfilelist6710_545
 Output image or list = 
 Output prefix        = gs
 
@@ -97,10 +97,10 @@ GSREDUCE: Image S20070623S0061.fits has been QE corrected? no
 GGDBHELPER: gain database selected - gmos$data/gmosamps-20150826.dat
 GSREDUCE: Calling GIREDUCE to process image
 ----------------------------------------------------------------------------
-GIREDUCE -- Thu Jan 17 17:53:08 CST 2019
+GIREDUCE -- Fri Jan 25 13:07:56 CST 2019
 
 ----------------------------------------------------------------------------
-GPREPARE -- Thu Jan 17 17:53:08 CST 2019
+GPREPARE -- Fri Jan 25 13:07:57 CST 2019
 
 Input list    = S20070623S0061
 Output list   = 
@@ -114,13 +114,13 @@ Input  ../rawExample/S20070623S0061.fits   Output  gS20070623S0061.fits
 GPREPARE: Using MDF defined in the header 1.0arcsec
 GPREPARE: Taking MDF from directory gmos$data/
 --------------------------------------------------------------------------------
-GGAIN -- Started: 2019-01-17T23:53:09
+GGAIN -- Started: 2019-01-25T19:07:57
 File[extension]:             AMPNAME                  GAIN   READNOISE
 gS20070623S0061.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
 gS20070623S0061.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
 gS20070623S0061.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
 
-GGAIN -- Finished: 2019-01-17T23:53:09
+GGAIN -- Finished: 2019-01-25T19:07:57
 
 GGAIN -- Exit staus: GOOD
 
@@ -133,16 +133,16 @@ Input files:
 gS20070623S0061
 
 Output files:
-tmpimage132404_552
+tmpimage16710_552
 
 WARNING - GIREDUCE: Bad Pixel Mask filename is an empty string
                     Only saturated pixels will be flagged
-GIREDUCE: Image tmpimage132404_552 overscan subtracted
-GIREDUCE: Image tmpimage132404_552 trimmed
+GIREDUCE: Image tmpimage16710_552 overscan subtracted
+GIREDUCE: Image tmpimage16710_552 trimmed
 
 Output image       Bias                 Flat               Dark       Scale 
-tmpimage132404_552 MCbiasFull           INDEF              INDEF       0.00
-GSAT - Started: 2019-01-17T17:53:13
+tmpimage16710_552  MCbiasFull           INDEF              INDEF       0.00
+GSAT - Started: 2019-01-25T13:08:01
 GSAT: Bias level is 717.1301 Gain level is 2.372
 GSAT: Bias corrected - yes
 GSAT: Input in electrons - no
@@ -151,9 +151,9 @@ GSAT: Calculated CCD saturation limit is 64817.8699
 GSAT: Calculated controller saturation limit is 64817.8699
 GSAT: Scaling saturation value by 1.0
 GSAT: Output saturation is 65000.0
-GSAT - Finished: 2019-01-17T17:53:13
+GSAT - Finished: 2019-01-25T13:08:01
 GSAT - Exit status: GOOD
-GSAT - Started: 2019-01-17T17:53:13
+GSAT - Started: 2019-01-25T13:08:01
 GSAT: Bias level is 679.9217 Gain level is 2.076
 GSAT: Bias corrected - yes
 GSAT: Input in electrons - no
@@ -162,9 +162,9 @@ GSAT: Calculated CCD saturation limit is 64855.0783
 GSAT: Calculated controller saturation limit is 64855.0783
 GSAT: Scaling saturation value by 1.0
 GSAT: Output saturation is 65000.0
-GSAT - Finished: 2019-01-17T17:53:13
+GSAT - Finished: 2019-01-25T13:08:02
 GSAT - Exit status: GOOD
-GSAT - Started: 2019-01-17T17:53:13
+GSAT - Started: 2019-01-25T13:08:02
 GSAT: Bias level is 651.7042 Gain level is 2.097
 GSAT: Bias corrected - yes
 GSAT: Input in electrons - no
@@ -173,27 +173,27 @@ GSAT: Calculated CCD saturation limit is 64883.2958
 GSAT: Calculated controller saturation limit is 64883.2958
 GSAT: Scaling saturation value by 1.0
 GSAT: Output saturation is 65000.0
-GSAT - Finished: 2019-01-17T17:53:13
+GSAT - Finished: 2019-01-25T13:08:02
 GSAT - Exit status: GOOD
-GIREDUCE: Subtracted bias MCbiasFull from tmpimage132404_552
-GIREDUCE: multiplying image tmpimage132404_552 by gain
+GIREDUCE: Subtracted bias MCbiasFull from tmpimage16710_552
+GIREDUCE: multiplying image tmpimage16710_552 by gain
 --------------------------------------------------------------------------------
-GGAIN -- Started: 2019-01-17T23:53:14
-File[extension]:                AMPNAME                  GAIN   READNOISE
-tmpimage132404_552.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
-tmpimage132404_552.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
-tmpimage132404_552.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
+GGAIN -- Started: 2019-01-25T19:08:02
+File[extension]:               AMPNAME                  GAIN   READNOISE
+tmpimage16710_552.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
+tmpimage16710_552.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
+tmpimage16710_552.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
 
-GGAIN -- Finished: 2019-01-17T23:53:14
+GGAIN -- Finished: 2019-01-25T19:08:03
 
 GGAIN -- Exit staus: GOOD
 
 --------------------------------------------------------------------------------
 GIREDUCE: output counts in electrons
 
-GIREDUCE - Cleaning up -- Thu Jan 17 17:53:15 CST 2019
+GIREDUCE - Cleaning up -- Fri Jan 25 13:08:03 CST 2019
 
-GIREDUCE -- Thu Jan 17 17:53:15 CST 2019
+GIREDUCE -- Fri Jan 25 13:08:03 CST 2019
 GIREDUCE exit status:  good.
 ----------------------------------------------------------------------------
 GSREDUCE: Updating PHU and cleaning up
@@ -202,10 +202,10 @@ GSREDUCE: Image S20070623S0070.fits has been QE corrected? no
 GGDBHELPER: gain database selected - gmos$data/gmosamps-20150826.dat
 GSREDUCE: Calling GIREDUCE to process image
 ----------------------------------------------------------------------------
-GIREDUCE -- Thu Jan 17 17:53:15 CST 2019
+GIREDUCE -- Fri Jan 25 13:08:03 CST 2019
 
 ----------------------------------------------------------------------------
-GPREPARE -- Thu Jan 17 17:53:15 CST 2019
+GPREPARE -- Fri Jan 25 13:08:03 CST 2019
 
 Input list    = S20070623S0070
 Output list   = 
@@ -219,13 +219,13 @@ Input  ../rawExample/S20070623S0070.fits   Output  gS20070623S0070.fits
 GPREPARE: Using MDF defined in the header 1.0arcsec
 GPREPARE: Taking MDF from directory gmos$data/
 --------------------------------------------------------------------------------
-GGAIN -- Started: 2019-01-17T23:53:15
+GGAIN -- Started: 2019-01-25T19:08:04
 File[extension]:             AMPNAME                  GAIN   READNOISE
 gS20070623S0070.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
 gS20070623S0070.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
 gS20070623S0070.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
 
-GGAIN -- Finished: 2019-01-17T23:53:15
+GGAIN -- Finished: 2019-01-25T19:08:04
 
 GGAIN -- Exit staus: GOOD
 
@@ -238,16 +238,16 @@ Input files:
 gS20070623S0070
 
 Output files:
-tmpimage132404_574
+tmpimage16710_574
 
 WARNING - GIREDUCE: Bad Pixel Mask filename is an empty string
                     Only saturated pixels will be flagged
-GIREDUCE: Image tmpimage132404_574 overscan subtracted
-GIREDUCE: Image tmpimage132404_574 trimmed
+GIREDUCE: Image tmpimage16710_574 overscan subtracted
+GIREDUCE: Image tmpimage16710_574 trimmed
 
 Output image       Bias                 Flat               Dark       Scale 
-tmpimage132404_574 MCbiasFull           INDEF              INDEF       0.00
-GSAT - Started: 2019-01-17T17:53:19
+tmpimage16710_574  MCbiasFull           INDEF              INDEF       0.00
+GSAT - Started: 2019-01-25T13:08:08
 GSAT: Bias level is 717.751 Gain level is 2.372
 GSAT: Bias corrected - yes
 GSAT: Input in electrons - no
@@ -256,9 +256,9 @@ GSAT: Calculated CCD saturation limit is 64817.249
 GSAT: Calculated controller saturation limit is 64817.249
 GSAT: Scaling saturation value by 1.0
 GSAT: Output saturation is 65000.0
-GSAT - Finished: 2019-01-17T17:53:19
+GSAT - Finished: 2019-01-25T13:08:08
 GSAT - Exit status: GOOD
-GSAT - Started: 2019-01-17T17:53:20
+GSAT - Started: 2019-01-25T13:08:08
 GSAT: Bias level is 680.4771 Gain level is 2.076
 GSAT: Bias corrected - yes
 GSAT: Input in electrons - no
@@ -267,9 +267,9 @@ GSAT: Calculated CCD saturation limit is 64854.5229
 GSAT: Calculated controller saturation limit is 64854.5229
 GSAT: Scaling saturation value by 1.0
 GSAT: Output saturation is 65000.0
-GSAT - Finished: 2019-01-17T17:53:20
+GSAT - Finished: 2019-01-25T13:08:08
 GSAT - Exit status: GOOD
-GSAT - Started: 2019-01-17T17:53:20
+GSAT - Started: 2019-01-25T13:08:08
 GSAT: Bias level is 652.111 Gain level is 2.097
 GSAT: Bias corrected - yes
 GSAT: Input in electrons - no
@@ -278,27 +278,27 @@ GSAT: Calculated CCD saturation limit is 64882.889
 GSAT: Calculated controller saturation limit is 64882.889
 GSAT: Scaling saturation value by 1.0
 GSAT: Output saturation is 65000.0
-GSAT - Finished: 2019-01-17T17:53:20
+GSAT - Finished: 2019-01-25T13:08:08
 GSAT - Exit status: GOOD
-GIREDUCE: Subtracted bias MCbiasFull from tmpimage132404_574
-GIREDUCE: multiplying image tmpimage132404_574 by gain
+GIREDUCE: Subtracted bias MCbiasFull from tmpimage16710_574
+GIREDUCE: multiplying image tmpimage16710_574 by gain
 --------------------------------------------------------------------------------
-GGAIN -- Started: 2019-01-17T23:53:20
-File[extension]:                AMPNAME                  GAIN   READNOISE
-tmpimage132404_574.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
-tmpimage132404_574.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
-tmpimage132404_574.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
+GGAIN -- Started: 2019-01-25T19:08:09
+File[extension]:               AMPNAME                  GAIN   READNOISE
+tmpimage16710_574.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
+tmpimage16710_574.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
+tmpimage16710_574.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
 
-GGAIN -- Finished: 2019-01-17T23:53:21
+GGAIN -- Finished: 2019-01-25T19:08:10
 
 GGAIN -- Exit staus: GOOD
 
 --------------------------------------------------------------------------------
 GIREDUCE: output counts in electrons
 
-GIREDUCE - Cleaning up -- Thu Jan 17 17:53:21 CST 2019
+GIREDUCE - Cleaning up -- Fri Jan 25 13:08:10 CST 2019
 
-GIREDUCE -- Thu Jan 17 17:53:21 CST 2019
+GIREDUCE -- Fri Jan 25 13:08:10 CST 2019
 GIREDUCE exit status:  good.
 ----------------------------------------------------------------------------
 GSREDUCE: Updating PHU and cleaning up
@@ -307,10 +307,10 @@ GSREDUCE: Image S20070623S0080.fits has been QE corrected? no
 GGDBHELPER: gain database selected - gmos$data/gmosamps-20150826.dat
 GSREDUCE: Calling GIREDUCE to process image
 ----------------------------------------------------------------------------
-GIREDUCE -- Thu Jan 17 17:53:21 CST 2019
+GIREDUCE -- Fri Jan 25 13:08:10 CST 2019
 
 ----------------------------------------------------------------------------
-GPREPARE -- Thu Jan 17 17:53:21 CST 2019
+GPREPARE -- Fri Jan 25 13:08:10 CST 2019
 
 Input list    = S20070623S0080
 Output list   = 
@@ -324,13 +324,13 @@ Input  ../rawExample/S20070623S0080.fits   Output  gS20070623S0080.fits
 GPREPARE: Using MDF defined in the header 1.0arcsec
 GPREPARE: Taking MDF from directory gmos$data/
 --------------------------------------------------------------------------------
-GGAIN -- Started: 2019-01-17T23:53:22
+GGAIN -- Started: 2019-01-25T19:08:10
 File[extension]:             AMPNAME                  GAIN   READNOISE
 gS20070623S0080.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
 gS20070623S0080.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
 gS20070623S0080.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
 
-GGAIN -- Finished: 2019-01-17T23:53:22
+GGAIN -- Finished: 2019-01-25T19:08:10
 
 GGAIN -- Exit staus: GOOD
 
@@ -343,16 +343,16 @@ Input files:
 gS20070623S0080
 
 Output files:
-tmpimage132404_596
+tmpimage16710_596
 
 WARNING - GIREDUCE: Bad Pixel Mask filename is an empty string
                     Only saturated pixels will be flagged
-GIREDUCE: Image tmpimage132404_596 overscan subtracted
-GIREDUCE: Image tmpimage132404_596 trimmed
+GIREDUCE: Image tmpimage16710_596 overscan subtracted
+GIREDUCE: Image tmpimage16710_596 trimmed
 
 Output image       Bias                 Flat               Dark       Scale 
-tmpimage132404_596 MCbiasFull           INDEF              INDEF       0.00
-GSAT - Started: 2019-01-17T17:53:26
+tmpimage16710_596  MCbiasFull           INDEF              INDEF       0.00
+GSAT - Started: 2019-01-25T13:08:14
 GSAT: Bias level is 717.984 Gain level is 2.372
 GSAT: Bias corrected - yes
 GSAT: Input in electrons - no
@@ -361,9 +361,9 @@ GSAT: Calculated CCD saturation limit is 64817.016
 GSAT: Calculated controller saturation limit is 64817.016
 GSAT: Scaling saturation value by 1.0
 GSAT: Output saturation is 65000.0
-GSAT - Finished: 2019-01-17T17:53:26
+GSAT - Finished: 2019-01-25T13:08:14
 GSAT - Exit status: GOOD
-GSAT - Started: 2019-01-17T17:53:26
+GSAT - Started: 2019-01-25T13:08:15
 GSAT: Bias level is 680.6802 Gain level is 2.076
 GSAT: Bias corrected - yes
 GSAT: Input in electrons - no
@@ -372,9 +372,9 @@ GSAT: Calculated CCD saturation limit is 64854.3198
 GSAT: Calculated controller saturation limit is 64854.3198
 GSAT: Scaling saturation value by 1.0
 GSAT: Output saturation is 65000.0
-GSAT - Finished: 2019-01-17T17:53:26
+GSAT - Finished: 2019-01-25T13:08:15
 GSAT - Exit status: GOOD
-GSAT - Started: 2019-01-17T17:53:26
+GSAT - Started: 2019-01-25T13:08:15
 GSAT: Bias level is 652.1978 Gain level is 2.097
 GSAT: Bias corrected - yes
 GSAT: Input in electrons - no
@@ -383,27 +383,27 @@ GSAT: Calculated CCD saturation limit is 64882.8022
 GSAT: Calculated controller saturation limit is 64882.8022
 GSAT: Scaling saturation value by 1.0
 GSAT: Output saturation is 65000.0
-GSAT - Finished: 2019-01-17T17:53:26
+GSAT - Finished: 2019-01-25T13:08:15
 GSAT - Exit status: GOOD
-GIREDUCE: Subtracted bias MCbiasFull from tmpimage132404_596
-GIREDUCE: multiplying image tmpimage132404_596 by gain
+GIREDUCE: Subtracted bias MCbiasFull from tmpimage16710_596
+GIREDUCE: multiplying image tmpimage16710_596 by gain
 --------------------------------------------------------------------------------
-GGAIN -- Started: 2019-01-17T23:53:27
-File[extension]:                AMPNAME                  GAIN   READNOISE
-tmpimage132404_596.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
-tmpimage132404_596.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
-tmpimage132404_596.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
+GGAIN -- Started: 2019-01-25T19:08:15
+File[extension]:               AMPNAME                  GAIN   READNOISE
+tmpimage16710_596.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
+tmpimage16710_596.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
+tmpimage16710_596.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
 
-GGAIN -- Finished: 2019-01-17T23:53:28
+GGAIN -- Finished: 2019-01-25T19:08:16
 
 GGAIN -- Exit staus: GOOD
 
 --------------------------------------------------------------------------------
 GIREDUCE: output counts in electrons
 
-GIREDUCE - Cleaning up -- Thu Jan 17 17:53:28 CST 2019
+GIREDUCE - Cleaning up -- Fri Jan 25 13:08:16 CST 2019
 
-GIREDUCE -- Thu Jan 17 17:53:28 CST 2019
+GIREDUCE -- Fri Jan 25 13:08:16 CST 2019
 GIREDUCE exit status:  good.
 ----------------------------------------------------------------------------
 GSREDUCE: Updating PHU and cleaning up
@@ -412,10 +412,10 @@ GSREDUCE: Image S20070623S0090.fits has been QE corrected? no
 GGDBHELPER: gain database selected - gmos$data/gmosamps-20150826.dat
 GSREDUCE: Calling GIREDUCE to process image
 ----------------------------------------------------------------------------
-GIREDUCE -- Thu Jan 17 17:53:28 CST 2019
+GIREDUCE -- Fri Jan 25 13:08:16 CST 2019
 
 ----------------------------------------------------------------------------
-GPREPARE -- Thu Jan 17 17:53:28 CST 2019
+GPREPARE -- Fri Jan 25 13:08:16 CST 2019
 
 Input list    = S20070623S0090
 Output list   = 
@@ -429,13 +429,13 @@ Input  ../rawExample/S20070623S0090.fits   Output  gS20070623S0090.fits
 GPREPARE: Using MDF defined in the header 1.0arcsec
 GPREPARE: Taking MDF from directory gmos$data/
 --------------------------------------------------------------------------------
-GGAIN -- Started: 2019-01-17T23:53:28
+GGAIN -- Started: 2019-01-25T19:08:17
 File[extension]:             AMPNAME                  GAIN   READNOISE
 gS20070623S0090.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
 gS20070623S0090.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
 gS20070623S0090.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
 
-GGAIN -- Finished: 2019-01-17T23:53:28
+GGAIN -- Finished: 2019-01-25T19:08:17
 
 GGAIN -- Exit staus: GOOD
 
@@ -448,16 +448,16 @@ Input files:
 gS20070623S0090
 
 Output files:
-tmpimage132404_618
+tmpimage16710_618
 
 WARNING - GIREDUCE: Bad Pixel Mask filename is an empty string
                     Only saturated pixels will be flagged
-GIREDUCE: Image tmpimage132404_618 overscan subtracted
-GIREDUCE: Image tmpimage132404_618 trimmed
+GIREDUCE: Image tmpimage16710_618 overscan subtracted
+GIREDUCE: Image tmpimage16710_618 trimmed
 
 Output image       Bias                 Flat               Dark       Scale 
-tmpimage132404_618 MCbiasFull           INDEF              INDEF       0.00
-GSAT - Started: 2019-01-17T17:53:32
+tmpimage16710_618  MCbiasFull           INDEF              INDEF       0.00
+GSAT - Started: 2019-01-25T13:08:21
 GSAT: Bias level is 717.8579 Gain level is 2.372
 GSAT: Bias corrected - yes
 GSAT: Input in electrons - no
@@ -466,9 +466,9 @@ GSAT: Calculated CCD saturation limit is 64817.1421
 GSAT: Calculated controller saturation limit is 64817.1421
 GSAT: Scaling saturation value by 1.0
 GSAT: Output saturation is 65000.0
-GSAT - Finished: 2019-01-17T17:53:32
+GSAT - Finished: 2019-01-25T13:08:21
 GSAT - Exit status: GOOD
-GSAT - Started: 2019-01-17T17:53:33
+GSAT - Started: 2019-01-25T13:08:21
 GSAT: Bias level is 680.5425 Gain level is 2.076
 GSAT: Bias corrected - yes
 GSAT: Input in electrons - no
@@ -477,9 +477,9 @@ GSAT: Calculated CCD saturation limit is 64854.4575
 GSAT: Calculated controller saturation limit is 64854.4575
 GSAT: Scaling saturation value by 1.0
 GSAT: Output saturation is 65000.0
-GSAT - Finished: 2019-01-17T17:53:33
+GSAT - Finished: 2019-01-25T13:08:21
 GSAT - Exit status: GOOD
-GSAT - Started: 2019-01-17T17:53:33
+GSAT - Started: 2019-01-25T13:08:22
 GSAT: Bias level is 652.0689 Gain level is 2.097
 GSAT: Bias corrected - yes
 GSAT: Input in electrons - no
@@ -488,27 +488,27 @@ GSAT: Calculated CCD saturation limit is 64882.9311
 GSAT: Calculated controller saturation limit is 64882.9311
 GSAT: Scaling saturation value by 1.0
 GSAT: Output saturation is 65000.0
-GSAT - Finished: 2019-01-17T17:53:33
+GSAT - Finished: 2019-01-25T13:08:22
 GSAT - Exit status: GOOD
-GIREDUCE: Subtracted bias MCbiasFull from tmpimage132404_618
-GIREDUCE: multiplying image tmpimage132404_618 by gain
+GIREDUCE: Subtracted bias MCbiasFull from tmpimage16710_618
+GIREDUCE: multiplying image tmpimage16710_618 by gain
 --------------------------------------------------------------------------------
-GGAIN -- Started: 2019-01-17T23:53:33
-File[extension]:                AMPNAME                  GAIN   READNOISE
-tmpimage132404_618.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
-tmpimage132404_618.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
-tmpimage132404_618.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
+GGAIN -- Started: 2019-01-25T19:08:22
+File[extension]:               AMPNAME                  GAIN   READNOISE
+tmpimage16710_618.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
+tmpimage16710_618.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
+tmpimage16710_618.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
 
-GGAIN -- Finished: 2019-01-17T23:53:34
+GGAIN -- Finished: 2019-01-25T19:08:24
 
 GGAIN -- Exit staus: GOOD
 
 --------------------------------------------------------------------------------
 GIREDUCE: output counts in electrons
 
-GIREDUCE - Cleaning up -- Thu Jan 17 17:53:34 CST 2019
+GIREDUCE - Cleaning up -- Fri Jan 25 13:08:24 CST 2019
 
-GIREDUCE -- Thu Jan 17 17:53:34 CST 2019
+GIREDUCE -- Fri Jan 25 13:08:24 CST 2019
 GIREDUCE exit status:  good.
 ----------------------------------------------------------------------------
 GSREDUCE: Updating PHU and cleaning up
@@ -517,10 +517,10 @@ GSREDUCE: Image S20070624S0066.fits has been QE corrected? no
 GGDBHELPER: gain database selected - gmos$data/gmosamps-20150826.dat
 GSREDUCE: Calling GIREDUCE to process image
 ----------------------------------------------------------------------------
-GIREDUCE -- Thu Jan 17 17:53:35 CST 2019
+GIREDUCE -- Fri Jan 25 13:08:24 CST 2019
 
 ----------------------------------------------------------------------------
-GPREPARE -- Thu Jan 17 17:53:35 CST 2019
+GPREPARE -- Fri Jan 25 13:08:24 CST 2019
 
 Input list    = S20070624S0066
 Output list   = 
@@ -534,13 +534,13 @@ Input  ../rawExample/S20070624S0066.fits   Output  gS20070624S0066.fits
 GPREPARE: Using MDF defined in the header 1.0arcsec
 GPREPARE: Taking MDF from directory gmos$data/
 --------------------------------------------------------------------------------
-GGAIN -- Started: 2019-01-17T23:53:35
+GGAIN -- Started: 2019-01-25T19:08:25
 File[extension]:             AMPNAME                  GAIN   READNOISE
 gS20070624S0066.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
 gS20070624S0066.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
 gS20070624S0066.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
 
-GGAIN -- Finished: 2019-01-17T23:53:35
+GGAIN -- Finished: 2019-01-25T19:08:25
 
 GGAIN -- Exit staus: GOOD
 
@@ -553,16 +553,16 @@ Input files:
 gS20070624S0066
 
 Output files:
-tmpimage132404_640
+tmpimage16710_640
 
 WARNING - GIREDUCE: Bad Pixel Mask filename is an empty string
                     Only saturated pixels will be flagged
-GIREDUCE: Image tmpimage132404_640 overscan subtracted
-GIREDUCE: Image tmpimage132404_640 trimmed
+GIREDUCE: Image tmpimage16710_640 overscan subtracted
+GIREDUCE: Image tmpimage16710_640 trimmed
 
 Output image       Bias                 Flat               Dark       Scale 
-tmpimage132404_640 MCbiasFull           INDEF              INDEF       0.00
-GSAT - Started: 2019-01-17T17:53:39
+tmpimage16710_640  MCbiasFull           INDEF              INDEF       0.00
+GSAT - Started: 2019-01-25T13:08:29
 GSAT: Bias level is 719.0306 Gain level is 2.372
 GSAT: Bias corrected - yes
 GSAT: Input in electrons - no
@@ -571,9 +571,9 @@ GSAT: Calculated CCD saturation limit is 64815.9694
 GSAT: Calculated controller saturation limit is 64815.9694
 GSAT: Scaling saturation value by 1.0
 GSAT: Output saturation is 65000.0
-GSAT - Finished: 2019-01-17T17:53:39
+GSAT - Finished: 2019-01-25T13:08:29
 GSAT - Exit status: GOOD
-GSAT - Started: 2019-01-17T17:53:39
+GSAT - Started: 2019-01-25T13:08:29
 GSAT: Bias level is 681.8804 Gain level is 2.076
 GSAT: Bias corrected - yes
 GSAT: Input in electrons - no
@@ -582,9 +582,9 @@ GSAT: Calculated CCD saturation limit is 64853.1196
 GSAT: Calculated controller saturation limit is 64853.1196
 GSAT: Scaling saturation value by 1.0
 GSAT: Output saturation is 65000.0
-GSAT - Finished: 2019-01-17T17:53:39
+GSAT - Finished: 2019-01-25T13:08:29
 GSAT - Exit status: GOOD
-GSAT - Started: 2019-01-17T17:53:40
+GSAT - Started: 2019-01-25T13:08:29
 GSAT: Bias level is 652.5137 Gain level is 2.097
 GSAT: Bias corrected - yes
 GSAT: Input in electrons - no
@@ -593,27 +593,27 @@ GSAT: Calculated CCD saturation limit is 64882.4863
 GSAT: Calculated controller saturation limit is 64882.4863
 GSAT: Scaling saturation value by 1.0
 GSAT: Output saturation is 65000.0
-GSAT - Finished: 2019-01-17T17:53:40
+GSAT - Finished: 2019-01-25T13:08:29
 GSAT - Exit status: GOOD
-GIREDUCE: Subtracted bias MCbiasFull from tmpimage132404_640
-GIREDUCE: multiplying image tmpimage132404_640 by gain
+GIREDUCE: Subtracted bias MCbiasFull from tmpimage16710_640
+GIREDUCE: multiplying image tmpimage16710_640 by gain
 --------------------------------------------------------------------------------
-GGAIN -- Started: 2019-01-17T23:53:40
-File[extension]:                AMPNAME                  GAIN   READNOISE
-tmpimage132404_640.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
-tmpimage132404_640.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
-tmpimage132404_640.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
+GGAIN -- Started: 2019-01-25T19:08:30
+File[extension]:               AMPNAME                  GAIN   READNOISE
+tmpimage16710_640.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
+tmpimage16710_640.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
+tmpimage16710_640.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
 
-GGAIN -- Finished: 2019-01-17T23:53:41
+GGAIN -- Finished: 2019-01-25T19:08:30
 
 GGAIN -- Exit staus: GOOD
 
 --------------------------------------------------------------------------------
 GIREDUCE: output counts in electrons
 
-GIREDUCE - Cleaning up -- Thu Jan 17 17:53:41 CST 2019
+GIREDUCE - Cleaning up -- Fri Jan 25 13:08:30 CST 2019
 
-GIREDUCE -- Thu Jan 17 17:53:41 CST 2019
+GIREDUCE -- Fri Jan 25 13:08:31 CST 2019
 GIREDUCE exit status:  good.
 ----------------------------------------------------------------------------
 GSREDUCE: Updating PHU and cleaning up
@@ -622,10 +622,10 @@ GSREDUCE: Image S20070624S0075.fits has been QE corrected? no
 GGDBHELPER: gain database selected - gmos$data/gmosamps-20150826.dat
 GSREDUCE: Calling GIREDUCE to process image
 ----------------------------------------------------------------------------
-GIREDUCE -- Thu Jan 17 17:53:41 CST 2019
+GIREDUCE -- Fri Jan 25 13:08:31 CST 2019
 
 ----------------------------------------------------------------------------
-GPREPARE -- Thu Jan 17 17:53:41 CST 2019
+GPREPARE -- Fri Jan 25 13:08:31 CST 2019
 
 Input list    = S20070624S0075
 Output list   = 
@@ -639,13 +639,13 @@ Input  ../rawExample/S20070624S0075.fits   Output  gS20070624S0075.fits
 GPREPARE: Using MDF defined in the header 1.0arcsec
 GPREPARE: Taking MDF from directory gmos$data/
 --------------------------------------------------------------------------------
-GGAIN -- Started: 2019-01-17T23:53:42
+GGAIN -- Started: 2019-01-25T19:08:31
 File[extension]:             AMPNAME                  GAIN   READNOISE
 gS20070624S0075.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
 gS20070624S0075.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
 gS20070624S0075.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
 
-GGAIN -- Finished: 2019-01-17T23:53:42
+GGAIN -- Finished: 2019-01-25T19:08:31
 
 GGAIN -- Exit staus: GOOD
 
@@ -658,16 +658,16 @@ Input files:
 gS20070624S0075
 
 Output files:
-tmpimage132404_662
+tmpimage16710_662
 
 WARNING - GIREDUCE: Bad Pixel Mask filename is an empty string
                     Only saturated pixels will be flagged
-GIREDUCE: Image tmpimage132404_662 overscan subtracted
-GIREDUCE: Image tmpimage132404_662 trimmed
+GIREDUCE: Image tmpimage16710_662 overscan subtracted
+GIREDUCE: Image tmpimage16710_662 trimmed
 
 Output image       Bias                 Flat               Dark       Scale 
-tmpimage132404_662 MCbiasFull           INDEF              INDEF       0.00
-GSAT - Started: 2019-01-17T17:53:46
+tmpimage16710_662  MCbiasFull           INDEF              INDEF       0.00
+GSAT - Started: 2019-01-25T13:08:35
 GSAT: Bias level is 718.6524 Gain level is 2.372
 GSAT: Bias corrected - yes
 GSAT: Input in electrons - no
@@ -676,9 +676,9 @@ GSAT: Calculated CCD saturation limit is 64816.3476
 GSAT: Calculated controller saturation limit is 64816.3476
 GSAT: Scaling saturation value by 1.0
 GSAT: Output saturation is 65000.0
-GSAT - Finished: 2019-01-17T17:53:46
+GSAT - Finished: 2019-01-25T13:08:35
 GSAT - Exit status: GOOD
-GSAT - Started: 2019-01-17T17:53:46
+GSAT - Started: 2019-01-25T13:08:35
 GSAT: Bias level is 681.5682 Gain level is 2.076
 GSAT: Bias corrected - yes
 GSAT: Input in electrons - no
@@ -687,9 +687,9 @@ GSAT: Calculated CCD saturation limit is 64853.4318
 GSAT: Calculated controller saturation limit is 64853.4318
 GSAT: Scaling saturation value by 1.0
 GSAT: Output saturation is 65000.0
-GSAT - Finished: 2019-01-17T17:53:46
+GSAT - Finished: 2019-01-25T13:08:35
 GSAT - Exit status: GOOD
-GSAT - Started: 2019-01-17T17:53:46
+GSAT - Started: 2019-01-25T13:08:36
 GSAT: Bias level is 652.5866 Gain level is 2.097
 GSAT: Bias corrected - yes
 GSAT: Input in electrons - no
@@ -698,27 +698,27 @@ GSAT: Calculated CCD saturation limit is 64882.4134
 GSAT: Calculated controller saturation limit is 64882.4134
 GSAT: Scaling saturation value by 1.0
 GSAT: Output saturation is 65000.0
-GSAT - Finished: 2019-01-17T17:53:46
+GSAT - Finished: 2019-01-25T13:08:36
 GSAT - Exit status: GOOD
-GIREDUCE: Subtracted bias MCbiasFull from tmpimage132404_662
-GIREDUCE: multiplying image tmpimage132404_662 by gain
+GIREDUCE: Subtracted bias MCbiasFull from tmpimage16710_662
+GIREDUCE: multiplying image tmpimage16710_662 by gain
 --------------------------------------------------------------------------------
-GGAIN -- Started: 2019-01-17T23:53:47
-File[extension]:                AMPNAME                  GAIN   READNOISE
-tmpimage132404_662.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
-tmpimage132404_662.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
-tmpimage132404_662.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
+GGAIN -- Started: 2019-01-25T19:08:36
+File[extension]:               AMPNAME                  GAIN   READNOISE
+tmpimage16710_662.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
+tmpimage16710_662.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
+tmpimage16710_662.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
 
-GGAIN -- Finished: 2019-01-17T23:53:47
+GGAIN -- Finished: 2019-01-25T19:08:37
 
 GGAIN -- Exit staus: GOOD
 
 --------------------------------------------------------------------------------
 GIREDUCE: output counts in electrons
 
-GIREDUCE - Cleaning up -- Thu Jan 17 17:53:47 CST 2019
+GIREDUCE - Cleaning up -- Fri Jan 25 13:08:37 CST 2019
 
-GIREDUCE -- Thu Jan 17 17:53:48 CST 2019
+GIREDUCE -- Fri Jan 25 13:08:37 CST 2019
 GIREDUCE exit status:  good.
 ----------------------------------------------------------------------------
 GSREDUCE: Updating PHU and cleaning up
@@ -727,10 +727,10 @@ GSREDUCE: Image S20070724S0042.fits has been QE corrected? no
 GGDBHELPER: gain database selected - gmos$data/gmosamps-20150826.dat
 GSREDUCE: Calling GIREDUCE to process image
 ----------------------------------------------------------------------------
-GIREDUCE -- Thu Jan 17 17:53:48 CST 2019
+GIREDUCE -- Fri Jan 25 13:08:37 CST 2019
 
 ----------------------------------------------------------------------------
-GPREPARE -- Thu Jan 17 17:53:48 CST 2019
+GPREPARE -- Fri Jan 25 13:08:37 CST 2019
 
 Input list    = S20070724S0042
 Output list   = 
@@ -744,13 +744,13 @@ Input  ../rawExample/S20070724S0042.fits   Output  gS20070724S0042.fits
 GPREPARE: Using MDF defined in the header 1.0arcsec
 GPREPARE: Taking MDF from directory gmos$data/
 --------------------------------------------------------------------------------
-GGAIN -- Started: 2019-01-17T23:53:49
+GGAIN -- Started: 2019-01-25T19:08:38
 File[extension]:             AMPNAME                  GAIN   READNOISE
 gS20070724S0042.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
 gS20070724S0042.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
 gS20070724S0042.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
 
-GGAIN -- Finished: 2019-01-17T23:53:49
+GGAIN -- Finished: 2019-01-25T19:08:38
 
 GGAIN -- Exit staus: GOOD
 
@@ -763,16 +763,16 @@ Input files:
 gS20070724S0042
 
 Output files:
-tmpimage132404_684
+tmpimage16710_684
 
 WARNING - GIREDUCE: Bad Pixel Mask filename is an empty string
                     Only saturated pixels will be flagged
-GIREDUCE: Image tmpimage132404_684 overscan subtracted
-GIREDUCE: Image tmpimage132404_684 trimmed
+GIREDUCE: Image tmpimage16710_684 overscan subtracted
+GIREDUCE: Image tmpimage16710_684 trimmed
 
 Output image       Bias                 Flat               Dark       Scale 
-tmpimage132404_684 MCbiasFull           INDEF              INDEF       0.00
-GSAT - Started: 2019-01-17T17:53:53
+tmpimage16710_684  MCbiasFull           INDEF              INDEF       0.00
+GSAT - Started: 2019-01-25T13:08:42
 GSAT: Bias level is 721.8556 Gain level is 2.372
 GSAT: Bias corrected - yes
 GSAT: Input in electrons - no
@@ -781,9 +781,9 @@ GSAT: Calculated CCD saturation limit is 64813.1444
 GSAT: Calculated controller saturation limit is 64813.1444
 GSAT: Scaling saturation value by 1.0
 GSAT: Output saturation is 65000.0
-GSAT - Finished: 2019-01-17T17:53:53
+GSAT - Finished: 2019-01-25T13:08:42
 GSAT - Exit status: GOOD
-GSAT - Started: 2019-01-17T17:53:54
+GSAT - Started: 2019-01-25T13:08:42
 GSAT: Bias level is 684.9374 Gain level is 2.076
 GSAT: Bias corrected - yes
 GSAT: Input in electrons - no
@@ -792,9 +792,9 @@ GSAT: Calculated CCD saturation limit is 64850.0626
 GSAT: Calculated controller saturation limit is 64850.0626
 GSAT: Scaling saturation value by 1.0
 GSAT: Output saturation is 65000.0
-GSAT - Finished: 2019-01-17T17:53:54
+GSAT - Finished: 2019-01-25T13:08:42
 GSAT - Exit status: GOOD
-GSAT - Started: 2019-01-17T17:53:54
+GSAT - Started: 2019-01-25T13:08:42
 GSAT: Bias level is 657.8612 Gain level is 2.097
 GSAT: Bias corrected - yes
 GSAT: Input in electrons - no
@@ -803,27 +803,27 @@ GSAT: Calculated CCD saturation limit is 64877.1388
 GSAT: Calculated controller saturation limit is 64877.1388
 GSAT: Scaling saturation value by 1.0
 GSAT: Output saturation is 65000.0
-GSAT - Finished: 2019-01-17T17:53:54
+GSAT - Finished: 2019-01-25T13:08:42
 GSAT - Exit status: GOOD
-GIREDUCE: Subtracted bias MCbiasFull from tmpimage132404_684
-GIREDUCE: multiplying image tmpimage132404_684 by gain
+GIREDUCE: Subtracted bias MCbiasFull from tmpimage16710_684
+GIREDUCE: multiplying image tmpimage16710_684 by gain
 --------------------------------------------------------------------------------
-GGAIN -- Started: 2019-01-17T23:53:54
-File[extension]:                AMPNAME                  GAIN   READNOISE
-tmpimage132404_684.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
-tmpimage132404_684.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
-tmpimage132404_684.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
+GGAIN -- Started: 2019-01-25T19:08:43
+File[extension]:               AMPNAME                  GAIN   READNOISE
+tmpimage16710_684.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
+tmpimage16710_684.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
+tmpimage16710_684.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
 
-GGAIN -- Finished: 2019-01-17T23:53:55
+GGAIN -- Finished: 2019-01-25T19:08:44
 
 GGAIN -- Exit staus: GOOD
 
 --------------------------------------------------------------------------------
 GIREDUCE: output counts in electrons
 
-GIREDUCE - Cleaning up -- Thu Jan 17 17:53:55 CST 2019
+GIREDUCE - Cleaning up -- Fri Jan 25 13:08:44 CST 2019
 
-GIREDUCE -- Thu Jan 17 17:53:55 CST 2019
+GIREDUCE -- Fri Jan 25 13:08:44 CST 2019
 GIREDUCE exit status:  good.
 ----------------------------------------------------------------------------
 GSREDUCE: Updating PHU and cleaning up
@@ -840,10 +840,10 @@ GSFLAT: Image #6 - Working on : gsS20070624S0075.fits
 GSFLAT: Image #7 - Working on : gsS20070724S0042.fits
  
 --------------------------------------------------------------------------------
-GEMCOMBINE -- Thu Jan 17 17:53:56 CST 2019
+GEMCOMBINE -- Fri Jan 25 13:08:44 CST 2019
  
-GEMCOMBINE: input = @tmpscilist32404_539
-GEMCOMBINE: output = tmpcombflat32404_542
+GEMCOMBINE: input = @tmpscilist6710_539
+GEMCOMBINE: output = tmpcombflat6710_542
 GEMCOMBINE: title = 
 GEMCOMBINE: bpmfile = 
 GEMCOMBINE: sci_ext = SCI
@@ -852,7 +852,7 @@ GEMCOMBINE: dq_ext = DQ
  
 
 ------------------------------------------------------------
-GEMSECCHK -- Started: 2019-01-17T17:53:56
+GEMSECCHK -- Started: 2019-01-25T13:08:44
 
 GEMSECCHK: Input parameters...
     inimage     = gsS20070623S0061.fits[SCI,1]
@@ -860,17 +860,17 @@ GEMSECCHK: Input parameters...
 
 GEMSECCHK: Output image section -- [*,*]
 
-GEMSECCHK -- Finished: 2019-01-17T17:53:56
+GEMSECCHK -- Finished: 2019-01-25T13:08:44
 
 GEMSECCHK -- Exit status: GOOD
 ------------------------------------------------------------
 
-Jan 17 17:53: IMCOMBINE
+Jan 25 13:08: IMCOMBINE
   combine = average, scale = mean, zero = none, weight = none
   reject = avsigclip, mclip = yes, nkeep = 0
   lsigma = 3., hsigma = 3.
   blank = 0.
-  statsec = Jan 17 17:53
+  statsec = Jan 25 13:08
                 Images     Exp    Mean  Scale
   gsS20070623S0061.fits[SCI,1]    1.5  66650.  1.000
   gsS20070623S0070.fits[SCI,1]    1.5  69349.  0.961
@@ -880,12 +880,12 @@ Jan 17 17:53: IMCOMBINE
   gsS20070624S0075.fits[SCI,1]    1.5  67276.  0.991
   gsS20070724S0042.fits[SCI,1]    1.5  50275.  1.326
 
-  Output image = tmpcombout32404_719, ncombine = 7
-  Number rejected mask = tmpcombdq32404_720.pl
-  Sigma image = tmpcombsig32404_721
+  Output image = tmpcombout6710_719, ncombine = 7
+  Number rejected mask = tmpcombdq6710_720.pl
+  Sigma image = tmpcombsig6710_721
 
 ------------------------------------------------------------
-GEMSECCHK -- Started: 2019-01-17T17:53:57
+GEMSECCHK -- Started: 2019-01-25T13:08:46
 
 GEMSECCHK: Input parameters...
     inimage     = gsS20070623S0061.fits[SCI,2]
@@ -893,17 +893,17 @@ GEMSECCHK: Input parameters...
 
 GEMSECCHK: Output image section -- [*,*]
 
-GEMSECCHK -- Finished: 2019-01-17T17:53:57
+GEMSECCHK -- Finished: 2019-01-25T13:08:46
 
 GEMSECCHK -- Exit status: GOOD
 ------------------------------------------------------------
 
-Jan 17 17:53: IMCOMBINE
+Jan 25 13:08: IMCOMBINE
   combine = average, scale = mean, zero = none, weight = none
   reject = avsigclip, mclip = yes, nkeep = 0
   lsigma = 3., hsigma = 3.
   blank = 0.
-  statsec = Jan 17 17:53
+  statsec = Jan 25 13:08
                 Images     Exp    Mean  Scale
   gsS20070623S0061.fits[SCI,2]    1.5  58100.  1.000
   gsS20070623S0070.fits[SCI,2]    1.5  60398.  0.962
@@ -913,12 +913,12 @@ Jan 17 17:53: IMCOMBINE
   gsS20070624S0075.fits[SCI,2]    1.5  58556.  0.992
   gsS20070724S0042.fits[SCI,2]    1.5  46142.  1.259
 
-  Output image = tmpcombout32404_726, ncombine = 7
-  Number rejected mask = tmpcombdq32404_727.pl
-  Sigma image = tmpcombsig32404_728
+  Output image = tmpcombout6710_726, ncombine = 7
+  Number rejected mask = tmpcombdq6710_727.pl
+  Sigma image = tmpcombsig6710_728
 
 ------------------------------------------------------------
-GEMSECCHK -- Started: 2019-01-17T17:53:58
+GEMSECCHK -- Started: 2019-01-25T13:08:47
 
 GEMSECCHK: Input parameters...
     inimage     = gsS20070623S0061.fits[SCI,3]
@@ -926,17 +926,17 @@ GEMSECCHK: Input parameters...
 
 GEMSECCHK: Output image section -- [*,*]
 
-GEMSECCHK -- Finished: 2019-01-17T17:53:58
+GEMSECCHK -- Finished: 2019-01-25T13:08:47
 
 GEMSECCHK -- Exit status: GOOD
 ------------------------------------------------------------
 
-Jan 17 17:53: IMCOMBINE
+Jan 25 13:08: IMCOMBINE
   combine = average, scale = mean, zero = none, weight = none
   reject = avsigclip, mclip = yes, nkeep = 0
   lsigma = 3., hsigma = 3.
   blank = 0.
-  statsec = Jan 17 17:53
+  statsec = Jan 25 13:08
                 Images     Exp    Mean  Scale
   gsS20070623S0061.fits[SCI,3]    1.5  10360.  1.000
   gsS20070623S0070.fits[SCI,3]    1.5  10814.  0.958
@@ -946,16 +946,16 @@ Jan 17 17:53: IMCOMBINE
   gsS20070624S0075.fits[SCI,3]    1.5  10418.  0.994
   gsS20070724S0042.fits[SCI,3]    1.5  8568.4  1.209
 
-  Output image = tmpcombout32404_730, ncombine = 7
-  Number rejected mask = tmpcombdq32404_731.pl
-  Sigma image = tmpcombsig32404_732
+  Output image = tmpcombout6710_730, ncombine = 7
+  Number rejected mask = tmpcombdq6710_731.pl
+  Sigma image = tmpcombsig6710_732
 GEMCOMBINE: Attaching the MDF
  
-GEMCOMBINE -- Finished: Thu Jan 17 17:54:00 CST 2019
+GEMCOMBINE -- Finished: Fri Jan 25 13:08:48 CST 2019
  
 GEMCOMBINE -- Exit status: GOOD
 --------------------------------------------------------------------------------
-GSFLAT: GEMCOMBINE complete.  Output in file : tmpcombflat32404_542
+GSFLAT: GEMCOMBINE complete.  Output in file : tmpcombflat6710_542
  
  
 GSFLAT: Begin fitting response functions for detectors
@@ -967,11 +967,11 @@ GSFLAT: fitting response functions for CCD2
 GSFLAT: fitting response functions for CCD3
         sample in fitting *
  
-GSFLAT done Thu Jan 17 17:54:01 CST 2019
+GSFLAT done Fri Jan 25 13:08:50 CST 2019
 --------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------
-GSFLAT -- Thu Jan 17 17:54:01 CST 2019
+GSFLAT -- Fri Jan 25 13:08:50 CST 2019
 
 Input images or list              = S20070623S0108
 Output spectral flat              = MCflatCenSp
@@ -1022,9 +1022,9 @@ GSFLAT: Calling GSREDUCE.
  
 
 ----------------------------------------------------------------------------
-GSREDUCE -- Thu Jan 17 17:54:01 CST 2019
+GSREDUCE -- Fri Jan 25 13:08:50 CST 2019
 
-Input image or list  = @tmpfilelist32404_741
+Input image or list  = @tmpfilelist6710_741
 Output image or list = 
 Output prefix        = gs
 
@@ -1068,10 +1068,10 @@ GSREDUCE: Image S20070623S0108.fits has been QE corrected? no
 GGDBHELPER: gain database selected - gmos$data/gmosamps-20150826.dat
 GSREDUCE: Calling GIREDUCE to process image
 ----------------------------------------------------------------------------
-GIREDUCE -- Thu Jan 17 17:54:02 CST 2019
+GIREDUCE -- Fri Jan 25 13:08:50 CST 2019
 
 ----------------------------------------------------------------------------
-GPREPARE -- Thu Jan 17 17:54:02 CST 2019
+GPREPARE -- Fri Jan 25 13:08:51 CST 2019
 
 Input list    = S20070623S0108
 Output list   = 
@@ -1085,13 +1085,13 @@ Input  ../rawExample/S20070623S0108.fits   Output  gS20070623S0108.fits
 GPREPARE: Using MDF defined in the header 1.0arcsec
 GPREPARE: Taking MDF from directory gmos$data/
 --------------------------------------------------------------------------------
-GGAIN -- Started: 2019-01-17T23:54:02
+GGAIN -- Started: 2019-01-25T19:08:51
 File[extension]:             AMPNAME                  GAIN   READNOISE
 gS20070623S0108.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
 gS20070623S0108.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
 gS20070623S0108.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
 
-GGAIN -- Finished: 2019-01-17T23:54:02
+GGAIN -- Finished: 2019-01-25T19:08:51
 
 GGAIN -- Exit staus: GOOD
 
@@ -1104,16 +1104,16 @@ Input files:
 gS20070623S0108
 
 Output files:
-tmpimage132404_748
+tmpimage16710_748
 
 WARNING - GIREDUCE: Bad Pixel Mask filename is an empty string
                     Only saturated pixels will be flagged
-GIREDUCE: Image tmpimage132404_748 overscan subtracted
-GIREDUCE: Image tmpimage132404_748 trimmed
+GIREDUCE: Image tmpimage16710_748 overscan subtracted
+GIREDUCE: Image tmpimage16710_748 trimmed
 
 Output image       Bias                 Flat               Dark       Scale 
-tmpimage132404_748 MCbiasCenSp          INDEF              INDEF       0.00
-GSAT - Started: 2019-01-17T17:54:06
+tmpimage16710_748  MCbiasCenSp          INDEF              INDEF       0.00
+GSAT - Started: 2019-01-25T13:08:55
 GSAT: Bias level is 718.0934 Gain level is 2.372
 GSAT: Bias corrected - yes
 GSAT: Input in electrons - no
@@ -1122,9 +1122,9 @@ GSAT: Calculated CCD saturation limit is 64816.9066
 GSAT: Calculated controller saturation limit is 64816.9066
 GSAT: Scaling saturation value by 1.0
 GSAT: Output saturation is 65000.0
-GSAT - Finished: 2019-01-17T17:54:06
+GSAT - Finished: 2019-01-25T13:08:55
 GSAT - Exit status: GOOD
-GSAT - Started: 2019-01-17T17:54:06
+GSAT - Started: 2019-01-25T13:08:55
 GSAT: Bias level is 680.6636 Gain level is 2.076
 GSAT: Bias corrected - yes
 GSAT: Input in electrons - no
@@ -1133,9 +1133,9 @@ GSAT: Calculated CCD saturation limit is 64854.3364
 GSAT: Calculated controller saturation limit is 64854.3364
 GSAT: Scaling saturation value by 1.0
 GSAT: Output saturation is 65000.0
-GSAT - Finished: 2019-01-17T17:54:06
+GSAT - Finished: 2019-01-25T13:08:55
 GSAT - Exit status: GOOD
-GSAT - Started: 2019-01-17T17:54:06
+GSAT - Started: 2019-01-25T13:08:55
 GSAT: Bias level is 651.8098 Gain level is 2.097
 GSAT: Bias corrected - yes
 GSAT: Input in electrons - no
@@ -1144,27 +1144,27 @@ GSAT: Calculated CCD saturation limit is 64883.1902
 GSAT: Calculated controller saturation limit is 64883.1902
 GSAT: Scaling saturation value by 1.0
 GSAT: Output saturation is 65000.0
-GSAT - Finished: 2019-01-17T17:54:06
+GSAT - Finished: 2019-01-25T13:08:55
 GSAT - Exit status: GOOD
-GIREDUCE: Subtracted bias MCbiasCenSp from tmpimage132404_748
-GIREDUCE: multiplying image tmpimage132404_748 by gain
+GIREDUCE: Subtracted bias MCbiasCenSp from tmpimage16710_748
+GIREDUCE: multiplying image tmpimage16710_748 by gain
 --------------------------------------------------------------------------------
-GGAIN -- Started: 2019-01-17T23:54:07
-File[extension]:                AMPNAME                  GAIN   READNOISE
-tmpimage132404_748.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
-tmpimage132404_748.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
-tmpimage132404_748.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
+GGAIN -- Started: 2019-01-25T19:08:55
+File[extension]:               AMPNAME                  GAIN   READNOISE
+tmpimage16710_748.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
+tmpimage16710_748.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
+tmpimage16710_748.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
 
-GGAIN -- Finished: 2019-01-17T23:54:07
+GGAIN -- Finished: 2019-01-25T19:08:56
 
 GGAIN -- Exit staus: GOOD
 
 --------------------------------------------------------------------------------
 GIREDUCE: output counts in electrons
 
-GIREDUCE - Cleaning up -- Thu Jan 17 17:54:07 CST 2019
+GIREDUCE - Cleaning up -- Fri Jan 25 13:08:56 CST 2019
 
-GIREDUCE -- Thu Jan 17 17:54:07 CST 2019
+GIREDUCE -- Fri Jan 25 13:08:56 CST 2019
 GIREDUCE exit status:  good.
 ----------------------------------------------------------------------------
 GSREDUCE: Updating PHU and cleaning up
@@ -1186,5 +1186,58 @@ GSFLAT: fitting response functions for CCD2
 GSFLAT: fitting response functions for CCD3
         sample in fitting *
  
-GSFLAT done Thu Jan 17 17:54:08 CST 2019
+GSFLAT done Fri Jan 25 13:08:57 CST 2019
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+GSFLAT -- Fri Jan 25 13:12:14 CST 2019
+
+Input images or list              = S20070623S0061,S20070623S0070,S20070623S0080,S20070623S0090,S20070624S0066,S20070624S0075,S20070724S0042
+Output spectral flat              = MCflatFull
+Correct for slit function         = no
+Keep combined flat combflat       = no
+
+Fitting parameters for Spectral Flatfield: 
+  interactive = no
+  function    = spline3
+  order       = 13,11,28
+  low_reject  = 3.0
+  high_reject = 3.0
+  niterate    = 2
+  Fit detectors separately fl_detec = yes
+
+Overscan Subtraction fl_over   = yes
+Trim image           fl_trim   = yes
+Bias Subtraction     fl_bias   = yes
+Dark Subtraction     fl_dark   = no
+QE Correction        fl_qecorr = no
+VAR & DQ planes      fl_vardq  = yes
+Fixpix chip gaps     fl_fixpix = no
+Oversize slit length fl_oversize = no
+Fit detec. by detec. fl_detec  = yes
+Fit rows separately  fl_seprows = yes
+Use gradient method  fl_usegrad= no
+Mask emission lines  fl_emis   = no
+Reference image      refimage  = 
+N&S double flatfield fl_double = no
+
+bias        = MCbiasFull
+dark        = 
+qe_refim    = 
+qe_corrim   = 
+qe_corrpref = qecorr
+sci_ext     = SCI
+var_ext     = VAR
+dq_ext      = DQ
+bpm         = 
+key_mdf     = MASKNAME
+mdffile     = 
+mdfdir      = gmos$data/
+Chip gaps   = gmos$data/chipgaps.dat
+rawpath     = ../rawExample/
+
+ERROR - GSFLAT: Output file MCflatFull already exists.
+ERROR - GSFLAT: 1 fatal errors found.
+ 
+ERROR - GSFLAT: Program execution failed with 1 errors.
 --------------------------------------------------------------------------------

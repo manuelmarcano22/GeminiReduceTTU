@@ -1,0 +1,189 @@
+-------------------------------------------------------------------------------
+GSTRANSFORM -- Fri Jan 25 13:15:07 CST 2019
+ 
+
+inimages   = AM2306c
+outimages  = 
+outprefix  = t
+fl_stran   = no
+fl_wavtran = yes
+wavtraname = gsS20070623S0091
+database   = database
+fl_vardq   = yes
+interptype = linear
+lambda1    = INDEF
+lambda2    = INDEF
+dx         = INDEF
+nx         = INDEF
+lambdalog  = no
+ylog       = no
+fl_flux    = yes
+gratingdb  = gmos$data/GMOSgratings.dat
+filterdb   = gmos$data/GMOSfilters.dat
+key_dispaxis = DISPAXIS
+dispaxis   = 1
+sci_ext    = SCI
+var_ext = VAR
+dq_ext  = DQ
+
+Transforming AM2306c.fits[SCI,1]
+MDF row: 1
+
+NOAO/IRAF V2.16 mmarcano@tux Fri 13:15:08 25-Jan-2019
+  Transform AM2306c.fits[SCI,1] to tmpsci6710_2905.
+  Conserve flux per pixel.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      3432., x2 =      6269., dx =     0.9131, nx = 3108, xlog = no
+    y1 =         1., y2 =      1152., dy =         1., ny = 1152, ylog = no
+
+NOAO/IRAF V2.16 mmarcano@tux Fri 13:15:08 25-Jan-2019
+  Transform AM2306c.fits[VAR,1] to tmpvar6710_2906.
+  Conserve flux per pixel.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      3432., x2 =      6269., dx =     0.9131, nx = 3108, xlog = no
+    y1 =         1., y2 =      1152., dy =         1., ny = 1152, ylog = no
+
+NOAO/IRAF V2.16 mmarcano@tux Fri 13:15:09 25-Jan-2019
+  Transform AM2306c.fits[DQ,1] to tmpdq6710_2907.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      3432., x2 =      6269., dx =     0.9131, nx = 3108, xlog = no
+    y1 =         1., y2 =      1152., dy =         1., ny = 1152, ylog = no
+
+GSTRANSFORM exit status: good
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+GSTRANSFORM -- Fri Jan 25 13:15:16 CST 2019
+ 
+
+inimages   = AM2306b
+outimages  = 
+outprefix  = t
+fl_stran   = no
+fl_wavtran = yes
+wavtraname = gsS20070623S0081
+database   = database
+fl_vardq   = yes
+interptype = linear
+lambda1    = INDEF
+lambda2    = INDEF
+dx         = INDEF
+nx         = INDEF
+lambdalog  = no
+ylog       = no
+fl_flux    = yes
+gratingdb  = gmos$data/GMOSgratings.dat
+filterdb   = gmos$data/GMOSfilters.dat
+key_dispaxis = DISPAXIS
+dispaxis   = 1
+sci_ext    = SCI
+var_ext = VAR
+dq_ext  = DQ
+
+Transforming AM2306b.fits[SCI,1]
+MDF row: 1
+
+NOAO/IRAF V2.16 mmarcano@tux Fri 13:15:17 25-Jan-2019
+  Transform AM2306b.fits[SCI,1] to tmpsci6710_2950.
+  Conserve flux per pixel.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      3431., x2 =      6268., dx =     0.9132, nx = 3108, xlog = no
+    y1 =         1., y2 =      1152., dy =         1., ny = 1152, ylog = no
+
+NOAO/IRAF V2.16 mmarcano@tux Fri 13:15:18 25-Jan-2019
+  Transform AM2306b.fits[VAR,1] to tmpvar6710_2951.
+  Conserve flux per pixel.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      3431., x2 =      6268., dx =     0.9132, nx = 3108, xlog = no
+    y1 =         1., y2 =      1152., dy =         1., ny = 1152, ylog = no
+
+NOAO/IRAF V2.16 mmarcano@tux Fri 13:15:18 25-Jan-2019
+  Transform AM2306b.fits[DQ,1] to tmpdq6710_2952.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      3431., x2 =      6268., dx =     0.9132, nx = 3108, xlog = no
+    y1 =         1., y2 =      1152., dy =         1., ny = 1152, ylog = no
+
+GSTRANSFORM exit status: good
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+GSTRANSFORM -- Fri Jan 25 13:15:24 CST 2019
+ 
+
+inimages   = AM2306a
+outimages  = 
+outprefix  = t
+fl_stran   = no
+fl_wavtran = yes
+wavtraname = gsS20070623S0071
+database   = database
+fl_vardq   = yes
+interptype = linear
+lambda1    = INDEF
+lambda2    = INDEF
+dx         = INDEF
+nx         = INDEF
+lambdalog  = no
+ylog       = no
+fl_flux    = yes
+gratingdb  = gmos$data/GMOSgratings.dat
+filterdb   = gmos$data/GMOSfilters.dat
+key_dispaxis = DISPAXIS
+dispaxis   = 1
+sci_ext    = SCI
+var_ext = VAR
+dq_ext  = DQ
+
+Transforming AM2306a.fits[SCI,1]
+MDF row: 1
+
+NOAO/IRAF V2.16 mmarcano@tux Fri 13:15:24 25-Jan-2019
+  Transform AM2306a.fits[SCI,1] to tmpsci6710_2995.
+  Conserve flux per pixel.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      3432., x2 =      6269., dx =     0.9131, nx = 3108, xlog = no
+    y1 =         1., y2 =      1152., dy =         1., ny = 1152, ylog = no
+
+NOAO/IRAF V2.16 mmarcano@tux Fri 13:15:25 25-Jan-2019
+  Transform AM2306a.fits[VAR,1] to tmpvar6710_2996.
+  Conserve flux per pixel.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      3432., x2 =      6269., dx =     0.9131, nx = 3108, xlog = no
+    y1 =         1., y2 =      1152., dy =         1., ny = 1152, ylog = no
+
+NOAO/IRAF V2.16 mmarcano@tux Fri 13:15:26 25-Jan-2019
+  Transform AM2306a.fits[DQ,1] to tmpdq6710_2997.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      3432., x2 =      6269., dx =     0.9131, nx = 3108, xlog = no
+    y1 =         1., y2 =      1152., dy =         1., ny = 1152, ylog = no
+
+GSTRANSFORM exit status: good
+-------------------------------------------------------------------------------
+

@@ -79,3 +79,12 @@ ERROR - GSTRANSFORM: 1 errors found with input parameters. Exiting.
 GSTRANSFORM exit status: error
 -------------------------------------------------------------------------------
 
+-------------------------------------------------------------------------------
+GSTRANSFORM -- Fri Jan 25 12:48:43 CST 2019
+ 
+ERROR - GSTRANSFORM: Output image tObj7 exists
+ERROR - GSTRANSFORM: 1 errors found with input parameters. Exiting.
+
+GSTRANSFORM exit status: error
+-------------------------------------------------------------------------------
+

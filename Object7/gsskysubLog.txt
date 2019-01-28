@@ -92,3 +92,32 @@ ERROR - GSSKYSUB: 1 error(s) found. Exiting.
 GSSKYSUB done. Exit status bad. -- Wed Jan 23 17:04:51 CST 2019
 -------------------------------------------------------------------------------
 
+----------------------------------------------------------------------------
+GSSKYSUB -- Fri Jan 25 12:48:43 CST 2019
+
+input        = tObj7
+output       = 
+outpref      = s
+fl_vardq     = yes
+fl_oversize  = no
+sci_ext      = SCI
+var_ext      = VAR
+dq_ext       = DQ
+long_sample  = 100:500
+mos_sample   = 0.9
+mosobjsize   = 1.0
+naverage     = 1
+function     = chebyshev
+order        = 1
+low_reject   = 2.5
+high_reject  = 2.5
+niterate     = 2
+grow         = 0.0
+fl_inter     = no
+
+ERROR - GSSKYSUB: Output image stObj7 exist
+ERROR - GSSKYSUB: 1 error(s) found. Exiting.
+
+GSSKYSUB done. Exit status bad. -- Fri Jan 25 12:48:44 CST 2019
+-------------------------------------------------------------------------------
+
