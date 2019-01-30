@@ -1,7 +1,7 @@
 input,s,a,'copytObj7.fits',,,'List of input images'
 output,s,h,'copytObj7.ms.fits',,,'List of output spectra'
 apertures,s,h,'1',,,'Apertures'
-format,s,h,'multispec','|onedspec|multispec|echelle|strip|',,'Extracted spectra format'
+format,s,h,'onedspec','|onedspec|multispec|echelle|strip|',,'Extracted spectra format'
 references,s,h,'',,,'List of aperture reference images'
 profiles,s,h,'',,,'List of aperture profile images
 '
@@ -11,13 +11,13 @@ recenter,b,h,no,,,'Recenter apertures?'
 resize,b,h,no,,,'Resize apertures?'
 edit,b,h,no,,,'Edit apertures?'
 trace,b,h,no,,,'Trace apertures?'
-fittrace,b,h,yes,,,'Fit the traced points interactively?'
+fittrace,b,h,no,,,'Fit the traced points interactively?'
 extract,b,h,yes,,,'Extract spectra?'
-extras,b,h,yes,,,'Extract sky, sigma, etc.?'
+extras,b,h,no,,,'Extract sky, sigma, etc.?'
 review,b,h,yes,,,'Review extractions?
 '
 line,i,h,INDEF,1,,'Dispersion line'
-nsum,i,h,5,,,'Number of dispersion lines to sum or median
+nsum,i,h,1,,,'Number of dispersion lines to sum or median
 
 # DEFAULT APERTURE PARAMETERS
 '

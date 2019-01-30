@@ -1,0 +1,63 @@
+-------------------------------------------------------------------------------
+GSTRANSFORM -- Tue Jan 29 15:33:59 CST 2019
+ 
+
+inimages   = Obj1
+outimages  = 
+outprefix  = t
+fl_stran   = no
+fl_wavtran = yes
+wavtraname = gsS20180928S0014
+database   = database
+fl_vardq   = yes
+interptype = linear
+lambda1    = INDEF
+lambda2    = INDEF
+dx         = INDEF
+nx         = INDEF
+lambdalog  = no
+ylog       = no
+fl_flux    = yes
+gratingdb  = gmos$data/GMOSgratings.dat
+filterdb   = gmos$data/GMOSfilters.dat
+key_dispaxis = DISPAXIS
+dispaxis   = 1
+sci_ext    = SCI
+var_ext = VAR
+dq_ext  = DQ
+
+Transforming Obj1.fits[SCI,1]
+MDF row: 1
+
+NOAO/IRAF V2.16 mmarcano@tux Tue 15:34:00 29-Jan-2019
+  Transform Obj1.fits[SCI,1] to tmpsci10540_2149.
+  Conserve flux per pixel.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4256., x2 =      8930., dx =      1.493, nx = 3132, xlog = no
+    y1 =         1., y2 =      2088., dy =         1., ny = 2088, ylog = no
+
+NOAO/IRAF V2.16 mmarcano@tux Tue 15:34:01 29-Jan-2019
+  Transform Obj1.fits[VAR,1] to tmpvar10540_2150.
+  Conserve flux per pixel.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4256., x2 =      8930., dx =      1.493, nx = 3132, xlog = no
+    y1 =         1., y2 =      2088., dy =         1., ny = 2088, ylog = no
+
+NOAO/IRAF V2.16 mmarcano@tux Tue 15:34:02 29-Jan-2019
+  Transform Obj1.fits[DQ,1] to tmpdq10540_2151.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4256., x2 =      8930., dx =      1.493, nx = 3132, xlog = no
+    y1 =         1., y2 =      2088., dy =         1., ny = 2088, ylog = no
+
+GSTRANSFORM exit status: good
+-------------------------------------------------------------------------------
+

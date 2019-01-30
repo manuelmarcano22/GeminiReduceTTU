@@ -924,3 +924,19 @@ ERROR - GSWAVELENGTH: gsS20070623S0109 does not exist or is not a MEF
  
 GSWAVELENGTH exit status: error
 --------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+GSWAVELENGTH -- Mon Jan 28 14:26:40 CST 2019
+ 
+inimages = gsgsS20070623S0071
+ERROR - GSWAVELENGTH: gsgsS20070623S0071 does not exist or is not a MEF
+ 
+GSWAVELENGTH exit status: error
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+GSWAVELENGTH -- Mon Jan 28 14:27:12 CST 2019
+ 
+inimages = gsgsS20070623S0071
+ERROR - GSWAVELENGTH: gsgsS20070623S0071 does not exist or is not a MEF
+ 
+GSWAVELENGTH exit status: error
+--------------------------------------------------------------------------------

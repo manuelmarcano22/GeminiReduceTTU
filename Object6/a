@@ -1,0 +1,40 @@
+Jan 29 13:35: DATABASE  - 1 apertures read for copytObj6 from database
+Jan 29 13:35: EXTRACT: 4284 pixels rejected for profile from aperture 1
+Jan 29 13:35: EXTRACT: Aperture 1 variance spectrum bias factor is 1.031247
+Jan 29 13:35: EXTRACT: 166 pixels rejected from aperture 1
+Jan 29 13:35: EXTRACT - Aperture 1 from copytObj6 --> copytObj6.ms.0001
+Jan 29 13:36: DATABASE  - 1 apertures read for copytObj6 from database
+Jan 29 13:36: EXTRACT: 2047 pixels rejected for profile from aperture 1
+Jan 29 13:36: EXTRACT: Aperture 1 variance spectrum bias factor is 1.091781
+Jan 29 13:36: EXTRACT: 893 pixels rejected from aperture 1
+Jan 29 13:36: EXTRACT - Aperture 1 from copytObj6 --> copytObj6.ms.0001
+Jan 29 13:36: DATABASE  - 1 apertures read for copytObj6 from database
+Jan 29 13:36: EXTRACT: 5492 pixels rejected for profile from aperture 1
+Jan 29 13:36: EXTRACT: Aperture 1 variance spectrum bias factor is 1.126087
+Jan 29 13:36: EXTRACT: 1889 pixels rejected from aperture 1
+Jan 29 13:36: EXTRACT - Aperture 1 from copytObj6 --> copytObj6.ms.0001
+Jan 29 13:37: DATABASE  - 1 apertures read for copytObj6 from database
+Jan 29 13:37: EXTRACT: 369 pixels rejected for profile from aperture 1
+Jan 29 13:37: EXTRACT: Aperture 1 variance spectrum bias factor is 1.035435
+Jan 29 13:37: EXTRACT: 121 pixels rejected from aperture 1
+Jan 29 13:37: EXTRACT - Aperture 1 from copytObj6 --> copytObj6.ms.0001
+Jan 29 13:37: DATABASE  - 1 apertures read for copytObj6 from database
+Jan 29 13:37: EXTRACT: 4978 pixels rejected for profile from aperture 1
+Jan 29 13:37: EXTRACT: Aperture 1 variance spectrum bias factor is 1.164981
+Jan 29 13:37: EXTRACT: 92 pixels rejected from aperture 1
+Jan 29 13:37: EXTRACT - Aperture 1 from copytObj6 --> copytObj6.ms.0001
+Jan 29 13:38: DATABASE  - 1 apertures read for copytObj6 from database
+Jan 29 13:38: EXTRACT: 327 pixels rejected for profile from aperture 1
+Jan 29 13:38: EXTRACT: Aperture 1 variance spectrum bias factor is 1.038043
+Jan 29 13:38: EXTRACT: 97 pixels rejected from aperture 1
+Jan 29 13:38: EXTRACT - Aperture 1 from copytObj6 --> copytObj6.ms.0001
+Jan 29 13:39: DATABASE  - 1 apertures read for copytObj6 from database
+Jan 29 13:39: EXTRACT: 383 pixels rejected for profile from aperture 1
+Jan 29 13:39: EXTRACT: Aperture 1 variance spectrum bias factor is 1.011745
+Jan 29 13:39: EXTRACT: 110 pixels rejected from aperture 1
+Jan 29 13:39: EXTRACT - Aperture 1 from copytObj6 --> copytObj6.ms.0001
+Jan 29 13:42: DATABASE  - 1 apertures read for copytObj6 from database
+Jan 29 13:42: EXTRACT: 297 pixels rejected for profile from aperture 1
+Jan 29 13:42: EXTRACT: Aperture 1 variance spectrum bias factor is 0.9951434
+Jan 29 13:42: EXTRACT: 102 pixels rejected from aperture 1
+Jan 29 13:42: EXTRACT - Aperture 1 from copytObj6 --> copytObj6.ms.0001

@@ -103,3 +103,75 @@ GEMCOMBINE -- Finished: Fri Jan 25 13:15:24 CST 2019
  
 GEMCOMBINE -- Exit status: GOOD
 --------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+GEMCOMBINE -- Mon Jan 28 14:26:40 CST 2019
+ 
+GEMCOMBINE: input = gsS20070623S0072,gsS20070623S0073,gsS20070623S0074,gsS20070623S0075,gsS20070623S0082,gsS20070623S0083,gsS20070623S0084,gsS20070623S0085,gsS20070623S0092,gsS20070623S0097,gsS20070623S0098,gsS20070623S0099
+GEMCOMBINE: output = AM2306%
+GEMCOMBINE: title = 
+GEMCOMBINE: bpmfile = 
+GEMCOMBINE: sci_ext = SCI
+GEMCOMBINE: var_ext = VAR
+GEMCOMBINE: dq_ext = DQ
+ 
+
+Jan 28 14:26: IMCOMBINE
+  combine = average, scale = none, zero = none, weight = none
+  reject = ccdclip, mclip = yes, nkeep = 1
+  rdnoise = 3.85, gain = 1.0, snoise = 0.0, sigma = 3., hsigma = 3.
+  blank = 0.
+  statsec = Jan 28 14:26
+                Images     Exp
+  gsS20070623S0072.fits[SCI,1]  700.5
+  gsS20070623S0073.fits[SCI,1]  700.5
+  gsS20070623S0074.fits[SCI,1]  700.5
+  gsS20070623S0075.fits[SCI,1]  700.5
+  gsS20070623S0082.fits[SCI,1]  700.5
+  gsS20070623S0083.fits[SCI,1]  700.5
+  gsS20070623S0084.fits[SCI,1]  700.5
+  gsS20070623S0085.fits[SCI,1]  700.5
+  gsS20070623S0092.fits[SCI,1]  700.5
+  gsS20070623S0097.fits[SCI,1]  700.5
+  gsS20070623S0098.fits[SCI,1]  700.5
+  gsS20070623S0099.fits[SCI,1]  700.5
+
+  Output image = tmpcombout23047_13, ncombine = 12
+  Number rejected mask = tmpcombdq23047_14.pl
+  Sigma image = tmpcombsig23047_15
+--------------------------------------------------------------------------------
+GEMCOMBINE -- Mon Jan 28 14:27:12 CST 2019
+ 
+GEMCOMBINE: input = gsS20070623S0072,gsS20070623S0073,gsS20070623S0074,gsS20070623S0075,gsS20070623S0082,gsS20070623S0083,gsS20070623S0084,gsS20070623S0085,gsS20070623S0092,gsS20070623S0097,gsS20070623S0098,gsS20070623S0099
+GEMCOMBINE: output = AM2306%
+GEMCOMBINE: title = 
+GEMCOMBINE: bpmfile = 
+GEMCOMBINE: sci_ext = SCI
+GEMCOMBINE: var_ext = VAR
+GEMCOMBINE: dq_ext = DQ
+ 
+
+Jan 28 14:27: IMCOMBINE
+  combine = average, scale = none, zero = none, weight = none
+  reject = ccdclip, mclip = yes, nkeep = 1
+  rdnoise = 3.85, gain = 1.0, snoise = 0.0, sigma = 3., hsigma = 3.
+  blank = 0.
+  statsec = Jan 28 14:27
+                Images     Exp
+  gsS20070623S0072.fits[SCI,1]  700.5
+  gsS20070623S0073.fits[SCI,1]  700.5
+  gsS20070623S0074.fits[SCI,1]  700.5
+  gsS20070623S0075.fits[SCI,1]  700.5
+  gsS20070623S0082.fits[SCI,1]  700.5
+  gsS20070623S0083.fits[SCI,1]  700.5
+  gsS20070623S0084.fits[SCI,1]  700.5
+  gsS20070623S0085.fits[SCI,1]  700.5
+  gsS20070623S0092.fits[SCI,1]  700.5
+  gsS20070623S0097.fits[SCI,1]  700.5
+  gsS20070623S0098.fits[SCI,1]  700.5
+  gsS20070623S0099.fits[SCI,1]  700.5
+
+  Output image = tmpcombout23047_54, ncombine = 12
+  Number rejected mask = tmpcombdq23047_55.pl
+  Sigma image = tmpcombsig23047_56
+ 
+GEMCOMBINE: Propagating DQ values

@@ -1,0 +1,80 @@
+Jan 29 17:33: DATABASE  - 1 apertures read for copytObj2 from database
+Jan 29 17:33: EXTRACT: 3172 pixels rejected for profile from aperture 1
+Jan 29 17:33: EXTRACT: WARNING - Aperture 1:
+Jan 29 17:33:    Total variance weighted spectrum flux is -4.016987E9
+Jan 29 17:33:    Total unweighted spectrum flux is -1.343766E9
+Jan 29 17:33: EXTRACT: Aperture 1 variance spectrum bias factor is 0.3345208
+Jan 29 17:33: EXTRACT: 140 pixels rejected from aperture 1
+Jan 29 17:33: EXTRACT - Aperture 1 from copytObj2 --> copytObj2.ms.0001
+Jan 29 17:34: DATABASE  - 1 apertures read for copytObj2 from database
+Jan 29 17:34: EXTRACT: 3360 pixels rejected for profile from aperture 1
+Jan 29 17:34: EXTRACT: WARNING - Aperture 1:
+Jan 29 17:34:    Total variance weighted spectrum flux is -2.773140E10
+Jan 29 17:34:    Total unweighted spectrum flux is -4.269414E9
+Jan 29 17:34: EXTRACT: Aperture 1 variance spectrum bias factor is 0.1539559
+Jan 29 17:34: EXTRACT: 748 pixels rejected from aperture 1
+Jan 29 17:34: EXTRACT - Aperture 1 from copytObj2 --> copytObj2.ms.0001
+Jan 29 17:34: DATABASE  - 1 apertures read for copytObj2 from database
+Jan 29 17:34: EXTRACT: 3324 pixels rejected for profile from aperture 1
+Jan 29 17:34: EXTRACT: WARNING - Aperture 1:
+Jan 29 17:34:    Total variance weighted spectrum flux is -7.094391E9
+Jan 29 17:34:    Total unweighted spectrum flux is -2.908327E9
+Jan 29 17:34: EXTRACT: Aperture 1 variance spectrum bias factor is 0.4099474
+Jan 29 17:34: EXTRACT: 132 pixels rejected from aperture 1
+Jan 29 17:34: EXTRACT - Aperture 1 from copytObj2 --> copytObj2.ms.0001
+Jan 29 17:35: DATABASE  - 1 apertures read for copytObj2 from database
+Jan 29 17:35: EXTRACT: 2732 pixels rejected for profile from aperture 1
+Jan 29 17:35: EXTRACT: WARNING - Aperture 1:
+Jan 29 17:35:    Total variance weighted spectrum flux is -8.413877E9
+Jan 29 17:35:    Total unweighted spectrum flux is -1.669883E9
+Jan 29 17:35: EXTRACT: Aperture 1 variance spectrum bias factor is 0.1984677
+Jan 29 17:35: EXTRACT: 109 pixels rejected from aperture 1
+Jan 29 17:35: EXTRACT - Aperture 1 from copytObj2 --> copytObj2.ms.0001
+Jan 29 17:35: DATABASE  - 1 apertures read for copytObj2 from database
+Jan 29 17:35: EXTRACT: 2920 pixels rejected for profile from aperture 1
+Jan 29 17:35: EXTRACT: WARNING - Aperture 1:
+Jan 29 17:35:    Total variance weighted spectrum flux is -1.287304E10
+Jan 29 17:35:    Total unweighted spectrum flux is -1.836028E9
+Jan 29 17:35: EXTRACT: Aperture 1 variance spectrum bias factor is 0.1426259
+Jan 29 17:35: EXTRACT: 153 pixels rejected from aperture 1
+Jan 29 17:35: EXTRACT - Aperture 1 from copytObj2 --> copytObj2.ms.0001
+Jan 29 17:36: DATABASE  - 1 apertures read for copytObj2 from database
+Jan 29 17:36: EXTRACT: 268 pixels rejected for profile from aperture 1
+Jan 29 17:36: EXTRACT: WARNING - Aperture 1:
+Jan 29 17:36:    Total variance weighted spectrum flux is -5.968473E9
+Jan 29 17:36:    Total unweighted spectrum flux is -1.670535E9
+Jan 29 17:36: EXTRACT: Aperture 1 variance spectrum bias factor is 0.2798932
+Jan 29 17:36: EXTRACT: 79 pixels rejected from aperture 1
+Jan 29 17:36: EXTRACT - Aperture 1 from copytObj2 --> copytObj2.ms.0001
+Jan 29 17:36: DATABASE  - 1 apertures read for copytObj2 from database
+Jan 29 17:36: EXTRACT: 574 pixels rejected for profile from aperture 1
+Jan 29 17:36: EXTRACT: WARNING - Aperture 1:
+Jan 29 17:36:    Total variance weighted spectrum flux is -2.371039E10
+Jan 29 17:36:    Total unweighted spectrum flux is -5.294633E9
+Jan 29 17:36: EXTRACT: Aperture 1 variance spectrum bias factor is 0.2233043
+Jan 29 17:36: EXTRACT: 112 pixels rejected from aperture 1
+Jan 29 17:36: EXTRACT - Aperture 1 from copytObj2 --> copytObj2.ms.0001
+Jan 29 17:37: DATABASE  - 1 apertures read for copytObj2 from database
+Jan 29 17:37: EXTRACT: 395 pixels rejected for profile from aperture 1
+Jan 29 17:37: EXTRACT: WARNING - Aperture 1:
+Jan 29 17:37:    Total variance weighted spectrum flux is -591232.1
+Jan 29 17:37:    Total unweighted spectrum flux is -66449.12
+Jan 29 17:37: EXTRACT: Aperture 1 variance spectrum bias factor is 0.1123909
+Jan 29 17:37: EXTRACT: 112 pixels rejected from aperture 1
+Jan 29 17:37: EXTRACT - Aperture 1 from copytObj2 --> copytObj2.ms.0001
+Jan 29 17:53: DATABASE  - 1 apertures read for copytObj2 from database
+Jan 29 17:53: EXTRACT: 2673 pixels rejected for profile from aperture 1
+Jan 29 17:53: EXTRACT: WARNING - Aperture 1:
+Jan 29 17:53:    Total variance weighted spectrum flux is -1.337927E10
+Jan 29 17:53:    Total unweighted spectrum flux is -4.081195E9
+Jan 29 17:53: EXTRACT: Aperture 1 variance spectrum bias factor is 0.3050388
+Jan 29 17:53: EXTRACT: 151 pixels rejected from aperture 1
+Jan 29 17:53: EXTRACT - Aperture 1 from copytObj2 --> copytObj2.ms.0001
+Jan 29 17:53: DATABASE  - 1 apertures read for copytObj2 from database
+Jan 29 17:53: EXTRACT: 4204 pixels rejected for profile from aperture 1
+Jan 29 17:53: EXTRACT: WARNING - Aperture 1:
+Jan 29 17:53:    Total variance weighted spectrum flux is -5.384591E10
+Jan 29 17:53:    Total unweighted spectrum flux is -9.614744E9
+Jan 29 17:53: EXTRACT: Aperture 1 variance spectrum bias factor is 0.1785603
+Jan 29 17:53: EXTRACT: 579 pixels rejected from aperture 1
+Jan 29 17:53: EXTRACT - Aperture 1 from copytObj2 --> copytObj2.ms.0001

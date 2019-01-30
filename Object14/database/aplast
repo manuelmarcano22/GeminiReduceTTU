@@ -1,56 +1,27 @@
-# Fri 15:13:55 30-Nov-2018
-begin	aperture last 1 1566. 1049.848
+# Tue 14:56:31 29-Jan-2019
+begin	aperture last 1 1250. 1146.
 	image	last
 	aperture	1
 	beam	1
-	center	1566. 1049.848
-	low	-1565. -6.347033
-	high	1566. 6.105745
+	center	1250. 1146.
+	low	-1249. -5.
+	high	1250. 5.
 	background
-		xmin -10.
-		xmax 10.
+		xmin 1056.
+		xmax -994.
 		function chebyshev
 		order 1
-		sample -10:-6,6:10
+		sample 1056:1076,-1003:-994
 		naverage -3
 		niterate 0
 		low_reject 3.
 		high_reject 3.
 		grow 0.
 	axis	2
-	curve	6
+	curve	5
 		2.
-		2.
-		6.
-		3126.
-		-0.1405839
-		1.284581
-
-# Fri 15:13:55 30-Nov-2018
-begin	aperture last 2 1566. 1143.665
-	image	last
-	aperture	2
-	beam	2
-	center	1566. 1143.665
-	low	-1565. -6.81322
-	high	1566. 6.234031
-	background
-		xmin -10.
-		xmax 10.
-		function chebyshev
-		order 1
-		sample -10:-6,6:10
-		naverage -3
-		niterate 0
-		low_reject 3.
-		high_reject 3.
-		grow 0.
-	axis	2
-	curve	6
-		2.
-		2.
-		6.
-		3126.
-		0.07391574
-		0.7525893
+		1.
+		1.
+		2500.
+		0.
 

@@ -61,3 +61,66 @@ NOAO/IRAF V2.16 mmarcano@tux Fri 13:56:40 30-Nov-2018
 GSTRANSFORM exit status: good
 -------------------------------------------------------------------------------
 
+-------------------------------------------------------------------------------
+GSTRANSFORM -- Tue Jan 29 13:26:04 CST 2019
+ 
+
+inimages   = Obj4
+outimages  = 
+outprefix  = t
+fl_stran   = no
+fl_wavtran = yes
+wavtraname = gsS20180928S0014
+database   = database
+fl_vardq   = yes
+interptype = linear
+lambda1    = INDEF
+lambda2    = INDEF
+dx         = INDEF
+nx         = INDEF
+lambdalog  = no
+ylog       = no
+fl_flux    = yes
+gratingdb  = gmos$data/GMOSgratings.dat
+filterdb   = gmos$data/GMOSfilters.dat
+key_dispaxis = DISPAXIS
+dispaxis   = 1
+sci_ext    = SCI
+var_ext = VAR
+dq_ext  = DQ
+
+Transforming Obj4.fits[SCI,1]
+MDF row: 1
+
+NOAO/IRAF V2.16 mmarcano@tux Tue 13:26:05 29-Jan-2019
+  Transform Obj4.fits[SCI,1] to tmpsci5878_451.
+  Conserve flux per pixel.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4256., x2 =      8930., dx =      1.493, nx = 3132, xlog = no
+    y1 =         1., y2 =      2088., dy =         1., ny = 2088, ylog = no
+
+NOAO/IRAF V2.16 mmarcano@tux Tue 13:26:06 29-Jan-2019
+  Transform Obj4.fits[VAR,1] to tmpvar5878_452.
+  Conserve flux per pixel.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4256., x2 =      8930., dx =      1.493, nx = 3132, xlog = no
+    y1 =         1., y2 =      2088., dy =         1., ny = 2088, ylog = no
+
+NOAO/IRAF V2.16 mmarcano@tux Tue 13:26:07 29-Jan-2019
+  Transform Obj4.fits[DQ,1] to tmpdq5878_453.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4256., x2 =      8930., dx =      1.493, nx = 3132, xlog = no
+    y1 =         1., y2 =      2088., dy =         1., ny = 2088, ylog = no
+
+GSTRANSFORM exit status: good
+-------------------------------------------------------------------------------
+

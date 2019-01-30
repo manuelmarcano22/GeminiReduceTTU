@@ -283,3 +283,20 @@ GEMCOMBINE -- Finished: Tue Nov 27 20:04:53 CST 2018
  
 GEMCOMBINE -- Exit status: GOOD
 --------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+GEMCOMBINE -- Tue Jan 29 13:34:20 CST 2019
+ 
+GEMCOMBINE: input = gsS20181004S0022,gsS20181004S0023
+GEMCOMBINE: output = Obj6
+GEMCOMBINE: title = 
+GEMCOMBINE: bpmfile = 
+GEMCOMBINE: sci_ext = SCI
+GEMCOMBINE: var_ext = VAR
+GEMCOMBINE: dq_ext = DQ
+ 
+ERROR - GEMCOMBINE: Output file Obj6 already exists.
+ 
+GEMCOMBINE -- Finished: Tue Jan 29 13:34:20 CST 2019
+ 
+GEMCOMBINE -- Exit status: ERROR
+--------------------------------------------------------------------------------

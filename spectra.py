@@ -43,9 +43,12 @@ output_notebook()
 
 name = pyds9.ds9_targets()
 if name != 'None':
-    name1 = name[0].split()[1]
-    #print(name1)
-    d = pyds9.DS9(name1)
+    try:
+        name1 = name[0].split()[1]
+        #print(name1)
+        d = pyds9.DS9(name1)
+    except:
+        pass
     
     
 
@@ -84,8 +87,11 @@ def reducedgemini(qd,arcname,datadirall='../raw/',ds9=True,skyreg='100:500'):
     
     # Open it in DS9 to see it
     if ds9 == True:
-        biasfit = fits.open('MCbiasFull.fits')
-        d.set_fits(biasfit)
+        try:
+            biasfit = fits.open('MCbiasFull.fits')
+            d.set_fits(biasfit)
+        except:
+            pass
     
         # Set the task parameters.
     qd['Full'].update({'DateObs':'*'})
@@ -109,8 +115,11 @@ def reducedgemini(qd,arcname,datadirall='../raw/',ds9=True,skyreg='100:500'):
     iraf.imdel('gS2018*.fits,gsS2018*.fits')
 
     if ds9 == True:
-        flatfile = fits.open('MCflatFull.fits')
-        d.set_fits(flatfile)
+        try:
+            flatfile = fits.open('MCflatFull.fits')
+            d.set_fits(flatfile)
+        except:
+            pass
         
         
     # Set task parameters.
@@ -188,7 +197,7 @@ def reducedgemini(qd,arcname,datadirall='../raw/',ds9=True,skyreg='100:500'):
     
     
     sciTargets = {
-    'Obj-7':{'arc':'gs'+arcname,'sky':skyreg},
+    qd['Full']['Object']:{'arc':'gs'+arcname,'sky':skyreg},
     }
 
     prefix = "gs"
@@ -207,8 +216,11 @@ def reducedgemini(qd,arcname,datadirall='../raw/',ds9=True,skyreg='100:500'):
     iraf.imdel("gsS2018*.fits")
 
     if ds9 == True:
-        spectrafile = fits.open('t'+sciOut+'.fits')
-        d.set_fits(spectrafile)
+        try:
+            spectrafile = fits.open('t'+sciOut+'.fits')
+            d.set_fits(spectrafile)
+        except:
+            pass
         
 
 
@@ -321,9 +333,15 @@ def getspectra(sourcenameorg,center,low,high,b_lowr=[90,70],b_upr = [143,152],xr
     
     #Databse dowlaoded from old agithub vimos cx25
     databasegeneral = 'database/apcx25sexm'
-    filename = 'database/ap'+sourcenameorg
+    #filename = 'database/ap'+sourcenameorg
     sourcename = 'copy'+sourcenameorg
-
+    filename = 'database/ap'+sourcename
+    #print(sourcename)
+    if not os.path.isfile(sourcename+'.fits'):
+        print('copy')
+        iraf.imcopy(sourcenameorg+'[SCI]',sourcename)
+    else:
+        print('no')
     copyfile(databasegeneral,filename)
     #Now read and replace center and upper and lower values
     with open(filename) as f:
@@ -387,7 +405,7 @@ def getspectra(sourcenameorg,center,low,high,b_lowr=[90,70],b_upr = [143,152],xr
     iraf.noao.twodspec.apextract.apall.setParam('b_sample','-10,0:0,0')
     iraf.noao.apextract.apall.saveParList(filename='uparm/'+sourcename+'.par')
     iraf.noao.twodspec.apextract.apall(ParList='uparm/'+sourcename+'.par')
-
+    #print(sourcename)
     
         #Plotting
     ##For srfm[0].header["CTYPE1"] = 'LINEAR'
@@ -404,6 +422,13 @@ def getspectra(sourcenameorg,center,low,high,b_lowr=[90,70],b_upr = [143,152],xr
     #Create ColumnDataSource
     #x = np.array(xlist)
     #y = np.array(secondstar)
+    
+    
+            
+    ##added this becuase it is onedspec
+    #if os.path.exists()
+    os.rename(sourcename+'.ms.0001.fits',sourcename+'.ms.fits')
+
 
     #Not sure if I need to do this
     if os.path.exists(sourcename+'.dispcor.fits'):
@@ -547,8 +572,10 @@ def plotgaussian(sourcename,x,y,xrange,yrange,linestofit,regionlines):
         xlimns = [find_nearest(x,i)[0] for i in lines[1]    ]
         wavex = x[xlimns[0]:xlimns[1]]
         lineszero = lines[0]
+        print(lineszero)
         #! echo '$lineszero' > lines.lines
         with open('lines.lines','w') as file:
+            #print(lineszero)
             file.write(lineszero)
 
 
@@ -581,3 +608,40 @@ def plotgaussian(sourcename,x,y,xrange,yrange,linestofit,regionlines):
 
     show(plot)
 
+def plotspectra(fitsfilename,xrange,yrange):
+        #Not sure if I need to do this
+        
+    filetocreate = 'e'+fitsfilename+'.fits'
+    if os.path.exists(filetocreate):
+        os.remove(filetocreate)
+
+    iraf.dispcor(fitsfilename+'.ms.fits',filetocreate)
+    iraf.wspectext(filetocreate+'[*,1,1]',fitsfilename+'.txt',header='no')
+
+    x=[]
+    y=[]
+    with open(fitsfilename+'.txt') as f:
+        for lines in f:
+            x.append(float(lines.split()[0]))
+            y.append(float(lines.split()[1]))
+
+
+    source = ColumnDataSource(data=dict(x=x,y=y))
+    hover = HoverTool(
+            tooltips=[
+                #("index", "$index"),
+                ("(x,y)", "($x{1.11}, $y)"),
+            ]
+        )
+
+    #yr = (0,500)
+    #xr = (6560,6570)
+    xr= xrange
+    yr = yrange
+    plot = figure(x_axis_label='Angstrom', y_axis_label='Y',title="Spectra",
+                  active_scroll='wheel_zoom',plot_width=900, plot_height=700,y_range=yr,x_range=xr)
+    plot.add_tools(hover)
+    #plot.add_tools(tools.ResizeTool())
+    plot.line('x','y',source=source)
+    show(plot)
+    #return x,y

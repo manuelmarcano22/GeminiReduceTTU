@@ -1,0 +1,5 @@
+Jan 29 17:52: DATABASE  - 1 apertures read for copytObj3 from database
+Jan 29 17:52: EXTRACT: 4877 pixels rejected for profile from aperture 1
+Jan 29 17:52: EXTRACT: Aperture 1 variance spectrum bias factor is 0.9822255
+Jan 29 17:52: EXTRACT: 749 pixels rejected from aperture 1
+Jan 29 17:52: EXTRACT - Aperture 1 from copytObj3 --> copytObj3.ms.0001

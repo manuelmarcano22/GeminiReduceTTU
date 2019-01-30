@@ -1,140 +1,27 @@
-# Tue 14:57:35 20-Nov-2018
-begin	aperture last 3 1566. 828.9747
-	image	last
-	aperture	3
-	beam	3
-	center	1566. 828.9747
-	low	-1565. -6.755653
-	high	1566. 6.966844
-	background
-		xmin -10.
-		xmax 10.
-		function chebyshev
-		order 1
-		sample -10:-6,6:10
-		naverage -3
-		niterate 0
-		low_reject 3.
-		high_reject 3.
-		grow 0.
-	axis	2
-	curve	6
-		2.
-		2.
-		6.
-		3126.
-		3.604649
-		-1.498359
-
-# Tue 14:57:35 20-Nov-2018
-begin	aperture last 4 1566. 1020.749
-	image	last
-	aperture	4
-	beam	4
-	center	1566. 1020.749
-	low	-1565. -2.970428
-	high	1566. 3.883745
-	background
-		xmin -10.
-		xmax 10.
-		function chebyshev
-		order 1
-		sample -10:-6,6:10
-		naverage -3
-		niterate 0
-		low_reject 3.
-		high_reject 3.
-		grow 0.
-	axis	2
-	curve	6
-		2.
-		2.
-		6.
-		3126.
-		-2.858085
-		-4.515572
-
-# Tue 14:57:35 20-Nov-2018
-begin	aperture last 1 1566. 1048.168
+# Tue 13:21:13 29-Jan-2019
+begin	aperture last 1 1250. 1050.
 	image	last
 	aperture	1
 	beam	1
-	center	1566. 1048.168
-	low	-1565. -4.503457
-	high	1566. 4.556102
+	center	1250. 1050.
+	low	-1249. -5.
+	high	1250. 5.
 	background
-		xmin -10.
-		xmax 10.
+		xmin 960.
+		xmax -898.
 		function chebyshev
 		order 1
-		sample -10:-6,6:10
+		sample 960:980,-907:-898
 		naverage -3
 		niterate 0
 		low_reject 3.
 		high_reject 3.
 		grow 0.
 	axis	2
-	curve	6
+	curve	5
 		2.
-		2.
-		16.
-		3126.
-		2.164462
-		-2.747558
-
-# Tue 14:57:35 20-Nov-2018
-begin	aperture last 5 1566. 1077.184
-	image	last
-	aperture	5
-	beam	5
-	center	1566. 1077.184
-	low	-1565. -2.521397
-	high	1566. 4.256047
-	background
-		xmin -10.
-		xmax 10.
-		function chebyshev
-		order 1
-		sample -10:-6,6:10
-		naverage -3
-		niterate 0
-		low_reject 3.
-		high_reject 3.
-		grow 0.
-	axis	2
-	curve	6
-		2.
-		2.
-		16.
-		3126.
-		2.758273
-		-1.705576
-
-# Tue 14:57:35 20-Nov-2018
-begin	aperture last 2 1566. 1140.581
-	image	last
-	aperture	2
-	beam	2
-	center	1566. 1140.581
-	low	-1565. -3.962372
-	high	1566. 4.468883
-	background
-		xmin -10.
-		xmax 10.
-		function chebyshev
-		order 1
-		sample -10:-6,6:10
-		naverage -3
-		niterate 0
-		low_reject 3.
-		high_reject 3.
-		grow 0.
-	axis	2
-	curve	6
-		2.
-		2.
-		6.
-		3126.
-		1.892545
-		-1.975361
+		1.
+		1.
+		2500.
+		0.
 

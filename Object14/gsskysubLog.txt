@@ -34,3 +34,39 @@ GSSKYSUB: Sky-subtraction started
 GSSKYSUB done. Exit status good -- Fri Nov 30 13:56:52 CST 2018
 -------------------------------------------------------------------------------
 
+----------------------------------------------------------------------------
+GSSKYSUB -- Tue Jan 29 13:26:09 CST 2019
+
+input        = tObj4
+output       = 
+outpref      = s
+fl_vardq     = yes
+fl_oversize  = no
+sci_ext      = SCI
+var_ext      = VAR
+dq_ext       = DQ
+long_sample  = 100:500
+mos_sample   = 0.9
+mosobjsize   = 1.0
+naverage     = 1
+function     = chebyshev
+order        = 1
+low_reject   = 2.5
+high_reject  = 2.5
+niterate     = 2
+grow         = 0.0
+fl_inter     = no
+
+ 
+GSSKYSUB: Sky-subtraction started
+ 
+  Input image     = tObj4.fits
+  Output image    = stObj4.fits
+  Observing mode  = LONGSLIT
+  Number of slits = 1
+  Slit #1 ; background sample = [100:500]
+         RMS of the fit (for VAR plane propagation) = 2205.008
+
+GSSKYSUB done. Exit status good -- Tue Jan 29 13:26:20 CST 2019
+-------------------------------------------------------------------------------
+

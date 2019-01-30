@@ -7822,3 +7822,233 @@ GSREDUCE: Updating PHU and cleaning up
  
 GSREDUCE done
 ----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+GSREDUCE -- Mon Jan 28 14:26:38 CST 2019
+
+Input image or list  = S20070623S0062,S20070623S0071,S20070623S0081,S20070623S0091,S20070623S0122,S20070623S0123,S20070623S0124
+Output image or list = 
+Output prefix        = gs
+
+Overscan subtraction  fl_over      = yes
+Trim image            fl_trim      = yes
+Bias subtraction      fl_bias      = yes
+Cosmic ray cleaning   fl_gscrrej   = no
+New CR cleaning       fl_crspec    = no
+Dark subtraction      fl_dark      = no
+QE Correction         fl_qecorr    = no
+Flat field correction fl_flat      = no
+Mosaic the CCDs       fl_gmosaic   = yes
+Fixpix chip gaps      fl_fixpix    = no
+Cut MOS spectra       fl_cut       = yes
+Add titles to MOS     fl_title     = yes
+Oversize slit length  fl_oversize  = no
+Run gsappwave         fl_gsappwave = yes
+Run gsscatsub         fl_scatsub   = no
+VAR & DQ planes       fl_vardq     = no
+
+geointer = linear
+gradimage= 
+refimage = 
+bias     = MCbiasFull
+dark     = 
+qe_refim    = 
+qe_corrim   = 
+qe_corrpref = qecorr
+flatim   = 
+sci_ext  = SCI
+var_ext  = VAR
+dq_ext   = DQ
+key_mdf  = MASKNAME
+mdffile  = 
+mdfdir   = gmos$data/
+bpm      = 
+Chip gaps= gmos$data/chipgaps.dat
+
+ERROR - GSREDUCE: Input image : ../raw/S20070623S0062.fits does not exist
+ERROR - GSREDUCE: Input image : ../raw/S20070623S0071.fits does not exist
+ERROR - GSREDUCE: Input image : ../raw/S20070623S0081.fits does not exist
+ERROR - GSREDUCE: Input image : ../raw/S20070623S0091.fits does not exist
+ERROR - GSREDUCE: Input image : ../raw/S20070623S0122.fits does not exist
+ERROR - GSREDUCE: Input image : ../raw/S20070623S0123.fits does not exist
+ERROR - GSREDUCE: Input image : ../raw/S20070623S0124.fits does not exist
+ERROR - GSREDUCE: Exiting with 7 errors
+ERROR - GSREDUCE: Program execution failed with 7 errors
+ 
+GSREDUCE done
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+GSREDUCE -- Mon Jan 28 14:26:38 CST 2019
+
+Input image or list  = S20070623S0072,S20070623S0073,S20070623S0074,S20070623S0075,S20070623S0082,S20070623S0083,S20070623S0084,S20070623S0085,S20070623S0092,S20070623S0097,S20070623S0098,S20070623S0099
+Output image or list = 
+Output prefix        = gs
+
+Overscan subtraction  fl_over      = yes
+Trim image            fl_trim      = yes
+Bias subtraction      fl_bias      = yes
+Cosmic ray cleaning   fl_gscrrej   = no
+New CR cleaning       fl_crspec    = no
+Dark subtraction      fl_dark      = no
+QE Correction         fl_qecorr    = no
+Flat field correction fl_flat      = yes
+Mosaic the CCDs       fl_gmosaic   = yes
+Fixpix chip gaps      fl_fixpix    = no
+Cut MOS spectra       fl_cut       = yes
+Add titles to MOS     fl_title     = yes
+Oversize slit length  fl_oversize  = no
+Run gsappwave         fl_gsappwave = yes
+Run gsscatsub         fl_scatsub   = no
+VAR & DQ planes       fl_vardq     = yes
+
+geointer = linear
+gradimage= 
+refimage = 
+bias     = MCbiasFull
+dark     = 
+qe_refim    = 
+qe_corrim   = 
+qe_corrpref = qecorr
+flatim   = MCflatFull
+sci_ext  = SCI
+var_ext  = VAR
+dq_ext   = DQ
+key_mdf  = MASKNAME
+mdffile  = 
+mdfdir   = gmos$data/
+bpm      = 
+Chip gaps= gmos$data/chipgaps.dat
+
+ERROR - GSREDUCE: Input image : ../raw/S20070623S0072.fits does not exist
+ERROR - GSREDUCE: Input image : ../raw/S20070623S0073.fits does not exist
+ERROR - GSREDUCE: Input image : ../raw/S20070623S0074.fits does not exist
+ERROR - GSREDUCE: Input image : ../raw/S20070623S0075.fits does not exist
+ERROR - GSREDUCE: Input image : ../raw/S20070623S0082.fits does not exist
+ERROR - GSREDUCE: Input image : ../raw/S20070623S0083.fits does not exist
+ERROR - GSREDUCE: Input image : ../raw/S20070623S0084.fits does not exist
+ERROR - GSREDUCE: Input image : ../raw/S20070623S0085.fits does not exist
+ERROR - GSREDUCE: Input image : ../raw/S20070623S0092.fits does not exist
+ERROR - GSREDUCE: Input image : ../raw/S20070623S0097.fits does not exist
+ERROR - GSREDUCE: Input image : ../raw/S20070623S0098.fits does not exist
+ERROR - GSREDUCE: Input image : ../raw/S20070623S0099.fits does not exist
+ERROR - GSREDUCE: Exiting with 12 errors
+ERROR - GSREDUCE: Program execution failed with 12 errors
+ 
+GSREDUCE done
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+GSREDUCE -- Mon Jan 28 14:27:11 CST 2019
+
+Input image or list  = S20070623S0062,S20070623S0071,S20070623S0081,S20070623S0091,S20070623S0122,S20070623S0123,S20070623S0124
+Output image or list = 
+Output prefix        = gs
+
+Overscan subtraction  fl_over      = yes
+Trim image            fl_trim      = yes
+Bias subtraction      fl_bias      = yes
+Cosmic ray cleaning   fl_gscrrej   = no
+New CR cleaning       fl_crspec    = no
+Dark subtraction      fl_dark      = no
+QE Correction         fl_qecorr    = no
+Flat field correction fl_flat      = no
+Mosaic the CCDs       fl_gmosaic   = yes
+Fixpix chip gaps      fl_fixpix    = no
+Cut MOS spectra       fl_cut       = yes
+Add titles to MOS     fl_title     = yes
+Oversize slit length  fl_oversize  = no
+Run gsappwave         fl_gsappwave = yes
+Run gsscatsub         fl_scatsub   = no
+VAR & DQ planes       fl_vardq     = no
+
+geointer = linear
+gradimage= 
+refimage = 
+bias     = MCbiasFull
+dark     = 
+qe_refim    = 
+qe_corrim   = 
+qe_corrpref = qecorr
+flatim   = 
+sci_ext  = SCI
+var_ext  = VAR
+dq_ext   = DQ
+key_mdf  = MASKNAME
+mdffile  = 
+mdfdir   = gmos$data/
+bpm      = 
+Chip gaps= gmos$data/chipgaps.dat
+
+ERROR - GSREDUCE: Input image : ../raw/S20070623S0062.fits does not exist
+ERROR - GSREDUCE: Input image : ../raw/S20070623S0071.fits does not exist
+ERROR - GSREDUCE: Input image : ../raw/S20070623S0081.fits does not exist
+ERROR - GSREDUCE: Input image : ../raw/S20070623S0091.fits does not exist
+ERROR - GSREDUCE: Input image : ../raw/S20070623S0122.fits does not exist
+ERROR - GSREDUCE: Input image : ../raw/S20070623S0123.fits does not exist
+ERROR - GSREDUCE: Input image : ../raw/S20070623S0124.fits does not exist
+ERROR - GSREDUCE: Exiting with 7 errors
+ERROR - GSREDUCE: Program execution failed with 7 errors
+ 
+GSREDUCE done
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+GSREDUCE -- Mon Jan 28 14:27:12 CST 2019
+
+Input image or list  = S20070623S0072,S20070623S0073,S20070623S0074,S20070623S0075,S20070623S0082,S20070623S0083,S20070623S0084,S20070623S0085,S20070623S0092,S20070623S0097,S20070623S0098,S20070623S0099
+Output image or list = 
+Output prefix        = gs
+
+Overscan subtraction  fl_over      = yes
+Trim image            fl_trim      = yes
+Bias subtraction      fl_bias      = yes
+Cosmic ray cleaning   fl_gscrrej   = no
+New CR cleaning       fl_crspec    = no
+Dark subtraction      fl_dark      = no
+QE Correction         fl_qecorr    = no
+Flat field correction fl_flat      = yes
+Mosaic the CCDs       fl_gmosaic   = yes
+Fixpix chip gaps      fl_fixpix    = no
+Cut MOS spectra       fl_cut       = yes
+Add titles to MOS     fl_title     = yes
+Oversize slit length  fl_oversize  = no
+Run gsappwave         fl_gsappwave = yes
+Run gsscatsub         fl_scatsub   = no
+VAR & DQ planes       fl_vardq     = yes
+
+geointer = linear
+gradimage= 
+refimage = 
+bias     = MCbiasFull
+dark     = 
+qe_refim    = 
+qe_corrim   = 
+qe_corrpref = qecorr
+flatim   = MCflatFull
+sci_ext  = SCI
+var_ext  = VAR
+dq_ext   = DQ
+key_mdf  = MASKNAME
+mdffile  = 
+mdfdir   = gmos$data/
+bpm      = 
+Chip gaps= gmos$data/chipgaps.dat
+
+ERROR - GSREDUCE: Input image : ../raw/S20070623S0072.fits does not exist
+ERROR - GSREDUCE: Input image : ../raw/S20070623S0073.fits does not exist
+ERROR - GSREDUCE: Input image : ../raw/S20070623S0074.fits does not exist
+ERROR - GSREDUCE: Input image : ../raw/S20070623S0075.fits does not exist
+ERROR - GSREDUCE: Input image : ../raw/S20070623S0082.fits does not exist
+ERROR - GSREDUCE: Input image : ../raw/S20070623S0083.fits does not exist
+ERROR - GSREDUCE: Input image : ../raw/S20070623S0084.fits does not exist
+ERROR - GSREDUCE: Input image : ../raw/S20070623S0085.fits does not exist
+ERROR - GSREDUCE: Input image : ../raw/S20070623S0092.fits does not exist
+ERROR - GSREDUCE: Input image : ../raw/S20070623S0097.fits does not exist
+ERROR - GSREDUCE: Input image : ../raw/S20070623S0098.fits does not exist
+ERROR - GSREDUCE: Input image : ../raw/S20070623S0099.fits does not exist
+ERROR - GSREDUCE: Exiting with 12 errors
+ERROR - GSREDUCE: Program execution failed with 12 errors
+ 
+GSREDUCE done
+----------------------------------------------------------------------------

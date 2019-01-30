@@ -1,16 +1,25 @@
-Jan 24 15:16: DATABASE  - 1 apertures read for copytObj7 from database
-Jan 24 15:16: TRACE - Trace of aperture 1 in copytObj7 lost at column 1946.
-Jan 24 15:16: TRACE - Trace of aperture 1 in copytObj7 recovered at column 1956.
-Jan 24 15:16: TRACE - Trace of aperture 1 in copytObj7 lost at column 2076.
-Jan 24 15:16: TRACE - Trace of aperture 1 in copytObj7 lost at column 2086.
-Jan 24 15:16: TRACE - Trace of aperture 1 in copytObj7 recovered at column 2096.
-Jan 24 15:16: TRACE - Trace of aperture 1 in copytObj7 lost at column 1031.
-Jan 24 15:16: TRACE - Trace of aperture 1 in copytObj7 lost at column 1021.
-Jan 24 15:16: TRACE - Trace of aperture 1 in copytObj7 recovered at column 1011.
-Jan 24 15:16: TRACE - Trace of aperture 1 in copytObj7 lost at column 201.
-Jan 24 15:16: TRACE - Trace of aperture 1 in copytObj7 recovered at column 191.
-Jan 24 15:16: TRACE - Trace of aperture 1 in copytObj7 lost at column 31.
-Jan 24 15:16: TRACE - Trace of aperture 1 in copytObj7 recovered at column 21.
-Jan 24 15:16: TRACE - 1 apertures traced in copytObj7.
-Jan 24 15:16: DATABASE - 1 apertures for copytObj7 written to database
-Jan 24 15:16: EXTRACT - Output spectrum try.0001 already exists
+Jan 28 11:54: DATABASE  - 1 apertures read for copytObj7 from database
+Jan 28 11:54: EXTRACT: 4029 pixels rejected for profile from aperture 1
+Jan 28 11:54: EXTRACT: Aperture 1 variance spectrum bias factor is 0.5083471
+Jan 28 11:54: EXTRACT: 764 pixels rejected from aperture 1
+Jan 28 11:54: EXTRACT - Aperture 1 from copytObj7 --> copytObj7.ms.0001
+Jan 28 13:16: DATABASE  - 1 apertures read for copytObj7 from database
+Jan 28 13:16: TRACE - Trace of aperture 1 in copytObj7 lost at column 1946.
+Jan 28 13:16: TRACE - Trace of aperture 1 in copytObj7 recovered at column 1956.
+Jan 28 13:16: TRACE - Trace of aperture 1 in copytObj7 lost at column 2076.
+Jan 28 13:16: TRACE - Trace of aperture 1 in copytObj7 lost at column 2086.
+Jan 28 13:16: TRACE - Trace of aperture 1 in copytObj7 recovered at column 2096.
+Jan 28 13:16: TRACE - Trace of aperture 1 in copytObj7 lost at column 1031.
+Jan 28 13:16: TRACE - Trace of aperture 1 in copytObj7 lost at column 1021.
+Jan 28 13:16: TRACE - Trace of aperture 1 in copytObj7 recovered at column 1011.
+Jan 28 13:16: TRACE - Trace of aperture 1 in copytObj7 lost at column 201.
+Jan 28 13:16: TRACE - Trace of aperture 1 in copytObj7 recovered at column 191.
+Jan 28 13:16: TRACE - Trace of aperture 1 in copytObj7 lost at column 31.
+Jan 28 13:16: TRACE - Trace of aperture 1 in copytObj7 recovered at column 21.
+Jan 28 13:16: TRACE - 1 apertures traced in copytObj7.
+Jan 28 13:16: DATABASE - 1 apertures for copytObj7 written to database
+Jan 28 13:16: EXTRACT - Aperture 1 from copytObj7 --> try.0001
+Jan 28 13:37: DATABASE  - 1 apertures read for copytObj7 from database
+Jan 28 13:37: EXTRACT - Output spectrum copytObj7.ms.0001 already exists
+Jan 28 13:38: DATABASE  - 1 apertures read for copytObj7 from database
+Jan 28 13:38: EXTRACT - Output spectrum copytObj7.ms.0001 already exists

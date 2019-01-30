@@ -1,0 +1,27 @@
+# Tue 01:28:30 14-Mar-2017
+begin	aperture cx25sexm 1 1250. 31.87886
+	image	cx25sexm
+	aperture	1
+	beam	1
+	center	1250. 31.87886
+	low	-1249. -3.701097
+	high	1250. 3.860134
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	5
+		2.
+		1.
+		1.
+		2500.
+		0.
+

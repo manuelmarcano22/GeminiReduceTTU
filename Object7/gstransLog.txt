@@ -1,5 +1,5 @@
 -------------------------------------------------------------------------------
-GSTRANSFORM -- Wed Jan 23 15:15:42 CST 2019
+GSTRANSFORM -- Mon Jan 28 11:53:43 CST 2019
  
 
 inimages   = Obj7
@@ -29,8 +29,8 @@ dq_ext  = DQ
 Transforming Obj7.fits[SCI,1]
 MDF row: 1
 
-NOAO/IRAF V2.16 mmarcano@tux Wed 15:15:44 23-Jan-2019
-  Transform Obj7.fits[SCI,1] to tmpsci12461_2149.
+NOAO/IRAF V2.16 mmarcano@tux Mon 11:53:44 28-Jan-2019
+  Transform Obj7.fits[SCI,1] to tmpsci18603_2149.
   Conserve flux per pixel.
   User coordinate transformations:
   Interpolation is linear.
@@ -39,8 +39,8 @@ NOAO/IRAF V2.16 mmarcano@tux Wed 15:15:44 23-Jan-2019
     x1 =      4151., x2 =      8820., dx =      1.491, nx = 3132, xlog = no
     y1 =         1., y2 =      2088., dy =         1., ny = 2088, ylog = no
 
-NOAO/IRAF V2.16 mmarcano@tux Wed 15:15:45 23-Jan-2019
-  Transform Obj7.fits[VAR,1] to tmpvar12461_2150.
+NOAO/IRAF V2.16 mmarcano@tux Mon 11:53:45 28-Jan-2019
+  Transform Obj7.fits[VAR,1] to tmpvar18603_2150.
   Conserve flux per pixel.
   User coordinate transformations:
   Interpolation is linear.
@@ -49,8 +49,8 @@ NOAO/IRAF V2.16 mmarcano@tux Wed 15:15:45 23-Jan-2019
     x1 =      4151., x2 =      8820., dx =      1.491, nx = 3132, xlog = no
     y1 =         1., y2 =      2088., dy =         1., ny = 2088, ylog = no
 
-NOAO/IRAF V2.16 mmarcano@tux Wed 15:15:46 23-Jan-2019
-  Transform Obj7.fits[DQ,1] to tmpdq12461_2151.
+NOAO/IRAF V2.16 mmarcano@tux Mon 11:53:46 28-Jan-2019
+  Transform Obj7.fits[DQ,1] to tmpdq18603_2151.
   User coordinate transformations:
   Interpolation is linear.
   Using edge extension for out of bounds pixel values.
@@ -62,7 +62,7 @@ GSTRANSFORM exit status: good
 -------------------------------------------------------------------------------
 
 -------------------------------------------------------------------------------
-GSTRANSFORM -- Wed Jan 23 15:31:43 CST 2019
+GSTRANSFORM -- Mon Jan 28 12:02:19 CST 2019
  
 ERROR - GSTRANSFORM: Output image tObj7 exists
 ERROR - GSTRANSFORM: 1 errors found with input parameters. Exiting.
@@ -71,16 +71,7 @@ GSTRANSFORM exit status: error
 -------------------------------------------------------------------------------
 
 -------------------------------------------------------------------------------
-GSTRANSFORM -- Wed Jan 23 17:04:51 CST 2019
- 
-ERROR - GSTRANSFORM: Output image tObj7 exists
-ERROR - GSTRANSFORM: 1 errors found with input parameters. Exiting.
-
-GSTRANSFORM exit status: error
--------------------------------------------------------------------------------
-
--------------------------------------------------------------------------------
-GSTRANSFORM -- Fri Jan 25 12:48:43 CST 2019
+GSTRANSFORM -- Mon Jan 28 13:36:36 CST 2019
  
 ERROR - GSTRANSFORM: Output image tObj7 exists
 ERROR - GSTRANSFORM: 1 errors found with input parameters. Exiting.

@@ -1,5 +1,5 @@
 --------------------------------------------------------------------------------
-GEMCOMBINE -- Wed Jan 23 15:15:40 CST 2019
+GEMCOMBINE -- Mon Jan 28 11:53:41 CST 2019
  
 GEMCOMBINE: input = gsS20180708S0086,gsS20180708S0087
 GEMCOMBINE: output = Obj7
@@ -11,28 +11,28 @@ GEMCOMBINE: dq_ext = DQ
  
 WARNING - GEMCOMBINE: five or less images to combine.
 
-Jan 23 15:15: IMCOMBINE
+Jan 28 11:53: IMCOMBINE
   combine = average, scale = none, zero = none, weight = none
   reject = ccdclip, mclip = yes, nkeep = 1
   rdnoise = 4.24, gain = 1.0, snoise = 0.0, sigma = 3., hsigma = 3.
   blank = 0.
-  statsec = Jan 23 15:15
+  statsec = Jan 28 11:53
                 Images 
   gsS20180708S0086.fits[SCI,1]
   gsS20180708S0087.fits[SCI,1]
 
-  Output image = tmpcombout12461_2132, ncombine = 2
-  Number rejected mask = tmpcombdq12461_2133.pl
-  Sigma image = tmpcombsig12461_2134
+  Output image = tmpcombout18603_2132, ncombine = 2
+  Number rejected mask = tmpcombdq18603_2133.pl
+  Sigma image = tmpcombsig18603_2134
  
 GEMCOMBINE: Propagating DQ values
  
-GEMCOMBINE -- Finished: Wed Jan 23 15:15:42 CST 2019
+GEMCOMBINE -- Finished: Mon Jan 28 11:53:43 CST 2019
  
 GEMCOMBINE -- Exit status: GOOD
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
-GEMCOMBINE -- Wed Jan 23 15:31:43 CST 2019
+GEMCOMBINE -- Mon Jan 28 12:02:19 CST 2019
  
 GEMCOMBINE: input = gsS20180708S0086,gsS20180708S0087
 GEMCOMBINE: output = Obj7
@@ -44,12 +44,12 @@ GEMCOMBINE: dq_ext = DQ
  
 ERROR - GEMCOMBINE: Output file Obj7 already exists.
  
-GEMCOMBINE -- Finished: Wed Jan 23 15:31:43 CST 2019
+GEMCOMBINE -- Finished: Mon Jan 28 12:02:19 CST 2019
  
 GEMCOMBINE -- Exit status: ERROR
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
-GEMCOMBINE -- Wed Jan 23 17:04:50 CST 2019
+GEMCOMBINE -- Mon Jan 28 13:36:36 CST 2019
  
 GEMCOMBINE: input = gsS20180708S0086,gsS20180708S0087
 GEMCOMBINE: output = Obj7
@@ -61,24 +61,7 @@ GEMCOMBINE: dq_ext = DQ
  
 ERROR - GEMCOMBINE: Output file Obj7 already exists.
  
-GEMCOMBINE -- Finished: Wed Jan 23 17:04:50 CST 2019
- 
-GEMCOMBINE -- Exit status: ERROR
---------------------------------------------------------------------------------
---------------------------------------------------------------------------------
-GEMCOMBINE -- Fri Jan 25 12:48:43 CST 2019
- 
-GEMCOMBINE: input = gsS20180708S0086,gsS20180708S0087
-GEMCOMBINE: output = Obj7
-GEMCOMBINE: title = 
-GEMCOMBINE: bpmfile = 
-GEMCOMBINE: sci_ext = SCI
-GEMCOMBINE: var_ext = VAR
-GEMCOMBINE: dq_ext = DQ
- 
-ERROR - GEMCOMBINE: Output file Obj7 already exists.
- 
-GEMCOMBINE -- Finished: Fri Jan 25 12:48:43 CST 2019
+GEMCOMBINE -- Finished: Mon Jan 28 13:36:36 CST 2019
  
 GEMCOMBINE -- Exit status: ERROR
 --------------------------------------------------------------------------------

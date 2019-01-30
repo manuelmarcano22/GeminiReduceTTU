@@ -1,0 +1,33 @@
+--------------------------------------------------------------------------------
+GEMCOMBINE -- Tue Jan 29 15:33:57 CST 2019
+ 
+GEMCOMBINE: input = gsS20180711S0118,gsS20180711S0119
+GEMCOMBINE: output = Obj1
+GEMCOMBINE: title = 
+GEMCOMBINE: bpmfile = 
+GEMCOMBINE: sci_ext = SCI
+GEMCOMBINE: var_ext = VAR
+GEMCOMBINE: dq_ext = DQ
+ 
+WARNING - GEMCOMBINE: five or less images to combine.
+
+Jan 29 15:33: IMCOMBINE
+  combine = average, scale = none, zero = none, weight = none
+  reject = ccdclip, mclip = yes, nkeep = 1
+  rdnoise = 4.24, gain = 1.0, snoise = 0.0, sigma = 3., hsigma = 3.
+  blank = 0.
+  statsec = Jan 29 15:33
+                Images 
+  gsS20180711S0118.fits[SCI,1]
+  gsS20180711S0119.fits[SCI,1]
+
+  Output image = tmpcombout10540_2132, ncombine = 2
+  Number rejected mask = tmpcombdq10540_2133.pl
+  Sigma image = tmpcombsig10540_2134
+ 
+GEMCOMBINE: Propagating DQ values
+ 
+GEMCOMBINE -- Finished: Tue Jan 29 15:33:59 CST 2019
+ 
+GEMCOMBINE -- Exit status: GOOD
+--------------------------------------------------------------------------------
