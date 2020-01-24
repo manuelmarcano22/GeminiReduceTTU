@@ -1,0 +1,8 @@
+inimage,s,a,,,,'Input image'
+outimage,s,a,,,,'Input image'
+logfile,s,h,'',,,'Logfile'
+dq_ext,s,h,'DQ',,,'Data quality extension name'
+fl_real,b,h,no,,,'Convert output to real?'
+verbose,b,h,yes,,,'Verbose?'
+status,i,h,0,,,'Task status. 0=GOOD, 1=ERROR'
+mode,s,h,'al'
