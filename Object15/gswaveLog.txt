@@ -958,3 +958,11 @@ ERROR - GSWAVELENGTH: gsS20180717S0063 does not exist or is not a MEF
  
 GSWAVELENGTH exit status: error
 --------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+GSWAVELENGTH -- Fri Jan 24 10:22:03 CST 2020
+ 
+inimages = gsS20180717S0063
+ERROR - GSWAVELENGTH: gsS20180717S0063 does not exist or is not a MEF
+ 
+GSWAVELENGTH exit status: error
+--------------------------------------------------------------------------------

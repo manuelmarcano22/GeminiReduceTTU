@@ -119,3 +119,1761 @@ ERROR - GSWAVELENGTH: AUTOIDENTIFY did not find a solution -
  
 GSWAVELENGTH exit status: error
 --------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+GSWAVELENGTH -- Fri Jan 24 10:23:23 CST 2020
+ 
+inimages = gsS20180717S0063
+ERROR - GSWAVELENGTH: gsS20180717S0063 does not exist or is not a MEF
+ 
+GSWAVELENGTH exit status: error
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+GSWAVELENGTH -- Fri Jan 24 10:23:26 CST 2020
+ 
+inimages = gsS20180717S0063
+ERROR - GSWAVELENGTH: gsS20180717S0063 does not exist or is not a MEF
+ 
+GSWAVELENGTH exit status: error
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+GSWAVELENGTH -- Fri Jan 24 12:55:24 CST 2020
+ 
+inimages = gsN20191127S0396.fits
+ERROR - GSWAVELENGTH: gsN20191127S0396.fits does not exist or is not a MEF
+ 
+GSWAVELENGTH exit status: error
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+GSWAVELENGTH -- Fri Jan 24 13:27:06 CST 2020
+ 
+inimages = ./gsS20180717S0063
+ERROR - GSWAVELENGTH: ./gsS20180717S0063 does not exist or is not a MEF
+ 
+GSWAVELENGTH exit status: error
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+GSWAVELENGTH -- Fri Jan 24 13:27:44 CST 2020
+ 
+inimages = gsN20191127S0396
+Calibrating extension: 1
+
+AUTOIDENTIFY: NOAO/IRAF V2.16 mmarcano@tux Fri 13:27:47 24-Jan-2020
+  Spectrum                 # Found   Midpoint Dispersion        RMS
+  gsN20191127S0396_001[*,522]  No solution found
+ERROR - GSWAVELENGTH: AUTOIDENTIFY did not find a solution -
+                      a database file was not created for 
+                      gsN20191127S0396.fits[SCI,1]
+ 
+GSWAVELENGTH exit status: error
+--------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+GSREDUCE -- Fri Jan 24 13:38:52 CST 2020
+
+Input image or list  = raw/S20180928S0014.fits
+Output image or list = 
+Output prefix        = gs
+
+Overscan subtraction  fl_over      = yes
+Trim image            fl_trim      = yes
+Bias subtraction      fl_bias      = yes
+Cosmic ray cleaning   fl_gscrrej   = no
+New CR cleaning       fl_crspec    = no
+Dark subtraction      fl_dark      = no
+QE Correction         fl_qecorr    = no
+Flat field correction fl_flat      = yes
+Mosaic the CCDs       fl_gmosaic   = yes
+Fixpix chip gaps      fl_fixpix    = yes
+Cut MOS spectra       fl_cut       = yes
+Add titles to MOS     fl_title     = yes
+Oversize slit length  fl_oversize  = yes
+Run gsappwave         fl_gsappwave = yes
+Run gsscatsub         fl_scatsub   = no
+VAR & DQ planes       fl_vardq     = no
+
+geointer = linear
+gradimage= 
+refimage = 
+bias     = MCbiasFull.fits
+dark     = 
+qe_refim    = 
+qe_corrim   = 
+qe_corrpref = qecorr
+flatim   = 
+sci_ext  = SCI
+var_ext  = VAR
+dq_ext   = DQ
+key_mdf  = MASKNAME
+mdffile  = 
+mdfdir   = gmos$data/
+bpm      = 
+Chip gaps= gmos$data/chipgaps.dat
+
+ERROR - GSREDUCE: No flat field image supplied
+ERROR - GSREDUCE: Exiting with 1 errors
+ERROR - GSREDUCE: Program execution failed with 1 errors
+ 
+GSREDUCE done
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+GSREDUCE -- Fri Jan 24 13:39:07 CST 2020
+
+Input image or list  = raw/S20180928S0014.fits
+Output image or list = 
+Output prefix        = gs
+
+Overscan subtraction  fl_over      = yes
+Trim image            fl_trim      = yes
+Bias subtraction      fl_bias      = yes
+Cosmic ray cleaning   fl_gscrrej   = no
+New CR cleaning       fl_crspec    = no
+Dark subtraction      fl_dark      = no
+QE Correction         fl_qecorr    = no
+Flat field correction fl_flat      = no
+Mosaic the CCDs       fl_gmosaic   = yes
+Fixpix chip gaps      fl_fixpix    = yes
+Cut MOS spectra       fl_cut       = yes
+Add titles to MOS     fl_title     = yes
+Oversize slit length  fl_oversize  = yes
+Run gsappwave         fl_gsappwave = yes
+Run gsscatsub         fl_scatsub   = no
+VAR & DQ planes       fl_vardq     = no
+
+geointer = linear
+gradimage= 
+refimage = 
+bias     = MCbiasFull.fits
+dark     = 
+qe_refim    = 
+qe_corrim   = 
+qe_corrpref = qecorr
+flatim   = 
+sci_ext  = SCI
+var_ext  = VAR
+dq_ext   = DQ
+key_mdf  = MASKNAME
+mdffile  = 
+mdfdir   = gmos$data/
+bpm      = 
+Chip gaps= gmos$data/chipgaps.dat
+
+Input image = S20180928S0014.fits; Output image = gsS20180928S0014.fits
+GSREDUCE: Image S20180928S0014.fits has been QE corrected? no
+GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
+GSREDUCE: Calling GIREDUCE to process image
+----------------------------------------------------------------------------
+GIREDUCE -- Fri Jan 24 13:39:08 CST 2020
+
+----------------------------------------------------------------------------
+GPREPARE -- Fri Jan 24 13:39:08 CST 2020
+
+Input list    = S20180928S0014
+Output list   = 
+Output prefix = g
+Raw path      = raw/
+MDF dir       = gmos$data/
+Add MDF       = yes
+Input MDF in case header keyword not found = 
+
+Input  raw/S20180928S0014.fits   Output  gS20180928S0014.fits
+GPREPARE: Using MDF defined in the header 0.5arcsec
+GPREPARE: Taking MDF from directory gmos$data/
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2020-01-24T19:39:09
+File[extension]:             AMPNAME              GAIN   READNOISE
+gS20180928S0014.fits[SCI,1]: " "BI5-36-4k-2, 4""  5.183  8.07
+gS20180928S0014.fits[SCI,2]: " "BI5-36-4k-2, 3""  5.300  8.85
+gS20180928S0014.fits[SCI,3]: " "BI5-36-4k-2, 2""  5.330  9.13
+gS20180928S0014.fits[SCI,4]: " "BI5-36-4k-2, 1""  5.240  8.93
+gS20180928S0014.fits[SCI,5]: " "BI11-33-4k-1, 4""  5.407  8.02
+gS20180928S0014.fits[SCI,6]: " "BI11-33-4k-1, 3""  5.459  8.62
+gS20180928S0014.fits[SCI,7]: " "BI11-33-4k-1, 2""  5.225  8.59
+gS20180928S0014.fits[SCI,8]: " "BI11-33-4k-1, 1""  5.334  8.35
+gS20180928S0014.fits[SCI,9]: " "BI12-34-4k-1, 4""  5.120  9.34
+gS20180928S0014.fits[SCI,10]: " "BI12-34-4k-1, 3""  4.894  7.99
+gS20180928S0014.fits[SCI,11]: " "BI12-34-4k-1, 2""  5.129  8.30
+gS20180928S0014.fits[SCI,12]: " "BI12-34-4k-1, 1""  4.828  7.94
+
+GGAIN -- Finished: 2020-01-24T19:39:10
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+
+Input files:
+gS20180928S0014
+
+Output files:
+tmpimage124094f
+
+GIREDUCE: Image tmpimage124094f overscan subtracted
+GIREDUCE: Image tmpimage124094f trimmed
+
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (MCbiasFull) and image (gS20180928S0014)
+                    No bias subtraction taking place for gS20180928S0014
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (MCbiasFull) and image (gS20180928S0014)
+                    No bias subtraction taking place for gS20180928S0014
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (MCbiasFull) and image (gS20180928S0014)
+                    No bias subtraction taking place for gS20180928S0014
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (MCbiasFull) and image (gS20180928S0014)
+                    No bias subtraction taking place for gS20180928S0014
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (MCbiasFull) and image (gS20180928S0014)
+                    No bias subtraction taking place for gS20180928S0014
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (MCbiasFull) and image (gS20180928S0014)
+                    No bias subtraction taking place for gS20180928S0014
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (MCbiasFull) and image (gS20180928S0014)
+                    No bias subtraction taking place for gS20180928S0014
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (MCbiasFull) and image (gS20180928S0014)
+                    No bias subtraction taking place for gS20180928S0014
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (MCbiasFull) and image (gS20180928S0014)
+                    No bias subtraction taking place for gS20180928S0014
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (MCbiasFull) and image (gS20180928S0014)
+                    No bias subtraction taking place for gS20180928S0014
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (MCbiasFull) and image (gS20180928S0014)
+                    No bias subtraction taking place for gS20180928S0014
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (MCbiasFull) and image (gS20180928S0014)
+                    No bias subtraction taking place for gS20180928S0014
+
+GIREDUCE - Cleaning up -- Fri Jan 24 13:39:25 CST 2020
+
+GIREDUCE -- Fri Jan 24 13:39:25 CST 2020
+GIREDUCE exit status:  good.
+----------------------------------------------------------------------------
+GSREDUCE: Multiplying by the gains, using GGAIN
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2020-01-24T19:39:25
+File[extension]:             AMPNAME              GAIN   READNOISE
+tmpimage124094f.fits[SCI,1]: " "BI5-36-4k-2, 4""  5.183  8.07
+tmpimage124094f.fits[SCI,2]: " "BI5-36-4k-2, 3""  5.300  8.85
+tmpimage124094f.fits[SCI,3]: " "BI5-36-4k-2, 2""  5.330  9.13
+tmpimage124094f.fits[SCI,4]: " "BI5-36-4k-2, 1""  5.240  8.93
+tmpimage124094f.fits[SCI,5]: " "BI11-33-4k-1, 4""  5.407  8.02
+tmpimage124094f.fits[SCI,6]: " "BI11-33-4k-1, 3""  5.459  8.62
+tmpimage124094f.fits[SCI,7]: " "BI11-33-4k-1, 2""  5.225  8.59
+tmpimage124094f.fits[SCI,8]: " "BI11-33-4k-1, 1""  5.334  8.35
+tmpimage124094f.fits[SCI,9]: " "BI12-34-4k-1, 4""  5.120  9.34
+tmpimage124094f.fits[SCI,10]: " "BI12-34-4k-1, 3""  4.894  7.99
+tmpimage124094f.fits[SCI,11]: " "BI12-34-4k-1, 2""  5.129  8.30
+tmpimage124094f.fits[SCI,12]: " "BI12-34-4k-1, 1""  4.828  7.94
+
+GGAIN -- Finished: 2020-01-24T19:39:27
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+GSREDUCE: Calling GMOSAIC
+BOE  GMOSAIC 2020-01-24T13:39:27
+VIS  GMOSAIC 
+VIS  GMOSAIC -------------------------------------------------------------------
+STAT GMOSAIC Log opened at [Fri 13:39:27 24-Jan-2020]
+VIS  GMOSAIC 
+VIS  GMOSAIC --------------------
+TSK  GMOSAIC Input Parameters:
+TSK  GMOSAIC      inimages       = tmpimage124094f.fits
+TSK  GMOSAIC      outimages      = tmpimage224094g.fits
+TSK  GMOSAIC      outpref        = 
+TSK  GMOSAIC      fl_paste       = no
+TSK  GMOSAIC      fl_vardq       = no
+TSK  GMOSAIC      fl_fixpix      = yes
+TSK  GMOSAIC      fl_clean       = no
+TSK  GMOSAIC      fl_fulldq      = no
+TSK  GMOSAIC      bitflags       = all
+TSK  GMOSAIC      dqthresh       = 0.1
+TSK  GMOSAIC      geointer       = linear
+TSK  GMOSAIC      gap            = default
+TSK  GMOSAIC      bpmfile        = gmos$data/chipgaps.dat
+TSK  GMOSAIC      statsec        = default
+TSK  GMOSAIC      obsmode        = IMAGE
+TSK  GMOSAIC      sci_ext        = SCI
+TSK  GMOSAIC      var_ext        = VAR
+TSK  GMOSAIC      dq_ext         = DQ
+TSK  GMOSAIC      key_detsec     = DETSEC
+TSK  GMOSAIC      key_ccdsec     = CCDSEC
+TSK  GMOSAIC      key_datsec     = DATASEC
+TSK  GMOSAIC      key_ccdsum     = CCDSUM
+TSK  GMOSAIC      key_obsmode    = OBSMODE
+TSK  GMOSAIC      logfile        = gmos.log
+TSK  GMOSAIC      verbose        = yes
+TSK  GMOSAIC      fl_real        = no
+VIS  GMOSAIC --------------------
+TSK  GMOSAIC Input: tmpimage124094f  Output: tmpimage224094g.fits
+TSK  GMOSAIC Found a MDF, copying for later use.
+ENG  GMOSAIC imcopy  tmpimage124094f[SCI,1][1:256,1:2088]  tmptile24094_21[1,append][1:256,1:2088]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpimage124094f[SCI,2][1:256,1:2088]  tmptile24094_21[1,append][257:512,1:2088]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpimage124094f[SCI,3][1:256,1:2088]  tmptile24094_21[1,append][513:768,1:2088]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpimage124094f[SCI,4][1:256,1:2088]  tmptile24094_21[1,append][769:1024,1:2088]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpimage124094f[SCI,5][1:256,1:2088]  tmptile24094_22[1,append][1:256,1:2088]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpimage124094f[SCI,6][1:256,1:2088]  tmptile24094_22[1,append][257:512,1:2088]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpimage124094f[SCI,7][1:256,1:2088]  tmptile24094_22[1,append][513:768,1:2088]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpimage124094f[SCI,8][1:256,1:2088]  tmptile24094_22[1,append][769:1024,1:2088]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpimage124094f[SCI,9][1:256,1:2088]  tmptile24094_23[1,append][1:256,1:2088]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpimage124094f[SCI,10][1:256,1:2088]  tmptile24094_23[1,append][257:512,1:2088]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpimage124094f[SCI,11][1:256,1:2088]  tmptile24094_23[1,append][513:768,1:2088]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpimage124094f[SCI,12][1:256,1:2088]  tmptile24094_23[1,append][769:1024,1:2088]  INDEF  0.
+ENG  GMOSAIC Setting rotation Xrot[1]= 0.000000, Yrot[1]= 0.000000
+ENG  GMOSAIC Setting rotation Xrot[2]= 0.000000, Yrot[2]= 0.000000
+ENG  GMOSAIC Setting rotation Xrot[3]= 0.000000, Yrot[3]= 0.000000
+ENG  GMOSAIC 
+ENG  GMOSAIC Transforming image tmpimg24094_17[SCI,1][1:1024,1:2088] to image tmpchipsci24094_24
+ENG  GMOSAIC     xshift: 1.20 yshift: -0.35 xmag: 1.00 ymag: 1.00 xrot: 0.00 yrot: 0.00
+ENG  GMOSAIC 
+ENG  GMOSAIC Transforming image tmpimg24094_17[SCI,2][1:1024,1:2088] to image tmpchipsci24094_25
+ENG  GMOSAIC     xshift: 0.00 yshift: 0.00 xmag: 1.00 ymag: 1.00 xrot: 0.00 yrot: 0.00
+ENG  GMOSAIC 
+ENG  GMOSAIC Transforming image tmpimg24094_17[SCI,3][1:1024,1:2088] to image tmpchipsci24094_26
+ENG  GMOSAIC     xshift: 0.00 yshift: 0.36 xmag: 1.00 ymag: 1.00 xrot: 0.00 yrot: 0.00
+ENG  GMOSAIC imcopy  tmpchipsci24094_24  tmpimage224094g.fits[1,append][1:1024,1:2088]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpchipsci24094_25  tmpimage224094g.fits[1,append][1055:2078,1:2088]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpchipsci24094_26  tmpimage224094g.fits[1,append][2109:3132,1:2088]  INDEF  0.
+TSK  GMOSAIC Interpolating across chip gaps using gmos$data/chipgaps.dat
+STAT GMOSAIC All 1 images successfully mosaiced.
+VIS  GMOSAIC --------------------
+STAT GMOSAIC Exit status: SUCCESS
+STAT GMOSAIC Log closed at [Fri 13:39:29 24-Jan-2020]
+VIS  GMOSAIC -------------------------------------------------------------------
+VIS  GMOSAIC 
+EOE  GMOSAIC 2020-01-24T13:39:29
+GSREDUCE: returned from GMOSAIC.
+GSREDUCE: Image S20180928S0014.fits is LONGSLIT. Will not cut spectra into separate science extensions
+GSREDUCE: Calling GSAPPWAVE
+--------------------------------------------------------------------------------
+GSAPPWAVE -- Fri Jan 24 13:39:29 CST 2020
+ 
+inimages = gsS20180928S0014.fits
+Grating: R400+_G5325
+Grating central wavelength: 656.0 [nm]
+Resolution (0.5'' slit): 1599.36544498
+Anamorphic factor: 1.14644409066
+Grating tilt (header): 56.6764
+Calculated tilt: 56.676
+nm/pix = 0.150473141874
+Filter1: GG455_G0329
+Filter2: open2-8
+Approximate available wavelength coverage based on grating,
+    filters and detector type is: 440.0 - 1080.0 [nm]
+
+Calibrating: [SCI,1]
+    Spectrum length in pixels: 3132
+    Approximate location of grating central 
+        wavelength in pixels: 1566.0
+    Approximate wavelength coverage based on
+        spectrum length and calculated dispersion is:  440 - 1080 [nm]
+ 
+GSAPPWAVE done
+--------------------------------------------------------------------------------
+GSREDUCE: Updating PHU and cleaning up
+ 
+GSREDUCE done
+----------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+GSWAVELENGTH -- Fri Jan 24 13:39:43 CST 2020
+ 
+inimages = gsS20180928S0014.fits
+Calibrating extension: 1
+
+AUTOIDENTIFY: NOAO/IRAF V2.16 mmarcano@tux Fri 13:39:45 24-Jan-2020
+  Spectrum                 # Found   Midpoint Dispersion        RMS
+  gsS20180928S0014_001[*,1044]         73    6572.38       -1.5      0.607
+
+REIDENTIFY: NOAO/IRAF V2.16 mmarcano@tux Fri 13:40:06 24-Jan-2020
+  Reference image = gsS20180928S0014_001, New image = gsS20180928S0014_001, Refit = yes
+          Image Data    Found     Fit Pix Shift  User Shift  Z Shift      RMS
+gsS20180928S0014_001[*,1034] 73/73   65/75      -0.31       0.454  9.00E-5    0.449
+gsS20180928S0014_001[*,1024] 72/75   69/76      0.114      -0.168  -3.0E-5    0.501
+gsS20180928S0014_001[*,1014] 76/76   67/79      0.175      -0.258  -4.8E-5    0.417
+gsS20180928S0014_001[*,1004] 76/79   66/78      0.284      -0.422  -7.3E-5    0.403
+gsS20180928S0014_001[*,994] 75/78   66/79      -0.13       0.194  3.18E-5    0.459
+gsS20180928S0014_001[*,984] 76/79   68/77      0.203      -0.299  -5.7E-5    0.474
+gsS20180928S0014_001[*,974] 73/77   70/77    -0.0407      0.0551  2.04E-5    0.534
+gsS20180928S0014_001[*,964] 73/77   69/75     0.0104     -0.0135  -6.3E-6    0.474
+gsS20180928S0014_001[*,954] 74/75   66/77     0.0814      -0.113  -3.6E-5    0.459
+gsS20180928S0014_001[*,944] 75/77   66/78     -0.122        0.18  3.34E-5    0.438
+gsS20180928S0014_001[*,934] 76/78   69/78     0.0576     -0.0862  -1.4E-5    0.457
+gsS20180928S0014_001[*,924] 75/78   67/76    -0.0559      0.0804  1.90E-5    0.446
+gsS20180928S0014_001[*,914] 75/76   69/78    -0.0946       0.139  2.58E-5    0.609
+gsS20180928S0014_001[*,904] 73/78   66/76      0.175      -0.252  -6.1E-5    0.404
+gsS20180928S0014_001[*,894] 75/76   66/77     -0.016      0.0251  1.28E-6    0.395
+gsS20180928S0014_001[*,884] 74/77   64/76     0.0177     -0.0264  -4.7E-6    0.441
+gsS20180928S0014_001[*,874] 74/76   65/76     0.0117     -0.0139  -9.1E-6    0.494
+gsS20180928S0014_001[*,864] 75/76   66/76      0.123      -0.179  -3.9E-5    0.441
+gsS20180928S0014_001[*,854] 74/76   66/75     0.0453     -0.0611  -2.3E-5    0.472
+gsS20180928S0014_001[*,844] 75/75   68/78      0.323      -0.472  -9.7E-5      0.5
+gsS20180928S0014_001[*,834] 75/78   65/79     -0.231       0.354  3.87E-5    0.422
+gsS20180928S0014_001[*,824] 76/79   67/78     -0.249       0.362  7.72E-5    0.513
+gsS20180928S0014_001[*,814] 76/78   68/76     0.0434      -0.064  -1.2E-5     0.45
+gsS20180928S0014_001[*,804] 72/76   68/76    -0.0639      0.0958  1.44E-5    0.582
+gsS20180928S0014_001[*,794] 74/76   68/78     0.0572     -0.0859  -1.3E-5    0.541
+gsS20180928S0014_001[*,784] 74/78   67/76       0.11      -0.157  -4.0E-5     0.56
+gsS20180928S0014_001[*,774] 72/76   64/79    -0.0394      0.0542  1.76E-5    0.418
+gsS20180928S0014_001[*,764] 76/79   64/78    0.00282     -0.0015  -6.1E-6    0.424
+gsS20180928S0014_001[*,754] 74/78   67/76      0.101      -0.141  -4.3E-5    0.673
+gsS20180928S0014_001[*,744] 52/76   58/58     -0.454       0.658  1.46E-4     6.31
+gsS20180928S0014_001[*,734] 50/58   64/84      0.381      -0.556  -1.3E-4    0.473
+gsS20180928S0014_001[*,724] 80/84   64/85       -0.3       0.442  8.36E-5    0.461
+gsS20180928S0014_001[*,714] 80/85   68/84    -0.0307      0.0451  8.73E-6      0.5
+gsS20180928S0014_001[*,704] 82/84   69/84     -0.135       0.199  3.71E-5    0.462
+gsS20180928S0014_001[*,694] 82/84   68/85    0.00463    -0.00643  -2.3E-6    0.518
+gsS20180928S0014_001[*,684] 79/85   67/83    -0.0362      0.0574  2.23E-6    0.471
+gsS20180928S0014_001[*,674] 81/83   68/83   -0.00726     0.00679  8.83E-6    0.431
+gsS20180928S0014_001[*,664] 80/83   67/82     0.0202     -0.0264  -1.2E-5    0.433
+gsS20180928S0014_001[*,654] 79/82   68/81    -0.0926       0.139  1.99E-5    0.481
+gsS20180928S0014_001[*,644] 79/81   68/85    -0.0172       0.031  -6.0E-6     0.44
+gsS20180928S0014_001[*,634] 80/85   65/81     -0.111       0.161  3.50E-5    0.441
+gsS20180928S0014_001[*,624] 78/81   67/82    -0.0272       0.046  -4.0E-6    0.445
+gsS20180928S0014_001[*,614] 79/82   68/80    -0.0685       0.099  2.19E-5    0.548
+gsS20180928S0014_001[*,604] 76/80   67/81    -0.0359       0.054  7.58E-6    0.432
+gsS20180928S0014_001[*,594] 77/81   71/80     -0.128       0.187  3.63E-5    0.606
+gsS20180928S0014_001[*,584] 78/80   67/82     -0.148       0.217  4.22E-5    0.422
+gsS20180928S0014_001[*,574] 79/82   72/85     -0.219        0.32  6.45E-5    0.488
+gsS20180928S0014_001[*,564] 81/85   68/82     -0.407       0.596  1.22E-4    0.493
+gsS20180928S0014_001[*,554] 79/82   72/81      0.122      -0.174  -4.6E-5    0.518
+gsS20180928S0014_001[*,544] 79/81   68/80    -0.0207      0.0354  -4.0E-6    0.471
+gsS20180928S0014_001[*,534] 80/80   69/81     -0.343       0.504  9.72E-5    0.543
+gsS20180928S0014_001[*,524] 78/81   70/81    -0.0784       0.123  7.40E-6    0.489
+gsS20180928S0014_001[*,514] 79/81   71/82    -0.0739        0.11  1.87E-5    0.745
+gsS20180928S0014_001[*,504] 77/82   68/80     -0.162       0.242  3.90E-5    0.539
+gsS20180928S0014_001[*,494] 78/80   70/81     0.0935      -0.135  -3.1E-5    0.574
+gsS20180928S0014_001[*,484] 80/81   71/83     0.0882      -0.123  -3.8E-5    0.532
+gsS20180928S0014_001[*,474] 78/83   67/82     -0.101       0.152  2.07E-5     0.47
+gsS20180928S0014_001[*,464] 78/82   70/82     -0.116       0.173  2.82E-5    0.448
+gsS20180928S0014_001[*,454] 81/82   74/85    -0.0195      0.0307  8.31E-7    0.998
+gsS20180928S0014_001[*,444] 79/85   66/80    -0.0451       0.067  1.10E-5    0.444
+gsS20180928S0014_001[*,434] 79/80   69/84     -0.132         0.2  2.49E-5    0.503
+gsS20180928S0014_001[*,424] 82/84   67/85    -0.0509      0.0768  9.93E-6    0.451
+gsS20180928S0014_001[*,414] 83/85   66/85    -0.0421      0.0608  1.43E-5     0.47
+gsS20180928S0014_001[*,404] 83/85   67/85     -0.158       0.237  3.27E-5     0.42
+gsS20180928S0014_001[*,394] 82/85   69/83      0.113      -0.157  -4.8E-5    0.472
+gsS20180928S0014_001[*,384] 81/83   66/84     0.0595     -0.0822  -2.7E-5     0.39
+gsS20180928S0014_001[*,374] 79/84   65/81    -0.0677       0.103  1.29E-5     0.41
+gsS20180928S0014_001[*,364] 80/81   67/85      0.108      -0.151  -4.4E-5     0.43
+gsS20180928S0014_001[*,354] 80/85   66/81     -0.231       0.351  4.56E-5    0.436
+gsS20180928S0014_001[*,344] 79/81   67/82     -0.168       0.248  4.54E-5    0.479
+gsS20180928S0014_001[*,334] 79/82   70/82     -0.385       0.566  1.09E-4    0.468
+gsS20180928S0014_001[*,324] 79/82   67/80     0.0948      -0.137  -3.1E-5    0.458
+gsS20180928S0014_001[*,314] 77/80   69/81     -0.245        0.36  7.03E-5    0.484
+gsS20180928S0014_001[*,304] 78/81   65/80     -0.309       0.461  7.45E-5    0.421
+gsS20180928S0014_001[*,294] 78/80   67/80     -0.184       0.276  4.21E-5    0.442
+gsS20180928S0014_001[*,284] 79/80   66/82     0.0602     -0.0856  -2.3E-5     0.44
+gsS20180928S0014_001[*,274] 80/82   71/83    -0.0164      0.0333  -1.3E-5    0.554
+gsS20180928S0014_001[*,264] 81/83   70/84    -0.0271      0.0425  2.34E-6    0.544
+gsS20180928S0014_001[*,254] 79/84   67/80     -0.157       0.233  3.87E-5     0.51
+gsS20180928S0014_001[*,244] 78/80   73/81    -0.0544      0.0834  8.24E-6    0.533
+gsS20180928S0014_001[*,234] 78/81   67/79    -0.0564      0.0865  9.03E-6    0.477
+gsS20180928S0014_001[*,224] 77/79   68/81    -0.0915       0.139  1.70E-5    0.494
+gsS20180928S0014_001[*,214] 78/81   72/82     -0.187       0.277  4.80E-5    0.663
+gsS20180928S0014_001[*,204] 77/82   73/83    -0.0925       0.136  2.65E-5    0.688
+gsS20180928S0014_001[*,194] 77/83   69/78     -0.236       0.355  5.15E-5    0.514
+gsS20180928S0014_001[*,184] 76/78   67/80     -0.135       0.204  2.73E-5    0.466
+gsS20180928S0014_001[*,174] 78/80   68/81    -0.0585      0.0893  9.97E-6    0.485
+gsS20180928S0014_001[*,164] 78/81   70/83     -0.242       0.361  5.90E-5    0.486
+gsS20180928S0014_001[*,154] 80/83   67/84     -0.303       0.442  9.13E-5    0.407
+gsS20180928S0014_001[*,144] 81/84   69/82     -0.179       0.265  4.70E-5    0.571
+gsS20180928S0014_001[*,134] 80/82   67/85      0.189       -0.27  -6.5E-5     0.55
+gsS20180928S0014_001[*,124] 81/85   69/82     -0.326       0.487  7.54E-5    0.539
+gsS20180928S0014_001[*,114] 79/82   72/84     0.0679     -0.0924  -3.4E-5    0.686
+gsS20180928S0014_001[*,104] 80/84   69/81     -0.242       0.359  6.24E-5    0.526
+gsS20180928S0014_001[*,94] 78/81   71/83     0.0745      -0.103  -3.4E-5    0.609
+gsS20180928S0014_001[*,84] 81/83   68/86     0.0561     -0.0707  -3.9E-5    0.706
+gsS20180928S0014_001[*,74] 85/86   69/88     -0.269        0.39  8.76E-5    0.606
+gsS20180928S0014_001[*,64] 86/88   75/88     -0.302       0.435  9.95E-5    0.856
+gsS20180928S0014_001[*,54] 80/88   84/86     0.0476     -0.0588  -3.5E-5     3.35
+gsS20180928S0014_001[*,44] 71/86   89/89      0.365       -0.55  -7.7E-5     6.31
+gsS20180928S0014_001[*,34] 70/89   83/84     0.0809      -0.118  -2.4E-5     6.69
+gsS20180928S0014_001[*,24] 67/84   82/83    -0.0484       0.075  5.96E-6     7.28
+gsS20180928S0014_001[*,14] 71/83   92/92      0.684       -1.02  -1.5E-4     7.05
+gsS20180928S0014_001[*,4] 18/92   21/21      -1.04        1.52  3.08E-4     8.77
+    ** Too many features lost **
+gsS20180928S0014_001[*,1054] 73/73   67/76     0.0947      -0.139  -2.8E-5     0.57
+gsS20180928S0014_001[*,1064] 71/76   68/75     -0.062      0.0895  2.08E-5    0.497
+gsS20180928S0014_001[*,1074] 72/75   65/77    -0.0469      0.0776  -2.5E-6    0.431
+gsS20180928S0014_001[*,1084] 75/77   67/76     -0.189       0.276  5.69E-5    0.535
+gsS20180928S0014_001[*,1094] 71/76   66/76    -0.0836        0.12  2.92E-5    0.445
+gsS20180928S0014_001[*,1104] 74/76   67/76      0.188      -0.272  -6.1E-5    0.427
+gsS20180928S0014_001[*,1114] 76/76   67/77     0.0734      -0.106  -2.5E-5    0.512
+gsS20180928S0014_001[*,1124] 73/77   67/77      0.042     -0.0631  -1.0E-5    0.489
+gsS20180928S0014_001[*,1134] 77/77   66/77    -0.0552      0.0794  1.92E-5    0.498
+gsS20180928S0014_001[*,1144] 77/77   67/79      0.261      -0.379  -8.5E-5    0.444
+gsS20180928S0014_001[*,1154] 74/79   66/76    2.05E-4     0.00223  -4.8E-6    0.506
+gsS20180928S0014_001[*,1164] 74/76   69/80     -0.158        0.23  5.09E-5    0.509
+gsS20180928S0014_001[*,1174] 77/80   66/80      0.181      -0.261  -6.1E-5    0.473
+gsS20180928S0014_001[*,1184] 78/80   69/79        0.2      -0.287  -6.8E-5    0.576
+gsS20180928S0014_001[*,1194] 75/79   66/80     -0.113       0.168  2.94E-5    0.445
+gsS20180928S0014_001[*,1204] 78/80   65/78    -0.0205      0.0276  1.12E-5    0.453
+gsS20180928S0014_001[*,1214] 76/78   69/80     -0.287       0.428  6.97E-5    0.469
+gsS20180928S0014_001[*,1224] 77/80   70/83     0.0988      -0.143  -3.2E-5     0.59
+gsS20180928S0014_001[*,1234] 78/83   67/79    -0.0997       0.146  2.96E-5    0.511
+gsS20180928S0014_001[*,1244] 76/79   64/77    -0.0775       0.111  2.78E-5    0.424
+gsS20180928S0014_001[*,1254] 77/77   67/80   -0.00759      0.0139  -3.1E-6    0.436
+gsS20180928S0014_001[*,1264] 75/80   65/76      0.158      -0.236  -3.8E-5    0.409
+gsS20180928S0014_001[*,1274] 74/76   69/78     -0.119       0.175  3.54E-5    0.573
+gsS20180928S0014_001[*,1284] 75/78   68/77    -0.0348        0.05  1.18E-5    0.495
+gsS20180928S0014_001[*,1294] 75/77   65/77       0.18      -0.262  -5.5E-5    0.491
+gsS20180928S0014_001[*,1304] 74/77   65/76     -0.104       0.153  2.84E-5    0.505
+gsS20180928S0014_001[*,1314] 76/76   67/82     0.0748      -0.107  -2.7E-5    0.438
+gsS20180928S0014_001[*,1324] 76/82   64/76    -0.0943       0.141  2.18E-5    0.387
+gsS20180928S0014_001[*,1334] 75/76   67/79    -0.0442      0.0656  1.12E-5    0.525
+gsS20180928S0014_001[*,1344] 76/79   69/80    -0.0576      0.0868  1.20E-5    0.575
+gsS20180928S0014_001[*,1354] 75/80   66/78      0.111      -0.159  -3.9E-5    0.504
+gsS20180928S0014_001[*,1364] 75/78   67/80      0.323      -0.467  -1.1E-4    0.549
+gsS20180928S0014_001[*,1374] 76/80   67/78     -0.136       0.203  3.37E-5    0.571
+gsS20180928S0014_001[*,1384] 75/78   66/76    -0.0492      0.0749  8.92E-6    0.598
+gsS20180928S0014_001[*,1394] 75/76   65/77     -0.348       0.509  1.04E-4    0.415
+gsS20180928S0014_001[*,1404] 73/77   63/77     -0.239       0.354  6.34E-5    0.455
+gsS20180928S0014_001[*,1414] 75/77   68/80     0.0887      -0.125  -3.5E-5    0.534
+gsS20180928S0014_001[*,1424] 75/80   68/78     -0.532       0.789  1.40E-4    0.469
+gsS20180928S0014_001[*,1434] 66/78   70/73      0.301      -0.449  -6.8E-5     3.34
+gsS20180928S0014_001[*,1444] 61/73   69/70     -0.732        1.09  1.87E-4     3.96
+gsS20180928S0014_001[*,1454] 63/70   64/78     0.0939      -0.126  -5.2E-5    0.465
+gsS20180928S0014_001[*,1464] 75/78   67/79     0.0687     -0.0984  -2.5E-5    0.533
+gsS20180928S0014_001[*,1474] 76/79   70/79     0.0152     -0.0161  -1.6E-5    0.581
+gsS20180928S0014_001[*,1484] 79/79   74/83     -0.172        0.26  3.50E-5    0.877
+gsS20180928S0014_001[*,1494] 77/83   65/78    -0.0716       0.108  1.43E-5    0.489
+gsS20180928S0014_001[*,1504] 77/78   67/81    -0.0616      0.0924  1.37E-5    0.533
+gsS20180928S0014_001[*,1514] 79/81   70/82    -0.0902       0.133  2.42E-5    0.514
+gsS20180928S0014_001[*,1524] 80/82   66/82     -0.179       0.266  4.43E-5    0.432
+gsS20180928S0014_001[*,1534] 78/82   69/80     0.0252     -0.0426  2.61E-6    0.569
+gsS20180928S0014_001[*,1544] 79/80   68/82    -0.0119      0.0196  -6.0E-7    0.577
+gsS20180928S0014_001[*,1554] 77/82   73/81     0.0649      -0.091  -2.7E-5    0.795
+gsS20180928S0014_001[*,1564] 77/81   68/81      0.019     -0.0248  -1.1E-5    0.475
+gsS20180928S0014_001[*,1574] 75/81   71/82     -0.175       0.256  5.09E-5     0.64
+gsS20180928S0014_001[*,1584] 77/82   67/82     -0.226       0.337  5.47E-5    0.541
+gsS20180928S0014_001[*,1594] 81/82   69/82   -0.00621      0.0123  -4.3E-6    0.522
+gsS20180928S0014_001[*,1604] 81/82   70/83    -0.0734       0.111  1.42E-5    0.533
+gsS20180928S0014_001[*,1614] 82/83   72/84     0.0759      -0.108  -2.9E-5    0.606
+gsS20180928S0014_001[*,1624] 82/84   76/84   -0.00824       0.014  -1.4E-6     1.12
+gsS20180928S0014_001[*,1634] 81/84   70/81     -0.168       0.245  5.14E-5    0.574
+gsS20180928S0014_001[*,1644] 79/81   70/82     -0.186       0.284  3.30E-5    0.585
+gsS20180928S0014_001[*,1654] 79/82   69/83     -0.115       0.168  3.45E-5    0.558
+gsS20180928S0014_001[*,1664] 80/83   68/81    0.00367     6.09E-4  -1.2E-5    0.544
+gsS20180928S0014_001[*,1674] 79/81   69/83      -0.14       0.207  3.56E-5    0.537
+gsS20180928S0014_001[*,1684] 82/83   71/83     -0.236       0.342  7.60E-5    0.553
+gsS20180928S0014_001[*,1694] 81/83   69/83    -0.0423      0.0664  3.71E-6    0.534
+gsS20180928S0014_001[*,1704] 79/83   71/81     0.0167     -0.0192  -1.5E-5    0.552
+gsS20180928S0014_001[*,1714] 77/81   70/82    -0.0602      0.0875  1.82E-5    0.534
+gsS20180928S0014_001[*,1724] 80/82   68/81     -0.231       0.342  5.83E-5    0.455
+gsS20180928S0014_001[*,1734] 79/81   67/81     -0.257       0.375  7.90E-5    0.473
+gsS20180928S0014_001[*,1744] 79/81   71/82     -0.148       0.217  4.26E-5    0.542
+gsS20180928S0014_001[*,1754] 77/82   70/79     0.0178     -0.0233  -1.1E-5    0.503
+gsS20180928S0014_001[*,1764] 77/79   70/80     -0.172       0.248  5.75E-5     0.55
+gsS20180928S0014_001[*,1774] 76/80   69/81     0.0718      -0.103  -2.6E-5    0.509
+gsS20180928S0014_001[*,1784] 78/81   67/83     0.0534     -0.0692  -3.3E-5    0.473
+gsS20180928S0014_001[*,1794] 80/83   67/82     -0.138       0.203  3.97E-5    0.426
+gsS20180928S0014_001[*,1804] 80/82   68/82     0.0262     -0.0344  -1.6E-5    0.506
+gsS20180928S0014_001[*,1814] 81/82   73/83     0.0161     -0.0211  -9.7E-6    0.911
+gsS20180928S0014_001[*,1824] 79/83   66/82     0.0574     -0.0788  -2.7E-5    0.437
+gsS20180928S0014_001[*,1834] 80/82   69/84     -0.294        0.43  8.48E-5    0.434
+gsS20180928S0014_001[*,1844] 80/84   67/81    -0.0993       0.147  2.62E-5    0.429
+gsS20180928S0014_001[*,1854] 78/81   68/83      0.126      -0.177  -4.9E-5    0.417
+gsS20180928S0014_001[*,1864] 80/83   68/82     -0.254       0.371  7.34E-5    0.436
+gsS20180928S0014_001[*,1874] 81/82   70/83     -0.034      0.0531  3.03E-6    0.517
+gsS20180928S0014_001[*,1884] 80/83   74/85     -0.142       0.213  3.16E-5    0.832
+gsS20180928S0014_001[*,1894] 81/85   68/84      -0.21       0.311  5.67E-5    0.454
+gsS20180928S0014_001[*,1904] 80/84   70/82     -0.214       0.313  6.26E-5    0.563
+gsS20180928S0014_001[*,1914] 79/82   68/82     -0.161       0.239  4.23E-5    0.473
+gsS20180928S0014_001[*,1924] 81/82   73/83     0.0268     -0.0323  -2.2E-5    0.591
+gsS20180928S0014_001[*,1934] 81/83   69/81     -0.245       0.359  7.13E-5    0.544
+gsS20180928S0014_001[*,1944] 81/81   68/84     -0.125       0.186  3.21E-5    0.531
+gsS20180928S0014_001[*,1954] 83/84   68/85     -0.169       0.251  4.24E-5     0.42
+gsS20180928S0014_001[*,1964] 82/85   71/85    -0.0797       0.119  1.90E-5    0.484
+gsS20180928S0014_001[*,1974] 79/85   67/82     -0.323       0.474  9.13E-5    0.489
+gsS20180928S0014_001[*,1984] 78/82   67/84     -0.277       0.408  7.58E-5    0.494
+gsS20180928S0014_001[*,1994] 78/84   66/82    -0.0391      0.0599  5.98E-6    0.479
+gsS20180928S0014_001[*,2004] 78/82   72/81    -0.0179       0.032  -6.1E-6    0.644
+gsS20180928S0014_001[*,2014] 79/81   67/81    -0.0884       0.137  1.12E-5    0.543
+gsS20180928S0014_001[*,2024] 78/81   67/81     -0.108       0.161  2.50E-5    0.496
+gsS20180928S0014_001[*,2034] 77/81   69/80     -0.222       0.338  4.03E-5    0.535
+gsS20180928S0014_001[*,2044] 77/80   67/80    -0.0212      0.0313  5.09E-6    0.449
+gsS20180928S0014_001[*,2054] 79/80   69/83    -0.0622       0.101  -9.6E-7    0.499
+gsS20180928S0014_001[*,2064] 78/83   68/81     0.0376     -0.0523  -1.7E-5    0.514
+gsS20180928S0014_001[*,2074] 79/81   71/84     -0.154       0.227  4.09E-5    0.562
+gsS20180928S0014_001[*,2084] 76/84   66/79    -0.0878       0.134  1.50E-5    0.459
+
+NOAO/IRAF V2.16 mmarcano@tux Fri 13:40:23 24-Jan-2020
+  Longslit coordinate fit name is gsS20180928S0014_001.
+  Longslit database is database.
+  Features from images:
+    gsS20180928S0014_001
+  Map User coordinates for axis 1 using image features:
+  Number of feature coordnates = 14237
+  Mapping function = chebyshev
+    X order = 4
+    Y order = 4
+  Fitted coordinates at the corners of the images:
+    (1, 1) = 8926.235  (3132, 1) = 4256.605
+    (1, 2088) = 8930.867  (3132, 2088) = 4259.639
+ 
+GSWAVELENGTH exit status: good
+--------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+GSREDUCE -- Fri Jan 24 13:40:50 CST 2020
+
+Input image or list  = raw/N20191127S0396
+Output image or list = 
+Output prefix        = gs
+
+Overscan subtraction  fl_over      = yes
+Trim image            fl_trim      = yes
+Bias subtraction      fl_bias      = yes
+Cosmic ray cleaning   fl_gscrrej   = no
+New CR cleaning       fl_crspec    = no
+Dark subtraction      fl_dark      = no
+QE Correction         fl_qecorr    = no
+Flat field correction fl_flat      = no
+Mosaic the CCDs       fl_gmosaic   = yes
+Fixpix chip gaps      fl_fixpix    = yes
+Cut MOS spectra       fl_cut       = yes
+Add titles to MOS     fl_title     = yes
+Oversize slit length  fl_oversize  = yes
+Run gsappwave         fl_gsappwave = yes
+Run gsscatsub         fl_scatsub   = no
+VAR & DQ planes       fl_vardq     = no
+
+geointer = linear
+gradimage= 
+refimage = 
+bias     = MCbiasFull.fits
+dark     = 
+qe_refim    = 
+qe_corrim   = 
+qe_corrpref = qecorr
+flatim   = 
+sci_ext  = SCI
+var_ext  = VAR
+dq_ext   = DQ
+key_mdf  = MASKNAME
+mdffile  = 
+mdfdir   = gmos$data/
+bpm      = 
+Chip gaps= gmos$data/chipgaps.dat
+
+ERROR - GSREDUCE: Output image gsN20191127S0396 exists
+ERROR - GSREDUCE: Program execution failed with 1 errors
+ 
+GSREDUCE done
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+GSREDUCE -- Fri Jan 24 13:41:00 CST 2020
+
+Input image or list  = raw/N20191127S0396
+Output image or list = 
+Output prefix        = gs
+
+Overscan subtraction  fl_over      = yes
+Trim image            fl_trim      = yes
+Bias subtraction      fl_bias      = yes
+Cosmic ray cleaning   fl_gscrrej   = no
+New CR cleaning       fl_crspec    = no
+Dark subtraction      fl_dark      = no
+QE Correction         fl_qecorr    = no
+Flat field correction fl_flat      = no
+Mosaic the CCDs       fl_gmosaic   = yes
+Fixpix chip gaps      fl_fixpix    = yes
+Cut MOS spectra       fl_cut       = yes
+Add titles to MOS     fl_title     = yes
+Oversize slit length  fl_oversize  = yes
+Run gsappwave         fl_gsappwave = yes
+Run gsscatsub         fl_scatsub   = no
+VAR & DQ planes       fl_vardq     = no
+
+geointer = linear
+gradimage= 
+refimage = 
+bias     = MCbiasFull.fits
+dark     = 
+qe_refim    = 
+qe_corrim   = 
+qe_corrpref = qecorr
+flatim   = 
+sci_ext  = SCI
+var_ext  = VAR
+dq_ext   = DQ
+key_mdf  = MASKNAME
+mdffile  = 
+mdfdir   = gmos$data/
+bpm      = 
+Chip gaps= gmos$data/chipgaps.dat
+
+Input image = N20191127S0396.fits; Output image = gsN20191127S0396.fits
+GSREDUCE: Image N20191127S0396.fits has been QE corrected? no
+GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
+GSREDUCE: Calling GIREDUCE to process image
+----------------------------------------------------------------------------
+GIREDUCE -- Fri Jan 24 13:41:00 CST 2020
+
+Using already gprepared image gN20191127S0396
+
+Input files:
+gN20191127S0396
+
+Output files:
+tmpimage124094_37
+
+GIREDUCE: Image tmpimage124094_37 overscan subtracted
+GIREDUCE: Image tmpimage124094_37 trimmed
+
+Output image       Bias                 Flat               Dark       Scale 
+tmpimage124094_37  MCbiasFull           INDEF              INDEF       0.00
+GIREDUCE: Subtracted bias MCbiasFull from tmpimage124094_37
+GIREDUCE: multiplying image tmpimage124094_37 by gain
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2020-01-24T19:41:17
+File[extension]:               AMPNAME               GAIN   READNOISE
+tmpimage124094_37.fits[SCI,1]: " "BI13-20-4k-1, 4""  2.010  8.02
+tmpimage124094_37.fits[SCI,2]: " "BI13-20-4k-1, 3""  1.950  6.88
+tmpimage124094_37.fits[SCI,3]: " "BI13-20-4k-1, 2""  1.970  6.02
+tmpimage124094_37.fits[SCI,4]: " "BI13-20-4k-1, 1""  1.910  5.88
+tmpimage124094_37.fits[SCI,5]: " "BI12-09-4k-2, 4""  2.030  6.71
+tmpimage124094_37.fits[SCI,6]: " "BI12-09-4k-2, 3""  1.970  6.34
+tmpimage124094_37.fits[SCI,7]: " "BI12-09-4k-2, 2""  1.960  5.39
+tmpimage124094_37.fits[SCI,8]: " "BI12-09-4k-2, 1""  2.010  5.86
+tmpimage124094_37.fits[SCI,9]: " "BI13-18-4k-2, 4""  1.950  6.10
+tmpimage124094_37.fits[SCI,10]: " "BI13-18-4k-2, 3""  1.950  6.13
+tmpimage124094_37.fits[SCI,11]: " "BI13-18-4k-2, 2""  1.890  5.98
+tmpimage124094_37.fits[SCI,12]: " "BI13-18-4k-2, 1""  1.950  6.79
+
+GGAIN -- Finished: 2020-01-24T19:41:19
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+GIREDUCE: output counts in electrons
+
+GIREDUCE - Cleaning up -- Fri Jan 24 13:41:19 CST 2020
+
+GIREDUCE -- Fri Jan 24 13:41:19 CST 2020
+GIREDUCE exit status:  good.
+----------------------------------------------------------------------------
+GSREDUCE: Calling GMOSAIC
+BOE  GMOSAIC 2020-01-24T13:41:19
+VIS  GMOSAIC 
+VIS  GMOSAIC -------------------------------------------------------------------
+STAT GMOSAIC Log opened at [Fri 13:41:19 24-Jan-2020]
+VIS  GMOSAIC 
+VIS  GMOSAIC --------------------
+TSK  GMOSAIC Input Parameters:
+TSK  GMOSAIC      inimages       = tmpimage124094_37.fits
+TSK  GMOSAIC      outimages      = tmpimage224094_38.fits
+TSK  GMOSAIC      outpref        = 
+TSK  GMOSAIC      fl_paste       = no
+TSK  GMOSAIC      fl_vardq       = no
+TSK  GMOSAIC      fl_fixpix      = yes
+TSK  GMOSAIC      fl_clean       = no
+TSK  GMOSAIC      fl_fulldq      = no
+TSK  GMOSAIC      bitflags       = all
+TSK  GMOSAIC      dqthresh       = 0.1
+TSK  GMOSAIC      geointer       = linear
+TSK  GMOSAIC      gap            = default
+TSK  GMOSAIC      bpmfile        = gmos$data/chipgaps.dat
+TSK  GMOSAIC      statsec        = default
+TSK  GMOSAIC      obsmode        = IMAGE
+TSK  GMOSAIC      sci_ext        = SCI
+TSK  GMOSAIC      var_ext        = VAR
+TSK  GMOSAIC      dq_ext         = DQ
+TSK  GMOSAIC      key_detsec     = DETSEC
+TSK  GMOSAIC      key_ccdsec     = CCDSEC
+TSK  GMOSAIC      key_datsec     = DATASEC
+TSK  GMOSAIC      key_ccdsum     = CCDSUM
+TSK  GMOSAIC      key_obsmode    = OBSMODE
+TSK  GMOSAIC      logfile        = gmos.log
+TSK  GMOSAIC      verbose        = yes
+TSK  GMOSAIC      fl_real        = no
+VIS  GMOSAIC --------------------
+TSK  GMOSAIC Input: tmpimage124094_37  Output: tmpimage224094_38.fits
+TSK  GMOSAIC Found a MDF, copying for later use.
+ENG  GMOSAIC imcopy  tmpimage124094_37[SCI,1][1:512,1:1044]  tmptile24094_76[1,append][1:512,1:1044]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpimage124094_37[SCI,2][1:512,1:1044]  tmptile24094_76[1,append][513:1024,1:1044]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpimage124094_37[SCI,3][1:512,1:1044]  tmptile24094_76[1,append][1025:1536,1:1044]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpimage124094_37[SCI,4][1:512,1:1044]  tmptile24094_76[1,append][1537:2048,1:1044]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpimage124094_37[SCI,5][1:512,1:1044]  tmptile24094_77[1,append][1:512,1:1044]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpimage124094_37[SCI,6][1:512,1:1044]  tmptile24094_77[1,append][513:1024,1:1044]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpimage124094_37[SCI,7][1:512,1:1044]  tmptile24094_77[1,append][1025:1536,1:1044]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpimage124094_37[SCI,8][1:512,1:1044]  tmptile24094_77[1,append][1537:2048,1:1044]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpimage124094_37[SCI,9][1:512,1:1044]  tmptile24094_78[1,append][1:512,1:1044]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpimage124094_37[SCI,10][1:512,1:1044]  tmptile24094_78[1,append][513:1024,1:1044]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpimage124094_37[SCI,11][1:512,1:1044]  tmptile24094_78[1,append][1025:1536,1:1044]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpimage124094_37[SCI,12][1:512,1:1044]  tmptile24094_78[1,append][1537:2048,1:1044]  INDEF  0.
+ENG  GMOSAIC Setting rotation Xrot[1]=-0.001000, Yrot[1]=-0.016000
+ENG  GMOSAIC Setting rotation Xrot[2]= 0.000000, Yrot[2]= 0.000000
+ENG  GMOSAIC Setting rotation Xrot[3]=-0.001342, Yrot[3]=-0.021480
+ENG  GMOSAIC 
+ENG  GMOSAIC Transforming image tmpimg24094_72[SCI,1][1:2048,1:1044] to image tmpchipsci24094_79
+ENG  GMOSAIC     xshift: 1.10 yshift: 0.04 xmag: 1.00 ymag: 1.00 xrot: 360.00 yrot: 359.98
+ENG  GMOSAIC 
+ENG  GMOSAIC Transforming image tmpimg24094_72[SCI,2][1:2048,1:1044] to image tmpchipsci24094_80
+ENG  GMOSAIC     xshift: 0.00 yshift: 0.00 xmag: 1.00 ymag: 1.00 xrot: 0.00 yrot: 0.00
+ENG  GMOSAIC 
+ENG  GMOSAIC Transforming image tmpimg24094_72[SCI,3][1:2048,1:1044] to image tmpchipsci24094_81
+ENG  GMOSAIC     xshift: -0.28 yshift: -0.07 xmag: 1.00 ymag: 1.00 xrot: 360.00 yrot: 359.98
+ENG  GMOSAIC imcopy  tmpchipsci24094_79  tmpimage224094_38.fits[1,append][1:2048,1:1044]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpchipsci24094_80  tmpimage224094_38.fits[1,append][2116:4163,1:1044]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpchipsci24094_81  tmpimage224094_38.fits[1,append][4231:6278,1:1044]  INDEF  0.
+TSK  GMOSAIC Interpolating across chip gaps using gmos$data/chipgaps.dat
+STAT GMOSAIC All 1 images successfully mosaiced.
+VIS  GMOSAIC --------------------
+STAT GMOSAIC Exit status: SUCCESS
+STAT GMOSAIC Log closed at [Fri 13:41:21 24-Jan-2020]
+VIS  GMOSAIC -------------------------------------------------------------------
+VIS  GMOSAIC 
+EOE  GMOSAIC 2020-01-24T13:41:21
+GSREDUCE: returned from GMOSAIC.
+GSREDUCE: Image N20191127S0396.fits is LONGSLIT. Will not cut spectra into separate science extensions
+GSREDUCE: Calling GSAPPWAVE
+--------------------------------------------------------------------------------
+GSAPPWAVE -- Fri Jan 24 13:41:21 CST 2020
+ 
+inimages = gsN20191127S0396.fits
+Grating: R400+_G5305
+Grating central wavelength: 656.0 [nm]
+Resolution (0.5'' slit): 1599.36544498
+Anamorphic factor: 1.14644409066
+Grating tilt (header): 56.6764297485
+Calculated tilt: 56.676
+nm/pix = 0.0758948909327
+Filter1: GG455_G0305
+Filter2: open2-8
+Approximate available wavelength coverage based on grating,
+    filters and detector type is: 460.0 - 1080.0 [nm]
+
+Calibrating: [SCI,1]
+    Spectrum length in pixels: 6278
+    Approximate location of grating central 
+        wavelength in pixels: 3139.0
+    Approximate wavelength coverage based on
+        spectrum length and calculated dispersion is:  460 - 1080 [nm]
+ 
+GSAPPWAVE done
+--------------------------------------------------------------------------------
+GSREDUCE: Updating PHU and cleaning up
+ 
+GSREDUCE done
+----------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+GSWAVELENGTH -- Fri Jan 24 13:41:43 CST 2020
+ 
+inimages = gsN20191127S0396
+Calibrating extension: 1
+
+AUTOIDENTIFY: NOAO/IRAF V2.16 mmarcano@tux Fri 13:41:45 24-Jan-2020
+  Spectrum                 # Found   Midpoint Dispersion        RMS
+  gsN20191127S0396_001[*,522]  No solution found
+ERROR - GSWAVELENGTH: AUTOIDENTIFY did not find a solution -
+                      a database file was not created for 
+                      gsN20191127S0396.fits[SCI,1]
+ 
+GSWAVELENGTH exit status: error
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+GSWAVELENGTH -- Fri Jan 24 13:42:18 CST 2020
+ 
+inimages = gsN20191127S0397
+Calibrating extension: 1
+
+AUTOIDENTIFY: NOAO/IRAF V2.16 mmarcano@tux Fri 13:42:19 24-Jan-2020
+  Spectrum                 # Found   Midpoint Dispersion        RMS
+  gsN20191127S0397_001[*,522]  No solution found
+ERROR - GSWAVELENGTH: AUTOIDENTIFY did not find a solution -
+                      a database file was not created for 
+                      gsN20191127S0397.fits[SCI,1]
+ 
+GSWAVELENGTH exit status: error
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+GSWAVELENGTH -- Fri Jan 24 13:42:26 CST 2020
+ 
+inimages = gsN20191127S0371
+ERROR - GSWAVELENGTH: gsN20191127S0371 does not exist or is not a MEF
+ 
+GSWAVELENGTH exit status: error
+--------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+GSREDUCE -- Fri Jan 24 13:43:03 CST 2020
+
+Input image or list  = raw/N20191127S0371
+Output image or list = 
+Output prefix        = gs
+
+Overscan subtraction  fl_over      = yes
+Trim image            fl_trim      = yes
+Bias subtraction      fl_bias      = yes
+Cosmic ray cleaning   fl_gscrrej   = no
+New CR cleaning       fl_crspec    = no
+Dark subtraction      fl_dark      = no
+QE Correction         fl_qecorr    = no
+Flat field correction fl_flat      = no
+Mosaic the CCDs       fl_gmosaic   = yes
+Fixpix chip gaps      fl_fixpix    = yes
+Cut MOS spectra       fl_cut       = yes
+Add titles to MOS     fl_title     = yes
+Oversize slit length  fl_oversize  = yes
+Run gsappwave         fl_gsappwave = yes
+Run gsscatsub         fl_scatsub   = no
+VAR & DQ planes       fl_vardq     = no
+
+geointer = linear
+gradimage= 
+refimage = 
+bias     = MCbiasFull.fits
+dark     = 
+qe_refim    = 
+qe_corrim   = 
+qe_corrpref = qecorr
+flatim   = 
+sci_ext  = SCI
+var_ext  = VAR
+dq_ext   = DQ
+key_mdf  = MASKNAME
+mdffile  = 
+mdfdir   = gmos$data/
+bpm      = 
+Chip gaps= gmos$data/chipgaps.dat
+
+ERROR - GSREDUCE: Input image : raw/N20191127S0371.fits does not exist
+ERROR - GSREDUCE: Exiting with 1 errors
+ERROR - GSREDUCE: Program execution failed with 1 errors
+ 
+GSREDUCE done
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+GSREDUCE -- Fri Jan 24 13:43:19 CST 2020
+
+Input image or list  = raw/S20180928S0014.fits
+Output image or list = 
+Output prefix        = gs
+
+Overscan subtraction  fl_over      = yes
+Trim image            fl_trim      = yes
+Bias subtraction      fl_bias      = yes
+Cosmic ray cleaning   fl_gscrrej   = no
+New CR cleaning       fl_crspec    = no
+Dark subtraction      fl_dark      = no
+QE Correction         fl_qecorr    = no
+Flat field correction fl_flat      = no
+Mosaic the CCDs       fl_gmosaic   = yes
+Fixpix chip gaps      fl_fixpix    = yes
+Cut MOS spectra       fl_cut       = yes
+Add titles to MOS     fl_title     = yes
+Oversize slit length  fl_oversize  = yes
+Run gsappwave         fl_gsappwave = yes
+Run gsscatsub         fl_scatsub   = no
+VAR & DQ planes       fl_vardq     = no
+
+geointer = linear
+gradimage= 
+refimage = 
+bias     = MCbiasFull.fits
+dark     = 
+qe_refim    = 
+qe_corrim   = 
+qe_corrpref = qecorr
+flatim   = 
+sci_ext  = SCI
+var_ext  = VAR
+dq_ext   = DQ
+key_mdf  = MASKNAME
+mdffile  = 
+mdfdir   = gmos$data/
+bpm      = 
+Chip gaps= gmos$data/chipgaps.dat
+
+ERROR - GSREDUCE: Output image gsS20180928S0014 exists
+ERROR - GSREDUCE: Program execution failed with 1 errors
+ 
+GSREDUCE done
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+GSREDUCE -- Fri Jan 24 13:43:29 CST 2020
+
+Input image or list  = raw/S20180928S0014.fits
+Output image or list = 
+Output prefix        = gs
+
+Overscan subtraction  fl_over      = yes
+Trim image            fl_trim      = yes
+Bias subtraction      fl_bias      = yes
+Cosmic ray cleaning   fl_gscrrej   = no
+New CR cleaning       fl_crspec    = no
+Dark subtraction      fl_dark      = no
+QE Correction         fl_qecorr    = no
+Flat field correction fl_flat      = no
+Mosaic the CCDs       fl_gmosaic   = yes
+Fixpix chip gaps      fl_fixpix    = yes
+Cut MOS spectra       fl_cut       = yes
+Add titles to MOS     fl_title     = yes
+Oversize slit length  fl_oversize  = yes
+Run gsappwave         fl_gsappwave = yes
+Run gsscatsub         fl_scatsub   = no
+VAR & DQ planes       fl_vardq     = no
+
+geointer = linear
+gradimage= 
+refimage = 
+bias     = MCbiasFull.fits
+dark     = 
+qe_refim    = 
+qe_corrim   = 
+qe_corrpref = qecorr
+flatim   = 
+sci_ext  = SCI
+var_ext  = VAR
+dq_ext   = DQ
+key_mdf  = MASKNAME
+mdffile  = 
+mdfdir   = gmos$data/
+bpm      = 
+Chip gaps= gmos$data/chipgaps.dat
+
+Input image = S20180928S0014.fits; Output image = gsS20180928S0014.fits
+GSREDUCE: Image S20180928S0014.fits has been QE corrected? no
+GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
+GSREDUCE: Calling GIREDUCE to process image
+----------------------------------------------------------------------------
+GIREDUCE -- Fri Jan 24 13:43:29 CST 2020
+
+Using already gprepared image gS20180928S0014
+
+Input files:
+gS20180928S0014
+
+Output files:
+tmpimage124094_97
+
+GIREDUCE: Image tmpimage124094_97 overscan subtracted
+GIREDUCE: Image tmpimage124094_97 trimmed
+
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (MCbiasFull) and image (gS20180928S0014)
+                    No bias subtraction taking place for gS20180928S0014
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (MCbiasFull) and image (gS20180928S0014)
+                    No bias subtraction taking place for gS20180928S0014
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (MCbiasFull) and image (gS20180928S0014)
+                    No bias subtraction taking place for gS20180928S0014
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (MCbiasFull) and image (gS20180928S0014)
+                    No bias subtraction taking place for gS20180928S0014
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (MCbiasFull) and image (gS20180928S0014)
+                    No bias subtraction taking place for gS20180928S0014
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (MCbiasFull) and image (gS20180928S0014)
+                    No bias subtraction taking place for gS20180928S0014
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (MCbiasFull) and image (gS20180928S0014)
+                    No bias subtraction taking place for gS20180928S0014
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (MCbiasFull) and image (gS20180928S0014)
+                    No bias subtraction taking place for gS20180928S0014
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (MCbiasFull) and image (gS20180928S0014)
+                    No bias subtraction taking place for gS20180928S0014
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (MCbiasFull) and image (gS20180928S0014)
+                    No bias subtraction taking place for gS20180928S0014
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (MCbiasFull) and image (gS20180928S0014)
+                    No bias subtraction taking place for gS20180928S0014
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (MCbiasFull) and image (gS20180928S0014)
+                    No bias subtraction taking place for gS20180928S0014
+
+GIREDUCE - Cleaning up -- Fri Jan 24 13:43:45 CST 2020
+
+GIREDUCE -- Fri Jan 24 13:43:45 CST 2020
+GIREDUCE exit status:  good.
+----------------------------------------------------------------------------
+GSREDUCE: Multiplying by the gains, using GGAIN
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2020-01-24T19:43:45
+File[extension]:               AMPNAME              GAIN   READNOISE
+tmpimage124094_97.fits[SCI,1]: " "BI5-36-4k-2, 4""  5.183  8.07
+tmpimage124094_97.fits[SCI,2]: " "BI5-36-4k-2, 3""  5.300  8.85
+tmpimage124094_97.fits[SCI,3]: " "BI5-36-4k-2, 2""  5.330  9.13
+tmpimage124094_97.fits[SCI,4]: " "BI5-36-4k-2, 1""  5.240  8.93
+tmpimage124094_97.fits[SCI,5]: " "BI11-33-4k-1, 4""  5.407  8.02
+tmpimage124094_97.fits[SCI,6]: " "BI11-33-4k-1, 3""  5.459  8.62
+tmpimage124094_97.fits[SCI,7]: " "BI11-33-4k-1, 2""  5.225  8.59
+tmpimage124094_97.fits[SCI,8]: " "BI11-33-4k-1, 1""  5.334  8.35
+tmpimage124094_97.fits[SCI,9]: " "BI12-34-4k-1, 4""  5.120  9.34
+tmpimage124094_97.fits[SCI,10]: " "BI12-34-4k-1, 3""  4.894  7.99
+tmpimage124094_97.fits[SCI,11]: " "BI12-34-4k-1, 2""  5.129  8.30
+tmpimage124094_97.fits[SCI,12]: " "BI12-34-4k-1, 1""  4.828  7.94
+
+GGAIN -- Finished: 2020-01-24T19:43:47
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+GSREDUCE: Calling GMOSAIC
+BOE  GMOSAIC 2020-01-24T13:43:47
+VIS  GMOSAIC 
+VIS  GMOSAIC -------------------------------------------------------------------
+STAT GMOSAIC Log opened at [Fri 13:43:47 24-Jan-2020]
+VIS  GMOSAIC 
+VIS  GMOSAIC --------------------
+TSK  GMOSAIC Input Parameters:
+TSK  GMOSAIC      inimages       = tmpimage124094_97.fits
+TSK  GMOSAIC      outimages      = tmpimage224094_98.fits
+TSK  GMOSAIC      outpref        = 
+TSK  GMOSAIC      fl_paste       = no
+TSK  GMOSAIC      fl_vardq       = no
+TSK  GMOSAIC      fl_fixpix      = yes
+TSK  GMOSAIC      fl_clean       = no
+TSK  GMOSAIC      fl_fulldq      = no
+TSK  GMOSAIC      bitflags       = all
+TSK  GMOSAIC      dqthresh       = 0.1
+TSK  GMOSAIC      geointer       = linear
+TSK  GMOSAIC      gap            = default
+TSK  GMOSAIC      bpmfile        = gmos$data/chipgaps.dat
+TSK  GMOSAIC      statsec        = default
+TSK  GMOSAIC      obsmode        = IMAGE
+TSK  GMOSAIC      sci_ext        = SCI
+TSK  GMOSAIC      var_ext        = VAR
+TSK  GMOSAIC      dq_ext         = DQ
+TSK  GMOSAIC      key_detsec     = DETSEC
+TSK  GMOSAIC      key_ccdsec     = CCDSEC
+TSK  GMOSAIC      key_datsec     = DATASEC
+TSK  GMOSAIC      key_ccdsum     = CCDSUM
+TSK  GMOSAIC      key_obsmode    = OBSMODE
+TSK  GMOSAIC      logfile        = gmos.log
+TSK  GMOSAIC      verbose        = yes
+TSK  GMOSAIC      fl_real        = no
+VIS  GMOSAIC --------------------
+TSK  GMOSAIC Input: tmpimage124094_97  Output: tmpimage224094_98.fits
+TSK  GMOSAIC Found a MDF, copying for later use.
+ENG  GMOSAIC imcopy  tmpimage124094_97[SCI,1][1:256,1:2088]  tmptile24094_136[1,append][1:256,1:2088]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpimage124094_97[SCI,2][1:256,1:2088]  tmptile24094_136[1,append][257:512,1:2088]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpimage124094_97[SCI,3][1:256,1:2088]  tmptile24094_136[1,append][513:768,1:2088]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpimage124094_97[SCI,4][1:256,1:2088]  tmptile24094_136[1,append][769:1024,1:2088]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpimage124094_97[SCI,5][1:256,1:2088]  tmptile24094_137[1,append][1:256,1:2088]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpimage124094_97[SCI,6][1:256,1:2088]  tmptile24094_137[1,append][257:512,1:2088]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpimage124094_97[SCI,7][1:256,1:2088]  tmptile24094_137[1,append][513:768,1:2088]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpimage124094_97[SCI,8][1:256,1:2088]  tmptile24094_137[1,append][769:1024,1:2088]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpimage124094_97[SCI,9][1:256,1:2088]  tmptile24094_138[1,append][1:256,1:2088]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpimage124094_97[SCI,10][1:256,1:2088]  tmptile24094_138[1,append][257:512,1:2088]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpimage124094_97[SCI,11][1:256,1:2088]  tmptile24094_138[1,append][513:768,1:2088]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpimage124094_97[SCI,12][1:256,1:2088]  tmptile24094_138[1,append][769:1024,1:2088]  INDEF  0.
+ENG  GMOSAIC Setting rotation Xrot[1]= 0.000000, Yrot[1]= 0.000000
+ENG  GMOSAIC Setting rotation Xrot[2]= 0.000000, Yrot[2]= 0.000000
+ENG  GMOSAIC Setting rotation Xrot[3]= 0.000000, Yrot[3]= 0.000000
+ENG  GMOSAIC 
+ENG  GMOSAIC Transforming image tmpimg24094_132[SCI,1][1:1024,1:2088] to image tmpchipsci24094_139
+ENG  GMOSAIC     xshift: 1.20 yshift: -0.35 xmag: 1.00 ymag: 1.00 xrot: 0.00 yrot: 0.00
+ENG  GMOSAIC 
+ENG  GMOSAIC Transforming image tmpimg24094_132[SCI,2][1:1024,1:2088] to image tmpchipsci24094_140
+ENG  GMOSAIC     xshift: 0.00 yshift: 0.00 xmag: 1.00 ymag: 1.00 xrot: 0.00 yrot: 0.00
+ENG  GMOSAIC 
+ENG  GMOSAIC Transforming image tmpimg24094_132[SCI,3][1:1024,1:2088] to image tmpchipsci24094_141
+ENG  GMOSAIC     xshift: 0.00 yshift: 0.36 xmag: 1.00 ymag: 1.00 xrot: 0.00 yrot: 0.00
+ENG  GMOSAIC imcopy  tmpchipsci24094_139  tmpimage224094_98.fits[1,append][1:1024,1:2088]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpchipsci24094_140  tmpimage224094_98.fits[1,append][1055:2078,1:2088]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpchipsci24094_141  tmpimage224094_98.fits[1,append][2109:3132,1:2088]  INDEF  0.
+TSK  GMOSAIC Interpolating across chip gaps using gmos$data/chipgaps.dat
+STAT GMOSAIC All 1 images successfully mosaiced.
+VIS  GMOSAIC --------------------
+STAT GMOSAIC Exit status: SUCCESS
+STAT GMOSAIC Log closed at [Fri 13:43:48 24-Jan-2020]
+VIS  GMOSAIC -------------------------------------------------------------------
+VIS  GMOSAIC 
+EOE  GMOSAIC 2020-01-24T13:43:48
+GSREDUCE: returned from GMOSAIC.
+GSREDUCE: Image S20180928S0014.fits is LONGSLIT. Will not cut spectra into separate science extensions
+GSREDUCE: Calling GSAPPWAVE
+--------------------------------------------------------------------------------
+GSAPPWAVE -- Fri Jan 24 13:43:49 CST 2020
+ 
+inimages = gsS20180928S0014.fits
+Grating: R400+_G5325
+Grating central wavelength: 656.0 [nm]
+Resolution (0.5'' slit): 1599.36544498
+Anamorphic factor: 1.14644409066
+Grating tilt (header): 56.6764
+Calculated tilt: 56.676
+nm/pix = 0.150473141874
+Filter1: GG455_G0329
+Filter2: open2-8
+Approximate available wavelength coverage based on grating,
+    filters and detector type is: 440.0 - 1080.0 [nm]
+
+Calibrating: [SCI,1]
+    Spectrum length in pixels: 3132
+    Approximate location of grating central 
+        wavelength in pixels: 1566.0
+    Approximate wavelength coverage based on
+        spectrum length and calculated dispersion is:  440 - 1080 [nm]
+ 
+GSAPPWAVE done
+--------------------------------------------------------------------------------
+GSREDUCE: Updating PHU and cleaning up
+ 
+GSREDUCE done
+----------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+GSWAVELENGTH -- Fri Jan 24 13:44:17 CST 2020
+ 
+inimages = gsS20180928S0014.fits
+Calibrating extension: 1
+
+AUTOIDENTIFY: NOAO/IRAF V2.16 mmarcano@tux Fri 13:44:18 24-Jan-2020
+  Spectrum                 # Found   Midpoint Dispersion        RMS
+  gsS20180928S0014_001[*,1044]         73    6572.38       -1.5      0.607
+
+REIDENTIFY: NOAO/IRAF V2.16 mmarcano@tux Fri 13:45:08 24-Jan-2020
+  Reference image = gsS20180928S0014_001, New image = gsS20180928S0014_001, Refit = yes
+          Image Data    Found     Fit Pix Shift  User Shift  Z Shift      RMS
+gsS20180928S0014_001[*,1034] 73/73   65/75      -0.31       0.454  9.00E-5    0.449
+gsS20180928S0014_001[*,1024] 72/75   69/76      0.114      -0.168  -3.0E-5    0.501
+gsS20180928S0014_001[*,1014] 76/76   67/79      0.175      -0.258  -4.8E-5    0.417
+gsS20180928S0014_001[*,1004] 76/79   66/78      0.284      -0.422  -7.3E-5    0.403
+gsS20180928S0014_001[*,994] 75/78   66/79      -0.13       0.194  3.18E-5    0.459
+gsS20180928S0014_001[*,984] 76/79   68/77      0.203      -0.299  -5.7E-5    0.474
+gsS20180928S0014_001[*,974] 73/77   70/77    -0.0407      0.0551  2.04E-5    0.534
+gsS20180928S0014_001[*,964] 73/77   69/75     0.0104     -0.0135  -6.3E-6    0.474
+gsS20180928S0014_001[*,954] 74/75   66/77     0.0814      -0.113  -3.6E-5    0.459
+gsS20180928S0014_001[*,944] 75/77   66/78     -0.122        0.18  3.34E-5    0.438
+gsS20180928S0014_001[*,934] 76/78   69/78     0.0576     -0.0862  -1.4E-5    0.457
+gsS20180928S0014_001[*,924] 75/78   67/76    -0.0559      0.0804  1.90E-5    0.446
+gsS20180928S0014_001[*,914] 75/76   69/78    -0.0946       0.139  2.58E-5    0.609
+gsS20180928S0014_001[*,904] 73/78   66/76      0.175      -0.252  -6.1E-5    0.404
+gsS20180928S0014_001[*,894] 75/76   66/77     -0.016      0.0251  1.28E-6    0.395
+gsS20180928S0014_001[*,884] 74/77   64/76     0.0177     -0.0264  -4.7E-6    0.441
+gsS20180928S0014_001[*,874] 74/76   65/76     0.0117     -0.0139  -9.1E-6    0.494
+gsS20180928S0014_001[*,864] 75/76   66/76      0.123      -0.179  -3.9E-5    0.441
+gsS20180928S0014_001[*,854] 74/76   66/75     0.0453     -0.0611  -2.3E-5    0.472
+gsS20180928S0014_001[*,844] 75/75   68/78      0.323      -0.472  -9.7E-5      0.5
+gsS20180928S0014_001[*,834] 75/78   65/79     -0.231       0.354  3.87E-5    0.422
+gsS20180928S0014_001[*,824] 76/79   67/78     -0.249       0.362  7.72E-5    0.513
+gsS20180928S0014_001[*,814] 76/78   68/76     0.0434      -0.064  -1.2E-5     0.45
+gsS20180928S0014_001[*,804] 72/76   68/76    -0.0639      0.0958  1.44E-5    0.582
+gsS20180928S0014_001[*,794] 74/76   68/78     0.0572     -0.0859  -1.3E-5    0.541
+gsS20180928S0014_001[*,784] 74/78   67/76       0.11      -0.157  -4.0E-5     0.56
+gsS20180928S0014_001[*,774] 72/76   64/79    -0.0394      0.0542  1.76E-5    0.418
+gsS20180928S0014_001[*,764] 76/79   64/78    0.00282     -0.0015  -6.1E-6    0.424
+gsS20180928S0014_001[*,754] 74/78   67/76      0.101      -0.141  -4.3E-5    0.673
+gsS20180928S0014_001[*,744] 52/76   58/58     -0.454       0.658  1.46E-4     6.31
+gsS20180928S0014_001[*,734] 50/58   64/84      0.381      -0.556  -1.3E-4    0.473
+gsS20180928S0014_001[*,724] 80/84   64/85       -0.3       0.442  8.36E-5    0.461
+gsS20180928S0014_001[*,714] 80/85   68/84    -0.0307      0.0451  8.73E-6      0.5
+gsS20180928S0014_001[*,704] 82/84   69/84     -0.135       0.199  3.71E-5    0.462
+gsS20180928S0014_001[*,694] 82/84   68/85    0.00463    -0.00643  -2.3E-6    0.518
+gsS20180928S0014_001[*,684] 79/85   67/83    -0.0362      0.0574  2.23E-6    0.471
+gsS20180928S0014_001[*,674] 81/83   68/83   -0.00726     0.00679  8.83E-6    0.431
+gsS20180928S0014_001[*,664] 80/83   67/82     0.0202     -0.0264  -1.2E-5    0.433
+gsS20180928S0014_001[*,654] 79/82   68/81    -0.0926       0.139  1.99E-5    0.481
+gsS20180928S0014_001[*,644] 79/81   68/85    -0.0172       0.031  -6.0E-6     0.44
+gsS20180928S0014_001[*,634] 80/85   65/81     -0.111       0.161  3.50E-5    0.441
+gsS20180928S0014_001[*,624] 78/81   67/82    -0.0272       0.046  -4.0E-6    0.445
+gsS20180928S0014_001[*,614] 79/82   68/80    -0.0685       0.099  2.19E-5    0.548
+gsS20180928S0014_001[*,604] 76/80   67/81    -0.0359       0.054  7.58E-6    0.432
+gsS20180928S0014_001[*,594] 77/81   71/80     -0.128       0.187  3.63E-5    0.606
+gsS20180928S0014_001[*,584] 78/80   67/82     -0.148       0.217  4.22E-5    0.422
+gsS20180928S0014_001[*,574] 79/82   72/85     -0.219        0.32  6.45E-5    0.488
+gsS20180928S0014_001[*,564] 81/85   68/82     -0.407       0.596  1.22E-4    0.493
+gsS20180928S0014_001[*,554] 79/82   72/81      0.122      -0.174  -4.6E-5    0.518
+gsS20180928S0014_001[*,544] 79/81   68/80    -0.0207      0.0354  -4.0E-6    0.471
+gsS20180928S0014_001[*,534] 80/80   69/81     -0.343       0.504  9.72E-5    0.543
+gsS20180928S0014_001[*,524] 78/81   70/81    -0.0784       0.123  7.40E-6    0.489
+gsS20180928S0014_001[*,514] 79/81   71/82    -0.0739        0.11  1.87E-5    0.745
+gsS20180928S0014_001[*,504] 77/82   68/80     -0.162       0.242  3.90E-5    0.539
+gsS20180928S0014_001[*,494] 78/80   70/81     0.0935      -0.135  -3.1E-5    0.574
+gsS20180928S0014_001[*,484] 80/81   71/83     0.0882      -0.123  -3.8E-5    0.532
+gsS20180928S0014_001[*,474] 78/83   67/82     -0.101       0.152  2.07E-5     0.47
+gsS20180928S0014_001[*,464] 78/82   70/82     -0.116       0.173  2.82E-5    0.448
+gsS20180928S0014_001[*,454] 81/82   74/85    -0.0195      0.0307  8.31E-7    0.998
+gsS20180928S0014_001[*,444] 79/85   66/80    -0.0451       0.067  1.10E-5    0.444
+gsS20180928S0014_001[*,434] 79/80   69/84     -0.132         0.2  2.49E-5    0.503
+gsS20180928S0014_001[*,424] 82/84   67/85    -0.0509      0.0768  9.93E-6    0.451
+gsS20180928S0014_001[*,414] 83/85   66/85    -0.0421      0.0608  1.43E-5     0.47
+gsS20180928S0014_001[*,404] 83/85   67/85     -0.158       0.237  3.27E-5     0.42
+gsS20180928S0014_001[*,394] 82/85   69/83      0.113      -0.157  -4.8E-5    0.472
+gsS20180928S0014_001[*,384] 81/83   66/84     0.0595     -0.0822  -2.7E-5     0.39
+gsS20180928S0014_001[*,374] 79/84   65/81    -0.0677       0.103  1.29E-5     0.41
+gsS20180928S0014_001[*,364] 80/81   67/85      0.108      -0.151  -4.4E-5     0.43
+gsS20180928S0014_001[*,354] 80/85   66/81     -0.231       0.351  4.56E-5    0.436
+gsS20180928S0014_001[*,344] 79/81   67/82     -0.168       0.248  4.54E-5    0.479
+gsS20180928S0014_001[*,334] 79/82   70/82     -0.385       0.566  1.09E-4    0.468
+gsS20180928S0014_001[*,324] 79/82   67/80     0.0948      -0.137  -3.1E-5    0.458
+gsS20180928S0014_001[*,314] 77/80   69/81     -0.245        0.36  7.03E-5    0.484
+gsS20180928S0014_001[*,304] 78/81   65/80     -0.309       0.461  7.45E-5    0.421
+gsS20180928S0014_001[*,294] 78/80   67/80     -0.184       0.276  4.21E-5    0.442
+gsS20180928S0014_001[*,284] 79/80   66/82     0.0602     -0.0856  -2.3E-5     0.44
+gsS20180928S0014_001[*,274] 80/82   71/83    -0.0164      0.0333  -1.3E-5    0.554
+gsS20180928S0014_001[*,264] 81/83   70/84    -0.0271      0.0425  2.34E-6    0.544
+gsS20180928S0014_001[*,254] 79/84   67/80     -0.157       0.233  3.87E-5     0.51
+gsS20180928S0014_001[*,244] 78/80   73/81    -0.0544      0.0834  8.24E-6    0.533
+gsS20180928S0014_001[*,234] 78/81   67/79    -0.0564      0.0865  9.03E-6    0.477
+gsS20180928S0014_001[*,224] 77/79   68/81    -0.0915       0.139  1.70E-5    0.494
+gsS20180928S0014_001[*,214] 78/81   72/82     -0.187       0.277  4.80E-5    0.663
+gsS20180928S0014_001[*,204] 77/82   73/83    -0.0925       0.136  2.65E-5    0.688
+gsS20180928S0014_001[*,194] 77/83   69/78     -0.236       0.355  5.15E-5    0.514
+gsS20180928S0014_001[*,184] 76/78   67/80     -0.135       0.204  2.73E-5    0.466
+gsS20180928S0014_001[*,174] 78/80   68/81    -0.0585      0.0893  9.97E-6    0.485
+gsS20180928S0014_001[*,164] 78/81   70/83     -0.242       0.361  5.90E-5    0.486
+gsS20180928S0014_001[*,154] 80/83   67/84     -0.303       0.442  9.13E-5    0.407
+gsS20180928S0014_001[*,144] 81/84   69/82     -0.179       0.265  4.70E-5    0.571
+gsS20180928S0014_001[*,134] 80/82   67/85      0.189       -0.27  -6.5E-5     0.55
+gsS20180928S0014_001[*,124] 81/85   69/82     -0.326       0.487  7.54E-5    0.539
+gsS20180928S0014_001[*,114] 79/82   72/84     0.0679     -0.0924  -3.4E-5    0.686
+gsS20180928S0014_001[*,104] 80/84   69/81     -0.242       0.359  6.24E-5    0.526
+gsS20180928S0014_001[*,94] 78/81   71/83     0.0745      -0.103  -3.4E-5    0.609
+gsS20180928S0014_001[*,84] 81/83   68/86     0.0561     -0.0707  -3.9E-5    0.706
+gsS20180928S0014_001[*,74] 85/86   69/88     -0.269        0.39  8.76E-5    0.606
+gsS20180928S0014_001[*,64] 86/88   75/88     -0.302       0.435  9.95E-5    0.856
+gsS20180928S0014_001[*,54] 80/88   84/86     0.0476     -0.0588  -3.5E-5     3.35
+gsS20180928S0014_001[*,44] 71/86   89/89      0.365       -0.55  -7.7E-5     6.31
+gsS20180928S0014_001[*,34] 70/89   83/84     0.0809      -0.118  -2.4E-5     6.69
+gsS20180928S0014_001[*,24] 67/84   82/83    -0.0484       0.075  5.96E-6     7.28
+gsS20180928S0014_001[*,14] 71/83   92/92      0.684       -1.02  -1.5E-4     7.05
+gsS20180928S0014_001[*,4] 18/92   21/21      -1.04        1.52  3.08E-4     8.77
+    ** Too many features lost **
+gsS20180928S0014_001[*,1054] 73/73   67/76     0.0947      -0.139  -2.8E-5     0.57
+gsS20180928S0014_001[*,1064] 71/76   68/75     -0.062      0.0895  2.08E-5    0.497
+gsS20180928S0014_001[*,1074] 72/75   65/77    -0.0469      0.0776  -2.5E-6    0.431
+gsS20180928S0014_001[*,1084] 75/77   67/76     -0.189       0.276  5.69E-5    0.535
+gsS20180928S0014_001[*,1094] 71/76   66/76    -0.0836        0.12  2.92E-5    0.445
+gsS20180928S0014_001[*,1104] 74/76   67/76      0.188      -0.272  -6.1E-5    0.427
+gsS20180928S0014_001[*,1114] 76/76   67/77     0.0734      -0.106  -2.5E-5    0.512
+gsS20180928S0014_001[*,1124] 73/77   67/77      0.042     -0.0631  -1.0E-5    0.489
+gsS20180928S0014_001[*,1134] 77/77   66/77    -0.0552      0.0794  1.92E-5    0.498
+gsS20180928S0014_001[*,1144] 77/77   67/79      0.261      -0.379  -8.5E-5    0.444
+gsS20180928S0014_001[*,1154] 74/79   66/76    2.05E-4     0.00223  -4.8E-6    0.506
+gsS20180928S0014_001[*,1164] 74/76   69/80     -0.158        0.23  5.09E-5    0.509
+gsS20180928S0014_001[*,1174] 77/80   66/80      0.181      -0.261  -6.1E-5    0.473
+gsS20180928S0014_001[*,1184] 78/80   69/79        0.2      -0.287  -6.8E-5    0.576
+gsS20180928S0014_001[*,1194] 75/79   66/80     -0.113       0.168  2.94E-5    0.445
+gsS20180928S0014_001[*,1204] 78/80   65/78    -0.0205      0.0276  1.12E-5    0.453
+gsS20180928S0014_001[*,1214] 76/78   69/80     -0.287       0.428  6.97E-5    0.469
+gsS20180928S0014_001[*,1224] 77/80   70/83     0.0988      -0.143  -3.2E-5     0.59
+gsS20180928S0014_001[*,1234] 78/83   67/79    -0.0997       0.146  2.96E-5    0.511
+gsS20180928S0014_001[*,1244] 76/79   64/77    -0.0775       0.111  2.78E-5    0.424
+gsS20180928S0014_001[*,1254] 77/77   67/80   -0.00759      0.0139  -3.1E-6    0.436
+gsS20180928S0014_001[*,1264] 75/80   65/76      0.158      -0.236  -3.8E-5    0.409
+gsS20180928S0014_001[*,1274] 74/76   69/78     -0.119       0.175  3.54E-5    0.573
+gsS20180928S0014_001[*,1284] 75/78   68/77    -0.0348        0.05  1.18E-5    0.495
+gsS20180928S0014_001[*,1294] 75/77   65/77       0.18      -0.262  -5.5E-5    0.491
+gsS20180928S0014_001[*,1304] 74/77   65/76     -0.104       0.153  2.84E-5    0.505
+gsS20180928S0014_001[*,1314] 76/76   67/82     0.0748      -0.107  -2.7E-5    0.438
+gsS20180928S0014_001[*,1324] 76/82   64/76    -0.0943       0.141  2.18E-5    0.387
+gsS20180928S0014_001[*,1334] 75/76   67/79    -0.0442      0.0656  1.12E-5    0.525
+gsS20180928S0014_001[*,1344] 76/79   69/80    -0.0576      0.0868  1.20E-5    0.575
+gsS20180928S0014_001[*,1354] 75/80   66/78      0.111      -0.159  -3.9E-5    0.504
+gsS20180928S0014_001[*,1364] 75/78   67/80      0.323      -0.467  -1.1E-4    0.549
+gsS20180928S0014_001[*,1374] 76/80   67/78     -0.136       0.203  3.37E-5    0.571
+gsS20180928S0014_001[*,1384] 75/78   66/76    -0.0492      0.0749  8.92E-6    0.598
+gsS20180928S0014_001[*,1394] 75/76   65/77     -0.348       0.509  1.04E-4    0.415
+gsS20180928S0014_001[*,1404] 73/77   63/77     -0.239       0.354  6.34E-5    0.455
+gsS20180928S0014_001[*,1414] 75/77   68/80     0.0887      -0.125  -3.5E-5    0.534
+gsS20180928S0014_001[*,1424] 75/80   68/78     -0.532       0.789  1.40E-4    0.469
+gsS20180928S0014_001[*,1434] 66/78   70/73      0.301      -0.449  -6.8E-5     3.34
+gsS20180928S0014_001[*,1444] 61/73   69/70     -0.732        1.09  1.87E-4     3.96
+gsS20180928S0014_001[*,1454] 63/70   64/78     0.0939      -0.126  -5.2E-5    0.465
+gsS20180928S0014_001[*,1464] 75/78   67/79     0.0687     -0.0984  -2.5E-5    0.533
+gsS20180928S0014_001[*,1474] 76/79   70/79     0.0152     -0.0161  -1.6E-5    0.581
+gsS20180928S0014_001[*,1484] 79/79   74/83     -0.172        0.26  3.50E-5    0.877
+gsS20180928S0014_001[*,1494] 77/83   65/78    -0.0716       0.108  1.43E-5    0.489
+gsS20180928S0014_001[*,1504] 77/78   67/81    -0.0616      0.0924  1.37E-5    0.533
+gsS20180928S0014_001[*,1514] 79/81   70/82    -0.0902       0.133  2.42E-5    0.514
+gsS20180928S0014_001[*,1524] 80/82   66/82     -0.179       0.266  4.43E-5    0.432
+gsS20180928S0014_001[*,1534] 78/82   69/80     0.0252     -0.0426  2.61E-6    0.569
+gsS20180928S0014_001[*,1544] 79/80   68/82    -0.0119      0.0196  -6.0E-7    0.577
+gsS20180928S0014_001[*,1554] 77/82   73/81     0.0649      -0.091  -2.7E-5    0.795
+gsS20180928S0014_001[*,1564] 77/81   68/81      0.019     -0.0248  -1.1E-5    0.475
+gsS20180928S0014_001[*,1574] 75/81   71/82     -0.175       0.256  5.09E-5     0.64
+gsS20180928S0014_001[*,1584] 77/82   67/82     -0.226       0.337  5.47E-5    0.541
+gsS20180928S0014_001[*,1594] 81/82   69/82   -0.00621      0.0123  -4.3E-6    0.522
+gsS20180928S0014_001[*,1604] 81/82   70/83    -0.0734       0.111  1.42E-5    0.533
+gsS20180928S0014_001[*,1614] 82/83   72/84     0.0759      -0.108  -2.9E-5    0.606
+gsS20180928S0014_001[*,1624] 82/84   76/84   -0.00824       0.014  -1.4E-6     1.12
+gsS20180928S0014_001[*,1634] 81/84   70/81     -0.168       0.245  5.14E-5    0.574
+gsS20180928S0014_001[*,1644] 79/81   70/82     -0.186       0.284  3.30E-5    0.585
+gsS20180928S0014_001[*,1654] 79/82   69/83     -0.115       0.168  3.45E-5    0.558
+gsS20180928S0014_001[*,1664] 80/83   68/81    0.00367     6.09E-4  -1.2E-5    0.544
+gsS20180928S0014_001[*,1674] 79/81   69/83      -0.14       0.207  3.56E-5    0.537
+gsS20180928S0014_001[*,1684] 82/83   71/83     -0.236       0.342  7.60E-5    0.553
+gsS20180928S0014_001[*,1694] 81/83   69/83    -0.0423      0.0664  3.71E-6    0.534
+gsS20180928S0014_001[*,1704] 79/83   71/81     0.0167     -0.0192  -1.5E-5    0.552
+gsS20180928S0014_001[*,1714] 77/81   70/82    -0.0602      0.0875  1.82E-5    0.534
+gsS20180928S0014_001[*,1724] 80/82   68/81     -0.231       0.342  5.83E-5    0.455
+gsS20180928S0014_001[*,1734] 79/81   67/81     -0.257       0.375  7.90E-5    0.473
+gsS20180928S0014_001[*,1744] 79/81   71/82     -0.148       0.217  4.26E-5    0.542
+gsS20180928S0014_001[*,1754] 77/82   70/79     0.0178     -0.0233  -1.1E-5    0.503
+gsS20180928S0014_001[*,1764] 77/79   70/80     -0.172       0.248  5.75E-5     0.55
+gsS20180928S0014_001[*,1774] 76/80   69/81     0.0718      -0.103  -2.6E-5    0.509
+gsS20180928S0014_001[*,1784] 78/81   67/83     0.0534     -0.0692  -3.3E-5    0.473
+gsS20180928S0014_001[*,1794] 80/83   67/82     -0.138       0.203  3.97E-5    0.426
+gsS20180928S0014_001[*,1804] 80/82   68/82     0.0262     -0.0344  -1.6E-5    0.506
+gsS20180928S0014_001[*,1814] 81/82   73/83     0.0161     -0.0211  -9.7E-6    0.911
+gsS20180928S0014_001[*,1824] 79/83   66/82     0.0574     -0.0788  -2.7E-5    0.437
+gsS20180928S0014_001[*,1834] 80/82   69/84     -0.294        0.43  8.48E-5    0.434
+gsS20180928S0014_001[*,1844] 80/84   67/81    -0.0993       0.147  2.62E-5    0.429
+gsS20180928S0014_001[*,1854] 78/81   68/83      0.126      -0.177  -4.9E-5    0.417
+gsS20180928S0014_001[*,1864] 80/83   68/82     -0.254       0.371  7.34E-5    0.436
+gsS20180928S0014_001[*,1874] 81/82   70/83     -0.034      0.0531  3.03E-6    0.517
+gsS20180928S0014_001[*,1884] 80/83   74/85     -0.142       0.213  3.16E-5    0.832
+gsS20180928S0014_001[*,1894] 81/85   68/84      -0.21       0.311  5.67E-5    0.454
+gsS20180928S0014_001[*,1904] 80/84   70/82     -0.214       0.313  6.26E-5    0.563
+gsS20180928S0014_001[*,1914] 79/82   68/82     -0.161       0.239  4.23E-5    0.473
+gsS20180928S0014_001[*,1924] 81/82   73/83     0.0268     -0.0323  -2.2E-5    0.591
+gsS20180928S0014_001[*,1934] 81/83   69/81     -0.245       0.359  7.13E-5    0.544
+gsS20180928S0014_001[*,1944] 81/81   68/84     -0.125       0.186  3.21E-5    0.531
+gsS20180928S0014_001[*,1954] 83/84   68/85     -0.169       0.251  4.24E-5     0.42
+gsS20180928S0014_001[*,1964] 82/85   71/85    -0.0797       0.119  1.90E-5    0.484
+gsS20180928S0014_001[*,1974] 79/85   67/82     -0.323       0.474  9.13E-5    0.489
+gsS20180928S0014_001[*,1984] 78/82   67/84     -0.277       0.408  7.58E-5    0.494
+gsS20180928S0014_001[*,1994] 78/84   66/82    -0.0391      0.0599  5.98E-6    0.479
+gsS20180928S0014_001[*,2004] 78/82   72/81    -0.0179       0.032  -6.1E-6    0.644
+gsS20180928S0014_001[*,2014] 79/81   67/81    -0.0884       0.137  1.12E-5    0.543
+gsS20180928S0014_001[*,2024] 78/81   67/81     -0.108       0.161  2.50E-5    0.496
+gsS20180928S0014_001[*,2034] 77/81   69/80     -0.222       0.338  4.03E-5    0.535
+gsS20180928S0014_001[*,2044] 77/80   67/80    -0.0212      0.0313  5.09E-6    0.449
+gsS20180928S0014_001[*,2054] 79/80   69/83    -0.0622       0.101  -9.6E-7    0.499
+gsS20180928S0014_001[*,2064] 78/83   68/81     0.0376     -0.0523  -1.7E-5    0.514
+gsS20180928S0014_001[*,2074] 79/81   71/84     -0.154       0.227  4.09E-5    0.562
+gsS20180928S0014_001[*,2084] 76/84   66/79    -0.0878       0.134  1.50E-5    0.459
+
+NOAO/IRAF V2.16 mmarcano@tux Fri 13:45:13 24-Jan-2020
+  Longslit coordinate fit name is gsS20180928S0014_001.
+  Longslit database is database.
+  Features from images:
+    gsS20180928S0014_001
+  Map User coordinates for axis 1 using image features:
+  Number of feature coordnates = 14237
+  Mapping function = chebyshev
+    X order = 4
+    Y order = 4
+  Fitted coordinates at the corners of the images:
+    (1, 1) = 8926.235  (3132, 1) = 4256.605
+    (1, 2088) = 8930.867  (3132, 2088) = 4259.639
+ 
+GSWAVELENGTH exit status: good
+--------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+GSREDUCE -- Fri Jan 24 13:45:40 CST 2020
+
+Input image or list  = raw/N20191127S0371
+Output image or list = 
+Output prefix        = gs
+
+Overscan subtraction  fl_over      = yes
+Trim image            fl_trim      = yes
+Bias subtraction      fl_bias      = yes
+Cosmic ray cleaning   fl_gscrrej   = no
+New CR cleaning       fl_crspec    = no
+Dark subtraction      fl_dark      = no
+QE Correction         fl_qecorr    = no
+Flat field correction fl_flat      = no
+Mosaic the CCDs       fl_gmosaic   = yes
+Fixpix chip gaps      fl_fixpix    = yes
+Cut MOS spectra       fl_cut       = yes
+Add titles to MOS     fl_title     = yes
+Oversize slit length  fl_oversize  = yes
+Run gsappwave         fl_gsappwave = yes
+Run gsscatsub         fl_scatsub   = no
+VAR & DQ planes       fl_vardq     = no
+
+geointer = linear
+gradimage= 
+refimage = 
+bias     = MCbiasFull.fits
+dark     = 
+qe_refim    = 
+qe_corrim   = 
+qe_corrpref = qecorr
+flatim   = 
+sci_ext  = SCI
+var_ext  = VAR
+dq_ext   = DQ
+key_mdf  = MASKNAME
+mdffile  = 
+mdfdir   = gmos$data/
+bpm      = 
+Chip gaps= gmos$data/chipgaps.dat
+
+ERROR - GSREDUCE: Input image : raw/N20191127S0371.fits does not exist
+ERROR - GSREDUCE: Exiting with 1 errors
+ERROR - GSREDUCE: Program execution failed with 1 errors
+ 
+GSREDUCE done
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+GSREDUCE -- Fri Jan 24 13:46:12 CST 2020
+
+Input image or list  = raw/N20191203S0371.fits
+Output image or list = 
+Output prefix        = gs
+
+Overscan subtraction  fl_over      = yes
+Trim image            fl_trim      = yes
+Bias subtraction      fl_bias      = yes
+Cosmic ray cleaning   fl_gscrrej   = no
+New CR cleaning       fl_crspec    = no
+Dark subtraction      fl_dark      = no
+QE Correction         fl_qecorr    = no
+Flat field correction fl_flat      = no
+Mosaic the CCDs       fl_gmosaic   = yes
+Fixpix chip gaps      fl_fixpix    = yes
+Cut MOS spectra       fl_cut       = yes
+Add titles to MOS     fl_title     = yes
+Oversize slit length  fl_oversize  = yes
+Run gsappwave         fl_gsappwave = yes
+Run gsscatsub         fl_scatsub   = no
+VAR & DQ planes       fl_vardq     = no
+
+geointer = linear
+gradimage= 
+refimage = 
+bias     = MCbiasFull.fits
+dark     = 
+qe_refim    = 
+qe_corrim   = 
+qe_corrpref = qecorr
+flatim   = 
+sci_ext  = SCI
+var_ext  = VAR
+dq_ext   = DQ
+key_mdf  = MASKNAME
+mdffile  = 
+mdfdir   = gmos$data/
+bpm      = 
+Chip gaps= gmos$data/chipgaps.dat
+
+ERROR - GSREDUCE: Output image gsN20191203S0371 exists
+ERROR - GSREDUCE: Program execution failed with 1 errors
+ 
+GSREDUCE done
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+GSREDUCE -- Fri Jan 24 13:46:34 CST 2020
+
+Input image or list  = raw/N20191203S0371.fits
+Output image or list = 
+Output prefix        = gs
+
+Overscan subtraction  fl_over      = yes
+Trim image            fl_trim      = yes
+Bias subtraction      fl_bias      = yes
+Cosmic ray cleaning   fl_gscrrej   = no
+New CR cleaning       fl_crspec    = no
+Dark subtraction      fl_dark      = no
+QE Correction         fl_qecorr    = no
+Flat field correction fl_flat      = no
+Mosaic the CCDs       fl_gmosaic   = yes
+Fixpix chip gaps      fl_fixpix    = yes
+Cut MOS spectra       fl_cut       = yes
+Add titles to MOS     fl_title     = yes
+Oversize slit length  fl_oversize  = yes
+Run gsappwave         fl_gsappwave = yes
+Run gsscatsub         fl_scatsub   = no
+VAR & DQ planes       fl_vardq     = no
+
+geointer = linear
+gradimage= 
+refimage = 
+bias     = MCbiasFull.fits
+dark     = 
+qe_refim    = 
+qe_corrim   = 
+qe_corrpref = qecorr
+flatim   = 
+sci_ext  = SCI
+var_ext  = VAR
+dq_ext   = DQ
+key_mdf  = MASKNAME
+mdffile  = 
+mdfdir   = gmos$data/
+bpm      = 
+Chip gaps= gmos$data/chipgaps.dat
+
+Input image = N20191203S0371.fits; Output image = gsN20191203S0371.fits
+GSREDUCE: Image N20191203S0371.fits has been QE corrected? no
+GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
+GSREDUCE: Calling GIREDUCE to process image
+----------------------------------------------------------------------------
+GIREDUCE -- Fri Jan 24 13:46:34 CST 2020
+
+Using already gprepared image gN20191203S0371
+
+Input files:
+gN20191203S0371
+
+Output files:
+tmpimage124094_155
+
+GIREDUCE: Image tmpimage124094_155 overscan subtracted
+GIREDUCE: Image tmpimage124094_155 trimmed
+
+Output image       Bias                 Flat               Dark       Scale 
+tmpimage124094_155 MCbiasFull           INDEF              INDEF       0.00
+GIREDUCE: Subtracted bias MCbiasFull from tmpimage124094_155
+GIREDUCE: multiplying image tmpimage124094_155 by gain
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2020-01-24T19:46:51
+File[extension]:                AMPNAME               GAIN   READNOISE
+tmpimage124094_155.fits[SCI,1]: " "BI13-20-4k-1, 4""  2.010  8.02
+tmpimage124094_155.fits[SCI,2]: " "BI13-20-4k-1, 3""  1.950  6.88
+tmpimage124094_155.fits[SCI,3]: " "BI13-20-4k-1, 2""  1.970  6.02
+tmpimage124094_155.fits[SCI,4]: " "BI13-20-4k-1, 1""  1.910  5.88
+tmpimage124094_155.fits[SCI,5]: " "BI12-09-4k-2, 4""  2.030  6.71
+tmpimage124094_155.fits[SCI,6]: " "BI12-09-4k-2, 3""  1.970  6.34
+tmpimage124094_155.fits[SCI,7]: " "BI12-09-4k-2, 2""  1.960  5.39
+tmpimage124094_155.fits[SCI,8]: " "BI12-09-4k-2, 1""  2.010  5.86
+tmpimage124094_155.fits[SCI,9]: " "BI13-18-4k-2, 4""  1.950  6.10
+tmpimage124094_155.fits[SCI,10]: " "BI13-18-4k-2, 3""  1.950  6.13
+tmpimage124094_155.fits[SCI,11]: " "BI13-18-4k-2, 2""  1.890  5.98
+tmpimage124094_155.fits[SCI,12]: " "BI13-18-4k-2, 1""  1.950  6.79
+
+GGAIN -- Finished: 2020-01-24T19:46:52
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+GIREDUCE: output counts in electrons
+
+GIREDUCE - Cleaning up -- Fri Jan 24 13:46:52 CST 2020
+
+GIREDUCE -- Fri Jan 24 13:46:52 CST 2020
+GIREDUCE exit status:  good.
+----------------------------------------------------------------------------
+GSREDUCE: Calling GMOSAIC
+BOE  GMOSAIC 2020-01-24T13:46:52
+VIS  GMOSAIC 
+VIS  GMOSAIC -------------------------------------------------------------------
+STAT GMOSAIC Log opened at [Fri 13:46:52 24-Jan-2020]
+VIS  GMOSAIC 
+VIS  GMOSAIC --------------------
+TSK  GMOSAIC Input Parameters:
+TSK  GMOSAIC      inimages       = tmpimage124094_155.fits
+TSK  GMOSAIC      outimages      = tmpimage224094_156.fits
+TSK  GMOSAIC      outpref        = 
+TSK  GMOSAIC      fl_paste       = no
+TSK  GMOSAIC      fl_vardq       = no
+TSK  GMOSAIC      fl_fixpix      = yes
+TSK  GMOSAIC      fl_clean       = no
+TSK  GMOSAIC      fl_fulldq      = no
+TSK  GMOSAIC      bitflags       = all
+TSK  GMOSAIC      dqthresh       = 0.1
+TSK  GMOSAIC      geointer       = linear
+TSK  GMOSAIC      gap            = default
+TSK  GMOSAIC      bpmfile        = gmos$data/chipgaps.dat
+TSK  GMOSAIC      statsec        = default
+TSK  GMOSAIC      obsmode        = IMAGE
+TSK  GMOSAIC      sci_ext        = SCI
+TSK  GMOSAIC      var_ext        = VAR
+TSK  GMOSAIC      dq_ext         = DQ
+TSK  GMOSAIC      key_detsec     = DETSEC
+TSK  GMOSAIC      key_ccdsec     = CCDSEC
+TSK  GMOSAIC      key_datsec     = DATASEC
+TSK  GMOSAIC      key_ccdsum     = CCDSUM
+TSK  GMOSAIC      key_obsmode    = OBSMODE
+TSK  GMOSAIC      logfile        = gmos.log
+TSK  GMOSAIC      verbose        = yes
+TSK  GMOSAIC      fl_real        = no
+VIS  GMOSAIC --------------------
+TSK  GMOSAIC Input: tmpimage124094_155  Output: tmpimage224094_156.fits
+TSK  GMOSAIC Found a MDF, copying for later use.
+ENG  GMOSAIC imcopy  tmpimage124094_155[SCI,1][1:512,1:1044]  tmptile24094_194[1,append][1:512,1:1044]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpimage124094_155[SCI,2][1:512,1:1044]  tmptile24094_194[1,append][513:1024,1:1044]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpimage124094_155[SCI,3][1:512,1:1044]  tmptile24094_194[1,append][1025:1536,1:1044]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpimage124094_155[SCI,4][1:512,1:1044]  tmptile24094_194[1,append][1537:2048,1:1044]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpimage124094_155[SCI,5][1:512,1:1044]  tmptile24094_195[1,append][1:512,1:1044]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpimage124094_155[SCI,6][1:512,1:1044]  tmptile24094_195[1,append][513:1024,1:1044]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpimage124094_155[SCI,7][1:512,1:1044]  tmptile24094_195[1,append][1025:1536,1:1044]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpimage124094_155[SCI,8][1:512,1:1044]  tmptile24094_195[1,append][1537:2048,1:1044]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpimage124094_155[SCI,9][1:512,1:1044]  tmptile24094_196[1,append][1:512,1:1044]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpimage124094_155[SCI,10][1:512,1:1044]  tmptile24094_196[1,append][513:1024,1:1044]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpimage124094_155[SCI,11][1:512,1:1044]  tmptile24094_196[1,append][1025:1536,1:1044]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpimage124094_155[SCI,12][1:512,1:1044]  tmptile24094_196[1,append][1537:2048,1:1044]  INDEF  0.
+ENG  GMOSAIC Setting rotation Xrot[1]=-0.001000, Yrot[1]=-0.016000
+ENG  GMOSAIC Setting rotation Xrot[2]= 0.000000, Yrot[2]= 0.000000
+ENG  GMOSAIC Setting rotation Xrot[3]=-0.001342, Yrot[3]=-0.021480
+ENG  GMOSAIC 
+ENG  GMOSAIC Transforming image tmpimg24094_190[SCI,1][1:2048,1:1044] to image tmpchipsci24094_197
+ENG  GMOSAIC     xshift: 1.10 yshift: 0.04 xmag: 1.00 ymag: 1.00 xrot: 360.00 yrot: 359.98
+ENG  GMOSAIC 
+ENG  GMOSAIC Transforming image tmpimg24094_190[SCI,2][1:2048,1:1044] to image tmpchipsci24094_198
+ENG  GMOSAIC     xshift: 0.00 yshift: 0.00 xmag: 1.00 ymag: 1.00 xrot: 0.00 yrot: 0.00
+ENG  GMOSAIC 
+ENG  GMOSAIC Transforming image tmpimg24094_190[SCI,3][1:2048,1:1044] to image tmpchipsci24094_199
+ENG  GMOSAIC     xshift: -0.28 yshift: -0.07 xmag: 1.00 ymag: 1.00 xrot: 360.00 yrot: 359.98
+ENG  GMOSAIC imcopy  tmpchipsci24094_197  tmpimage224094_156.fits[1,append][1:2048,1:1044]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpchipsci24094_198  tmpimage224094_156.fits[1,append][2116:4163,1:1044]  INDEF  0.
+ENG  GMOSAIC imcopy  tmpchipsci24094_199  tmpimage224094_156.fits[1,append][4231:6278,1:1044]  INDEF  0.
+TSK  GMOSAIC Interpolating across chip gaps using gmos$data/chipgaps.dat
+STAT GMOSAIC All 1 images successfully mosaiced.
+VIS  GMOSAIC --------------------
+STAT GMOSAIC Exit status: SUCCESS
+STAT GMOSAIC Log closed at [Fri 13:46:54 24-Jan-2020]
+VIS  GMOSAIC -------------------------------------------------------------------
+VIS  GMOSAIC 
+EOE  GMOSAIC 2020-01-24T13:46:54
+GSREDUCE: returned from GMOSAIC.
+GSREDUCE: Image N20191203S0371.fits is LONGSLIT. Will not cut spectra into separate science extensions
+GSREDUCE: Calling GSAPPWAVE
+--------------------------------------------------------------------------------
+GSAPPWAVE -- Fri Jan 24 13:46:54 CST 2020
+ 
+inimages = gsN20191203S0371.fits
+Grating: R400+_G5305
+Grating central wavelength: 656.0 [nm]
+Resolution (0.5'' slit): 1599.36544498
+Anamorphic factor: 1.14644409066
+Grating tilt (header): 56.6764297485
+Calculated tilt: 56.676
+nm/pix = 0.0758948909327
+Filter1: GG455_G0305
+Filter2: open2-8
+Approximate available wavelength coverage based on grating,
+    filters and detector type is: 460.0 - 1080.0 [nm]
+
+Calibrating: [SCI,1]
+    Spectrum length in pixels: 6278
+    Approximate location of grating central 
+        wavelength in pixels: 3139.0
+    Approximate wavelength coverage based on
+        spectrum length and calculated dispersion is:  460 - 1080 [nm]
+ 
+GSAPPWAVE done
+--------------------------------------------------------------------------------
+GSREDUCE: Updating PHU and cleaning up
+ 
+GSREDUCE done
+----------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+GSWAVELENGTH -- Fri Jan 24 13:48:47 CST 2020
+ 
+inimages = gsN20191203S0371
+Calibrating extension: 1
+
+AUTOIDENTIFY: NOAO/IRAF V2.16 mmarcano@tux Fri 13:48:48 24-Jan-2020
+  Spectrum                 # Found   Midpoint Dispersion        RMS
+  gsN20191203S0371_001[*,522]  No solution found
+ERROR - GSWAVELENGTH: AUTOIDENTIFY did not find a solution -
+                      a database file was not created for 
+                      gsN20191203S0371.fits[SCI,1]
+ 
+GSWAVELENGTH exit status: error
+--------------------------------------------------------------------------------

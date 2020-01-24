@@ -412,3 +412,57 @@ ERROR - GSWAVELENGTH: AUTOIDENTIFY did not find a solution -
  
 GSWAVELENGTH exit status: error
 --------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+GSWAVELENGTH -- Fri Jan 24 12:56:16 CST 2020
+ 
+inimages = gsN20191205S0112.fits
+ERROR - GSWAVELENGTH: gsN20191205S0112.fits does not exist or is not a MEF
+ 
+GSWAVELENGTH exit status: error
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+GSWAVELENGTH -- Fri Jan 24 12:56:28 CST 2020
+ 
+inimages = gsN20191127S0396
+ERROR - GSWAVELENGTH: gsN20191127S0396 does not exist or is not a MEF
+ 
+GSWAVELENGTH exit status: error
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+GSWAVELENGTH -- Fri Jan 24 12:57:41 CST 2020
+ 
+inimages = gsN20191127S0396
+ERROR - GSWAVELENGTH: gsN20191127S0396 does not exist or is not a MEF
+ 
+GSWAVELENGTH exit status: error
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+GSWAVELENGTH -- Fri Jan 24 13:12:58 CST 2020
+ 
+inimages = gsN20191127S0396
+Calibrating extension: 1
+
+AUTOIDENTIFY: NOAO/IRAF V2.16 mmarcano@tux Fri 13:13:01 24-Jan-2020
+  Spectrum                 # Found   Midpoint Dispersion        RMS
+  gsN20191127S0396_001[*,522]  No solution found
+ERROR - GSWAVELENGTH: AUTOIDENTIFY did not find a solution -
+                      a database file was not created for 
+                      gsN20191127S0396.fits[SCI,1]
+ 
+GSWAVELENGTH exit status: error
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+GSWAVELENGTH -- Fri Jan 24 13:26:56 CST 2020
+ 
+inimages = gsN20191127S0396
+Calibrating extension: 1
+
+AUTOIDENTIFY: NOAO/IRAF V2.16 mmarcano@tux Fri 13:26:58 24-Jan-2020
+  Spectrum                 # Found   Midpoint Dispersion        RMS
+  gsN20191127S0396_001[*,522]  No solution found
+ERROR - GSWAVELENGTH: AUTOIDENTIFY did not find a solution -
+                      a database file was not created for 
+                      gsN20191127S0396.fits[SCI,1]
+ 
+GSWAVELENGTH exit status: error
+--------------------------------------------------------------------------------
