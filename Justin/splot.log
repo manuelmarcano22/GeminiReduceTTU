@@ -1,0 +1,20 @@
+
+Jan 28 12:23 [tgsN20191127S0262.ms.fits[SCI][*,1]]: 1WGA J1011.9+5424
+    center      cont      flux       eqw      core     gfwhm     lfwhm
+  5021.661  91.02238    9249.2    -101.6   4458.02     1.949        0.
+
+Jan 28 12:28 [tgsN20191127S0262.ms.fits[SCI][*,1]]: 1WGA J1011.9+5424
+  4253.385   126.683   13696.8    -108.1    6357.8     2.024        0.
+
+Jan 28 12:54 [sky.fits]: 
+    center      cont      flux       eqw      core     gfwhm     lfwhm
+  5576.835 0.6231263   56.1751    -90.15   6.57447     8.027        0.
+
+Jan 28 14:32 [sky.fits]: 
+    center      cont      flux       eqw      core     gfwhm     lfwhm
+  5576.868 0.5542752   57.4307    -103.6   6.62339     8.146        0.
+
+Jan 28 14:32 [tgsN20191127S0262.ms.fits[SCI]]: 1WGA J1011.9+5424
+    center      cont      flux       eqw      core     gfwhm     lfwhm
+   5022.36  321.6638    38630.    -120.1   6673.78     5.438        0.
+  5576.828  552.5978   34431.9    -62.31   2953.75     10.95        0.

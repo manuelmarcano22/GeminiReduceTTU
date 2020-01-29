@@ -1,4 +1,4 @@
 image,s,a,,,,'Input image'
-outname,s,h,'gsN20191205S0112',,,'Output name w/o suffix'
-status,i,h,0,,,'Status'
+outname,s,h,'tgsN20191127S0262',,,'Output name w/o suffix'
+status,i,h,1,,,'Status'
 mode,s,h,'al'

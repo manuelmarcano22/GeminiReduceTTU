@@ -7657,3 +7657,74 @@ ERROR - GSREDUCE: Program execution failed with 19 errors
  
 GSREDUCE done
 ----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+GSREDUCE -- Tue Jan 28 11:40:26 CST 2020
+
+Input image or list  = N20191127S0262,N20191127S0263,N20191127S0264,N20191127S0265,N20191127S0266,N20191127S0267,N20191203S0187,N20191203S0188,N20191205S0097,N20191205S0098,N20191205S0099,N20191205S0100,N20191205S0101,N20191205S0102,N20191205S0105,N20191205S0107,N20191205S0108,N20191205S0109,N20191205S0110
+Output image or list = 
+Output prefix        = gs
+
+Overscan subtraction  fl_over      = yes
+Trim image            fl_trim      = yes
+Bias subtraction      fl_bias      = yes
+Cosmic ray cleaning   fl_gscrrej   = no
+New CR cleaning       fl_crspec    = no
+Dark subtraction      fl_dark      = no
+QE Correction         fl_qecorr    = no
+Flat field correction fl_flat      = yes
+Mosaic the CCDs       fl_gmosaic   = yes
+Fixpix chip gaps      fl_fixpix    = no
+Cut MOS spectra       fl_cut       = yes
+Add titles to MOS     fl_title     = yes
+Oversize slit length  fl_oversize  = no
+Run gsappwave         fl_gsappwave = yes
+Run gsscatsub         fl_scatsub   = no
+VAR & DQ planes       fl_vardq     = yes
+
+geointer = linear
+gradimage= 
+refimage = 
+bias     = MCbiasFull
+dark     = 
+qe_refim    = 
+qe_corrim   = 
+qe_corrpref = qecorr
+flatim   = MCflatFull
+sci_ext  = SCI
+var_ext  = VAR
+dq_ext   = DQ
+key_mdf  = MASKNAME
+mdffile  = 
+mdfdir   = gmos$data/
+bpm      = 
+Chip gaps= gmos$data/chipgaps.dat
+
+ERROR - GSREDUCE: Output image gsN20191127S0262 exists
+ERROR - GSREDUCE: Output image gsN20191127S0263 exists
+ERROR - GSREDUCE: Output image gsN20191127S0264 exists
+ERROR - GSREDUCE: Output image gsN20191127S0265 exists
+ERROR - GSREDUCE: Output image gsN20191127S0266 exists
+ERROR - GSREDUCE: Output image gsN20191127S0267 exists
+ERROR - GSREDUCE: Output image gsN20191203S0187 exists
+ERROR - GSREDUCE: Output image gsN20191203S0188 exists
+ERROR - GSREDUCE: Output image gsN20191205S0097 exists
+ERROR - GSREDUCE: Output image gsN20191205S0098 exists
+ERROR - GSREDUCE: Output image gsN20191205S0099 exists
+ERROR - GSREDUCE: Output image gsN20191205S0100 exists
+ERROR - GSREDUCE: Output image gsN20191205S0101 exists
+ERROR - GSREDUCE: Output image gsN20191205S0102 exists
+ERROR - GSREDUCE: Output image gsN20191205S0105 exists
+ERROR - GSREDUCE: Output image gsN20191205S0107 exists
+ERROR - GSREDUCE: Output image gsN20191205S0108 exists
+ERROR - GSREDUCE: Output image gsN20191205S0109 exists
+ERROR - GSREDUCE: Output image gsN20191205S0110 exists
+ 
+Filter(s)/Grating ID for flatfield: 
+     MCflatFull.fits = GG455_G0305 + open2-8 / R400+_G5305
+GSREDUCE: Flat image MCflatFull.fits has been QE corrected? no
+ 
+ERROR - GSREDUCE: Program execution failed with 19 errors
+ 
+GSREDUCE done
+----------------------------------------------------------------------------

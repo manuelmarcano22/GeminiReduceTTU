@@ -1,0 +1,4 @@
+ext,s,a,,,,'Extension name'
+outext,s,h,'DQ',,,'Output extension name'
+status,i,h,0,,,'Status'
+mode,s,h,'al'

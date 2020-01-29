@@ -1,0 +1,29 @@
+Jan 28 11:46: FIND - 1 apertures found for tgsN20191127S0262[SCI]
+Jan 28 11:46: APRESIZE  - 1 apertures resized for tgsN20191127S0262[SCI] (-1.32, 1.17)
+Jan 28 11:47: EDIT - 1 apertures edited for tgsN20191127S0262[SCI]
+Jan 28 12:10: FIND - 1 apertures found for tgsN20191127S0262[SCI]
+Jan 28 12:10: APRESIZE  - 1 apertures resized for tgsN20191127S0262[SCI] (-1.32, 1.17)
+Jan 28 12:11: EDIT - 2 apertures edited for tgsN20191127S0262[SCI]
+Jan 28 12:11: TRACE - Trace of aperture 2 in tgsN20191127S0262[SCI] lost at column 3429.
+Jan 28 12:11: TRACE - Trace of aperture 2 in tgsN20191127S0262[SCI] recovered at column 3439.
+Jan 28 12:11: TRACE - Trace of aperture 2 in tgsN20191127S0262[SCI] lost at column 3629.
+Jan 28 12:11: TRACE - Trace of aperture 2 in tgsN20191127S0262[SCI] lost at column 3639.
+Jan 28 12:11: TRACE - Trace of aperture 2 in tgsN20191127S0262[SCI] lost at column 3649.
+Jan 28 12:11: TRACE - Trace of aperture 2 in tgsN20191127S0262[SCI] lost at column 2071.
+Jan 28 12:11: TRACE - Trace of aperture 2 in tgsN20191127S0262[SCI] lost at column 2061.
+Jan 28 12:11: TRACE - Trace of aperture 2 in tgsN20191127S0262[SCI] lost at column 2051.
+Jan 28 12:11: TRACE - Trace of aperture 1 in tgsN20191127S0262[SCI] lost at column 3189.
+Jan 28 12:11: TRACE - Trace of aperture 1 in tgsN20191127S0262[SCI] recovered at column 3199.
+Jan 28 12:11: TRACE - Trace of aperture 1 in tgsN20191127S0262[SCI] lost at column 3219.
+Jan 28 12:11: TRACE - Trace of aperture 1 in tgsN20191127S0262[SCI] lost at column 3229.
+Jan 28 12:11: TRACE - Trace of aperture 1 in tgsN20191127S0262[SCI] lost at column 3239.
+Jan 28 12:11: TRACE - Trace of aperture 1 in tgsN20191127S0262[SCI] lost at column 3111.
+Jan 28 12:11: TRACE - Trace of aperture 1 in tgsN20191127S0262[SCI] lost at column 3101.
+Jan 28 12:11: TRACE - Trace of aperture 1 in tgsN20191127S0262[SCI] recovered at column 3091.
+Jan 28 12:11: TRACE - Trace of aperture 1 in tgsN20191127S0262[SCI] lost at column 3081.
+Jan 28 12:11: TRACE - Trace of aperture 1 in tgsN20191127S0262[SCI] lost at column 3071.
+Jan 28 12:11: TRACE - Trace of aperture 1 in tgsN20191127S0262[SCI] lost at column 3061.
+Jan 28 12:11: TRACE - 2 apertures traced in tgsN20191127S0262[SCI].
+Jan 28 12:12: DATABASE - 2 apertures for tgsN20191127S0262[SCI] written to database
+Jan 28 12:12: EXTRACT - Aperture 2 from tgsN20191127S0262[SCI] --> tgsN20191127S0262.ms[SCI,append]
+Jan 28 12:12: EXTRACT - Aperture 1 from tgsN20191127S0262[SCI] --> tgsN20191127S0262.ms[SCI,append]

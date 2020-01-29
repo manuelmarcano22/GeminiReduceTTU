@@ -1,0 +1,58 @@
+----------------------------------------------------------------------------
+GSSKYSUB -- Tue Jan 28 11:36:00 CST 2020
+
+input        = t1WGA J1011.9+54244
+output       = 
+outpref      = s
+fl_vardq     = yes
+fl_oversize  = no
+sci_ext      = SCI
+var_ext      = VAR
+dq_ext       = DQ
+long_sample  = 100:700
+mos_sample   = 0.9
+mosobjsize   = 1.0
+naverage     = 1
+function     = chebyshev
+order        = 1
+low_reject   = 2.5
+high_reject  = 2.5
+niterate     = 2
+grow         = 0.0
+fl_inter     = no
+
+ERROR - GSSKYSUB: Input image t1WGAJ1011.9+54244 does not exist
+ERROR - GSSKYSUB: 1 error(s) found. Exiting.
+
+GSSKYSUB done. Exit status bad. -- Tue Jan 28 11:36:00 CST 2020
+-------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+GSSKYSUB -- Tue Jan 28 11:42:56 CST 2020
+
+input        = t1WGA J1011.9+54244
+output       = 
+outpref      = s
+fl_vardq     = yes
+fl_oversize  = no
+sci_ext      = SCI
+var_ext      = VAR
+dq_ext       = DQ
+long_sample  = 520:720
+mos_sample   = 0.9
+mosobjsize   = 1.0
+naverage     = 1
+function     = chebyshev
+order        = 1
+low_reject   = 2.5
+high_reject  = 2.5
+niterate     = 2
+grow         = 0.0
+fl_inter     = no
+
+ERROR - GSSKYSUB: Input image t1WGAJ1011.9+54244 does not exist
+ERROR - GSSKYSUB: 1 error(s) found. Exiting.
+
+GSSKYSUB done. Exit status bad. -- Tue Jan 28 11:42:56 CST 2020
+-------------------------------------------------------------------------------
+

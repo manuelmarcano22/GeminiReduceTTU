@@ -1,0 +1,28 @@
+# Tue 13:54:07 28-Jan-2020
+begin	aperture last 1 3139. 523.4403
+	image	last
+	aperture	1
+	beam	1
+	center	3139. 523.4403
+	low	-3138. -5.
+	high	3139. 5.
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	6
+		2.
+		2.
+		2089.
+		3619.
+		-0.1799752
+		0.2256486
+

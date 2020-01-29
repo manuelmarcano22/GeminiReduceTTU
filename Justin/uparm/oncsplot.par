@@ -1,5 +1,5 @@
-images,s,a,'tgsN20191127S0262.ms.fits[SCI]',,,'List of images to plot'
-line,i,q,0,0,,'Image line/aperture to plot'
+images,s,a,'sky.fits',,,'List of images to plot'
+line,i,q,1,0,,'Image line/aperture to plot'
 band,i,q,1,1,,'Image band to plot'
 units,s,h,'',,,'Plotting units'
 options,s,h,'auto wreset',,,'Combination of plotting options:
@@ -36,7 +36,7 @@ caldir,s,h,')_.caldir',,,'Directory containing calibration data'
 fnuzero,r,h,3.68e-20,,,'Absolute flux zero point
 
 # PARAMETERS USED IN INTERACTIVE QUERIES'
-next_image,s,q,'',,,'Next image to plot'
+next_image,s,q,,,,'Next image to plot'
 new_image,s,q,,,,'Image to create'
 overwrite,b,q,,,,'Overwrite image?'
 spec2,s,q,,,,'Spectrum'
