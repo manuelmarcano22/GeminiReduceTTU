@@ -1,0 +1,9 @@
+--------------------------------------------------------------------------------
+GSWAVELENGTH -- Fri Jan 24 10:20:33 CST 2020
+ 
+inimages = gsS20180717S0063
+Calibrating extension: 1
+
+AUTOIDENTIFY: NOAO/IRAF V2.16 mmarcano@tux Fri 10:20:34 24-Jan-2020
+  Spectrum                 # Found   Midpoint Dispersion        RMS
+  gsS20180717S0063_001[*,1044]         80    6464.55       -1.5      0.508

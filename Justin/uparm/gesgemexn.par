@@ -12,6 +12,10 @@ logfile,s,h,'',,,'Logfile name'
 glogpars,pset,h,'',,,'Logging preferences'
 verbose,b,h,yes,,,'Verbose?'
 fail_count,i,h,0,,,'(Output) Number of verification failures'
+<<<<<<< HEAD
 count,i,h,1,,,'(Output) Number of specifications generated'
+=======
+count,i,h,2,,,'(Output) Number of specifications generated'
+>>>>>>> 88bb67f2489313b925b418fe4cc68a8e0627fe7a
 status,i,h,0,,,'Exit status (0=good)'
 mode,s,h,'al'

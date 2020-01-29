@@ -1,0 +1,2954 @@
+----------------------------------------------------------------------------
+GBIAS -- Wed Oct 30 18:09:21 CDT 2019
+
+Input images:
+  S20070605S0161
+  S20070605S0162
+  S20070605S0163
+  S20070605S0164
+  S20070605S0165
+  S20070608S0090
+  S20070608S0091
+  S20070608S0092
+  S20070608S0093
+  S20070608S0094
+  S20070616S0098
+  S20070616S0099
+  S20070616S0100
+  S20070616S0101
+  S20070616S0102
+  S20070622S0146
+  S20070622S0147
+  S20070622S0148
+  S20070622S0149
+  S20070622S0150
+  S20070624S0229
+  S20070624S0230
+  S20070624S0231
+  S20070624S0232
+  S20070624S0233
+  S20070702S0067
+  S20070702S0068
+  S20070702S0069
+  S20070702S0070
+  S20070702S0071
+  S20070704S0060
+  S20070704S0061
+  S20070704S0062
+  S20070704S0063
+  S20070704S0064
+  S20070707S0056
+  S20070707S0057
+  S20070707S0058
+  S20070707S0059
+  S20070707S0060
+
+Output bias image: MCbiasFull
+ 
+----------------------------------------------------------------------------
+GIREDUCE -- Wed Oct 30 18:09:22 CDT 2019
+
+----------------------------------------------------------------------------
+GPREPARE -- Wed Oct 30 18:09:22 CDT 2019
+
+Input list    = ../rawExample/S20070605S0161
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../rawExample/S20070605S0161.fits   Output  gS20070605S0161.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps-20150826.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2019-10-30T23:09:23
+File[extension]:             AMPNAME                  GAIN   READNOISE
+gS20070605S0161.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
+gS20070605S0161.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
+gS20070605S0161.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
+
+GGAIN -- Finished: 2019-10-30T23:09:23
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Wed Oct 30 18:09:23 CDT 2019
+
+Input list    = ../rawExample/S20070605S0162
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../rawExample/S20070605S0162.fits   Output  gS20070605S0162.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps-20150826.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2019-10-30T23:09:23
+File[extension]:             AMPNAME                  GAIN   READNOISE
+gS20070605S0162.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
+gS20070605S0162.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
+gS20070605S0162.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
+
+GGAIN -- Finished: 2019-10-30T23:09:23
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Wed Oct 30 18:09:23 CDT 2019
+
+Input list    = ../rawExample/S20070605S0163
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../rawExample/S20070605S0163.fits   Output  gS20070605S0163.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps-20150826.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2019-10-30T23:09:24
+File[extension]:             AMPNAME                  GAIN   READNOISE
+gS20070605S0163.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
+gS20070605S0163.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
+gS20070605S0163.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
+
+GGAIN -- Finished: 2019-10-30T23:09:24
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Wed Oct 30 18:09:24 CDT 2019
+
+Input list    = ../rawExample/S20070605S0164
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../rawExample/S20070605S0164.fits   Output  gS20070605S0164.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps-20150826.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2019-10-30T23:09:24
+File[extension]:             AMPNAME                  GAIN   READNOISE
+gS20070605S0164.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
+gS20070605S0164.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
+gS20070605S0164.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
+
+GGAIN -- Finished: 2019-10-30T23:09:24
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Wed Oct 30 18:09:24 CDT 2019
+
+Input list    = ../rawExample/S20070605S0165
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../rawExample/S20070605S0165.fits   Output  gS20070605S0165.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps-20150826.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2019-10-30T23:09:25
+File[extension]:             AMPNAME                  GAIN   READNOISE
+gS20070605S0165.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
+gS20070605S0165.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
+gS20070605S0165.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
+
+GGAIN -- Finished: 2019-10-30T23:09:25
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Wed Oct 30 18:09:25 CDT 2019
+
+Input list    = ../rawExample/S20070608S0090
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../rawExample/S20070608S0090.fits   Output  gS20070608S0090.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps-20150826.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2019-10-30T23:09:25
+File[extension]:             AMPNAME                  GAIN   READNOISE
+gS20070608S0090.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
+gS20070608S0090.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
+gS20070608S0090.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
+
+GGAIN -- Finished: 2019-10-30T23:09:25
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Wed Oct 30 18:09:25 CDT 2019
+
+Input list    = ../rawExample/S20070608S0091
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../rawExample/S20070608S0091.fits   Output  gS20070608S0091.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps-20150826.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2019-10-30T23:09:26
+File[extension]:             AMPNAME                  GAIN   READNOISE
+gS20070608S0091.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
+gS20070608S0091.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
+gS20070608S0091.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
+
+GGAIN -- Finished: 2019-10-30T23:09:26
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Wed Oct 30 18:09:26 CDT 2019
+
+Input list    = ../rawExample/S20070608S0092
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../rawExample/S20070608S0092.fits   Output  gS20070608S0092.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps-20150826.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2019-10-30T23:09:26
+File[extension]:             AMPNAME                  GAIN   READNOISE
+gS20070608S0092.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
+gS20070608S0092.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
+gS20070608S0092.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
+
+GGAIN -- Finished: 2019-10-30T23:09:26
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Wed Oct 30 18:09:26 CDT 2019
+
+Input list    = ../rawExample/S20070608S0093
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../rawExample/S20070608S0093.fits   Output  gS20070608S0093.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps-20150826.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2019-10-30T23:09:27
+File[extension]:             AMPNAME                  GAIN   READNOISE
+gS20070608S0093.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
+gS20070608S0093.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
+gS20070608S0093.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
+
+GGAIN -- Finished: 2019-10-30T23:09:27
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Wed Oct 30 18:09:27 CDT 2019
+
+Input list    = ../rawExample/S20070608S0094
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../rawExample/S20070608S0094.fits   Output  gS20070608S0094.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps-20150826.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2019-10-30T23:09:27
+File[extension]:             AMPNAME                  GAIN   READNOISE
+gS20070608S0094.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
+gS20070608S0094.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
+gS20070608S0094.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
+
+GGAIN -- Finished: 2019-10-30T23:09:27
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Wed Oct 30 18:09:27 CDT 2019
+
+Input list    = ../rawExample/S20070616S0098
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../rawExample/S20070616S0098.fits   Output  gS20070616S0098.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps-20150826.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2019-10-30T23:09:28
+File[extension]:             AMPNAME                  GAIN   READNOISE
+gS20070616S0098.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
+gS20070616S0098.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
+gS20070616S0098.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
+
+GGAIN -- Finished: 2019-10-30T23:09:28
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Wed Oct 30 18:09:28 CDT 2019
+
+Input list    = ../rawExample/S20070616S0099
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../rawExample/S20070616S0099.fits   Output  gS20070616S0099.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps-20150826.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2019-10-30T23:09:28
+File[extension]:             AMPNAME                  GAIN   READNOISE
+gS20070616S0099.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
+gS20070616S0099.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
+gS20070616S0099.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
+
+GGAIN -- Finished: 2019-10-30T23:09:28
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Wed Oct 30 18:09:28 CDT 2019
+
+Input list    = ../rawExample/S20070616S0100
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../rawExample/S20070616S0100.fits   Output  gS20070616S0100.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps-20150826.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2019-10-30T23:09:29
+File[extension]:             AMPNAME                  GAIN   READNOISE
+gS20070616S0100.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
+gS20070616S0100.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
+gS20070616S0100.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
+
+GGAIN -- Finished: 2019-10-30T23:09:29
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Wed Oct 30 18:09:29 CDT 2019
+
+Input list    = ../rawExample/S20070616S0101
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../rawExample/S20070616S0101.fits   Output  gS20070616S0101.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps-20150826.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2019-10-30T23:09:29
+File[extension]:             AMPNAME                  GAIN   READNOISE
+gS20070616S0101.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
+gS20070616S0101.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
+gS20070616S0101.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
+
+GGAIN -- Finished: 2019-10-30T23:09:29
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Wed Oct 30 18:09:29 CDT 2019
+
+Input list    = ../rawExample/S20070616S0102
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../rawExample/S20070616S0102.fits   Output  gS20070616S0102.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps-20150826.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2019-10-30T23:09:30
+File[extension]:             AMPNAME                  GAIN   READNOISE
+gS20070616S0102.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
+gS20070616S0102.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
+gS20070616S0102.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
+
+GGAIN -- Finished: 2019-10-30T23:09:30
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Wed Oct 30 18:09:30 CDT 2019
+
+Input list    = ../rawExample/S20070622S0146
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../rawExample/S20070622S0146.fits   Output  gS20070622S0146.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps-20150826.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2019-10-30T23:09:30
+File[extension]:             AMPNAME                  GAIN   READNOISE
+gS20070622S0146.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
+gS20070622S0146.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
+gS20070622S0146.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
+
+GGAIN -- Finished: 2019-10-30T23:09:30
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Wed Oct 30 18:09:30 CDT 2019
+
+Input list    = ../rawExample/S20070622S0147
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../rawExample/S20070622S0147.fits   Output  gS20070622S0147.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps-20150826.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2019-10-30T23:09:31
+File[extension]:             AMPNAME                  GAIN   READNOISE
+gS20070622S0147.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
+gS20070622S0147.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
+gS20070622S0147.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
+
+GGAIN -- Finished: 2019-10-30T23:09:31
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Wed Oct 30 18:09:31 CDT 2019
+
+Input list    = ../rawExample/S20070622S0148
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../rawExample/S20070622S0148.fits   Output  gS20070622S0148.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps-20150826.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2019-10-30T23:09:31
+File[extension]:             AMPNAME                  GAIN   READNOISE
+gS20070622S0148.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
+gS20070622S0148.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
+gS20070622S0148.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
+
+GGAIN -- Finished: 2019-10-30T23:09:31
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Wed Oct 30 18:09:31 CDT 2019
+
+Input list    = ../rawExample/S20070622S0149
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../rawExample/S20070622S0149.fits   Output  gS20070622S0149.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps-20150826.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2019-10-30T23:09:32
+File[extension]:             AMPNAME                  GAIN   READNOISE
+gS20070622S0149.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
+gS20070622S0149.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
+gS20070622S0149.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
+
+GGAIN -- Finished: 2019-10-30T23:09:32
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Wed Oct 30 18:09:32 CDT 2019
+
+Input list    = ../rawExample/S20070622S0150
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../rawExample/S20070622S0150.fits   Output  gS20070622S0150.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps-20150826.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2019-10-30T23:09:32
+File[extension]:             AMPNAME                  GAIN   READNOISE
+gS20070622S0150.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
+gS20070622S0150.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
+gS20070622S0150.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
+
+GGAIN -- Finished: 2019-10-30T23:09:32
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Wed Oct 30 18:09:32 CDT 2019
+
+Input list    = ../rawExample/S20070624S0229
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../rawExample/S20070624S0229.fits   Output  gS20070624S0229.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps-20150826.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2019-10-30T23:09:33
+File[extension]:             AMPNAME                  GAIN   READNOISE
+gS20070624S0229.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
+gS20070624S0229.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
+gS20070624S0229.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
+
+GGAIN -- Finished: 2019-10-30T23:09:33
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Wed Oct 30 18:09:33 CDT 2019
+
+Input list    = ../rawExample/S20070624S0230
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../rawExample/S20070624S0230.fits   Output  gS20070624S0230.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps-20150826.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2019-10-30T23:09:33
+File[extension]:             AMPNAME                  GAIN   READNOISE
+gS20070624S0230.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
+gS20070624S0230.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
+gS20070624S0230.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
+
+GGAIN -- Finished: 2019-10-30T23:09:33
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Wed Oct 30 18:09:33 CDT 2019
+
+Input list    = ../rawExample/S20070624S0231
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../rawExample/S20070624S0231.fits   Output  gS20070624S0231.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps-20150826.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2019-10-30T23:09:34
+File[extension]:             AMPNAME                  GAIN   READNOISE
+gS20070624S0231.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
+gS20070624S0231.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
+gS20070624S0231.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
+
+GGAIN -- Finished: 2019-10-30T23:09:34
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Wed Oct 30 18:09:34 CDT 2019
+
+Input list    = ../rawExample/S20070624S0232
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../rawExample/S20070624S0232.fits   Output  gS20070624S0232.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps-20150826.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2019-10-30T23:09:34
+File[extension]:             AMPNAME                  GAIN   READNOISE
+gS20070624S0232.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
+gS20070624S0232.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
+gS20070624S0232.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
+
+GGAIN -- Finished: 2019-10-30T23:09:34
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Wed Oct 30 18:09:34 CDT 2019
+
+Input list    = ../rawExample/S20070624S0233
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../rawExample/S20070624S0233.fits   Output  gS20070624S0233.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps-20150826.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2019-10-30T23:09:35
+File[extension]:             AMPNAME                  GAIN   READNOISE
+gS20070624S0233.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
+gS20070624S0233.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
+gS20070624S0233.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
+
+GGAIN -- Finished: 2019-10-30T23:09:35
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Wed Oct 30 18:09:35 CDT 2019
+
+Input list    = ../rawExample/S20070702S0067
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../rawExample/S20070702S0067.fits   Output  gS20070702S0067.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps-20150826.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2019-10-30T23:09:35
+File[extension]:             AMPNAME                  GAIN   READNOISE
+gS20070702S0067.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
+gS20070702S0067.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
+gS20070702S0067.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
+
+GGAIN -- Finished: 2019-10-30T23:09:35
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Wed Oct 30 18:09:35 CDT 2019
+
+Input list    = ../rawExample/S20070702S0068
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../rawExample/S20070702S0068.fits   Output  gS20070702S0068.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps-20150826.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2019-10-30T23:09:36
+File[extension]:             AMPNAME                  GAIN   READNOISE
+gS20070702S0068.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
+gS20070702S0068.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
+gS20070702S0068.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
+
+GGAIN -- Finished: 2019-10-30T23:09:36
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Wed Oct 30 18:09:36 CDT 2019
+
+Input list    = ../rawExample/S20070702S0069
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../rawExample/S20070702S0069.fits   Output  gS20070702S0069.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps-20150826.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2019-10-30T23:09:36
+File[extension]:             AMPNAME                  GAIN   READNOISE
+gS20070702S0069.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
+gS20070702S0069.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
+gS20070702S0069.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
+
+GGAIN -- Finished: 2019-10-30T23:09:36
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Wed Oct 30 18:09:36 CDT 2019
+
+Input list    = ../rawExample/S20070702S0070
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../rawExample/S20070702S0070.fits   Output  gS20070702S0070.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps-20150826.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2019-10-30T23:09:37
+File[extension]:             AMPNAME                  GAIN   READNOISE
+gS20070702S0070.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
+gS20070702S0070.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
+gS20070702S0070.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
+
+GGAIN -- Finished: 2019-10-30T23:09:37
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Wed Oct 30 18:09:37 CDT 2019
+
+Input list    = ../rawExample/S20070702S0071
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../rawExample/S20070702S0071.fits   Output  gS20070702S0071.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps-20150826.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2019-10-30T23:09:37
+File[extension]:             AMPNAME                  GAIN   READNOISE
+gS20070702S0071.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
+gS20070702S0071.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
+gS20070702S0071.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
+
+GGAIN -- Finished: 2019-10-30T23:09:37
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Wed Oct 30 18:09:38 CDT 2019
+
+Input list    = ../rawExample/S20070704S0060
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../rawExample/S20070704S0060.fits   Output  gS20070704S0060.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps-20150826.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2019-10-30T23:09:38
+File[extension]:             AMPNAME                  GAIN   READNOISE
+gS20070704S0060.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
+gS20070704S0060.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
+gS20070704S0060.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
+
+GGAIN -- Finished: 2019-10-30T23:09:38
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Wed Oct 30 18:09:38 CDT 2019
+
+Input list    = ../rawExample/S20070704S0061
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../rawExample/S20070704S0061.fits   Output  gS20070704S0061.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps-20150826.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2019-10-30T23:09:38
+File[extension]:             AMPNAME                  GAIN   READNOISE
+gS20070704S0061.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
+gS20070704S0061.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
+gS20070704S0061.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
+
+GGAIN -- Finished: 2019-10-30T23:09:38
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Wed Oct 30 18:09:39 CDT 2019
+
+Input list    = ../rawExample/S20070704S0062
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../rawExample/S20070704S0062.fits   Output  gS20070704S0062.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps-20150826.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2019-10-30T23:09:39
+File[extension]:             AMPNAME                  GAIN   READNOISE
+gS20070704S0062.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
+gS20070704S0062.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
+gS20070704S0062.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
+
+GGAIN -- Finished: 2019-10-30T23:09:39
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Wed Oct 30 18:09:39 CDT 2019
+
+Input list    = ../rawExample/S20070704S0063
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../rawExample/S20070704S0063.fits   Output  gS20070704S0063.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps-20150826.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2019-10-30T23:09:39
+File[extension]:             AMPNAME                  GAIN   READNOISE
+gS20070704S0063.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
+gS20070704S0063.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
+gS20070704S0063.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
+
+GGAIN -- Finished: 2019-10-30T23:09:39
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Wed Oct 30 18:09:40 CDT 2019
+
+Input list    = ../rawExample/S20070704S0064
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../rawExample/S20070704S0064.fits   Output  gS20070704S0064.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps-20150826.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2019-10-30T23:09:40
+File[extension]:             AMPNAME                  GAIN   READNOISE
+gS20070704S0064.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
+gS20070704S0064.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
+gS20070704S0064.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
+
+GGAIN -- Finished: 2019-10-30T23:09:40
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Wed Oct 30 18:09:40 CDT 2019
+
+Input list    = ../rawExample/S20070707S0056
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../rawExample/S20070707S0056.fits   Output  gS20070707S0056.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps-20150826.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2019-10-30T23:09:40
+File[extension]:             AMPNAME                  GAIN   READNOISE
+gS20070707S0056.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
+gS20070707S0056.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
+gS20070707S0056.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
+
+GGAIN -- Finished: 2019-10-30T23:09:40
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Wed Oct 30 18:09:41 CDT 2019
+
+Input list    = ../rawExample/S20070707S0057
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../rawExample/S20070707S0057.fits   Output  gS20070707S0057.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps-20150826.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2019-10-30T23:09:41
+File[extension]:             AMPNAME                  GAIN   READNOISE
+gS20070707S0057.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
+gS20070707S0057.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
+gS20070707S0057.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
+
+GGAIN -- Finished: 2019-10-30T23:09:41
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Wed Oct 30 18:09:41 CDT 2019
+
+Input list    = ../rawExample/S20070707S0058
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../rawExample/S20070707S0058.fits   Output  gS20070707S0058.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps-20150826.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2019-10-30T23:09:41
+File[extension]:             AMPNAME                  GAIN   READNOISE
+gS20070707S0058.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
+gS20070707S0058.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
+gS20070707S0058.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
+
+GGAIN -- Finished: 2019-10-30T23:09:41
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Wed Oct 30 18:09:42 CDT 2019
+
+Input list    = ../rawExample/S20070707S0059
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../rawExample/S20070707S0059.fits   Output  gS20070707S0059.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps-20150826.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2019-10-30T23:09:42
+File[extension]:             AMPNAME                  GAIN   READNOISE
+gS20070707S0059.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
+gS20070707S0059.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
+gS20070707S0059.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
+
+GGAIN -- Finished: 2019-10-30T23:09:42
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Wed Oct 30 18:09:42 CDT 2019
+
+Input list    = ../rawExample/S20070707S0060
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../rawExample/S20070707S0060.fits   Output  gS20070707S0060.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps-20150826.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2019-10-30T23:09:42
+File[extension]:             AMPNAME                  GAIN   READNOISE
+gS20070707S0060.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
+gS20070707S0060.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
+gS20070707S0060.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
+
+GGAIN -- Finished: 2019-10-30T23:09:43
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+
+Input files:
+gS20070605S0161
+gS20070605S0162
+gS20070605S0163
+gS20070605S0164
+gS20070605S0165
+gS20070608S0090
+gS20070608S0091
+gS20070608S0092
+gS20070608S0093
+gS20070608S0094
+gS20070616S0098
+gS20070616S0099
+gS20070616S0100
+gS20070616S0101
+gS20070616S0102
+gS20070622S0146
+gS20070622S0147
+gS20070622S0148
+gS20070622S0149
+gS20070622S0150
+gS20070624S0229
+gS20070624S0230
+gS20070624S0231
+gS20070624S0232
+gS20070624S0233
+gS20070702S0067
+gS20070702S0068
+gS20070702S0069
+gS20070702S0070
+gS20070702S0071
+gS20070704S0060
+gS20070704S0061
+gS20070704S0062
+gS20070704S0063
+gS20070704S0064
+gS20070707S0056
+gS20070707S0057
+gS20070707S0058
+gS20070707S0059
+gS20070707S0060
+
+Output files:
+tmpfile9028hS20070605S0161
+tmpfile9028hS20070605S0162
+tmpfile9028hS20070605S0163
+tmpfile9028hS20070605S0164
+tmpfile9028hS20070605S0165
+tmpfile9028hS20070608S0090
+tmpfile9028hS20070608S0091
+tmpfile9028hS20070608S0092
+tmpfile9028hS20070608S0093
+tmpfile9028hS20070608S0094
+tmpfile9028hS20070616S0098
+tmpfile9028hS20070616S0099
+tmpfile9028hS20070616S0100
+tmpfile9028hS20070616S0101
+tmpfile9028hS20070616S0102
+tmpfile9028hS20070622S0146
+tmpfile9028hS20070622S0147
+tmpfile9028hS20070622S0148
+tmpfile9028hS20070622S0149
+tmpfile9028hS20070622S0150
+tmpfile9028hS20070624S0229
+tmpfile9028hS20070624S0230
+tmpfile9028hS20070624S0231
+tmpfile9028hS20070624S0232
+tmpfile9028hS20070624S0233
+tmpfile9028hS20070702S0067
+tmpfile9028hS20070702S0068
+tmpfile9028hS20070702S0069
+tmpfile9028hS20070702S0070
+tmpfile9028hS20070702S0071
+tmpfile9028hS20070704S0060
+tmpfile9028hS20070704S0061
+tmpfile9028hS20070704S0062
+tmpfile9028hS20070704S0063
+tmpfile9028hS20070704S0064
+tmpfile9028hS20070707S0056
+tmpfile9028hS20070707S0057
+tmpfile9028hS20070707S0058
+tmpfile9028hS20070707S0059
+tmpfile9028hS20070707S0060
+
+GIREDUCE: Image tmpfile9028hS20070605S0161 overscan subtracted
+GIREDUCE: Image tmpfile9028hS20070605S0162 overscan subtracted
+GIREDUCE: Image tmpfile9028hS20070605S0163 overscan subtracted
+GIREDUCE: Image tmpfile9028hS20070605S0164 overscan subtracted
+GIREDUCE: Image tmpfile9028hS20070605S0165 overscan subtracted
+GIREDUCE: Image tmpfile9028hS20070608S0090 overscan subtracted
+GIREDUCE: Image tmpfile9028hS20070608S0091 overscan subtracted
+GIREDUCE: Image tmpfile9028hS20070608S0092 overscan subtracted
+GIREDUCE: Image tmpfile9028hS20070608S0093 overscan subtracted
+GIREDUCE: Image tmpfile9028hS20070608S0094 overscan subtracted
+GIREDUCE: Image tmpfile9028hS20070616S0098 overscan subtracted
+GIREDUCE: Image tmpfile9028hS20070616S0099 overscan subtracted
+GIREDUCE: Image tmpfile9028hS20070616S0100 overscan subtracted
+GIREDUCE: Image tmpfile9028hS20070616S0101 overscan subtracted
+GIREDUCE: Image tmpfile9028hS20070616S0102 overscan subtracted
+GIREDUCE: Image tmpfile9028hS20070622S0146 overscan subtracted
+GIREDUCE: Image tmpfile9028hS20070622S0147 overscan subtracted
+GIREDUCE: Image tmpfile9028hS20070622S0148 overscan subtracted
+GIREDUCE: Image tmpfile9028hS20070622S0149 overscan subtracted
+GIREDUCE: Image tmpfile9028hS20070622S0150 overscan subtracted
+GIREDUCE: Image tmpfile9028hS20070624S0229 overscan subtracted
+GIREDUCE: Image tmpfile9028hS20070624S0230 overscan subtracted
+GIREDUCE: Image tmpfile9028hS20070624S0231 overscan subtracted
+GIREDUCE: Image tmpfile9028hS20070624S0232 overscan subtracted
+GIREDUCE: Image tmpfile9028hS20070624S0233 overscan subtracted
+GIREDUCE: Image tmpfile9028hS20070702S0067 overscan subtracted
+GIREDUCE: Image tmpfile9028hS20070702S0068 overscan subtracted
+GIREDUCE: Image tmpfile9028hS20070702S0069 overscan subtracted
+GIREDUCE: Image tmpfile9028hS20070702S0070 overscan subtracted
+GIREDUCE: Image tmpfile9028hS20070702S0071 overscan subtracted
+GIREDUCE: Image tmpfile9028hS20070704S0060 overscan subtracted
+GIREDUCE: Image tmpfile9028hS20070704S0061 overscan subtracted
+GIREDUCE: Image tmpfile9028hS20070704S0062 overscan subtracted
+GIREDUCE: Image tmpfile9028hS20070704S0063 overscan subtracted
+GIREDUCE: Image tmpfile9028hS20070704S0064 overscan subtracted
+GIREDUCE: Image tmpfile9028hS20070707S0056 overscan subtracted
+GIREDUCE: Image tmpfile9028hS20070707S0057 overscan subtracted
+GIREDUCE: Image tmpfile9028hS20070707S0058 overscan subtracted
+GIREDUCE: Image tmpfile9028hS20070707S0059 overscan subtracted
+GIREDUCE: Image tmpfile9028hS20070707S0060 overscan subtracted
+GIREDUCE: Image tmpfile9028hS20070605S0161 trimmed
+GIREDUCE: Image tmpfile9028hS20070605S0162 trimmed
+GIREDUCE: Image tmpfile9028hS20070605S0163 trimmed
+GIREDUCE: Image tmpfile9028hS20070605S0164 trimmed
+GIREDUCE: Image tmpfile9028hS20070605S0165 trimmed
+GIREDUCE: Image tmpfile9028hS20070608S0090 trimmed
+GIREDUCE: Image tmpfile9028hS20070608S0091 trimmed
+GIREDUCE: Image tmpfile9028hS20070608S0092 trimmed
+GIREDUCE: Image tmpfile9028hS20070608S0093 trimmed
+GIREDUCE: Image tmpfile9028hS20070608S0094 trimmed
+GIREDUCE: Image tmpfile9028hS20070616S0098 trimmed
+GIREDUCE: Image tmpfile9028hS20070616S0099 trimmed
+GIREDUCE: Image tmpfile9028hS20070616S0100 trimmed
+GIREDUCE: Image tmpfile9028hS20070616S0101 trimmed
+GIREDUCE: Image tmpfile9028hS20070616S0102 trimmed
+GIREDUCE: Image tmpfile9028hS20070622S0146 trimmed
+GIREDUCE: Image tmpfile9028hS20070622S0147 trimmed
+GIREDUCE: Image tmpfile9028hS20070622S0148 trimmed
+GIREDUCE: Image tmpfile9028hS20070622S0149 trimmed
+GIREDUCE: Image tmpfile9028hS20070622S0150 trimmed
+GIREDUCE: Image tmpfile9028hS20070624S0229 trimmed
+GIREDUCE: Image tmpfile9028hS20070624S0230 trimmed
+GIREDUCE: Image tmpfile9028hS20070624S0231 trimmed
+GIREDUCE: Image tmpfile9028hS20070624S0232 trimmed
+GIREDUCE: Image tmpfile9028hS20070624S0233 trimmed
+GIREDUCE: Image tmpfile9028hS20070702S0067 trimmed
+GIREDUCE: Image tmpfile9028hS20070702S0068 trimmed
+GIREDUCE: Image tmpfile9028hS20070702S0069 trimmed
+GIREDUCE: Image tmpfile9028hS20070702S0070 trimmed
+GIREDUCE: Image tmpfile9028hS20070702S0071 trimmed
+GIREDUCE: Image tmpfile9028hS20070704S0060 trimmed
+GIREDUCE: Image tmpfile9028hS20070704S0061 trimmed
+GIREDUCE: Image tmpfile9028hS20070704S0062 trimmed
+GIREDUCE: Image tmpfile9028hS20070704S0063 trimmed
+GIREDUCE: Image tmpfile9028hS20070704S0064 trimmed
+GIREDUCE: Image tmpfile9028hS20070707S0056 trimmed
+GIREDUCE: Image tmpfile9028hS20070707S0057 trimmed
+GIREDUCE: Image tmpfile9028hS20070707S0058 trimmed
+GIREDUCE: Image tmpfile9028hS20070707S0059 trimmed
+GIREDUCE: Image tmpfile9028hS20070707S0060 trimmed
+
+
+GIREDUCE - Cleaning up -- Wed Oct 30 18:12:18 CDT 2019
+
+GIREDUCE -- Wed Oct 30 18:12:18 CDT 2019
+GIREDUCE exit status:  good.
+----------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+GEMCOMBINE -- Wed Oct 30 18:12:18 CDT 2019
+ 
+GEMCOMBINE: input = @tmpcombin9028e
+GEMCOMBINE: output = MCbiasFull.fits
+GEMCOMBINE: title = Bias
+GEMCOMBINE: bpmfile = 
+GEMCOMBINE: sci_ext = SCI
+GEMCOMBINE: var_ext = VAR
+GEMCOMBINE: dq_ext = DQ
+ 
+
+Oct 30 18:12: IMCOMBINE
+  combine = average, scale = none, zero = none, weight = none
+  reject = avsigclip, mclip = yes, nkeep = 1
+  lsigma = 3., hsigma = 3.
+  blank = 0.
+  statsec = Oct 30 18:12
+                Images     Exp
+  tmpfile9028hS20070605S0161.fits[SCI,1]    0.0
+  tmpfile9028hS20070605S0162.fits[SCI,1]    0.0
+  tmpfile9028hS20070605S0163.fits[SCI,1]    2.8
+  tmpfile9028hS20070605S0164.fits[SCI,1]    0.0
+  tmpfile9028hS20070605S0165.fits[SCI,1]    0.0
+  tmpfile9028hS20070608S0090.fits[SCI,1]    0.0
+  tmpfile9028hS20070608S0091.fits[SCI,1]    0.0
+  tmpfile9028hS20070608S0092.fits[SCI,1]    0.0
+  tmpfile9028hS20070608S0093.fits[SCI,1]    2.8
+  tmpfile9028hS20070608S0094.fits[SCI,1]    0.0
+  tmpfile9028hS20070616S0098.fits[SCI,1]    0.0
+  tmpfile9028hS20070616S0099.fits[SCI,1]    0.0
+  tmpfile9028hS20070616S0100.fits[SCI,1]    0.0
+  tmpfile9028hS20070616S0101.fits[SCI,1]    0.0
+  tmpfile9028hS20070616S0102.fits[SCI,1]    0.0
+  tmpfile9028hS20070622S0146.fits[SCI,1]    0.0
+  tmpfile9028hS20070622S0147.fits[SCI,1]    0.0
+  tmpfile9028hS20070622S0148.fits[SCI,1]    0.0
+  tmpfile9028hS20070622S0149.fits[SCI,1]    0.0
+  tmpfile9028hS20070622S0150.fits[SCI,1]    0.0
+  tmpfile9028hS20070624S0229.fits[SCI,1]    0.0
+  tmpfile9028hS20070624S0230.fits[SCI,1]    0.0
+  tmpfile9028hS20070624S0231.fits[SCI,1]    0.0
+  tmpfile9028hS20070624S0232.fits[SCI,1]    0.0
+  tmpfile9028hS20070624S0233.fits[SCI,1]    0.0
+  tmpfile9028hS20070702S0067.fits[SCI,1]    0.0
+  tmpfile9028hS20070702S0068.fits[SCI,1]    0.0
+  tmpfile9028hS20070702S0069.fits[SCI,1]    2.8
+  tmpfile9028hS20070702S0070.fits[SCI,1]    0.0
+  tmpfile9028hS20070702S0071.fits[SCI,1]    0.0
+  tmpfile9028hS20070704S0060.fits[SCI,1]    0.0
+  tmpfile9028hS20070704S0061.fits[SCI,1]    2.8
+  tmpfile9028hS20070704S0062.fits[SCI,1]    0.0
+  tmpfile9028hS20070704S0063.fits[SCI,1]    2.8
+  tmpfile9028hS20070704S0064.fits[SCI,1]    0.0
+  tmpfile9028hS20070707S0056.fits[SCI,1]    0.0
+  tmpfile9028hS20070707S0057.fits[SCI,1]    0.0
+  tmpfile9028hS20070707S0058.fits[SCI,1]    2.8
+  tmpfile9028hS20070707S0059.fits[SCI,1]    0.0
+  tmpfile9028hS20070707S0060.fits[SCI,1]    0.0
+
+  Output image = tmpcombout9028_242, ncombine = 40
+  Number rejected mask = tmpcombdq9028_243.pl
+  Sigma image = tmpcombsig9028_244
+
+Oct 30 18:12: IMCOMBINE
+  combine = average, scale = none, zero = none, weight = none
+  reject = avsigclip, mclip = yes, nkeep = 1
+  lsigma = 3., hsigma = 3.
+  blank = 0.
+  statsec = Oct 30 18:12
+                Images     Exp
+  tmpfile9028hS20070605S0161.fits[SCI,2]    0.0
+  tmpfile9028hS20070605S0162.fits[SCI,2]    0.0
+  tmpfile9028hS20070605S0163.fits[SCI,2]    2.8
+  tmpfile9028hS20070605S0164.fits[SCI,2]    0.0
+  tmpfile9028hS20070605S0165.fits[SCI,2]    0.0
+  tmpfile9028hS20070608S0090.fits[SCI,2]    0.0
+  tmpfile9028hS20070608S0091.fits[SCI,2]    0.0
+  tmpfile9028hS20070608S0092.fits[SCI,2]    0.0
+  tmpfile9028hS20070608S0093.fits[SCI,2]    2.8
+  tmpfile9028hS20070608S0094.fits[SCI,2]    0.0
+  tmpfile9028hS20070616S0098.fits[SCI,2]    0.0
+  tmpfile9028hS20070616S0099.fits[SCI,2]    0.0
+  tmpfile9028hS20070616S0100.fits[SCI,2]    0.0
+  tmpfile9028hS20070616S0101.fits[SCI,2]    0.0
+  tmpfile9028hS20070616S0102.fits[SCI,2]    0.0
+  tmpfile9028hS20070622S0146.fits[SCI,2]    0.0
+  tmpfile9028hS20070622S0147.fits[SCI,2]    0.0
+  tmpfile9028hS20070622S0148.fits[SCI,2]    0.0
+  tmpfile9028hS20070622S0149.fits[SCI,2]    0.0
+  tmpfile9028hS20070622S0150.fits[SCI,2]    0.0
+  tmpfile9028hS20070624S0229.fits[SCI,2]    0.0
+  tmpfile9028hS20070624S0230.fits[SCI,2]    0.0
+  tmpfile9028hS20070624S0231.fits[SCI,2]    0.0
+  tmpfile9028hS20070624S0232.fits[SCI,2]    0.0
+  tmpfile9028hS20070624S0233.fits[SCI,2]    0.0
+  tmpfile9028hS20070702S0067.fits[SCI,2]    0.0
+  tmpfile9028hS20070702S0068.fits[SCI,2]    0.0
+  tmpfile9028hS20070702S0069.fits[SCI,2]    2.8
+  tmpfile9028hS20070702S0070.fits[SCI,2]    0.0
+  tmpfile9028hS20070702S0071.fits[SCI,2]    0.0
+  tmpfile9028hS20070704S0060.fits[SCI,2]    0.0
+  tmpfile9028hS20070704S0061.fits[SCI,2]    2.8
+  tmpfile9028hS20070704S0062.fits[SCI,2]    0.0
+  tmpfile9028hS20070704S0063.fits[SCI,2]    2.8
+  tmpfile9028hS20070704S0064.fits[SCI,2]    0.0
+  tmpfile9028hS20070707S0056.fits[SCI,2]    0.0
+  tmpfile9028hS20070707S0057.fits[SCI,2]    0.0
+  tmpfile9028hS20070707S0058.fits[SCI,2]    2.8
+  tmpfile9028hS20070707S0059.fits[SCI,2]    0.0
+  tmpfile9028hS20070707S0060.fits[SCI,2]    0.0
+
+  Output image = tmpcombout9028_249, ncombine = 40
+  Number rejected mask = tmpcombdq9028_250.pl
+  Sigma image = tmpcombsig9028_251
+
+Oct 30 18:12: IMCOMBINE
+  combine = average, scale = none, zero = none, weight = none
+  reject = avsigclip, mclip = yes, nkeep = 1
+  lsigma = 3., hsigma = 3.
+  blank = 0.
+  statsec = Oct 30 18:12
+                Images     Exp
+  tmpfile9028hS20070605S0161.fits[SCI,3]    0.0
+  tmpfile9028hS20070605S0162.fits[SCI,3]    0.0
+  tmpfile9028hS20070605S0163.fits[SCI,3]    2.8
+  tmpfile9028hS20070605S0164.fits[SCI,3]    0.0
+  tmpfile9028hS20070605S0165.fits[SCI,3]    0.0
+  tmpfile9028hS20070608S0090.fits[SCI,3]    0.0
+  tmpfile9028hS20070608S0091.fits[SCI,3]    0.0
+  tmpfile9028hS20070608S0092.fits[SCI,3]    0.0
+  tmpfile9028hS20070608S0093.fits[SCI,3]    2.8
+  tmpfile9028hS20070608S0094.fits[SCI,3]    0.0
+  tmpfile9028hS20070616S0098.fits[SCI,3]    0.0
+  tmpfile9028hS20070616S0099.fits[SCI,3]    0.0
+  tmpfile9028hS20070616S0100.fits[SCI,3]    0.0
+  tmpfile9028hS20070616S0101.fits[SCI,3]    0.0
+  tmpfile9028hS20070616S0102.fits[SCI,3]    0.0
+  tmpfile9028hS20070622S0146.fits[SCI,3]    0.0
+  tmpfile9028hS20070622S0147.fits[SCI,3]    0.0
+  tmpfile9028hS20070622S0148.fits[SCI,3]    0.0
+  tmpfile9028hS20070622S0149.fits[SCI,3]    0.0
+  tmpfile9028hS20070622S0150.fits[SCI,3]    0.0
+  tmpfile9028hS20070624S0229.fits[SCI,3]    0.0
+  tmpfile9028hS20070624S0230.fits[SCI,3]    0.0
+  tmpfile9028hS20070624S0231.fits[SCI,3]    0.0
+  tmpfile9028hS20070624S0232.fits[SCI,3]    0.0
+  tmpfile9028hS20070624S0233.fits[SCI,3]    0.0
+  tmpfile9028hS20070702S0067.fits[SCI,3]    0.0
+  tmpfile9028hS20070702S0068.fits[SCI,3]    0.0
+  tmpfile9028hS20070702S0069.fits[SCI,3]    2.8
+  tmpfile9028hS20070702S0070.fits[SCI,3]    0.0
+  tmpfile9028hS20070702S0071.fits[SCI,3]    0.0
+  tmpfile9028hS20070704S0060.fits[SCI,3]    0.0
+  tmpfile9028hS20070704S0061.fits[SCI,3]    2.8
+  tmpfile9028hS20070704S0062.fits[SCI,3]    0.0
+  tmpfile9028hS20070704S0063.fits[SCI,3]    2.8
+  tmpfile9028hS20070704S0064.fits[SCI,3]    0.0
+  tmpfile9028hS20070707S0056.fits[SCI,3]    0.0
+  tmpfile9028hS20070707S0057.fits[SCI,3]    0.0
+  tmpfile9028hS20070707S0058.fits[SCI,3]    2.8
+  tmpfile9028hS20070707S0059.fits[SCI,3]    0.0
+  tmpfile9028hS20070707S0060.fits[SCI,3]    0.0
+
+  Output image = tmpcombout9028_253, ncombine = 40
+  Number rejected mask = tmpcombdq9028_254.pl
+  Sigma image = tmpcombsig9028_255
+ 
+GEMCOMBINE -- Finished: Wed Oct 30 18:12:31 CDT 2019
+ 
+GEMCOMBINE -- Exit status: GOOD
+--------------------------------------------------------------------------------
+
+GBIAS: Exit status: GOOD.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GBIAS -- Wed Oct 30 18:12:31 CDT 2019
+
+Input images:
+  S20070605S0166
+  S20070605S0167
+  S20070605S0168
+  S20070605S0169
+  S20070605S0170
+  S20070608S0095
+  S20070608S0096
+  S20070608S0097
+  S20070608S0098
+  S20070608S0099
+  S20070616S0143
+  S20070616S0144
+  S20070616S0145
+  S20070616S0146
+  S20070616S0147
+  S20070622S0151
+  S20070622S0152
+  S20070622S0153
+  S20070622S0154
+  S20070622S0155
+  S20070624S0234
+  S20070624S0235
+  S20070624S0236
+  S20070624S0237
+  S20070624S0238
+  S20070702S0112
+  S20070702S0113
+  S20070702S0114
+  S20070702S0115
+  S20070702S0116
+  S20070704S0105
+  S20070704S0106
+  S20070704S0107
+  S20070704S0108
+  S20070704S0109
+  S20070707S0101
+  S20070707S0102
+  S20070707S0103
+  S20070707S0104
+  S20070707S0105
+
+Output bias image: MCbiasCenSp
+ 
+----------------------------------------------------------------------------
+GIREDUCE -- Wed Oct 30 18:12:33 CDT 2019
+
+----------------------------------------------------------------------------
+GPREPARE -- Wed Oct 30 18:12:33 CDT 2019
+
+Input list    = ../rawExample/S20070605S0166
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../rawExample/S20070605S0166.fits   Output  gS20070605S0166.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps-20150826.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2019-10-30T23:12:33
+File[extension]:             AMPNAME                  GAIN   READNOISE
+gS20070605S0166.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
+gS20070605S0166.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
+gS20070605S0166.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
+
+GGAIN -- Finished: 2019-10-30T23:12:33
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Wed Oct 30 18:12:33 CDT 2019
+
+Input list    = ../rawExample/S20070605S0167
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../rawExample/S20070605S0167.fits   Output  gS20070605S0167.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps-20150826.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2019-10-30T23:12:34
+File[extension]:             AMPNAME                  GAIN   READNOISE
+gS20070605S0167.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
+gS20070605S0167.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
+gS20070605S0167.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
+
+GGAIN -- Finished: 2019-10-30T23:12:34
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Wed Oct 30 18:12:34 CDT 2019
+
+Input list    = ../rawExample/S20070605S0168
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../rawExample/S20070605S0168.fits   Output  gS20070605S0168.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps-20150826.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2019-10-30T23:12:34
+File[extension]:             AMPNAME                  GAIN   READNOISE
+gS20070605S0168.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
+gS20070605S0168.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
+gS20070605S0168.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
+
+GGAIN -- Finished: 2019-10-30T23:12:34
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Wed Oct 30 18:12:34 CDT 2019
+
+Input list    = ../rawExample/S20070605S0169
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../rawExample/S20070605S0169.fits   Output  gS20070605S0169.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps-20150826.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2019-10-30T23:12:35
+File[extension]:             AMPNAME                  GAIN   READNOISE
+gS20070605S0169.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
+gS20070605S0169.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
+gS20070605S0169.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
+
+GGAIN -- Finished: 2019-10-30T23:12:35
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Wed Oct 30 18:12:35 CDT 2019
+
+Input list    = ../rawExample/S20070605S0170
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../rawExample/S20070605S0170.fits   Output  gS20070605S0170.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps-20150826.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2019-10-30T23:12:35
+File[extension]:             AMPNAME                  GAIN   READNOISE
+gS20070605S0170.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
+gS20070605S0170.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
+gS20070605S0170.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
+
+GGAIN -- Finished: 2019-10-30T23:12:36
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Wed Oct 30 18:12:36 CDT 2019
+
+Input list    = ../rawExample/S20070608S0095
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../rawExample/S20070608S0095.fits   Output  gS20070608S0095.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps-20150826.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2019-10-30T23:12:36
+File[extension]:             AMPNAME                  GAIN   READNOISE
+gS20070608S0095.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
+gS20070608S0095.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
+gS20070608S0095.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
+
+GGAIN -- Finished: 2019-10-30T23:12:36
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Wed Oct 30 18:12:36 CDT 2019
+
+Input list    = ../rawExample/S20070608S0096
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../rawExample/S20070608S0096.fits   Output  gS20070608S0096.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps-20150826.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2019-10-30T23:12:37
+File[extension]:             AMPNAME                  GAIN   READNOISE
+gS20070608S0096.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
+gS20070608S0096.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
+gS20070608S0096.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
+
+GGAIN -- Finished: 2019-10-30T23:12:37
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Wed Oct 30 18:12:37 CDT 2019
+
+Input list    = ../rawExample/S20070608S0097
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../rawExample/S20070608S0097.fits   Output  gS20070608S0097.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps-20150826.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2019-10-30T23:12:37
+File[extension]:             AMPNAME                  GAIN   READNOISE
+gS20070608S0097.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
+gS20070608S0097.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
+gS20070608S0097.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
+
+GGAIN -- Finished: 2019-10-30T23:12:37
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Wed Oct 30 18:12:38 CDT 2019
+
+Input list    = ../rawExample/S20070608S0098
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../rawExample/S20070608S0098.fits   Output  gS20070608S0098.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps-20150826.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2019-10-30T23:12:38
+File[extension]:             AMPNAME                  GAIN   READNOISE
+gS20070608S0098.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
+gS20070608S0098.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
+gS20070608S0098.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
+
+GGAIN -- Finished: 2019-10-30T23:12:38
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Wed Oct 30 18:12:38 CDT 2019
+
+Input list    = ../rawExample/S20070608S0099
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../rawExample/S20070608S0099.fits   Output  gS20070608S0099.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps-20150826.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2019-10-30T23:12:39
+File[extension]:             AMPNAME                  GAIN   READNOISE
+gS20070608S0099.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
+gS20070608S0099.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
+gS20070608S0099.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
+
+GGAIN -- Finished: 2019-10-30T23:12:39
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Wed Oct 30 18:12:39 CDT 2019
+
+Input list    = ../rawExample/S20070616S0143
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../rawExample/S20070616S0143.fits   Output  gS20070616S0143.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps-20150826.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2019-10-30T23:12:39
+File[extension]:             AMPNAME                  GAIN   READNOISE
+gS20070616S0143.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
+gS20070616S0143.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
+gS20070616S0143.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
+
+GGAIN -- Finished: 2019-10-30T23:12:39
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Wed Oct 30 18:12:39 CDT 2019
+
+Input list    = ../rawExample/S20070616S0144
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../rawExample/S20070616S0144.fits   Output  gS20070616S0144.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps-20150826.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2019-10-30T23:12:40
+File[extension]:             AMPNAME                  GAIN   READNOISE
+gS20070616S0144.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
+gS20070616S0144.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
+gS20070616S0144.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
+
+GGAIN -- Finished: 2019-10-30T23:12:40
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Wed Oct 30 18:12:40 CDT 2019
+
+Input list    = ../rawExample/S20070616S0145
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../rawExample/S20070616S0145.fits   Output  gS20070616S0145.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps-20150826.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2019-10-30T23:12:40
+File[extension]:             AMPNAME                  GAIN   READNOISE
+gS20070616S0145.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
+gS20070616S0145.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
+gS20070616S0145.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
+
+GGAIN -- Finished: 2019-10-30T23:12:41
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Wed Oct 30 18:12:41 CDT 2019
+
+Input list    = ../rawExample/S20070616S0146
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../rawExample/S20070616S0146.fits   Output  gS20070616S0146.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps-20150826.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2019-10-30T23:12:41
+File[extension]:             AMPNAME                  GAIN   READNOISE
+gS20070616S0146.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
+gS20070616S0146.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
+gS20070616S0146.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
+
+GGAIN -- Finished: 2019-10-30T23:12:41
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Wed Oct 30 18:12:41 CDT 2019
+
+Input list    = ../rawExample/S20070616S0147
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../rawExample/S20070616S0147.fits   Output  gS20070616S0147.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps-20150826.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2019-10-30T23:12:42
+File[extension]:             AMPNAME                  GAIN   READNOISE
+gS20070616S0147.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
+gS20070616S0147.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
+gS20070616S0147.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
+
+GGAIN -- Finished: 2019-10-30T23:12:42
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Wed Oct 30 18:12:42 CDT 2019
+
+Input list    = ../rawExample/S20070622S0151
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../rawExample/S20070622S0151.fits   Output  gS20070622S0151.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps-20150826.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2019-10-30T23:12:42
+File[extension]:             AMPNAME                  GAIN   READNOISE
+gS20070622S0151.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
+gS20070622S0151.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
+gS20070622S0151.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
+
+GGAIN -- Finished: 2019-10-30T23:12:42
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Wed Oct 30 18:12:42 CDT 2019
+
+Input list    = ../rawExample/S20070622S0152
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../rawExample/S20070622S0152.fits   Output  gS20070622S0152.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps-20150826.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2019-10-30T23:12:43
+File[extension]:             AMPNAME                  GAIN   READNOISE
+gS20070622S0152.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
+gS20070622S0152.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
+gS20070622S0152.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
+
+GGAIN -- Finished: 2019-10-30T23:12:43
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Wed Oct 30 18:12:43 CDT 2019
+
+Input list    = ../rawExample/S20070622S0153
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../rawExample/S20070622S0153.fits   Output  gS20070622S0153.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps-20150826.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2019-10-30T23:12:43
+File[extension]:             AMPNAME                  GAIN   READNOISE
+gS20070622S0153.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
+gS20070622S0153.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
+gS20070622S0153.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
+
+GGAIN -- Finished: 2019-10-30T23:12:43
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Wed Oct 30 18:12:44 CDT 2019
+
+Input list    = ../rawExample/S20070622S0154
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../rawExample/S20070622S0154.fits   Output  gS20070622S0154.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps-20150826.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2019-10-30T23:12:44
+File[extension]:             AMPNAME                  GAIN   READNOISE
+gS20070622S0154.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
+gS20070622S0154.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
+gS20070622S0154.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
+
+GGAIN -- Finished: 2019-10-30T23:12:44
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Wed Oct 30 18:12:44 CDT 2019
+
+Input list    = ../rawExample/S20070622S0155
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../rawExample/S20070622S0155.fits   Output  gS20070622S0155.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps-20150826.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2019-10-30T23:12:45
+File[extension]:             AMPNAME                  GAIN   READNOISE
+gS20070622S0155.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
+gS20070622S0155.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
+gS20070622S0155.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
+
+GGAIN -- Finished: 2019-10-30T23:12:45
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Wed Oct 30 18:12:45 CDT 2019
+
+Input list    = ../rawExample/S20070624S0234
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../rawExample/S20070624S0234.fits   Output  gS20070624S0234.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps-20150826.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2019-10-30T23:12:45
+File[extension]:             AMPNAME                  GAIN   READNOISE
+gS20070624S0234.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
+gS20070624S0234.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
+gS20070624S0234.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
+
+GGAIN -- Finished: 2019-10-30T23:12:45
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Wed Oct 30 18:12:45 CDT 2019
+
+Input list    = ../rawExample/S20070624S0235
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../rawExample/S20070624S0235.fits   Output  gS20070624S0235.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps-20150826.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2019-10-30T23:12:46
+File[extension]:             AMPNAME                  GAIN   READNOISE
+gS20070624S0235.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
+gS20070624S0235.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
+gS20070624S0235.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
+
+GGAIN -- Finished: 2019-10-30T23:12:46
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Wed Oct 30 18:12:46 CDT 2019
+
+Input list    = ../rawExample/S20070624S0236
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../rawExample/S20070624S0236.fits   Output  gS20070624S0236.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps-20150826.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2019-10-30T23:12:47
+File[extension]:             AMPNAME                  GAIN   READNOISE
+gS20070624S0236.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
+gS20070624S0236.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
+gS20070624S0236.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
+
+GGAIN -- Finished: 2019-10-30T23:12:47
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Wed Oct 30 18:12:47 CDT 2019
+
+Input list    = ../rawExample/S20070624S0237
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../rawExample/S20070624S0237.fits   Output  gS20070624S0237.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps-20150826.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2019-10-30T23:12:47
+File[extension]:             AMPNAME                  GAIN   READNOISE
+gS20070624S0237.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
+gS20070624S0237.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
+gS20070624S0237.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
+
+GGAIN -- Finished: 2019-10-30T23:12:47
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Wed Oct 30 18:12:47 CDT 2019
+
+Input list    = ../rawExample/S20070624S0238
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../rawExample/S20070624S0238.fits   Output  gS20070624S0238.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps-20150826.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2019-10-30T23:12:48
+File[extension]:             AMPNAME                  GAIN   READNOISE
+gS20070624S0238.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
+gS20070624S0238.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
+gS20070624S0238.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
+
+GGAIN -- Finished: 2019-10-30T23:12:48
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Wed Oct 30 18:12:48 CDT 2019
+
+Input list    = ../rawExample/S20070702S0112
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../rawExample/S20070702S0112.fits   Output  gS20070702S0112.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps-20150826.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2019-10-30T23:12:48
+File[extension]:             AMPNAME                  GAIN   READNOISE
+gS20070702S0112.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
+gS20070702S0112.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
+gS20070702S0112.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
+
+GGAIN -- Finished: 2019-10-30T23:12:48
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Wed Oct 30 18:12:48 CDT 2019
+
+Input list    = ../rawExample/S20070702S0113
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../rawExample/S20070702S0113.fits   Output  gS20070702S0113.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps-20150826.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2019-10-30T23:12:49
+File[extension]:             AMPNAME                  GAIN   READNOISE
+gS20070702S0113.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
+gS20070702S0113.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
+gS20070702S0113.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
+
+GGAIN -- Finished: 2019-10-30T23:12:49
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Wed Oct 30 18:12:49 CDT 2019
+
+Input list    = ../rawExample/S20070702S0114
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../rawExample/S20070702S0114.fits   Output  gS20070702S0114.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps-20150826.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2019-10-30T23:12:49
+File[extension]:             AMPNAME                  GAIN   READNOISE
+gS20070702S0114.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
+gS20070702S0114.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
+gS20070702S0114.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
+
+GGAIN -- Finished: 2019-10-30T23:12:49
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Wed Oct 30 18:12:50 CDT 2019
+
+Input list    = ../rawExample/S20070702S0115
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../rawExample/S20070702S0115.fits   Output  gS20070702S0115.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps-20150826.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2019-10-30T23:12:50
+File[extension]:             AMPNAME                  GAIN   READNOISE
+gS20070702S0115.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
+gS20070702S0115.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
+gS20070702S0115.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
+
+GGAIN -- Finished: 2019-10-30T23:12:50
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Wed Oct 30 18:12:50 CDT 2019
+
+Input list    = ../rawExample/S20070702S0116
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../rawExample/S20070702S0116.fits   Output  gS20070702S0116.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps-20150826.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2019-10-30T23:12:50
+File[extension]:             AMPNAME                  GAIN   READNOISE
+gS20070702S0116.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
+gS20070702S0116.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
+gS20070702S0116.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
+
+GGAIN -- Finished: 2019-10-30T23:12:51
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Wed Oct 30 18:12:51 CDT 2019
+
+Input list    = ../rawExample/S20070704S0105
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../rawExample/S20070704S0105.fits   Output  gS20070704S0105.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps-20150826.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2019-10-30T23:12:51
+File[extension]:             AMPNAME                  GAIN   READNOISE
+gS20070704S0105.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
+gS20070704S0105.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
+gS20070704S0105.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
+
+GGAIN -- Finished: 2019-10-30T23:12:51
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Wed Oct 30 18:12:51 CDT 2019
+
+Input list    = ../rawExample/S20070704S0106
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../rawExample/S20070704S0106.fits   Output  gS20070704S0106.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps-20150826.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2019-10-30T23:12:52
+File[extension]:             AMPNAME                  GAIN   READNOISE
+gS20070704S0106.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
+gS20070704S0106.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
+gS20070704S0106.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
+
+GGAIN -- Finished: 2019-10-30T23:12:52
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Wed Oct 30 18:12:52 CDT 2019
+
+Input list    = ../rawExample/S20070704S0107
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../rawExample/S20070704S0107.fits   Output  gS20070704S0107.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps-20150826.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2019-10-30T23:12:52
+File[extension]:             AMPNAME                  GAIN   READNOISE
+gS20070704S0107.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
+gS20070704S0107.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
+gS20070704S0107.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
+
+GGAIN -- Finished: 2019-10-30T23:12:52
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Wed Oct 30 18:12:52 CDT 2019
+
+Input list    = ../rawExample/S20070704S0108
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../rawExample/S20070704S0108.fits   Output  gS20070704S0108.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps-20150826.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2019-10-30T23:12:53
+File[extension]:             AMPNAME                  GAIN   READNOISE
+gS20070704S0108.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
+gS20070704S0108.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
+gS20070704S0108.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
+
+GGAIN -- Finished: 2019-10-30T23:12:53
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Wed Oct 30 18:12:53 CDT 2019
+
+Input list    = ../rawExample/S20070704S0109
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../rawExample/S20070704S0109.fits   Output  gS20070704S0109.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps-20150826.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2019-10-30T23:12:53
+File[extension]:             AMPNAME                  GAIN   READNOISE
+gS20070704S0109.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
+gS20070704S0109.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
+gS20070704S0109.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
+
+GGAIN -- Finished: 2019-10-30T23:12:53
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Wed Oct 30 18:12:53 CDT 2019
+
+Input list    = ../rawExample/S20070707S0101
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../rawExample/S20070707S0101.fits   Output  gS20070707S0101.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps-20150826.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2019-10-30T23:12:54
+File[extension]:             AMPNAME                  GAIN   READNOISE
+gS20070707S0101.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
+gS20070707S0101.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
+gS20070707S0101.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
+
+GGAIN -- Finished: 2019-10-30T23:12:54
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Wed Oct 30 18:12:54 CDT 2019
+
+Input list    = ../rawExample/S20070707S0102
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../rawExample/S20070707S0102.fits   Output  gS20070707S0102.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps-20150826.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2019-10-30T23:12:54
+File[extension]:             AMPNAME                  GAIN   READNOISE
+gS20070707S0102.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
+gS20070707S0102.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
+gS20070707S0102.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
+
+GGAIN -- Finished: 2019-10-30T23:12:54
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Wed Oct 30 18:12:54 CDT 2019
+
+Input list    = ../rawExample/S20070707S0103
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../rawExample/S20070707S0103.fits   Output  gS20070707S0103.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps-20150826.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2019-10-30T23:12:55
+File[extension]:             AMPNAME                  GAIN   READNOISE
+gS20070707S0103.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
+gS20070707S0103.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
+gS20070707S0103.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
+
+GGAIN -- Finished: 2019-10-30T23:12:55
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Wed Oct 30 18:12:55 CDT 2019
+
+Input list    = ../rawExample/S20070707S0104
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../rawExample/S20070707S0104.fits   Output  gS20070707S0104.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps-20150826.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2019-10-30T23:12:56
+File[extension]:             AMPNAME                  GAIN   READNOISE
+gS20070707S0104.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
+gS20070707S0104.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
+gS20070707S0104.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
+
+GGAIN -- Finished: 2019-10-30T23:12:56
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GPREPARE -- Wed Oct 30 18:12:56 CDT 2019
+
+Input list    = ../rawExample/S20070707S0105
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = no
+
+Input  ../rawExample/S20070707S0105.fits   Output  gS20070707S0105.fits
+GGDBHELPER: gain database selected - gmos$data/gmosamps-20150826.dat
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2019-10-30T23:12:56
+File[extension]:             AMPNAME                  GAIN   READNOISE
+gS20070707S0105.fits[SCI,1]: "EEV 2037-06-03, left"   2.372  3.98
+gS20070707S0105.fits[SCI,2]: "EEV 8194-19-04, left"   2.076  3.85
+gS20070707S0105.fits[SCI,3]: "EEV 8261-07-04, right"  2.097  3.16
+
+GGAIN -- Finished: 2019-10-30T23:12:56
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+
+Input files:
+gS20070605S0166
+gS20070605S0167
+gS20070605S0168
+gS20070605S0169
+gS20070605S0170
+gS20070608S0095
+gS20070608S0096
+gS20070608S0097
+gS20070608S0098
+gS20070608S0099
+gS20070616S0143
+gS20070616S0144
+gS20070616S0145
+gS20070616S0146
+gS20070616S0147
+gS20070622S0151
+gS20070622S0152
+gS20070622S0153
+gS20070622S0154
+gS20070622S0155
+gS20070624S0234
+gS20070624S0235
+gS20070624S0236
+gS20070624S0237
+gS20070624S0238
+gS20070702S0112
+gS20070702S0113
+gS20070702S0114
+gS20070702S0115
+gS20070702S0116
+gS20070704S0105
+gS20070704S0106
+gS20070704S0107
+gS20070704S0108
+gS20070704S0109
+gS20070707S0101
+gS20070707S0102
+gS20070707S0103
+gS20070707S0104
+gS20070707S0105
+
+Output files:
+tmpfile9028_263S20070605S0166
+tmpfile9028_263S20070605S0167
+tmpfile9028_263S20070605S0168
+tmpfile9028_263S20070605S0169
+tmpfile9028_263S20070605S0170
+tmpfile9028_263S20070608S0095
+tmpfile9028_263S20070608S0096
+tmpfile9028_263S20070608S0097
+tmpfile9028_263S20070608S0098
+tmpfile9028_263S20070608S0099
+tmpfile9028_263S20070616S0143
+tmpfile9028_263S20070616S0144
+tmpfile9028_263S20070616S0145
+tmpfile9028_263S20070616S0146
+tmpfile9028_263S20070616S0147
+tmpfile9028_263S20070622S0151
+tmpfile9028_263S20070622S0152
+tmpfile9028_263S20070622S0153
+tmpfile9028_263S20070622S0154
+tmpfile9028_263S20070622S0155
+tmpfile9028_263S20070624S0234
+tmpfile9028_263S20070624S0235
+tmpfile9028_263S20070624S0236
+tmpfile9028_263S20070624S0237
+tmpfile9028_263S20070624S0238
+tmpfile9028_263S20070702S0112
+tmpfile9028_263S20070702S0113
+tmpfile9028_263S20070702S0114
+tmpfile9028_263S20070702S0115
+tmpfile9028_263S20070702S0116
+tmpfile9028_263S20070704S0105
+tmpfile9028_263S20070704S0106
+tmpfile9028_263S20070704S0107
+tmpfile9028_263S20070704S0108
+tmpfile9028_263S20070704S0109
+tmpfile9028_263S20070707S0101
+tmpfile9028_263S20070707S0102
+tmpfile9028_263S20070707S0103
+tmpfile9028_263S20070707S0104
+tmpfile9028_263S20070707S0105
+
+GIREDUCE: Image tmpfile9028_263S20070605S0166 overscan subtracted
+GIREDUCE: Image tmpfile9028_263S20070605S0167 overscan subtracted
+GIREDUCE: Image tmpfile9028_263S20070605S0168 overscan subtracted
+GIREDUCE: Image tmpfile9028_263S20070605S0169 overscan subtracted
+GIREDUCE: Image tmpfile9028_263S20070605S0170 overscan subtracted
+GIREDUCE: Image tmpfile9028_263S20070608S0095 overscan subtracted
+GIREDUCE: Image tmpfile9028_263S20070608S0096 overscan subtracted
+GIREDUCE: Image tmpfile9028_263S20070608S0097 overscan subtracted
+GIREDUCE: Image tmpfile9028_263S20070608S0098 overscan subtracted
+GIREDUCE: Image tmpfile9028_263S20070608S0099 overscan subtracted
+GIREDUCE: Image tmpfile9028_263S20070616S0143 overscan subtracted
+GIREDUCE: Image tmpfile9028_263S20070616S0144 overscan subtracted
+GIREDUCE: Image tmpfile9028_263S20070616S0145 overscan subtracted
+GIREDUCE: Image tmpfile9028_263S20070616S0146 overscan subtracted
+GIREDUCE: Image tmpfile9028_263S20070616S0147 overscan subtracted
+GIREDUCE: Image tmpfile9028_263S20070622S0151 overscan subtracted
+GIREDUCE: Image tmpfile9028_263S20070622S0152 overscan subtracted
+GIREDUCE: Image tmpfile9028_263S20070622S0153 overscan subtracted
+GIREDUCE: Image tmpfile9028_263S20070622S0154 overscan subtracted
+GIREDUCE: Image tmpfile9028_263S20070622S0155 overscan subtracted
+GIREDUCE: Image tmpfile9028_263S20070624S0234 overscan subtracted
+GIREDUCE: Image tmpfile9028_263S20070624S0235 overscan subtracted
+GIREDUCE: Image tmpfile9028_263S20070624S0236 overscan subtracted
+GIREDUCE: Image tmpfile9028_263S20070624S0237 overscan subtracted
+GIREDUCE: Image tmpfile9028_263S20070624S0238 overscan subtracted
+GIREDUCE: Image tmpfile9028_263S20070702S0112 overscan subtracted
+GIREDUCE: Image tmpfile9028_263S20070702S0113 overscan subtracted
+GIREDUCE: Image tmpfile9028_263S20070702S0114 overscan subtracted
+GIREDUCE: Image tmpfile9028_263S20070702S0115 overscan subtracted
+GIREDUCE: Image tmpfile9028_263S20070702S0116 overscan subtracted
+GIREDUCE: Image tmpfile9028_263S20070704S0105 overscan subtracted
+GIREDUCE: Image tmpfile9028_263S20070704S0106 overscan subtracted
+GIREDUCE: Image tmpfile9028_263S20070704S0107 overscan subtracted
+GIREDUCE: Image tmpfile9028_263S20070704S0108 overscan subtracted
+GIREDUCE: Image tmpfile9028_263S20070704S0109 overscan subtracted
+GIREDUCE: Image tmpfile9028_263S20070707S0101 overscan subtracted
+GIREDUCE: Image tmpfile9028_263S20070707S0102 overscan subtracted
+GIREDUCE: Image tmpfile9028_263S20070707S0103 overscan subtracted
+GIREDUCE: Image tmpfile9028_263S20070707S0104 overscan subtracted
+GIREDUCE: Image tmpfile9028_263S20070707S0105 overscan subtracted
+GIREDUCE: Image tmpfile9028_263S20070605S0166 trimmed
+GIREDUCE: Image tmpfile9028_263S20070605S0167 trimmed
+GIREDUCE: Image tmpfile9028_263S20070605S0168 trimmed
+GIREDUCE: Image tmpfile9028_263S20070605S0169 trimmed
+GIREDUCE: Image tmpfile9028_263S20070605S0170 trimmed
+GIREDUCE: Image tmpfile9028_263S20070608S0095 trimmed
+GIREDUCE: Image tmpfile9028_263S20070608S0096 trimmed
+GIREDUCE: Image tmpfile9028_263S20070608S0097 trimmed
+GIREDUCE: Image tmpfile9028_263S20070608S0098 trimmed
+GIREDUCE: Image tmpfile9028_263S20070608S0099 trimmed
+GIREDUCE: Image tmpfile9028_263S20070616S0143 trimmed
+GIREDUCE: Image tmpfile9028_263S20070616S0144 trimmed
+GIREDUCE: Image tmpfile9028_263S20070616S0145 trimmed
+GIREDUCE: Image tmpfile9028_263S20070616S0146 trimmed
+GIREDUCE: Image tmpfile9028_263S20070616S0147 trimmed
+GIREDUCE: Image tmpfile9028_263S20070622S0151 trimmed
+GIREDUCE: Image tmpfile9028_263S20070622S0152 trimmed
+GIREDUCE: Image tmpfile9028_263S20070622S0153 trimmed
+GIREDUCE: Image tmpfile9028_263S20070622S0154 trimmed
+GIREDUCE: Image tmpfile9028_263S20070622S0155 trimmed
+GIREDUCE: Image tmpfile9028_263S20070624S0234 trimmed
+GIREDUCE: Image tmpfile9028_263S20070624S0235 trimmed
+GIREDUCE: Image tmpfile9028_263S20070624S0236 trimmed
+GIREDUCE: Image tmpfile9028_263S20070624S0237 trimmed
+GIREDUCE: Image tmpfile9028_263S20070624S0238 trimmed
+GIREDUCE: Image tmpfile9028_263S20070702S0112 trimmed
+GIREDUCE: Image tmpfile9028_263S20070702S0113 trimmed
+GIREDUCE: Image tmpfile9028_263S20070702S0114 trimmed
+GIREDUCE: Image tmpfile9028_263S20070702S0115 trimmed
+GIREDUCE: Image tmpfile9028_263S20070702S0116 trimmed
+GIREDUCE: Image tmpfile9028_263S20070704S0105 trimmed
+GIREDUCE: Image tmpfile9028_263S20070704S0106 trimmed
+GIREDUCE: Image tmpfile9028_263S20070704S0107 trimmed
+GIREDUCE: Image tmpfile9028_263S20070704S0108 trimmed
+GIREDUCE: Image tmpfile9028_263S20070704S0109 trimmed
+GIREDUCE: Image tmpfile9028_263S20070707S0101 trimmed
+GIREDUCE: Image tmpfile9028_263S20070707S0102 trimmed
+GIREDUCE: Image tmpfile9028_263S20070707S0103 trimmed
+GIREDUCE: Image tmpfile9028_263S20070707S0104 trimmed
+GIREDUCE: Image tmpfile9028_263S20070707S0105 trimmed
+
+
+GIREDUCE - Cleaning up -- Wed Oct 30 18:15:19 CDT 2019
+
+GIREDUCE -- Wed Oct 30 18:15:19 CDT 2019
+GIREDUCE exit status:  good.
+----------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+GEMCOMBINE -- Wed Oct 30 18:15:19 CDT 2019
+ 
+GEMCOMBINE: input = @tmpcombin9028_260
+GEMCOMBINE: output = MCbiasCenSp.fits
+GEMCOMBINE: title = Bias
+GEMCOMBINE: bpmfile = 
+GEMCOMBINE: sci_ext = SCI
+GEMCOMBINE: var_ext = VAR
+GEMCOMBINE: dq_ext = DQ
+ 
+
+Oct 30 18:15: IMCOMBINE
+  combine = average, scale = none, zero = none, weight = none
+  reject = avsigclip, mclip = yes, nkeep = 1
+  lsigma = 3., hsigma = 3.
+  blank = 0.
+  statsec = Oct 30 18:15
+                Images     Exp
+  tmpfile9028_263S20070605S0166.fits[SCI,1]    0.0
+  tmpfile9028_263S20070605S0167.fits[SCI,1]    0.0
+  tmpfile9028_263S20070605S0168.fits[SCI,1]    0.0
+  tmpfile9028_263S20070605S0169.fits[SCI,1]    0.0
+  tmpfile9028_263S20070605S0170.fits[SCI,1]    0.0
+  tmpfile9028_263S20070608S0095.fits[SCI,1]    0.0
+  tmpfile9028_263S20070608S0096.fits[SCI,1]    0.0
+  tmpfile9028_263S20070608S0097.fits[SCI,1]    0.0
+  tmpfile9028_263S20070608S0098.fits[SCI,1]    0.0
+  tmpfile9028_263S20070608S0099.fits[SCI,1]    5.3
+  tmpfile9028_263S20070616S0143.fits[SCI,1]    0.0
+  tmpfile9028_263S20070616S0144.fits[SCI,1]    0.0
+  tmpfile9028_263S20070616S0145.fits[SCI,1]    0.0
+  tmpfile9028_263S20070616S0146.fits[SCI,1]    0.0
+  tmpfile9028_263S20070616S0147.fits[SCI,1]    0.0
+  tmpfile9028_263S20070622S0151.fits[SCI,1]    0.0
+  tmpfile9028_263S20070622S0152.fits[SCI,1]    0.0
+  tmpfile9028_263S20070622S0153.fits[SCI,1]    0.0
+  tmpfile9028_263S20070622S0154.fits[SCI,1]    0.0
+  tmpfile9028_263S20070622S0155.fits[SCI,1]    0.0
+  tmpfile9028_263S20070624S0234.fits[SCI,1]    5.3
+  tmpfile9028_263S20070624S0235.fits[SCI,1]    0.0
+  tmpfile9028_263S20070624S0236.fits[SCI,1]    0.0
+  tmpfile9028_263S20070624S0237.fits[SCI,1]    0.0
+  tmpfile9028_263S20070624S0238.fits[SCI,1]    0.0
+  tmpfile9028_263S20070702S0112.fits[SCI,1]    0.0
+  tmpfile9028_263S20070702S0113.fits[SCI,1]    0.0
+  tmpfile9028_263S20070702S0114.fits[SCI,1]    0.0
+  tmpfile9028_263S20070702S0115.fits[SCI,1]    0.0
+  tmpfile9028_263S20070702S0116.fits[SCI,1]    0.0
+  tmpfile9028_263S20070704S0105.fits[SCI,1]    0.0
+  tmpfile9028_263S20070704S0106.fits[SCI,1]    5.3
+  tmpfile9028_263S20070704S0107.fits[SCI,1]    0.0
+  tmpfile9028_263S20070704S0108.fits[SCI,1]    0.0
+  tmpfile9028_263S20070704S0109.fits[SCI,1]    5.3
+  tmpfile9028_263S20070707S0101.fits[SCI,1]    0.0
+  tmpfile9028_263S20070707S0102.fits[SCI,1]    0.0
+  tmpfile9028_263S20070707S0103.fits[SCI,1]    0.0
+  tmpfile9028_263S20070707S0104.fits[SCI,1]    0.0
+  tmpfile9028_263S20070707S0105.fits[SCI,1]    0.0
+
+  Output image = tmpcombout9028_523, ncombine = 40
+  Number rejected mask = tmpcombdq9028_524.pl
+  Sigma image = tmpcombsig9028_525
+
+Oct 30 18:15: IMCOMBINE
+  combine = average, scale = none, zero = none, weight = none
+  reject = avsigclip, mclip = yes, nkeep = 1
+  lsigma = 3., hsigma = 3.
+  blank = 0.
+  statsec = Oct 30 18:15
+                Images     Exp
+  tmpfile9028_263S20070605S0166.fits[SCI,2]    0.0
+  tmpfile9028_263S20070605S0167.fits[SCI,2]    0.0
+  tmpfile9028_263S20070605S0168.fits[SCI,2]    0.0
+  tmpfile9028_263S20070605S0169.fits[SCI,2]    0.0
+  tmpfile9028_263S20070605S0170.fits[SCI,2]    0.0
+  tmpfile9028_263S20070608S0095.fits[SCI,2]    0.0
+  tmpfile9028_263S20070608S0096.fits[SCI,2]    0.0
+  tmpfile9028_263S20070608S0097.fits[SCI,2]    0.0
+  tmpfile9028_263S20070608S0098.fits[SCI,2]    0.0
+  tmpfile9028_263S20070608S0099.fits[SCI,2]    5.3
+  tmpfile9028_263S20070616S0143.fits[SCI,2]    0.0
+  tmpfile9028_263S20070616S0144.fits[SCI,2]    0.0
+  tmpfile9028_263S20070616S0145.fits[SCI,2]    0.0
+  tmpfile9028_263S20070616S0146.fits[SCI,2]    0.0
+  tmpfile9028_263S20070616S0147.fits[SCI,2]    0.0
+  tmpfile9028_263S20070622S0151.fits[SCI,2]    0.0
+  tmpfile9028_263S20070622S0152.fits[SCI,2]    0.0
+  tmpfile9028_263S20070622S0153.fits[SCI,2]    0.0
+  tmpfile9028_263S20070622S0154.fits[SCI,2]    0.0
+  tmpfile9028_263S20070622S0155.fits[SCI,2]    0.0
+  tmpfile9028_263S20070624S0234.fits[SCI,2]    5.3
+  tmpfile9028_263S20070624S0235.fits[SCI,2]    0.0
+  tmpfile9028_263S20070624S0236.fits[SCI,2]    0.0
+  tmpfile9028_263S20070624S0237.fits[SCI,2]    0.0
+  tmpfile9028_263S20070624S0238.fits[SCI,2]    0.0
+  tmpfile9028_263S20070702S0112.fits[SCI,2]    0.0
+  tmpfile9028_263S20070702S0113.fits[SCI,2]    0.0
+  tmpfile9028_263S20070702S0114.fits[SCI,2]    0.0
+  tmpfile9028_263S20070702S0115.fits[SCI,2]    0.0
+  tmpfile9028_263S20070702S0116.fits[SCI,2]    0.0
+  tmpfile9028_263S20070704S0105.fits[SCI,2]    0.0
+  tmpfile9028_263S20070704S0106.fits[SCI,2]    5.3
+  tmpfile9028_263S20070704S0107.fits[SCI,2]    0.0
+  tmpfile9028_263S20070704S0108.fits[SCI,2]    0.0
+  tmpfile9028_263S20070704S0109.fits[SCI,2]    5.3
+  tmpfile9028_263S20070707S0101.fits[SCI,2]    0.0
+  tmpfile9028_263S20070707S0102.fits[SCI,2]    0.0
+  tmpfile9028_263S20070707S0103.fits[SCI,2]    0.0
+  tmpfile9028_263S20070707S0104.fits[SCI,2]    0.0
+  tmpfile9028_263S20070707S0105.fits[SCI,2]    0.0
+
+  Output image = tmpcombout9028_530, ncombine = 40
+  Number rejected mask = tmpcombdq9028_531.pl
+  Sigma image = tmpcombsig9028_532
+
+Oct 30 18:15: IMCOMBINE
+  combine = average, scale = none, zero = none, weight = none
+  reject = avsigclip, mclip = yes, nkeep = 1
+  lsigma = 3., hsigma = 3.
+  blank = 0.
+  statsec = Oct 30 18:15
+                Images     Exp
+  tmpfile9028_263S20070605S0166.fits[SCI,3]    0.0
+  tmpfile9028_263S20070605S0167.fits[SCI,3]    0.0
+  tmpfile9028_263S20070605S0168.fits[SCI,3]    0.0
+  tmpfile9028_263S20070605S0169.fits[SCI,3]    0.0
+  tmpfile9028_263S20070605S0170.fits[SCI,3]    0.0
+  tmpfile9028_263S20070608S0095.fits[SCI,3]    0.0
+  tmpfile9028_263S20070608S0096.fits[SCI,3]    0.0
+  tmpfile9028_263S20070608S0097.fits[SCI,3]    0.0
+  tmpfile9028_263S20070608S0098.fits[SCI,3]    0.0
+  tmpfile9028_263S20070608S0099.fits[SCI,3]    5.3
+  tmpfile9028_263S20070616S0143.fits[SCI,3]    0.0
+  tmpfile9028_263S20070616S0144.fits[SCI,3]    0.0
+  tmpfile9028_263S20070616S0145.fits[SCI,3]    0.0
+  tmpfile9028_263S20070616S0146.fits[SCI,3]    0.0
+  tmpfile9028_263S20070616S0147.fits[SCI,3]    0.0
+  tmpfile9028_263S20070622S0151.fits[SCI,3]    0.0
+  tmpfile9028_263S20070622S0152.fits[SCI,3]    0.0
+  tmpfile9028_263S20070622S0153.fits[SCI,3]    0.0
+  tmpfile9028_263S20070622S0154.fits[SCI,3]    0.0
+  tmpfile9028_263S20070622S0155.fits[SCI,3]    0.0
+  tmpfile9028_263S20070624S0234.fits[SCI,3]    5.3
+  tmpfile9028_263S20070624S0235.fits[SCI,3]    0.0
+  tmpfile9028_263S20070624S0236.fits[SCI,3]    0.0
+  tmpfile9028_263S20070624S0237.fits[SCI,3]    0.0
+  tmpfile9028_263S20070624S0238.fits[SCI,3]    0.0
+  tmpfile9028_263S20070702S0112.fits[SCI,3]    0.0
+  tmpfile9028_263S20070702S0113.fits[SCI,3]    0.0
+  tmpfile9028_263S20070702S0114.fits[SCI,3]    0.0
+  tmpfile9028_263S20070702S0115.fits[SCI,3]    0.0
+  tmpfile9028_263S20070702S0116.fits[SCI,3]    0.0
+  tmpfile9028_263S20070704S0105.fits[SCI,3]    0.0
+  tmpfile9028_263S20070704S0106.fits[SCI,3]    5.3
+  tmpfile9028_263S20070704S0107.fits[SCI,3]    0.0
+  tmpfile9028_263S20070704S0108.fits[SCI,3]    0.0
+  tmpfile9028_263S20070704S0109.fits[SCI,3]    5.3
+  tmpfile9028_263S20070707S0101.fits[SCI,3]    0.0
+  tmpfile9028_263S20070707S0102.fits[SCI,3]    0.0
+  tmpfile9028_263S20070707S0103.fits[SCI,3]    0.0
+  tmpfile9028_263S20070707S0104.fits[SCI,3]    0.0
+  tmpfile9028_263S20070707S0105.fits[SCI,3]    0.0
+
+  Output image = tmpcombout9028_534, ncombine = 40
+  Number rejected mask = tmpcombdq9028_535.pl
+  Sigma image = tmpcombsig9028_536
+ 
+GEMCOMBINE -- Finished: Wed Oct 30 18:15:25 CDT 2019
+ 
+GEMCOMBINE -- Exit status: GOOD
+--------------------------------------------------------------------------------
+
+GBIAS: Exit status: GOOD.
+----------------------------------------------------------------------------

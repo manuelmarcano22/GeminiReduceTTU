@@ -1,0 +1,6 @@
+gsreduce raw/S20180928S0014.fits bias='MCbiasFull.fits' fl_flat='no' fl_vardq='no' fl_fulldq='no'
+
+
+
+gsreduce raw/N20191203S0371.fits bias='MCbiasFull.fits' fl_flat='no' fl_vardq='no' fl_fulldq='no'
+

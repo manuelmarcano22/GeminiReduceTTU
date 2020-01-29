@@ -1,0 +1,16 @@
+--------------------------------------------------------------------------------
+GSWAVELENGTH -- Fri Jan 24 13:30:54 CST 2020
+ 
+inimages = gsS20180928S0014
+ERROR - GSWAVELENGTH: gsS20180928S0014 does not exist or is not a MEF
+ 
+GSWAVELENGTH exit status: error
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+GSWAVELENGTH -- Fri Jan 24 13:30:56 CST 2020
+ 
+inimages = gsS20180928S0014
+ERROR - GSWAVELENGTH: gsS20180928S0014 does not exist or is not a MEF
+ 
+GSWAVELENGTH exit status: error
+--------------------------------------------------------------------------------

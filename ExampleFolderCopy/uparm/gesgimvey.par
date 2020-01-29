@@ -1,0 +1,4 @@
+image,s,a,,,,'Input image'
+outname,s,h,'tmpimage19028_748',,,'Output name w/o suffix'
+status,i,h,0,,,'Status'
+mode,s,h,'al'
