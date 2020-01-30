@@ -15222,3 +15222,670 @@ GSREDUCE: Updating PHU and cleaning up
  
 GSREDUCE done
 ----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+GSREDUCE -- Wed Jan 29 14:34:54 CST 2020
+
+Input image or list  = N20191127S0396,N20191127S0397,N20191203S0371,N20191203S0372,N20191205S0111,N20191205S0112
+Output image or list = 
+Output prefix        = gs
+
+Overscan subtraction  fl_over      = yes
+Trim image            fl_trim      = yes
+Bias subtraction      fl_bias      = yes
+Cosmic ray cleaning   fl_gscrrej   = no
+New CR cleaning       fl_crspec    = no
+Dark subtraction      fl_dark      = no
+QE Correction         fl_qecorr    = no
+Flat field correction fl_flat      = no
+Mosaic the CCDs       fl_gmosaic   = yes
+Fixpix chip gaps      fl_fixpix    = no
+Cut MOS spectra       fl_cut       = yes
+Add titles to MOS     fl_title     = yes
+Oversize slit length  fl_oversize  = no
+Run gsappwave         fl_gsappwave = yes
+Run gsscatsub         fl_scatsub   = no
+VAR & DQ planes       fl_vardq     = no
+
+geointer = linear
+gradimage= 
+refimage = 
+bias     = MCbiasFull
+dark     = 
+qe_refim    = 
+qe_corrim   = 
+qe_corrpref = qecorr
+flatim   = 
+sci_ext  = SCI
+var_ext  = VAR
+dq_ext   = DQ
+key_mdf  = MASKNAME
+mdffile  = 
+mdfdir   = gmos$data/
+bpm      = 
+Chip gaps= gmos$data/chipgaps.dat
+
+
+----------------------------------------------------------------------------
+GSREDUCE -- Wed Jan 29 14:35:00 CST 2020
+
+Input image or list  = N20191127S0396,N20191127S0397,N20191203S0371,N20191203S0372,N20191205S0111,N20191205S0112
+Output image or list = 
+Output prefix        = gs
+
+Overscan subtraction  fl_over      = yes
+Trim image            fl_trim      = yes
+Bias subtraction      fl_bias      = yes
+Cosmic ray cleaning   fl_gscrrej   = no
+New CR cleaning       fl_crspec    = no
+Dark subtraction      fl_dark      = no
+QE Correction         fl_qecorr    = no
+Flat field correction fl_flat      = no
+Mosaic the CCDs       fl_gmosaic   = yes
+Fixpix chip gaps      fl_fixpix    = no
+Cut MOS spectra       fl_cut       = yes
+Add titles to MOS     fl_title     = yes
+Oversize slit length  fl_oversize  = no
+Run gsappwave         fl_gsappwave = yes
+Run gsscatsub         fl_scatsub   = no
+VAR & DQ planes       fl_vardq     = no
+
+geointer = linear
+gradimage= 
+refimage = 
+bias     = MCbiasFull
+dark     = 
+qe_refim    = 
+qe_corrim   = 
+qe_corrpref = qecorr
+flatim   = 
+sci_ext  = SCI
+var_ext  = VAR
+dq_ext   = DQ
+key_mdf  = MASKNAME
+mdffile  = 
+mdfdir   = gmos$data/
+bpm      = 
+Chip gaps= gmos$data/chipgaps.dat
+
+
+----------------------------------------------------------------------------
+GSREDUCE -- Wed Jan 29 14:35:06 CST 2020
+
+Input image or list  = N20191127S0396,N20191127S0397,N20191203S0371,N20191203S0372,N20191205S0111,N20191205S0112
+Output image or list = 
+Output prefix        = gs
+
+Overscan subtraction  fl_over      = yes
+Trim image            fl_trim      = yes
+Bias subtraction      fl_bias      = yes
+Cosmic ray cleaning   fl_gscrrej   = no
+New CR cleaning       fl_crspec    = no
+Dark subtraction      fl_dark      = no
+QE Correction         fl_qecorr    = no
+Flat field correction fl_flat      = no
+Mosaic the CCDs       fl_gmosaic   = yes
+Fixpix chip gaps      fl_fixpix    = no
+Cut MOS spectra       fl_cut       = yes
+Add titles to MOS     fl_title     = yes
+Oversize slit length  fl_oversize  = no
+Run gsappwave         fl_gsappwave = yes
+Run gsscatsub         fl_scatsub   = no
+VAR & DQ planes       fl_vardq     = no
+
+geointer = linear
+gradimage= 
+refimage = 
+bias     = MCbiasFull
+dark     = 
+qe_refim    = 
+qe_corrim   = 
+qe_corrpref = qecorr
+flatim   = 
+sci_ext  = SCI
+var_ext  = VAR
+dq_ext   = DQ
+key_mdf  = MASKNAME
+mdffile  = 
+mdfdir   = gmos$data/
+bpm      = 
+Chip gaps= gmos$data/chipgaps.dat
+
+ERROR - GSREDUCE: Output image gsN20191127S0396 exists
+ERROR - GSREDUCE: Output image gsN20191127S0397 exists
+ERROR - GSREDUCE: Output image gsN20191203S0371 exists
+ERROR - GSREDUCE: Output image gsN20191203S0372 exists
+ERROR - GSREDUCE: Output image gsN20191205S0111 exists
+ERROR - GSREDUCE: Output image gsN20191205S0112 exists
+ERROR - GSREDUCE: Program execution failed with 6 errors
+ 
+GSREDUCE done
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+GSREDUCE -- Wed Jan 29 14:35:07 CST 2020
+
+Input image or list  = N20191127S0262,N20191127S0263,N20191127S0264,N20191127S0265,N20191127S0266,N20191127S0267,N20191203S0187,N20191203S0188,N20191205S0097,N20191205S0098,N20191205S0099,N20191205S0100,N20191205S0101,N20191205S0102,N20191205S0105,N20191205S0107,N20191205S0108,N20191205S0109,N20191205S0110
+Output image or list = 
+Output prefix        = gs
+
+Overscan subtraction  fl_over      = yes
+Trim image            fl_trim      = yes
+Bias subtraction      fl_bias      = yes
+Cosmic ray cleaning   fl_gscrrej   = no
+New CR cleaning       fl_crspec    = no
+Dark subtraction      fl_dark      = no
+QE Correction         fl_qecorr    = no
+Flat field correction fl_flat      = yes
+Mosaic the CCDs       fl_gmosaic   = yes
+Fixpix chip gaps      fl_fixpix    = no
+Cut MOS spectra       fl_cut       = yes
+Add titles to MOS     fl_title     = yes
+Oversize slit length  fl_oversize  = no
+Run gsappwave         fl_gsappwave = yes
+Run gsscatsub         fl_scatsub   = no
+VAR & DQ planes       fl_vardq     = yes
+
+geointer = linear
+gradimage= 
+refimage = 
+bias     = MCbiasFull
+dark     = 
+qe_refim    = 
+qe_corrim   = 
+qe_corrpref = qecorr
+flatim   = MCflatFull
+sci_ext  = SCI
+var_ext  = VAR
+dq_ext   = DQ
+key_mdf  = MASKNAME
+mdffile  = 
+mdfdir   = gmos$data/
+bpm      = 
+Chip gaps= gmos$data/chipgaps.dat
+
+ERROR - GSREDUCE: Output image gsN20191127S0262 exists
+ERROR - GSREDUCE: Output image gsN20191127S0263 exists
+ERROR - GSREDUCE: Output image gsN20191127S0264 exists
+ERROR - GSREDUCE: Output image gsN20191127S0265 exists
+ERROR - GSREDUCE: Output image gsN20191127S0266 exists
+ERROR - GSREDUCE: Output image gsN20191127S0267 exists
+ERROR - GSREDUCE: Output image gsN20191203S0187 exists
+ERROR - GSREDUCE: Output image gsN20191203S0188 exists
+ERROR - GSREDUCE: Output image gsN20191205S0097 exists
+ERROR - GSREDUCE: Output image gsN20191205S0098 exists
+ERROR - GSREDUCE: Output image gsN20191205S0099 exists
+ERROR - GSREDUCE: Output image gsN20191205S0100 exists
+ERROR - GSREDUCE: Output image gsN20191205S0101 exists
+ERROR - GSREDUCE: Output image gsN20191205S0102 exists
+ERROR - GSREDUCE: Output image gsN20191205S0105 exists
+ERROR - GSREDUCE: Output image gsN20191205S0107 exists
+ERROR - GSREDUCE: Output image gsN20191205S0108 exists
+ERROR - GSREDUCE: Output image gsN20191205S0109 exists
+ERROR - GSREDUCE: Output image gsN20191205S0110 exists
+ 
+Filter(s)/Grating ID for flatfield: 
+     MCflatFull.fits = GG455_G0305 + open2-8 / R400+_G5305
+GSREDUCE: Flat image MCflatFull.fits has been QE corrected? no
+ 
+ERROR - GSREDUCE: Program execution failed with 19 errors
+ 
+GSREDUCE done
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+GSREDUCE -- Wed Jan 29 16:30:47 CST 2020
+
+Input image or list  = N20191127S0396,N20191127S0397,N20191203S0371,N20191203S0372,N20191205S0111,N20191205S0112,N20200128S0461,pN20191127S0396,pN20191127S0397,pN20191203S0371,pN20191203S0372,pN20191205S0111,pN20191205S0112
+Output image or list = 
+Output prefix        = gs
+
+Overscan subtraction  fl_over      = yes
+Trim image            fl_trim      = yes
+Bias subtraction      fl_bias      = yes
+Cosmic ray cleaning   fl_gscrrej   = no
+New CR cleaning       fl_crspec    = no
+Dark subtraction      fl_dark      = no
+QE Correction         fl_qecorr    = no
+Flat field correction fl_flat      = no
+Mosaic the CCDs       fl_gmosaic   = yes
+Fixpix chip gaps      fl_fixpix    = no
+Cut MOS spectra       fl_cut       = yes
+Add titles to MOS     fl_title     = yes
+Oversize slit length  fl_oversize  = no
+Run gsappwave         fl_gsappwave = yes
+Run gsscatsub         fl_scatsub   = no
+VAR & DQ planes       fl_vardq     = no
+
+geointer = linear
+gradimage= 
+refimage = 
+bias     = MCbiasFull
+dark     = 
+qe_refim    = 
+qe_corrim   = 
+qe_corrpref = qecorr
+flatim   = 
+sci_ext  = SCI
+var_ext  = VAR
+dq_ext   = DQ
+key_mdf  = MASKNAME
+mdffile  = 
+mdfdir   = gmos$data/
+bpm      = 
+Chip gaps= gmos$data/chipgaps.dat
+
+ERROR - GSREDUCE: Output image gsN20191127S0396 exists
+ERROR - GSREDUCE: Output image gsN20191127S0397 exists
+ERROR - GSREDUCE: Output image gsN20191203S0371 exists
+ERROR - GSREDUCE: Output image gsN20191203S0372 exists
+ERROR - GSREDUCE: Output image gsN20191205S0111 exists
+ERROR - GSREDUCE: Output image gsN20191205S0112 exists
+ERROR - GSREDUCE: Program execution failed with 6 errors
+ 
+GSREDUCE done
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+GSREDUCE -- Wed Jan 29 16:30:48 CST 2020
+
+Input image or list  = N20191127S0262,N20191127S0263,N20191127S0264,N20191127S0265,N20191127S0266,N20191127S0267,N20191203S0187,N20191203S0188,N20191205S0097,N20191205S0098,N20191205S0099,N20191205S0100,N20191205S0101,N20191205S0102,N20191205S0105,N20191205S0107,N20191205S0108,N20191205S0109,N20191205S0110
+Output image or list = 
+Output prefix        = gs
+
+Overscan subtraction  fl_over      = yes
+Trim image            fl_trim      = yes
+Bias subtraction      fl_bias      = yes
+Cosmic ray cleaning   fl_gscrrej   = no
+New CR cleaning       fl_crspec    = no
+Dark subtraction      fl_dark      = no
+QE Correction         fl_qecorr    = no
+Flat field correction fl_flat      = yes
+Mosaic the CCDs       fl_gmosaic   = yes
+Fixpix chip gaps      fl_fixpix    = no
+Cut MOS spectra       fl_cut       = yes
+Add titles to MOS     fl_title     = yes
+Oversize slit length  fl_oversize  = no
+Run gsappwave         fl_gsappwave = yes
+Run gsscatsub         fl_scatsub   = no
+VAR & DQ planes       fl_vardq     = yes
+
+geointer = linear
+gradimage= 
+refimage = 
+bias     = MCbiasFull
+dark     = 
+qe_refim    = 
+qe_corrim   = 
+qe_corrpref = qecorr
+flatim   = MCflatFull
+sci_ext  = SCI
+var_ext  = VAR
+dq_ext   = DQ
+key_mdf  = MASKNAME
+mdffile  = 
+mdfdir   = gmos$data/
+bpm      = 
+Chip gaps= gmos$data/chipgaps.dat
+
+ERROR - GSREDUCE: Output image gsN20191127S0262 exists
+ERROR - GSREDUCE: Output image gsN20191127S0263 exists
+ERROR - GSREDUCE: Output image gsN20191127S0264 exists
+ERROR - GSREDUCE: Output image gsN20191127S0265 exists
+ERROR - GSREDUCE: Output image gsN20191127S0266 exists
+ERROR - GSREDUCE: Output image gsN20191127S0267 exists
+ERROR - GSREDUCE: Output image gsN20191203S0187 exists
+ERROR - GSREDUCE: Output image gsN20191203S0188 exists
+ERROR - GSREDUCE: Output image gsN20191205S0097 exists
+ERROR - GSREDUCE: Output image gsN20191205S0098 exists
+ERROR - GSREDUCE: Output image gsN20191205S0099 exists
+ERROR - GSREDUCE: Output image gsN20191205S0100 exists
+ERROR - GSREDUCE: Output image gsN20191205S0101 exists
+ERROR - GSREDUCE: Output image gsN20191205S0102 exists
+ERROR - GSREDUCE: Output image gsN20191205S0105 exists
+ERROR - GSREDUCE: Output image gsN20191205S0107 exists
+ERROR - GSREDUCE: Output image gsN20191205S0108 exists
+ERROR - GSREDUCE: Output image gsN20191205S0109 exists
+ERROR - GSREDUCE: Output image gsN20191205S0110 exists
+ 
+Filter(s)/Grating ID for flatfield: 
+     MCflatFull.fits = GG455_G0305 + open2-8 / R400+_G5305
+GSREDUCE: Flat image MCflatFull.fits has been QE corrected? no
+ 
+ERROR - GSREDUCE: Program execution failed with 19 errors
+ 
+GSREDUCE done
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+GSREDUCE -- Wed Jan 29 16:31:18 CST 2020
+
+Input image or list  = N20191127S0396,N20191127S0397,N20191203S0371,N20191203S0372,N20191205S0111,N20191205S0112,N20200128S0461,pN20191127S0396,pN20191127S0397,pN20191203S0371,pN20191203S0372,pN20191205S0111,pN20191205S0112
+Output image or list = 
+Output prefix        = gs
+
+Overscan subtraction  fl_over      = yes
+Trim image            fl_trim      = yes
+Bias subtraction      fl_bias      = yes
+Cosmic ray cleaning   fl_gscrrej   = no
+New CR cleaning       fl_crspec    = no
+Dark subtraction      fl_dark      = no
+QE Correction         fl_qecorr    = no
+Flat field correction fl_flat      = no
+Mosaic the CCDs       fl_gmosaic   = yes
+Fixpix chip gaps      fl_fixpix    = no
+Cut MOS spectra       fl_cut       = yes
+Add titles to MOS     fl_title     = yes
+Oversize slit length  fl_oversize  = no
+Run gsappwave         fl_gsappwave = yes
+Run gsscatsub         fl_scatsub   = no
+VAR & DQ planes       fl_vardq     = no
+
+geointer = linear
+gradimage= 
+refimage = 
+bias     = MCbiasFull
+dark     = 
+qe_refim    = 
+qe_corrim   = 
+qe_corrpref = qecorr
+flatim   = 
+sci_ext  = SCI
+var_ext  = VAR
+dq_ext   = DQ
+key_mdf  = MASKNAME
+mdffile  = 
+mdfdir   = gmos$data/
+bpm      = 
+Chip gaps= gmos$data/chipgaps.dat
+
+ERROR - GSREDUCE: Output image gsN20191127S0396 exists
+ERROR - GSREDUCE: Output image gsN20191127S0397 exists
+ERROR - GSREDUCE: Output image gsN20191203S0371 exists
+ERROR - GSREDUCE: Output image gsN20191203S0372 exists
+ERROR - GSREDUCE: Output image gsN20191205S0111 exists
+ERROR - GSREDUCE: Output image gsN20191205S0112 exists
+ERROR - GSREDUCE: Program execution failed with 6 errors
+ 
+GSREDUCE done
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+GSREDUCE -- Wed Jan 29 16:31:18 CST 2020
+
+Input image or list  = N20191127S0262,N20191127S0263,N20191127S0264,N20191127S0265,N20191127S0266,N20191127S0267,N20191203S0187,N20191203S0188,N20191205S0097,N20191205S0098,N20191205S0099,N20191205S0100,N20191205S0101,N20191205S0102,N20191205S0105,N20191205S0107,N20191205S0108,N20191205S0109,N20191205S0110
+Output image or list = 
+Output prefix        = gs
+
+Overscan subtraction  fl_over      = yes
+Trim image            fl_trim      = yes
+Bias subtraction      fl_bias      = yes
+Cosmic ray cleaning   fl_gscrrej   = no
+New CR cleaning       fl_crspec    = no
+Dark subtraction      fl_dark      = no
+QE Correction         fl_qecorr    = no
+Flat field correction fl_flat      = yes
+Mosaic the CCDs       fl_gmosaic   = yes
+Fixpix chip gaps      fl_fixpix    = no
+Cut MOS spectra       fl_cut       = yes
+Add titles to MOS     fl_title     = yes
+Oversize slit length  fl_oversize  = no
+Run gsappwave         fl_gsappwave = yes
+Run gsscatsub         fl_scatsub   = no
+VAR & DQ planes       fl_vardq     = yes
+
+geointer = linear
+gradimage= 
+refimage = 
+bias     = MCbiasFull
+dark     = 
+qe_refim    = 
+qe_corrim   = 
+qe_corrpref = qecorr
+flatim   = MCflatFull
+sci_ext  = SCI
+var_ext  = VAR
+dq_ext   = DQ
+key_mdf  = MASKNAME
+mdffile  = 
+mdfdir   = gmos$data/
+bpm      = 
+Chip gaps= gmos$data/chipgaps.dat
+
+ERROR - GSREDUCE: Output image gsN20191127S0262 exists
+ERROR - GSREDUCE: Output image gsN20191127S0263 exists
+ERROR - GSREDUCE: Output image gsN20191127S0264 exists
+ERROR - GSREDUCE: Output image gsN20191127S0265 exists
+ERROR - GSREDUCE: Output image gsN20191127S0266 exists
+ERROR - GSREDUCE: Output image gsN20191127S0267 exists
+ERROR - GSREDUCE: Output image gsN20191203S0187 exists
+ERROR - GSREDUCE: Output image gsN20191203S0188 exists
+ERROR - GSREDUCE: Output image gsN20191205S0097 exists
+ERROR - GSREDUCE: Output image gsN20191205S0098 exists
+ERROR - GSREDUCE: Output image gsN20191205S0099 exists
+ERROR - GSREDUCE: Output image gsN20191205S0100 exists
+ERROR - GSREDUCE: Output image gsN20191205S0101 exists
+ERROR - GSREDUCE: Output image gsN20191205S0102 exists
+ERROR - GSREDUCE: Output image gsN20191205S0105 exists
+ERROR - GSREDUCE: Output image gsN20191205S0107 exists
+ERROR - GSREDUCE: Output image gsN20191205S0108 exists
+ERROR - GSREDUCE: Output image gsN20191205S0109 exists
+ERROR - GSREDUCE: Output image gsN20191205S0110 exists
+ 
+Filter(s)/Grating ID for flatfield: 
+     MCflatFull.fits = GG455_G0305 + open2-8 / R400+_G5305
+GSREDUCE: Flat image MCflatFull.fits has been QE corrected? no
+ 
+ERROR - GSREDUCE: Program execution failed with 19 errors
+ 
+GSREDUCE done
+----------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+GSREDUCE -- Wed Jan 29 16:32:17 CST 2020
+
+Input image or list  = N20200128S0461.fits
+Output image or list = 
+Output prefix        = gs
+
+Overscan subtraction  fl_over      = yes
+Trim image            fl_trim      = yes
+Bias subtraction      fl_bias      = yes
+Cosmic ray cleaning   fl_gscrrej   = no
+New CR cleaning       fl_crspec    = no
+Dark subtraction      fl_dark      = no
+QE Correction         fl_qecorr    = no
+Flat field correction fl_flat      = no
+Mosaic the CCDs       fl_gmosaic   = yes
+Fixpix chip gaps      fl_fixpix    = no
+Cut MOS spectra       fl_cut       = yes
+Add titles to MOS     fl_title     = yes
+Oversize slit length  fl_oversize  = no
+Run gsappwave         fl_gsappwave = yes
+Run gsscatsub         fl_scatsub   = no
+VAR & DQ planes       fl_vardq     = no
+
+geointer = linear
+gradimage= 
+refimage = 
+bias     = MCbiasFull
+dark     = 
+qe_refim    = 
+qe_corrim   = 
+qe_corrpref = qecorr
+flatim   = 
+sci_ext  = SCI
+var_ext  = VAR
+dq_ext   = DQ
+key_mdf  = MASKNAME
+mdffile  = 
+mdfdir   = gmos$data/
+bpm      = 
+Chip gaps= gmos$data/chipgaps.dat
+
+Input image = N20200128S0461.fits; Output image = gsN20200128S0461.fits
+GSREDUCE: Image N20200128S0461.fits has been QE corrected? no
+GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
+GSREDUCE: Calling GIREDUCE to process image
+----------------------------------------------------------------------------
+GIREDUCE -- Wed Jan 29 16:32:17 CST 2020
+
+----------------------------------------------------------------------------
+GPREPARE -- Wed Jan 29 16:32:18 CST 2020
+
+Input list    = N20200128S0461
+Output list   = 
+Output prefix = g
+Raw path      = raw/
+MDF dir       = gmos$data/
+Add MDF       = yes
+Input MDF in case header keyword not found = 
+
+Input  raw/N20200128S0461.fits   Output  gN20200128S0461.fits
+GPREPARE: Using MDF defined in the header 1.5arcsec
+GPREPARE: Taking MDF from directory gmos$data/
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2020-01-29T22:32:18
+File[extension]:             AMPNAME               GAIN   READNOISE
+gN20200128S0461.fits[SCI,1]: " "BI13-20-4k-1, 4""  2.010  8.02
+gN20200128S0461.fits[SCI,2]: " "BI13-20-4k-1, 3""  1.950  6.88
+gN20200128S0461.fits[SCI,3]: " "BI13-20-4k-1, 2""  1.970  6.02
+gN20200128S0461.fits[SCI,4]: " "BI13-20-4k-1, 1""  1.910  5.88
+gN20200128S0461.fits[SCI,5]: " "BI12-09-4k-2, 4""  2.030  6.71
+gN20200128S0461.fits[SCI,6]: " "BI12-09-4k-2, 3""  1.970  6.34
+gN20200128S0461.fits[SCI,7]: " "BI12-09-4k-2, 2""  1.960  5.39
+gN20200128S0461.fits[SCI,8]: " "BI12-09-4k-2, 1""  2.010  5.86
+gN20200128S0461.fits[SCI,9]: " "BI13-18-4k-2, 4""  1.950  6.10
+gN20200128S0461.fits[SCI,10]: " "BI13-18-4k-2, 3""  1.950  6.13
+gN20200128S0461.fits[SCI,11]: " "BI13-18-4k-2, 2""  1.890  5.98
+gN20200128S0461.fits[SCI,12]: " "BI13-18-4k-2, 1""  1.950  6.79
+
+GGAIN -- Finished: 2020-01-29T22:32:19
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+
+Input files:
+gN20200128S0461
+
+Output files:
+tmpimage120811_3
+
+GIREDUCE: Image tmpimage120811_3 overscan subtracted
+GIREDUCE: Image tmpimage120811_3 trimmed
+
+Output image       Bias                 Flat               Dark       Scale 
+tmpimage120811_3   MCbiasFull           INDEF              INDEF       0.00
+GIREDUCE: Subtracted bias MCbiasFull from tmpimage120811_3
+GIREDUCE: multiplying image tmpimage120811_3 by gain
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2020-01-29T22:32:36
+File[extension]:              AMPNAME               GAIN   READNOISE
+tmpimage120811_3.fits[SCI,1]: " "BI13-20-4k-1, 4""  2.010  8.02
+tmpimage120811_3.fits[SCI,2]: " "BI13-20-4k-1, 3""  1.950  6.88
+tmpimage120811_3.fits[SCI,3]: " "BI13-20-4k-1, 2""  1.970  6.02
+tmpimage120811_3.fits[SCI,4]: " "BI13-20-4k-1, 1""  1.910  5.88
+tmpimage120811_3.fits[SCI,5]: " "BI12-09-4k-2, 4""  2.030  6.71
+tmpimage120811_3.fits[SCI,6]: " "BI12-09-4k-2, 3""  1.970  6.34
+tmpimage120811_3.fits[SCI,7]: " "BI12-09-4k-2, 2""  1.960  5.39
+tmpimage120811_3.fits[SCI,8]: " "BI12-09-4k-2, 1""  2.010  5.86
+tmpimage120811_3.fits[SCI,9]: " "BI13-18-4k-2, 4""  1.950  6.10
+tmpimage120811_3.fits[SCI,10]: " "BI13-18-4k-2, 3""  1.950  6.13
+tmpimage120811_3.fits[SCI,11]: " "BI13-18-4k-2, 2""  1.890  5.98
+tmpimage120811_3.fits[SCI,12]: " "BI13-18-4k-2, 1""  1.950  6.79
+
+GGAIN -- Finished: 2020-01-29T22:32:38
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+GIREDUCE: output counts in electrons
+
+GIREDUCE - Cleaning up -- Wed Jan 29 16:32:38 CST 2020
+
+GIREDUCE -- Wed Jan 29 16:32:38 CST 2020
+GIREDUCE exit status:  good.
+----------------------------------------------------------------------------
+GSREDUCE: Calling GMOSAIC
+BOE  GMOSAIC 2020-01-29T16:32:38
+VIS  GMOSAIC 
+VIS  GMOSAIC -------------------------------------------------------------------
+STAT GMOSAIC Log opened at [Wed 16:32:38 29-Jan-2020]
+VIS  GMOSAIC 
+VIS  GMOSAIC --------------------
+TSK  GMOSAIC Input Parameters:
+TSK  GMOSAIC      inimages       = tmpimage120811_3.fits
+TSK  GMOSAIC      outimages      = tmpimage220811_4.fits
+TSK  GMOSAIC      outpref        = 
+TSK  GMOSAIC      fl_paste       = no
+TSK  GMOSAIC      fl_vardq       = no
+TSK  GMOSAIC      fl_fixpix      = no
+TSK  GMOSAIC      fl_clean       = no
+TSK  GMOSAIC      fl_fulldq      = no
+TSK  GMOSAIC      bitflags       = all
+TSK  GMOSAIC      dqthresh       = 0.1
+TSK  GMOSAIC      geointer       = linear
+TSK  GMOSAIC      gap            = default
+TSK  GMOSAIC      bpmfile        = gmos$data/chipgaps.dat
+TSK  GMOSAIC      statsec        = default
+TSK  GMOSAIC      obsmode        = IMAGE
+TSK  GMOSAIC      sci_ext        = SCI
+TSK  GMOSAIC      var_ext        = VAR
+TSK  GMOSAIC      dq_ext         = DQ
+TSK  GMOSAIC      key_detsec     = DETSEC
+TSK  GMOSAIC      key_ccdsec     = CCDSEC
+TSK  GMOSAIC      key_datsec     = DATASEC
+TSK  GMOSAIC      key_ccdsum     = CCDSUM
+TSK  GMOSAIC      key_obsmode    = OBSMODE
+TSK  GMOSAIC      logfile        = gsreduceLog.txt
+TSK  GMOSAIC      verbose        = no
+TSK  GMOSAIC      fl_real        = no
+VIS  GMOSAIC --------------------
+TSK  GMOSAIC Input: tmpimage120811_3  Output: tmpimage220811_4.fits
+TSK  GMOSAIC Found a MDF, copying for later use.
+ENG  GMOSAIC Setting rotation Xrot[1]=-0.001000, Yrot[1]=-0.016000
+ENG  GMOSAIC Setting rotation Xrot[2]= 0.000000, Yrot[2]= 0.000000
+ENG  GMOSAIC Setting rotation Xrot[3]=-0.001342, Yrot[3]=-0.021480
+STAT GMOSAIC All 1 images successfully mosaiced.
+VIS  GMOSAIC --------------------
+STAT GMOSAIC Exit status: SUCCESS
+STAT GMOSAIC Log closed at [Wed 16:32:39 29-Jan-2020]
+VIS  GMOSAIC -------------------------------------------------------------------
+VIS  GMOSAIC 
+EOE  GMOSAIC 2020-01-29T16:32:39
+GSREDUCE: returned from GMOSAIC.
+GSREDUCE: Image N20200128S0461.fits is LONGSLIT. Will not cut spectra into separate science extensions
+GSREDUCE: Calling GSAPPWAVE
+--------------------------------------------------------------------------------
+GSAPPWAVE -- Wed Jan 29 16:32:39 CST 2020
+ 
+inimages = gsN20200128S0461.fits
+Grating: R400+_G5305
+Grating central wavelength: 656.0 [nm]
+Resolution (0.5'' slit): 1599.36544498
+Anamorphic factor: 1.14644409066
+Grating tilt (header): 56.6764
+Calculated tilt: 56.676
+nm/pix = 0.0758948909327
+Filter1: GG455_G0305
+Filter2: open2-8
+Approximate available wavelength coverage based on grating,
+    filters and detector type is: 460.0 - 1080.0 [nm]
+
+Calibrating: [SCI,1]
+    Spectrum length in pixels: 6278
+    Approximate location of grating central 
+        wavelength in pixels: 3139.0
+    Approximate wavelength coverage based on
+        spectrum length and calculated dispersion is:  460 - 1080 [nm]
+ 
+GSAPPWAVE done
+--------------------------------------------------------------------------------
+GSREDUCE: Updating PHU and cleaning up
+ 
+GSREDUCE done
+----------------------------------------------------------------------------

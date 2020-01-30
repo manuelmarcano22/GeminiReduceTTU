@@ -1,7 +1,0 @@
-inimage,s,a,,,,'Input image NOT including section'
-section,s,a,,,,'Input Section'
-out_imgsect,s,h,'[*,*]',,,'Output image name with section'
-logfile,s,h,'',,,'Logfile'
-verbose,b,h,yes,,,'Verbose?'
-status,i,h,0,,,'Exit status (0=good)'
-mode,s,h,'al'

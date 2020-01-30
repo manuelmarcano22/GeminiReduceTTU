@@ -4127,3 +4127,63 @@ GEMCOMBINE -- Exit status: GOOD
 
 GBIAS: Exit status: GOOD.
 ----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GBIAS -- Wed Jan 29 14:34:26 CST 2020
+
+Input images:
+  N20191128S0575
+  N20191128S0576
+  N20191128S0577
+  N20191128S0578
+  N20191128S0579
+  N20191129S0543
+  N20191129S0544
+
+Output bias image: MCbiasFull
+ 
+ERROR - GBIAS: Output file MCbiasFull.fits already exists.
+
+GBIAS: Exit status: ERROR.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GBIAS -- Wed Jan 29 16:30:45 CST 2020
+
+Input images:
+  N20191128S0575
+  N20191128S0576
+  N20191128S0577
+  N20191128S0578
+  N20191128S0579
+  N20191129S0543
+  N20191129S0544
+  gN20191128S0575
+  gN20191128S0576
+  gN20191128S0577
+
+Output bias image: MCbiasFull
+ 
+ERROR - GBIAS: Output file MCbiasFull.fits already exists.
+
+GBIAS: Exit status: ERROR.
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+GBIAS -- Wed Jan 29 16:31:16 CST 2020
+
+Input images:
+  N20191128S0575
+  N20191128S0576
+  N20191128S0577
+  N20191128S0578
+  N20191128S0579
+  N20191129S0543
+  N20191129S0544
+  gN20191128S0575
+  gN20191128S0576
+  gN20191128S0577
+
+Output bias image: MCbiasFull
+ 
+ERROR - GBIAS: Output file MCbiasFull.fits already exists.
+
+GBIAS: Exit status: ERROR.
+----------------------------------------------------------------------------

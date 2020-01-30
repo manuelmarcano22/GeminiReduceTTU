@@ -1,9 +1,4 @@
 image,s,a,,,,'Input image'
-<<<<<<< HEAD
 outname,s,h,'tgsN20191127S0262',,,'Output name w/o suffix'
-status,i,h,1,,,'Status'
-=======
-outname,s,h,'gsN20191203S0371',,,'Output name w/o suffix'
 status,i,h,0,,,'Status'
->>>>>>> 88bb67f2489313b925b418fe4cc68a8e0627fe7a
 mode,s,h,'al'

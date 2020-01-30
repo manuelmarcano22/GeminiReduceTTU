@@ -4498,3 +4498,210 @@ GSFLAT: fitting response functions for CCD12
  
 GSFLAT done Fri Jan 24 10:39:05 CST 2020
 --------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+GSFLAT -- Wed Jan 29 14:34:29 CST 2020
+
+Input images or list              = N20191127S0261,N20191127S0268,N20191203S0186,N20191205S0096,N20191205S0103,N20191205S0104,N20191205S0106
+Output spectral flat              = MCflatFull
+Correct for slit function         = no
+Keep combined flat combflat       = no
+
+Fitting parameters for Spectral Flatfield: 
+  interactive = no
+  function    = spline3
+  order       = 13,11,28
+  low_reject  = 3.0
+  high_reject = 3.0
+  niterate    = 2
+  Fit detectors separately fl_detec = yes
+
+Overscan Subtraction fl_over   = yes
+Trim image           fl_trim   = yes
+Bias Subtraction     fl_bias   = yes
+Dark Subtraction     fl_dark   = no
+QE Correction        fl_qecorr = no
+VAR & DQ planes      fl_vardq  = yes
+Fixpix chip gaps     fl_fixpix = no
+Oversize slit length fl_oversize = no
+Fit detec. by detec. fl_detec  = yes
+Fit rows separately  fl_seprows = yes
+Use gradient method  fl_usegrad= no
+Mask emission lines  fl_emis   = no
+Reference image      refimage  = 
+N&S double flatfield fl_double = no
+
+bias        = MCbiasFull
+dark        = 
+qe_refim    = 
+qe_corrim   = 
+qe_corrpref = qecorr
+sci_ext     = SCI
+var_ext     = VAR
+dq_ext      = DQ
+bpm         = 
+key_mdf     = MASKNAME
+mdffile     = 
+mdfdir      = gmos$data/
+Chip gaps   = gmos$data/chipgaps.dat
+rawpath     = raw/
+
+
+--------------------------------------------------------------------------------
+GSFLAT -- Wed Jan 29 14:34:49 CST 2020
+
+Input images or list              = N20191127S0261,N20191127S0268,N20191203S0186,N20191205S0096,N20191205S0103,N20191205S0104,N20191205S0106
+Output spectral flat              = MCflatFull
+Correct for slit function         = no
+Keep combined flat combflat       = no
+
+Fitting parameters for Spectral Flatfield: 
+  interactive = no
+  function    = spline3
+  order       = 13,11,28
+  low_reject  = 3.0
+  high_reject = 3.0
+  niterate    = 2
+  Fit detectors separately fl_detec = yes
+
+Overscan Subtraction fl_over   = yes
+Trim image           fl_trim   = yes
+Bias Subtraction     fl_bias   = yes
+Dark Subtraction     fl_dark   = no
+QE Correction        fl_qecorr = no
+VAR & DQ planes      fl_vardq  = yes
+Fixpix chip gaps     fl_fixpix = no
+Oversize slit length fl_oversize = no
+Fit detec. by detec. fl_detec  = yes
+Fit rows separately  fl_seprows = yes
+Use gradient method  fl_usegrad= no
+Mask emission lines  fl_emis   = no
+Reference image      refimage  = 
+N&S double flatfield fl_double = no
+
+bias        = MCbiasFull
+dark        = 
+qe_refim    = 
+qe_corrim   = 
+qe_corrpref = qecorr
+sci_ext     = SCI
+var_ext     = VAR
+dq_ext      = DQ
+bpm         = 
+key_mdf     = MASKNAME
+mdffile     = 
+mdfdir      = gmos$data/
+Chip gaps   = gmos$data/chipgaps.dat
+rawpath     = raw/
+
+ERROR - GSFLAT: Output file MCflatFull already exists.
+ERROR - GSFLAT: 1 fatal errors found.
+ 
+ERROR - GSFLAT: Program execution failed with 1 errors.
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+GSFLAT -- Wed Jan 29 16:30:46 CST 2020
+
+Input images or list              = N20191127S0261,N20191127S0268,N20191203S0186,N20191205S0096,N20191205S0103,N20191205S0104,N20191205S0106,fN20191127S0261,fN20191127S0268,fN20191203S0186,fN20191205S0096,fN20191205S0103,fN20191205S0104,fN20191205S0106,gN20191127S0261,gN20191127S0268,gN20191203S0186,gN20191205S0096,gN20191205S0103,gN20191205S0104,gN20191205S0106,gsN20191127S0261,gsN20191127S0268,gsN20191203S0186,gsN20191205S0096,gsN20191205S0103,gsN20191205S0104,gsN20191205S0106
+Output spectral flat              = MCflatFull
+Correct for slit function         = no
+Keep combined flat combflat       = no
+
+Fitting parameters for Spectral Flatfield: 
+  interactive = no
+  function    = spline3
+  order       = 13,11,28
+  low_reject  = 3.0
+  high_reject = 3.0
+  niterate    = 2
+  Fit detectors separately fl_detec = yes
+
+Overscan Subtraction fl_over   = yes
+Trim image           fl_trim   = yes
+Bias Subtraction     fl_bias   = yes
+Dark Subtraction     fl_dark   = no
+QE Correction        fl_qecorr = no
+VAR & DQ planes      fl_vardq  = yes
+Fixpix chip gaps     fl_fixpix = no
+Oversize slit length fl_oversize = no
+Fit detec. by detec. fl_detec  = yes
+Fit rows separately  fl_seprows = yes
+Use gradient method  fl_usegrad= no
+Mask emission lines  fl_emis   = no
+Reference image      refimage  = 
+N&S double flatfield fl_double = no
+
+bias        = MCbiasFull
+dark        = 
+qe_refim    = 
+qe_corrim   = 
+qe_corrpref = qecorr
+sci_ext     = SCI
+var_ext     = VAR
+dq_ext      = DQ
+bpm         = 
+key_mdf     = MASKNAME
+mdffile     = 
+mdfdir      = gmos$data/
+Chip gaps   = gmos$data/chipgaps.dat
+rawpath     = raw/
+
+ERROR - GSFLAT: Output file MCflatFull already exists.
+ERROR - GSFLAT: 1 fatal errors found.
+ 
+ERROR - GSFLAT: Program execution failed with 1 errors.
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+GSFLAT -- Wed Jan 29 16:31:17 CST 2020
+
+Input images or list              = N20191127S0261,N20191127S0268,N20191203S0186,N20191205S0096,N20191205S0103,N20191205S0104,N20191205S0106,fN20191127S0261,fN20191127S0268,fN20191203S0186,fN20191205S0096,fN20191205S0103,fN20191205S0104,fN20191205S0106,gN20191127S0261,gN20191127S0268,gN20191203S0186,gN20191205S0096,gN20191205S0103,gN20191205S0104,gN20191205S0106,gsN20191127S0261,gsN20191127S0268,gsN20191203S0186,gsN20191205S0096,gsN20191205S0103,gsN20191205S0104,gsN20191205S0106
+Output spectral flat              = MCflatFull
+Correct for slit function         = no
+Keep combined flat combflat       = no
+
+Fitting parameters for Spectral Flatfield: 
+  interactive = no
+  function    = spline3
+  order       = 13,11,28
+  low_reject  = 3.0
+  high_reject = 3.0
+  niterate    = 2
+  Fit detectors separately fl_detec = yes
+
+Overscan Subtraction fl_over   = yes
+Trim image           fl_trim   = yes
+Bias Subtraction     fl_bias   = yes
+Dark Subtraction     fl_dark   = no
+QE Correction        fl_qecorr = no
+VAR & DQ planes      fl_vardq  = yes
+Fixpix chip gaps     fl_fixpix = no
+Oversize slit length fl_oversize = no
+Fit detec. by detec. fl_detec  = yes
+Fit rows separately  fl_seprows = yes
+Use gradient method  fl_usegrad= no
+Mask emission lines  fl_emis   = no
+Reference image      refimage  = 
+N&S double flatfield fl_double = no
+
+bias        = MCbiasFull
+dark        = 
+qe_refim    = 
+qe_corrim   = 
+qe_corrpref = qecorr
+sci_ext     = SCI
+var_ext     = VAR
+dq_ext      = DQ
+bpm         = 
+key_mdf     = MASKNAME
+mdffile     = 
+mdfdir      = gmos$data/
+Chip gaps   = gmos$data/chipgaps.dat
+rawpath     = raw/
+
+ERROR - GSFLAT: Output file MCflatFull already exists.
+ERROR - GSFLAT: 1 fatal errors found.
+ 
+ERROR - GSFLAT: Program execution failed with 1 errors.
+--------------------------------------------------------------------------------

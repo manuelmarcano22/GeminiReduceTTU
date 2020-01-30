@@ -1,4 +1,4 @@
-inimages,s,a,'raw/N20191203S0371.fits',,,'Input GMOS images or list'
+inimages,s,a,,,,'Input GMOS images or list'
 outimages,s,h,'',,,'Output images or list'
 outpref,s,h,'gs',,,'Prefix for output images'
 fl_over,b,h,yes,,,'Subtract overscan level'

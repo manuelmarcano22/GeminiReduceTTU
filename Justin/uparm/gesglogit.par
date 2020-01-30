@@ -1,4 +1,4 @@
-logfile,s,a,'gmos.log',,,'Logfile name'
+logfile,s,a,'gsreduceLog.txt',,,'Logfile name'
 curtask,s,a,,,,'Name of the current task'
 curpack,s,a,,,,"Name of the task's package"
 paramstr,s,a,,,,'User formatted list of parameter/value pairs'

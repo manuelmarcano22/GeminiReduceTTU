@@ -1,11 +1,6 @@
 input,f,a,'',,,'Name of file containing header keyword'
 keyword,s,a,'',,,'Name of header keyword'
 silent,b,h,no,,,'Do not print any warning messages?'
-<<<<<<< HEAD
-value,s,h,'',,,'Value of header keyword'
-found,b,h,no,,,'Was keyword found in header?'
-=======
-value,s,h,'2020-01-24T19:46:54',,,'Value of header keyword'
+value,s,h,'1',,,'Value of header keyword'
 found,b,h,yes,,,'Was keyword found in header?'
->>>>>>> 88bb67f2489313b925b418fe4cc68a8e0627fe7a
 mode,s,h,'al'

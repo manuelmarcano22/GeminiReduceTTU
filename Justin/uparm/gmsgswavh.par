@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-inimages,s,a,'gsN20191127S0396.fits',,,'Input images'
-=======
-inimages,s,a,'gsN20191203S0371',,,'Input images'
->>>>>>> 88bb67f2489313b925b418fe4cc68a8e0627fe7a
+inimages,s,a,'gsN20191205S0111.fits',,,'Input images'
 crval,s,h,'CRVAL1',,,'Approximate wavelength at coordinate reference pixel'
 cdelt,s,h,'CD1_1',,,'Approximate dispersion'
 crpix,s,h,'CRPIX1',,,'Coordinate reference pixel'

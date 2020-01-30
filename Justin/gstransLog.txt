@@ -79,3 +79,75 @@ NOAO/IRAF V2.16 mmarcano@spurious Tue 11:44:39 28-Jan-2020
 GSTRANSFORM exit status: good
 -------------------------------------------------------------------------------
 
+-------------------------------------------------------------------------------
+GSTRANSFORM -- Wed Jan 29 18:16:46 CST 2020
+ 
+ERROR - GSTRANSFORM: Input image N20191127S0262 does not exist or is not MEF
+ERROR - GSTRANSFORM: 1 errors found with input parameters. Exiting.
+
+GSTRANSFORM exit status: error
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+GSTRANSFORM -- Wed Jan 29 18:17:25 CST 2020
+ 
+
+inimages   = gsN20191127S0262
+outimages  = 
+outprefix  = t
+fl_stran   = no
+fl_wavtran = yes
+wavtraname = gsN20191205S0111.fits
+database   = database
+fl_vardq   = yes
+interptype = linear
+lambda1    = INDEF
+lambda2    = INDEF
+dx         = INDEF
+nx         = INDEF
+lambdalog  = no
+ylog       = no
+fl_flux    = yes
+gratingdb  = gmos$data/GMOSgratings.dat
+filterdb   = gmos$data/GMOSfilters.dat
+key_dispaxis = DISPAXIS
+dispaxis   = 1
+sci_ext    = SCI
+var_ext = VAR
+dq_ext  = DQ
+
+Transforming gsN20191127S0262.fits[SCI,1]
+MDF row: 1
+
+NOAO/IRAF V2.16 mmarcano@tux Wed 18:17:26 29-Jan-2020
+  Transform gsN20191127S0262.fits[SCI,1] to tmpsci20811_70.
+  Conserve flux per pixel.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4561., x2 =      8943., dx =     0.6981, nx = 6278, xlog = no
+    y1 =         1., y2 =      1044., dy =         1., ny = 1044, ylog = no
+
+NOAO/IRAF V2.16 mmarcano@tux Wed 18:17:28 29-Jan-2020
+  Transform gsN20191127S0262.fits[VAR,1] to tmpvar20811_71.
+  Conserve flux per pixel.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4561., x2 =      8943., dx =     0.6981, nx = 6278, xlog = no
+    y1 =         1., y2 =      1044., dy =         1., ny = 1044, ylog = no
+
+NOAO/IRAF V2.16 mmarcano@tux Wed 18:17:29 29-Jan-2020
+  Transform gsN20191127S0262.fits[DQ,1] to tmpdq20811_72.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4561., x2 =      8943., dx =     0.6981, nx = 6278, xlog = no
+    y1 =         1., y2 =      1044., dy =         1., ny = 1044, ylog = no
+
+GSTRANSFORM exit status: good
+-------------------------------------------------------------------------------
+
