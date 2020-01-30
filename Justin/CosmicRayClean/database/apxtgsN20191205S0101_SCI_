@@ -1,0 +1,28 @@
+# Thu 17:06:39 30-Jan-2020
+begin	aperture xtgsN20191205S0101[SCI] 1 3139. 569.8091
+	image	xtgsN20191205S0101[SCI]
+	aperture	1
+	beam	1
+	center	3139. 569.8091
+	low	-3138. -4.506233
+	high	3139. 4.092921
+	background
+		xmin -10.
+		xmax 10.
+		function chebyshev
+		order 1
+		sample -10:-6,6:10
+		naverage -3
+		niterate 0
+		low_reject 3.
+		high_reject 3.
+		grow 0.
+	axis	2
+	curve	6
+		2.
+		2.
+		2089.
+		4139.
+		-0.1271107
+		0.3961708
+

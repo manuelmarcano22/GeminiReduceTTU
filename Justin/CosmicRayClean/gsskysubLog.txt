@@ -1,0 +1,1143 @@
+----------------------------------------------------------------------------
+GSSKYSUB -- Thu Jan 30 15:48:33 CST 2020
+
+input        = xtgsN
+output       = 
+outpref      = s
+fl_vardq     = yes
+fl_oversize  = no
+sci_ext      = SCI
+var_ext      = VAR
+dq_ext       = DQ
+long_sample  = 100-200
+mos_sample   = 0.9
+mosobjsize   = 1.0
+naverage     = 1
+function     = chebyshev
+order        = 1
+low_reject   = 2.5
+high_reject  = 2.5
+niterate     = 2
+grow         = 0.0
+fl_inter     = no
+
+ERROR - GSSKYSUB: Input image xtgsN does not exist
+ERROR - GSSKYSUB: 1 error(s) found. Exiting.
+
+GSSKYSUB done. Exit status bad. -- Thu Jan 30 15:48:33 CST 2020
+-------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+GSSKYSUB -- Thu Jan 30 15:48:33 CST 2020
+
+input        = xtgs2
+output       = 
+outpref      = s
+fl_vardq     = yes
+fl_oversize  = no
+sci_ext      = SCI
+var_ext      = VAR
+dq_ext       = DQ
+long_sample  = 100-200
+mos_sample   = 0.9
+mosobjsize   = 1.0
+naverage     = 1
+function     = chebyshev
+order        = 1
+low_reject   = 2.5
+high_reject  = 2.5
+niterate     = 2
+grow         = 0.0
+fl_inter     = no
+
+ERROR - GSSKYSUB: Input image xtgs2 does not exist
+ERROR - GSSKYSUB: 1 error(s) found. Exiting.
+
+GSSKYSUB done. Exit status bad. -- Thu Jan 30 15:48:33 CST 2020
+-------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+GSSKYSUB -- Thu Jan 30 15:48:33 CST 2020
+
+input        = xtgs0
+output       = 
+outpref      = s
+fl_vardq     = yes
+fl_oversize  = no
+sci_ext      = SCI
+var_ext      = VAR
+dq_ext       = DQ
+long_sample  = 100-200
+mos_sample   = 0.9
+mosobjsize   = 1.0
+naverage     = 1
+function     = chebyshev
+order        = 1
+low_reject   = 2.5
+high_reject  = 2.5
+niterate     = 2
+grow         = 0.0
+fl_inter     = no
+
+ERROR - GSSKYSUB: Input image xtgs0 does not exist
+ERROR - GSSKYSUB: 1 error(s) found. Exiting.
+
+GSSKYSUB done. Exit status bad. -- Thu Jan 30 15:48:34 CST 2020
+-------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+GSSKYSUB -- Thu Jan 30 15:48:34 CST 2020
+
+input        = xtgs1
+output       = 
+outpref      = s
+fl_vardq     = yes
+fl_oversize  = no
+sci_ext      = SCI
+var_ext      = VAR
+dq_ext       = DQ
+long_sample  = 100-200
+mos_sample   = 0.9
+mosobjsize   = 1.0
+naverage     = 1
+function     = chebyshev
+order        = 1
+low_reject   = 2.5
+high_reject  = 2.5
+niterate     = 2
+grow         = 0.0
+fl_inter     = no
+
+ERROR - GSSKYSUB: Input image xtgs1 does not exist
+ERROR - GSSKYSUB: 1 error(s) found. Exiting.
+
+GSSKYSUB done. Exit status bad. -- Thu Jan 30 15:48:34 CST 2020
+-------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+GSSKYSUB -- Thu Jan 30 15:48:34 CST 2020
+
+input        = xtgs9
+output       = 
+outpref      = s
+fl_vardq     = yes
+fl_oversize  = no
+sci_ext      = SCI
+var_ext      = VAR
+dq_ext       = DQ
+long_sample  = 100-200
+mos_sample   = 0.9
+mosobjsize   = 1.0
+naverage     = 1
+function     = chebyshev
+order        = 1
+low_reject   = 2.5
+high_reject  = 2.5
+niterate     = 2
+grow         = 0.0
+fl_inter     = no
+
+ERROR - GSSKYSUB: Input image xtgs9 does not exist
+ERROR - GSSKYSUB: 1 error(s) found. Exiting.
+
+GSSKYSUB done. Exit status bad. -- Thu Jan 30 15:48:34 CST 2020
+-------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+GSSKYSUB -- Thu Jan 30 15:48:34 CST 2020
+
+input        = xtgs1
+output       = 
+outpref      = s
+fl_vardq     = yes
+fl_oversize  = no
+sci_ext      = SCI
+var_ext      = VAR
+dq_ext       = DQ
+long_sample  = 100-200
+mos_sample   = 0.9
+mosobjsize   = 1.0
+naverage     = 1
+function     = chebyshev
+order        = 1
+low_reject   = 2.5
+high_reject  = 2.5
+niterate     = 2
+grow         = 0.0
+fl_inter     = no
+
+ERROR - GSSKYSUB: Input image xtgs1 does not exist
+ERROR - GSSKYSUB: 1 error(s) found. Exiting.
+
+GSSKYSUB done. Exit status bad. -- Thu Jan 30 15:48:34 CST 2020
+-------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+GSSKYSUB -- Thu Jan 30 15:48:34 CST 2020
+
+input        = xtgs1
+output       = 
+outpref      = s
+fl_vardq     = yes
+fl_oversize  = no
+sci_ext      = SCI
+var_ext      = VAR
+dq_ext       = DQ
+long_sample  = 100-200
+mos_sample   = 0.9
+mosobjsize   = 1.0
+naverage     = 1
+function     = chebyshev
+order        = 1
+low_reject   = 2.5
+high_reject  = 2.5
+niterate     = 2
+grow         = 0.0
+fl_inter     = no
+
+ERROR - GSSKYSUB: Input image xtgs1 does not exist
+ERROR - GSSKYSUB: 1 error(s) found. Exiting.
+
+GSSKYSUB done. Exit status bad. -- Thu Jan 30 15:48:34 CST 2020
+-------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+GSSKYSUB -- Thu Jan 30 15:48:34 CST 2020
+
+input        = xtgs2
+output       = 
+outpref      = s
+fl_vardq     = yes
+fl_oversize  = no
+sci_ext      = SCI
+var_ext      = VAR
+dq_ext       = DQ
+long_sample  = 100-200
+mos_sample   = 0.9
+mosobjsize   = 1.0
+naverage     = 1
+function     = chebyshev
+order        = 1
+low_reject   = 2.5
+high_reject  = 2.5
+niterate     = 2
+grow         = 0.0
+fl_inter     = no
+
+ERROR - GSSKYSUB: Input image xtgs2 does not exist
+ERROR - GSSKYSUB: 1 error(s) found. Exiting.
+
+GSSKYSUB done. Exit status bad. -- Thu Jan 30 15:48:34 CST 2020
+-------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+GSSKYSUB -- Thu Jan 30 15:48:34 CST 2020
+
+input        = xtgs7
+output       = 
+outpref      = s
+fl_vardq     = yes
+fl_oversize  = no
+sci_ext      = SCI
+var_ext      = VAR
+dq_ext       = DQ
+long_sample  = 100-200
+mos_sample   = 0.9
+mosobjsize   = 1.0
+naverage     = 1
+function     = chebyshev
+order        = 1
+low_reject   = 2.5
+high_reject  = 2.5
+niterate     = 2
+grow         = 0.0
+fl_inter     = no
+
+ERROR - GSSKYSUB: Input image xtgs7 does not exist
+ERROR - GSSKYSUB: 1 error(s) found. Exiting.
+
+GSSKYSUB done. Exit status bad. -- Thu Jan 30 15:48:34 CST 2020
+-------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+GSSKYSUB -- Thu Jan 30 15:48:34 CST 2020
+
+input        = xtgsS
+output       = 
+outpref      = s
+fl_vardq     = yes
+fl_oversize  = no
+sci_ext      = SCI
+var_ext      = VAR
+dq_ext       = DQ
+long_sample  = 100-200
+mos_sample   = 0.9
+mosobjsize   = 1.0
+naverage     = 1
+function     = chebyshev
+order        = 1
+low_reject   = 2.5
+high_reject  = 2.5
+niterate     = 2
+grow         = 0.0
+fl_inter     = no
+
+ERROR - GSSKYSUB: Input image xtgsS does not exist
+ERROR - GSSKYSUB: 1 error(s) found. Exiting.
+
+GSSKYSUB done. Exit status bad. -- Thu Jan 30 15:48:34 CST 2020
+-------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+GSSKYSUB -- Thu Jan 30 15:48:34 CST 2020
+
+input        = xtgs0
+output       = 
+outpref      = s
+fl_vardq     = yes
+fl_oversize  = no
+sci_ext      = SCI
+var_ext      = VAR
+dq_ext       = DQ
+long_sample  = 100-200
+mos_sample   = 0.9
+mosobjsize   = 1.0
+naverage     = 1
+function     = chebyshev
+order        = 1
+low_reject   = 2.5
+high_reject  = 2.5
+niterate     = 2
+grow         = 0.0
+fl_inter     = no
+
+ERROR - GSSKYSUB: Input image xtgs0 does not exist
+ERROR - GSSKYSUB: 1 error(s) found. Exiting.
+
+GSSKYSUB done. Exit status bad. -- Thu Jan 30 15:48:34 CST 2020
+-------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+GSSKYSUB -- Thu Jan 30 15:48:34 CST 2020
+
+input        = xtgs2
+output       = 
+outpref      = s
+fl_vardq     = yes
+fl_oversize  = no
+sci_ext      = SCI
+var_ext      = VAR
+dq_ext       = DQ
+long_sample  = 100-200
+mos_sample   = 0.9
+mosobjsize   = 1.0
+naverage     = 1
+function     = chebyshev
+order        = 1
+low_reject   = 2.5
+high_reject  = 2.5
+niterate     = 2
+grow         = 0.0
+fl_inter     = no
+
+ERROR - GSSKYSUB: Input image xtgs2 does not exist
+ERROR - GSSKYSUB: 1 error(s) found. Exiting.
+
+GSSKYSUB done. Exit status bad. -- Thu Jan 30 15:48:34 CST 2020
+-------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+GSSKYSUB -- Thu Jan 30 15:48:34 CST 2020
+
+input        = xtgs6
+output       = 
+outpref      = s
+fl_vardq     = yes
+fl_oversize  = no
+sci_ext      = SCI
+var_ext      = VAR
+dq_ext       = DQ
+long_sample  = 100-200
+mos_sample   = 0.9
+mosobjsize   = 1.0
+naverage     = 1
+function     = chebyshev
+order        = 1
+low_reject   = 2.5
+high_reject  = 2.5
+niterate     = 2
+grow         = 0.0
+fl_inter     = no
+
+ERROR - GSSKYSUB: Input image xtgs6 does not exist
+ERROR - GSSKYSUB: 1 error(s) found. Exiting.
+
+GSSKYSUB done. Exit status bad. -- Thu Jan 30 15:48:34 CST 2020
+-------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+GSSKYSUB -- Thu Jan 30 15:48:34 CST 2020
+
+input        = xtgs2
+output       = 
+outpref      = s
+fl_vardq     = yes
+fl_oversize  = no
+sci_ext      = SCI
+var_ext      = VAR
+dq_ext       = DQ
+long_sample  = 100-200
+mos_sample   = 0.9
+mosobjsize   = 1.0
+naverage     = 1
+function     = chebyshev
+order        = 1
+low_reject   = 2.5
+high_reject  = 2.5
+niterate     = 2
+grow         = 0.0
+fl_inter     = no
+
+ERROR - GSSKYSUB: Input image xtgs2 does not exist
+ERROR - GSSKYSUB: 1 error(s) found. Exiting.
+
+GSSKYSUB done. Exit status bad. -- Thu Jan 30 15:48:34 CST 2020
+-------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+GSSKYSUB -- Thu Jan 30 15:49:24 CST 2020
+
+input        = xtgsN20191127S0262
+output       = 
+outpref      = s
+fl_vardq     = yes
+fl_oversize  = no
+sci_ext      = SCI
+var_ext      = VAR
+dq_ext       = DQ
+long_sample  = 100-200
+mos_sample   = 0.9
+mosobjsize   = 1.0
+naverage     = 1
+function     = chebyshev
+order        = 1
+low_reject   = 2.5
+high_reject  = 2.5
+niterate     = 2
+grow         = 0.0
+fl_inter     = no
+
+ERROR - GSSKYSUB: xtgsN20191127S0262.fits has MASKTYP other than LONGSLIT or MOS mode
+----------------------------------------------------------------------------
+GSSKYSUB -- Thu Jan 30 15:49:52 CST 2020
+
+input        = tgsN20191127S0262
+output       = 
+outpref      = s
+fl_vardq     = yes
+fl_oversize  = no
+sci_ext      = SCI
+var_ext      = VAR
+dq_ext       = DQ
+long_sample  = 100-200
+mos_sample   = 0.9
+mosobjsize   = 1.0
+naverage     = 1
+function     = chebyshev
+order        = 1
+low_reject   = 2.5
+high_reject  = 2.5
+niterate     = 2
+grow         = 0.0
+fl_inter     = no
+
+ 
+GSSKYSUB: Sky-subtraction started
+ 
+  Input image     = tgsN20191127S0262.fits
+  Output image    = stgsN20191127S0262.fits
+  Observing mode  = LONGSLIT
+  Number of slits = 1
+  Slit #1 ; background sample = [100-200]
+         RMS of the fit (for VAR plane propagation) = 417.2498
+
+GSSKYSUB done. Exit status good -- Thu Jan 30 15:50:04 CST 2020
+-------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+GSSKYSUB -- Thu Jan 30 15:51:06 CST 2020
+
+input        = tgsN20191127S0262
+output       = 
+outpref      = s
+fl_vardq     = yes
+fl_oversize  = no
+sci_ext      = SCI
+var_ext      = VAR
+dq_ext       = DQ
+long_sample  = 100-200
+mos_sample   = 0.9
+mosobjsize   = 1.0
+naverage     = 1
+function     = chebyshev
+order        = 1
+low_reject   = 2.5
+high_reject  = 2.5
+niterate     = 2
+grow         = 0.0
+fl_inter     = no
+
+ERROR - GSSKYSUB: Output image stgsN20191127S0262 exist
+ERROR - GSSKYSUB: 1 error(s) found. Exiting.
+
+GSSKYSUB done. Exit status bad. -- Thu Jan 30 15:51:06 CST 2020
+-------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+GSSKYSUB -- Thu Jan 30 15:52:25 CST 2020
+
+input        = tgsN20191127S0263
+output       = 
+outpref      = s
+fl_vardq     = yes
+fl_oversize  = no
+sci_ext      = SCI
+var_ext      = VAR
+dq_ext       = DQ
+long_sample  = 100-200
+mos_sample   = 0.9
+mosobjsize   = 1.0
+naverage     = 1
+function     = chebyshev
+order        = 1
+low_reject   = 2.5
+high_reject  = 2.5
+niterate     = 2
+grow         = 0.0
+fl_inter     = no
+
+ 
+GSSKYSUB: Sky-subtraction started
+ 
+  Input image     = tgsN20191127S0263.fits
+  Output image    = stgsN20191127S0263.fits
+  Observing mode  = LONGSLIT
+  Number of slits = 1
+  Slit #1 ; background sample = [100-200]
+         RMS of the fit (for VAR plane propagation) = 429.0473
+
+GSSKYSUB done. Exit status good -- Thu Jan 30 15:52:36 CST 2020
+-------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+GSSKYSUB -- Thu Jan 30 15:53:55 CST 2020
+
+input        = tgsN20191127S0264
+output       = 
+outpref      = s
+fl_vardq     = yes
+fl_oversize  = no
+sci_ext      = SCI
+var_ext      = VAR
+dq_ext       = DQ
+long_sample  = 100-200
+mos_sample   = 0.9
+mosobjsize   = 1.0
+naverage     = 1
+function     = chebyshev
+order        = 1
+low_reject   = 2.5
+high_reject  = 2.5
+niterate     = 2
+grow         = 0.0
+fl_inter     = no
+
+ 
+GSSKYSUB: Sky-subtraction started
+ 
+  Input image     = tgsN20191127S0264.fits
+  Output image    = stgsN20191127S0264.fits
+  Observing mode  = LONGSLIT
+  Number of slits = 1
+  Slit #1 ; background sample = [100-200]
+         RMS of the fit (for VAR plane propagation) = 452.5153
+
+GSSKYSUB done. Exit status good -- Thu Jan 30 15:54:05 CST 2020
+-------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+GSSKYSUB -- Thu Jan 30 15:55:23 CST 2020
+
+input        = tgsN20191127S0265
+output       = 
+outpref      = s
+fl_vardq     = yes
+fl_oversize  = no
+sci_ext      = SCI
+var_ext      = VAR
+dq_ext       = DQ
+long_sample  = 100-200
+mos_sample   = 0.9
+mosobjsize   = 1.0
+naverage     = 1
+function     = chebyshev
+order        = 1
+low_reject   = 2.5
+high_reject  = 2.5
+niterate     = 2
+grow         = 0.0
+fl_inter     = no
+
+ 
+GSSKYSUB: Sky-subtraction started
+ 
+  Input image     = tgsN20191127S0265.fits
+  Output image    = stgsN20191127S0265.fits
+  Observing mode  = LONGSLIT
+  Number of slits = 1
+  Slit #1 ; background sample = [100-200]
+         RMS of the fit (for VAR plane propagation) = 472.3273
+
+GSSKYSUB done. Exit status good -- Thu Jan 30 15:55:33 CST 2020
+-------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+GSSKYSUB -- Thu Jan 30 15:56:51 CST 2020
+
+input        = tgsN20191127S0266
+output       = 
+outpref      = s
+fl_vardq     = yes
+fl_oversize  = no
+sci_ext      = SCI
+var_ext      = VAR
+dq_ext       = DQ
+long_sample  = 100-200
+mos_sample   = 0.9
+mosobjsize   = 1.0
+naverage     = 1
+function     = chebyshev
+order        = 1
+low_reject   = 2.5
+high_reject  = 2.5
+niterate     = 2
+grow         = 0.0
+fl_inter     = no
+
+ 
+GSSKYSUB: Sky-subtraction started
+ 
+  Input image     = tgsN20191127S0266.fits
+  Output image    = stgsN20191127S0266.fits
+  Observing mode  = LONGSLIT
+  Number of slits = 1
+  Slit #1 ; background sample = [100-200]
+         RMS of the fit (for VAR plane propagation) = 447.319
+
+GSSKYSUB done. Exit status good -- Thu Jan 30 15:57:03 CST 2020
+-------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+GSSKYSUB -- Thu Jan 30 15:58:26 CST 2020
+
+input        = tgsN20191127S0267
+output       = 
+outpref      = s
+fl_vardq     = yes
+fl_oversize  = no
+sci_ext      = SCI
+var_ext      = VAR
+dq_ext       = DQ
+long_sample  = 100-200
+mos_sample   = 0.9
+mosobjsize   = 1.0
+naverage     = 1
+function     = chebyshev
+order        = 1
+low_reject   = 2.5
+high_reject  = 2.5
+niterate     = 2
+grow         = 0.0
+fl_inter     = no
+
+ 
+GSSKYSUB: Sky-subtraction started
+ 
+  Input image     = tgsN20191127S0267.fits
+  Output image    = stgsN20191127S0267.fits
+  Observing mode  = LONGSLIT
+  Number of slits = 1
+  Slit #1 ; background sample = [100-200]
+         RMS of the fit (for VAR plane propagation) = 452.2832
+
+GSSKYSUB done. Exit status good -- Thu Jan 30 15:58:37 CST 2020
+-------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+GSSKYSUB -- Thu Jan 30 15:59:57 CST 2020
+
+input        = tgsN20191203S0187
+output       = 
+outpref      = s
+fl_vardq     = yes
+fl_oversize  = no
+sci_ext      = SCI
+var_ext      = VAR
+dq_ext       = DQ
+long_sample  = 100-200
+mos_sample   = 0.9
+mosobjsize   = 1.0
+naverage     = 1
+function     = chebyshev
+order        = 1
+low_reject   = 2.5
+high_reject  = 2.5
+niterate     = 2
+grow         = 0.0
+fl_inter     = no
+
+ 
+GSSKYSUB: Sky-subtraction started
+ 
+  Input image     = tgsN20191203S0187.fits
+  Output image    = stgsN20191203S0187.fits
+  Observing mode  = LONGSLIT
+  Number of slits = 1
+  Slit #1 ; background sample = [100-200]
+         RMS of the fit (for VAR plane propagation) = 192.8486
+
+GSSKYSUB done. Exit status good -- Thu Jan 30 16:00:09 CST 2020
+-------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+GSSKYSUB -- Thu Jan 30 16:01:28 CST 2020
+
+input        = tgsN20191203S0188
+output       = 
+outpref      = s
+fl_vardq     = yes
+fl_oversize  = no
+sci_ext      = SCI
+var_ext      = VAR
+dq_ext       = DQ
+long_sample  = 100-200
+mos_sample   = 0.9
+mosobjsize   = 1.0
+naverage     = 1
+function     = chebyshev
+order        = 1
+low_reject   = 2.5
+high_reject  = 2.5
+niterate     = 2
+grow         = 0.0
+fl_inter     = no
+
+ 
+GSSKYSUB: Sky-subtraction started
+ 
+  Input image     = tgsN20191203S0188.fits
+  Output image    = stgsN20191203S0188.fits
+  Observing mode  = LONGSLIT
+  Number of slits = 1
+  Slit #1 ; background sample = [100-200]
+         RMS of the fit (for VAR plane propagation) = 212.4209
+
+GSSKYSUB done. Exit status good -- Thu Jan 30 16:01:39 CST 2020
+-------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+GSSKYSUB -- Thu Jan 30 16:02:57 CST 2020
+
+input        = tgsN20191205S0097
+output       = 
+outpref      = s
+fl_vardq     = yes
+fl_oversize  = no
+sci_ext      = SCI
+var_ext      = VAR
+dq_ext       = DQ
+long_sample  = 100-200
+mos_sample   = 0.9
+mosobjsize   = 1.0
+naverage     = 1
+function     = chebyshev
+order        = 1
+low_reject   = 2.5
+high_reject  = 2.5
+niterate     = 2
+grow         = 0.0
+fl_inter     = no
+
+ 
+GSSKYSUB: Sky-subtraction started
+ 
+  Input image     = tgsN20191205S0097.fits
+  Output image    = stgsN20191205S0097.fits
+  Observing mode  = LONGSLIT
+  Number of slits = 1
+  Slit #1 ; background sample = [100-200]
+         RMS of the fit (for VAR plane propagation) = 397.7401
+
+GSSKYSUB done. Exit status good -- Thu Jan 30 16:03:08 CST 2020
+-------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+GSSKYSUB -- Thu Jan 30 16:04:26 CST 2020
+
+input        = tgsN20191205S0098
+output       = 
+outpref      = s
+fl_vardq     = yes
+fl_oversize  = no
+sci_ext      = SCI
+var_ext      = VAR
+dq_ext       = DQ
+long_sample  = 100-200
+mos_sample   = 0.9
+mosobjsize   = 1.0
+naverage     = 1
+function     = chebyshev
+order        = 1
+low_reject   = 2.5
+high_reject  = 2.5
+niterate     = 2
+grow         = 0.0
+fl_inter     = no
+
+ 
+GSSKYSUB: Sky-subtraction started
+ 
+  Input image     = tgsN20191205S0098.fits
+  Output image    = stgsN20191205S0098.fits
+  Observing mode  = LONGSLIT
+  Number of slits = 1
+  Slit #1 ; background sample = [100-200]
+         RMS of the fit (for VAR plane propagation) = 351.3553
+
+GSSKYSUB done. Exit status good -- Thu Jan 30 16:04:37 CST 2020
+-------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+GSSKYSUB -- Thu Jan 30 16:05:55 CST 2020
+
+input        = tgsN20191205S0099
+output       = 
+outpref      = s
+fl_vardq     = yes
+fl_oversize  = no
+sci_ext      = SCI
+var_ext      = VAR
+dq_ext       = DQ
+long_sample  = 100-200
+mos_sample   = 0.9
+mosobjsize   = 1.0
+naverage     = 1
+function     = chebyshev
+order        = 1
+low_reject   = 2.5
+high_reject  = 2.5
+niterate     = 2
+grow         = 0.0
+fl_inter     = no
+
+ 
+GSSKYSUB: Sky-subtraction started
+ 
+  Input image     = tgsN20191205S0099.fits
+  Output image    = stgsN20191205S0099.fits
+  Observing mode  = LONGSLIT
+  Number of slits = 1
+  Slit #1 ; background sample = [100-200]
+         RMS of the fit (for VAR plane propagation) = 327.1131
+
+GSSKYSUB done. Exit status good -- Thu Jan 30 16:06:06 CST 2020
+-------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+GSSKYSUB -- Thu Jan 30 16:07:26 CST 2020
+
+input        = tgsN20191205S0100
+output       = 
+outpref      = s
+fl_vardq     = yes
+fl_oversize  = no
+sci_ext      = SCI
+var_ext      = VAR
+dq_ext       = DQ
+long_sample  = 100-200
+mos_sample   = 0.9
+mosobjsize   = 1.0
+naverage     = 1
+function     = chebyshev
+order        = 1
+low_reject   = 2.5
+high_reject  = 2.5
+niterate     = 2
+grow         = 0.0
+fl_inter     = no
+
+ 
+GSSKYSUB: Sky-subtraction started
+ 
+  Input image     = tgsN20191205S0100.fits
+  Output image    = stgsN20191205S0100.fits
+  Observing mode  = LONGSLIT
+  Number of slits = 1
+  Slit #1 ; background sample = [100-200]
+         RMS of the fit (for VAR plane propagation) = 314.0933
+
+GSSKYSUB done. Exit status good -- Thu Jan 30 16:07:37 CST 2020
+-------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+GSSKYSUB -- Thu Jan 30 16:08:57 CST 2020
+
+input        = tgsN20191205S0101
+output       = 
+outpref      = s
+fl_vardq     = yes
+fl_oversize  = no
+sci_ext      = SCI
+var_ext      = VAR
+dq_ext       = DQ
+long_sample  = 100-200
+mos_sample   = 0.9
+mosobjsize   = 1.0
+naverage     = 1
+function     = chebyshev
+order        = 1
+low_reject   = 2.5
+high_reject  = 2.5
+niterate     = 2
+grow         = 0.0
+fl_inter     = no
+
+ 
+GSSKYSUB: Sky-subtraction started
+ 
+  Input image     = tgsN20191205S0101.fits
+  Output image    = stgsN20191205S0101.fits
+  Observing mode  = LONGSLIT
+  Number of slits = 1
+  Slit #1 ; background sample = [100-200]
+         RMS of the fit (for VAR plane propagation) = 299.5666
+
+GSSKYSUB done. Exit status good -- Thu Jan 30 16:09:09 CST 2020
+-------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+GSSKYSUB -- Thu Jan 30 16:11:37 CST 2020
+
+input        = tgsN20191205S0102
+output       = 
+outpref      = s
+fl_vardq     = yes
+fl_oversize  = no
+sci_ext      = SCI
+var_ext      = VAR
+dq_ext       = DQ
+long_sample  = 100-200
+mos_sample   = 0.9
+mosobjsize   = 1.0
+naverage     = 1
+function     = chebyshev
+order        = 1
+low_reject   = 2.5
+high_reject  = 2.5
+niterate     = 2
+grow         = 0.0
+fl_inter     = no
+
+ 
+GSSKYSUB: Sky-subtraction started
+ 
+  Input image     = tgsN20191205S0102.fits
+  Output image    = stgsN20191205S0102.fits
+  Observing mode  = LONGSLIT
+  Number of slits = 1
+  Slit #1 ; background sample = [100-200]
+         RMS of the fit (for VAR plane propagation) = 272.9147
+
+GSSKYSUB done. Exit status good -- Thu Jan 30 16:11:51 CST 2020
+-------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+GSSKYSUB -- Thu Jan 30 16:13:14 CST 2020
+
+input        = tgsN20191205S0105
+output       = 
+outpref      = s
+fl_vardq     = yes
+fl_oversize  = no
+sci_ext      = SCI
+var_ext      = VAR
+dq_ext       = DQ
+long_sample  = 100-200
+mos_sample   = 0.9
+mosobjsize   = 1.0
+naverage     = 1
+function     = chebyshev
+order        = 1
+low_reject   = 2.5
+high_reject  = 2.5
+niterate     = 2
+grow         = 0.0
+fl_inter     = no
+
+ 
+GSSKYSUB: Sky-subtraction started
+ 
+  Input image     = tgsN20191205S0105.fits
+  Output image    = stgsN20191205S0105.fits
+  Observing mode  = LONGSLIT
+  Number of slits = 1
+  Slit #1 ; background sample = [100-200]
+         RMS of the fit (for VAR plane propagation) = 170.2777
+
+GSSKYSUB done. Exit status good -- Thu Jan 30 16:13:25 CST 2020
+-------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+GSSKYSUB -- Thu Jan 30 16:14:48 CST 2020
+
+input        = tgsN20191205S0107
+output       = 
+outpref      = s
+fl_vardq     = yes
+fl_oversize  = no
+sci_ext      = SCI
+var_ext      = VAR
+dq_ext       = DQ
+long_sample  = 100-200
+mos_sample   = 0.9
+mosobjsize   = 1.0
+naverage     = 1
+function     = chebyshev
+order        = 1
+low_reject   = 2.5
+high_reject  = 2.5
+niterate     = 2
+grow         = 0.0
+fl_inter     = no
+
+ 
+GSSKYSUB: Sky-subtraction started
+ 
+  Input image     = tgsN20191205S0107.fits
+  Output image    = stgsN20191205S0107.fits
+  Observing mode  = LONGSLIT
+  Number of slits = 1
+  Slit #1 ; background sample = [100-200]
+         RMS of the fit (for VAR plane propagation) = 260.4083
+
+GSSKYSUB done. Exit status good -- Thu Jan 30 16:14:59 CST 2020
+-------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+GSSKYSUB -- Thu Jan 30 16:16:21 CST 2020
+
+input        = tgsN20191205S0108
+output       = 
+outpref      = s
+fl_vardq     = yes
+fl_oversize  = no
+sci_ext      = SCI
+var_ext      = VAR
+dq_ext       = DQ
+long_sample  = 100-200
+mos_sample   = 0.9
+mosobjsize   = 1.0
+naverage     = 1
+function     = chebyshev
+order        = 1
+low_reject   = 2.5
+high_reject  = 2.5
+niterate     = 2
+grow         = 0.0
+fl_inter     = no
+
+ 
+GSSKYSUB: Sky-subtraction started
+ 
+  Input image     = tgsN20191205S0108.fits
+  Output image    = stgsN20191205S0108.fits
+  Observing mode  = LONGSLIT
+  Number of slits = 1
+  Slit #1 ; background sample = [100-200]
+         RMS of the fit (for VAR plane propagation) = 237.324
+
+GSSKYSUB done. Exit status good -- Thu Jan 30 16:16:32 CST 2020
+-------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+GSSKYSUB -- Thu Jan 30 16:17:52 CST 2020
+
+input        = tgsN20191205S0109
+output       = 
+outpref      = s
+fl_vardq     = yes
+fl_oversize  = no
+sci_ext      = SCI
+var_ext      = VAR
+dq_ext       = DQ
+long_sample  = 100-200
+mos_sample   = 0.9
+mosobjsize   = 1.0
+naverage     = 1
+function     = chebyshev
+order        = 1
+low_reject   = 2.5
+high_reject  = 2.5
+niterate     = 2
+grow         = 0.0
+fl_inter     = no
+
+ 
+GSSKYSUB: Sky-subtraction started
+ 
+  Input image     = tgsN20191205S0109.fits
+  Output image    = stgsN20191205S0109.fits
+  Observing mode  = LONGSLIT
+  Number of slits = 1
+  Slit #1 ; background sample = [100-200]
+         RMS of the fit (for VAR plane propagation) = 231.0965
+
+GSSKYSUB done. Exit status good -- Thu Jan 30 16:18:02 CST 2020
+-------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
+GSSKYSUB -- Thu Jan 30 16:19:20 CST 2020
+
+input        = tgsN20191205S0110
+output       = 
+outpref      = s
+fl_vardq     = yes
+fl_oversize  = no
+sci_ext      = SCI
+var_ext      = VAR
+dq_ext       = DQ
+long_sample  = 100-200
+mos_sample   = 0.9
+mosobjsize   = 1.0
+naverage     = 1
+function     = chebyshev
+order        = 1
+low_reject   = 2.5
+high_reject  = 2.5
+niterate     = 2
+grow         = 0.0
+fl_inter     = no
+
+ 
+GSSKYSUB: Sky-subtraction started
+ 
+  Input image     = tgsN20191205S0110.fits
+  Output image    = stgsN20191205S0110.fits
+  Observing mode  = LONGSLIT
+  Number of slits = 1
+  Slit #1 ; background sample = [100-200]
+         RMS of the fit (for VAR plane propagation) = 67.29153
+
+GSSKYSUB done. Exit status good -- Thu Jan 30 16:19:31 CST 2020
+-------------------------------------------------------------------------------
+

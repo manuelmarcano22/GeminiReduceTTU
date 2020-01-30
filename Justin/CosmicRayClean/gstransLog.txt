@@ -1,0 +1,1386 @@
+-------------------------------------------------------------------------------
+GSTRANSFORM -- Thu Jan 30 15:14:27 CST 2020
+ 
+
+inimages   = gsN20191127S0262
+outimages  = 
+outprefix  = t
+fl_stran   = no
+fl_wavtran = yes
+wavtraname = gsN20191127S0396
+database   = database
+fl_vardq   = yes
+interptype = linear
+lambda1    = INDEF
+lambda2    = INDEF
+dx         = INDEF
+nx         = INDEF
+lambdalog  = no
+ylog       = no
+fl_flux    = yes
+gratingdb  = gmos$data/GMOSgratings.dat
+filterdb   = gmos$data/GMOSfilters.dat
+key_dispaxis = DISPAXIS
+dispaxis   = 1
+sci_ext    = SCI
+var_ext = VAR
+dq_ext  = DQ
+
+Transforming gsN20191127S0262.fits[SCI,1]
+MDF row: 1
+
+NOAO/IRAF V2.16 mmarcano@tux Thu 15:14:28 30-Jan-2020
+  Transform gsN20191127S0262.fits[SCI,1] to tmpsci750_82.
+  Conserve flux per pixel.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4217., x2 =      8957., dx =     0.7551, nx = 6278, xlog = no
+    y1 =         1., y2 =      1044., dy =         1., ny = 1044, ylog = no
+
+NOAO/IRAF V2.16 mmarcano@tux Thu 15:14:30 30-Jan-2020
+  Transform gsN20191127S0262.fits[VAR,1] to tmpvar750_83.
+  Conserve flux per pixel.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4217., x2 =      8957., dx =     0.7551, nx = 6278, xlog = no
+    y1 =         1., y2 =      1044., dy =         1., ny = 1044, ylog = no
+
+NOAO/IRAF V2.16 mmarcano@tux Thu 15:14:31 30-Jan-2020
+  Transform gsN20191127S0262.fits[DQ,1] to tmpdq750_84.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4217., x2 =      8957., dx =     0.7551, nx = 6278, xlog = no
+    y1 =         1., y2 =      1044., dy =         1., ny = 1044, ylog = no
+
+GSTRANSFORM exit status: good
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+GSTRANSFORM -- Thu Jan 30 15:14:57 CST 2020
+ 
+ERROR - GSTRANSFORM: Output image tgsN20191127S0262 exists
+ERROR - GSTRANSFORM: 1 errors found with input parameters. Exiting.
+
+GSTRANSFORM exit status: error
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+GSTRANSFORM -- Thu Jan 30 15:16:16 CST 2020
+ 
+ERROR - GSTRANSFORM: Output image tgsN20191127S0262 exists
+ERROR - GSTRANSFORM: 1 errors found with input parameters. Exiting.
+
+GSTRANSFORM exit status: error
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+GSTRANSFORM -- Thu Jan 30 15:16:16 CST 2020
+ 
+
+inimages   = gsN20191127S0263
+outimages  = 
+outprefix  = t
+fl_stran   = no
+fl_wavtran = yes
+wavtraname = gsN20191127S0396
+database   = database
+fl_vardq   = yes
+interptype = linear
+lambda1    = INDEF
+lambda2    = INDEF
+dx         = INDEF
+nx         = INDEF
+lambdalog  = no
+ylog       = no
+fl_flux    = yes
+gratingdb  = gmos$data/GMOSgratings.dat
+filterdb   = gmos$data/GMOSfilters.dat
+key_dispaxis = DISPAXIS
+dispaxis   = 1
+sci_ext    = SCI
+var_ext = VAR
+dq_ext  = DQ
+
+Transforming gsN20191127S0263.fits[SCI,1]
+MDF row: 1
+
+NOAO/IRAF V2.16 mmarcano@tux Thu 15:16:17 30-Jan-2020
+  Transform gsN20191127S0263.fits[SCI,1] to tmpsci750_141.
+  Conserve flux per pixel.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4217., x2 =      8957., dx =     0.7551, nx = 6278, xlog = no
+    y1 =         1., y2 =      1044., dy =         1., ny = 1044, ylog = no
+
+NOAO/IRAF V2.16 mmarcano@tux Thu 15:16:18 30-Jan-2020
+  Transform gsN20191127S0263.fits[VAR,1] to tmpvar750_142.
+  Conserve flux per pixel.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4217., x2 =      8957., dx =     0.7551, nx = 6278, xlog = no
+    y1 =         1., y2 =      1044., dy =         1., ny = 1044, ylog = no
+
+NOAO/IRAF V2.16 mmarcano@tux Thu 15:16:19 30-Jan-2020
+  Transform gsN20191127S0263.fits[DQ,1] to tmpdq750_143.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4217., x2 =      8957., dx =     0.7551, nx = 6278, xlog = no
+    y1 =         1., y2 =      1044., dy =         1., ny = 1044, ylog = no
+
+GSTRANSFORM exit status: good
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+GSTRANSFORM -- Thu Jan 30 15:17:37 CST 2020
+ 
+
+inimages   = gsN20191127S0264
+outimages  = 
+outprefix  = t
+fl_stran   = no
+fl_wavtran = yes
+wavtraname = gsN20191127S0396
+database   = database
+fl_vardq   = yes
+interptype = linear
+lambda1    = INDEF
+lambda2    = INDEF
+dx         = INDEF
+nx         = INDEF
+lambdalog  = no
+ylog       = no
+fl_flux    = yes
+gratingdb  = gmos$data/GMOSgratings.dat
+filterdb   = gmos$data/GMOSfilters.dat
+key_dispaxis = DISPAXIS
+dispaxis   = 1
+sci_ext    = SCI
+var_ext = VAR
+dq_ext  = DQ
+
+Transforming gsN20191127S0264.fits[SCI,1]
+MDF row: 1
+
+NOAO/IRAF V2.16 mmarcano@tux Thu 15:17:38 30-Jan-2020
+  Transform gsN20191127S0264.fits[SCI,1] to tmpsci750_184.
+  Conserve flux per pixel.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4217., x2 =      8957., dx =     0.7551, nx = 6278, xlog = no
+    y1 =         1., y2 =      1044., dy =         1., ny = 1044, ylog = no
+
+NOAO/IRAF V2.16 mmarcano@tux Thu 15:17:39 30-Jan-2020
+  Transform gsN20191127S0264.fits[VAR,1] to tmpvar750_185.
+  Conserve flux per pixel.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4217., x2 =      8957., dx =     0.7551, nx = 6278, xlog = no
+    y1 =         1., y2 =      1044., dy =         1., ny = 1044, ylog = no
+
+NOAO/IRAF V2.16 mmarcano@tux Thu 15:17:40 30-Jan-2020
+  Transform gsN20191127S0264.fits[DQ,1] to tmpdq750_186.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4217., x2 =      8957., dx =     0.7551, nx = 6278, xlog = no
+    y1 =         1., y2 =      1044., dy =         1., ny = 1044, ylog = no
+
+GSTRANSFORM exit status: good
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+GSTRANSFORM -- Thu Jan 30 15:19:01 CST 2020
+ 
+
+inimages   = gsN20191127S0265
+outimages  = 
+outprefix  = t
+fl_stran   = no
+fl_wavtran = yes
+wavtraname = gsN20191127S0396
+database   = database
+fl_vardq   = yes
+interptype = linear
+lambda1    = INDEF
+lambda2    = INDEF
+dx         = INDEF
+nx         = INDEF
+lambdalog  = no
+ylog       = no
+fl_flux    = yes
+gratingdb  = gmos$data/GMOSgratings.dat
+filterdb   = gmos$data/GMOSfilters.dat
+key_dispaxis = DISPAXIS
+dispaxis   = 1
+sci_ext    = SCI
+var_ext = VAR
+dq_ext  = DQ
+
+Transforming gsN20191127S0265.fits[SCI,1]
+MDF row: 1
+
+NOAO/IRAF V2.16 mmarcano@tux Thu 15:19:02 30-Jan-2020
+  Transform gsN20191127S0265.fits[SCI,1] to tmpsci750_227.
+  Conserve flux per pixel.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4217., x2 =      8957., dx =     0.7551, nx = 6278, xlog = no
+    y1 =         1., y2 =      1044., dy =         1., ny = 1044, ylog = no
+
+NOAO/IRAF V2.16 mmarcano@tux Thu 15:19:03 30-Jan-2020
+  Transform gsN20191127S0265.fits[VAR,1] to tmpvar750_228.
+  Conserve flux per pixel.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4217., x2 =      8957., dx =     0.7551, nx = 6278, xlog = no
+    y1 =         1., y2 =      1044., dy =         1., ny = 1044, ylog = no
+
+NOAO/IRAF V2.16 mmarcano@tux Thu 15:19:05 30-Jan-2020
+  Transform gsN20191127S0265.fits[DQ,1] to tmpdq750_229.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4217., x2 =      8957., dx =     0.7551, nx = 6278, xlog = no
+    y1 =         1., y2 =      1044., dy =         1., ny = 1044, ylog = no
+
+GSTRANSFORM exit status: good
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+GSTRANSFORM -- Thu Jan 30 15:20:26 CST 2020
+ 
+
+inimages   = gsN20191127S0266
+outimages  = 
+outprefix  = t
+fl_stran   = no
+fl_wavtran = yes
+wavtraname = gsN20191127S0396
+database   = database
+fl_vardq   = yes
+interptype = linear
+lambda1    = INDEF
+lambda2    = INDEF
+dx         = INDEF
+nx         = INDEF
+lambdalog  = no
+ylog       = no
+fl_flux    = yes
+gratingdb  = gmos$data/GMOSgratings.dat
+filterdb   = gmos$data/GMOSfilters.dat
+key_dispaxis = DISPAXIS
+dispaxis   = 1
+sci_ext    = SCI
+var_ext = VAR
+dq_ext  = DQ
+
+Transforming gsN20191127S0266.fits[SCI,1]
+MDF row: 1
+
+NOAO/IRAF V2.16 mmarcano@tux Thu 15:20:27 30-Jan-2020
+  Transform gsN20191127S0266.fits[SCI,1] to tmpsci750_270.
+  Conserve flux per pixel.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4217., x2 =      8957., dx =     0.7551, nx = 6278, xlog = no
+    y1 =         1., y2 =      1044., dy =         1., ny = 1044, ylog = no
+
+NOAO/IRAF V2.16 mmarcano@tux Thu 15:20:28 30-Jan-2020
+  Transform gsN20191127S0266.fits[VAR,1] to tmpvar750_271.
+  Conserve flux per pixel.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4217., x2 =      8957., dx =     0.7551, nx = 6278, xlog = no
+    y1 =         1., y2 =      1044., dy =         1., ny = 1044, ylog = no
+
+NOAO/IRAF V2.16 mmarcano@tux Thu 15:20:29 30-Jan-2020
+  Transform gsN20191127S0266.fits[DQ,1] to tmpdq750_272.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4217., x2 =      8957., dx =     0.7551, nx = 6278, xlog = no
+    y1 =         1., y2 =      1044., dy =         1., ny = 1044, ylog = no
+
+GSTRANSFORM exit status: good
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+GSTRANSFORM -- Thu Jan 30 15:21:50 CST 2020
+ 
+
+inimages   = gsN20191127S0267
+outimages  = 
+outprefix  = t
+fl_stran   = no
+fl_wavtran = yes
+wavtraname = gsN20191127S0396
+database   = database
+fl_vardq   = yes
+interptype = linear
+lambda1    = INDEF
+lambda2    = INDEF
+dx         = INDEF
+nx         = INDEF
+lambdalog  = no
+ylog       = no
+fl_flux    = yes
+gratingdb  = gmos$data/GMOSgratings.dat
+filterdb   = gmos$data/GMOSfilters.dat
+key_dispaxis = DISPAXIS
+dispaxis   = 1
+sci_ext    = SCI
+var_ext = VAR
+dq_ext  = DQ
+
+Transforming gsN20191127S0267.fits[SCI,1]
+MDF row: 1
+
+NOAO/IRAF V2.16 mmarcano@tux Thu 15:21:51 30-Jan-2020
+  Transform gsN20191127S0267.fits[SCI,1] to tmpsci750_313.
+  Conserve flux per pixel.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4217., x2 =      8957., dx =     0.7551, nx = 6278, xlog = no
+    y1 =         1., y2 =      1044., dy =         1., ny = 1044, ylog = no
+
+NOAO/IRAF V2.16 mmarcano@tux Thu 15:21:53 30-Jan-2020
+  Transform gsN20191127S0267.fits[VAR,1] to tmpvar750_314.
+  Conserve flux per pixel.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4217., x2 =      8957., dx =     0.7551, nx = 6278, xlog = no
+    y1 =         1., y2 =      1044., dy =         1., ny = 1044, ylog = no
+
+NOAO/IRAF V2.16 mmarcano@tux Thu 15:21:54 30-Jan-2020
+  Transform gsN20191127S0267.fits[DQ,1] to tmpdq750_315.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4217., x2 =      8957., dx =     0.7551, nx = 6278, xlog = no
+    y1 =         1., y2 =      1044., dy =         1., ny = 1044, ylog = no
+
+GSTRANSFORM exit status: good
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+GSTRANSFORM -- Thu Jan 30 15:23:18 CST 2020
+ 
+
+inimages   = gsN20191203S0187
+outimages  = 
+outprefix  = t
+fl_stran   = no
+fl_wavtran = yes
+wavtraname = gsN20191127S0396
+database   = database
+fl_vardq   = yes
+interptype = linear
+lambda1    = INDEF
+lambda2    = INDEF
+dx         = INDEF
+nx         = INDEF
+lambdalog  = no
+ylog       = no
+fl_flux    = yes
+gratingdb  = gmos$data/GMOSgratings.dat
+filterdb   = gmos$data/GMOSfilters.dat
+key_dispaxis = DISPAXIS
+dispaxis   = 1
+sci_ext    = SCI
+var_ext = VAR
+dq_ext  = DQ
+
+Transforming gsN20191203S0187.fits[SCI,1]
+MDF row: 1
+
+NOAO/IRAF V2.16 mmarcano@tux Thu 15:23:19 30-Jan-2020
+  Transform gsN20191203S0187.fits[SCI,1] to tmpsci750_356.
+  Conserve flux per pixel.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4217., x2 =      8957., dx =     0.7551, nx = 6278, xlog = no
+    y1 =         1., y2 =      1044., dy =         1., ny = 1044, ylog = no
+
+NOAO/IRAF V2.16 mmarcano@tux Thu 15:23:20 30-Jan-2020
+  Transform gsN20191203S0187.fits[VAR,1] to tmpvar750_357.
+  Conserve flux per pixel.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4217., x2 =      8957., dx =     0.7551, nx = 6278, xlog = no
+    y1 =         1., y2 =      1044., dy =         1., ny = 1044, ylog = no
+
+NOAO/IRAF V2.16 mmarcano@tux Thu 15:23:21 30-Jan-2020
+  Transform gsN20191203S0187.fits[DQ,1] to tmpdq750_358.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4217., x2 =      8957., dx =     0.7551, nx = 6278, xlog = no
+    y1 =         1., y2 =      1044., dy =         1., ny = 1044, ylog = no
+
+GSTRANSFORM exit status: good
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+GSTRANSFORM -- Thu Jan 30 15:24:49 CST 2020
+ 
+
+inimages   = gsN20191203S0188
+outimages  = 
+outprefix  = t
+fl_stran   = no
+fl_wavtran = yes
+wavtraname = gsN20191127S0396
+database   = database
+fl_vardq   = yes
+interptype = linear
+lambda1    = INDEF
+lambda2    = INDEF
+dx         = INDEF
+nx         = INDEF
+lambdalog  = no
+ylog       = no
+fl_flux    = yes
+gratingdb  = gmos$data/GMOSgratings.dat
+filterdb   = gmos$data/GMOSfilters.dat
+key_dispaxis = DISPAXIS
+dispaxis   = 1
+sci_ext    = SCI
+var_ext = VAR
+dq_ext  = DQ
+
+Transforming gsN20191203S0188.fits[SCI,1]
+MDF row: 1
+
+NOAO/IRAF V2.16 mmarcano@tux Thu 15:24:50 30-Jan-2020
+  Transform gsN20191203S0188.fits[SCI,1] to tmpsci750_399.
+  Conserve flux per pixel.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4217., x2 =      8957., dx =     0.7551, nx = 6278, xlog = no
+    y1 =         1., y2 =      1044., dy =         1., ny = 1044, ylog = no
+
+NOAO/IRAF V2.16 mmarcano@tux Thu 15:24:52 30-Jan-2020
+  Transform gsN20191203S0188.fits[VAR,1] to tmpvar750_400.
+  Conserve flux per pixel.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4217., x2 =      8957., dx =     0.7551, nx = 6278, xlog = no
+    y1 =         1., y2 =      1044., dy =         1., ny = 1044, ylog = no
+
+NOAO/IRAF V2.16 mmarcano@tux Thu 15:24:53 30-Jan-2020
+  Transform gsN20191203S0188.fits[DQ,1] to tmpdq750_401.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4217., x2 =      8957., dx =     0.7551, nx = 6278, xlog = no
+    y1 =         1., y2 =      1044., dy =         1., ny = 1044, ylog = no
+
+GSTRANSFORM exit status: good
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+GSTRANSFORM -- Thu Jan 30 15:26:16 CST 2020
+ 
+
+inimages   = gsN20191205S0097
+outimages  = 
+outprefix  = t
+fl_stran   = no
+fl_wavtran = yes
+wavtraname = gsN20191127S0396
+database   = database
+fl_vardq   = yes
+interptype = linear
+lambda1    = INDEF
+lambda2    = INDEF
+dx         = INDEF
+nx         = INDEF
+lambdalog  = no
+ylog       = no
+fl_flux    = yes
+gratingdb  = gmos$data/GMOSgratings.dat
+filterdb   = gmos$data/GMOSfilters.dat
+key_dispaxis = DISPAXIS
+dispaxis   = 1
+sci_ext    = SCI
+var_ext = VAR
+dq_ext  = DQ
+
+Transforming gsN20191205S0097.fits[SCI,1]
+MDF row: 1
+
+NOAO/IRAF V2.16 mmarcano@tux Thu 15:26:17 30-Jan-2020
+  Transform gsN20191205S0097.fits[SCI,1] to tmpsci750_442.
+  Conserve flux per pixel.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4217., x2 =      8957., dx =     0.7551, nx = 6278, xlog = no
+    y1 =         1., y2 =      1044., dy =         1., ny = 1044, ylog = no
+
+NOAO/IRAF V2.16 mmarcano@tux Thu 15:26:18 30-Jan-2020
+  Transform gsN20191205S0097.fits[VAR,1] to tmpvar750_443.
+  Conserve flux per pixel.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4217., x2 =      8957., dx =     0.7551, nx = 6278, xlog = no
+    y1 =         1., y2 =      1044., dy =         1., ny = 1044, ylog = no
+
+NOAO/IRAF V2.16 mmarcano@tux Thu 15:26:20 30-Jan-2020
+  Transform gsN20191205S0097.fits[DQ,1] to tmpdq750_444.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4217., x2 =      8957., dx =     0.7551, nx = 6278, xlog = no
+    y1 =         1., y2 =      1044., dy =         1., ny = 1044, ylog = no
+
+GSTRANSFORM exit status: good
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+GSTRANSFORM -- Thu Jan 30 15:27:39 CST 2020
+ 
+
+inimages   = gsN20191205S0098
+outimages  = 
+outprefix  = t
+fl_stran   = no
+fl_wavtran = yes
+wavtraname = gsN20191127S0396
+database   = database
+fl_vardq   = yes
+interptype = linear
+lambda1    = INDEF
+lambda2    = INDEF
+dx         = INDEF
+nx         = INDEF
+lambdalog  = no
+ylog       = no
+fl_flux    = yes
+gratingdb  = gmos$data/GMOSgratings.dat
+filterdb   = gmos$data/GMOSfilters.dat
+key_dispaxis = DISPAXIS
+dispaxis   = 1
+sci_ext    = SCI
+var_ext = VAR
+dq_ext  = DQ
+
+Transforming gsN20191205S0098.fits[SCI,1]
+MDF row: 1
+
+NOAO/IRAF V2.16 mmarcano@tux Thu 15:27:40 30-Jan-2020
+  Transform gsN20191205S0098.fits[SCI,1] to tmpsci750_485.
+  Conserve flux per pixel.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4217., x2 =      8957., dx =     0.7551, nx = 6278, xlog = no
+    y1 =         1., y2 =      1044., dy =         1., ny = 1044, ylog = no
+
+NOAO/IRAF V2.16 mmarcano@tux Thu 15:27:41 30-Jan-2020
+  Transform gsN20191205S0098.fits[VAR,1] to tmpvar750_486.
+  Conserve flux per pixel.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4217., x2 =      8957., dx =     0.7551, nx = 6278, xlog = no
+    y1 =         1., y2 =      1044., dy =         1., ny = 1044, ylog = no
+
+NOAO/IRAF V2.16 mmarcano@tux Thu 15:27:42 30-Jan-2020
+  Transform gsN20191205S0098.fits[DQ,1] to tmpdq750_487.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4217., x2 =      8957., dx =     0.7551, nx = 6278, xlog = no
+    y1 =         1., y2 =      1044., dy =         1., ny = 1044, ylog = no
+
+GSTRANSFORM exit status: good
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+GSTRANSFORM -- Thu Jan 30 15:29:04 CST 2020
+ 
+
+inimages   = gsN20191205S0099
+outimages  = 
+outprefix  = t
+fl_stran   = no
+fl_wavtran = yes
+wavtraname = gsN20191127S0396
+database   = database
+fl_vardq   = yes
+interptype = linear
+lambda1    = INDEF
+lambda2    = INDEF
+dx         = INDEF
+nx         = INDEF
+lambdalog  = no
+ylog       = no
+fl_flux    = yes
+gratingdb  = gmos$data/GMOSgratings.dat
+filterdb   = gmos$data/GMOSfilters.dat
+key_dispaxis = DISPAXIS
+dispaxis   = 1
+sci_ext    = SCI
+var_ext = VAR
+dq_ext  = DQ
+
+Transforming gsN20191205S0099.fits[SCI,1]
+MDF row: 1
+
+NOAO/IRAF V2.16 mmarcano@tux Thu 15:29:05 30-Jan-2020
+  Transform gsN20191205S0099.fits[SCI,1] to tmpsci750_528.
+  Conserve flux per pixel.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4217., x2 =      8957., dx =     0.7551, nx = 6278, xlog = no
+    y1 =         1., y2 =      1044., dy =         1., ny = 1044, ylog = no
+
+NOAO/IRAF V2.16 mmarcano@tux Thu 15:29:06 30-Jan-2020
+  Transform gsN20191205S0099.fits[VAR,1] to tmpvar750_529.
+  Conserve flux per pixel.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4217., x2 =      8957., dx =     0.7551, nx = 6278, xlog = no
+    y1 =         1., y2 =      1044., dy =         1., ny = 1044, ylog = no
+
+NOAO/IRAF V2.16 mmarcano@tux Thu 15:29:07 30-Jan-2020
+  Transform gsN20191205S0099.fits[DQ,1] to tmpdq750_530.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4217., x2 =      8957., dx =     0.7551, nx = 6278, xlog = no
+    y1 =         1., y2 =      1044., dy =         1., ny = 1044, ylog = no
+
+GSTRANSFORM exit status: good
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+GSTRANSFORM -- Thu Jan 30 15:30:30 CST 2020
+ 
+
+inimages   = gsN20191205S0100
+outimages  = 
+outprefix  = t
+fl_stran   = no
+fl_wavtran = yes
+wavtraname = gsN20191127S0396
+database   = database
+fl_vardq   = yes
+interptype = linear
+lambda1    = INDEF
+lambda2    = INDEF
+dx         = INDEF
+nx         = INDEF
+lambdalog  = no
+ylog       = no
+fl_flux    = yes
+gratingdb  = gmos$data/GMOSgratings.dat
+filterdb   = gmos$data/GMOSfilters.dat
+key_dispaxis = DISPAXIS
+dispaxis   = 1
+sci_ext    = SCI
+var_ext = VAR
+dq_ext  = DQ
+
+Transforming gsN20191205S0100.fits[SCI,1]
+MDF row: 1
+
+NOAO/IRAF V2.16 mmarcano@tux Thu 15:30:31 30-Jan-2020
+  Transform gsN20191205S0100.fits[SCI,1] to tmpsci750_571.
+  Conserve flux per pixel.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4217., x2 =      8957., dx =     0.7551, nx = 6278, xlog = no
+    y1 =         1., y2 =      1044., dy =         1., ny = 1044, ylog = no
+
+NOAO/IRAF V2.16 mmarcano@tux Thu 15:30:32 30-Jan-2020
+  Transform gsN20191205S0100.fits[VAR,1] to tmpvar750_572.
+  Conserve flux per pixel.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4217., x2 =      8957., dx =     0.7551, nx = 6278, xlog = no
+    y1 =         1., y2 =      1044., dy =         1., ny = 1044, ylog = no
+
+NOAO/IRAF V2.16 mmarcano@tux Thu 15:30:34 30-Jan-2020
+  Transform gsN20191205S0100.fits[DQ,1] to tmpdq750_573.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4217., x2 =      8957., dx =     0.7551, nx = 6278, xlog = no
+    y1 =         1., y2 =      1044., dy =         1., ny = 1044, ylog = no
+
+GSTRANSFORM exit status: good
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+GSTRANSFORM -- Thu Jan 30 15:32:11 CST 2020
+ 
+
+inimages   = gsN20191205S0101
+outimages  = 
+outprefix  = t
+fl_stran   = no
+fl_wavtran = yes
+wavtraname = gsN20191127S0396
+database   = database
+fl_vardq   = yes
+interptype = linear
+lambda1    = INDEF
+lambda2    = INDEF
+dx         = INDEF
+nx         = INDEF
+lambdalog  = no
+ylog       = no
+fl_flux    = yes
+gratingdb  = gmos$data/GMOSgratings.dat
+filterdb   = gmos$data/GMOSfilters.dat
+key_dispaxis = DISPAXIS
+dispaxis   = 1
+sci_ext    = SCI
+var_ext = VAR
+dq_ext  = DQ
+
+Transforming gsN20191205S0101.fits[SCI,1]
+MDF row: 1
+
+NOAO/IRAF V2.16 mmarcano@tux Thu 15:32:13 30-Jan-2020
+  Transform gsN20191205S0101.fits[SCI,1] to tmpsci750_614.
+  Conserve flux per pixel.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4217., x2 =      8957., dx =     0.7551, nx = 6278, xlog = no
+    y1 =         1., y2 =      1044., dy =         1., ny = 1044, ylog = no
+
+NOAO/IRAF V2.16 mmarcano@tux Thu 15:32:14 30-Jan-2020
+  Transform gsN20191205S0101.fits[VAR,1] to tmpvar750_615.
+  Conserve flux per pixel.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4217., x2 =      8957., dx =     0.7551, nx = 6278, xlog = no
+    y1 =         1., y2 =      1044., dy =         1., ny = 1044, ylog = no
+
+NOAO/IRAF V2.16 mmarcano@tux Thu 15:32:15 30-Jan-2020
+  Transform gsN20191205S0101.fits[DQ,1] to tmpdq750_616.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4217., x2 =      8957., dx =     0.7551, nx = 6278, xlog = no
+    y1 =         1., y2 =      1044., dy =         1., ny = 1044, ylog = no
+
+GSTRANSFORM exit status: good
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+GSTRANSFORM -- Thu Jan 30 15:33:32 CST 2020
+ 
+
+inimages   = gsN20191205S0102
+outimages  = 
+outprefix  = t
+fl_stran   = no
+fl_wavtran = yes
+wavtraname = gsN20191127S0396
+database   = database
+fl_vardq   = yes
+interptype = linear
+lambda1    = INDEF
+lambda2    = INDEF
+dx         = INDEF
+nx         = INDEF
+lambdalog  = no
+ylog       = no
+fl_flux    = yes
+gratingdb  = gmos$data/GMOSgratings.dat
+filterdb   = gmos$data/GMOSfilters.dat
+key_dispaxis = DISPAXIS
+dispaxis   = 1
+sci_ext    = SCI
+var_ext = VAR
+dq_ext  = DQ
+
+Transforming gsN20191205S0102.fits[SCI,1]
+MDF row: 1
+
+NOAO/IRAF V2.16 mmarcano@tux Thu 15:33:33 30-Jan-2020
+  Transform gsN20191205S0102.fits[SCI,1] to tmpsci750_657.
+  Conserve flux per pixel.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4217., x2 =      8957., dx =     0.7551, nx = 6278, xlog = no
+    y1 =         1., y2 =      1044., dy =         1., ny = 1044, ylog = no
+
+NOAO/IRAF V2.16 mmarcano@tux Thu 15:33:34 30-Jan-2020
+  Transform gsN20191205S0102.fits[VAR,1] to tmpvar750_658.
+  Conserve flux per pixel.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4217., x2 =      8957., dx =     0.7551, nx = 6278, xlog = no
+    y1 =         1., y2 =      1044., dy =         1., ny = 1044, ylog = no
+
+NOAO/IRAF V2.16 mmarcano@tux Thu 15:33:35 30-Jan-2020
+  Transform gsN20191205S0102.fits[DQ,1] to tmpdq750_659.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4217., x2 =      8957., dx =     0.7551, nx = 6278, xlog = no
+    y1 =         1., y2 =      1044., dy =         1., ny = 1044, ylog = no
+
+GSTRANSFORM exit status: good
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+GSTRANSFORM -- Thu Jan 30 15:34:53 CST 2020
+ 
+
+inimages   = gsN20191205S0105
+outimages  = 
+outprefix  = t
+fl_stran   = no
+fl_wavtran = yes
+wavtraname = gsN20191127S0396
+database   = database
+fl_vardq   = yes
+interptype = linear
+lambda1    = INDEF
+lambda2    = INDEF
+dx         = INDEF
+nx         = INDEF
+lambdalog  = no
+ylog       = no
+fl_flux    = yes
+gratingdb  = gmos$data/GMOSgratings.dat
+filterdb   = gmos$data/GMOSfilters.dat
+key_dispaxis = DISPAXIS
+dispaxis   = 1
+sci_ext    = SCI
+var_ext = VAR
+dq_ext  = DQ
+
+Transforming gsN20191205S0105.fits[SCI,1]
+MDF row: 1
+
+NOAO/IRAF V2.16 mmarcano@tux Thu 15:34:54 30-Jan-2020
+  Transform gsN20191205S0105.fits[SCI,1] to tmpsci750_700.
+  Conserve flux per pixel.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4217., x2 =      8957., dx =     0.7551, nx = 6278, xlog = no
+    y1 =         1., y2 =      1044., dy =         1., ny = 1044, ylog = no
+
+NOAO/IRAF V2.16 mmarcano@tux Thu 15:34:55 30-Jan-2020
+  Transform gsN20191205S0105.fits[VAR,1] to tmpvar750_701.
+  Conserve flux per pixel.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4217., x2 =      8957., dx =     0.7551, nx = 6278, xlog = no
+    y1 =         1., y2 =      1044., dy =         1., ny = 1044, ylog = no
+
+NOAO/IRAF V2.16 mmarcano@tux Thu 15:34:57 30-Jan-2020
+  Transform gsN20191205S0105.fits[DQ,1] to tmpdq750_702.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4217., x2 =      8957., dx =     0.7551, nx = 6278, xlog = no
+    y1 =         1., y2 =      1044., dy =         1., ny = 1044, ylog = no
+
+GSTRANSFORM exit status: good
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+GSTRANSFORM -- Thu Jan 30 15:36:16 CST 2020
+ 
+
+inimages   = gsN20191205S0107
+outimages  = 
+outprefix  = t
+fl_stran   = no
+fl_wavtran = yes
+wavtraname = gsN20191127S0396
+database   = database
+fl_vardq   = yes
+interptype = linear
+lambda1    = INDEF
+lambda2    = INDEF
+dx         = INDEF
+nx         = INDEF
+lambdalog  = no
+ylog       = no
+fl_flux    = yes
+gratingdb  = gmos$data/GMOSgratings.dat
+filterdb   = gmos$data/GMOSfilters.dat
+key_dispaxis = DISPAXIS
+dispaxis   = 1
+sci_ext    = SCI
+var_ext = VAR
+dq_ext  = DQ
+
+Transforming gsN20191205S0107.fits[SCI,1]
+MDF row: 1
+
+NOAO/IRAF V2.16 mmarcano@tux Thu 15:36:17 30-Jan-2020
+  Transform gsN20191205S0107.fits[SCI,1] to tmpsci750_743.
+  Conserve flux per pixel.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4217., x2 =      8957., dx =     0.7551, nx = 6278, xlog = no
+    y1 =         1., y2 =      1044., dy =         1., ny = 1044, ylog = no
+
+NOAO/IRAF V2.16 mmarcano@tux Thu 15:36:18 30-Jan-2020
+  Transform gsN20191205S0107.fits[VAR,1] to tmpvar750_744.
+  Conserve flux per pixel.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4217., x2 =      8957., dx =     0.7551, nx = 6278, xlog = no
+    y1 =         1., y2 =      1044., dy =         1., ny = 1044, ylog = no
+
+NOAO/IRAF V2.16 mmarcano@tux Thu 15:36:19 30-Jan-2020
+  Transform gsN20191205S0107.fits[DQ,1] to tmpdq750_745.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4217., x2 =      8957., dx =     0.7551, nx = 6278, xlog = no
+    y1 =         1., y2 =      1044., dy =         1., ny = 1044, ylog = no
+
+GSTRANSFORM exit status: good
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+GSTRANSFORM -- Thu Jan 30 15:37:38 CST 2020
+ 
+
+inimages   = gsN20191205S0108
+outimages  = 
+outprefix  = t
+fl_stran   = no
+fl_wavtran = yes
+wavtraname = gsN20191127S0396
+database   = database
+fl_vardq   = yes
+interptype = linear
+lambda1    = INDEF
+lambda2    = INDEF
+dx         = INDEF
+nx         = INDEF
+lambdalog  = no
+ylog       = no
+fl_flux    = yes
+gratingdb  = gmos$data/GMOSgratings.dat
+filterdb   = gmos$data/GMOSfilters.dat
+key_dispaxis = DISPAXIS
+dispaxis   = 1
+sci_ext    = SCI
+var_ext = VAR
+dq_ext  = DQ
+
+Transforming gsN20191205S0108.fits[SCI,1]
+MDF row: 1
+
+NOAO/IRAF V2.16 mmarcano@tux Thu 15:37:39 30-Jan-2020
+  Transform gsN20191205S0108.fits[SCI,1] to tmpsci750_786.
+  Conserve flux per pixel.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4217., x2 =      8957., dx =     0.7551, nx = 6278, xlog = no
+    y1 =         1., y2 =      1044., dy =         1., ny = 1044, ylog = no
+
+NOAO/IRAF V2.16 mmarcano@tux Thu 15:37:40 30-Jan-2020
+  Transform gsN20191205S0108.fits[VAR,1] to tmpvar750_787.
+  Conserve flux per pixel.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4217., x2 =      8957., dx =     0.7551, nx = 6278, xlog = no
+    y1 =         1., y2 =      1044., dy =         1., ny = 1044, ylog = no
+
+NOAO/IRAF V2.16 mmarcano@tux Thu 15:37:41 30-Jan-2020
+  Transform gsN20191205S0108.fits[DQ,1] to tmpdq750_788.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4217., x2 =      8957., dx =     0.7551, nx = 6278, xlog = no
+    y1 =         1., y2 =      1044., dy =         1., ny = 1044, ylog = no
+
+GSTRANSFORM exit status: good
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+GSTRANSFORM -- Thu Jan 30 15:39:01 CST 2020
+ 
+
+inimages   = gsN20191205S0109
+outimages  = 
+outprefix  = t
+fl_stran   = no
+fl_wavtran = yes
+wavtraname = gsN20191127S0396
+database   = database
+fl_vardq   = yes
+interptype = linear
+lambda1    = INDEF
+lambda2    = INDEF
+dx         = INDEF
+nx         = INDEF
+lambdalog  = no
+ylog       = no
+fl_flux    = yes
+gratingdb  = gmos$data/GMOSgratings.dat
+filterdb   = gmos$data/GMOSfilters.dat
+key_dispaxis = DISPAXIS
+dispaxis   = 1
+sci_ext    = SCI
+var_ext = VAR
+dq_ext  = DQ
+
+Transforming gsN20191205S0109.fits[SCI,1]
+MDF row: 1
+
+NOAO/IRAF V2.16 mmarcano@tux Thu 15:39:02 30-Jan-2020
+  Transform gsN20191205S0109.fits[SCI,1] to tmpsci750_829.
+  Conserve flux per pixel.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4217., x2 =      8957., dx =     0.7551, nx = 6278, xlog = no
+    y1 =         1., y2 =      1044., dy =         1., ny = 1044, ylog = no
+
+NOAO/IRAF V2.16 mmarcano@tux Thu 15:39:03 30-Jan-2020
+  Transform gsN20191205S0109.fits[VAR,1] to tmpvar750_830.
+  Conserve flux per pixel.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4217., x2 =      8957., dx =     0.7551, nx = 6278, xlog = no
+    y1 =         1., y2 =      1044., dy =         1., ny = 1044, ylog = no
+
+NOAO/IRAF V2.16 mmarcano@tux Thu 15:39:04 30-Jan-2020
+  Transform gsN20191205S0109.fits[DQ,1] to tmpdq750_831.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4217., x2 =      8957., dx =     0.7551, nx = 6278, xlog = no
+    y1 =         1., y2 =      1044., dy =         1., ny = 1044, ylog = no
+
+GSTRANSFORM exit status: good
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+GSTRANSFORM -- Thu Jan 30 15:40:23 CST 2020
+ 
+
+inimages   = gsN20191205S0110
+outimages  = 
+outprefix  = t
+fl_stran   = no
+fl_wavtran = yes
+wavtraname = gsN20191127S0396
+database   = database
+fl_vardq   = yes
+interptype = linear
+lambda1    = INDEF
+lambda2    = INDEF
+dx         = INDEF
+nx         = INDEF
+lambdalog  = no
+ylog       = no
+fl_flux    = yes
+gratingdb  = gmos$data/GMOSgratings.dat
+filterdb   = gmos$data/GMOSfilters.dat
+key_dispaxis = DISPAXIS
+dispaxis   = 1
+sci_ext    = SCI
+var_ext = VAR
+dq_ext  = DQ
+
+Transforming gsN20191205S0110.fits[SCI,1]
+MDF row: 1
+
+NOAO/IRAF V2.16 mmarcano@tux Thu 15:40:24 30-Jan-2020
+  Transform gsN20191205S0110.fits[SCI,1] to tmpsci750_872.
+  Conserve flux per pixel.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4217., x2 =      8957., dx =     0.7551, nx = 6278, xlog = no
+    y1 =         1., y2 =      1044., dy =         1., ny = 1044, ylog = no
+
+NOAO/IRAF V2.16 mmarcano@tux Thu 15:40:25 30-Jan-2020
+  Transform gsN20191205S0110.fits[VAR,1] to tmpvar750_873.
+  Conserve flux per pixel.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4217., x2 =      8957., dx =     0.7551, nx = 6278, xlog = no
+    y1 =         1., y2 =      1044., dy =         1., ny = 1044, ylog = no
+
+NOAO/IRAF V2.16 mmarcano@tux Thu 15:40:27 30-Jan-2020
+  Transform gsN20191205S0110.fits[DQ,1] to tmpdq750_874.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4217., x2 =      8957., dx =     0.7551, nx = 6278, xlog = no
+    y1 =         1., y2 =      1044., dy =         1., ny = 1044, ylog = no
+
+GSTRANSFORM exit status: good
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+GSTRANSFORM -- Thu Jan 30 15:51:06 CST 2020
+ 
+ERROR - GSTRANSFORM: Output image tgsN20191127S0262 exists
+ERROR - GSTRANSFORM: 1 errors found with input parameters. Exiting.
+
+GSTRANSFORM exit status: error
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+GSTRANSFORM -- Thu Jan 30 15:52:25 CST 2020
+ 
+ERROR - GSTRANSFORM: Output image tgsN20191127S0263 exists
+ERROR - GSTRANSFORM: 1 errors found with input parameters. Exiting.
+
+GSTRANSFORM exit status: error
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+GSTRANSFORM -- Thu Jan 30 15:53:55 CST 2020
+ 
+ERROR - GSTRANSFORM: Output image tgsN20191127S0264 exists
+ERROR - GSTRANSFORM: 1 errors found with input parameters. Exiting.
+
+GSTRANSFORM exit status: error
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+GSTRANSFORM -- Thu Jan 30 15:55:23 CST 2020
+ 
+ERROR - GSTRANSFORM: Output image tgsN20191127S0265 exists
+ERROR - GSTRANSFORM: 1 errors found with input parameters. Exiting.
+
+GSTRANSFORM exit status: error
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+GSTRANSFORM -- Thu Jan 30 15:56:51 CST 2020
+ 
+ERROR - GSTRANSFORM: Output image tgsN20191127S0266 exists
+ERROR - GSTRANSFORM: 1 errors found with input parameters. Exiting.
+
+GSTRANSFORM exit status: error
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+GSTRANSFORM -- Thu Jan 30 15:58:25 CST 2020
+ 
+ERROR - GSTRANSFORM: Output image tgsN20191127S0267 exists
+ERROR - GSTRANSFORM: 1 errors found with input parameters. Exiting.
+
+GSTRANSFORM exit status: error
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+GSTRANSFORM -- Thu Jan 30 15:59:57 CST 2020
+ 
+ERROR - GSTRANSFORM: Output image tgsN20191203S0187 exists
+ERROR - GSTRANSFORM: 1 errors found with input parameters. Exiting.
+
+GSTRANSFORM exit status: error
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+GSTRANSFORM -- Thu Jan 30 16:01:28 CST 2020
+ 
+ERROR - GSTRANSFORM: Output image tgsN20191203S0188 exists
+ERROR - GSTRANSFORM: 1 errors found with input parameters. Exiting.
+
+GSTRANSFORM exit status: error
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+GSTRANSFORM -- Thu Jan 30 16:02:57 CST 2020
+ 
+ERROR - GSTRANSFORM: Output image tgsN20191205S0097 exists
+ERROR - GSTRANSFORM: 1 errors found with input parameters. Exiting.
+
+GSTRANSFORM exit status: error
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+GSTRANSFORM -- Thu Jan 30 16:04:26 CST 2020
+ 
+ERROR - GSTRANSFORM: Output image tgsN20191205S0098 exists
+ERROR - GSTRANSFORM: 1 errors found with input parameters. Exiting.
+
+GSTRANSFORM exit status: error
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+GSTRANSFORM -- Thu Jan 30 16:05:55 CST 2020
+ 
+ERROR - GSTRANSFORM: Output image tgsN20191205S0099 exists
+ERROR - GSTRANSFORM: 1 errors found with input parameters. Exiting.
+
+GSTRANSFORM exit status: error
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+GSTRANSFORM -- Thu Jan 30 16:07:26 CST 2020
+ 
+ERROR - GSTRANSFORM: Output image tgsN20191205S0100 exists
+ERROR - GSTRANSFORM: 1 errors found with input parameters. Exiting.
+
+GSTRANSFORM exit status: error
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+GSTRANSFORM -- Thu Jan 30 16:08:57 CST 2020
+ 
+ERROR - GSTRANSFORM: Output image tgsN20191205S0101 exists
+ERROR - GSTRANSFORM: 1 errors found with input parameters. Exiting.
+
+GSTRANSFORM exit status: error
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+GSTRANSFORM -- Thu Jan 30 16:11:37 CST 2020
+ 
+ERROR - GSTRANSFORM: Output image tgsN20191205S0102 exists
+ERROR - GSTRANSFORM: 1 errors found with input parameters. Exiting.
+
+GSTRANSFORM exit status: error
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+GSTRANSFORM -- Thu Jan 30 16:13:14 CST 2020
+ 
+ERROR - GSTRANSFORM: Output image tgsN20191205S0105 exists
+ERROR - GSTRANSFORM: 1 errors found with input parameters. Exiting.
+
+GSTRANSFORM exit status: error
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+GSTRANSFORM -- Thu Jan 30 16:14:47 CST 2020
+ 
+ERROR - GSTRANSFORM: Output image tgsN20191205S0107 exists
+ERROR - GSTRANSFORM: 1 errors found with input parameters. Exiting.
+
+GSTRANSFORM exit status: error
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+GSTRANSFORM -- Thu Jan 30 16:16:21 CST 2020
+ 
+ERROR - GSTRANSFORM: Output image tgsN20191205S0108 exists
+ERROR - GSTRANSFORM: 1 errors found with input parameters. Exiting.
+
+GSTRANSFORM exit status: error
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+GSTRANSFORM -- Thu Jan 30 16:17:52 CST 2020
+ 
+ERROR - GSTRANSFORM: Output image tgsN20191205S0109 exists
+ERROR - GSTRANSFORM: 1 errors found with input parameters. Exiting.
+
+GSTRANSFORM exit status: error
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+GSTRANSFORM -- Thu Jan 30 16:19:20 CST 2020
+ 
+ERROR - GSTRANSFORM: Output image tgsN20191205S0110 exists
+ERROR - GSTRANSFORM: 1 errors found with input parameters. Exiting.
+
+GSTRANSFORM exit status: error
+-------------------------------------------------------------------------------
+
