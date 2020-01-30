@@ -1,0 +1,134 @@
+
+----------------------------------------------------------------------------
+GSREDUCE -- Fri Jan 24 14:59:22 CST 2020
+
+Input image or list  = @Sci.txt
+Output image or list = 
+Output prefix        = gsr
+
+Overscan subtraction  fl_over      = yes
+Trim image            fl_trim      = yes
+Bias subtraction      fl_bias      = yes
+Cosmic ray cleaning   fl_gscrrej   = no
+New CR cleaning       fl_crspec    = no
+Dark subtraction      fl_dark      = no
+QE Correction         fl_qecorr    = no
+Flat field correction fl_flat      = no
+Mosaic the CCDs       fl_gmosaic   = no
+Fixpix chip gaps      fl_fixpix    = no
+Cut MOS spectra       fl_cut       = no
+Add titles to MOS     fl_title     = yes
+Oversize slit length  fl_oversize  = yes
+Run gsappwave         fl_gsappwave = no
+Run gsscatsub         fl_scatsub   = no
+VAR & DQ planes       fl_vardq     = no
+
+geointer = linear
+gradimage= 
+refimage = 
+bias     = bias_out
+dark     = 
+qe_refim    = 
+qe_corrim   = 
+qe_corrpref = qecorr
+flatim   = 
+sci_ext  = SCI
+var_ext  = VAR
+dq_ext   = DQ
+key_mdf  = MASKNAME
+mdffile  = 
+mdfdir   = gmos$data/
+bpm      = 
+Chip gaps= gmos$data/chipgaps.dat
+
+Input image = N20191123S0038.fits; Output image = gsrN20191123S0038.fits
+GSREDUCE: Image N20191123S0038.fits has been QE corrected? no
+GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
+GSREDUCE: Calling GIREDUCE to process image
+----------------------------------------------------------------------------
+GIREDUCE -- Fri Jan 24 14:59:22 CST 2020
+
+----------------------------------------------------------------------------
+GPREPARE -- Fri Jan 24 14:59:22 CST 2020
+
+Input list    = N20191123S0038
+Output list   = 
+Output prefix = g
+Raw path      = ./
+MDF dir       = gmos$data/
+Add MDF       = yes
+Input MDF in case header keyword not found = 
+
+Input  ./N20191123S0038.fits   Output  gN20191123S0038.fits
+GPREPARE: Using MDF defined in the header 1.5arcsec
+GPREPARE: Taking MDF from directory gmos$data/
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2020-01-24T20:59:23
+File[extension]:             AMPNAME               GAIN   READNOISE
+gN20191123S0038.fits[SCI,1]: " "BI13-20-4k-1, 4""  1.675  4.06
+gN20191123S0038.fits[SCI,2]: " "BI13-20-4k-1, 3""  1.618  4.12
+gN20191123S0038.fits[SCI,3]: " "BI13-20-4k-1, 2""  1.620  4.12
+gN20191123S0038.fits[SCI,4]: " "BI13-20-4k-1, 1""  1.568  3.99
+gN20191123S0038.fits[SCI,5]: " "BI12-09-4k-2, 4""  1.690  4.20
+gN20191123S0038.fits[SCI,6]: " "BI12-09-4k-2, 3""  1.650  3.98
+gN20191123S0038.fits[SCI,7]: " "BI12-09-4k-2, 2""  1.633  3.88
+gN20191123S0038.fits[SCI,8]: " "BI12-09-4k-2, 1""  1.664  4.20
+gN20191123S0038.fits[SCI,9]: " "BI13-18-4k-2, 4""  1.604  4.04
+gN20191123S0038.fits[SCI,10]: " "BI13-18-4k-2, 3""  1.630  4.35
+gN20191123S0038.fits[SCI,11]: " "BI13-18-4k-2, 2""  1.587  4.02
+gN20191123S0038.fits[SCI,12]: " "BI13-18-4k-2, 1""  1.654  4.55
+
+GGAIN -- Finished: 2020-01-24T20:59:23
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+
+Input files:
+gN20191123S0038
+
+Output files:
+tmpimage124094_1126
+
+GIREDUCE: Image tmpimage124094_1126 overscan subtracted
+GIREDUCE: Image tmpimage124094_1126 trimmed
+
+Output image       Bias                 Flat               Dark       Scale 
+tmpimage124094_1126 bias_out             INDEF              INDEF       0.00
+GIREDUCE: Subtracted bias bias_out from tmpimage124094_1126
+GIREDUCE: multiplying image tmpimage124094_1126 by gain
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2020-01-24T20:59:38
+File[extension]:                 AMPNAME               GAIN   READNOISE
+tmpimage124094_1126.fits[SCI,1]: " "BI13-20-4k-1, 4""  1.675  4.06
+tmpimage124094_1126.fits[SCI,2]: " "BI13-20-4k-1, 3""  1.618  4.12
+tmpimage124094_1126.fits[SCI,3]: " "BI13-20-4k-1, 2""  1.620  4.12
+tmpimage124094_1126.fits[SCI,4]: " "BI13-20-4k-1, 1""  1.568  3.99
+tmpimage124094_1126.fits[SCI,5]: " "BI12-09-4k-2, 4""  1.690  4.20
+tmpimage124094_1126.fits[SCI,6]: " "BI12-09-4k-2, 3""  1.650  3.98
+tmpimage124094_1126.fits[SCI,7]: " "BI12-09-4k-2, 2""  1.633  3.88
+tmpimage124094_1126.fits[SCI,8]: " "BI12-09-4k-2, 1""  1.664  4.20
+tmpimage124094_1126.fits[SCI,9]: " "BI13-18-4k-2, 4""  1.604  4.04
+tmpimage124094_1126.fits[SCI,10]: " "BI13-18-4k-2, 3""  1.630  4.35
+tmpimage124094_1126.fits[SCI,11]: " "BI13-18-4k-2, 2""  1.587  4.02
+tmpimage124094_1126.fits[SCI,12]: " "BI13-18-4k-2, 1""  1.654  4.55
+
+GGAIN -- Finished: 2020-01-24T20:59:40
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+GIREDUCE: output counts in electrons
+
+GIREDUCE - Cleaning up -- Fri Jan 24 14:59:40 CST 2020
+
+GIREDUCE -- Fri Jan 24 14:59:40 CST 2020
+GIREDUCE exit status:  good.
+----------------------------------------------------------------------------
+GSREDUCE: Updating PHU and cleaning up
+ 
+GSREDUCE done
+----------------------------------------------------------------------------

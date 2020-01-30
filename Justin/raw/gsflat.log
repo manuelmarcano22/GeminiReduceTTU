@@ -1,0 +1,1984 @@
+
+--------------------------------------------------------------------------------
+GSFLAT -- Fri Jan 24 14:55:55 CST 2020
+
+Input images or list              = N20191123S0039
+Output spectral flat              = fN20191123S0039
+Correct for slit function         = no
+Keep combined flat combflat       = no
+
+Fitting parameters for Spectral Flatfield: 
+  interactive = no
+  function    = spline3
+  order       = 19
+  low_reject  = 3.0
+  high_reject = 3.0
+  niterate    = 2
+  Fit detectors separately fl_detec = yes
+
+Overscan Subtraction fl_over   = yes
+Trim image           fl_trim   = yes
+Bias Subtraction     fl_bias   = yes
+Dark Subtraction     fl_dark   = no
+QE Correction        fl_qecorr = no
+VAR & DQ planes      fl_vardq  = no
+Fixpix chip gaps     fl_fixpix = no
+Oversize slit length fl_oversize = yes
+Fit detec. by detec. fl_detec  = yes
+Fit rows separately  fl_seprows = yes
+Use gradient method  fl_usegrad= no
+Mask emission lines  fl_emis   = no
+Reference image      refimage  = 
+N&S double flatfield fl_double = no
+
+bias        = bias_out
+dark        = 
+qe_refim    = 
+qe_corrim   = 
+qe_corrpref = qecorr
+sci_ext     = SCI
+var_ext     = VAR
+dq_ext      = DQ
+bpm         = 
+key_mdf     = MASKNAME
+mdffile     = 
+mdfdir      = gmos$data/
+Chip gaps   = gmos$data/chipgaps.dat
+rawpath     = 
+
+ 
+GSFLAT: Calling GSREDUCE.
+ 
+
+----------------------------------------------------------------------------
+GSREDUCE -- Fri Jan 24 14:55:55 CST 2020
+
+Input image or list  = @tmpfilelist24094_749
+Output image or list = 
+Output prefix        = gs
+
+Overscan subtraction  fl_over      = yes
+Trim image            fl_trim      = yes
+Bias subtraction      fl_bias      = yes
+Cosmic ray cleaning   fl_gscrrej   = no
+New CR cleaning       fl_crspec    = no
+Dark subtraction      fl_dark      = no
+QE Correction         fl_qecorr    = no
+Flat field correction fl_flat      = no
+Mosaic the CCDs       fl_gmosaic   = no
+Fixpix chip gaps      fl_fixpix    = no
+Cut MOS spectra       fl_cut       = no
+Add titles to MOS     fl_title     = no
+Oversize slit length  fl_oversize  = yes
+Run gsappwave         fl_gsappwave = no
+Run gsscatsub         fl_scatsub   = no
+VAR & DQ planes       fl_vardq     = no
+
+geointer = linear
+gradimage= 
+refimage = 
+bias     = bias_out
+dark     = 
+qe_refim    = 
+qe_corrim   = 
+qe_corrpref = qecorr
+flatim   = 
+sci_ext  = SCI
+var_ext  = VAR
+dq_ext   = DQ
+key_mdf  = MASKNAME
+mdffile  = 
+mdfdir   = gmos$data/
+bpm      = 
+Chip gaps= gmos$data/chipgaps.dat
+
+Input image = N20191123S0039.fits; Output image = gsN20191123S0039.fits
+GSREDUCE: Image N20191123S0039.fits has been QE corrected? no
+GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
+GSREDUCE: Calling GIREDUCE to process image
+----------------------------------------------------------------------------
+GIREDUCE -- Fri Jan 24 14:55:56 CST 2020
+
+----------------------------------------------------------------------------
+GPREPARE -- Fri Jan 24 14:55:56 CST 2020
+
+Input list    = N20191123S0039
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = yes
+Input MDF in case header keyword not found = 
+
+Input  N20191123S0039.fits   Output  gN20191123S0039.fits
+GPREPARE: Using MDF defined in the header 1.5arcsec
+GPREPARE: Taking MDF from directory gmos$data/
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2020-01-24T20:55:56
+File[extension]:             AMPNAME               GAIN   READNOISE
+gN20191123S0039.fits[SCI,1]: " "BI13-20-4k-1, 4""  1.675  4.06
+gN20191123S0039.fits[SCI,2]: " "BI13-20-4k-1, 3""  1.618  4.12
+gN20191123S0039.fits[SCI,3]: " "BI13-20-4k-1, 2""  1.620  4.12
+gN20191123S0039.fits[SCI,4]: " "BI13-20-4k-1, 1""  1.568  3.99
+gN20191123S0039.fits[SCI,5]: " "BI12-09-4k-2, 4""  1.690  4.20
+gN20191123S0039.fits[SCI,6]: " "BI12-09-4k-2, 3""  1.650  3.98
+gN20191123S0039.fits[SCI,7]: " "BI12-09-4k-2, 2""  1.633  3.88
+gN20191123S0039.fits[SCI,8]: " "BI12-09-4k-2, 1""  1.664  4.20
+gN20191123S0039.fits[SCI,9]: " "BI13-18-4k-2, 4""  1.604  4.04
+gN20191123S0039.fits[SCI,10]: " "BI13-18-4k-2, 3""  1.630  4.35
+gN20191123S0039.fits[SCI,11]: " "BI13-18-4k-2, 2""  1.587  4.02
+gN20191123S0039.fits[SCI,12]: " "BI13-18-4k-2, 1""  1.654  4.55
+
+GGAIN -- Finished: 2020-01-24T20:55:57
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+
+Input files:
+gN20191123S0039
+
+Output files:
+tmpimage124094_756
+
+GIREDUCE: Image tmpimage124094_756 overscan subtracted
+GIREDUCE: Image tmpimage124094_756 trimmed
+
+Output image       Bias                 Flat               Dark       Scale 
+tmpimage124094_756 bias_out             INDEF              INDEF       0.00
+GIREDUCE: Subtracted bias bias_out from tmpimage124094_756
+GIREDUCE: multiplying image tmpimage124094_756 by gain
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2020-01-24T20:56:11
+File[extension]:                AMPNAME               GAIN   READNOISE
+tmpimage124094_756.fits[SCI,1]: " "BI13-20-4k-1, 4""  1.675  4.06
+tmpimage124094_756.fits[SCI,2]: " "BI13-20-4k-1, 3""  1.618  4.12
+tmpimage124094_756.fits[SCI,3]: " "BI13-20-4k-1, 2""  1.620  4.12
+tmpimage124094_756.fits[SCI,4]: " "BI13-20-4k-1, 1""  1.568  3.99
+tmpimage124094_756.fits[SCI,5]: " "BI12-09-4k-2, 4""  1.690  4.20
+tmpimage124094_756.fits[SCI,6]: " "BI12-09-4k-2, 3""  1.650  3.98
+tmpimage124094_756.fits[SCI,7]: " "BI12-09-4k-2, 2""  1.633  3.88
+tmpimage124094_756.fits[SCI,8]: " "BI12-09-4k-2, 1""  1.664  4.20
+tmpimage124094_756.fits[SCI,9]: " "BI13-18-4k-2, 4""  1.604  4.04
+tmpimage124094_756.fits[SCI,10]: " "BI13-18-4k-2, 3""  1.630  4.35
+tmpimage124094_756.fits[SCI,11]: " "BI13-18-4k-2, 2""  1.587  4.02
+tmpimage124094_756.fits[SCI,12]: " "BI13-18-4k-2, 1""  1.654  4.55
+
+GGAIN -- Finished: 2020-01-24T20:56:12
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+GIREDUCE: output counts in electrons
+
+GIREDUCE - Cleaning up -- Fri Jan 24 14:56:12 CST 2020
+
+GIREDUCE -- Fri Jan 24 14:56:12 CST 2020
+GIREDUCE exit status:  good.
+----------------------------------------------------------------------------
+GSREDUCE: Updating PHU and cleaning up
+ 
+GSREDUCE done
+----------------------------------------------------------------------------
+GSFLAT: Returned from GSREDUCE.
+GSFLAT: Image #1 - Working on : gsN20191123S0039.fits
+ 
+WARNING - GSFLAT: only one image.
+ 
+ 
+GSFLAT: Begin fitting response functions for detectors
+ 
+GSFLAT: fitting response functions for CCD1
+        sample in fitting 17:512
+GSFLAT: fitting response functions for CCD2
+        sample in fitting 1:512
+GSFLAT: fitting response functions for CCD3
+        sample in fitting 1:512
+GSFLAT: fitting response functions for CCD4
+        sample in fitting 1:495
+GSFLAT: fitting response functions for CCD5
+        sample in fitting 16:512
+GSFLAT: fitting response functions for CCD6
+        sample in fitting 1:512
+GSFLAT: fitting response functions for CCD7
+        sample in fitting 1:512
+GSFLAT: fitting response functions for CCD8
+        sample in fitting 1:495
+GSFLAT: fitting response functions for CCD9
+        sample in fitting 16:512
+GSFLAT: fitting response functions for CCD10
+        sample in fitting 1:512
+GSFLAT: fitting response functions for CCD11
+        sample in fitting 1:512
+GSFLAT: fitting response functions for CCD12
+        sample in fitting 1:484
+ 
+GSFLAT done Fri Jan 24 14:56:13 CST 2020
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+GSFLAT -- Fri Jan 24 14:56:13 CST 2020
+
+Input images or list              = N20191127S0261
+Output spectral flat              = fN20191127S0261
+Correct for slit function         = no
+Keep combined flat combflat       = no
+
+Fitting parameters for Spectral Flatfield: 
+  interactive = no
+  function    = spline3
+  order       = 19
+  low_reject  = 3.0
+  high_reject = 3.0
+  niterate    = 2
+  Fit detectors separately fl_detec = yes
+
+Overscan Subtraction fl_over   = yes
+Trim image           fl_trim   = yes
+Bias Subtraction     fl_bias   = yes
+Dark Subtraction     fl_dark   = no
+QE Correction        fl_qecorr = no
+VAR & DQ planes      fl_vardq  = no
+Fixpix chip gaps     fl_fixpix = no
+Oversize slit length fl_oversize = yes
+Fit detec. by detec. fl_detec  = yes
+Fit rows separately  fl_seprows = yes
+Use gradient method  fl_usegrad= no
+Mask emission lines  fl_emis   = no
+Reference image      refimage  = 
+N&S double flatfield fl_double = no
+
+bias        = bias_out
+dark        = 
+qe_refim    = 
+qe_corrim   = 
+qe_corrpref = qecorr
+sci_ext     = SCI
+var_ext     = VAR
+dq_ext      = DQ
+bpm         = 
+key_mdf     = MASKNAME
+mdffile     = 
+mdfdir      = gmos$data/
+Chip gaps   = gmos$data/chipgaps.dat
+rawpath     = 
+
+ 
+GSFLAT: Calling GSREDUCE.
+ 
+
+----------------------------------------------------------------------------
+GSREDUCE -- Fri Jan 24 14:56:14 CST 2020
+
+Input image or list  = @tmpfilelist24094_787
+Output image or list = 
+Output prefix        = gs
+
+Overscan subtraction  fl_over      = yes
+Trim image            fl_trim      = yes
+Bias subtraction      fl_bias      = yes
+Cosmic ray cleaning   fl_gscrrej   = no
+New CR cleaning       fl_crspec    = no
+Dark subtraction      fl_dark      = no
+QE Correction         fl_qecorr    = no
+Flat field correction fl_flat      = no
+Mosaic the CCDs       fl_gmosaic   = no
+Fixpix chip gaps      fl_fixpix    = no
+Cut MOS spectra       fl_cut       = no
+Add titles to MOS     fl_title     = no
+Oversize slit length  fl_oversize  = yes
+Run gsappwave         fl_gsappwave = no
+Run gsscatsub         fl_scatsub   = no
+VAR & DQ planes       fl_vardq     = no
+
+geointer = linear
+gradimage= 
+refimage = 
+bias     = bias_out
+dark     = 
+qe_refim    = 
+qe_corrim   = 
+qe_corrpref = qecorr
+flatim   = 
+sci_ext  = SCI
+var_ext  = VAR
+dq_ext   = DQ
+key_mdf  = MASKNAME
+mdffile  = 
+mdfdir   = gmos$data/
+bpm      = 
+Chip gaps= gmos$data/chipgaps.dat
+
+Input image = N20191127S0261.fits; Output image = gsN20191127S0261.fits
+GSREDUCE: Image N20191127S0261.fits has been QE corrected? no
+GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
+GSREDUCE: Calling GIREDUCE to process image
+----------------------------------------------------------------------------
+GIREDUCE -- Fri Jan 24 14:56:14 CST 2020
+
+----------------------------------------------------------------------------
+GPREPARE -- Fri Jan 24 14:56:14 CST 2020
+
+Input list    = N20191127S0261
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = yes
+Input MDF in case header keyword not found = 
+
+Input  N20191127S0261.fits   Output  gN20191127S0261.fits
+GPREPARE: Using MDF defined in the header 1.5arcsec
+GPREPARE: Taking MDF from directory gmos$data/
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2020-01-24T20:56:15
+File[extension]:             AMPNAME               GAIN   READNOISE
+gN20191127S0261.fits[SCI,1]: " "BI13-20-4k-1, 4""  1.675  4.06
+gN20191127S0261.fits[SCI,2]: " "BI13-20-4k-1, 3""  1.618  4.12
+gN20191127S0261.fits[SCI,3]: " "BI13-20-4k-1, 2""  1.620  4.12
+gN20191127S0261.fits[SCI,4]: " "BI13-20-4k-1, 1""  1.568  3.99
+gN20191127S0261.fits[SCI,5]: " "BI12-09-4k-2, 4""  1.690  4.20
+gN20191127S0261.fits[SCI,6]: " "BI12-09-4k-2, 3""  1.650  3.98
+gN20191127S0261.fits[SCI,7]: " "BI12-09-4k-2, 2""  1.633  3.88
+gN20191127S0261.fits[SCI,8]: " "BI12-09-4k-2, 1""  1.664  4.20
+gN20191127S0261.fits[SCI,9]: " "BI13-18-4k-2, 4""  1.604  4.04
+gN20191127S0261.fits[SCI,10]: " "BI13-18-4k-2, 3""  1.630  4.35
+gN20191127S0261.fits[SCI,11]: " "BI13-18-4k-2, 2""  1.587  4.02
+gN20191127S0261.fits[SCI,12]: " "BI13-18-4k-2, 1""  1.654  4.55
+
+GGAIN -- Finished: 2020-01-24T20:56:15
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+
+Input files:
+gN20191127S0261
+
+Output files:
+tmpimage124094_794
+
+GIREDUCE: Image tmpimage124094_794 overscan subtracted
+GIREDUCE: Image tmpimage124094_794 trimmed
+
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (bias_out) and image (gN20191127S0261)
+                    No bias subtraction taking place for gN20191127S0261
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (bias_out) and image (gN20191127S0261)
+                    No bias subtraction taking place for gN20191127S0261
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (bias_out) and image (gN20191127S0261)
+                    No bias subtraction taking place for gN20191127S0261
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (bias_out) and image (gN20191127S0261)
+                    No bias subtraction taking place for gN20191127S0261
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (bias_out) and image (gN20191127S0261)
+                    No bias subtraction taking place for gN20191127S0261
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (bias_out) and image (gN20191127S0261)
+                    No bias subtraction taking place for gN20191127S0261
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (bias_out) and image (gN20191127S0261)
+                    No bias subtraction taking place for gN20191127S0261
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (bias_out) and image (gN20191127S0261)
+                    No bias subtraction taking place for gN20191127S0261
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (bias_out) and image (gN20191127S0261)
+                    No bias subtraction taking place for gN20191127S0261
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (bias_out) and image (gN20191127S0261)
+                    No bias subtraction taking place for gN20191127S0261
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (bias_out) and image (gN20191127S0261)
+                    No bias subtraction taking place for gN20191127S0261
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (bias_out) and image (gN20191127S0261)
+                    No bias subtraction taking place for gN20191127S0261
+
+GIREDUCE - Cleaning up -- Fri Jan 24 14:56:31 CST 2020
+
+GIREDUCE -- Fri Jan 24 14:56:31 CST 2020
+GIREDUCE exit status:  good.
+----------------------------------------------------------------------------
+GSREDUCE: Multiplying by the gains, using GGAIN
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2020-01-24T20:56:31
+File[extension]:                AMPNAME               GAIN   READNOISE
+tmpimage124094_794.fits[SCI,1]: " "BI13-20-4k-1, 4""  1.675  4.06
+tmpimage124094_794.fits[SCI,2]: " "BI13-20-4k-1, 3""  1.618  4.12
+tmpimage124094_794.fits[SCI,3]: " "BI13-20-4k-1, 2""  1.620  4.12
+tmpimage124094_794.fits[SCI,4]: " "BI13-20-4k-1, 1""  1.568  3.99
+tmpimage124094_794.fits[SCI,5]: " "BI12-09-4k-2, 4""  1.690  4.20
+tmpimage124094_794.fits[SCI,6]: " "BI12-09-4k-2, 3""  1.650  3.98
+tmpimage124094_794.fits[SCI,7]: " "BI12-09-4k-2, 2""  1.633  3.88
+tmpimage124094_794.fits[SCI,8]: " "BI12-09-4k-2, 1""  1.664  4.20
+tmpimage124094_794.fits[SCI,9]: " "BI13-18-4k-2, 4""  1.604  4.04
+tmpimage124094_794.fits[SCI,10]: " "BI13-18-4k-2, 3""  1.630  4.35
+tmpimage124094_794.fits[SCI,11]: " "BI13-18-4k-2, 2""  1.587  4.02
+tmpimage124094_794.fits[SCI,12]: " "BI13-18-4k-2, 1""  1.654  4.55
+
+GGAIN -- Finished: 2020-01-24T20:56:33
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+GSREDUCE: Updating PHU and cleaning up
+ 
+GSREDUCE done
+----------------------------------------------------------------------------
+GSFLAT: Returned from GSREDUCE.
+GSFLAT: Image #1 - Working on : gsN20191127S0261.fits
+ 
+WARNING - GSFLAT: only one image.
+ 
+ 
+GSFLAT: Begin fitting response functions for detectors
+ 
+GSFLAT: fitting response functions for CCD1
+        sample in fitting 17:512
+GSFLAT: fitting response functions for CCD2
+        sample in fitting 1:512
+GSFLAT: fitting response functions for CCD3
+        sample in fitting 1:512
+GSFLAT: fitting response functions for CCD4
+        sample in fitting 1:495
+GSFLAT: fitting response functions for CCD5
+        sample in fitting 16:512
+GSFLAT: fitting response functions for CCD6
+        sample in fitting 1:512
+GSFLAT: fitting response functions for CCD7
+        sample in fitting 1:512
+GSFLAT: fitting response functions for CCD8
+        sample in fitting 1:495
+GSFLAT: fitting response functions for CCD9
+        sample in fitting 16:512
+GSFLAT: fitting response functions for CCD10
+        sample in fitting 1:512
+GSFLAT: fitting response functions for CCD11
+        sample in fitting 1:512
+GSFLAT: fitting response functions for CCD12
+        sample in fitting 1:484
+ 
+GSFLAT done Fri Jan 24 14:56:35 CST 2020
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+GSFLAT -- Fri Jan 24 14:56:35 CST 2020
+
+Input images or list              = N20191127S0268
+Output spectral flat              = fN20191127S0268
+Correct for slit function         = no
+Keep combined flat combflat       = no
+
+Fitting parameters for Spectral Flatfield: 
+  interactive = no
+  function    = spline3
+  order       = 19
+  low_reject  = 3.0
+  high_reject = 3.0
+  niterate    = 2
+  Fit detectors separately fl_detec = yes
+
+Overscan Subtraction fl_over   = yes
+Trim image           fl_trim   = yes
+Bias Subtraction     fl_bias   = yes
+Dark Subtraction     fl_dark   = no
+QE Correction        fl_qecorr = no
+VAR & DQ planes      fl_vardq  = no
+Fixpix chip gaps     fl_fixpix = no
+Oversize slit length fl_oversize = yes
+Fit detec. by detec. fl_detec  = yes
+Fit rows separately  fl_seprows = yes
+Use gradient method  fl_usegrad= no
+Mask emission lines  fl_emis   = no
+Reference image      refimage  = 
+N&S double flatfield fl_double = no
+
+bias        = bias_out
+dark        = 
+qe_refim    = 
+qe_corrim   = 
+qe_corrpref = qecorr
+sci_ext     = SCI
+var_ext     = VAR
+dq_ext      = DQ
+bpm         = 
+key_mdf     = MASKNAME
+mdffile     = 
+mdfdir      = gmos$data/
+Chip gaps   = gmos$data/chipgaps.dat
+rawpath     = 
+
+ 
+GSFLAT: Calling GSREDUCE.
+ 
+
+----------------------------------------------------------------------------
+GSREDUCE -- Fri Jan 24 14:56:35 CST 2020
+
+Input image or list  = @tmpfilelist24094_825
+Output image or list = 
+Output prefix        = gs
+
+Overscan subtraction  fl_over      = yes
+Trim image            fl_trim      = yes
+Bias subtraction      fl_bias      = yes
+Cosmic ray cleaning   fl_gscrrej   = no
+New CR cleaning       fl_crspec    = no
+Dark subtraction      fl_dark      = no
+QE Correction         fl_qecorr    = no
+Flat field correction fl_flat      = no
+Mosaic the CCDs       fl_gmosaic   = no
+Fixpix chip gaps      fl_fixpix    = no
+Cut MOS spectra       fl_cut       = no
+Add titles to MOS     fl_title     = no
+Oversize slit length  fl_oversize  = yes
+Run gsappwave         fl_gsappwave = no
+Run gsscatsub         fl_scatsub   = no
+VAR & DQ planes       fl_vardq     = no
+
+geointer = linear
+gradimage= 
+refimage = 
+bias     = bias_out
+dark     = 
+qe_refim    = 
+qe_corrim   = 
+qe_corrpref = qecorr
+flatim   = 
+sci_ext  = SCI
+var_ext  = VAR
+dq_ext   = DQ
+key_mdf  = MASKNAME
+mdffile  = 
+mdfdir   = gmos$data/
+bpm      = 
+Chip gaps= gmos$data/chipgaps.dat
+
+Input image = N20191127S0268.fits; Output image = gsN20191127S0268.fits
+GSREDUCE: Image N20191127S0268.fits has been QE corrected? no
+GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
+GSREDUCE: Calling GIREDUCE to process image
+----------------------------------------------------------------------------
+GIREDUCE -- Fri Jan 24 14:56:35 CST 2020
+
+----------------------------------------------------------------------------
+GPREPARE -- Fri Jan 24 14:56:35 CST 2020
+
+Input list    = N20191127S0268
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = yes
+Input MDF in case header keyword not found = 
+
+Input  N20191127S0268.fits   Output  gN20191127S0268.fits
+GPREPARE: Using MDF defined in the header 1.5arcsec
+GPREPARE: Taking MDF from directory gmos$data/
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2020-01-24T20:56:36
+File[extension]:             AMPNAME               GAIN   READNOISE
+gN20191127S0268.fits[SCI,1]: " "BI13-20-4k-1, 4""  1.675  4.06
+gN20191127S0268.fits[SCI,2]: " "BI13-20-4k-1, 3""  1.618  4.12
+gN20191127S0268.fits[SCI,3]: " "BI13-20-4k-1, 2""  1.620  4.12
+gN20191127S0268.fits[SCI,4]: " "BI13-20-4k-1, 1""  1.568  3.99
+gN20191127S0268.fits[SCI,5]: " "BI12-09-4k-2, 4""  1.690  4.20
+gN20191127S0268.fits[SCI,6]: " "BI12-09-4k-2, 3""  1.650  3.98
+gN20191127S0268.fits[SCI,7]: " "BI12-09-4k-2, 2""  1.633  3.88
+gN20191127S0268.fits[SCI,8]: " "BI12-09-4k-2, 1""  1.664  4.20
+gN20191127S0268.fits[SCI,9]: " "BI13-18-4k-2, 4""  1.604  4.04
+gN20191127S0268.fits[SCI,10]: " "BI13-18-4k-2, 3""  1.630  4.35
+gN20191127S0268.fits[SCI,11]: " "BI13-18-4k-2, 2""  1.587  4.02
+gN20191127S0268.fits[SCI,12]: " "BI13-18-4k-2, 1""  1.654  4.55
+
+GGAIN -- Finished: 2020-01-24T20:56:37
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+
+Input files:
+gN20191127S0268
+
+Output files:
+tmpimage124094_832
+
+GIREDUCE: Image tmpimage124094_832 overscan subtracted
+GIREDUCE: Image tmpimage124094_832 trimmed
+
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (bias_out) and image (gN20191127S0268)
+                    No bias subtraction taking place for gN20191127S0268
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (bias_out) and image (gN20191127S0268)
+                    No bias subtraction taking place for gN20191127S0268
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (bias_out) and image (gN20191127S0268)
+                    No bias subtraction taking place for gN20191127S0268
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (bias_out) and image (gN20191127S0268)
+                    No bias subtraction taking place for gN20191127S0268
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (bias_out) and image (gN20191127S0268)
+                    No bias subtraction taking place for gN20191127S0268
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (bias_out) and image (gN20191127S0268)
+                    No bias subtraction taking place for gN20191127S0268
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (bias_out) and image (gN20191127S0268)
+                    No bias subtraction taking place for gN20191127S0268
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (bias_out) and image (gN20191127S0268)
+                    No bias subtraction taking place for gN20191127S0268
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (bias_out) and image (gN20191127S0268)
+                    No bias subtraction taking place for gN20191127S0268
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (bias_out) and image (gN20191127S0268)
+                    No bias subtraction taking place for gN20191127S0268
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (bias_out) and image (gN20191127S0268)
+                    No bias subtraction taking place for gN20191127S0268
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (bias_out) and image (gN20191127S0268)
+                    No bias subtraction taking place for gN20191127S0268
+
+GIREDUCE - Cleaning up -- Fri Jan 24 14:56:53 CST 2020
+
+GIREDUCE -- Fri Jan 24 14:56:53 CST 2020
+GIREDUCE exit status:  good.
+----------------------------------------------------------------------------
+GSREDUCE: Multiplying by the gains, using GGAIN
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2020-01-24T20:56:53
+File[extension]:                AMPNAME               GAIN   READNOISE
+tmpimage124094_832.fits[SCI,1]: " "BI13-20-4k-1, 4""  1.675  4.06
+tmpimage124094_832.fits[SCI,2]: " "BI13-20-4k-1, 3""  1.618  4.12
+tmpimage124094_832.fits[SCI,3]: " "BI13-20-4k-1, 2""  1.620  4.12
+tmpimage124094_832.fits[SCI,4]: " "BI13-20-4k-1, 1""  1.568  3.99
+tmpimage124094_832.fits[SCI,5]: " "BI12-09-4k-2, 4""  1.690  4.20
+tmpimage124094_832.fits[SCI,6]: " "BI12-09-4k-2, 3""  1.650  3.98
+tmpimage124094_832.fits[SCI,7]: " "BI12-09-4k-2, 2""  1.633  3.88
+tmpimage124094_832.fits[SCI,8]: " "BI12-09-4k-2, 1""  1.664  4.20
+tmpimage124094_832.fits[SCI,9]: " "BI13-18-4k-2, 4""  1.604  4.04
+tmpimage124094_832.fits[SCI,10]: " "BI13-18-4k-2, 3""  1.630  4.35
+tmpimage124094_832.fits[SCI,11]: " "BI13-18-4k-2, 2""  1.587  4.02
+tmpimage124094_832.fits[SCI,12]: " "BI13-18-4k-2, 1""  1.654  4.55
+
+GGAIN -- Finished: 2020-01-24T20:56:55
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+GSREDUCE: Updating PHU and cleaning up
+ 
+GSREDUCE done
+----------------------------------------------------------------------------
+GSFLAT: Returned from GSREDUCE.
+GSFLAT: Image #1 - Working on : gsN20191127S0268.fits
+ 
+WARNING - GSFLAT: only one image.
+ 
+ 
+GSFLAT: Begin fitting response functions for detectors
+ 
+GSFLAT: fitting response functions for CCD1
+        sample in fitting 17:512
+GSFLAT: fitting response functions for CCD2
+        sample in fitting 1:512
+GSFLAT: fitting response functions for CCD3
+        sample in fitting 1:512
+GSFLAT: fitting response functions for CCD4
+        sample in fitting 1:495
+GSFLAT: fitting response functions for CCD5
+        sample in fitting 16:512
+GSFLAT: fitting response functions for CCD6
+        sample in fitting 1:512
+GSFLAT: fitting response functions for CCD7
+        sample in fitting 1:512
+GSFLAT: fitting response functions for CCD8
+        sample in fitting 1:495
+GSFLAT: fitting response functions for CCD9
+        sample in fitting 16:512
+GSFLAT: fitting response functions for CCD10
+        sample in fitting 1:512
+GSFLAT: fitting response functions for CCD11
+        sample in fitting 1:512
+GSFLAT: fitting response functions for CCD12
+        sample in fitting 1:484
+ 
+GSFLAT done Fri Jan 24 14:56:56 CST 2020
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+GSFLAT -- Fri Jan 24 14:56:56 CST 2020
+
+Input images or list              = N20191203S0186
+Output spectral flat              = fN20191203S0186
+Correct for slit function         = no
+Keep combined flat combflat       = no
+
+Fitting parameters for Spectral Flatfield: 
+  interactive = no
+  function    = spline3
+  order       = 19
+  low_reject  = 3.0
+  high_reject = 3.0
+  niterate    = 2
+  Fit detectors separately fl_detec = yes
+
+Overscan Subtraction fl_over   = yes
+Trim image           fl_trim   = yes
+Bias Subtraction     fl_bias   = yes
+Dark Subtraction     fl_dark   = no
+QE Correction        fl_qecorr = no
+VAR & DQ planes      fl_vardq  = no
+Fixpix chip gaps     fl_fixpix = no
+Oversize slit length fl_oversize = yes
+Fit detec. by detec. fl_detec  = yes
+Fit rows separately  fl_seprows = yes
+Use gradient method  fl_usegrad= no
+Mask emission lines  fl_emis   = no
+Reference image      refimage  = 
+N&S double flatfield fl_double = no
+
+bias        = bias_out
+dark        = 
+qe_refim    = 
+qe_corrim   = 
+qe_corrpref = qecorr
+sci_ext     = SCI
+var_ext     = VAR
+dq_ext      = DQ
+bpm         = 
+key_mdf     = MASKNAME
+mdffile     = 
+mdfdir      = gmos$data/
+Chip gaps   = gmos$data/chipgaps.dat
+rawpath     = 
+
+ 
+GSFLAT: Calling GSREDUCE.
+ 
+
+----------------------------------------------------------------------------
+GSREDUCE -- Fri Jan 24 14:56:56 CST 2020
+
+Input image or list  = @tmpfilelist24094_863
+Output image or list = 
+Output prefix        = gs
+
+Overscan subtraction  fl_over      = yes
+Trim image            fl_trim      = yes
+Bias subtraction      fl_bias      = yes
+Cosmic ray cleaning   fl_gscrrej   = no
+New CR cleaning       fl_crspec    = no
+Dark subtraction      fl_dark      = no
+QE Correction         fl_qecorr    = no
+Flat field correction fl_flat      = no
+Mosaic the CCDs       fl_gmosaic   = no
+Fixpix chip gaps      fl_fixpix    = no
+Cut MOS spectra       fl_cut       = no
+Add titles to MOS     fl_title     = no
+Oversize slit length  fl_oversize  = yes
+Run gsappwave         fl_gsappwave = no
+Run gsscatsub         fl_scatsub   = no
+VAR & DQ planes       fl_vardq     = no
+
+geointer = linear
+gradimage= 
+refimage = 
+bias     = bias_out
+dark     = 
+qe_refim    = 
+qe_corrim   = 
+qe_corrpref = qecorr
+flatim   = 
+sci_ext  = SCI
+var_ext  = VAR
+dq_ext   = DQ
+key_mdf  = MASKNAME
+mdffile  = 
+mdfdir   = gmos$data/
+bpm      = 
+Chip gaps= gmos$data/chipgaps.dat
+
+Input image = N20191203S0186.fits; Output image = gsN20191203S0186.fits
+GSREDUCE: Image N20191203S0186.fits has been QE corrected? no
+GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
+GSREDUCE: Calling GIREDUCE to process image
+----------------------------------------------------------------------------
+GIREDUCE -- Fri Jan 24 14:56:57 CST 2020
+
+----------------------------------------------------------------------------
+GPREPARE -- Fri Jan 24 14:56:57 CST 2020
+
+Input list    = N20191203S0186
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = yes
+Input MDF in case header keyword not found = 
+
+Input  N20191203S0186.fits   Output  gN20191203S0186.fits
+GPREPARE: Using MDF defined in the header 1.5arcsec
+GPREPARE: Taking MDF from directory gmos$data/
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2020-01-24T20:56:58
+File[extension]:             AMPNAME               GAIN   READNOISE
+gN20191203S0186.fits[SCI,1]: " "BI13-20-4k-1, 4""  1.675  4.06
+gN20191203S0186.fits[SCI,2]: " "BI13-20-4k-1, 3""  1.618  4.12
+gN20191203S0186.fits[SCI,3]: " "BI13-20-4k-1, 2""  1.620  4.12
+gN20191203S0186.fits[SCI,4]: " "BI13-20-4k-1, 1""  1.568  3.99
+gN20191203S0186.fits[SCI,5]: " "BI12-09-4k-2, 4""  1.690  4.20
+gN20191203S0186.fits[SCI,6]: " "BI12-09-4k-2, 3""  1.650  3.98
+gN20191203S0186.fits[SCI,7]: " "BI12-09-4k-2, 2""  1.633  3.88
+gN20191203S0186.fits[SCI,8]: " "BI12-09-4k-2, 1""  1.664  4.20
+gN20191203S0186.fits[SCI,9]: " "BI13-18-4k-2, 4""  1.604  4.04
+gN20191203S0186.fits[SCI,10]: " "BI13-18-4k-2, 3""  1.630  4.35
+gN20191203S0186.fits[SCI,11]: " "BI13-18-4k-2, 2""  1.587  4.02
+gN20191203S0186.fits[SCI,12]: " "BI13-18-4k-2, 1""  1.654  4.55
+
+GGAIN -- Finished: 2020-01-24T20:56:58
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+
+Input files:
+gN20191203S0186
+
+Output files:
+tmpimage124094_870
+
+GIREDUCE: Image tmpimage124094_870 overscan subtracted
+GIREDUCE: Image tmpimage124094_870 trimmed
+
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (bias_out) and image (gN20191203S0186)
+                    No bias subtraction taking place for gN20191203S0186
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (bias_out) and image (gN20191203S0186)
+                    No bias subtraction taking place for gN20191203S0186
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (bias_out) and image (gN20191203S0186)
+                    No bias subtraction taking place for gN20191203S0186
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (bias_out) and image (gN20191203S0186)
+                    No bias subtraction taking place for gN20191203S0186
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (bias_out) and image (gN20191203S0186)
+                    No bias subtraction taking place for gN20191203S0186
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (bias_out) and image (gN20191203S0186)
+                    No bias subtraction taking place for gN20191203S0186
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (bias_out) and image (gN20191203S0186)
+                    No bias subtraction taking place for gN20191203S0186
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (bias_out) and image (gN20191203S0186)
+                    No bias subtraction taking place for gN20191203S0186
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (bias_out) and image (gN20191203S0186)
+                    No bias subtraction taking place for gN20191203S0186
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (bias_out) and image (gN20191203S0186)
+                    No bias subtraction taking place for gN20191203S0186
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (bias_out) and image (gN20191203S0186)
+                    No bias subtraction taking place for gN20191203S0186
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (bias_out) and image (gN20191203S0186)
+                    No bias subtraction taking place for gN20191203S0186
+
+GIREDUCE - Cleaning up -- Fri Jan 24 14:57:14 CST 2020
+
+GIREDUCE -- Fri Jan 24 14:57:14 CST 2020
+GIREDUCE exit status:  good.
+----------------------------------------------------------------------------
+GSREDUCE: Multiplying by the gains, using GGAIN
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2020-01-24T20:57:14
+File[extension]:                AMPNAME               GAIN   READNOISE
+tmpimage124094_870.fits[SCI,1]: " "BI13-20-4k-1, 4""  1.675  4.06
+tmpimage124094_870.fits[SCI,2]: " "BI13-20-4k-1, 3""  1.618  4.12
+tmpimage124094_870.fits[SCI,3]: " "BI13-20-4k-1, 2""  1.620  4.12
+tmpimage124094_870.fits[SCI,4]: " "BI13-20-4k-1, 1""  1.568  3.99
+tmpimage124094_870.fits[SCI,5]: " "BI12-09-4k-2, 4""  1.690  4.20
+tmpimage124094_870.fits[SCI,6]: " "BI12-09-4k-2, 3""  1.650  3.98
+tmpimage124094_870.fits[SCI,7]: " "BI12-09-4k-2, 2""  1.633  3.88
+tmpimage124094_870.fits[SCI,8]: " "BI12-09-4k-2, 1""  1.664  4.20
+tmpimage124094_870.fits[SCI,9]: " "BI13-18-4k-2, 4""  1.604  4.04
+tmpimage124094_870.fits[SCI,10]: " "BI13-18-4k-2, 3""  1.630  4.35
+tmpimage124094_870.fits[SCI,11]: " "BI13-18-4k-2, 2""  1.587  4.02
+tmpimage124094_870.fits[SCI,12]: " "BI13-18-4k-2, 1""  1.654  4.55
+
+GGAIN -- Finished: 2020-01-24T20:57:16
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+GSREDUCE: Updating PHU and cleaning up
+ 
+GSREDUCE done
+----------------------------------------------------------------------------
+GSFLAT: Returned from GSREDUCE.
+GSFLAT: Image #1 - Working on : gsN20191203S0186.fits
+ 
+WARNING - GSFLAT: only one image.
+ 
+ 
+GSFLAT: Begin fitting response functions for detectors
+ 
+GSFLAT: fitting response functions for CCD1
+        sample in fitting 17:512
+GSFLAT: fitting response functions for CCD2
+        sample in fitting 1:512
+GSFLAT: fitting response functions for CCD3
+        sample in fitting 1:512
+GSFLAT: fitting response functions for CCD4
+        sample in fitting 1:495
+GSFLAT: fitting response functions for CCD5
+        sample in fitting 16:512
+GSFLAT: fitting response functions for CCD6
+        sample in fitting 1:512
+GSFLAT: fitting response functions for CCD7
+        sample in fitting 1:512
+GSFLAT: fitting response functions for CCD8
+        sample in fitting 1:495
+GSFLAT: fitting response functions for CCD9
+        sample in fitting 16:512
+GSFLAT: fitting response functions for CCD10
+        sample in fitting 1:512
+GSFLAT: fitting response functions for CCD11
+        sample in fitting 1:512
+GSFLAT: fitting response functions for CCD12
+        sample in fitting 1:484
+ 
+GSFLAT done Fri Jan 24 14:57:18 CST 2020
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+GSFLAT -- Fri Jan 24 14:57:18 CST 2020
+
+Input images or list              = N20191205S0096
+Output spectral flat              = fN20191205S0096
+Correct for slit function         = no
+Keep combined flat combflat       = no
+
+Fitting parameters for Spectral Flatfield: 
+  interactive = no
+  function    = spline3
+  order       = 19
+  low_reject  = 3.0
+  high_reject = 3.0
+  niterate    = 2
+  Fit detectors separately fl_detec = yes
+
+Overscan Subtraction fl_over   = yes
+Trim image           fl_trim   = yes
+Bias Subtraction     fl_bias   = yes
+Dark Subtraction     fl_dark   = no
+QE Correction        fl_qecorr = no
+VAR & DQ planes      fl_vardq  = no
+Fixpix chip gaps     fl_fixpix = no
+Oversize slit length fl_oversize = yes
+Fit detec. by detec. fl_detec  = yes
+Fit rows separately  fl_seprows = yes
+Use gradient method  fl_usegrad= no
+Mask emission lines  fl_emis   = no
+Reference image      refimage  = 
+N&S double flatfield fl_double = no
+
+bias        = bias_out
+dark        = 
+qe_refim    = 
+qe_corrim   = 
+qe_corrpref = qecorr
+sci_ext     = SCI
+var_ext     = VAR
+dq_ext      = DQ
+bpm         = 
+key_mdf     = MASKNAME
+mdffile     = 
+mdfdir      = gmos$data/
+Chip gaps   = gmos$data/chipgaps.dat
+rawpath     = 
+
+ 
+GSFLAT: Calling GSREDUCE.
+ 
+
+----------------------------------------------------------------------------
+GSREDUCE -- Fri Jan 24 14:57:18 CST 2020
+
+Input image or list  = @tmpfilelist24094_901
+Output image or list = 
+Output prefix        = gs
+
+Overscan subtraction  fl_over      = yes
+Trim image            fl_trim      = yes
+Bias subtraction      fl_bias      = yes
+Cosmic ray cleaning   fl_gscrrej   = no
+New CR cleaning       fl_crspec    = no
+Dark subtraction      fl_dark      = no
+QE Correction         fl_qecorr    = no
+Flat field correction fl_flat      = no
+Mosaic the CCDs       fl_gmosaic   = no
+Fixpix chip gaps      fl_fixpix    = no
+Cut MOS spectra       fl_cut       = no
+Add titles to MOS     fl_title     = no
+Oversize slit length  fl_oversize  = yes
+Run gsappwave         fl_gsappwave = no
+Run gsscatsub         fl_scatsub   = no
+VAR & DQ planes       fl_vardq     = no
+
+geointer = linear
+gradimage= 
+refimage = 
+bias     = bias_out
+dark     = 
+qe_refim    = 
+qe_corrim   = 
+qe_corrpref = qecorr
+flatim   = 
+sci_ext  = SCI
+var_ext  = VAR
+dq_ext   = DQ
+key_mdf  = MASKNAME
+mdffile  = 
+mdfdir   = gmos$data/
+bpm      = 
+Chip gaps= gmos$data/chipgaps.dat
+
+Input image = N20191205S0096.fits; Output image = gsN20191205S0096.fits
+GSREDUCE: Image N20191205S0096.fits has been QE corrected? no
+GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
+GSREDUCE: Calling GIREDUCE to process image
+----------------------------------------------------------------------------
+GIREDUCE -- Fri Jan 24 14:57:18 CST 2020
+
+----------------------------------------------------------------------------
+GPREPARE -- Fri Jan 24 14:57:18 CST 2020
+
+Input list    = N20191205S0096
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = yes
+Input MDF in case header keyword not found = 
+
+Input  N20191205S0096.fits   Output  gN20191205S0096.fits
+GPREPARE: Using MDF defined in the header 1.5arcsec
+GPREPARE: Taking MDF from directory gmos$data/
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2020-01-24T20:57:19
+File[extension]:             AMPNAME               GAIN   READNOISE
+gN20191205S0096.fits[SCI,1]: " "BI13-20-4k-1, 4""  1.675  4.06
+gN20191205S0096.fits[SCI,2]: " "BI13-20-4k-1, 3""  1.618  4.12
+gN20191205S0096.fits[SCI,3]: " "BI13-20-4k-1, 2""  1.620  4.12
+gN20191205S0096.fits[SCI,4]: " "BI13-20-4k-1, 1""  1.568  3.99
+gN20191205S0096.fits[SCI,5]: " "BI12-09-4k-2, 4""  1.690  4.20
+gN20191205S0096.fits[SCI,6]: " "BI12-09-4k-2, 3""  1.650  3.98
+gN20191205S0096.fits[SCI,7]: " "BI12-09-4k-2, 2""  1.633  3.88
+gN20191205S0096.fits[SCI,8]: " "BI12-09-4k-2, 1""  1.664  4.20
+gN20191205S0096.fits[SCI,9]: " "BI13-18-4k-2, 4""  1.604  4.04
+gN20191205S0096.fits[SCI,10]: " "BI13-18-4k-2, 3""  1.630  4.35
+gN20191205S0096.fits[SCI,11]: " "BI13-18-4k-2, 2""  1.587  4.02
+gN20191205S0096.fits[SCI,12]: " "BI13-18-4k-2, 1""  1.654  4.55
+
+GGAIN -- Finished: 2020-01-24T20:57:19
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+
+Input files:
+gN20191205S0096
+
+Output files:
+tmpimage124094_908
+
+GIREDUCE: Image tmpimage124094_908 overscan subtracted
+GIREDUCE: Image tmpimage124094_908 trimmed
+
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (bias_out) and image (gN20191205S0096)
+                    No bias subtraction taking place for gN20191205S0096
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (bias_out) and image (gN20191205S0096)
+                    No bias subtraction taking place for gN20191205S0096
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (bias_out) and image (gN20191205S0096)
+                    No bias subtraction taking place for gN20191205S0096
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (bias_out) and image (gN20191205S0096)
+                    No bias subtraction taking place for gN20191205S0096
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (bias_out) and image (gN20191205S0096)
+                    No bias subtraction taking place for gN20191205S0096
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (bias_out) and image (gN20191205S0096)
+                    No bias subtraction taking place for gN20191205S0096
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (bias_out) and image (gN20191205S0096)
+                    No bias subtraction taking place for gN20191205S0096
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (bias_out) and image (gN20191205S0096)
+                    No bias subtraction taking place for gN20191205S0096
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (bias_out) and image (gN20191205S0096)
+                    No bias subtraction taking place for gN20191205S0096
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (bias_out) and image (gN20191205S0096)
+                    No bias subtraction taking place for gN20191205S0096
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (bias_out) and image (gN20191205S0096)
+                    No bias subtraction taking place for gN20191205S0096
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (bias_out) and image (gN20191205S0096)
+                    No bias subtraction taking place for gN20191205S0096
+
+GIREDUCE - Cleaning up -- Fri Jan 24 14:57:35 CST 2020
+
+GIREDUCE -- Fri Jan 24 14:57:35 CST 2020
+GIREDUCE exit status:  good.
+----------------------------------------------------------------------------
+GSREDUCE: Multiplying by the gains, using GGAIN
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2020-01-24T20:57:35
+File[extension]:                AMPNAME               GAIN   READNOISE
+tmpimage124094_908.fits[SCI,1]: " "BI13-20-4k-1, 4""  1.675  4.06
+tmpimage124094_908.fits[SCI,2]: " "BI13-20-4k-1, 3""  1.618  4.12
+tmpimage124094_908.fits[SCI,3]: " "BI13-20-4k-1, 2""  1.620  4.12
+tmpimage124094_908.fits[SCI,4]: " "BI13-20-4k-1, 1""  1.568  3.99
+tmpimage124094_908.fits[SCI,5]: " "BI12-09-4k-2, 4""  1.690  4.20
+tmpimage124094_908.fits[SCI,6]: " "BI12-09-4k-2, 3""  1.650  3.98
+tmpimage124094_908.fits[SCI,7]: " "BI12-09-4k-2, 2""  1.633  3.88
+tmpimage124094_908.fits[SCI,8]: " "BI12-09-4k-2, 1""  1.664  4.20
+tmpimage124094_908.fits[SCI,9]: " "BI13-18-4k-2, 4""  1.604  4.04
+tmpimage124094_908.fits[SCI,10]: " "BI13-18-4k-2, 3""  1.630  4.35
+tmpimage124094_908.fits[SCI,11]: " "BI13-18-4k-2, 2""  1.587  4.02
+tmpimage124094_908.fits[SCI,12]: " "BI13-18-4k-2, 1""  1.654  4.55
+
+GGAIN -- Finished: 2020-01-24T20:57:37
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+GSREDUCE: Updating PHU and cleaning up
+ 
+GSREDUCE done
+----------------------------------------------------------------------------
+GSFLAT: Returned from GSREDUCE.
+GSFLAT: Image #1 - Working on : gsN20191205S0096.fits
+ 
+WARNING - GSFLAT: only one image.
+ 
+ 
+GSFLAT: Begin fitting response functions for detectors
+ 
+GSFLAT: fitting response functions for CCD1
+        sample in fitting 17:512
+GSFLAT: fitting response functions for CCD2
+        sample in fitting 1:512
+GSFLAT: fitting response functions for CCD3
+        sample in fitting 1:512
+GSFLAT: fitting response functions for CCD4
+        sample in fitting 1:495
+GSFLAT: fitting response functions for CCD5
+        sample in fitting 16:512
+GSFLAT: fitting response functions for CCD6
+        sample in fitting 1:512
+GSFLAT: fitting response functions for CCD7
+        sample in fitting 1:512
+GSFLAT: fitting response functions for CCD8
+        sample in fitting 1:495
+GSFLAT: fitting response functions for CCD9
+        sample in fitting 16:512
+GSFLAT: fitting response functions for CCD10
+        sample in fitting 1:512
+GSFLAT: fitting response functions for CCD11
+        sample in fitting 1:512
+GSFLAT: fitting response functions for CCD12
+        sample in fitting 1:484
+ 
+GSFLAT done Fri Jan 24 14:57:38 CST 2020
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+GSFLAT -- Fri Jan 24 14:57:38 CST 2020
+
+Input images or list              = N20191205S0103
+Output spectral flat              = fN20191205S0103
+Correct for slit function         = no
+Keep combined flat combflat       = no
+
+Fitting parameters for Spectral Flatfield: 
+  interactive = no
+  function    = spline3
+  order       = 19
+  low_reject  = 3.0
+  high_reject = 3.0
+  niterate    = 2
+  Fit detectors separately fl_detec = yes
+
+Overscan Subtraction fl_over   = yes
+Trim image           fl_trim   = yes
+Bias Subtraction     fl_bias   = yes
+Dark Subtraction     fl_dark   = no
+QE Correction        fl_qecorr = no
+VAR & DQ planes      fl_vardq  = no
+Fixpix chip gaps     fl_fixpix = no
+Oversize slit length fl_oversize = yes
+Fit detec. by detec. fl_detec  = yes
+Fit rows separately  fl_seprows = yes
+Use gradient method  fl_usegrad= no
+Mask emission lines  fl_emis   = no
+Reference image      refimage  = 
+N&S double flatfield fl_double = no
+
+bias        = bias_out
+dark        = 
+qe_refim    = 
+qe_corrim   = 
+qe_corrpref = qecorr
+sci_ext     = SCI
+var_ext     = VAR
+dq_ext      = DQ
+bpm         = 
+key_mdf     = MASKNAME
+mdffile     = 
+mdfdir      = gmos$data/
+Chip gaps   = gmos$data/chipgaps.dat
+rawpath     = 
+
+ 
+GSFLAT: Calling GSREDUCE.
+ 
+
+----------------------------------------------------------------------------
+GSREDUCE -- Fri Jan 24 14:57:39 CST 2020
+
+Input image or list  = @tmpfilelist24094_939
+Output image or list = 
+Output prefix        = gs
+
+Overscan subtraction  fl_over      = yes
+Trim image            fl_trim      = yes
+Bias subtraction      fl_bias      = yes
+Cosmic ray cleaning   fl_gscrrej   = no
+New CR cleaning       fl_crspec    = no
+Dark subtraction      fl_dark      = no
+QE Correction         fl_qecorr    = no
+Flat field correction fl_flat      = no
+Mosaic the CCDs       fl_gmosaic   = no
+Fixpix chip gaps      fl_fixpix    = no
+Cut MOS spectra       fl_cut       = no
+Add titles to MOS     fl_title     = no
+Oversize slit length  fl_oversize  = yes
+Run gsappwave         fl_gsappwave = no
+Run gsscatsub         fl_scatsub   = no
+VAR & DQ planes       fl_vardq     = no
+
+geointer = linear
+gradimage= 
+refimage = 
+bias     = bias_out
+dark     = 
+qe_refim    = 
+qe_corrim   = 
+qe_corrpref = qecorr
+flatim   = 
+sci_ext  = SCI
+var_ext  = VAR
+dq_ext   = DQ
+key_mdf  = MASKNAME
+mdffile  = 
+mdfdir   = gmos$data/
+bpm      = 
+Chip gaps= gmos$data/chipgaps.dat
+
+Input image = N20191205S0103.fits; Output image = gsN20191205S0103.fits
+GSREDUCE: Image N20191205S0103.fits has been QE corrected? no
+GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
+GSREDUCE: Calling GIREDUCE to process image
+----------------------------------------------------------------------------
+GIREDUCE -- Fri Jan 24 14:57:39 CST 2020
+
+----------------------------------------------------------------------------
+GPREPARE -- Fri Jan 24 14:57:39 CST 2020
+
+Input list    = N20191205S0103
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = yes
+Input MDF in case header keyword not found = 
+
+Input  N20191205S0103.fits   Output  gN20191205S0103.fits
+GPREPARE: Using MDF defined in the header 1.5arcsec
+GPREPARE: Taking MDF from directory gmos$data/
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2020-01-24T20:57:40
+File[extension]:             AMPNAME               GAIN   READNOISE
+gN20191205S0103.fits[SCI,1]: " "BI13-20-4k-1, 4""  1.675  4.06
+gN20191205S0103.fits[SCI,2]: " "BI13-20-4k-1, 3""  1.618  4.12
+gN20191205S0103.fits[SCI,3]: " "BI13-20-4k-1, 2""  1.620  4.12
+gN20191205S0103.fits[SCI,4]: " "BI13-20-4k-1, 1""  1.568  3.99
+gN20191205S0103.fits[SCI,5]: " "BI12-09-4k-2, 4""  1.690  4.20
+gN20191205S0103.fits[SCI,6]: " "BI12-09-4k-2, 3""  1.650  3.98
+gN20191205S0103.fits[SCI,7]: " "BI12-09-4k-2, 2""  1.633  3.88
+gN20191205S0103.fits[SCI,8]: " "BI12-09-4k-2, 1""  1.664  4.20
+gN20191205S0103.fits[SCI,9]: " "BI13-18-4k-2, 4""  1.604  4.04
+gN20191205S0103.fits[SCI,10]: " "BI13-18-4k-2, 3""  1.630  4.35
+gN20191205S0103.fits[SCI,11]: " "BI13-18-4k-2, 2""  1.587  4.02
+gN20191205S0103.fits[SCI,12]: " "BI13-18-4k-2, 1""  1.654  4.55
+
+GGAIN -- Finished: 2020-01-24T20:57:40
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+
+Input files:
+gN20191205S0103
+
+Output files:
+tmpimage124094_946
+
+GIREDUCE: Image tmpimage124094_946 overscan subtracted
+GIREDUCE: Image tmpimage124094_946 trimmed
+
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (bias_out) and image (gN20191205S0103)
+                    No bias subtraction taking place for gN20191205S0103
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (bias_out) and image (gN20191205S0103)
+                    No bias subtraction taking place for gN20191205S0103
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (bias_out) and image (gN20191205S0103)
+                    No bias subtraction taking place for gN20191205S0103
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (bias_out) and image (gN20191205S0103)
+                    No bias subtraction taking place for gN20191205S0103
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (bias_out) and image (gN20191205S0103)
+                    No bias subtraction taking place for gN20191205S0103
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (bias_out) and image (gN20191205S0103)
+                    No bias subtraction taking place for gN20191205S0103
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (bias_out) and image (gN20191205S0103)
+                    No bias subtraction taking place for gN20191205S0103
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (bias_out) and image (gN20191205S0103)
+                    No bias subtraction taking place for gN20191205S0103
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (bias_out) and image (gN20191205S0103)
+                    No bias subtraction taking place for gN20191205S0103
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (bias_out) and image (gN20191205S0103)
+                    No bias subtraction taking place for gN20191205S0103
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (bias_out) and image (gN20191205S0103)
+                    No bias subtraction taking place for gN20191205S0103
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (bias_out) and image (gN20191205S0103)
+                    No bias subtraction taking place for gN20191205S0103
+
+GIREDUCE - Cleaning up -- Fri Jan 24 14:57:56 CST 2020
+
+GIREDUCE -- Fri Jan 24 14:57:56 CST 2020
+GIREDUCE exit status:  good.
+----------------------------------------------------------------------------
+GSREDUCE: Multiplying by the gains, using GGAIN
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2020-01-24T20:57:56
+File[extension]:                AMPNAME               GAIN   READNOISE
+tmpimage124094_946.fits[SCI,1]: " "BI13-20-4k-1, 4""  1.675  4.06
+tmpimage124094_946.fits[SCI,2]: " "BI13-20-4k-1, 3""  1.618  4.12
+tmpimage124094_946.fits[SCI,3]: " "BI13-20-4k-1, 2""  1.620  4.12
+tmpimage124094_946.fits[SCI,4]: " "BI13-20-4k-1, 1""  1.568  3.99
+tmpimage124094_946.fits[SCI,5]: " "BI12-09-4k-2, 4""  1.690  4.20
+tmpimage124094_946.fits[SCI,6]: " "BI12-09-4k-2, 3""  1.650  3.98
+tmpimage124094_946.fits[SCI,7]: " "BI12-09-4k-2, 2""  1.633  3.88
+tmpimage124094_946.fits[SCI,8]: " "BI12-09-4k-2, 1""  1.664  4.20
+tmpimage124094_946.fits[SCI,9]: " "BI13-18-4k-2, 4""  1.604  4.04
+tmpimage124094_946.fits[SCI,10]: " "BI13-18-4k-2, 3""  1.630  4.35
+tmpimage124094_946.fits[SCI,11]: " "BI13-18-4k-2, 2""  1.587  4.02
+tmpimage124094_946.fits[SCI,12]: " "BI13-18-4k-2, 1""  1.654  4.55
+
+GGAIN -- Finished: 2020-01-24T20:57:58
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+GSREDUCE: Updating PHU and cleaning up
+ 
+GSREDUCE done
+----------------------------------------------------------------------------
+GSFLAT: Returned from GSREDUCE.
+GSFLAT: Image #1 - Working on : gsN20191205S0103.fits
+ 
+WARNING - GSFLAT: only one image.
+ 
+ 
+GSFLAT: Begin fitting response functions for detectors
+ 
+GSFLAT: fitting response functions for CCD1
+        sample in fitting 17:512
+GSFLAT: fitting response functions for CCD2
+        sample in fitting 1:512
+GSFLAT: fitting response functions for CCD3
+        sample in fitting 1:512
+GSFLAT: fitting response functions for CCD4
+        sample in fitting 1:495
+GSFLAT: fitting response functions for CCD5
+        sample in fitting 16:512
+GSFLAT: fitting response functions for CCD6
+        sample in fitting 1:512
+GSFLAT: fitting response functions for CCD7
+        sample in fitting 1:512
+GSFLAT: fitting response functions for CCD8
+        sample in fitting 1:495
+GSFLAT: fitting response functions for CCD9
+        sample in fitting 16:512
+GSFLAT: fitting response functions for CCD10
+        sample in fitting 1:512
+GSFLAT: fitting response functions for CCD11
+        sample in fitting 1:512
+GSFLAT: fitting response functions for CCD12
+        sample in fitting 1:484
+ 
+GSFLAT done Fri Jan 24 14:57:59 CST 2020
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+GSFLAT -- Fri Jan 24 14:57:59 CST 2020
+
+Input images or list              = N20191205S0104
+Output spectral flat              = fN20191205S0104
+Correct for slit function         = no
+Keep combined flat combflat       = no
+
+Fitting parameters for Spectral Flatfield: 
+  interactive = no
+  function    = spline3
+  order       = 19
+  low_reject  = 3.0
+  high_reject = 3.0
+  niterate    = 2
+  Fit detectors separately fl_detec = yes
+
+Overscan Subtraction fl_over   = yes
+Trim image           fl_trim   = yes
+Bias Subtraction     fl_bias   = yes
+Dark Subtraction     fl_dark   = no
+QE Correction        fl_qecorr = no
+VAR & DQ planes      fl_vardq  = no
+Fixpix chip gaps     fl_fixpix = no
+Oversize slit length fl_oversize = yes
+Fit detec. by detec. fl_detec  = yes
+Fit rows separately  fl_seprows = yes
+Use gradient method  fl_usegrad= no
+Mask emission lines  fl_emis   = no
+Reference image      refimage  = 
+N&S double flatfield fl_double = no
+
+bias        = bias_out
+dark        = 
+qe_refim    = 
+qe_corrim   = 
+qe_corrpref = qecorr
+sci_ext     = SCI
+var_ext     = VAR
+dq_ext      = DQ
+bpm         = 
+key_mdf     = MASKNAME
+mdffile     = 
+mdfdir      = gmos$data/
+Chip gaps   = gmos$data/chipgaps.dat
+rawpath     = 
+
+ 
+GSFLAT: Calling GSREDUCE.
+ 
+
+----------------------------------------------------------------------------
+GSREDUCE -- Fri Jan 24 14:58:00 CST 2020
+
+Input image or list  = @tmpfilelist24094_977
+Output image or list = 
+Output prefix        = gs
+
+Overscan subtraction  fl_over      = yes
+Trim image            fl_trim      = yes
+Bias subtraction      fl_bias      = yes
+Cosmic ray cleaning   fl_gscrrej   = no
+New CR cleaning       fl_crspec    = no
+Dark subtraction      fl_dark      = no
+QE Correction         fl_qecorr    = no
+Flat field correction fl_flat      = no
+Mosaic the CCDs       fl_gmosaic   = no
+Fixpix chip gaps      fl_fixpix    = no
+Cut MOS spectra       fl_cut       = no
+Add titles to MOS     fl_title     = no
+Oversize slit length  fl_oversize  = yes
+Run gsappwave         fl_gsappwave = no
+Run gsscatsub         fl_scatsub   = no
+VAR & DQ planes       fl_vardq     = no
+
+geointer = linear
+gradimage= 
+refimage = 
+bias     = bias_out
+dark     = 
+qe_refim    = 
+qe_corrim   = 
+qe_corrpref = qecorr
+flatim   = 
+sci_ext  = SCI
+var_ext  = VAR
+dq_ext   = DQ
+key_mdf  = MASKNAME
+mdffile  = 
+mdfdir   = gmos$data/
+bpm      = 
+Chip gaps= gmos$data/chipgaps.dat
+
+Input image = N20191205S0104.fits; Output image = gsN20191205S0104.fits
+GSREDUCE: Image N20191205S0104.fits has been QE corrected? no
+GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
+GSREDUCE: Calling GIREDUCE to process image
+----------------------------------------------------------------------------
+GIREDUCE -- Fri Jan 24 14:58:00 CST 2020
+
+----------------------------------------------------------------------------
+GPREPARE -- Fri Jan 24 14:58:00 CST 2020
+
+Input list    = N20191205S0104
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = yes
+Input MDF in case header keyword not found = 
+
+Input  N20191205S0104.fits   Output  gN20191205S0104.fits
+GPREPARE: Using MDF defined in the header 1.5arcsec
+GPREPARE: Taking MDF from directory gmos$data/
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2020-01-24T20:58:01
+File[extension]:             AMPNAME               GAIN   READNOISE
+gN20191205S0104.fits[SCI,1]: " "BI13-20-4k-1, 4""  1.675  4.06
+gN20191205S0104.fits[SCI,2]: " "BI13-20-4k-1, 3""  1.618  4.12
+gN20191205S0104.fits[SCI,3]: " "BI13-20-4k-1, 2""  1.620  4.12
+gN20191205S0104.fits[SCI,4]: " "BI13-20-4k-1, 1""  1.568  3.99
+gN20191205S0104.fits[SCI,5]: " "BI12-09-4k-2, 4""  1.690  4.20
+gN20191205S0104.fits[SCI,6]: " "BI12-09-4k-2, 3""  1.650  3.98
+gN20191205S0104.fits[SCI,7]: " "BI12-09-4k-2, 2""  1.633  3.88
+gN20191205S0104.fits[SCI,8]: " "BI12-09-4k-2, 1""  1.664  4.20
+gN20191205S0104.fits[SCI,9]: " "BI13-18-4k-2, 4""  1.604  4.04
+gN20191205S0104.fits[SCI,10]: " "BI13-18-4k-2, 3""  1.630  4.35
+gN20191205S0104.fits[SCI,11]: " "BI13-18-4k-2, 2""  1.587  4.02
+gN20191205S0104.fits[SCI,12]: " "BI13-18-4k-2, 1""  1.654  4.55
+
+GGAIN -- Finished: 2020-01-24T20:58:01
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+
+Input files:
+gN20191205S0104
+
+Output files:
+tmpimage124094_984
+
+GIREDUCE: Image tmpimage124094_984 overscan subtracted
+GIREDUCE: Image tmpimage124094_984 trimmed
+
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (bias_out) and image (gN20191205S0104)
+                    No bias subtraction taking place for gN20191205S0104
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (bias_out) and image (gN20191205S0104)
+                    No bias subtraction taking place for gN20191205S0104
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (bias_out) and image (gN20191205S0104)
+                    No bias subtraction taking place for gN20191205S0104
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (bias_out) and image (gN20191205S0104)
+                    No bias subtraction taking place for gN20191205S0104
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (bias_out) and image (gN20191205S0104)
+                    No bias subtraction taking place for gN20191205S0104
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (bias_out) and image (gN20191205S0104)
+                    No bias subtraction taking place for gN20191205S0104
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (bias_out) and image (gN20191205S0104)
+                    No bias subtraction taking place for gN20191205S0104
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (bias_out) and image (gN20191205S0104)
+                    No bias subtraction taking place for gN20191205S0104
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (bias_out) and image (gN20191205S0104)
+                    No bias subtraction taking place for gN20191205S0104
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (bias_out) and image (gN20191205S0104)
+                    No bias subtraction taking place for gN20191205S0104
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (bias_out) and image (gN20191205S0104)
+                    No bias subtraction taking place for gN20191205S0104
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (bias_out) and image (gN20191205S0104)
+                    No bias subtraction taking place for gN20191205S0104
+
+GIREDUCE - Cleaning up -- Fri Jan 24 14:58:17 CST 2020
+
+GIREDUCE -- Fri Jan 24 14:58:17 CST 2020
+GIREDUCE exit status:  good.
+----------------------------------------------------------------------------
+GSREDUCE: Multiplying by the gains, using GGAIN
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2020-01-24T20:58:17
+File[extension]:                AMPNAME               GAIN   READNOISE
+tmpimage124094_984.fits[SCI,1]: " "BI13-20-4k-1, 4""  1.675  4.06
+tmpimage124094_984.fits[SCI,2]: " "BI13-20-4k-1, 3""  1.618  4.12
+tmpimage124094_984.fits[SCI,3]: " "BI13-20-4k-1, 2""  1.620  4.12
+tmpimage124094_984.fits[SCI,4]: " "BI13-20-4k-1, 1""  1.568  3.99
+tmpimage124094_984.fits[SCI,5]: " "BI12-09-4k-2, 4""  1.690  4.20
+tmpimage124094_984.fits[SCI,6]: " "BI12-09-4k-2, 3""  1.650  3.98
+tmpimage124094_984.fits[SCI,7]: " "BI12-09-4k-2, 2""  1.633  3.88
+tmpimage124094_984.fits[SCI,8]: " "BI12-09-4k-2, 1""  1.664  4.20
+tmpimage124094_984.fits[SCI,9]: " "BI13-18-4k-2, 4""  1.604  4.04
+tmpimage124094_984.fits[SCI,10]: " "BI13-18-4k-2, 3""  1.630  4.35
+tmpimage124094_984.fits[SCI,11]: " "BI13-18-4k-2, 2""  1.587  4.02
+tmpimage124094_984.fits[SCI,12]: " "BI13-18-4k-2, 1""  1.654  4.55
+
+GGAIN -- Finished: 2020-01-24T20:58:19
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+GSREDUCE: Updating PHU and cleaning up
+ 
+GSREDUCE done
+----------------------------------------------------------------------------
+GSFLAT: Returned from GSREDUCE.
+GSFLAT: Image #1 - Working on : gsN20191205S0104.fits
+ 
+WARNING - GSFLAT: only one image.
+ 
+ 
+GSFLAT: Begin fitting response functions for detectors
+ 
+GSFLAT: fitting response functions for CCD1
+        sample in fitting 17:512
+GSFLAT: fitting response functions for CCD2
+        sample in fitting 1:512
+GSFLAT: fitting response functions for CCD3
+        sample in fitting 1:512
+GSFLAT: fitting response functions for CCD4
+        sample in fitting 1:495
+GSFLAT: fitting response functions for CCD5
+        sample in fitting 16:512
+GSFLAT: fitting response functions for CCD6
+        sample in fitting 1:512
+GSFLAT: fitting response functions for CCD7
+        sample in fitting 1:512
+GSFLAT: fitting response functions for CCD8
+        sample in fitting 1:495
+GSFLAT: fitting response functions for CCD9
+        sample in fitting 16:512
+GSFLAT: fitting response functions for CCD10
+        sample in fitting 1:512
+GSFLAT: fitting response functions for CCD11
+        sample in fitting 1:512
+GSFLAT: fitting response functions for CCD12
+        sample in fitting 1:484
+ 
+GSFLAT done Fri Jan 24 14:58:21 CST 2020
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+GSFLAT -- Fri Jan 24 14:58:21 CST 2020
+
+Input images or list              = N20191205S0106
+Output spectral flat              = fN20191205S0106
+Correct for slit function         = no
+Keep combined flat combflat       = no
+
+Fitting parameters for Spectral Flatfield: 
+  interactive = no
+  function    = spline3
+  order       = 19
+  low_reject  = 3.0
+  high_reject = 3.0
+  niterate    = 2
+  Fit detectors separately fl_detec = yes
+
+Overscan Subtraction fl_over   = yes
+Trim image           fl_trim   = yes
+Bias Subtraction     fl_bias   = yes
+Dark Subtraction     fl_dark   = no
+QE Correction        fl_qecorr = no
+VAR & DQ planes      fl_vardq  = no
+Fixpix chip gaps     fl_fixpix = no
+Oversize slit length fl_oversize = yes
+Fit detec. by detec. fl_detec  = yes
+Fit rows separately  fl_seprows = yes
+Use gradient method  fl_usegrad= no
+Mask emission lines  fl_emis   = no
+Reference image      refimage  = 
+N&S double flatfield fl_double = no
+
+bias        = bias_out
+dark        = 
+qe_refim    = 
+qe_corrim   = 
+qe_corrpref = qecorr
+sci_ext     = SCI
+var_ext     = VAR
+dq_ext      = DQ
+bpm         = 
+key_mdf     = MASKNAME
+mdffile     = 
+mdfdir      = gmos$data/
+Chip gaps   = gmos$data/chipgaps.dat
+rawpath     = 
+
+ 
+GSFLAT: Calling GSREDUCE.
+ 
+
+----------------------------------------------------------------------------
+GSREDUCE -- Fri Jan 24 14:58:21 CST 2020
+
+Input image or list  = @tmpfilelist24094_1015
+Output image or list = 
+Output prefix        = gs
+
+Overscan subtraction  fl_over      = yes
+Trim image            fl_trim      = yes
+Bias subtraction      fl_bias      = yes
+Cosmic ray cleaning   fl_gscrrej   = no
+New CR cleaning       fl_crspec    = no
+Dark subtraction      fl_dark      = no
+QE Correction         fl_qecorr    = no
+Flat field correction fl_flat      = no
+Mosaic the CCDs       fl_gmosaic   = no
+Fixpix chip gaps      fl_fixpix    = no
+Cut MOS spectra       fl_cut       = no
+Add titles to MOS     fl_title     = no
+Oversize slit length  fl_oversize  = yes
+Run gsappwave         fl_gsappwave = no
+Run gsscatsub         fl_scatsub   = no
+VAR & DQ planes       fl_vardq     = no
+
+geointer = linear
+gradimage= 
+refimage = 
+bias     = bias_out
+dark     = 
+qe_refim    = 
+qe_corrim   = 
+qe_corrpref = qecorr
+flatim   = 
+sci_ext  = SCI
+var_ext  = VAR
+dq_ext   = DQ
+key_mdf  = MASKNAME
+mdffile  = 
+mdfdir   = gmos$data/
+bpm      = 
+Chip gaps= gmos$data/chipgaps.dat
+
+Input image = N20191205S0106.fits; Output image = gsN20191205S0106.fits
+GSREDUCE: Image N20191205S0106.fits has been QE corrected? no
+GGDBHELPER: gain database selected - gmos$data/gmosamps.dat
+GSREDUCE: Calling GIREDUCE to process image
+----------------------------------------------------------------------------
+GIREDUCE -- Fri Jan 24 14:58:21 CST 2020
+
+----------------------------------------------------------------------------
+GPREPARE -- Fri Jan 24 14:58:21 CST 2020
+
+Input list    = N20191205S0106
+Output list   = 
+Output prefix = g
+Raw path      = 
+MDF dir       = gmos$data/
+Add MDF       = yes
+Input MDF in case header keyword not found = 
+
+Input  N20191205S0106.fits   Output  gN20191205S0106.fits
+GPREPARE: Using MDF defined in the header 1.5arcsec
+GPREPARE: Taking MDF from directory gmos$data/
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2020-01-24T20:58:22
+File[extension]:             AMPNAME               GAIN   READNOISE
+gN20191205S0106.fits[SCI,1]: " "BI13-20-4k-1, 4""  1.675  4.06
+gN20191205S0106.fits[SCI,2]: " "BI13-20-4k-1, 3""  1.618  4.12
+gN20191205S0106.fits[SCI,3]: " "BI13-20-4k-1, 2""  1.620  4.12
+gN20191205S0106.fits[SCI,4]: " "BI13-20-4k-1, 1""  1.568  3.99
+gN20191205S0106.fits[SCI,5]: " "BI12-09-4k-2, 4""  1.690  4.20
+gN20191205S0106.fits[SCI,6]: " "BI12-09-4k-2, 3""  1.650  3.98
+gN20191205S0106.fits[SCI,7]: " "BI12-09-4k-2, 2""  1.633  3.88
+gN20191205S0106.fits[SCI,8]: " "BI12-09-4k-2, 1""  1.664  4.20
+gN20191205S0106.fits[SCI,9]: " "BI13-18-4k-2, 4""  1.604  4.04
+gN20191205S0106.fits[SCI,10]: " "BI13-18-4k-2, 3""  1.630  4.35
+gN20191205S0106.fits[SCI,11]: " "BI13-18-4k-2, 2""  1.587  4.02
+gN20191205S0106.fits[SCI,12]: " "BI13-18-4k-2, 1""  1.654  4.55
+
+GGAIN -- Finished: 2020-01-24T20:58:23
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+
+GPREPARE exit status: good.
+----------------------------------------------------------------------------
+
+Input files:
+gN20191205S0106
+
+Output files:
+tmpimage124094_1022
+
+GIREDUCE: Image tmpimage124094_1022 overscan subtracted
+GIREDUCE: Image tmpimage124094_1022 trimmed
+
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (bias_out) and image (gN20191205S0106)
+                    No bias subtraction taking place for gN20191205S0106
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (bias_out) and image (gN20191205S0106)
+                    No bias subtraction taking place for gN20191205S0106
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (bias_out) and image (gN20191205S0106)
+                    No bias subtraction taking place for gN20191205S0106
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (bias_out) and image (gN20191205S0106)
+                    No bias subtraction taking place for gN20191205S0106
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (bias_out) and image (gN20191205S0106)
+                    No bias subtraction taking place for gN20191205S0106
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (bias_out) and image (gN20191205S0106)
+                    No bias subtraction taking place for gN20191205S0106
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (bias_out) and image (gN20191205S0106)
+                    No bias subtraction taking place for gN20191205S0106
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (bias_out) and image (gN20191205S0106)
+                    No bias subtraction taking place for gN20191205S0106
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (bias_out) and image (gN20191205S0106)
+                    No bias subtraction taking place for gN20191205S0106
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (bias_out) and image (gN20191205S0106)
+                    No bias subtraction taking place for gN20191205S0106
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (bias_out) and image (gN20191205S0106)
+                    No bias subtraction taking place for gN20191205S0106
+WARNING - GIREDUCE: Mismatch detector section or binning of bias
+                    (bias_out) and image (gN20191205S0106)
+                    No bias subtraction taking place for gN20191205S0106
+
+GIREDUCE - Cleaning up -- Fri Jan 24 14:58:38 CST 2020
+
+GIREDUCE -- Fri Jan 24 14:58:38 CST 2020
+GIREDUCE exit status:  good.
+----------------------------------------------------------------------------
+GSREDUCE: Multiplying by the gains, using GGAIN
+--------------------------------------------------------------------------------
+GGAIN -- Started: 2020-01-24T20:58:38
+File[extension]:                 AMPNAME               GAIN   READNOISE
+tmpimage124094_1022.fits[SCI,1]: " "BI13-20-4k-1, 4""  1.675  4.06
+tmpimage124094_1022.fits[SCI,2]: " "BI13-20-4k-1, 3""  1.618  4.12
+tmpimage124094_1022.fits[SCI,3]: " "BI13-20-4k-1, 2""  1.620  4.12
+tmpimage124094_1022.fits[SCI,4]: " "BI13-20-4k-1, 1""  1.568  3.99
+tmpimage124094_1022.fits[SCI,5]: " "BI12-09-4k-2, 4""  1.690  4.20
+tmpimage124094_1022.fits[SCI,6]: " "BI12-09-4k-2, 3""  1.650  3.98
+tmpimage124094_1022.fits[SCI,7]: " "BI12-09-4k-2, 2""  1.633  3.88
+tmpimage124094_1022.fits[SCI,8]: " "BI12-09-4k-2, 1""  1.664  4.20
+tmpimage124094_1022.fits[SCI,9]: " "BI13-18-4k-2, 4""  1.604  4.04
+tmpimage124094_1022.fits[SCI,10]: " "BI13-18-4k-2, 3""  1.630  4.35
+tmpimage124094_1022.fits[SCI,11]: " "BI13-18-4k-2, 2""  1.587  4.02
+tmpimage124094_1022.fits[SCI,12]: " "BI13-18-4k-2, 1""  1.654  4.55
+
+GGAIN -- Finished: 2020-01-24T20:58:40
+
+GGAIN -- Exit staus: GOOD
+
+--------------------------------------------------------------------------------
+GSREDUCE: Updating PHU and cleaning up
+ 
+GSREDUCE done
+----------------------------------------------------------------------------
+GSFLAT: Returned from GSREDUCE.
+GSFLAT: Image #1 - Working on : gsN20191205S0106.fits
+ 
+WARNING - GSFLAT: only one image.
+ 
+ 
+GSFLAT: Begin fitting response functions for detectors
+ 
+GSFLAT: fitting response functions for CCD1
+        sample in fitting 17:512
+GSFLAT: fitting response functions for CCD2
+        sample in fitting 1:512
+GSFLAT: fitting response functions for CCD3
+        sample in fitting 1:512
+GSFLAT: fitting response functions for CCD4
+        sample in fitting 1:495
+GSFLAT: fitting response functions for CCD5
+        sample in fitting 16:512
+GSFLAT: fitting response functions for CCD6
+        sample in fitting 1:512
+GSFLAT: fitting response functions for CCD7
+        sample in fitting 1:512
+GSFLAT: fitting response functions for CCD8
+        sample in fitting 1:495
+GSFLAT: fitting response functions for CCD9
+        sample in fitting 16:512
+GSFLAT: fitting response functions for CCD10
+        sample in fitting 1:512
+GSFLAT: fitting response functions for CCD11
+        sample in fitting 1:512
+GSFLAT: fitting response functions for CCD12
+        sample in fitting 1:484
+ 
+GSFLAT done Fri Jan 24 14:58:42 CST 2020
+--------------------------------------------------------------------------------

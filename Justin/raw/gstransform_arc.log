@@ -1,0 +1,42 @@
+-------------------------------------------------------------------------------
+GSTRANSFORM -- Fri Jan 24 14:59:21 CST 2020
+ 
+
+inimages   = upS20180928S0014.fits
+outimages  = 
+outprefix  = t
+fl_stran   = no
+fl_wavtran = yes
+wavtraname = upS20180928S0014.fits
+database   = database
+fl_vardq   = no
+interptype = linear
+lambda1    = INDEF
+lambda2    = INDEF
+dx         = INDEF
+nx         = INDEF
+lambdalog  = no
+ylog       = no
+fl_flux    = yes
+gratingdb  = gmos$data/GMOSgratings.dat
+filterdb   = gmos$data/GMOSfilters.dat
+key_dispaxis = DISPAXIS
+dispaxis   = 1
+sci_ext    = SCI
+
+Transforming upS20180928S0014.fits[SCI,1]
+MDF row: 1
+
+NOAO/IRAF V2.16 mmarcano@tux Fri 14:59:21 24-Jan-2020
+  Transform upS20180928S0014.fits[SCI,1] to tmpsci24094_1119.
+  Conserve flux per pixel.
+  User coordinate transformations:
+  Interpolation is linear.
+  Using edge extension for out of bounds pixel values.
+  Output coordinate parameters are:
+    x1 =      4261., x2 =      8929., dx =      1.491, nx = 3132, xlog = no
+    y1 =         1., y2 =      2088., dy =         1., ny = 2088, ylog = no
+
+GSTRANSFORM exit status: good
+-------------------------------------------------------------------------------
+
